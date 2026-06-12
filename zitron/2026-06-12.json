@@ -1,0 +1,9 @@
+{
+  "match": true,
+  "source_title": "AI Is Slowing Down",
+  "source_url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+  "source_date": "2026-06-08",
+  "same_day": false,
+  "other_side": "Writing four days before this episode, Zitron reads the very spending caps NLW waves away as the first hard evidence of demand stalling — arriving precisely when the industry's own commitments require it to accelerate. The data-centre buildout and compute contracts only make sense if AI revenue reaches roughly two trillion dollars a year by 2030, yet OpenAI and Anthropic still account for the vast majority of compute demand and 89% of AI-startup revenue, with most enterprises unable to see their own costs until the bill lands. His long-standing prediction — \"businesses will squeal when they are made to pay the true cost of AI\" — is, on his telling, now playing out. What NLW calls a market rationalising, Zitron calls the bill arriving.",
+  "truth_beneath": "Strip the rhetoric and both men are staring at the same dial: enterprise token spend under transparent, usage-based billing. They accept the same facts — median firm spend is tiny, the caps at Uber and T-Mobile are real, ROI is currently unmeasurable, and frontier usage is concentrating in fewer hands. The empirical question is whether total spend keeps climbing once the subsidies end; the observable that settles it is the labs' disclosed revenue trajectory, which IPO filings will shortly make impossible to obscure. For NLW to be vindicated, the eleven-dollar median must climb toward the caps as agents spread. For Zitron, post-transparency spend must stall while the buildout's debts come due. The residue no evidence will touch is whether the output is worth having at all. Both are polemicists — NLW sells optimism, Zitron sells the bubble — so the signal is where they agree despite opposite priors: spend is concentrating, and measurement has arrived. Watch OpenAI's IPO prospectus."
+}

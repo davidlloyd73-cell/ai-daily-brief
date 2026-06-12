@@ -11,18 +11,28 @@
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Token prices and your AI scribe",
-        "body": "Today's main story is that the 'collapsing AI demand' chart actually shows falling token prices, with one analyst arguing OpenAI could cut prices 60% and stay profitable. Scribe vendors' biggest cost is exactly these tokens. If prices fall, expect either cheaper licences or quietly fatter vendor margins \u2014 worth raising at contract renewal."
+        "title": "Your scribe contract \u2014 hedge both ways",
+        "body": "If NLW is right, token prices fall and your scribe licence should get cheaper at renewal \u2014 ask. If Zitron is right, the subsidy era is ending and vendors' true costs surface, so the risk isn't price but vendor failure. The practical move is identical either way: shorter terms, break clauses, and confirmation that you can export your templates and data."
       },
       {
-        "title": "The NHS isn't behind \u2014 almost everyone is",
-        "body": "The median firm spends $11.38 per employee per month on AI; the dramatic headlines come from the top 1% spending ~$7,500. Useful corrective for any ICB meeting where someone claims the NHS is uniquely slow: most organisations everywhere are barely past the starting line."
+        "title": "The $11.38 question, read twice",
+        "body": "NLW reads the median firm's tiny AI spend as headroom; Zitron reads it as the verdict on demand. For an ICB the working conclusion is the same: the NHS has lost little by moving carefully, and the labs' IPO disclosures over the coming year will show which reading was right before any large commitment needs signing."
       },
       {
-        "title": "Bezos on workforce \u2014 handle with NLW-style scepticism",
-        "body": "Bezos claims AI shrinks teams 10x but creates 10x more opportunity. The same argument is appearing in medical workforce planning debates. The episode's own lesson applies: ask what the data actually measures before accepting the narrative \u2014 true for token charts, true for workforce projections."
+        "title": "Measurement has arrived",
+        "body": "The one thing both polemicists agree on: nobody can yet measure AI's return per task. Before a PCN buys anything agentic, make the supplier define the observable that proves value \u2014 consultations saved, coding accuracy, complaint rates. The same discipline that exposed the token chart this week applies to procurement."
       }
     ]
+  },
+  "the_other_side": {
+    "source": "AI Is Slowing Down",
+    "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+    "date": "2026-06-08",
+    "same_day": false,
+    "text": "Writing four days before this episode, Zitron reads the very spending caps NLW waves away as the first hard evidence of demand stalling \u2014 arriving precisely when the industry's own commitments require it to accelerate. The data-centre buildout and compute contracts only make sense if AI revenue reaches roughly two trillion dollars a year by 2030, yet OpenAI and Anthropic still account for the vast majority of compute demand and 89% of AI-startup revenue, with most enterprises unable to see their own costs until the bill lands. His long-standing prediction \u2014 \"businesses will squeal when they are made to pay the true cost of AI\" \u2014 is, on his telling, now playing out. What NLW calls a market rationalising, Zitron calls the bill arriving."
+  },
+  "the_truth_beneath": {
+    "text": "Strip the rhetoric and both men are staring at the same dial: enterprise token spend under transparent, usage-based billing. They accept the same facts \u2014 median firm spend is tiny, the caps at Uber and T-Mobile are real, ROI is currently unmeasurable, and frontier usage is concentrating in fewer hands. The empirical question is whether total spend keeps climbing once the subsidies end; the observable that settles it is the labs' disclosed revenue trajectory, which IPO filings will shortly make impossible to obscure. For NLW to be vindicated, the eleven-dollar median must climb toward the caps as agents spread. For Zitron, post-transparency spend must stall while the buildout's debts come due. The residue no evidence will touch is whether the output is worth having at all. Both are polemicists \u2014 NLW sells optimism, Zitron sells the bubble \u2014 so the signal is where they agree despite opposite priors: spend is concentrating, and measurement has arrived. Watch OpenAI's IPO prospectus."
   },
   "headlines": [
     {
@@ -247,5 +257,5 @@
     }
   ],
   "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-12.mp3",
-  "generated": "2026-06-12T22:55:50Z"
+  "generated": "2026-06-12T23:26:02Z"
 }
