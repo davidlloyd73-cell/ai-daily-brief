@@ -35,6 +35,17 @@ padding:20px 22px;border-radius:4px}
 .take:last-child{border-bottom:none}
 .take h4{font-size:19px;margin-bottom:6px}
 .take p{color:var(--soft);font-size:17px}
+.other{background:var(--card);border:1px solid var(--rule);border-left:5px solid var(--accent2);
+padding:20px 22px;border-radius:4px}
+.other p{color:var(--soft);font-size:17.5px}
+.other .srcnote{font-family:Verdana,Arial,sans-serif;font-size:12.5px;color:var(--faint);
+margin-top:12px}
+.other .srcnote a{color:var(--accent2)}
+.truth{background:#f3f1ec;border:1px solid var(--rule);border-left:5px solid #4a4a4a;
+padding:20px 22px;border-radius:4px}
+.truth p{color:#3d3d3d;font-size:17.5px}
+.nocounter{font-family:Verdana,Arial,sans-serif;font-size:13px;color:var(--faint);
+font-style:italic;margin-bottom:38px}
 .gp{background:#eef4f1;border:1px solid #cfe0d8;border-left:5px solid var(--accent);
 padding:20px 22px;border-radius:4px}
 .gp .gpnote{font-family:Verdana,Arial,sans-serif;font-size:12px;color:var(--faint);margin-bottom:14px}
@@ -59,7 +70,16 @@ footer{border-top:3px double var(--ink);padding-top:14px;font-family:Verdana,Ari
 font-size:13px;color:var(--soft)}
 footer a{color:var(--accent)}
 @media(max-width:480px){body{font-size:17px}h1.mast{font-size:26px}h2.ep{font-size:22px}}
-</style></head><body><div class="wrap">
+</style></head><body><a id="all-projects-link" href="https://things-we-have-built.netlify.app/"
+   style="display:none;position:fixed;top:14px;left:14px;z-index:99999;
+          font:600 14px/1 'Segoe UI',system-ui,sans-serif;color:#fff;
+          background:rgba(0,0,0,0.6);padding:10px 16px;border-radius:999px;
+          text-decoration:none;backdrop-filter:blur(6px);">&larr; All projects</a>
+<script>
+  if (new URLSearchParams(location.search).get('nav') === '1') {
+    document.getElementById('all-projects-link').style.display = 'inline-block';
+  }
+</script><div class="wrap">
 <header class="mast"><div class="kicker">Distilled from The AI Daily Brief podcast</div>
 <h1 class="mast">David&rsquo;s AI Daily Brief</h1></header>
 <div class="dateline"><span>Friday 05 June 2026 &middot; 31 min listen</span>
@@ -73,5 +93,5 @@ footer a{color:var(--accent)}
 <footer>All editorial content &copy; <a href="https://aidailybrief.ai">The AI Daily Brief</a> (host: Nathaniel
 Whittemore). This is a personal, non-commercial reading page assembled by Claude for David Lloyd,
 using the podcast&rsquo;s own machine-readable feeds. GP&rsquo;s Corner is Claude&rsquo;s commentary.
-Generated 2026-06-12 22:55 UTC.</footer>
+Generated 2026-06-12 23:55 UTC.</footer>
 </div></body></html>

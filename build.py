@@ -26,6 +26,18 @@ ROOT = Path(__file__).resolve().parent
 SITE = "https://aidailybrief.ai"
 SITE_URL = "https://davids-ai-brief.netlify.app"  # this site's own public URL (for RSS)
 
+# "← All projects" pill — shows only when opened from the portfolio site (?nav=1)
+BACK_PILL = """<a id="all-projects-link" href="https://things-we-have-built.netlify.app/"
+   style="display:none;position:fixed;top:14px;left:14px;z-index:99999;
+          font:600 14px/1 'Segoe UI',system-ui,sans-serif;color:#fff;
+          background:rgba(0,0,0,0.6);padding:10px 16px;border-radius:999px;
+          text-decoration:none;backdrop-filter:blur(6px);">&larr; All projects</a>
+<script>
+  if (new URLSearchParams(location.search).get('nav') === '1') {
+    document.getElementById('all-projects-link').style.display = 'inline-block';
+  }
+</script>"""
+
 
 def fetch_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": "davids-daily-brief/1.0"})
@@ -179,7 +191,7 @@ brief ({mins} min)</span><audio controls preload='none' src='/audio/{date}.mp3'>
 <meta name="robots" content="noindex">
 <link rel="alternate" type="application/rss+xml"
       title="David's AI Daily Brief" href="/feed.xml">
-<style>{CSS}</style></head><body><div class="wrap">
+<style>{CSS}</style></head><body>{BACK_PILL}<div class="wrap">
 <header class="mast"><div class="kicker">Distilled from The AI Daily Brief podcast</div>
 <h1 class="mast">David&rsquo;s AI Daily Brief</h1></header>
 <div class="dateline"><span>{nice}{dur}</span>
@@ -205,7 +217,7 @@ def render_archive(manifest):
 <title>Archive — David&rsquo;s AI Daily Brief</title><meta name="robots" content="noindex">
 <link rel="alternate" type="application/rss+xml"
       title="David's AI Daily Brief" href="/feed.xml">
-<style>{CSS}</style></head><body><div class="wrap">
+<style>{CSS}</style></head><body>{BACK_PILL}<div class="wrap">
 <header class="mast"><div class="kicker">Distilled from The AI Daily Brief podcast</div>
 <h1 class="mast">Archive</h1></header>
 <div class="dateline"><span><a href="/">&larr; Latest edition</a></span></div>

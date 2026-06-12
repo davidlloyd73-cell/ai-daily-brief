@@ -70,7 +70,16 @@ footer{border-top:3px double var(--ink);padding-top:14px;font-family:Verdana,Ari
 font-size:13px;color:var(--soft)}
 footer a{color:var(--accent)}
 @media(max-width:480px){body{font-size:17px}h1.mast{font-size:26px}h2.ep{font-size:22px}}
-</style></head><body><div class="wrap">
+</style></head><body><a id="all-projects-link" href="https://things-we-have-built.netlify.app/"
+   style="display:none;position:fixed;top:14px;left:14px;z-index:99999;
+          font:600 14px/1 'Segoe UI',system-ui,sans-serif;color:#fff;
+          background:rgba(0,0,0,0.6);padding:10px 16px;border-radius:999px;
+          text-decoration:none;backdrop-filter:blur(6px);">&larr; All projects</a>
+<script>
+  if (new URLSearchParams(location.search).get('nav') === '1') {
+    document.getElementById('all-projects-link').style.display = 'inline-block';
+  }
+</script><div class="wrap">
 <header class="mast"><div class="kicker">Distilled from The AI Daily Brief podcast</div>
 <h1 class="mast">David&rsquo;s AI Daily Brief</h1></header>
 <div class="dateline"><span>Friday 12 June 2026 &middot; 33 min listen</span>
@@ -92,5 +101,5 @@ and the NHS — commentary, not from the podcast itself.</div><h4>Your scribe co
 <footer>All editorial content &copy; <a href="https://aidailybrief.ai">The AI Daily Brief</a> (host: Nathaniel
 Whittemore). This is a personal, non-commercial reading page assembled by Claude for David Lloyd,
 using the podcast&rsquo;s own machine-readable feeds. GP&rsquo;s Corner is Claude&rsquo;s commentary.
-Generated 2026-06-12 23:26 UTC.</footer>
+Generated 2026-06-12 23:55 UTC.</footer>
 </div></body></html>
