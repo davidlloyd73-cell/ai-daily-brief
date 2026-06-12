@@ -1,0 +1,208 @@
+#!/usr/bin/env python3
+"""
+Build David's AI Daily Brief page from aidailybrief.ai machine-readable feeds.
+
+Usage:
+    python3 build.py            # build latest edition
+    python3 build.py 2026-06-12 # build a specific date
+
+Reads optional GP's-corner notes from notes/<date>.json:
+    {"items": [{"title": "...", "body": "..."}]}
+
+Outputs (in repo root, alongside this script):
+    a/<date>.html   - permanent archive page
+    index.html      - copy of the latest edition
+    archive.html    - list of all editions
+    data/editions.json - manifest
+"""
+import json
+import sys
+import urllib.request
+from datetime import datetime
+from html import escape
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+SITE = "https://aidailybrief.ai"
+
+
+def fetch_json(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "davids-daily-brief/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+CSS = """
+:root{--ink:#1a1a1a;--soft:#555;--faint:#888;--rule:#e2ddd3;--bg:#faf7f0;--card:#ffffff;
+--accent:#0f6f5c;--accent2:#8a3324;--chip:#eee8da;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--ink);
+line-height:1.55;font-size:19px}
+.wrap{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+header.mast{border-bottom:3px double var(--ink);padding-bottom:14px;margin-bottom:6px}
+.kicker{font-family:Verdana,Arial,sans-serif;font-size:12px;letter-spacing:.18em;
+text-transform:uppercase;color:var(--soft)}
+h1.mast{font-size:34px;letter-spacing:.01em;margin-top:4px}
+.dateline{font-family:Verdana,Arial,sans-serif;font-size:13px;color:var(--soft);
+margin:10px 0 26px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.dateline a{color:var(--accent)}
+h2.ep{font-size:27px;line-height:1.25;margin-bottom:8px}
+p.dek{color:var(--soft);font-style:italic;margin-bottom:8px}
+.srcline{font-family:Verdana,Arial,sans-serif;font-size:12.5px;color:var(--faint);margin-bottom:30px}
+.srcline a{color:var(--accent)}
+section{margin-bottom:38px}
+h3.sec{font-family:Verdana,Arial,sans-serif;font-size:13px;letter-spacing:.15em;
+text-transform:uppercase;color:var(--accent2);border-bottom:1px solid var(--rule);
+padding-bottom:6px;margin-bottom:16px}
+.idea{background:var(--card);border:1px solid var(--rule);border-left:5px solid var(--accent);
+padding:20px 22px;border-radius:4px}
+.idea h4{font-size:22px;line-height:1.3;margin-bottom:10px}
+.idea p{color:var(--soft);font-size:17.5px}
+.take{padding:14px 0;border-bottom:1px solid var(--rule)}
+.take:last-child{border-bottom:none}
+.take h4{font-size:19px;margin-bottom:6px}
+.take p{color:var(--soft);font-size:17px}
+.gp{background:#eef4f1;border:1px solid #cfe0d8;border-left:5px solid var(--accent);
+padding:20px 22px;border-radius:4px}
+.gp .gpnote{font-family:Verdana,Arial,sans-serif;font-size:12px;color:var(--faint);margin-bottom:14px}
+.gp h4{font-size:19px;margin-bottom:5px}
+.gp p{color:#3c4f48;font-size:17px;margin-bottom:14px}
+.gp p:last-child{margin-bottom:0}
+ul.heads{list-style:none}
+ul.heads li{padding:9px 0;border-bottom:1px dotted var(--rule);font-size:18px}
+ul.heads li a{color:var(--ink);text-decoration:none}
+ul.heads li a:hover{color:var(--accent);text-decoration:underline}
+.q{font-style:italic}
+.attr{font-family:Verdana,Arial,sans-serif;font-size:13px;color:var(--faint)}
+.tchip{display:inline-block;font-family:Verdana,Arial,sans-serif;font-size:11px;
+background:var(--chip);border-radius:3px;padding:1px 7px;margin-left:8px;color:var(--soft);
+vertical-align:2px}
+footer{border-top:3px double var(--ink);padding-top:14px;font-family:Verdana,Arial,sans-serif;
+font-size:13px;color:var(--soft)}
+footer a{color:var(--accent)}
+@media(max-width:480px){body{font-size:17px}h1.mast{font-size:26px}h2.ep{font-size:22px}}
+"""
+
+
+def nugget_li(n):
+    anchor = f"{n.get('canonical', SITE)}#{n['id']}" if n.get("id") else SITE
+    chip = f"<span class='tchip'>{escape(n.get('ts',''))}</span>" if n.get("ts") else ""
+    if n.get("type") == "quote":
+        attr = f" <span class='attr'>— {escape(n.get('attribution',''))}</span>" if n.get("attribution") else ""
+        return f"<li><a class='q' href='{escape(anchor)}'>&ldquo;{escape(n['headline'])}&rdquo;</a>{attr}{chip}</li>"
+    return f"<li><a href='{escape(anchor)}'>{escape(n['headline'])}</a>{chip}</li>"
+
+
+def render(ed, notes):
+    date = ed["date"]
+    nice = datetime.strptime(date, "%Y-%m-%d").strftime("%A %d %B %Y")
+    canonical = ed.get("canonicalUrl", f"{SITE}/e/{date}")
+    nuggets = ed.get("nuggets", [])
+    for n in nuggets:
+        n["canonical"] = canonical
+    takes = [n for n in nuggets if n.get("type") == "take"]
+
+    thesis = ed.get("thesis") or {}
+    idea = ""
+    if thesis:
+        idea = f"""<section><h3 class='sec'>The One Idea</h3>
+<div class='idea'><h4>{escape(thesis.get('headline',''))}</h4>
+<p>{escape(thesis.get('sub',''))}</p></div></section>"""
+
+    takes_html = ""
+    if takes:
+        items = "".join(
+            f"<div class='take'><h4>{escape(t['headline'])}</h4><p>{escape(t['body'])}</p></div>"
+            for t in takes)
+        takes_html = f"<section><h3 class='sec'>NLW&rsquo;s Takes</h3>{items}</section>"
+
+    gp_html = ""
+    if notes and notes.get("items"):
+        items = "".join(
+            f"<h4>{escape(i['title'])}</h4><p>{escape(i['body'])}</p>"
+            for i in notes["items"])
+        gp_html = f"""<section><h3 class='sec'>GP&rsquo;s Corner</h3>
+<div class='gp'><div class='gpnote'>Claude&rsquo;s notes on what today means for general practice
+and the NHS — commentary, not from the podcast itself.</div>{items}</div></section>"""
+
+    heads = "".join(nugget_li(n) for n in nuggets)
+    heads_html = f"<section><h3 class='sec'>All Headlines, Briefly</h3><ul class='heads'>{heads}</ul></section>" if heads else ""
+
+    listen = (ed.get("listen") or {}).get("all", "https://pod.link/1680633614")
+    dur = f" &middot; {ed['durationMin']} min listen" if ed.get("durationMin") else ""
+
+    return f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David&rsquo;s AI Daily Brief — {escape(date)}</title>
+<meta name="robots" content="noindex">
+<style>{CSS}</style></head><body><div class="wrap">
+<header class="mast"><div class="kicker">Distilled from The AI Daily Brief podcast</div>
+<h1 class="mast">David&rsquo;s AI Daily Brief</h1></header>
+<div class="dateline"><span>{nice}{dur}</span>
+<span><a href="/archive.html">Archive</a> &middot; <a href="{escape(listen)}">Listen</a></span></div>
+<h2 class="ep">{escape(ed.get('title',''))}</h2>
+<p class="dek">{escape(ed.get('dek',''))}</p>
+<p class="srcline">Source: <a href="{escape(canonical)}">{escape(canonical)}</a></p>
+{idea}{gp_html}{takes_html}{heads_html}
+<footer>All editorial content &copy; <a href="{SITE}">The AI Daily Brief</a> (host: Nathaniel
+Whittemore). This is a personal, non-commercial reading page assembled by Claude for David Lloyd,
+using the podcast&rsquo;s own machine-readable feeds. GP&rsquo;s Corner is Claude&rsquo;s commentary.
+Generated {datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC.</footer>
+</div></body></html>"""
+
+
+def render_archive(manifest):
+    rows = "".join(
+        f"<li><a href='/a/{e['date']}.html'>{datetime.strptime(e['date'],'%Y-%m-%d').strftime('%a %d %b %Y')} — {escape(e['title'])}</a></li>"
+        for e in sorted(manifest, key=lambda x: x["date"], reverse=True))
+    return f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archive — David&rsquo;s AI Daily Brief</title><meta name="robots" content="noindex">
+<style>{CSS}</style></head><body><div class="wrap">
+<header class="mast"><div class="kicker">Distilled from The AI Daily Brief podcast</div>
+<h1 class="mast">Archive</h1></header>
+<div class="dateline"><span><a href="/">&larr; Latest edition</a></span></div>
+<section><ul class="heads">{rows}</ul></section>
+<footer>All editorial content &copy; <a href="{SITE}">The AI Daily Brief</a>.</footer>
+</div></body></html>"""
+
+
+def main():
+    agent = fetch_json(f"{SITE}/agent.json")
+    editions = agent["editions"]
+    date = sys.argv[1] if len(sys.argv) > 1 else editions[0]["date"]
+    meta = next((e for e in editions if e["date"] == date), None)
+    if not meta:
+        sys.exit(f"No edition found for {date}")
+    ed = fetch_json(meta["json"])
+
+    notes_path = ROOT / "notes" / f"{date}.json"
+    notes = json.loads(notes_path.read_text()) if notes_path.exists() else None
+
+    page = render(ed, notes)
+    (ROOT / "a").mkdir(exist_ok=True)
+    (ROOT / "a" / f"{date}.html").write_text(page)
+
+    # manifest
+    data_dir = ROOT / "data"
+    data_dir.mkdir(exist_ok=True)
+    mf_path = data_dir / "editions.json"
+    manifest = json.loads(mf_path.read_text()) if mf_path.exists() else []
+    manifest = [e for e in manifest if e["date"] != date]
+    manifest.append({"date": date, "title": ed.get("title", "")})
+    manifest.sort(key=lambda x: x["date"])
+    mf_path.write_text(json.dumps(manifest, indent=2))
+
+    # index = latest edition in manifest; archive page
+    latest = manifest[-1]["date"]
+    if latest == date:
+        # fix relative links for root copy (archive.html link already root-relative)
+        (ROOT / "index.html").write_text(page)
+    (ROOT / "archive.html").write_text(render_archive(manifest))
+    print(f"Built edition {date} (latest: {latest}). Pages: a/{date}.html, index.html, archive.html")
+
+
+if __name__ == "__main__":
+    main()
