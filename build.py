@@ -63,6 +63,17 @@ padding:20px 22px;border-radius:4px}
 .take:last-child{border-bottom:none}
 .take h4{font-size:19px;margin-bottom:6px}
 .take p{color:var(--soft);font-size:17px}
+.other{background:var(--card);border:1px solid var(--rule);border-left:5px solid var(--accent2);
+padding:20px 22px;border-radius:4px}
+.other p{color:var(--soft);font-size:17.5px}
+.other .srcnote{font-family:Verdana,Arial,sans-serif;font-size:12.5px;color:var(--faint);
+margin-top:12px}
+.other .srcnote a{color:var(--accent2)}
+.truth{background:#f3f1ec;border:1px solid var(--rule);border-left:5px solid #4a4a4a;
+padding:20px 22px;border-radius:4px}
+.truth p{color:#3d3d3d;font-size:17.5px}
+.nocounter{font-family:Verdana,Arial,sans-serif;font-size:13px;color:var(--faint);
+font-style:italic;margin-bottom:38px}
 .gp{background:#eef4f1;border:1px solid #cfe0d8;border-left:5px solid var(--accent);
 padding:20px 22px;border-radius:4px}
 .gp .gpnote{font-family:Verdana,Arial,sans-serif;font-size:12px;color:var(--faint);margin-bottom:14px}
@@ -122,6 +133,23 @@ def render(ed, notes):
             for t in takes)
         takes_html = f"<section><h3 class='sec'>NLW&rsquo;s Takes</h3>{items}</section>"
 
+    # The Other Side / The Truth Beneath — from zitron/<date>.json (written daily by
+    # the scheduled run, ONLY from material Zitron actually published; never invented)
+    contrast_html = ""
+    zpath = ROOT / "zitron" / f"{date}.json"
+    z = json.loads(zpath.read_text()) if zpath.exists() else None
+    if z and z.get("match"):
+        nice_src = datetime.strptime(z["source_date"], "%Y-%m-%d").strftime("%-d %B")
+        agetag = "" if z.get("same_day") else f" <em>(from {nice_src}&rsquo;s edition)</em>"
+        contrast_html = f"""<section><h3 class='sec'>The Other Side</h3>
+<div class='other'><p>{escape(z['other_side'])}</p>
+<div class='srcnote'>Source: Ed Zitron, <a href='{escape(z['source_url'])}'>&ldquo;{escape(z['source_title'])}&rdquo;</a>,
+{nice_src} {z['source_date'][:4]}{agetag}</div></div></section>
+<section><h3 class='sec'>The Truth Beneath</h3>
+<div class='truth'><p>{escape(z['truth_beneath'])}</p></div></section>"""
+    elif z is not None:
+        contrast_html = "<p class='nocounter'>No fresh counter-source this edition.</p>"
+
     gp_html = ""
     if notes and notes.get("items"):
         items = "".join(
@@ -159,7 +187,7 @@ brief ({mins} min)</span><audio controls preload='none' src='/audio/{date}.mp3'>
 <h2 class="ep">{escape(ed.get('title',''))}</h2>
 <p class="dek">{escape(ed.get('dek',''))}</p>
 <p class="srcline">Source: <a href="{escape(canonical)}">{escape(canonical)}</a></p>
-{audio_html}{idea}{gp_html}{takes_html}{heads_html}
+{audio_html}{idea}{contrast_html}{gp_html}{takes_html}{heads_html}
 <footer>All editorial content &copy; <a href="{SITE}">The AI Daily Brief</a> (host: Nathaniel
 Whittemore). This is a personal, non-commercial reading page assembled by Claude for David Lloyd,
 using the podcast&rsquo;s own machine-readable feeds. GP&rsquo;s Corner is Claude&rsquo;s commentary.
@@ -255,6 +283,10 @@ def main():
     if latest == date:
         canonical = ed.get("canonicalUrl", f"{SITE}/e/{date}")
         thesis = ed.get("thesis") or {}
+        zc_path = ROOT / "zitron" / f"{date}.json"
+        zc = json.loads(zc_path.read_text()) if zc_path.exists() else None
+        if zc and not zc.get("match"):
+            zc = None
         brief = {
             "date": date,
             "title": ed.get("title", ""),
@@ -265,6 +297,11 @@ def main():
                 "note": "AI commentary for UK general practice; not from the podcast",
                 "items": (notes or {}).get("items", []),
             },
+            "the_other_side": (
+                {"source": zc["source_title"], "url": zc["source_url"],
+                 "date": zc["source_date"], "same_day": zc["same_day"],
+                 "text": zc["other_side"]} if zc else None),
+            "the_truth_beneath": {"text": zc["truth_beneath"]} if zc else None,
             "headlines": [
                 {
                     "id": n.get("id"),

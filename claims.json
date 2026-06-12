@@ -1,0 +1,23 @@
+{
+  "note": "Calibration ledger: one falsifiable claim per side per edition, with a plain-English resolution condition and check-back date. Status: open | vindicated | falsified | unresolvable.",
+  "claims": [
+    {
+      "edition": "2026-06-12",
+      "side": "NLW",
+      "claim": "Total token consumption growth will dwarf any revenue lost to enterprises shifting to cheaper token baskets.",
+      "source": "https://aidailybrief.ai/e/2026-06-12#growth-dwarfs-cheaper-baskets",
+      "resolution": "By the check date, OpenAI + Anthropic combined revenue run-rate is at least 30% above the ~$60B/yr projected for 2026, without across-the-board price rises doing the work.",
+      "check_by": "2026-12-12",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-12",
+      "side": "Zitron",
+      "claim": "AI revenue growth is slowing and will slow further as token-based billing exposes true costs to customers.",
+      "source": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "resolution": "By the check date, labs' quarter-on-quarter revenue growth has visibly flattened versus 2025, or a second wave of enterprise spending caps arrives at lower limits than Uber's $1,500/seat.",
+      "check_by": "2027-03-31",
+      "status": "open"
+    }
+  ]
+}
