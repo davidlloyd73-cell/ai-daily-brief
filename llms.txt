@@ -1,0 +1,19 @@
+# David's AI Daily Brief
+
+> A daily distillation of The AI Daily Brief podcast, filtered through an
+> NHS / general-practice lens (GP's Corner). Personal, non-commercial.
+
+## Today
+
+- [Latest brief](https://davids-ai-brief.netlify.app/): today's edition (HTML)
+- [Structured data](https://davids-ai-brief.netlify.app/brief.json): today's brief as JSON
+
+## Archive & audio
+
+- [Archive](https://davids-ai-brief.netlify.app/archive): all past briefs
+- [Podcast feed](https://davids-ai-brief.netlify.app/feed.xml): daily 3-min audio (RSS)
+
+## Notes for agents
+
+- Each edition has fixed sections: One Idea, GP's Corner, NLW's Takes, Headlines.
+- GP's Corner is AI commentary, not from the podcast. Source links resolve to aidailybrief.ai.

@@ -149,6 +149,8 @@ brief ({mins} min)</span><audio controls preload='none' src='/audio/{date}.mp3'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>David&rsquo;s AI Daily Brief — {escape(date)}</title>
 <meta name="robots" content="noindex">
+<link rel="alternate" type="application/rss+xml"
+      title="David's AI Daily Brief" href="/feed.xml">
 <style>{CSS}</style></head><body><div class="wrap">
 <header class="mast"><div class="kicker">Distilled from The AI Daily Brief podcast</div>
 <h1 class="mast">David&rsquo;s AI Daily Brief</h1></header>
@@ -173,6 +175,8 @@ def render_archive(manifest):
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Archive — David&rsquo;s AI Daily Brief</title><meta name="robots" content="noindex">
+<link rel="alternate" type="application/rss+xml"
+      title="David's AI Daily Brief" href="/feed.xml">
 <style>{CSS}</style></head><body><div class="wrap">
 <header class="mast"><div class="kicker">Distilled from The AI Daily Brief podcast</div>
 <h1 class="mast">Archive</h1></header>
@@ -246,6 +250,38 @@ def main():
         (ROOT / "index.html").write_text(page)
     (ROOT / "archive.html").write_text(render_archive(manifest))
     (ROOT / "feed.xml").write_text(render_feed(manifest))
+
+    # brief.json — today's brief as structured data (only refreshed for the latest edition)
+    if latest == date:
+        canonical = ed.get("canonicalUrl", f"{SITE}/e/{date}")
+        thesis = ed.get("thesis") or {}
+        brief = {
+            "date": date,
+            "title": ed.get("title", ""),
+            "dek": ed.get("dek", ""),
+            "source": canonical,
+            "oneIdea": {"headline": thesis.get("headline", ""), "summary": thesis.get("sub", "")},
+            "gpCorner": {
+                "note": "AI commentary for UK general practice; not from the podcast",
+                "items": (notes or {}).get("items", []),
+            },
+            "headlines": [
+                {
+                    "id": n.get("id"),
+                    "headline": n.get("headline", ""),
+                    "type": n.get("type", "insight"),
+                    "segment": n.get("segment", ""),
+                    "timestamp": n.get("ts"),
+                    "attribution": n.get("attribution"),
+                    "summary": n.get("body", ""),
+                    "link": f"{canonical}#{n.get('id', '')}",
+                }
+                for n in ed.get("nuggets", [])
+            ],
+            "audio": f"{SITE_URL}/audio/{date}.mp3" if (ROOT / "audio" / f"{date}.mp3").exists() else None,
+            "generated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        }
+        (ROOT / "brief.json").write_text(json.dumps(brief, indent=2))
     print(f"Built edition {date} (latest: {latest}). Pages: a/{date}.html, index.html, archive.html, feed.xml")
 
 
