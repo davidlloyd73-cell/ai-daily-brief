@@ -24,6 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://aidailybrief.ai"
+SITE_URL = "https://davids-ai-brief.netlify.app"  # this site's own public URL (for RSS)
 
 
 def fetch_json(url):
@@ -77,6 +78,11 @@ ul.heads li a:hover{color:var(--accent);text-decoration:underline}
 .tchip{display:inline-block;font-family:Verdana,Arial,sans-serif;font-size:11px;
 background:var(--chip);border-radius:3px;padding:1px 7px;margin-left:8px;color:var(--soft);
 vertical-align:2px}
+.listen{background:var(--card);border:1px solid var(--rule);border-radius:4px;
+padding:12px 16px;margin:0 0 26px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.listen-label{font-family:Verdana,Arial,sans-serif;font-size:13.5px;color:var(--accent2);
+font-weight:bold;white-space:nowrap}
+.listen audio{flex:1;min-width:220px;height:36px}
 footer{border-top:3px double var(--ink);padding-top:14px;font-family:Verdana,Arial,sans-serif;
 font-size:13px;color:var(--soft)}
 footer a{color:var(--accent)}
@@ -131,6 +137,13 @@ and the NHS — commentary, not from the podcast itself.</div>{items}</div></sec
     listen = (ed.get("listen") or {}).get("all", "https://pod.link/1680633614")
     dur = f" &middot; {ed['durationMin']} min listen" if ed.get("durationMin") else ""
 
+    audio_html = ""
+    mp3 = ROOT / "audio" / f"{date}.mp3"
+    if mp3.exists():
+        mins = max(1, round(mp3.stat().st_size * 8 / 48000 / 60))  # 48 kbps estimate
+        audio_html = f"""<div class='listen'><span class='listen-label'>&#9654; Listen — today&rsquo;s
+brief ({mins} min)</span><audio controls preload='none' src='/audio/{date}.mp3'></audio></div>"""
+
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -144,7 +157,7 @@ and the NHS — commentary, not from the podcast itself.</div>{items}</div></sec
 <h2 class="ep">{escape(ed.get('title',''))}</h2>
 <p class="dek">{escape(ed.get('dek',''))}</p>
 <p class="srcline">Source: <a href="{escape(canonical)}">{escape(canonical)}</a></p>
-{idea}{gp_html}{takes_html}{heads_html}
+{audio_html}{idea}{gp_html}{takes_html}{heads_html}
 <footer>All editorial content &copy; <a href="{SITE}">The AI Daily Brief</a> (host: Nathaniel
 Whittemore). This is a personal, non-commercial reading page assembled by Claude for David Lloyd,
 using the podcast&rsquo;s own machine-readable feeds. GP&rsquo;s Corner is Claude&rsquo;s commentary.
@@ -167,6 +180,37 @@ def render_archive(manifest):
 <section><ul class="heads">{rows}</ul></section>
 <footer>All editorial content &copy; <a href="{SITE}">The AI Daily Brief</a>.</footer>
 </div></body></html>"""
+
+
+def render_feed(manifest):
+    """Private podcast RSS of the daily audio briefs (only editions with an mp3)."""
+    items = []
+    for e in sorted(manifest, key=lambda x: x["date"], reverse=True):
+        mp3 = ROOT / "audio" / f"{e['date']}.mp3"
+        if not mp3.exists():
+            continue
+        size = mp3.stat().st_size
+        pub = datetime.strptime(e["date"], "%Y-%m-%d").strftime("%a, %d %b %Y 07:00:00 +0000")
+        items.append(f"""<item>
+<title>{escape(e['title'])} ({e['date']})</title>
+<description>Spoken daily brief: the One Idea plus GP's Corner. Distilled from The AI Daily Brief podcast.</description>
+<enclosure url="{SITE_URL}/audio/{e['date']}.mp3" length="{size}" type="audio/mpeg"/>
+<guid isPermaLink="false">davids-brief-{e['date']}</guid>
+<pubDate>{pub}</pubDate>
+<link>{SITE_URL}/a/{e['date']}.html</link>
+</item>""")
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>David's AI Daily Brief (audio)</title>
+<link>{SITE_URL}</link>
+<language>en-gb</language>
+<description>A three-minute spoken distillation of The AI Daily Brief podcast, with notes for UK general practice. Personal, non-commercial. All editorial content (c) The AI Daily Brief.</description>
+<itunes:author>Claude, for David Lloyd</itunes:author>
+<itunes:block>Yes</itunes:block>
+{chr(10).join(items)}
+</channel>
+</rss>"""
 
 
 def main():
@@ -201,7 +245,8 @@ def main():
         # fix relative links for root copy (archive.html link already root-relative)
         (ROOT / "index.html").write_text(page)
     (ROOT / "archive.html").write_text(render_archive(manifest))
-    print(f"Built edition {date} (latest: {latest}). Pages: a/{date}.html, index.html, archive.html")
+    (ROOT / "feed.xml").write_text(render_feed(manifest))
+    print(f"Built edition {date} (latest: {latest}). Pages: a/{date}.html, index.html, archive.html, feed.xml")
 
 
 if __name__ == "__main__":

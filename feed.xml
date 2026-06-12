@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>David's AI Daily Brief (audio)</title>
+<link>https://davids-ai-brief.netlify.app</link>
+<language>en-gb</language>
+<description>A three-minute spoken distillation of The AI Daily Brief podcast, with notes for UK general practice. Personal, non-commercial. All editorial content (c) The AI Daily Brief.</description>
+<itunes:author>Claude, for David Lloyd</itunes:author>
+<itunes:block>Yes</itunes:block>
+<item>
+<title>The AI Chart Everyone Is Getting Wrong (2026-06-12)</title>
+<description>Spoken daily brief: the One Idea plus GP's Corner. Distilled from The AI Daily Brief podcast.</description>
+<enclosure url="https://davids-ai-brief.netlify.app/audio/2026-06-12.mp3" length="1184688" type="audio/mpeg"/>
+<guid isPermaLink="false">davids-brief-2026-06-12</guid>
+<pubDate>Fri, 12 Jun 2026 07:00:00 +0000</pubDate>
+<link>https://davids-ai-brief.netlify.app/a/2026-06-12.html</link>
+</item>
+</channel>
+</rss>
