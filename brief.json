@@ -1,261 +1,291 @@
 {
-  "date": "2026-06-12",
-  "title": "The AI Chart Everyone Is Getting Wrong",
-  "dek": "SpaceX prices the largest IPO ever, Bezos unveils an \"artificial general engineer,\" and a scary downward chart sends Wall Street from token-maxing to token-panic overnight. NLW spends the back half dismantling that chart \u2014 and explains why the signal everyone's screenshotting isn't the signal they think it is.",
-  "source": "https://aidailybrief.ai/e/2026-06-12",
+  "date": "2026-06-13",
+  "title": "Fable 5 Shut Down by US Government",
+  "dek": "A national-security directive forced Anthropic to abruptly cut off Fable 5 and Mythos 5 for all foreign nationals worldwide \u2014 the first time the US has hit the kill switch on a frontier model. The pretext is a thin jailbreak; the real story is a precedent that splits the world by model access and turns Anthropic's safety rhetoric into the rope it hangs by.",
+  "source": "https://aidailybrief.ai/e/2026-06-13",
   "oneIdea": {
-    "headline": "The scary token chart isn't measuring demand and it's not measuring total expenditure.",
-    "summary": "Wall Street has decided the Silicon Data \"token expenditure index\" proves the agentic boom is over. It doesn't. The chart measures the weighted-average price of a million tokens, drawn only from third-party token routers \u2014 companies whose entire job is to find cheaper tokens. It says nothing about total demand, volume, or expenditure. The real story is the shift from token subsidy to token scarcity, and when the median firm still spends $11.38 per employee per month on AI, the growth in total tokens consumed will dwarf any drift toward cheaper baskets. That's not a bubble popping \u2014 it's a market rationalizing."
+    "headline": "The Fable shutdown wasn't about a jailbreak \u2014 it was a kill switch, and Anthropic spent a year loading it.",
+    "summary": "The US government invoked national-security export controls to force Anthropic to disable Fable 5 and Mythos 5 for every foreign national on earth \u2014 including its own non-citizen employees \u2014 over a narrow jailbreak that surfaced already-public vulnerabilities. The industry's fury splits two ways at once: the government's pretext is cartoonishly thin and its export strategy incoherent, and Anthropic spent a year insisting its models were too dangerous for anyone but itself to be trusted with \u2014 then acted shocked when Washington took that premise literally. Either way, the precedent is the story: model access is now a sovereign weapon, and no lab's deployment is safe from a 5 PM Friday directive."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Your scribe contract \u2014 hedge both ways",
-        "body": "If NLW is right, token prices fall and your scribe licence should get cheaper at renewal \u2014 ask. If Zitron is right, the subsidy era is ending and vendors' true costs surface, so the risk isn't price but vendor failure. The practical move is identical either way: shorter terms, break clauses, and confirmation that you can export your templates and data."
+        "title": "A 5 PM Friday could take your scribe offline",
+        "body": "The story here is a frontier model switched off worldwide overnight by a single government letter. Your AI scribe almost certainly sits on top of a US lab's model. If NLW is right that the economy now leans on these labs, that concentration is itself the systemic risk; if Zitron is right that they are unprofitable and racing to float, the more likely failure is the vendor folding or repricing once subsidies end. Either reading points to the same precaution: don't let a single foreign model become load-bearing in clinical workflow without a manual fallback and a clear answer to 'what do we do the morning it stops working.'"
       },
       {
-        "title": "The $11.38 question, read twice",
-        "body": "NLW reads the median firm's tiny AI spend as headroom; Zitron reads it as the verdict on demand. For an ICB the working conclusion is the same: the NHS has lost little by moving carefully, and the labs' IPO disclosures over the coming year will show which reading was right before any large commitment needs signing."
+        "title": "Where does the patient data sit, and for how long",
+        "body": "Anthropic argued it needs thirty days of retained customer data to catch jailbreaks. Set aside the politics: any tool that holds identifiable consultation content for a retention window is an information-governance question for the practice, not just the supplier. Ask your scribe vendor plainly where UK patient data is processed and stored, for how long, and whether a foreign government directive could reach it. The Fable episode shows those are no longer theoretical concerns."
       },
       {
-        "title": "Measurement has arrived",
-        "body": "The one thing both polemicists agree on: nobody can yet measure AI's return per task. Before a PCN buys anything agentic, make the supplier define the observable that proves value \u2014 consultations saved, coding accuracy, complaint rates. The same discipline that exposed the token chart this week applies to procurement."
+        "title": "The case for sovereign or UK-hosted tooling just got stronger",
+        "body": "The sharpest line in the brief was that model access is becoming a question of citizenship. For the NHS that is an argument \u2014 not yet urgent, but real \u2014 for preferring clinical AI that can run on UK or European infrastructure, or that is portable between models. It is the same procurement discipline as last week: shorter terms, exit rights, and the ability to move your templates and data if the ground shifts under a single provider."
       }
     ]
   },
   "the_other_side": {
-    "source": "AI Is Slowing Down",
-    "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
-    "date": "2026-06-08",
+    "source": "The Silicon Valley Bubble (Part 1)",
+    "url": "https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-1/",
+    "date": "2026-06-12",
     "same_day": false,
-    "text": "Writing four days before this episode, Zitron reads the very spending caps NLW waves away as the first hard evidence of demand stalling \u2014 arriving precisely when the industry's own commitments require it to accelerate. The data-centre buildout and compute contracts only make sense if AI revenue reaches roughly two trillion dollars a year by 2030, yet OpenAI and Anthropic still account for the vast majority of compute demand and 89% of AI-startup revenue, with most enterprises unable to see their own costs until the bill lands. His long-standing prediction \u2014 \"businesses will squeal when they are made to pay the true cost of AI\" \u2014 is, on his telling, now playing out. What NLW calls a market rationalising, Zitron calls the bill arriving."
+    "text": "The loudest economic claim in today's brief is NLW's \u2014 that the whole US economy now rests on Anthropic and OpenAI revenue rising and investors continuing to fund the buildout, which is why the Fable shutdown is so dangerous. Writing the day before, Zitron argues the dependency is the danger: both labs have just filed to go public precisely because they 'burn billions of dollars a year and have no path to profitability,' racing for what he calls 'exit liquidity' before the bill lands. The trillion-dollar valuations NLW says are 'now in question' were, on his telling, never sound to begin with. Where NLW sees a national asset a clumsy government must stop endangering, Zitron sees the bubble itself \u2014 and a government merely poking it a little early."
   },
   "the_truth_beneath": {
-    "text": "Strip the rhetoric and both men are staring at the same dial: enterprise token spend under transparent, usage-based billing. They accept the same facts \u2014 median firm spend is tiny, the caps at Uber and T-Mobile are real, ROI is currently unmeasurable, and frontier usage is concentrating in fewer hands. The empirical question is whether total spend keeps climbing once the subsidies end; the observable that settles it is the labs' disclosed revenue trajectory, which IPO filings will shortly make impossible to obscure. For NLW to be vindicated, the eleven-dollar median must climb toward the caps as agents spread. For Zitron, post-transparency spend must stall while the buildout's debts come due. The residue no evidence will touch is whether the output is worth having at all. Both are polemicists \u2014 NLW sells optimism, Zitron sells the bubble \u2014 so the signal is where they agree despite opposite priors: spend is concentrating, and measurement has arrived. Watch OpenAI's IPO prospectus."
+    "text": "Strip the rhetoric and both men orbit one variable: whether the frontier labs have a path to profit or merely a path to more capital. They accept the same facts \u2014 Anthropic and OpenAI have both filed to go public, both burn billions a year, and trillion-dollar valuations now hang on events neither company controls. The empirical question that will resolve is whether the flotation filings show margins bending toward profit or losses widening; the audited prospectus financials are the observable that settles it. For NLW to be vindicated, revenue must scale and the buildout stay funded, so 'the economy rests on this' holds. For Zitron, the filings must expose the dog \u2014 no margin, endless burn, exit liquidity dressed as growth. Both are polemicists: NLW sells optimism and the anti-doom case, Zitron sells bubble-certainty and anti-hype. The signal is where they agree despite opposite priors \u2014 both now call the valuation precarious. Watch the prospectus."
   },
   "headlines": [
     {
-      "id": "spacex-ipo-largest-ever",
-      "headline": "The largest IPO in history is ~7x oversubscribed on retail alone",
+      "id": "fable5-suspended",
+      "headline": "US government orders Fable 5 and Mythos 5 shut down",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "By Thursday's close, retail investors had submitted more than $100 billion in orders for SpaceX's $75 billion offering \u2014 enough to fill the entire IPO by itself. SpaceX cut the retail allocation from 30% to 20% and priced flat at $135/share, implying a ~$1.8 trillion valuation that would debut it as the seventh-largest company on earth, ahead of Saudi Aramco, Tesla, and Meta.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#spacex-ipo-largest-ever"
+      "summary": "Citing national security authorities, the government issued an export control directive suspending all access to Fable 5 and Mythos 5 by any foreign national, inside or outside the US \u2014 including Anthropic's own foreign-national employees. The net effect: Anthropic had to abruptly disable both models for all customers. Other Claude models are unaffected.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#fable5-suspended"
     },
     {
-      "id": "reuters-retail-burned",
-      "headline": "Reuters warns the retail crowd will get burned",
+      "id": "anthropic-misunderstanding",
+      "headline": "We believe this is a misunderstanding and are working to restore access as soon as possible.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "01:00",
+      "attribution": "Anthropic, in its statement on the suspension",
+      "summary": "Anthropic's public statement framed the shutdown as an error rather than a justified safety action, apologizing to customers while pledging to get the models back online.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#anthropic-misunderstanding"
+    },
+    {
+      "id": "lutnick-letter",
+      "headline": "Lutnick's letter put the models under export restrictions",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
+      "timestamp": "01:20",
+      "attribution": null,
+      "summary": "The Wall Street Journal reported Commerce Secretary Howard Lutnick sent CEO Dario Amodei a letter declaring Fable 5 and Mythos 5 subject to export restrictions \u2014 barring use by customers outside the US and by foreign nationals within it.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#lutnick-letter"
+    },
+    {
+      "id": "jailbreak-pretext",
+      "headline": "The pretext: a narrow jailbreak that just reads code and fixes flaws",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "A rare Reuters opinion piece flagged \"a serious risk that investors piling into the world's largest IPO will get burned, especially the retail crowd,\" pointing to a $5B loss on $18.7B in 2025 revenue. For context, Meta did $200B in revenue last year and even an off-year Tesla managed $95B.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#reuters-retail-burned"
+      "summary": "Anthropic says the directive arrived at 5:21 PM with no specific details, but rests on a method of bypassing Fable 5. On review, the technique surfaced only a few previously-known minor vulnerabilities that other publicly available models find too \u2014 essentially asking the model to read a codebase and fix software flaws.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#jailbreak-pretext"
     },
     {
-      "id": "goldman-conflict",
-      "headline": "Goldman ran the IPO and the wildly bullish research",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "03:00",
-      "attribution": null,
-      "summary": "Goldman Sachs simultaneously conducted the SpaceX IPO and published research forecasting $474B in revenue by 2030 with its AI division growing a hundredfold. To skeptics, that's less plausibility than an analyst with a clear incentive forecasting \"a bajillion dollars in revenue.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-12#goldman-conflict"
-    },
-    {
-      "id": "musk-trillionaire",
-      "headline": "The IPO would make Musk the world's first trillionaire",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "03:00",
-      "attribution": null,
-      "summary": "Elon Musk was worth just under $700B last month, with more than 60% tied up in SpaceX. The IPO pricing pushes his net worth to $971B \u2014 so any meaningful day-one pop tips him over the trillion-dollar line.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#musk-trillionaire"
-    },
-    {
-      "id": "spacex-not-ai-model-referendum",
-      "headline": "Don't read SpaceX as a referendum on AI models",
-      "type": "take",
-      "segment": "headlines",
+      "id": "recall-would-halt-industry",
+      "headline": "This standard would essentially halt all new model deployments for all frontier model providers.",
+      "type": "quote",
+      "segment": "main",
       "timestamp": "04:00",
-      "attribution": null,
-      "summary": "NLW pushes back on treating the SpaceX listing as the market's first price on a frontier AI lab. You can't apply anything about Musk to anyone else \u2014 he operates in his own vortex \u2014 and the 11th-hour pivot to SpaceX as a neo-cloud reframes the whole thing as an infrastructure build-out story with a heavy dose of Elon halo, not a models story.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#spacex-not-ai-model-referendum"
+      "attribution": "Anthropic, in its blog post on the directive",
+      "summary": "Anthropic argued perfect jailbreak resistance is impossible for any provider, so recalling a model deployed to hundreds of millions over a narrow potential jailbreak sets an unworkable bar for the entire industry.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#recall-would-halt-industry"
     },
     {
-      "id": "atwater-idiot-moment",
-      "headline": "SpaceX has created an idiot moment for investors. Buy it and it goes down, you are an idiot. Don't buy it and it goes up, you were an idiot.",
-      "type": "quote",
-      "segment": "headlines",
+      "id": "amazon-researchers",
+      "headline": "The jailbreak research traces back to Amazon",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "04:30",
+      "attribution": null,
+      "summary": "The WSJ reported the research was done by Amazon researchers \u2014 an Anthropic investor and Project Glasswing partner \u2014 who used a prompt series to extract info on a handful of known security vulnerabilities. Notably, the Journal did not report that Amazon shared the findings with the government.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#amazon-researchers"
+    },
+    {
+      "id": "pound-sand",
+      "headline": "Anthropic reportedly told the government to pound sand",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "05:00",
-      "attribution": "Peter Atwater, economist",
-      "summary": "Economist Peter Atwater's line cuts through the hyperbole from both the bull and bear camps better than either side's narrative.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#atwater-idiot-moment"
-    },
-    {
-      "id": "bezos-prometheus",
-      "headline": "Bezos's Prometheus raises $12B at a $41B valuation",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "05:00",
       "attribution": null,
-      "summary": "Jeff Bezos's AI startup Prometheus closed a $12B round (JPMorgan, Goldman, BlackRock, and Bezos himself) at a $41B valuation. The goal: an \"artificial general engineer\" that can design and manufacture anything, including jet engines \u2014 already staffed with 150 people across SF, London, and Zurich. A reported $100B vehicle would buy up legacy industrial companies, because the physical economy can't be scraped \u2014 \"you acquire the factories that generate it.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-12#bezos-prometheus"
+      "summary": "Per Prinz's timeline assembled from Axios reporting, the government contacted Anthropic to ask it to pause releasing the models and was unsuccessful \u2014 a refusal many read as setting up the confrontation that followed.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#pound-sand"
     },
     {
-      "id": "bezos-labor-shortage",
-      "headline": "Even though you're shrinking the number of people needed by 10X, AI will create 10X more opportunities.",
+      "id": "foreign-staff-locked-out",
+      "headline": "Even Anthropic's own staff can't touch the models",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "05:45",
+      "attribution": null,
+      "summary": "A large share of Anthropic's technical staff \u2014 including names like Andrej Karpathy \u2014 are not US citizens but here on visas such as EB-1. Under the directive, those employees are barred from interacting with Fable 5 and Mythos 5 internally.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#foreign-staff-locked-out"
+    },
+    {
+      "id": "mad-at-both",
+      "headline": "Am I mad at Anthropic or the US government? Both? Probably both.",
       "type": "quote",
-      "segment": "headlines",
-      "timestamp": "06:00",
-      "attribution": "Jeff Bezos",
-      "summary": "Bezos dismissed jobs-apocalypse fears as the \"opposite of reality,\" arguing AI produces a labor shortage and predicting two-earner households where one earner drops out \"because there's going to be so much productivity.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-12#bezos-labor-shortage"
+      "segment": "main",
+      "timestamp": "06:15",
+      "attribution": "Dan Robustus, on X",
+      "summary": "Dan Robustus on X captured the whole tenor of the discourse \u2014 a fight in which almost no party emerges looking good.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#mad-at-both"
     },
     {
-      "id": "meta-manus-unwound",
-      "headline": "China forces Meta to unwind its $2B Manus deal",
+      "id": "bindu-stupid",
+      "headline": "The US banned Fable just because it responded with information already freely available on the internet.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "06:30",
+      "attribution": "Bindu Reddy",
+      "summary": "AI entrepreneur Bindu Reddy called the move 'really stupid,' noting any model can be coaxed into discussing common security vulnerabilities \u2014 and the cluelessness of the government, she said, is astounding.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#bindu-stupid"
+    },
+    {
+      "id": "dean-ball-cartoonish",
+      "headline": "I can't tell if this is lawfare against Anthropic or extreme national security hawkery. Regardless, it's simply cartoonish.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "07:15",
+      "attribution": "Dean Ball",
+      "summary": "AI policy expert Dean Ball voiced a widely shared confusion about the directive's actual motive \u2014 and a shared verdict on its competence.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#dean-ball-cartoonish"
+    },
+    {
+      "id": "export-incoherence",
+      "headline": "Across-the-board controls on all countries on a single model without any warning is highly questionable.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "07:30",
+      "attribution": "Chris Maguire, Council on Foreign Relations",
+      "summary": "CFR's Chris Maguire backs targeted model export controls but blasted Commerce and BIS for an 'incoherent and self-defeating' strategy \u2014 sending chips to China while blocking US companies from releasing their own models.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#export-incoherence"
+    },
+    {
+      "id": "ostp-hypocrisy",
+      "headline": "The White House's own words come back to haunt it",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "07:00",
+      "segment": "main",
+      "timestamp": "08:30",
       "attribution": null,
-      "summary": "Meta has completed a Beijing-ordered operational split with Manus, firewalling data systems and tools between the two companies. Beijing ordered the $2B acquisition unwound despite Manus relocating to Singapore first, leaving Manus scrambling to raise $1B to fund a buyback \u2014 with attention fading amid open-source harnesses like OpenClaw and core agents like Claude Code and Codex.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#meta-manus-unwound"
+      "summary": "Just weeks earlier, the White House OSTP account had pushed back on reporting about AI oversight, insisting it was not conducting oversight of all new models \u2014 because that 'level of government overreach would have chilling effects on free speech and innovation.' Critics resurfaced it as direct hypocrisy.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#ostp-hypocrisy"
     },
     {
-      "id": "china-red-chip-crackdown",
-      "headline": "Beijing is seizing passports to keep AI talent home",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "The Manus crackdown has chilled the \"red chip\" structure of decamping to Singapore before raising foreign capital. Step Fun has already reincorporated in China ahead of a Hong Kong IPO, with Moonshot (Kimi) and Kling considering the same \u2014 and officials are now seizing passports from key AI researchers and executives, previously beyond the pale.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#china-red-chip-crackdown"
+      "id": "war-cio-tweet",
+      "headline": "Some things are simply more important than revenue cycles, clickbait, and pre-IPO valuation.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "09:45",
+      "attribution": "Kirsten Davies, Department of War CIO",
+      "summary": "Department of War CIO Kirsten Davies posted in support of the action \u2014 a pointed shot at Anthropic that, to many, signaled the dispute is about the government's relationship with the company, not Fable 5 itself.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#war-cio-tweet"
     },
     {
-      "id": "google-samsung-tsmc-backlog",
-      "headline": "TSMC's backlog pushes Google to Samsung and Intel",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": null,
-      "summary": "Google is evaluating Samsung's 2nm process for parts of its 10th-gen TPUs (codename Ice Fish) and already placed Intel orders for advanced packaging on its 2028 run. TSMC still makes the processor itself; a complex supply chain is emerging where less-sensitive components go elsewhere. It's not dissatisfaction with TSMC \u2014 just capacity-driven wait times.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#google-samsung-tsmc-backlog"
-    },
-    {
-      "id": "kkr-nvidia-helix",
-      "headline": "KKR and Nvidia launch a $10B data-center builder",
-      "type": "insight",
-      "segment": "headlines",
+      "id": "anthropic-arrogance",
+      "headline": "The arrogance with which Anthropic has pursued the latest release has universally landed poorly.",
+      "type": "quote",
+      "segment": "main",
       "timestamp": "11:00",
-      "attribution": null,
-      "summary": "Helix Digital Infrastructure, backed by KKR and Kuwait's sovereign wealth fund with Nvidia chips and Vistra power, has $10B in committed capital and is led by ex-AWS CEO Adam Selipsky. It's one of several vertically integrated vehicles (Broadcom-Apollo-Blackstone announced a similar tie-up) aiming to fix the fragmentation between chips, power, and connectivity \u2014 even as JLL reports nearly half of US data-center projects are delayed.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#kkr-nvidia-helix"
+      "attribution": "Sarah Hooker",
+      "summary": "AI builder Sarah Hooker captured the industry's scorn: the posture that everyone should be grateful to touch an intentionally hobbled technology \u2014 and that no one else should be allowed to build it because it's too dangerous.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#anthropic-arrogance"
     },
     {
-      "id": "goldman-capex-underestimate",
-      "headline": "Goldman says consensus AI CapEx is way too conservative",
+      "id": "not-like-that",
+      "headline": "Dario got the regulation he asked for",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "12:00",
+      "segment": "main",
+      "timestamp": "12:30",
       "attribution": null,
-      "summary": "Goldman strategists call the median analyst's $920B for 2027 \"too conservative,\" projecting $1.1T baseline and $1.4T bullish. Their key assumption: token consumption rises 24x through 2030 driven by agents, and higher input costs push the nominal dollars of CapEx even higher. NLW says he's firmly in the Goldman camp.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#goldman-capex-underestimate"
+      "summary": "Critics resurfaced an Anthropic blog line arguing the government 'should have the power to block or deter deployment' of risky models. Will Manidis summarized the whiplash: Dario 48 hours ago said the government should be able to block deployments \u2014 and now that it has, says 'not like that.' Anthropic's caveat: it wanted a transparent, fair statutory process, which this wasn't.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#not-like-that"
     },
     {
-      "id": "token-maxing-to-panic",
-      "headline": "Wall Street went from token-maxing to token-panic head-spinningly fast",
+      "id": "nuclear-backfired",
+      "headline": "I can't believe Anthropic comparing their product to nuclear weapons 800 times backfired on them. I am shocked.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "13:15",
+      "attribution": "Nick Carter",
+      "summary": "Investor Nick Carter's sarcasm summed up a dominant view: Anthropic's relentless danger framing stoked the very regulatory panic that just took its flagship models offline.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#nuclear-backfired"
+    },
+    {
+      "id": "named-it-fable",
+      "headline": "They named it Fable and then acted surprised when it came with a moral.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "14:00",
+      "attribution": "Banteg, on X",
+      "summary": "Banteg's one-liner became the episode's most concise indictment of Anthropic's self-inflicted predicament.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#named-it-fable"
+    },
+    {
+      "id": "turning-point",
+      "headline": "The government is starting to deem some models too powerful for certain uses, which creates a precedent for a range of possible controls.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "18:30",
+      "attribution": "Aaron Levie",
+      "summary": "Aaron Levie called it a major turning point for AI regulation \u2014 and argued we're unlikely to return to a world where the government isn't far more involved in the pace of AI progress.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#turning-point"
+    },
+    {
+      "id": "kyc-citizenship",
+      "headline": "Citizenship checks could ripple all the way downstream",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "20:00",
+      "attribution": null,
+      "summary": "Brian Zhao argued restoring access may require ID/citizenship verification not just on Claude but everywhere Fable is served \u2014 Cursor, Devin, OpenRouter, a law firm on Harvey. He also noted OpenAI and Google now have little incentive to ship anything Mythos-caliber, since any jailbreak could trigger the same export controls.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#kyc-citizenship"
+    },
+    {
+      "id": "microsoft-analogy",
+      "headline": "This is Anthropic's 'Altman firing' moment with the government",
       "type": "take",
       "segment": "main",
-      "timestamp": "17:00",
+      "timestamp": "21:15",
       "attribution": null,
-      "summary": "NLW's annual ritual: a new chart inflames investors into an AI counter-narrative frenzy, convinced this time the bubble is bursting. The Silicon Data LLM Token Expenditure Index \u2014 shared by Citadel Securities \u2014 went viral as proof the agentic boom collapsed. It shows nothing of the kind.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#token-maxing-to-panic"
+      "summary": "NLW compared it to when Sam Altman was ousted and reinstated at OpenAI \u2014 the moment Microsoft began quietly building resilience outside OpenAI's models. Once a partner proves itself too capricious to trust, the relationship is permanently reshaped, even if it nominally continues.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#microsoft-analogy"
     },
     {
-      "id": "chart-is-a-price-index",
-      "headline": "The chart measures price, not demand \u2014 and Silicon Data admits it",
-      "type": "insight",
+      "id": "crypto-wars",
+      "headline": "We fought this battle in the '90s for free and open access to cryptography... the fight this time will be much harder.",
+      "type": "quote",
       "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Silicon Data clarified its index \"should really have been named the token expenditure price index\" \u2014 a usage-weighted average price for a million tokens, irrespective of model. The viral downward line just means the average price paid in mid-June fell from an early-June peak back to early-May levels. It has nothing to do with total demand, volume, or expenditure.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#chart-is-a-price-index"
+      "timestamp": "21:45",
+      "attribution": "Connor Brown",
+      "summary": "Connor Brown framed the moment as the opening of the AI wars \u2014 KYC and 'anti-compute laundering' laws for frontier models \u2014 and asked whether the public will ever have access to frontier intelligence again.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#crypto-wars"
     },
     {
-      "id": "data-only-from-routers",
-      "headline": "The data comes only from third-party token routers",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "The index has no visibility into direct customer relationships with OpenAI or Anthropic, where the vast majority of token spend flows. It draws solely from third-party routers \u2014 companies whose entire purpose is to route use cases to cheaper, better-fit models. That structurally exaggerates any shift away from frontier models, so it's a leading indicator of advanced users' orientation, not the average buyer's experience.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#data-only-from-routers"
-    },
-    {
-      "id": "every-company-token-efficiency",
-      "headline": "Every AI company is now in the token-efficiency business",
+      "id": "economy-rests-on-it",
+      "headline": "The whole US economy now rests on this relationship staying intact",
       "type": "take",
       "segment": "main",
       "timestamp": "24:00",
       "attribution": null,
-      "summary": "The shift from assisted to agentic use cases radically increases AI consumption, and with finite tokens, prices rise as demand outpaces supply. Companies that never had to think about token efficiency \u2014 or mixed-basket models that route different use cases to different token tiers \u2014 suddenly do. The chart simply reflects that transition in progress.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#every-company-token-efficiency"
+      "summary": "NLW argued the American economy effectively depends on Anthropic and OpenAI revenue rising and investors continuing to fund the buildout. The damage from this move, he said, isn't just to Anthropic \u2014 it's hard to overstate the hit to the entire economy.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#economy-rests-on-it"
     },
     {
-      "id": "citadel-bifurcation",
-      "headline": "We do not think this implies that the frontier of inference-intensive AI will be abandoned, only that it is likely to be concentrated among a narrower set of firms.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "27:00",
-      "attribution": "Citadel Securities, \"Tokenomics\" note",
-      "summary": "Citadel's actual note is far less bombastic than the screenshots suggest, arguing AI demand is bifurcating into frontier versus everyday usage and that the most expensive AI will flow to firms with the balance sheets and operating domains to use it best. NLW: that's not a bubble popping, that's a market rationalizing.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#citadel-bifurcation"
-    },
-    {
-      "id": "ramp-median-11-dollars",
-      "headline": "The median firm still spends $11.38 per employee per month on AI",
+      "id": "sovereign-ai-moment",
+      "headline": "The 'sovereign AI is real' moment arrives",
       "type": "insight",
       "segment": "main",
-      "timestamp": "29:00",
+      "timestamp": "24:30",
       "attribution": null,
-      "summary": "Ramp data shows the top 1% of fully AI-pilled firms spending ~$7,500/employee/month, the top 10% just $610, and the median customer only $11.38 \u2014 not $1,138, eleven dollars and thirty-eight cents. The spending caps making headlines come only from the most advanced firms; the vast majority aren't remotely close.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#ramp-median-11-dollars"
+      "summary": "Commentators argued the shutdown is a warning shot for middle powers: frontier access is not guaranteed. Gale Weiner noted the US narrative advantage over China \u2014 predictable, rule-of-law provider versus arbitrary actor \u2014 just evaporated, handing procurement officers worldwide a defensible case for sovereign AI and even Chinese open-weight alternatives.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#sovereign-ai-moment"
     },
     {
-      "id": "growth-dwarfs-cheaper-baskets",
-      "headline": "Total token growth will dwarf any shift to cheaper baskets",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "29:00",
-      "attribution": null,
-      "summary": "If every firm followed Uber and capped at $1,500/month, the market expansion from a median of $11.38 to $1,500 per employee would massively outweigh any revenue lost to companies getting more efficient. NLW says it's very hard to imagine a short- or medium-term scenario where total AI consumed doesn't dwarf the rebalancing toward cheaper tokens.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#growth-dwarfs-cheaper-baskets"
-    },
-    {
-      "id": "openai-price-cuts-margins",
-      "headline": "They could cut prices by like 60% and still be profitable in my opinion.",
+      "id": "iron-curtain",
+      "headline": "This is a new kind of Iron Curtain \u2014 digital, intellectual.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "31:00",
-      "attribution": "Max Weinbach, analyst",
-      "summary": "On reports OpenAI may slash token prices to preempt an Anthropic price war, analyst Max Weinbach argues margins on served tokens are high \u2014 estimates cluster around 70% on the most inference-intensive API tokens \u2014 so a price cut likely means customers can't adopt at volume at current pricing, not collapsing economics.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#openai-price-cuts-margins"
-    },
-    {
-      "id": "ellipsis-warning",
-      "headline": "If you see someone end a tweet with an ellipsis, run",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "32:00",
-      "attribution": null,
-      "summary": "NLW's tell for empty doom-narrative discourse: phrases like \"the whole setup depends on this...\" or loud claims that contradict everyone's lived experience. When a viral post insists the agentic frenzy has snapped back to a pre-agentic state, ask what the chart actually says \u2014 and who's incentivized to misread it.",
-      "link": "https://aidailybrief.ai/e/2026-06-12#ellipsis-warning"
+      "timestamp": "26:30",
+      "attribution": "Mal, on X",
+      "summary": "Mal on X warned the government is creating a caste system based on access to intelligence: a divide not between rich and poor but between those allowed to think at the frontier and those who simply happen to be citizens of another country.",
+      "link": "https://aidailybrief.ai/e/2026-06-13#iron-curtain"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-12.mp3",
-  "generated": "2026-06-12T23:55:25Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-13.mp3",
+  "generated": "2026-06-14T11:26:05Z"
 }

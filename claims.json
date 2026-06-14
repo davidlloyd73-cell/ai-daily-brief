@@ -18,6 +18,24 @@
       "resolution": "By the check date, labs' quarter-on-quarter revenue growth has visibly flattened versus 2025, or a second wave of enterprise spending caps arrives at lower limits than Uber's $1,500/seat.",
       "check_by": "2027-03-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-06-13",
+      "side": "NLW",
+      "claim": "The Fable shutdown is a durable turning point: government will be materially more involved in gating frontier-model deployment, and access controls (KYC/citizenship checks) will spread rather than revert.",
+      "source": "https://aidailybrief.ai/e/2026-06-13#turning-point",
+      "resolution": "By the check date, at least one of: a second US government-ordered restriction, recall, or forced disablement of a frontier model; OR formal citizenship/ID verification gating access to a frontier model on at least one major platform (Claude, Cursor, OpenRouter, etc.). If neither occurs and the directive is quietly reversed with no lasting controls, the claim fails.",
+      "check_by": "2027-06-13",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-13",
+      "side": "Zitron",
+      "claim": "OpenAI and Anthropic have no path to profitability; their IPO filings are a race for exit liquidity rather than evidence of viable economics.",
+      "source": "https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-1/",
+      "resolution": "When OpenAI or Anthropic discloses audited financials via an IPO prospectus, the figures show continued large net losses with no credible near-term operating-margin path. If either company discloses profitability or a clear, dated path to it, the claim fails.",
+      "check_by": "2027-06-30",
+      "status": "open"
     }
   ]
 }

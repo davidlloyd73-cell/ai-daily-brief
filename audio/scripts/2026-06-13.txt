@@ -1,0 +1,19 @@
+David's AI brief for Saturday, the thirteenth of June.
+
+One idea matters today. On Friday evening, at twenty-one minutes past five, the United States government sent Anthropic a letter and, in effect, pulled a lever no one had pulled before. Citing national-security export controls, it ordered the company to switch off its two most advanced models — Fable Five and Mythos Five — for every foreign national on earth, including Anthropic's own staff who are not American citizens. The company had to disable both, worldwide, overnight.
+
+The stated reason is thin. The trigger was a so-called jailbreak that, on inspection, did little more than ask the model to read some software and point out flaws that are already publicly known — the sort of thing any capable model will do. Critics across the industry called the move incoherent, even cartoonish. But the host's real argument is sharper than the farce. For a year, Anthropic insisted its models were so dangerous that only it could be trusted to hold them, and that government should have the power to block risky deployments. Washington simply took that premise literally. They named it Fable, one wag noted, then acted surprised when it came with a moral.
+
+Why does this matter beyond Silicon Valley? Because, the host argues, the American economy now leans on these companies — on their revenue rising and investors funding the enormous buildout. A single Friday letter just showed how fragile that footing is. The precedent is the story: access to frontier intelligence is now a sovereign weapon, and a question, increasingly, of citizenship.
+
+Now, the other side. Writing the day before, the critic Ed Zitron would say the dependency is itself the danger. Both Anthropic and OpenAI, he notes, have just filed to go public precisely because they burn billions a year with no clear path to profit — a race, as he puts it, for exit liquidity before the bill arrives. So the trillion-dollar valuation the host calls "now in question" was, on Zitron's telling, never sound. Strip away the theatre and both men are watching the same dial: whether these labs have a path to profit or merely a path to more capital. The flotation documents, when they come, will settle it.
+
+So what does this mean for general practice? Three thoughts.
+
+First, a Friday letter could take your scribe offline. Whichever man is right — systemic asset or unprofitable bubble — the lesson is the same: don't let a single foreign model become load-bearing in clinical work without a manual fallback.
+
+Second, ask where the data sits. Anthropic argued it needs thirty days of retained customer data to catch jailbreaks. For any tool holding identifiable consultation content, that is an information-governance question worth putting to your supplier plainly — where, how long, and whose government can reach it.
+
+And third, the case for sovereign, UK-hosted, or portable tooling just got stronger. Not urgent, but real: prefer clinical AI you can move if the ground shifts under one provider.
+
+That's the brief — source, The AI Daily Brief.

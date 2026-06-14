@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "A 5 PM Friday could take your scribe offline",
+      "body": "The story here is a frontier model switched off worldwide overnight by a single government letter. Your AI scribe almost certainly sits on top of a US lab's model. If NLW is right that the economy now leans on these labs, that concentration is itself the systemic risk; if Zitron is right that they are unprofitable and racing to float, the more likely failure is the vendor folding or repricing once subsidies end. Either reading points to the same precaution: don't let a single foreign model become load-bearing in clinical workflow without a manual fallback and a clear answer to 'what do we do the morning it stops working.'"
+    },
+    {
+      "title": "Where does the patient data sit, and for how long",
+      "body": "Anthropic argued it needs thirty days of retained customer data to catch jailbreaks. Set aside the politics: any tool that holds identifiable consultation content for a retention window is an information-governance question for the practice, not just the supplier. Ask your scribe vendor plainly where UK patient data is processed and stored, for how long, and whether a foreign government directive could reach it. The Fable episode shows those are no longer theoretical concerns."
+    },
+    {
+      "title": "The case for sovereign or UK-hosted tooling just got stronger",
+      "body": "The sharpest line in the brief was that model access is becoming a question of citizenship. For the NHS that is an argument — not yet urgent, but real — for preferring clinical AI that can run on UK or European infrastructure, or that is portable between models. It is the same procurement discipline as last week: shorter terms, exit rights, and the ability to move your templates and data if the ground shifts under a single provider."
+    }
+  ]
+}
