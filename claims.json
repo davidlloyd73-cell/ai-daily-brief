@@ -2,6 +2,60 @@
   "note": "Calibration ledger: one falsifiable claim per side per edition, with a plain-English resolution condition and check-back date. Status: open | vindicated | falsified | unresolvable.",
   "claims": [
     {
+      "edition": "2026-06-09",
+      "side": "NLW",
+      "claim": "Consumer AI and work/agentic AI are diverging into effectively separate technologies, and the agentic-work side is where the durable economic value lands.",
+      "source": "https://aidailybrief.ai/e/2026-06-09#consumer-vs-work",
+      "resolution": "By the check date, the bulk of frontier-lab revenue growth is attributable to API/agentic and enterprise usage rather than consumer subscriptions, and commentary has normalised treating 'consumer AI' and 'work AI' as distinct categories. Fails if consumer subscriptions remain the dominant revenue engine and the framing collapses back to a single 'AI'.",
+      "check_by": "2027-06-09",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-09",
+      "side": "Zitron",
+      "claim": "AI has no measurable ROI; firms cannot reliably measure either the benefit or the per-task cost, so spend will prove unjustifiable once examined.",
+      "source": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
+      "resolution": "By the check date, no widely accepted standard for measuring AI ROI or per-task cost has emerged and at least one further large enterprise publicly caps or cuts AI spend citing unmeasurable return. Fails if credible, audited enterprise ROI measurement becomes routine and spend grows on the back of it.",
+      "check_by": "2027-06-02",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-10",
+      "side": "NLW",
+      "claim": "Fable 5 is a genuine capability step change in agentic coding, not a saturated-benchmark illusion, and will translate into materially larger real-world tasks being handed to agents.",
+      "source": "https://aidailybrief.ai/e/2026-06-10#raises-the-bar",
+      "resolution": "By the check date, multiple independent enterprises report production agentic-coding workflows running many hours unattended and shipping merged code at scale (in the spirit of the Stripe 50M-line migration). Fails if Fable-class gains prove demo-bound and day-to-day developer workflows look essentially unchanged.",
+      "check_by": "2026-12-10",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-10",
+      "side": "Zitron",
+      "claim": "AI progress is slowing, and capability gains will not close the gap to the ~$2 trillion/yr in revenue the infrastructure build-out requires by 2030.",
+      "source": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "resolution": "By the check date, frontier-lab and hyperscaler AI revenue run-rate is tracking well below the trajectory needed to reach ~$2T/yr by 2030 while capex keeps rising. Fails if AI revenue growth visibly accelerates onto that trajectory.",
+      "check_by": "2027-06-08",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-11",
+      "side": "NLW",
+      "claim": "Anthropic holds durable, structural gatekeeping power over frontier access: it will keep setting terms (guardrails, access tiers) that customers and competitors must accept.",
+      "source": "https://aidailybrief.ai/e/2026-06-11#power-not-policy",
+      "resolution": "By the check date, Anthropic is still imposing access/usage terms that enterprise customers broadly accept without forcing reversal, and retains its enterprise position despite the Fable 5 backlash. Fails if competitive/price pressure forces Anthropic to materially open access or it loses significant enterprise share over trust.",
+      "check_by": "2027-06-11",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-11",
+      "side": "Zitron",
+      "claim": "Anthropic's apparent strength is borrowed: its profitability is an accounting artefact resting on subsidised compute, and its costs still scale linearly with revenue.",
+      "source": "https://www.wheresyoured.at/anthropics-profitability-swindle/",
+      "resolution": "When Anthropic discloses audited financials (e.g. via an IPO prospectus), they show costs scaling with revenue and no durable operating-margin path, with any prior 'profit' tied to one-off discounted-compute timing. Fails if audited figures show a credible, structural path to profitability.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
       "edition": "2026-06-12",
       "side": "NLW",
       "claim": "Total token consumption growth will dwarf any revenue lost to enterprises shifting to cheaper token baskets.",

@@ -1,0 +1,9 @@
+{
+  "match": true,
+  "source_title": "AI Is Slowing Down",
+  "source_url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+  "source_date": "2026-06-08",
+  "same_day": false,
+  "other_side": "Against NLW's claim that Fable 5 'raises the bar' and proves the frontier is still leaping, Zitron argues the opposite: that progress is slowing and each release delivers less. He calls the booster excitement 'a con centered around a technology to ingratiate at the highest cost possible,' and says benchmark theatrics distract from the only number that matters, the roughly two trillion dollars in annual revenue the build-out must generate by 2030 to justify itself. A model that one-shots an impressive demo, in his telling, does nothing to close that gap.",
+  "truth_beneath": "The single variable both men orbit is the rate of real, economically useful capability gain. Both accept the benchmarks jumped and that the model produces striking demos. The empirical question is whether Fable-class capability converts into durable revenue at the scale the infrastructure requires, and the observable that settles it is compute-cost-adjusted enterprise revenue growth measured against the roughly two-trillion-dollar-by-2030 bogey. The residue is worldview: NLW sees one-shotting and hundred-hour runs as a step change in what is possible; Zitron sees demonstrations that do not pay the interest on the data centres. NLW is vindicated if agentic-coding revenue compounds fast enough to service the build-out; Zitron is vindicated if revenue growth flattens while capex balloons. Both are polemicists with incentives, NLW bullish and anti-doom while selling transformation, Zitron bubble-certain and anti-hype while selling the autopsy, so the signal is that both treat the gap between capability and required revenue as the real test. Watch hyperscaler AI revenue run-rate against capex over the next two quarters."
+}

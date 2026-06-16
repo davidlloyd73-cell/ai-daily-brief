@@ -1,0 +1,9 @@
+{
+  "match": true,
+  "source_title": "AI Doesn't Have ROI",
+  "source_url": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
+  "source_date": "2026-06-02",
+  "same_day": false,
+  "other_side": "Zitron's answer to OpenAI declaring a grand new 'phase' is that the underlying business still shows no demonstrable return. He argues nobody can actually measure AI's return on investment, or even the cost of a single task, because token-based billing makes spend unpredictable and hallucination makes output unreliable. He points to Uber reportedly burning its annual token budget in four months and a company that 'accidentally spent $500 million in the space of a month' on models. Splitting AI into consumer and work tiers, on his reading, is market segmentation, not proof that either one pays for itself.",
+  "truth_beneath": "The single variable both men orbit is whether work AI produces measurable economic value that exceeds its cost. Both accept enterprise spend is exploding and that billing has moved to tokens. The empirical question that will resolve it is whether firms keep paying once they can actually measure cost against benefit, and the observable that settles it is audited enterprise renewal rates and net AI margins, not vibes. What is left is pure worldview: NLW reads exploding usage as proof of transformative value; Zitron reads it as unmeasured, possibly destructive spend. NLW is vindicated if heavy users renew and report hard productivity gains at current prices; Zitron is vindicated if spend collapses or stays unjustifiable once measured. Both are polemicists with incentives, NLW bullish and anti-doom while selling adoption, Zitron bubble-certain and anti-hype while selling the takedown, so the signal is that both now concede cost measurement is the central problem. Watch the first clean enterprise ROI data after token billing fully lands."
+}

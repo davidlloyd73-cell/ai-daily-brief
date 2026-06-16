@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Over-tuned safety filters are a clinical problem",
+      "body": "Fable 5 reportedly refused basic biology, flagging 'cancer' as a biosecurity risk and pausing on 'mitochondria'. For a GP or Medical Examiner using a general AI to sketch a differential or explain a mechanism, an over-zealous classifier can block a legitimate clinical query. If you hit a refusal, that is the filter misfiring, not the medicine; rephrase or use a properly clinical tool."
+    },
+    {
+      "title": "Task imagination, GP edition",
+      "body": "NLW's 'hand it responsibilities, not tasks' idea has a safe, modest NHS version: not 'diagnose this patient' but 'watch my inbox of normal results and draft the routine recall letters for me to check'. The win is delegating bounded, auditable admin with a clinician always signing off, which is exactly the scribe model that already works."
+    },
+    {
+      "title": "If the leap is real, if it isn't",
+      "body": "If NLW is right that this is a genuine step change, the practical question for practices is governance: who checks the agent's work. If Zitron is right that it is oversold, the cost of waiting is low and early-adopter trusts can find the failure modes first. Either way, adopt only where the output is checkable by a clinician."
+    }
+  ]
+}

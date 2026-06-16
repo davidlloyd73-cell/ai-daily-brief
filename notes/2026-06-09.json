@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Two different tools for two different jobs",
+      "body": "The consumer-versus-work split maps neatly onto general practice: a chatbot drafting a patient leaflet is a very different beast from an agent reconciling a discharge summary against the problem list. If NLW is right that work AI is the real engine, the NHS value sits in unglamorous back-office automation, not the patient-facing chatbot. If Zitron is right that none of it has measurable ROI yet, adopt only where you can audit the time saved, as you can with a scribe that lets you count minutes per consultation."
+    },
+    {
+      "title": "Token billing is coming to your software",
+      "body": "Both men flag the shift from flat subscriptions to pay-per-use, and it will reach NHS procurement. A scribe priced per consultation behaves very differently from a flat licence when winter pressures double your throughput. Ask any vendor now how costs scale with use before signing."
+    },
+    {
+      "title": "What patients will bring through the door",
+      "body": "As OpenAI's consumer ambitions get louder, expect more patients arriving with chatbot-generated interpretations of their symptoms. A 'consumer-fine' Siri that finally does the basics is a reminder these tools are polished but not clinical; gentle signposting to NHS resources still matters."
+    }
+  ]
+}
