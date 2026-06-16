@@ -1,0 +1,19 @@
+David's AI brief for Monday, the fifteenth of June.
+
+One idea matters today. The weekend's extraordinary standoff between Anthropic and the White House has ground into Monday with no resolution, and the more the host digs into the duelling accounts, the clearer one thing becomes: this fight will not be settled by engineers. The technical merits, he argues, barely matter.
+
+To recap: a jailbreak report, now known to have come from Amazon, escalated into a Commerce Department export ban that forced Anthropic to pull its two most advanced models entirely. But listen to how the two sides describe it. The administration says export controls were a last resort after, in its words, begging Anthropic for hours to cooperate. A source close to Anthropic flatly denies it — there was never any begging, only a declared ninety-minute deadline to take the models down, with no details of the threat. One side says Anthropic wasn't taking a safety issue seriously. The other says the government seized on a trivial bug report to punish and humiliate a company it had already fallen out with.
+
+Notice what's missing from both stories: the engineering. A software engineer put it sharply — can we stop calling a model finding bugs in code it can already see a jailbreak? The guardrails were never meant to stop that. The host's conclusion is that the real problem is interpersonal. The administration felt disrespected; Anthropic believed it could simply reason the White House into agreement. It can't. Anthropic is no longer a scrappy startup. It is one of two leaders in the most consequential industry of the era, and it has to play ball with the government it has, not the one it wishes it had.
+
+Now, the other side. The critic Ed Zitron, publishing the very same day, points at the money. His exclusive reports that OpenAI's losses widened nearly eightfold last year, on spending of some thirty-four billion dollars. The power everyone is fighting over, he argues, is an unprofitable money-incinerator kept alive only by ever-larger fundraising. Strip away the politics and the economics, and both men are circling the same question: is this industry's dominance durable strength, or fragility dressed as destiny? The audited accounts, when they come, will tell.
+
+So what does this mean for general practice? Three thoughts.
+
+First, and most practically: when safety blocks the word cancer. Fable's guardrails were reportedly so broad they refused questions about mitochondria and any prompt containing the word cancer. A model that won't discuss legitimate medicine is worse than useless at the point of care. Test any tool on real clinical language before you trust it, and prefer something tuned for healthcare over a consumer chatbot.
+
+Second, the risk to your tools may be political, not technical. A model vanished in ninety minutes over personalities, not a proven danger. Keep a manual fallback and the ability to switch providers.
+
+And third, don't outsource judgement to conviction. A confident tone, from a model or a vendor, is not evidence it's right. The clinician stays accountable, not the machine.
+
+That's the brief — source, The AI Daily Brief.

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "When 'safety' blocks the word cancer",
+      "body": "The most useful detail for a clinician was buried in the row: Fable's guardrails were reportedly so broad they blocked questions about mitochondria and any prompt containing the word 'cancer.' That is the practical face of heavy safety tuning — a model that refuses legitimate medical queries is worse than useless at the point of care. Before trusting any AI tool clinically, test it on real consultation language — cancer, overdose, self-harm, controlled-drug doses — and prefer tools tuned for healthcare over consumer models with blunt filters."
+    },
+    {
+      "title": "This week's lesson: the risk is political, not just technical",
+      "body": "A frontier model was pulled in ninety minutes over politics and personalities, not a demonstrated safety failure. For a practice that means the threat to a tool you rely on may have nothing to do with how well it works. If NLW is right that the labs are load-bearing, that concentration is itself systemic risk; if Zitron is right that OpenAI's losses jumped roughly eightfold last year, the more likely failure is financial. The precaution is the same either way: a manual fallback and the ability to move providers."
+    },
+    {
+      "title": "Don't outsource judgement to conviction",
+      "body": "A recurring theme was the danger of people convinced they alone understand the remedy. It transfers cleanly to clinical AI: a tool's confident tone is not evidence it is right. Keep the clinician, not the model, accountable for the decision — and treat any 'it's safe, trust us' assurance, from vendor or regulator, as a claim to be tested rather than accepted."
+    }
+  ]
+}

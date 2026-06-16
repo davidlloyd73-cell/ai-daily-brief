@@ -36,6 +36,24 @@
       "resolution": "When OpenAI or Anthropic discloses audited financials via an IPO prospectus, the figures show continued large net losses with no credible near-term operating-margin path. If either company discloses profitability or a clear, dated path to it, the claim fails.",
       "check_by": "2027-06-30",
       "status": "open"
+    },
+    {
+      "edition": "2026-06-15",
+      "side": "NLW",
+      "claim": "The Fable standoff is interpersonal, not technical: it will only be resolved by direct principal-level engagement (Amodei with senior administration figures), not by an engineering fix.",
+      "source": "https://aidailybrief.ai/e/2026-06-15#if-dario-not-on-the-plane",
+      "resolution": "When Fable/Mythos access is restored, contemporaneous reporting attributes the resolution chiefly to direct executive/political engagement (e.g. Amodei meeting administration principals) rather than to a technical remediation of the jailbreak. Fails if access returns via a documented technical fix with no such engagement, or via litigation alone.",
+      "check_by": "2026-12-15",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-15",
+      "side": "Zitron",
+      "claim": "OpenAI has no path to profitability and its losses are compounding, not narrowing (reported up ~8x in 2025 on ~$34B of spending).",
+      "source": "https://www.wheresyoured.at/ais-brokenomics/",
+      "resolution": "OpenAI's audited financials (via IPO prospectus or comparable disclosure) show 2025 net loss materially larger than 2024 and no credible near-term operating-margin path. Fails if OpenAI discloses profitability or a clear, dated path to it.",
+      "check_by": "2027-06-30",
+      "status": "open"
     }
   ]
 }
