@@ -108,6 +108,24 @@
       "resolution": "OpenAI's audited financials (via IPO prospectus or comparable disclosure) show 2025 net loss materially larger than 2024 and no credible near-term operating-margin path. Fails if OpenAI discloses profitability or a clear, dated path to it.",
       "check_by": "2027-06-30",
       "status": "open"
+    },
+    {
+      "edition": "2026-06-16",
+      "side": "NLW",
+      "claim": "Over the next 6-12 months the labs will dramatically increase investment in enablement, training and expanding usage depth — even labs that don't believe everyone should build agents will act as if it's true, to hit quarterly token-growth targets.",
+      "source": "https://aidailybrief.ai/e/2026-06-16",
+      "resolution": "By the check date, major labs (Anthropic and/or OpenAI) have materially expanded enablement/training programmes, customer-success/forward-deployed capacity or usage-depth initiatives. Fails if no such material expansion in lab-led training/enablement is observable.",
+      "check_by": "2027-06-16",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-16",
+      "side": "Zitron",
+      "claim": "Token-based billing is fundamentally unprofitable and has triggered a customer revolt; 'training people to burn more tokens' is demand-manufacture that won't fix the missing ROI, and enterprise token budgets will keep being capped.",
+      "source": "https://www.wheresyoured.at/brokenomics/",
+      "resolution": "By the check date, enterprise token-spend caps persist or spread and there is no credible evidence that lab enablement/training converted into measurable ROI sufficient to lift those budgets. Fails if enablement demonstrably lifts capped budgets with attributable value.",
+      "check_by": "2027-06-15",
+      "status": "open"
     }
   ]
 }

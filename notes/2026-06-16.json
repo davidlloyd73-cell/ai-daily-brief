@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The 'known-ROI bias' is already how the NHS adopts technology",
+      "body": "NLW's sharpest point is that spending caps quietly push people toward safe, do-today's-work-a-bit-faster uses and away from bigger experiments. The NHS lives in that bias permanently — tight budgets, low risk appetite. For a GP that is not all bad: it means AI enters clinical work conservatively, through proven jobs like documentation, rather than speculative autonomy. The cost is that genuinely useful redesign — of admin, of triage — tends to be under-explored."
+    },
+    {
+      "title": "Managing agents, not prompting them, is the skill to build for practice admin",
+      "body": "NLW frames 'managing agents' as a new primitive, closer to management than to IT training. If that is right, the practice skill to develop is supervision: deciding what an agent may do unsupervised (say, drafting recall letters) and what always needs a human signature. If Zitron is right that the value is not there, you have lost little by going slowly; if NLW is right, the early advantage is governance, not enthusiasm."
+    },
+    {
+      "title": "Watch your scribe's price, not its promises",
+      "body": "The whole episode is about token costs colliding with budgets. The practical takeaway for a practice: when scribe contracts renew, the pressure described here — labs needing ever-more revenue and moving everyone to usage billing — may surface as price rises or tighter caps. Budget for it, and keep a manual fallback so a price shock never leaves the clinic without notes."
+    }
+  ]
+}

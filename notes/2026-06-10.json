@@ -1,16 +1,16 @@
 {
   "items": [
     {
-      "title": "Over-tuned safety filters are a clinical problem",
-      "body": "Fable 5 reportedly refused basic biology, flagging 'cancer' as a biosecurity risk and pausing on 'mitochondria'. For a GP or Medical Examiner using a general AI to sketch a differential or explain a mechanism, an over-zealous classifier can block a legitimate clinical query. If you hit a refusal, that is the filter misfiring, not the medicine; rephrase or use a properly clinical tool."
+      "title": "Disagreement without flattery is the upgrade that matters clinically",
+      "body": "NLW's standout was a model that disagreed with him and then updated on new evidence rather than telling him what he wanted to hear. For any clinical decision support that property matters far more than raw capability: a tool that sycophantically confirms your working diagnosis is dangerous. It is worth testing any clinical AI the same way — feed it a deliberately wrong steer and see whether it pushes back or simply agrees."
     },
     {
-      "title": "Task imagination, GP edition",
-      "body": "NLW's 'hand it responsibilities, not tasks' idea has a safe, modest NHS version: not 'diagnose this patient' but 'watch my inbox of normal results and draft the routine recall letters for me to check'. The win is delegating bounded, auditable admin with a clinician always signing off, which is exactly the scribe model that already works."
+      "title": "\"Task imagination\" is interesting; bounded reliability is what a surgery needs",
+      "body": "The episode urges us to hand agents days of responsibility, not minutes of tasks. In a consulting room the relevant test is narrower: does the tool reliably do one bounded job — turning a ten-minute consultation into an accurate, editable note? If NLW is right that the frontier has leapt, scribes will quietly absorb more (coding, referral drafting); if Zitron is right that the output is impressive-looking but unreliable, the risk is exactly the long-running autonomy he warns about. Either way the discipline is unchanged: read every word before it enters the record."
     },
     {
-      "title": "If the leap is real, if it isn't",
-      "body": "If NLW is right that this is a genuine step change, the practical question for practices is governance: who checks the agent's work. If Zitron is right that it is oversold, the cost of waiting is low and early-adopter trusts can find the failure modes first. Either way, adopt only where the output is checkable by a clinician."
+      "title": "Usage-based pricing is the lab's problem becoming the practice's",
+      "body": "The real-world thread here is that token billing makes cost unpredictable. Practices on fixed per-seat scribe contracts are insulated for now, but the labs have moved to usage pricing and vendors may follow. Worth checking whether your scribe contract is a fixed per-seat fee or exposed to token-based pricing, and what happens at renewal."
     }
   ]
 }

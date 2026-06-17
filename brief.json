@@ -1,261 +1,251 @@
 {
-  "date": "2026-06-15",
-  "title": "The Fable 5 Crisis Continues",
-  "dek": "The weekend's Anthropic-vs-White House standoff over Fable 5 grinds into Monday with no resolution \u2014 and NLW walks through the dueling press releases, the Amazon jailbreak report, the wellness-retreat meme, and the dawning realization that this fight was never going to be settled by engineers.",
-  "source": "https://aidailybrief.ai/e/2026-06-15",
+  "date": "2026-06-16",
+  "title": "Why Only AI Training Can Save the Economy",
+  "dek": "A Long Read recorded before the Anthropic-government-Fable blowup, NLW argues that: the American economy now is the AI trade, the labs need ever-more token consumption, enterprises are slamming on cost caps \u2014 and the only thing that squares the circle is mass-scale AI training.",
+  "source": "https://aidailybrief.ai/e/2026-06-16",
   "oneIdea": {
-    "headline": "The Fable 5 fight won't be resolved by engineers \u2014 it's interpersonal.",
-    "summary": "A jailbreak report from Amazon escalated into a Commerce Department export ban that forced Anthropic to pull Fable and Mythos entirely. But the more NLW digs into the dueling accounts, the clearer it gets: the technical merits barely matter. The administration felt Anthropic wasn't taking it seriously; Anthropic thought it could simply reason the White House into agreement. It can't. Anthropic is no longer a scrappy startup \u2014 it's one of two leaders in the most consequential industry of the era, and it has to play ball with the government it has, not the one it wishes it had."
+    "headline": "Only AI training can square what the labs need with what enterprises will pay.",
+    "summary": "The American economy is now the AI trade \u2014 AI investment drives the bulk of GDP growth, and that capital keeps flowing only as long as token consumption keeps rising fast. But enterprises have moved from assisted-AI budgets to agentic-AI reality and are slapping on spending caps. The only force that can give labs their never-ending token growth and give enterprises enough value to lift those caps is mass-scale, high-quality AI training \u2014 moving every knowledge worker from assisted to agentic AI. And right now that training market is an abysmal failure."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "When 'safety' blocks the word cancer",
-        "body": "The most useful detail for a clinician was buried in the row: Fable's guardrails were reportedly so broad they blocked questions about mitochondria and any prompt containing the word 'cancer.' That is the practical face of heavy safety tuning \u2014 a model that refuses legitimate medical queries is worse than useless at the point of care. Before trusting any AI tool clinically, test it on real consultation language \u2014 cancer, overdose, self-harm, controlled-drug doses \u2014 and prefer tools tuned for healthcare over consumer models with blunt filters."
+        "title": "The 'known-ROI bias' is already how the NHS adopts technology",
+        "body": "NLW's sharpest point is that spending caps quietly push people toward safe, do-today's-work-a-bit-faster uses and away from bigger experiments. The NHS lives in that bias permanently \u2014 tight budgets, low risk appetite. For a GP that is not all bad: it means AI enters clinical work conservatively, through proven jobs like documentation, rather than speculative autonomy. The cost is that genuinely useful redesign \u2014 of admin, of triage \u2014 tends to be under-explored."
       },
       {
-        "title": "This week's lesson: the risk is political, not just technical",
-        "body": "A frontier model was pulled in ninety minutes over politics and personalities, not a demonstrated safety failure. For a practice that means the threat to a tool you rely on may have nothing to do with how well it works. If NLW is right that the labs are load-bearing, that concentration is itself systemic risk; if Zitron is right that OpenAI's losses jumped roughly eightfold last year, the more likely failure is financial. The precaution is the same either way: a manual fallback and the ability to move providers."
+        "title": "Managing agents, not prompting them, is the skill to build for practice admin",
+        "body": "NLW frames 'managing agents' as a new primitive, closer to management than to IT training. If that is right, the practice skill to develop is supervision: deciding what an agent may do unsupervised (say, drafting recall letters) and what always needs a human signature. If Zitron is right that the value is not there, you have lost little by going slowly; if NLW is right, the early advantage is governance, not enthusiasm."
       },
       {
-        "title": "Don't outsource judgement to conviction",
-        "body": "A recurring theme was the danger of people convinced they alone understand the remedy. It transfers cleanly to clinical AI: a tool's confident tone is not evidence it is right. Keep the clinician, not the model, accountable for the decision \u2014 and treat any 'it's safe, trust us' assurance, from vendor or regulator, as a claim to be tested rather than accepted."
+        "title": "Watch your scribe's price, not its promises",
+        "body": "The whole episode is about token costs colliding with budgets. The practical takeaway for a practice: when scribe contracts renew, the pressure described here \u2014 labs needing ever-more revenue and moving everyone to usage billing \u2014 may surface as price rises or tighter caps. Budget for it, and keep a manual fallback so a price shock never leaves the clinic without notes."
       }
     ]
   },
   "the_other_side": {
-    "source": "OpenAI Losses Increased Nearly 8X in 2025, With Spending Hitting $34 Billion",
-    "url": "https://www.wheresyoured.at/ais-brokenomics/",
+    "source": "AI's Brokenomics",
+    "url": "https://www.wheresyoured.at/brokenomics/",
     "date": "2026-06-15",
-    "same_day": true,
-    "text": "Today's brief leans on the premise that these labs are precious, load-bearing assets \u2014 Adam Thierer's line that roughly half of last year's stock-market gains rode on AI, and NLW's recurring claim that the economy now rests on them. In a same-day exclusive, Zitron reports the opposite picture from the accounts: OpenAI's losses widened nearly eightfold in 2025 as spending reached thirty-four billion dollars. On his reading, the thing Washington just fought over, and that markets price as inevitable, is an unprofitable money-incinerator sustained only by ever-larger capital raises. The power NLW treats as nation-state-scale, Zitron treats as financial fragility dressed up as destiny."
+    "same_day": false,
+    "text": "NLW's lead is that the American economy now is the AI trade, that the labs need ceaseless token-consumption growth, that enterprises are slamming on spending caps, and that only mass-scale AI training can square the two by lifting people from assisted to agentic AI. Writing the day before, Zitron reads the identical facts as terminal: token-based billing has triggered \"a revolt in the AI industry's customer base,\" because what the tokens cost is far higher than the value they create. He treats the very \"train them to use more\" move NLW predicts as proof of desperation \u2014 labs manufacturing token burn to feed a circular economy with no honest demand beneath it. Where NLW sees training as the bridge to value, Zitron sees an unprofitable product whose training costs alone drown out every dollar of revenue."
   },
   "the_truth_beneath": {
-    "text": "Strip the rhetoric and both men orbit one variable: whether these labs' dominance is durable economic power or capital-dependent fragility. They accept the same facts \u2014 the labs are now central enough that the White House intervenes and markets ride on them, AI drove a large share of recent gains, and OpenAI's spending is colossal. The empirical question is whether that spending converts to a profit path or the losses keep compounding; the observable that settles it is audited financials, with the IPO filings forcing disclosure. For NLW to be vindicated, revenue must scale and the buildout self-fund, so 'the economy rests on this' becomes strength rather than exposure. For Zitron, the losses must keep widening until the raises stop. Both are polemicists \u2014 NLW sells optimism and the anti-doom case, Zitron sells bubble-certainty and anti-hype \u2014 so the signal is where they agree despite opposite priors: both now call the sector's financial footing precarious. Watch OpenAI's next raise and its audited numbers."
+    "text": "Both men orbit one variable: whether enterprise spending caps reflect a fixable adoption gap or a permanent gap between AI's cost and its value. They accept the same facts \u2014 the AI trade now drives much of US growth, Uber, Walmart and Meta have capped or restructured token spend, and the labs will push enablement, training and agent \"loops\" to lift usage. The empirical question that resolves is whether, after training, capped enterprises raise their budgets and show output worth the spend; the observable is token budgets rising post-enablement with attributable revenue, versus caps tightening regardless. The residue is worldview: does training create value or merely engineer demand? NLW is vindicated if enablement lifts caps and value follows; Zitron if training is pure demand-manufacture and ROI stays unmeasurable. Both are polemicists with incentives \u2014 Zitron anti-hype and bubble-certain; NLW anti-doom and, tellingly, himself selling training \u2014 yet both independently centre the same caps and the same \"make people burn more tokens\" turn. Watch next quarter's enterprise token budgets."
   },
   "headlines": [
     {
-      "id": "sacks-ball-in-anthropics-court",
-      "headline": "The admin feels this issue, while serious, should be easily resolved. The ball is in Anthropic's court.",
-      "type": "quote",
+      "id": "economy-is-the-ai-trade",
+      "headline": "The American economy is the AI trade",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "01:20",
-      "attribution": "David Sacks, in a public post",
-      "summary": "Former AI czar David Sacks published a lengthy account framing Anthropic as the holdout: a trusted partner found a jailbreak of Fable's guardrails, the admin asked Dario to fix it or pull the model, and he refused. Sacks cast the export control as a reluctant last resort.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#sacks-ball-in-anthropics-court"
+      "timestamp": "02:00",
+      "attribution": null,
+      "summary": "AI investment isn't a sector story, it's the growth story. In Q1 2026, GDP grew 2% annualized with AI-driven investment contributing roughly 75% of the increase, and AI data centers, hardware and networking hit 1.4% of US GDP \u2014 double the 0.7% prior.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#economy-is-the-ai-trade"
     },
     {
-      "id": "sacks-narrative-construction",
-      "headline": "Sacks's post reads like a press release setting up Dario as the sacrificial lamb",
-      "type": "take",
+      "id": "bigger-than-dot-com",
+      "headline": "AI is a bigger growth engine than the dot-com peak",
+      "type": "insight",
       "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "NLW notes Sacks paints Anthropic as hypocritical \u2014 the safety company not taking a safety issue seriously \u2014 and pointedly shifts from 'Anthropic' to naming Dario Amodei personally. No resignation calls yet, but singling out Dario at least hints at a second way out of the standoff.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#sacks-narrative-construction"
+      "summary": "St. Louis Fed data suggests AI investment accounted for 39% of marginal GDP growth over the trailing four quarters \u2014 bigger than the tech sector's 28% contribution at the height of the dot-com boom. Strip the investment out, and H1 2025 growth would have been a near-standstill 0.1% annualized.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#bigger-than-dot-com"
     },
     {
-      "id": "voorhees-more-likely-story",
-      "headline": "More likely story: the jailbreak wasn't super serious, and the government used the opportunity to punish and humiliate Anthropic.",
-      "type": "quote",
+      "id": "800b-capex",
+      "headline": "$800B in CapEx, justified by revenue now",
+      "type": "insight",
       "segment": "main",
       "timestamp": "03:00",
-      "attribution": "Eric Voorhees",
-      "summary": "AI entrepreneur Eric Voorhees offered the skeptics' counter-narrative: anyone who's received bug reports knows the type, Anthropic thought the halt order was absurd, and the feds seized on prior grievances. 'Anthropic has more credibility on such topics than Washington.'",
-      "link": "https://aidailybrief.ai/e/2026-06-15#voorhees-more-likely-story"
+      "attribution": null,
+      "summary": "Big tech's 2026 AI CapEx will pass $800 billion \u2014 which David Sacks argues could be a 2.5% GDP tailwind this year and 3% next. The build-out was first justified by belief in AI's future; increasingly it's justified specifically by lab revenue growth. That's the contract: as long as token consumption keeps rising fast enough, the capital keeps flowing.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#800b-capex"
     },
     {
-      "id": "narrow-vs-universal-jailbreak",
-      "headline": "Anthropic's defense: a narrow jailbreak isn't a universal one",
+      "id": "seat-math-doesnt-work",
+      "headline": "The seat-math is what fed the bubble fear",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "Last year's AI-bubble narrative wasn't really about Sam Altman quotes or the MIT report claiming 95% of pilots failed \u2014 underneath it was math. At $20\u2013$200 a month times addressable knowledge-worker seats, the TAM simply wasn't enough to justify trillions in infrastructure.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#seat-math-doesnt-work"
+    },
+    {
+      "id": "seats-to-agentic-usage",
+      "headline": "From seats to agentic usage-based consumption",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "The shift we've all lived through is from an assisted, seat-based paradigm to an agentic, usage-based one. Per-person economics move from $20\u2013$200 a month to potentially thousands of dollars \u2014 and the revenue evidence is clear.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#seats-to-agentic-usage"
+    },
+    {
+      "id": "anthropic-run-rate",
+      "headline": "Anthropic's run rate jumped to $47B on Claude Code",
       "type": "insight",
       "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Anthropic argued the bypass shared with them was specific and discrete, not a universal jailbreak that strips all guardrails \u2014 and that perfect jailbreak resistance isn't possible today. NLW notes the guardrails were so broad they blocked questions about mitochondria and any prompt with the word 'cancer,' so a 'jailbreak' could be trivial or catastrophic.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#narrow-vs-universal-jailbreak"
+      "summary": "Anthropic surged to a $30 billion annual run rate, then to $47 billion by late May \u2014 driven not by new $20\u2013$200 seats but by an insane amount of Claude Code usage. OpenAI's revenue jumped similarly via Codex. Enterprises spending $1M a year on Anthropic went from 500 to more than 1,000 in under two months.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#anthropic-run-rate"
     },
     {
-      "id": "amazon-trusted-partner",
-      "headline": "Amazon was the unnamed 'trusted partner'",
+      "id": "token-subsidy-era-ending",
+      "headline": "The token subsidy era is ending",
       "type": "insight",
       "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Multiple outlets identified Amazon as the company that reported the jailbreak to the government Thursday night, showing how it accessed portions of the Mythos model. Anthropic says it notified the government multiple times before the June 9 release with no objections.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#amazon-trusted-partner"
+      "summary": "SemiAnalysis estimates the $200/month Claude plan allowed up to ~$8,000 a month of token value, and the max ChatGPT plan up to $14,000 \u2014 huge subsidies. As AI consumption rises while infrastructure capacity lags, basic market pricing is kicking in and the subsidy era is giving way to a scarcity era.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#token-subsidy-era-ending"
     },
     {
-      "id": "jassy-bessent-central",
-      "headline": "Andy Jassy and Scott Bessent were the central figures",
+      "id": "usage-based-billing-wave",
+      "headline": "Everyone moved to usage-based billing",
       "type": "insight",
       "segment": "main",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "The Wall Street Journal reports the decision to shut Fable down followed conversations between Amazon CEO Andy Jassy and Treasury Secretary Scott Bessent. Officials fielded calls from at least five other companies, but reporting suggests the ban rested almost solely on Amazon's report.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#jassy-bessent-central"
+      "summary": "GitHub Copilot was one of the first to shift to usage-based billing for agentic sessions. Google I/O lowered some premium prices while adding usage limits that push you to the API, and Anthropic sparked a developer dust-up when it moved all third-party-harness usage to usage-based billing.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#usage-based-billing-wave"
     },
     {
-      "id": "graynoise-long-way-from-dangerous",
-      "headline": "Still a long way from dangerous cybersecurity information.",
-      "type": "quote",
+      "id": "token-efficiency-business",
+      "headline": "Every AI business is now a token-efficiency business",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "2025 assisted-AI budgets are colliding with 2026 agentic-AI reality. Uber blew through its entire AI budget in four months and moved to a $1,500/month per-employee cap; Walmart did something similar. NLW's argument: for the foreseeable future every AI business is, in some form, a token-efficiency business.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#token-efficiency-business"
+    },
+    {
+      "id": "model-routing-savings",
+      "headline": "Model routing is the new cost lever",
+      "type": "insight",
       "segment": "main",
       "timestamp": "08:00",
-      "attribution": "Andrew Morris, founder of GrayNoise Intelligence",
-      "summary": "GrayNoise Intelligence founder Andrew Morris said Amazon's researchers got Fable to discuss bugs in at least four platforms \u2014 normally blocked \u2014 but that the info was far from dangerous and available from many other models. The unique risk would be turning vulnerabilities into working exploit code, which researchers reportedly never demonstrated.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#graynoise-long-way-from-dangerous"
+      "attribution": null,
+      "summary": "Harness companies are routing routine tasks to cheaper models and saving state-of-the-art models for what matters. After Factory launched a model-routing feature in early June, it reported $13 million saved in the first 30 days of private preview.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#model-routing-savings"
     },
     {
-      "id": "ninety-minute-deadline",
-      "headline": "The timeline: 90 minutes to comply, no details on the threat",
+      "id": "cheaper-models-everywhere",
+      "headline": "Companies are swapping in cheaper models \u2014 including Chinese ones",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "08:00",
+      "attribution": null,
+      "summary": "DeepSeek became Ramp's top trending SaaS vendor, and startups like Linde shifted off expensive American models. Others post-train their own: Cursor's Composer 2.5 hits Opus- and GPT-5-class levels at a tenth of the cost, and Harvey mixes post-trained open models like Kimi K2.6 with Opus for higher performance at lower cost.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#cheaper-models-everywhere"
+    },
+    {
+      "id": "citadel-token-index",
+      "headline": "That scary token-index chart is being misread",
       "type": "insight",
       "segment": "main",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "Anthropic says it got a 1pm call, was told it had 90 minutes to take Fable and Mythos down over a 'national security threat,' but received no specifics. Formal export-control notice came at 5:30pm; the models went dark around 10pm.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#ninety-minute-deadline"
+      "summary": "The Citadel Securities note showing the Silicon Data LLM token expenditure index rolling over isn't about demand or volume \u2014 it tracks average price paid per million tokens, drawn from third-party routers, so it's biased toward cost-seekers. It does show leading companies hunting for cost advantages for the first time.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#citadel-token-index"
     },
     {
-      "id": "trump-reservations",
-      "headline": "President Trump later signed off on the action despite reservations about its hindering innovation.",
-      "type": "quote",
+      "id": "ipo-token-growth-pressure",
+      "headline": "IPOs will make the token-growth pressure brutal",
+      "type": "take",
       "segment": "main",
-      "timestamp": "10:00",
-      "attribution": "The Wall Street Journal",
-      "summary": "Trump's name was conspicuously absent from the list of decision-makers, which included Bessent, Chief of Staff Susie Wiles, Cyber Director Sean Cairncross, and Commerce Secretary Howard Lutnick. NLW argues Trump now looks like the only primarily innovation-concerned actor left in the White House.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#trump-reservations"
-    },
-    {
-      "id": "begging-vs-deadline",
-      "headline": "Two incompatible stories: 'begging for hours' vs. a flat deadline",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "11:00",
+      "timestamp": "13:00",
       "attribution": null,
-      "summary": "A senior White House official told Politico export controls were 'a last resort after begging them for hours to work with us.' A source close to Anthropic flatly disputed it: 'There was never any begging or asking us to work with us, just a declared ninety-minute deadline.'",
-      "link": "https://aidailybrief.ai/e/2026-06-15#begging-vs-deadline"
+      "summary": "Already, the relationship between lab revenue (token consumption) and available infrastructure capital is the defining one. Once Anthropic and OpenAI IPO, public-market pressure to show massive token-consumption growth every quarter will be relentless \u2014 NVIDIA already gets punished for merely beating estimates by too little.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#ipo-token-growth-pressure"
     },
     {
-      "id": "crux-lack-of-seriousness",
-      "headline": "The crux of the issue was the lack of seriousness that Anthropic was applying to it.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "11:00",
-      "attribution": "A White House official, to Politico",
-      "summary": "A Politico White House source argued that had Anthropic moved to fix or pause access rather than dismissing the report as isolated, the ban never would have happened. Anthropic's calm, rational explanation read in the room as not taking the threat seriously.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#crux-lack-of-seriousness"
-    },
-    {
-      "id": "cory-ward-not-a-jailbreak",
-      "headline": "Can we stop calling an LLM finding bugs in a code base it has access to a jailbreak?",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": "Cory Ward",
-      "summary": "Software engineer Cory Ward argued the guardrails were never meant to stop finding or fixing bugs, only to prevent identifying and weaponizing new exploits. 'There is nothing for Anthropic to actually resolve... It is entirely down to politics.'",
-      "link": "https://aidailybrief.ai/e/2026-06-15#cory-ward-not-a-jailbreak"
-    },
-    {
-      "id": "brundage-greater-than-zero",
-      "headline": "Sounds like some folks at the White House were unaware that Fable has greater than zero cyber abilities.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": "Miles Brundage",
-      "summary": "AI policy researcher Miles Brundage suggested officials thought something unsurprising was surprising \u2014 and that no domain experts at CAISI or the NSA appear to have been looped in. Colin Kremerer added that many knowledgeable White House tech people have left, leaving the room out of its depth.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#brundage-greater-than-zero"
-    },
-    {
-      "id": "wellness-retreat-dispute",
-      "headline": "The wellness-retreat claim becomes the war's flashpoint",
+      "id": "bottoms-up-agent-experimentation",
+      "headline": "Forward-deployed engineers alone won't unlock the value",
       "type": "insight",
+      "segment": "main",
+      "timestamp": "14:00",
+      "attribution": null,
+      "summary": "OpenAI and Anthropic both launched forward-deployed consulting efforts, but value won't come from a few centrally-planned agents. It will come from many diverse knowledge workers building and using agents well \u2014 a bottoms-up experimentation that FDE efforts can't deliver on their own.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#bottoms-up-agent-experimentation"
+    },
+    {
+      "id": "labs-will-invest-in-enablement",
+      "headline": "Prediction: labs pour money into enablement training",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": null,
+      "summary": "Over the next 6\u201312 months, NLW expects dramatic increases in lab investment in enablement, training, and expanding usage depth. Even labs that don't believe everyone should be building agents will be forced to act as if it's true \u2014 because they can't hit quarterly token growth by giving leverage to only a select few.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#labs-will-invest-in-enablement"
+    },
+    {
+      "id": "known-roi-bias",
+      "headline": "Spending caps create a 'known ROI bias'",
+      "type": "take",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "White House sources said Amodei was unreachable at a wellness retreat; Anthropic and reporter Ashley Vance, who was at HQ that day, called it false. Vance: 'The feds seem to be scrambling to try and make an example of Anthropic again. This is not technical, it's petty.'",
-      "link": "https://aidailybrief.ai/e/2026-06-15#wellness-retreat-dispute"
+      "summary": "Caps don't just limit spend \u2014 they shape what gets attempted, pushing people toward basic productivity use cases and away from the big, unseemly experiments that create the next generation of value. NLW calls it the known-ROI bias: without permission, sandboxes and encouragement, people just do today's work a little faster.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#known-roi-bias"
     },
     {
-      "id": "linguistic-kill-shot",
-      "headline": "This seemingly minor detail is what Scott Adams would have called a linguistic kill shot.",
-      "type": "quote",
+      "id": "training-is-the-answer",
+      "headline": "Training is the only thing that solves both sides",
+      "type": "take",
       "segment": "main",
       "timestamp": "17:00",
-      "attribution": "Jeff Cafe",
-      "summary": "Jeff Cafe argued the 'wellness retreat' line was a sticky, image-generating idea no one can unsee \u2014 Dario in a bathrobe with cucumbers on his eyes as someone delivers the news. A reminder that the fight is being waged in memes as much as memos.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#linguistic-kill-shot"
+      "attribution": null,
+      "summary": "The single thing that serves both the labs' need for token growth and enterprises' need for value, NLW argues, is AI training at mass scale and high quality \u2014 moving people from assisted to agentic AI and helping them uncover the use cases that make input costs seem negligible.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#training-is-the-answer"
     },
     {
-      "id": "china-explanation",
-      "headline": "A late-breaking 'it was China all along' theory",
+      "id": "ai-education-market-failure",
+      "headline": "AI education is an abysmal market failure",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "Semafor reported the export controls were imposed partly over suspicions a China-linked group had accessed Mythos, citing 'a person familiar.' The article carried almost no detail, and Anthropic said the White House never raised China in discussions and that its models are already blocked there.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#china-explanation"
+      "summary": "An EY survey found only 28% of organizations have empowered employees to actually change business processes with AI. The World Economic Forum notes the half-life of skills is so short that content decays before a course catalog can ship \u2014 and agents make it far more complicated than prompt engineering ever was.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#ai-education-market-failure"
     },
     {
-      "id": "hegseth-tweet",
-      "headline": "Three months ago, Department of War kicked Anthropic out of our building forever. Every passing day proves why that was the right move.",
+      "id": "datacamp-awareness-without-confidence",
+      "headline": "Awareness without confidence and adoption without judgment.",
       "type": "quote",
       "segment": "main",
       "timestamp": "18:00",
-      "attribution": "Pete Hegseth, Defense Secretary",
-      "summary": "Defense Secretary Pete Hegseth's tweet added fuel to the theory that the crisis is personal \u2014 despite Sacks insisting it isn't. NLW's point: even if making consequential policy on the basis of who likes whom is abhorrent, that's the world Anthropic now has to operate in.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#hegseth-tweet"
+      "attribution": "DataCamp, on enterprise AI training",
+      "summary": "DataCamp surveyed more than 500 enterprise leaders and found video courses are the most common AI training format \u2014 but they produce, in DataCamp's words, awareness without confidence and adoption without judgment.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#datacamp-awareness-without-confidence"
     },
     {
-      "id": "thompson-safety-superpower",
-      "headline": "I respect this alignment and I fear it.",
-      "type": "quote",
+      "id": "agents-new-knowledge-work-primitive",
+      "headline": "Managing agents is a new knowledge-work primitive",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "19:00",
+      "attribution": null,
+      "summary": "We're shifting from a paradigm where we do things to one where we oversee synthetic intelligences that do them for us. Prompting was a new skill but not a new primitive; managing agents is \u2014 and it's far closer to management training than to software training.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#agents-new-knowledge-work-primitive"
+    },
+    {
+      "id": "nlw-training-initiatives",
+      "headline": "NLW is leaning back into training",
+      "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
-      "attribution": "Ben Thompson, Stratechery",
-      "summary": "Ben Thompson's 'Anthropic's Safety Superpower' argued every contested Fable decision traces to safety because Anthropic genuinely believes it alone takes superintelligence seriously. He respects how effective that conviction is \u2014 and fears people convinced they know what humanity needs building technology that could rival nation-states.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#thompson-safety-superpower"
-    },
-    {
-      "id": "nlw-only-ones-who-know",
-      "headline": "When people decide they alone know the remedy, things go bad fast",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "21:00",
       "attribution": null,
-      "summary": "NLW says he's seen this dynamic up close: the moment people convince themselves they're the only ones sufficiently concerned and the only ones with the right fix, danger follows \u2014 and the stakes are radically amplified by the power inherent in superintelligence.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#nlw-only-ones-who-know"
-    },
-    {
-      "id": "thierer-disastrous-policy",
-      "headline": "Like the FDA demanding everyone stop drinking milk \u2014 if milk was 50% of last year's stock-market gains.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": "Adam Thierer, RSI senior fellow",
-      "summary": "RSI's Adam Thierer argued that whatever got us here, the policy is disastrous on the merits: a leading US AI company forced to pull a product millions used over non-public, unexplained concerns. He framed it as a major escalation in centralizing control over advanced computation \u2014 by an administration that called winning the AI race a priority.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#thierer-disastrous-policy"
-    },
-    {
-      "id": "anthropic-sends-staff-dc",
-      "headline": "Anthropic dispatches its top security researchers to DC",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": null,
-      "summary": "The WSJ reports Anthropic sent senior technical staff \u2014 Nicholas Carlini, risk-evaluation lead Logan Graham, and head of safeguards David Orr \u2014 to meet government security experts and de-escalate. Separately, cybersecurity leaders led by ex-Facebook CSO Alex Stamos published an open letter urging Lutnick and Cairncross to lift the directives.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#anthropic-sends-staff-dc"
-    },
-    {
-      "id": "if-dario-not-on-the-plane",
-      "headline": "If Dario's not on the plane, nothing will change",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "NLW's read: the resolution won't be primarily technical, it'll be interpersonal. Anthropic thought it could reason the White House into its view; it can't. Investor Melinda Chu put the bottom line bluntly \u2014 sending senior staff won't matter unless Amodei himself shows up.",
-      "link": "https://aidailybrief.ai/e/2026-06-15#if-dario-not-on-the-plane"
+      "summary": "He's released three free self-directed programs \u2014 the AIDB New Year's program, Claw Camp, and Agent OS (an agentic operating system for the Claude Code / Codex era) \u2014 and teases new initiatives with Superintelligent, 'returning to our roots.' He points to Riley Brown's how-to videos and sponsor Section as bright spots, but says it's nowhere near enough.",
+      "link": "https://aidailybrief.ai/e/2026-06-16#nlw-training-initiatives"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-15.mp3",
-  "generated": "2026-06-16T19:43:03Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-16.mp3",
+  "generated": "2026-06-17T19:13:51Z"
 }

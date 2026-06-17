@@ -1,16 +1,16 @@
 {
   "items": [
     {
-      "title": "Data retention is the bit that matters for the NHS",
-      "body": "The loudest objection to Fable 5 was a 30-day retention-with-human-review policy that applied even to customers promised zero retention, prompting Microsoft to restrict it within an hour. Under UK GDPR and the common-law duty of confidentiality that is the whole game: never put identifiable patient data into a consumer AI, and confirm any clinical tool contractually guarantees no human review and no training on your inputs."
+      "title": "Silent model changes break clinical assurance",
+      "body": "The detail that lit the fire was 'silent nerfing' — the model you validated may quietly become a different model. For an AI scribe that is a governance problem, not a curiosity: if the underlying model changes without notice, your local testing no longer guarantees how it behaves. Ask vendors for version pinning and change notification. As the episode put it, benchmarks assume the model you tested is the model you get — and in clinical use that assumption has to hold."
     },
     {
-      "title": "Concentration of power, concentration of dependence",
-      "body": "NLW's worry that one lab could gatekeep who builds the future has a quieter NHS echo: if a single vendor underpins your scribe, your letters and your triage, a policy change or price rise lands on you with no alternative. If Zitron is right that these firms are financially shaky, vendor lock-in becomes a continuity-of-care risk, not just a budget one. Keep your data portable."
+      "title": "Data retention is the line that matters most for the NHS",
+      "body": "Anthropic's thirty-day data-retention demand is the thread to pull. Whatever you make of the politics, any tool retaining identifiable consultation content raises an information-governance question for the practice, not just the supplier. Confirm where UK patient data is processed and stored, the retention window, and that a DPIA is in place. If Zitron is right that the labs are financially squeezed, expect pressure to retain or monetise data; if NLW is right that they hold unusual power, the concentration itself is the risk. The same precaution answers both."
     },
     {
-      "title": "Trust, once broken",
-      "body": "The episode is a case study in how fast professional users abandon a tool over trust rather than capability. The same holds in practice: clinician confidence in an AI scribe survives on transparency about what it stores and where. Choose vendors who tell you plainly."
+      "title": "Concentration is the real story — keep your options open",
+      "body": "The 'power' debate is really about concentration in one provider. The practical response is ordinary procurement discipline: prefer tooling that is portable across models, with clear exit rights, so that one provider's abrupt policy swing cannot strand your clinic."
     }
   ]
 }
