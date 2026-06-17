@@ -207,6 +207,108 @@ Generated {datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC.</footer>
 </div></body></html>"""
 
 
+def render_md(ed, notes):
+    """Clean Markdown mirror of an edition - the plain-text version the llms.txt
+    convention recommends offering agents alongside the HTML page."""
+    date = ed["date"]
+    nice = datetime.strptime(date, "%Y-%m-%d").strftime("%A %d %B %Y")
+    canonical = ed.get("canonicalUrl", f"{SITE}/e/{date}")
+    dur = f" · {ed['durationMin']} min listen" if ed.get("durationMin") else ""
+    nuggets = ed.get("nuggets", [])
+
+    L = []
+    L.append("---")
+    L.append(f"title: David's AI Daily Brief — {date}")
+    L.append(f"date: {date}")
+    L.append(f"source: {canonical}")
+    L.append("note: Personal, non-commercial distillation of The AI Daily Brief"
+             " podcast. GP's Corner is AI commentary, not from the podcast.")
+    L.append("---")
+    L.append("")
+    L.append("# David's AI Daily Brief")
+    L.append("")
+    L.append(f"**{nice}{dur}**")
+    L.append("")
+    if ed.get("title"):
+        L.append(f"## {ed['title']}")
+        L.append("")
+    if ed.get("dek"):
+        L.append(f"_{ed['dek']}_")
+        L.append("")
+    L.append(f"Source: {canonical}")
+    L.append("")
+    if (ROOT / "audio" / f"{date}.mp3").exists():
+        L.append(f"Audio: {SITE_URL}/audio/{date}.mp3")
+        L.append("")
+
+    thesis = ed.get("thesis") or {}
+    if thesis:
+        L.append("## The One Idea")
+        L.append("")
+        L.append(f"### {thesis.get('headline','')}")
+        L.append("")
+        L.append(thesis.get("sub", ""))
+        L.append("")
+
+    zpath = ROOT / "zitron" / f"{date}.json"
+    z = json.loads(zpath.read_text()) if zpath.exists() else None
+    if z and z.get("match"):
+        nice_src = datetime.strptime(z["source_date"], "%Y-%m-%d").strftime("%-d %B %Y")
+        L.append("## The Other Side")
+        L.append("")
+        L.append(z["other_side"])
+        L.append("")
+        L.append(f'Source: Ed Zitron, "{z["source_title"]}", {nice_src} — {z["source_url"]}')
+        L.append("")
+        L.append("## The Truth Beneath")
+        L.append("")
+        L.append(z["truth_beneath"])
+        L.append("")
+
+    if notes and notes.get("items"):
+        L.append("## GP's Corner")
+        L.append("")
+        L.append("_Claude's notes on what today means for UK general practice and the"
+                 " NHS - commentary, not from the podcast itself._")
+        L.append("")
+        for i in notes["items"]:
+            L.append(f"### {i['title']}")
+            L.append("")
+            L.append(i["body"])
+            L.append("")
+
+    takes = [n for n in nuggets if n.get("type") == "take"]
+    if takes:
+        L.append("## NLW's Takes")
+        L.append("")
+        for t in takes:
+            L.append(f"### {t['headline']}")
+            L.append("")
+            L.append(t["body"])
+            L.append("")
+
+    if nuggets:
+        L.append("## All Headlines, Briefly")
+        L.append("")
+        for n in nuggets:
+            anchor = f"{canonical}#{n['id']}" if n.get("id") else canonical
+            head = n.get("headline", "")
+            if n.get("type") == "quote":
+                head = f"“{head}”"
+            attr = f" — {n['attribution']}" if n.get("attribution") else ""
+            ts = f" ({n['ts']})" if n.get("ts") else ""
+            L.append(f"- [{head}]({anchor}){attr}{ts}")
+        L.append("")
+
+    L.append("---")
+    L.append("")
+    L.append("All editorial content © The AI Daily Brief (host: Nathaniel Whittemore). "
+             "Personal, non-commercial reading page assembled by Claude for David Lloyd, "
+             "using the podcast's own machine-readable feeds. GP's Corner is Claude's commentary.")
+    L.append("")
+    return "\n".join(L)
+
+
 def render_archive(manifest):
     rows = "".join(
         f"<li><a href='/a/{e['date']}.html'>{datetime.strptime(e['date'],'%Y-%m-%d').strftime('%a %d %b %Y')} — {escape(e['title'])}</a></li>"
@@ -272,6 +374,7 @@ def main():
     page = render(ed, notes)
     (ROOT / "a").mkdir(exist_ok=True)
     (ROOT / "a" / f"{date}.html").write_text(page)
+    (ROOT / "a" / f"{date}.md").write_text(render_md(ed, notes))
 
     # manifest
     data_dir = ROOT / "data"
@@ -288,6 +391,7 @@ def main():
     if latest == date:
         # fix relative links for root copy (archive.html link already root-relative)
         (ROOT / "index.html").write_text(page)
+        (ROOT / "index.md").write_text(render_md(ed, notes))
     (ROOT / "archive.html").write_text(render_archive(manifest))
     (ROOT / "feed.xml").write_text(render_feed(manifest))
 

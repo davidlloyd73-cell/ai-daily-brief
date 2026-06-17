@@ -5,15 +5,21 @@
 
 ## Today
 
-- [Latest brief](https://davids-ai-brief.netlify.app/): today's edition (HTML)
-- [Structured data](https://davids-ai-brief.netlify.app/brief.json): today's brief as JSON
+- [Latest brief (Markdown)](https://davids-ai-brief.netlify.app/index.md): today's edition as clean Markdown — preferred for agents
+- [Latest brief (HTML)](https://davids-ai-brief.netlify.app/): today's edition, human-readable
+- [Structured data (JSON)](https://davids-ai-brief.netlify.app/brief.json): today's brief as JSON
 
 ## Archive & audio
 
-- [Archive](https://davids-ai-brief.netlify.app/archive): all past briefs
-- [Podcast feed](https://davids-ai-brief.netlify.app/feed.xml): daily 3-min audio (RSS)
+- [Archive](https://davids-ai-brief.netlify.app/archive): all past briefs (HTML)
+- Per-edition Markdown: https://davids-ai-brief.netlify.app/a/<YYYY-MM-DD>.md
+- [Podcast feed](https://davids-ai-brief.netlify.app/feed.xml): daily audio brief (RSS)
 
 ## Notes for agents
 
-- Each edition has fixed sections: One Idea, GP's Corner, NLW's Takes, Headlines.
+- For reading, prefer the Markdown (.md) mirrors: every edition is published at
+  /index.md (latest) and /a/<date>.md (archive), alongside the HTML.
+- Each edition has fixed sections: One Idea, The Other Side, The Truth Beneath,
+  GP's Corner, NLW's Takes, All Headlines.
 - GP's Corner is AI commentary, not from the podcast. Source links resolve to aidailybrief.ai.
+- All editorial content © The AI Daily Brief. This is a personal, non-commercial reading page.
