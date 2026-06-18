@@ -126,6 +126,24 @@
       "resolution": "By the check date, enterprise token-spend caps persist or spread and there is no credible evidence that lab enablement/training converted into measurable ROI sufficient to lift those budgets. Fails if enablement demonstrably lifts capped budgets with attributable value.",
       "check_by": "2027-06-15",
       "status": "open"
+    },
+    {
+      "edition": "2026-06-17",
+      "side": "NLW",
+      "claim": "OpenAI's 2025 loss is largely a one-time non-cash accounting charge ($41.55bn from the for-profit conversion), and the underlying inference business is already profitable — $13.07bn revenue on $7.5bn cost of revenue — so the company is far healthier than the $38.5bn headline loss implies.",
+      "source": "https://aidailybrief.ai/e/2026-06-17",
+      "resolution": "A future audited disclosure or IPO prospectus shows that, with the one-time fair-value/conversion charge excluded, OpenAI's operating loss narrows year-over-year and inference/gross profit scales. Fails if operating losses (ex one-time items) keep widening with no margin path.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-17",
+      "side": "Zitron",
+      "claim": "OpenAI's losses are mounting dramatically year over year (operating loss of $20.92bn in 2025 on $34bn of spending) with no visible path to sustainability or profitability.",
+      "source": "https://www.wheresyoured.at/exclusive-openai-financials/",
+      "resolution": "OpenAI's next audited figures show its operating loss (excluding one-time conversion charges) larger than 2025 with no credible near-term operating-margin path. Fails if OpenAI discloses a narrowing operating loss or a clear dated path to operating profitability.",
+      "check_by": "2027-06-30",
+      "status": "open"
     }
   ]
 }

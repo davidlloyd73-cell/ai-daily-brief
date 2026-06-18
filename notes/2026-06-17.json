@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The model under your scribe could be switched off by a government, not a vendor",
+      "body": "The hardest fact in today's edition is not financial — it is that a frontier model was pulled worldwide for foreign nationals by government order, the first kill switch of its kind. Most AI scribes sit on top of one of these big models. For a UK practice that is a continuity question worth asking your supplier plainly: which underlying model do you depend on, and what is your fallback if it is suddenly restricted? Keep a manual note-taking habit alive so a clinic is never left without documentation if access changes overnight."
+    },
+    {
+      "title": "If Zitron is right, expect price rises; if NLW is right, expect more model churn",
+      "body": "If Zitron's reading holds and OpenAI's losses really are structural, the bill eventually lands on customers — so a scribe contract renewal may bring higher prices or tighter usage caps; budget defensively. If NLW's reading holds and the inference business is genuinely profitable, the bigger disruption is competitive churn — cheaper rivals like the Cursor-style entrants undercutting incumbents — which means the scribe that is best value today may not be in a year. Either way, avoid long lock-ins and keep your data portable."
+    },
+    {
+      "title": "'Profitable on inference' is the number to watch, and it has a clinical analogue",
+      "body": "NLW's overlooked point — that selling tokens may already be profitable even while the company loses money overall — is the right lens for judging any AI tool's durability: separate the running cost of the service you actually use from the vendor's investment burn. A scribe vendor can be sustainable on the per-consultation cost even if its parent is haemorrhaging cash on training. When assessing tools for the practice, ask for the unit economics of the service you consume, not the headline valuation."
+    }
+  ]
+}
