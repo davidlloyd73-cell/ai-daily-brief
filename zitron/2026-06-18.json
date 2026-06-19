@@ -1,0 +1,9 @@
+{
+  "match": true,
+  "source_title": "AI's Brokenomics",
+  "source_url": "https://www.wheresyoured.at/brokenomics/",
+  "source_date": "2026-06-15",
+  "same_day": false,
+  "other_side": "Zitron argues the Fable gap is a sideshow next to the real problem: the labs' \"business models don't work.\" On his telling, the scramble toward cheaper open weights and smart routing is not a market maturing but the AI \"tokenomics bubble\" bursting — enterprises moved to usage-based billing in early 2026, saw the true cost of the tokens they were burning, and revolted, forcing providers toward \"drastic\" price cuts. He contends most users will simply refuse to pay AI's actual cost, so squeezing the same work out of six-cent models is a symptom of that revolt, not evidence of a healthy near-frontier alternative.",
+  "truth_beneath": "Both men orbit one variable: the unit cost of useful AI inference set against what customers will actually pay. Both accept the same facts — token prices are collapsing, with cheap open-weight models running a task for cents where frontier models charge dimes, and enterprises balked once moved to usage-based billing. The empirical question that resolves it is whether routed and open-weight stacks deliver near-frontier quality on real production work while providers stay gross-margin positive; the observable is inference margins and enterprise renewal and spend over the next few quarters. The residue is pure worldview: Whittemore reads cheap models as a healthy efficiency shift, Zitron as subsidy unwinding. Whittemore is vindicated if routed stacks hold quality and spend grows; Zitron if the price war is just the subsidy ending and renewals fall. Both are polemicists — Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype, each with a newsletter to sell — so the signal is where they agree despite opposite priors: per-token economics are now the whole game. Watch enterprise renewal rates next quarter."
+}

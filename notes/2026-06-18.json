@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Which model sits behind the scribe?",
+      "body": "The edition's real lesson for practices is that the model under an AI scribe or triage tool is now a moving, swappable part — and cheaper open-weight models are closing the gap on the expensive frontier ones. If NLW is right, a surgery could get near-equivalent transcription and summary quality at a fraction of today's cost as suppliers route to cheaper models. If Zitron is right, today's low prices are subsidised and will rise once the bills come due, so a practice should ask its scribe vendor what model it uses, whether that can change without notice, and what happens to the price at renewal."
+    },
+    {
+      "title": "Sovereignty and patient data",
+      "body": "The G7 story — that access to US frontier models can be switched off by a government overnight — matters more for the NHS than the cost debate. A tool that depends on a single US model could go dark with no warning. For anything touching patient-identifiable data, the safer position is a supplier that can fail over to an alternative model (including UK or EU-hosted open weights) and that keeps data within UK jurisdiction, rather than one locked to a single frontier provider."
+    },
+    {
+      "title": "Cheaper is not the same as safe",
+      "body": "A model that is six cents instead of forty-nine and scores well on coding benchmarks is not automatically fit for clinical summarisation, where a quiet omission matters far more than in a landing page. The edition itself notes benchmarks didn't match reality for one model. Whatever sits behind a scribe, the clinician check of the generated note before it enters the record stays the safeguard — cheaper inference changes the economics, not the medico-legal responsibility."
+    }
+  ]
+}

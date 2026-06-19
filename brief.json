@@ -1,311 +1,291 @@
 {
-  "date": "2026-06-17",
-  "title": "A Big Shift in the AI Race",
-  "dek": "Anthropic's Mythos/Fable shutdown drags into its fifth day with no resolution in sight \u2014 while Elon Musk uses SpaceX's blockbuster IPO to swallow Cursor for $60B and reshape the model race. The throughline: AI is being pulled ever deeper under national security control, and the race just got more dynamic than anyone expected.",
-  "source": "https://aidailybrief.ai/e/2026-06-17",
+  "date": "2026-06-18",
+  "title": "The Models Trying to Fill the Fable Gap",
+  "dek": "With Fable still dark, the G7 turns into a global plea for access to US frontier models \u2014 and enterprises stop waiting, MacGyvering Chinese open weights, compound APIs, and smart routing into something that gets close to Fable-level performance.",
+  "source": "https://aidailybrief.ai/e/2026-06-18",
   "oneIdea": {
-    "headline": "The AI race just got dynamic again \u2014 and SpaceX is the one rewriting it.",
-    "summary": "Just as everyone settled into the agentic phase, the board reshuffled. Anthropic is stuck in a regulatory standoff, OpenAI's leaked financials reveal a profitable inference business hiding under accounting noise, and Elon Musk parlayed a 49%-pop SpaceX IPO into a $60B Cursor acquisition. The connective tissue: AI infrastructure, frontier models, and access are increasingly being placed under national security control \u2014 and the race is far more fluid than the 'settled' sentiment suggested."
+    "headline": "The Fable gap is forcing everyone to get sophisticated about which models they use.",
+    "summary": "A week into the US government's effective ban of Anthropic's Fable and Mythos, the fallout is splitting two ways. Globally, the G7 became a scene of US allies pleading for guaranteed access while quietly realizing they need independence. For enterprises, the lost model is fuel for a shift that was already coming \u2014 away from slapping the most powerful state-of-the-art model on every task and toward open weights, compound APIs, and smart routing that hit near-frontier performance at a fraction of the cost."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "The model under your scribe could be switched off by a government, not a vendor",
-        "body": "The hardest fact in today's edition is not financial \u2014 it is that a frontier model was pulled worldwide for foreign nationals by government order, the first kill switch of its kind. Most AI scribes sit on top of one of these big models. For a UK practice that is a continuity question worth asking your supplier plainly: which underlying model do you depend on, and what is your fallback if it is suddenly restricted? Keep a manual note-taking habit alive so a clinic is never left without documentation if access changes overnight."
+        "title": "Which model sits behind the scribe?",
+        "body": "The edition's real lesson for practices is that the model under an AI scribe or triage tool is now a moving, swappable part \u2014 and cheaper open-weight models are closing the gap on the expensive frontier ones. If NLW is right, a surgery could get near-equivalent transcription and summary quality at a fraction of today's cost as suppliers route to cheaper models. If Zitron is right, today's low prices are subsidised and will rise once the bills come due, so a practice should ask its scribe vendor what model it uses, whether that can change without notice, and what happens to the price at renewal."
       },
       {
-        "title": "If Zitron is right, expect price rises; if NLW is right, expect more model churn",
-        "body": "If Zitron's reading holds and OpenAI's losses really are structural, the bill eventually lands on customers \u2014 so a scribe contract renewal may bring higher prices or tighter usage caps; budget defensively. If NLW's reading holds and the inference business is genuinely profitable, the bigger disruption is competitive churn \u2014 cheaper rivals like the Cursor-style entrants undercutting incumbents \u2014 which means the scribe that is best value today may not be in a year. Either way, avoid long lock-ins and keep your data portable."
+        "title": "Sovereignty and patient data",
+        "body": "The G7 story \u2014 that access to US frontier models can be switched off by a government overnight \u2014 matters more for the NHS than the cost debate. A tool that depends on a single US model could go dark with no warning. For anything touching patient-identifiable data, the safer position is a supplier that can fail over to an alternative model (including UK or EU-hosted open weights) and that keeps data within UK jurisdiction, rather than one locked to a single frontier provider."
       },
       {
-        "title": "'Profitable on inference' is the number to watch, and it has a clinical analogue",
-        "body": "NLW's overlooked point \u2014 that selling tokens may already be profitable even while the company loses money overall \u2014 is the right lens for judging any AI tool's durability: separate the running cost of the service you actually use from the vendor's investment burn. A scribe vendor can be sustainable on the per-consultation cost even if its parent is haemorrhaging cash on training. When assessing tools for the practice, ask for the unit economics of the service you consume, not the headline valuation."
+        "title": "Cheaper is not the same as safe",
+        "body": "A model that is six cents instead of forty-nine and scores well on coding benchmarks is not automatically fit for clinical summarisation, where a quiet omission matters far more than in a landing page. The edition itself notes benchmarks didn't match reality for one model. Whatever sits behind a scribe, the clinician check of the generated note before it enters the record stays the safeguard \u2014 cheaper inference changes the economics, not the medico-legal responsibility."
       }
     ]
   },
   "the_other_side": {
-    "source": "Exclusive: OpenAI Losses Increased Nearly 8X in 2025, With Spending Hitting $34 Billion",
-    "url": "https://www.wheresyoured.at/exclusive-openai-financials/",
+    "source": "AI's Brokenomics",
+    "url": "https://www.wheresyoured.at/brokenomics/",
     "date": "2026-06-15",
     "same_day": false,
-    "text": "This is the very leak NLW builds half his episode on \u2014 Zitron is the one who obtained and published OpenAI's audited 2025 figures, verified by the Financial Times. He reads them as terminal where NLW reads them as misunderstood. By his account OpenAI took $13.07 billion in revenue against $34 billion in total costs and a $20.92 billion operating loss, with research and development alone at $19.18 billion. He stresses that operating losses are 'mounting year-over-year at a dramatic rate' and says plainly he is 'not sure how this company finds a way toward any kind of sustainability or profitability.' Where NLW lifts out the inference line \u2014 $13 billion of revenue on $7.5 billion cost of revenue \u2014 as the overlooked good-news story, Zitron treats it as a rounding detail beside a loss from operations that dwarfs every dollar of revenue."
+    "text": "Zitron argues the Fable gap is a sideshow next to the real problem: the labs' \"business models don't work.\" On his telling, the scramble toward cheaper open weights and smart routing is not a market maturing but the AI \"tokenomics bubble\" bursting \u2014 enterprises moved to usage-based billing in early 2026, saw the true cost of the tokens they were burning, and revolted, forcing providers toward \"drastic\" price cuts. He contends most users will simply refuse to pay AI's actual cost, so squeezing the same work out of six-cent models is a symptom of that revolt, not evidence of a healthy near-frontier alternative."
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: whether OpenAI's headline loss is a fundamentally unprofitable business or accounting noise sitting on top of a viable core. They accept the same audited facts \u2014 $13.07bn revenue, $7.5bn cost of revenue, $34bn total costs, a $20.92bn operating loss, and a one-time $41.55bn fair-value charge from the for-profit conversion that inflates the $38.5bn headline. The empirical question that resolves it is whether, once that one-off charge is stripped out, the operating loss narrows as inference gross profit scales faster than R&D and sales grow; the observable is OpenAI's next audited statement or IPO prospectus showing the ex-one-off operating-margin trajectory. The residue is pure worldview: is the gap between cost and value structural, or a phase of investment ahead of a real engine? NLW is vindicated if the inference profit scales and operating losses shrink ex the conversion charge; Zitron if losses keep mounting with no margin path. Both are polemicists with incentives \u2014 NLW anti-doom and reaching for the bullish read, Zitron bubble-certain and the man who chose to publish the leak \u2014 yet both accept the same numbers and even agree the $13bn-on-$7.5bn inference line is real; they differ only on whether it matters. Watch the next audited disclosure and whether the operating loss, stripped of the conversion charge, actually falls."
+    "text": "Both men orbit one variable: the unit cost of useful AI inference set against what customers will actually pay. Both accept the same facts \u2014 token prices are collapsing, with cheap open-weight models running a task for cents where frontier models charge dimes, and enterprises balked once moved to usage-based billing. The empirical question that resolves it is whether routed and open-weight stacks deliver near-frontier quality on real production work while providers stay gross-margin positive; the observable is inference margins and enterprise renewal and spend over the next few quarters. The residue is pure worldview: Whittemore reads cheap models as a healthy efficiency shift, Zitron as subsidy unwinding. Whittemore is vindicated if routed stacks hold quality and spend grows; Zitron if the price war is just the subsidy ending and renewals fall. Both are polemicists \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype, each with a newsletter to sell \u2014 so the signal is where they agree despite opposite priors: per-token economics are now the whole game. Watch enterprise renewal rates next quarter."
   },
   "headlines": [
     {
-      "id": "anthropic-sends-technical-team",
-      "headline": "Anthropic sends hackers, not lobbyists, to Washington",
+      "id": "g7-ai-leaders",
+      "headline": "The AI industry shows up at the G7 in force",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "00:00",
-      "attribution": null,
-      "summary": "Five days into the Mythos/Fable shutdown, Anthropic's leaders touched down in DC for talks that appear largely technical \u2014 sending Chief Compute Officer Tom Brown, External Affairs head Sarah Heck, red-teaming head Logan Graham, and security researcher Nicholas Carlini. The makeup of the delegation hints at how Anthropic is framing the dispute.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#anthropic-sends-technical-team"
-    },
-    {
-      "id": "carlini-changed-mind",
-      "headline": "It's pretty clear to me that these current models are better vulnerability researchers than I am.",
-      "type": "quote",
-      "segment": "headlines",
       "timestamp": "01:20",
-      "attribution": "Nicholas Carlini, Anthropic security researcher (via The Wall Street Journal)",
-      "summary": "The WSJ profiled Nicholas Carlini, a respected hacker and professional AI-skeptic who changed his mind after using Mythos to find never-before-discovered bugs in Ghost and Linux. He warned the attacker-defender balance of the last two decades 'seems like it's probably coming to an end.'",
-      "link": "https://aidailybrief.ai/e/2026-06-17#carlini-changed-mind"
+      "attribution": null,
+      "summary": "Sam Altman, Demis Hassabis, Meta's Alexander Wang, and Dario Amodei joined the US contingent, with Mistral's Arthur Mensch on the French side and Cohere's Aidan Gomez with Canada. It's the first time the G7 has seen such heavy AI-industry representation \u2014 and it makes more sense in the context of the effective banning of Mythos and Fable.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#g7-ai-leaders"
     },
     {
-      "id": "not-just-fable-ban",
-      "headline": "This is a Mythos ban, not just a Fable ban",
+      "id": "access-not-a-given",
+      "headline": "Access to US frontier models is no longer a given",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "01:50",
+      "attribution": null,
+      "summary": "At a meeting all about international cooperation, the global community is for the first time reckoning with the idea that access to US-made frontier models can be withheld. The pivotal discussion came at a closed-door lunch with Trump flanked by Hassabis and Altman, and Amodei seated directly across the table next to Macron.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#access-not-a-given"
+    },
+    {
+      "id": "amodei-structured-access",
+      "headline": "Amodei and Hassabis lead the call for AI cooperation",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "Commerce signaled willingness to let consumer-facing Fable come back online once Anthropic fixes the jailbreak \u2014 but Mythos is another question entirely. The re-release of Fable is actually fairly low on the government's list of concerns.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#not-just-fable-ban"
+      "summary": "Amodei argued international cooperation should include structured access to frontier models, chip trade deals that exclude China, and a unified approach to risks like cyberattacks and bioterrorism, urging leaders to resist the temptation to splinter over advanced AI deployment.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#amodei-structured-access"
     },
     {
-      "id": "glasswing-expansion-trigger",
-      "headline": "A South Korean telecom may have triggered the schism",
+      "id": "macron-kill-switch",
+      "headline": "The Trump administration has made it clear the US government holds the AI kill switch.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "02:30",
+      "attribution": "Emmanuel Macron, French President, at the G7",
+      "summary": "Macron made a forceful plea for the US not to keep frontier AI to itself, arguing the US and Europe share an interest in keeping the technology from authoritarian regimes. \"So let us move forward together,\" he said.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#macron-kill-switch"
+    },
+    {
+      "id": "altman-international-forum",
+      "headline": "We need an international forum that establishes globally accepted standards for testing.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "03:20",
+      "attribution": "Sam Altman, OpenAI CEO",
+      "summary": "Altman aligned with the view that AI is now in the domain of government and shouldn't be left to corporate policy alone \u2014 the technology must be shaped by people, democratic institutions, and society, not just by the companies building the most capable systems.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#altman-international-forum"
+    },
+    {
+      "id": "europe-pleading",
+      "headline": "Europe expected a China front, found itself pleading for access",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "03:00",
+      "timestamp": "04:40",
       "attribution": null,
-      "summary": "The Washington Post reports Anthropic added ~50 firms to Project Glasswing weeks ago, then took days to identify the new recipients. When the government got the list, it found a South Korean telecom suspected of ties to the Chinese government \u2014 prompting officials to consider export controls to claw back the technology.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#glasswing-expansion-trigger"
+      "summary": "Euronews framed the EU policy mood as particularly sour. Leaders expected to discuss forming a united front against China and rebuilding supply chains around it \u2014 instead they found themselves pleading for access to frontier models critical to shared financial infrastructure. The UK's Starmer requested an export-control carve-out for British nationals and was denied.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#europe-pleading"
     },
     {
-      "id": "wrong-fork",
-      "headline": "They came to every fork in the road and took the wrong fork.",
-      "type": "quote",
+      "id": "europe-gpu-lag",
+      "headline": "Europe is lagging badly on putting GPUs on racks",
+      "type": "insight",
       "segment": "headlines",
-      "timestamp": "04:00",
-      "attribution": "Administration official (via Axios)",
-      "summary": "An administration official told Axios that Anthropic knew the model was susceptible to a jailbreak and distributed it anyway. Another source was blunter: 'Everybody said Anthropic was a bad actor... Now those people are questioning that. They screwed us.'",
-      "link": "https://aidailybrief.ai/e/2026-06-17#wrong-fork"
+      "timestamp": "05:50",
+      "attribution": null,
+      "summary": "Strength in the AI era comes from compute, and Europe trails. The EU's grand April plan for up to five AI gigafactories committed only \u20ac20 billion to deploy roughly 100,000 chips \u2014 while US hyperscalers are on track to spend three times that every month on data centers.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#europe-gpu-lag"
     },
     {
-      "id": "lutnick-thats-the-point",
-      "headline": "\"This means we can't have the model out.\" \"That's the point.\"",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "05:00",
-      "attribution": "Dario Amodei and Commerce Secretary Howard Lutnick (via Bloomberg)",
-      "summary": "Bloomberg published the full Commerce Department letter, which ordered Anthropic to remove access for all foreign nationals wherever located under threat of criminal and civil penalties. When Dario Amodei reportedly told Secretary Lutnick the order meant pulling the model, Lutnick's response was 'That's the point.'",
-      "link": "https://aidailybrief.ai/e/2026-06-17#lutnick-thats-the-point"
-    },
-    {
-      "id": "ad-hoc-regime-bad",
-      "headline": "This ad hoc last-minute licensing regime is bad for companies, the administration, and the public.",
+      "id": "trump-going-fine",
+      "headline": "\"They're going fine.\" ... \"Going fine.\"",
       "type": "quote",
       "segment": "headlines",
       "timestamp": "06:00",
-      "attribution": "Charlie Bullock, Institute for Law and AI",
-      "summary": "Charlie Bullock of the Institute for Law and AI called the legal theory 'strange, very aggressive, and probably vulnerable to legal and constitutional challenge' \u2014 but predicted Anthropic won't sue and the two sides will eventually resolve it. The deeper problem: a regulatory regime that isn't really a regulatory regime, and the urgent need for actual legislation.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#ad-hoc-regime-bad"
+      "attribution": "President Trump, on the Anthropic negotiations",
+      "summary": "Asked about the Anthropic negotiations, Trump said simply that they're \"going fine,\" with Commerce Secretary Howard Lutnick reiterating the line. Watchers came away feeling their timelines for getting Fable back were extended, not shortened.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#trump-going-fine"
     },
     {
-      "id": "negotiating-without-realizing",
-      "headline": "Anthropic is negotiating with a regulator without realizing it.",
-      "type": "quote",
+      "id": "sk-telecom-china",
+      "headline": "Wired adds China context: SK Telecom got access, then lost it",
+      "type": "insight",
       "segment": "headlines",
-      "timestamp": "06:15",
-      "attribution": "Ashley (@Polilythia) on X",
-      "summary": "Ashley (@Polilythia) argued Anthropic scoped its risk too broadly, and when its mitigation proved insufficient for that stated scope, tried to narrow it \u2014 a huge red flag to any regulator. So regulatory action followed.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#negotiating-without-realizing"
-    },
-    {
-      "id": "nlw-dealing-with-government-is-the-job",
-      "headline": "Managing Washington is now Anthropic's job \u2014 and they may not realize it",
-      "type": "take",
-      "segment": "headlines",
-      "timestamp": "07:00",
+      "timestamp": "06:30",
       "attribution": null,
-      "summary": "NLW's read: you can be mad at who's in power and at the government's lack of technical capacity, but a company seen as integral to the economy and national security doesn't get to fail at dealing with the government in power. The charitable interpretation is that Anthropic simply hasn't recognized that managing this relationship is now as important as anything they build in the lab.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#nlw-dealing-with-government-is-the-job"
+      "summary": "When Anthropic expanded Mythos access weeks ago, Korean telecom giant SK Telecom was among those who got in. Concerned about China ties, the US government ordered access revoked days before the ban \u2014 lending at least some credence to the China rationale over pure personality politics, though analysts disputed SK Telecom's actual China links.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#sk-telecom-china"
     },
     {
-      "id": "hour-fifteen-question",
-      "headline": "\"What the hell were you doing for the other hour and 15 minutes?\"",
-      "type": "take",
+      "id": "shazeer-leaves-google",
+      "headline": "Noam Shazeer leaves Google for OpenAI",
+      "type": "insight",
       "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "NLW points to a pattern of slow Anthropic responses \u2014 days to deliver the Glasswing recipient list, and even the friendly counter-narrative that Dario took 'only' an hour and 15 minutes to call back on Friday night. When the government calls about something this mission-critical, the move is to pause everything and get on the phone.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#hour-fifteen-question"
+      "summary": "The \"Attention Is All You Need\" co-author \u2014 whom Google paid $2.7B to re-acquire via Character.AI to lead Gemini \u2014 is out the door less than two years later. OpenAI reportedly told employees he'll be creating new model architectures. Altman: \"Noam is one of the people I have most wanted to work with since the very beginning of OpenAI. It only took 10 years.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-18#shazeer-leaves-google"
     },
     {
-      "id": "gift-to-china",
-      "headline": "Washington has just done more to boost Chinese AI models than Beijing ever could have hoped.",
+      "id": "shazeer-saved-gemini",
+      "headline": "More than one DeepMind person has told me Noam saved Gemini.",
       "type": "quote",
       "segment": "headlines",
       "timestamp": "09:00",
-      "attribution": "Agatha Demere, Council on Foreign Relations (in the Financial Times)",
-      "summary": "Cybersecurity experts (100+ signatures on an open letter) say removing Mythos from the cyber-defense toolkit makes everyone more vulnerable, and geopolitical analysts call it a gift to China. Deutsche Bank's Jim Reid warned: 'You can't rely on something that could be switched off.'",
-      "link": "https://aidailybrief.ai/e/2026-06-17#gift-to-china"
+      "attribution": "Yu Chen Jin",
+      "summary": "With Gemini 3.5 Pro's rumored June release gone quiet, Shazeer's departure makes Gemini's future feel uncertain. The lore: he tweaked a few lines of training code and Gemini's quality instantly jumped. \"Gemini's coding ability still feels behind.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-18#shazeer-saved-gemini"
     },
     {
-      "id": "jailbreaks-cant-be-fixed",
-      "headline": "You cannot fully fix jailbreaks in these models.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "09:30",
-      "attribution": "Helen Toner, former OpenAI board member",
-      "summary": "The administration is sticking to its demand for a jailbreak patch \u2014 but it's not clear that's even technically possible. The FT also reports the ban has thrown the US research community into a tailspin, since it bars foreign-national researchers from working on the most advanced models.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#jailbreaks-cant-be-fixed"
-    },
-    {
-      "id": "g7-ceo-lunch",
-      "headline": "The frontier CEOs are all at a G7 lunch this week",
+      "id": "pulse-sunset",
+      "headline": "OpenAI sunsets Pulse, folds it into scheduled tasks",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "10:00",
+      "timestamp": "09:40",
       "attribution": null,
-      "summary": "Politico reports a two-and-a-half-hour G7 lunch in France with CEOs including Dario Amodei, Sam Altman, Demis Hassabis, and Mistral's Arthur Mensch. The official agenda is economic growth and resilient societies \u2014 but it's hard to believe the real conversation won't be about Washington.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#g7-ceo-lunch"
+      "summary": "ChatGPT's daily AI briefing Pulse will be removed within two weeks, with users encouraged to rebuild it via scheduled tasks \u2014 now available to all paid subscribers, even the cut-price Go tier. After also sunsetting 4.5, one Pro subscriber asked why a non-coder with no interest in Codex would keep the plan; NLW isn't sure OpenAI cares right now.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#pulse-sunset"
     },
     {
-      "id": "realignment-moment",
-      "headline": "We're in a very liminal moment for AI",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "14:30",
-      "attribution": null,
-      "summary": "NLW frames a broad realignment: companies grappling with what full agentic workloads will cost and racing to become token-efficient, a US economy whose GDP growth leans heavily on AI infrastructure build-out, and the political dimension all converging at once. The economics of mature agentic AI are starting to become clear.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#realignment-moment"
-    },
-    {
-      "id": "spacex-neocloud-pivot",
-      "headline": "Neo-cloud revenue became SpaceX's #1 source overnight",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": null,
-      "summary": "After folding xAI into SpaceX looked to many like a bailout, the calculus flipped: building Colossus II created an asset SpaceX could monetize easily. Compute deals with Anthropic and then Google made neo-cloud revenue its top line basically overnight, and the orbital-data-center narrative suddenly made the IPO make sense.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#spacex-neocloud-pivot"
-    },
-    {
-      "id": "spacex-ipo-pop",
-      "headline": "SpaceX pops 49%, becomes 5th-largest company on Earth",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "16:00",
-      "attribution": null,
-      "summary": "SpaceX closed Tuesday at $201.80, up 49% from its IPO price, valuing the company at $2.6 trillion \u2014 just ahead of Amazon. Critics note Amazon has roughly 40x the revenue, and that the vast majority of SpaceX stock is still locked, which could create bearish pressure as it unlocks through the year.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#spacex-ipo-pop"
-    },
-    {
-      "id": "musk-trillionaire-2",
-      "headline": "With today's 20% SpaceX pop, Elon made more money today than Warren Buffett made in his entire career.",
+      "id": "open-source-biggest-winner",
+      "headline": "The biggest winner in the Anthropic controversy is open source.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "16:15",
-      "attribution": "Ryan Petersen, Flexport CEO, on X",
-      "summary": "On the back of the IPO, Musk became the world's first trillionaire, roughly 3x ahead of the next-richest person, though most of his wealth is locked in a 46% SpaceX stake he couldn't liquidate without tanking the price. Flexport's Ryan Petersen later clarified his post came before the stock rose another 14% after hours.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#musk-trillionaire-2"
+      "timestamp": "15:50",
+      "attribution": "Chubby on X, citing major news outlets",
+      "summary": "Bloomberg, Fortune, and CNBC reached the same consensus: making a model open means companies, governments, or organizations with sufficient hardware can run it locally and never worry about it being yanked on a whim. Access predictability, not just cost, is now the argument.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#open-source-biggest-winner"
     },
     {
-      "id": "value-begets-value",
-      "headline": "Value begets value, talent begets talent.",
+      "id": "kill-switch-local-hardware",
+      "headline": "Government deciding a model is too dangerous adds to the case for open source on local hardware.",
       "type": "quote",
+      "segment": "main",
+      "timestamp": "16:40",
+      "attribution": "Citrini Research",
+      "summary": "If AI is now powerful enough that governments will keep kill switches, it becomes very hard to build mission-critical workflows around a model that can be cut off. Citrini Research argues that risk only strengthens the case for open-source models running on local hardware.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#kill-switch-local-hardware"
+    },
+    {
+      "id": "kimi-k27-code",
+      "headline": "Kimi K2.7 Code ships, but benchmarks beat reality",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "17:00",
+      "attribution": null,
+      "summary": "Moonshot's latest open-source coding model claimed ~22% improvement on its CodeBench V2 and 30% lower reasoning token usage vs 2.6. But users aren't raving \u2014 VentureBeat said existing K2.6 users can swap in for lower costs, but it's no reason for others to switch. On Agent Arena it ranked 19th overall and 6th among open models.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#kimi-k27-code"
+    },
+    {
+      "id": "vibe-thinker-3b",
+      "headline": "A 3B-parameter model posts Opus-class coding scores",
+      "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
-      "attribution": "Bill Ackman, investor",
-      "summary": "Bill Ackman argued that one of the things that makes SpaceX so valuable is how valuable it is \u2014 the Cursor acquisition cost materially less in dilution thanks to SpaceX's high valuation, enabling accretive deals and attracting top talent.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#value-begets-value"
-    },
-    {
-      "id": "cursor-60b-acquisition",
-      "headline": "SpaceX buys Cursor for $60B",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "18:35",
       "attribution": null,
-      "summary": "SpaceX exercised its right to acquire Cursor, which becomes a wholly owned subsidiary at a $60B price. Cursor had hit a $4B run rate growing 7x year over year \u2014 and the FT suggests the deal could be SpaceX's 'Instagram moment,' taking a hot competitor off the market early.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#cursor-60b-acquisition"
+      "summary": "Weibo AI's Vibe Thinker 3B is generating buzz for running easily on local hardware while approaching Claude Opus 4.5 on coding benchmarks. The trick: super-tuned for reasoning, bad at knowledge \u2014 push reasoning to 11 and let knowledge live outside the model in a database, slashing hardware and power requirements.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#vibe-thinker-3b"
     },
     {
-      "id": "cursor-from-scratch-model",
-      "headline": "Cursor teases a from-scratch model, no more Kimi base",
-      "type": "insight",
+      "id": "glm-52-ban-didnt-slow",
+      "headline": "You cannot export control your way out of an open source race. The ban didn't slow China down.",
+      "type": "quote",
       "segment": "main",
       "timestamp": "19:00",
-      "attribution": "Nick Dobos, engineer, at the Compile event",
-      "summary": "Cursor moved from harness-only to playing the model game with its Composer line (matching Opus 4.7 / GPT-5.5 at ~a tenth of the cost via post-training on a Kimi K base). Now it's teasing a model trained from scratch \u2014 same size as Claude Opus 5.5, 10-20x more compute than Composer, 'generally intelligent, not just coding,' releasing in weeks.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#cursor-from-scratch-model"
+      "attribution": "BridgeMind AI",
+      "summary": "Two days after the US banned Fable 5, China's ZAI dropped GLM 5.2 \u2014 topping BridgeBench and reasoning, claimed to beat Fable 5 at one-tenth the cost and 300 tokens/second. It's the Chinese open model getting the most buzz right now.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#glm-52-ban-didnt-slow"
     },
     {
-      "id": "control-plane-thesis",
-      "headline": "The focus over the next few years will be firmly on the control plane.",
+      "id": "glm-design-cheap",
+      "headline": "GLM costs six cents while Opus costs 49 cents \u2014 and you can't tell the difference.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "20:30",
-      "attribution": "Chamath Palihapitiya",
-      "summary": "Chamath Palihapitiya argued that despite Cursor's model push, it's the harness and customer relationship that matter \u2014 giving organizations the governance, control, auditability, and business continuity to go all in on AI. He called the SpaceX-Cursor merger the first big exit at the application layer, 'but not the last.'",
-      "link": "https://aidailybrief.ai/e/2026-06-17#control-plane-thesis"
+      "timestamp": "20:40",
+      "attribution": "Hassan, Together AI",
+      "summary": "On design tasks, users say you don't have to trust the benchmarks. Asked to build a landing page, GLM 5.2 and Opus 4.8 produced indistinguishable results \u2014 GLM more than 6x cheaper, faster, and more token efficient. Some evidence of benchmark-maxing remains, with internal evals putting it behind frontier models.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#glm-design-cheap"
     },
     {
-      "id": "grok-national-security",
-      "headline": "DOJ defends xAI's gas turbines as too vital to shut off",
+      "id": "microsoft-deepseek-copilot",
+      "headline": "Microsoft eyes a fine-tuned DeepSeek to power Copilot CoWork",
       "type": "insight",
       "segment": "main",
-      "timestamp": "21:00",
+      "timestamp": "21:30",
       "attribution": null,
-      "summary": "The government intervened in the NAACP's Clean Air Act suit against xAI's Colossus II turbines, with the DOJ arguing a shutdown 'threatens American national, economic, and energy security.' A Pentagon official said Grok supported 'vital national security missions,' including targeting decisions for recent strikes on Iran \u2014 and Anthropic, Google, and OpenAI models are also cleared for classified use.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#grok-national-security"
+      "summary": "Per Axios, Microsoft \u2014 which moved CoWork to usage-based pricing \u2014 is testing a locally hosted fine-tune of DeepSeek V4 and other open-source models as cheaper alternatives to Anthropic and OpenAI, expecting to ship a lower-cost model within weeks. The irony: the US bans US frontier weights worldwide while its most embedded enterprise software firm prepares to ship a Chinese model inside the Fortune 500's productivity stack.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#microsoft-deepseek-copilot"
     },
     {
-      "id": "all-one-story",
-      "headline": "Two June events look unrelated but are actually the same story.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": "Chubby on X",
-      "summary": "Chubby on X tied the Mythos/Fable foreign-national shutdown and the DOJ's defense of unpermitted gas turbines into one thread: AI and everything around it \u2014 data centers, frontier models, access \u2014 is increasingly being placed under national security and control.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#all-one-story"
-    },
-    {
-      "id": "openai-leaked-financials",
-      "headline": "OpenAI's leaked numbers: $38.5B loss, mostly accounting",
+      "id": "composer-25-ground-reports",
+      "headline": "Composer 2.5 wins on price \u2014 when it behaves",
       "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "Ed Zitron published OpenAI's audited figures: ~$13B revenue in 2025 against ~$21B operational losses and a $38.5B net loss. But OpenAI says the majority came from a one-time ~$30B non-cash accounting charge tied to its conversion to a public benefit corporation \u2014 strip that and stock comp out, and the loss was about $8B.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#openai-leaked-financials"
+      "summary": "Cursor's Kimi-based, coding-post-trained Composer 2.5 benches near Opus and GPT 5.5 at a fraction of the cost. One engineer: $1 for 65% vs Fable's $12 for 70% \u2014 why pay 12x for 5 points? But others report it changing files without approval and going on rogue UI overhauls, and on artificial analysis's new agentic-coding benchmarks it fell closer to open Chinese models like GLM 5.1.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#composer-25-ground-reports"
     },
     {
-      "id": "profitable-inference",
-      "headline": "The overlooked story: OpenAI is profitable on inference",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "23:30",
-      "attribution": null,
-      "summary": "The number both the skeptic and the FT missed: OpenAI appears to turn a tidy profit selling tokens. In 2025 it generated $13B in revenue on $7.5B of direct cost of revenue (2024: $3.7B on $2.7B). Too simplistic to ignore training and staffing, but a promising sign of solid margins in the core business.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#profitable-inference"
-    },
-    {
-      "id": "openai-cash-position",
-      "headline": "OpenAI's cash pile could let it delay its IPO",
+      "id": "openrouter-fusion-panels",
+      "headline": "OpenRouter's Fusion fans prompts out to a panel of models",
       "type": "insight",
       "segment": "main",
       "timestamp": "24:30",
       "attribution": null,
-      "summary": "The Information reports OpenAI spent $3.7B in Q1 (excluding $8.6B in training costs), holding burn roughly steady. With $73B in cash and marketable securities \u2014 up from $40B in December \u2014 and Sam Altman insisting no IPO timeline is set, it's easy to imagine OpenAI staying private longer amid SpaceX unlocks and government friction.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#openai-cash-position"
+      "summary": "Fusion claims Fable-level intelligence at half the price by fanning each prompt out to a panel of models in parallel (with web search and bash tools), then having a judge extract structure and a synthesizer write the grounded final answer. OpenRouter found panels consistently outperform individual models \u2014 and panels of budget models can surpass frontier ones at much lower cost.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#openrouter-fusion-panels"
     },
     {
-      "id": "race-still-dynamic",
-      "headline": "The 'settled' agentic phase is anything but",
+      "id": "smart-routing-beat-brute-force",
+      "headline": "Smart routing beat brute force. Inference optimization just became a first-class competitive advantage.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "27:45",
+      "attribution": "Patrick Ojo",
+      "summary": "The insight from Harvey's worker-advisor experiment isn't that open source beat frontier \u2014 it's that using the most expensive model for every task is laziness, not a quality strategy. Teams building routing layers that send each task to the right model at the right cost are now ahead on quality and cost simultaneously.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#smart-routing-beat-brute-force"
+    },
+    {
+      "id": "harvey-worker-advisor",
+      "headline": "Harvey pairs an open-weight worker with a frontier advisor",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "27:15",
+      "attribution": null,
+      "summary": "Working with Fireworks, Harvey built a setup where an open-weight worker (GLM 5.1) delegates high-stakes, complex tasks to a closed frontier advisor (Opus 4.7). The combination was not only cheaper than using Opus alone but actually delivered increased performance \u2014 and Harvey says it's just the beginning of its model experimentation.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#harvey-worker-advisor"
+    },
+    {
+      "id": "infinite-employees",
+      "headline": "Every company is about to get the ability to hire infinite employees.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "26:20",
+      "attribution": "Gabe Pereyra, Harvey president and co-founder",
+      "summary": "Harvey's Gabe Pereyra explains AI got more expensive, not cheaper: the shift from chat to agents exploded costs, with one user triggering hundreds of agents that trigger more agents. The challenge becomes managing those agents and making the business model work the same way it did with human employees.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#infinite-employees"
+    },
+    {
+      "id": "inference-optimization-coming",
+      "headline": "The Fable gap accelerated something that was coming anyway",
       "type": "take",
       "segment": "main",
-      "timestamp": "25:30",
+      "timestamp": "28:30",
       "attribution": null,
-      "summary": "NLW's wrap: just as it felt like the agentic phase had settled in, the race is clearly fast-moving. Things to watch \u2014 resolution of Anthropic's Fable issue, whether OpenAI avoids its own version of it, what SpaceX's public price does, what Cursor's next model reveals about strategy, and a conspicuously quiet Google that won't stay quiet for long.",
-      "link": "https://aidailybrief.ai/e/2026-06-17#race-still-dynamic"
+      "summary": "NLW's bright side: in a world where frontier costs keep rising, companies will have to get sophisticated about combining models for the best results. Inference optimization and token-efficiency exploration was coming no matter what \u2014 and now companies have more chance to get ahead of it than when everyone could just get lost in the glory of Fable 5.",
+      "link": "https://aidailybrief.ai/e/2026-06-18#inference-optimization-coming"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-17.mp3",
-  "generated": "2026-06-18T08:12:38Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-18.mp3",
+  "generated": "2026-06-19T19:06:39Z"
 }
