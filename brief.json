@@ -1,291 +1,291 @@
 {
-  "date": "2026-06-18",
-  "title": "The Models Trying to Fill the Fable Gap",
-  "dek": "With Fable still dark, the G7 turns into a global plea for access to US frontier models \u2014 and enterprises stop waiting, MacGyvering Chinese open weights, compound APIs, and smart routing into something that gets close to Fable-level performance.",
-  "source": "https://aidailybrief.ai/e/2026-06-18",
+  "date": "2026-06-19",
+  "title": "Your Company Doesn\u2019t Need an AI Strategy",
+  "dek": "Fable's still offline, but the thaw between the White House and Anthropic may finally be starting \u2014 and in the vacuum it left, the enterprise conversation has shifted from \"which model?\" to something much bigger. Satya Nadella's viral token-capital essay crystallizes it: your company doesn't need an AI strategy, it needs a learning loop you actually own.",
+  "source": "https://aidailybrief.ai/e/2026-06-19",
   "oneIdea": {
-    "headline": "The Fable gap is forcing everyone to get sophisticated about which models they use.",
-    "summary": "A week into the US government's effective ban of Anthropic's Fable and Mythos, the fallout is splitting two ways. Globally, the G7 became a scene of US allies pleading for guaranteed access while quietly realizing they need independence. For enterprises, the lost model is fuel for a shift that was already coming \u2014 away from slapping the most powerful state-of-the-art model on every task and toward open weights, compound APIs, and smart routing that hit near-frontier performance at a fraction of the cost."
+    "headline": "You don't need an AI strategy. You need an AI learning system you own.",
+    "summary": "The Fable ban exposed how fragile single-vendor AI foundations really are, and it landed right as the cost of state-of-the-art agentic AI was already forcing a rethink. Satya Nadella's answer \u2014 read 65 million times \u2014 is that the real asset isn't the model you pick but the compounding loop you build on top of it: human capital times scaffolding times feedback. Companies that turn workflows, judgment, and corrections into a portable, model-agnostic learning system own IP that survives any single model. Everyone else is just renting intelligence and ceding their value to a few models that eat everything they see."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Which model sits behind the scribe?",
-        "body": "The edition's real lesson for practices is that the model under an AI scribe or triage tool is now a moving, swappable part \u2014 and cheaper open-weight models are closing the gap on the expensive frontier ones. If NLW is right, a surgery could get near-equivalent transcription and summary quality at a fraction of today's cost as suppliers route to cheaper models. If Zitron is right, today's low prices are subsidised and will rise once the bills come due, so a practice should ask its scribe vendor what model it uses, whether that can change without notice, and what happens to the price at renewal."
+        "title": "Own the loop, not just the scribe",
+        "body": "Nadella's idea translates neatly to a surgery: the durable asset is not the AI scribe itself but the accumulated templates, prompts and corrected notes your clinicians build around it. If NLW is right, a practice that captures and keeps that work owns something portable that survives a change of supplier. If Zitron is right, today's tidy price is subsidised and unproven, so the practical move either way is the same \u2014 make sure your templates and corrected transcripts can be exported, and never let a vendor lock that learning inside its own system."
       },
       {
-        "title": "Sovereignty and patient data",
-        "body": "The G7 story \u2014 that access to US frontier models can be switched off by a government overnight \u2014 matters more for the NHS than the cost debate. A tool that depends on a single US model could go dark with no warning. For anything touching patient-identifiable data, the safer position is a supplier that can fail over to an alternative model (including UK or EU-hosted open weights) and that keeps data within UK jurisdiction, rather than one locked to a single frontier provider."
+        "title": "Measuring ROI is harder in a consultation than in code",
+        "body": "Zitron's sharpest point \u2014 that nobody can measure AI's return or even a standard cost per task \u2014 bites harder in general practice, where the output is a safe consultation, not lines of code. If NLW is right, the gain is clinician time saved and better documentation; if Zitron is right, the honest answer is that no one yet has a clean cost-per-consultation or proven ROI. Either way, judge a scribe on whether it demonstrably saves time without adding a correction burden, and ask what it will cost once any free or subsidised tier ends."
       },
       {
-        "title": "Cheaper is not the same as safe",
-        "body": "A model that is six cents instead of forty-nine and scores well on coding benchmarks is not automatically fit for clinical summarisation, where a quiet omission matters far more than in a landing page. The edition itself notes benchmarks didn't match reality for one model. Whatever sits behind a scribe, the clinician check of the generated note before it enters the record stays the safeguard \u2014 cheaper inference changes the economics, not the medico-legal responsibility."
+        "title": "Watch the renewal, not the demo",
+        "body": "Both men agree the action has moved to unit economics rather than which model is cleverest. For a practice that means the figure that matters is the renewal price and the per-seat or per-token cost, not the impressive launch demo. Ask your supplier which model sits behind the product, whether the price can change at renewal, and whether your data and templates leave with you if you switch."
       }
     ]
   },
   "the_other_side": {
-    "source": "AI's Brokenomics",
-    "url": "https://www.wheresyoured.at/brokenomics/",
-    "date": "2026-06-15",
+    "source": "AI Doesn't Have ROI",
+    "url": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
+    "date": "2026-06-02",
     "same_day": false,
-    "text": "Zitron argues the Fable gap is a sideshow next to the real problem: the labs' \"business models don't work.\" On his telling, the scramble toward cheaper open weights and smart routing is not a market maturing but the AI \"tokenomics bubble\" bursting \u2014 enterprises moved to usage-based billing in early 2026, saw the true cost of the tokens they were burning, and revolted, forcing providers toward \"drastic\" price cuts. He contends most users will simply refuse to pay AI's actual cost, so squeezing the same work out of six-cent models is a symptom of that revolt, not evidence of a healthy near-frontier alternative."
+    "text": "Zitron's answer to the build-a-learning-loop gospel is blunt: you cannot build durable value on something whose return you cannot measure. He argues nobody can calculate the ROI of AI \u2014 or even a standard cost per task \u2014 because hallucination-prone models and an ever-growing list of harnesses make every interaction unpredictable. The fashionable talk of owning \"token capital\", on his telling, rests on subsidised and deliberately obfuscated token prices; the moment Anthropic and OpenAI moved enterprises to usage-based billing in early 2026, customers revolted and began capping spend. Far from compounding into owned IP, he insists, AI keeps getting more expensive, not cheaper, and much of the enthusiasm is written by people \"conned into ignoring the true cost.\""
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: the unit cost of useful AI inference set against what customers will actually pay. Both accept the same facts \u2014 token prices are collapsing, with cheap open-weight models running a task for cents where frontier models charge dimes, and enterprises balked once moved to usage-based billing. The empirical question that resolves it is whether routed and open-weight stacks deliver near-frontier quality on real production work while providers stay gross-margin positive; the observable is inference margins and enterprise renewal and spend over the next few quarters. The residue is pure worldview: Whittemore reads cheap models as a healthy efficiency shift, Zitron as subsidy unwinding. Whittemore is vindicated if routed stacks hold quality and spend grows; Zitron if the price war is just the subsidy ending and renewals fall. Both are polemicists \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype, each with a newsletter to sell \u2014 so the signal is where they agree despite opposite priors: per-token economics are now the whole game. Watch enterprise renewal rates next quarter."
+    "text": "Both men orbit one variable: whether a company can wring measurable, durable value from AI that exceeds its true, unsubsidised cost. Both accept the same facts \u2014 token prices were subsidised and obfuscated, and enterprises recoiled once moved to usage-based billing. The empirical question that resolves it is whether the private evals, captured workflows and feedback loops Nadella prescribes actually raise measured output by more than the real per-token bill; the observable is audited enterprise AI ROI, net renewal and spend over coming quarters, and whether such \"token capital\" survives a model swap. The residue is pure worldview: Whittemore sees a compounding asset a firm can own, Zitron sees unmeasurable, subsidised theatre. Whittemore is vindicated if firms show durable, portable gains net of rising prices; Zitron if spend keeps being capped with no measurable return. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype, each with a newsletter to sell \u2014 so the signal is their shared premise that unit economics, not model choice, now decides. Watch whether any large firm publishes audited AI ROI net of true token costs."
   },
   "headlines": [
     {
-      "id": "g7-ai-leaders",
-      "headline": "The AI industry shows up at the G7 in force",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "01:20",
-      "attribution": null,
-      "summary": "Sam Altman, Demis Hassabis, Meta's Alexander Wang, and Dario Amodei joined the US contingent, with Mistral's Arthur Mensch on the French side and Cohere's Aidan Gomez with Canada. It's the first time the G7 has seen such heavy AI-industry representation \u2014 and it makes more sense in the context of the effective banning of Mythos and Fable.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#g7-ai-leaders"
-    },
-    {
-      "id": "access-not-a-given",
-      "headline": "Access to US frontier models is no longer a given",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "01:50",
-      "attribution": null,
-      "summary": "At a meeting all about international cooperation, the global community is for the first time reckoning with the idea that access to US-made frontier models can be withheld. The pivotal discussion came at a closed-door lunch with Trump flanked by Hassabis and Altman, and Amodei seated directly across the table next to Macron.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#access-not-a-given"
-    },
-    {
-      "id": "amodei-structured-access",
-      "headline": "Amodei and Hassabis lead the call for AI cooperation",
+      "id": "anthropic-white-house-thaw",
+      "headline": "White House\u2013Anthropic talks may finally be thawing",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "Amodei argued international cooperation should include structured access to frontier models, chip trade deals that exclude China, and a unified approach to risks like cyberattacks and bioterrorism, urging leaders to resist the temptation to splinter over advanced AI deployment.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#amodei-structured-access"
+      "summary": "Politico reports negotiations have shifted toward designing a framework to assess the severity of AI security flaws, reflecting a mutual understanding that no model can be completely immune to hacking. Export controls aren't lifted yet, but moving to set technical standards is a sign the talks are progressing after a week of dug-in heels.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#anthropic-white-house-thaw"
     },
     {
-      "id": "macron-kill-switch",
-      "headline": "The Trump administration has made it clear the US government holds the AI kill switch.",
+      "id": "fable-ban-legality",
+      "headline": "\"I don't know what the legal authority is for that.\"",
       "type": "quote",
       "segment": "headlines",
-      "timestamp": "02:30",
-      "attribution": "Emmanuel Macron, French President, at the G7",
-      "summary": "Macron made a forceful plea for the US not to keep frontier AI to itself, arguing the US and Europe share an interest in keeping the technology from authoritarian regimes. \"So let us move forward together,\" he said.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#macron-kill-switch"
+      "timestamp": "03:00",
+      "attribution": "Kevin Wolf, former Commerce Department official, to Politico",
+      "summary": "Former Commerce official Kevin Wolf argued the heavy-handed approach wouldn't scale and questioned the legal basis for blocking foreign nationals from logging into a cloud service. UC Berkeley's Andrew Reddy added the episode \"makes clear the unsustainability of the existing governance regime.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-19#fable-ban-legality"
     },
     {
-      "id": "altman-international-forum",
-      "headline": "We need an international forum that establishes globally accepted standards for testing.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "03:20",
-      "attribution": "Sam Altman, OpenAI CEO",
-      "summary": "Altman aligned with the view that AI is now in the domain of government and shouldn't be left to corporate policy alone \u2014 the technology must be shaped by people, democratic institutions, and society, not just by the companies building the most capable systems.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#altman-international-forum"
-    },
-    {
-      "id": "europe-pleading",
-      "headline": "Europe expected a China front, found itself pleading for access",
+      "id": "levie-governance-preview",
+      "headline": "Aaron Levie: this is a preview of the new model-release regime",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "04:40",
+      "timestamp": "05:00",
       "attribution": null,
-      "summary": "Euronews framed the EU policy mood as particularly sour. Leaders expected to discuss forming a united front against China and rebuilding supply chains around it \u2014 instead they found themselves pleading for access to frontier models critical to shared financial infrastructure. The UK's Starmer requested an export-control carve-out for British nationals and was denied.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#europe-pleading"
+      "summary": "Box's Aaron Levie argues these frameworks have massive implications \u2014 each model update going through extensive review, testing, and feedback with lots of subjective input on risk. The result could shift releases away from quick iterative drops toward bigger, more irregular updates.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#levie-governance-preview"
     },
     {
-      "id": "europe-gpu-lag",
-      "headline": "Europe is lagging badly on putting GPUs on racks",
+      "id": "asml-euv-china",
+      "headline": "Lutnick accuses ASML of bad faith over a EUV machine in China",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "05:50",
-      "attribution": null,
-      "summary": "Strength in the AI era comes from compute, and Europe trails. The EU's grand April plan for up to five AI gigafactories committed only \u20ac20 billion to deploy roughly 100,000 chips \u2014 while US hyperscalers are on track to spend three times that every month on data centers.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#europe-gpu-lag"
-    },
-    {
-      "id": "trump-going-fine",
-      "headline": "\"They're going fine.\" ... \"Going fine.\"",
-      "type": "quote",
       "segment": "headlines",
       "timestamp": "06:00",
-      "attribution": "President Trump, on the Anthropic negotiations",
-      "summary": "Asked about the Anthropic negotiations, Trump said simply that they're \"going fine,\" with Commerce Secretary Howard Lutnick reiterating the line. Watchers came away feeling their timelines for getting Fable back were extended, not shortened.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#trump-going-fine"
+      "attribution": null,
+      "summary": "Bloomberg reports Commerce Secretary Howard Lutnick told ASML the US believes one of its ultraviolet lithography machines may have made its way into China, with officials claiming evidence the company is \"not acting in good faith.\" A developing story with big implications for the US-China AI balance.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#asml-euv-china"
     },
     {
-      "id": "sk-telecom-china",
-      "headline": "Wired adds China context: SK Telecom got access, then lost it",
+      "id": "sanders-7-trillion-fund",
+      "headline": "Bernie's $7T AI sovereign wealth fund, decoded",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "06:30",
+      "timestamp": "06:00",
       "attribution": null,
-      "summary": "When Anthropic expanded Mythos access weeks ago, Korean telecom giant SK Telecom was among those who got in. Concerned about China ties, the US government ordered access revoked days before the ban \u2014 lending at least some credence to the China rationale over pure personality politics, though analysts disputed SK Telecom's actual China links.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#sk-telecom-china"
+      "summary": "Sanders unveiled legislation for a $7 trillion fund \u2014 larger than the Social Security Trust Fund \u2014 funded by a one-time 50% tax on the equity of any company with over $200 million in annual AI sales. The fund would hold voting shares and pay every American a 5% annual dividend of more than $1,000.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#sanders-7-trillion-fund"
     },
     {
-      "id": "shazeer-leaves-google",
-      "headline": "Noam Shazeer leaves Google for OpenAI",
+      "id": "sanders-nationalization-2",
+      "headline": "NLW: read literally, this is nationalization of the AI industry",
+      "type": "take",
+      "segment": "headlines",
+      "timestamp": "08:00",
+      "attribution": null,
+      "summary": "NLW argues you don't need to debate the merits \u2014 50% of any company over $200M in revenue, in voting shares, amounts to de facto control of the whole sector. The more important read is how it sets the tent poles of where AI policy discourse is heading.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#sanders-nationalization-2"
+    },
+    {
+      "id": "vance-on-bernie",
+      "headline": "Vance likes the sovereign-fund idea \u2014 but wants workers at the table",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "The \"Attention Is All You Need\" co-author \u2014 whom Google paid $2.7B to re-acquire via Character.AI to lead Gemini \u2014 is out the door less than two years later. OpenAI reportedly told employees he'll be creating new model architectures. Altman: \"Noam is one of the people I have most wanted to work with since the very beginning of OpenAI. It only took 10 years.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-18#shazeer-leaves-google"
+      "summary": "JD Vance said the president likes the sovereign-wealth-fund concept of the US taking stakes in AI companies, but rejected a pure take-from-some-give-to-others model and pivoted to supporting labor unions. NLW's takeaway: a traditional left-right lens won't capture how AI policy plays out.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#vance-on-bernie"
     },
     {
-      "id": "shazeer-saved-gemini",
-      "headline": "More than one DeepMind person has told me Noam saved Gemini.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": "Yu Chen Jin",
-      "summary": "With Gemini 3.5 Pro's rumored June release gone quiet, Shazeer's departure makes Gemini's future feel uncertain. The lore: he tweaked a few lines of training code and Gemini's quality instantly jumped. \"Gemini's coding ability still feels behind.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-18#shazeer-saved-gemini"
-    },
-    {
-      "id": "pulse-sunset",
-      "headline": "OpenAI sunsets Pulse, folds it into scheduled tasks",
+      "id": "accenture-hammered",
+      "headline": "Accenture hammered as the market prices in AI disruption",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "09:40",
+      "timestamp": "09:00",
       "attribution": null,
-      "summary": "ChatGPT's daily AI briefing Pulse will be removed within two weeks, with users encouraged to rebuild it via scheduled tasks \u2014 now available to all paid subscribers, even the cut-price Go tier. After also sunsetting 4.5, one Pro subscriber asked why a non-coder with no interest in Codex would keep the plan; NLW isn't sure OpenAI cares right now.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#pulse-sunset"
+      "summary": "The consulting giant reported a 2% drop in Q3 bookings and cut revenue forecasts, sending the stock down 18% Thursday to its lowest in almost a decade \u2014 now cut in half this year. Accenture blamed a $400M Iran-war hole in its Middle East business; critics pointed to weak AI-transformation delivery.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#accenture-hammered"
     },
     {
-      "id": "open-source-biggest-winner",
-      "headline": "The biggest winner in the Anthropic controversy is open source.",
+      "id": "petitti-domain-expertise",
+      "headline": "\"Real AI implementation requires deep domain expertise in the function where AI will actually be used.\"",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "10:00",
+      "attribution": "Pat Petitti, CEO of a rival AI consulting platform",
+      "summary": "Rival AI consulting CEO Pat Petitti said that's exactly what Accenture lacks and investors are noticing. The snarkier internet version, from Greg on X: \"most people who say AI isn't good enough to replace people haven't hired Accenture before.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-19#petitti-domain-expertise"
+    },
+    {
+      "id": "harness-features-evolve",
+      "headline": "Claude Code Artifacts and Codex Record-and-Replay push AI multiplayer",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "10:00",
+      "attribution": null,
+      "summary": "Claude Code launched Artifacts \u2014 interactive pages built from sessions, shared at a private link \u2014 mirroring Codex's sites. Codex shipped Record and Replay, which turns a demoed recurring task into an inspectable, editable skill. OpenAI's Jason: \"Boy, is it a bad day to be a manual workflow that crosses application boundaries.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-19#harness-features-evolve"
+    },
+    {
+      "id": "fragile-foundations",
+      "headline": "Fable's outage made companies question their AI foundations",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": null,
+      "summary": "A week after Fable 5 went offline, NLW says many organizations are looking at their AI strategies and realizing how much they rely on one or a small handful of partners. The lesson: picking the right vendor is a very small part of real organizational change.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#fragile-foundations"
+    },
+    {
+      "id": "nadella-cognitive-loop",
+      "headline": "\"This is the first time we can create a real cognitive loop between people and digital systems.\"",
       "type": "quote",
       "segment": "main",
-      "timestamp": "15:50",
-      "attribution": "Chubby on X, citing major news outlets",
-      "summary": "Bloomberg, Fortune, and CNBC reached the same consensus: making a model open means companies, governments, or organizations with sufficient hardware can run it locally and never worry about it being yanked on a whim. Access predictability, not just cost, is now the argument.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#open-source-biggest-winner"
+      "timestamp": "16:00",
+      "attribution": "Satya Nadella, \"A Frontier Without an Ecosystem Is Not Stable\"",
+      "summary": "Nadella's viral post argues this platform shift is unlike any before: past digital systems enhanced human capital, but now organizations must rethink how they learn, build IP, and differentiate in a world where models can absorb and commoditize human expertise.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#nadella-cognitive-loop"
     },
     {
-      "id": "kill-switch-local-hardware",
-      "headline": "Government deciding a model is too dangerous adds to the case for open source on local hardware.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "16:40",
-      "attribution": "Citrini Research",
-      "summary": "If AI is now powerful enough that governments will keep kill switches, it becomes very hard to build mission-critical workflows around a model that can be cut off. Citrini Research argues that risk only strengthens the case for open-source models running on local hardware.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#kill-switch-local-hardware"
-    },
-    {
-      "id": "kimi-k27-code",
-      "headline": "Kimi K2.7 Code ships, but benchmarks beat reality",
+      "id": "human-and-token-capital",
+      "headline": "Every company will build both human capital and token capital",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Moonshot's latest open-source coding model claimed ~22% improvement on its CodeBench V2 and 30% lower reasoning token usage vs 2.6. But users aren't raving \u2014 VentureBeat said existing K2.6 users can swap in for lower costs, but it's no reason for others to switch. On Agent Arena it ranked 19th overall and 6th among open models.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#kimi-k27-code"
+      "summary": "In Nadella's framing, human capital is the knowledge, judgment, relationships, and pattern recognition of people; token capital is the AI capability a firm builds and owns. Crucially, human capital becomes more valuable as token capital grows \u2014 \"without human direction, you have compute running in circles.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-19#human-and-token-capital"
     },
     {
-      "id": "vibe-thinker-3b",
-      "headline": "A 3B-parameter model posts Opus-class coding scores",
+      "id": "learning-loop-over-model",
+      "headline": "\"You can offload a task or even a job, but you can never offload your learning.\"",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "17:00",
+      "attribution": "Satya Nadella",
+      "summary": "Nadella's core claim: the real opportunity isn't picking the best model but building a learning loop on top of models where human and token capital compound. A company should be able to swap out a generalist model without losing the veteran expertise built into its learning system.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#learning-loop-over-model"
+    },
+    {
+      "id": "private-evals-rl",
+      "headline": "The new IP: private evals, RL environments, and a hill-climbing machine",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "Weibo AI's Vibe Thinker 3B is generating buzz for running easily on local hardware while approaching Claude Opus 4.5 on coding benchmarks. The trick: super-tuned for reasoning, bad at knowledge \u2014 push reasoning to 11 and let knowledge live outside the model in a database, slashing hardware and power requirements.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#vibe-thinker-3b"
+      "summary": "Nadella prescribes private evals measuring real business outcomes (not external benchmarks), private RL environments trained on internal traces, and a queryable knowledge base. He calls it a \"hill climbing machine\" that compounds \u2014 every improved workflow generates better training signal.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#private-evals-rl"
     },
     {
-      "id": "glm-52-ban-didnt-slow",
-      "headline": "You cannot export control your way out of an open source race. The ban didn't slow China down.",
+      "id": "no-societal-permission",
+      "headline": "\"There is no societal permission for an AI future that hollows out entire industries.\"",
       "type": "quote",
       "segment": "main",
       "timestamp": "19:00",
-      "attribution": "BridgeMind AI",
-      "summary": "Two days after the US banned Fable 5, China's ZAI dropped GLM 5.2 \u2014 topping BridgeBench and reasoning, claimed to beat Fable 5 at one-tenth the cost and 300 tokens/second. It's the Chinese open model getting the most buzz right now.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#glm-52-ban-didnt-slow"
+      "attribution": "Satya Nadella",
+      "summary": "Nadella warns that if a few models capture all the economic returns while industries find their knowledge commoditized, the political economy won't tolerate it \u2014 invoking the displacement of the first globalization wave. His priority: build a frontier ecosystem, not just a frontier model.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#no-societal-permission"
     },
     {
-      "id": "glm-design-cheap",
-      "headline": "GLM costs six cents while Opus costs 49 cents \u2014 and you can't tell the difference.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "20:40",
-      "attribution": "Hassan, Together AI",
-      "summary": "On design tasks, users say you don't have to trust the benchmarks. Asked to build a landing page, GLM 5.2 and Opus 4.8 produced indistinguishable results \u2014 GLM more than 6x cheaper, faster, and more token efficient. Some evidence of benchmark-maxing remains, with internal evals putting it behind frontier models.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#glm-design-cheap"
-    },
-    {
-      "id": "microsoft-deepseek-copilot",
-      "headline": "Microsoft eyes a fine-tuned DeepSeek to power Copilot CoWork",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:30",
-      "attribution": null,
-      "summary": "Per Axios, Microsoft \u2014 which moved CoWork to usage-based pricing \u2014 is testing a locally hosted fine-tune of DeepSeek V4 and other open-source models as cheaper alternatives to Anthropic and OpenAI, expecting to ship a lower-cost model within weeks. The irony: the US bans US frontier weights worldwide while its most embedded enterprise software firm prepares to ship a Chinese model inside the Fortune 500's productivity stack.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#microsoft-deepseek-copilot"
-    },
-    {
-      "id": "composer-25-ground-reports",
-      "headline": "Composer 2.5 wins on price \u2014 when it behaves",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": null,
-      "summary": "Cursor's Kimi-based, coding-post-trained Composer 2.5 benches near Opus and GPT 5.5 at a fraction of the cost. One engineer: $1 for 65% vs Fable's $12 for 70% \u2014 why pay 12x for 5 points? But others report it changing files without approval and going on rogue UI overhauls, and on artificial analysis's new agentic-coding benchmarks it fell closer to open Chinese models like GLM 5.1.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#composer-25-ground-reports"
-    },
-    {
-      "id": "openrouter-fusion-panels",
-      "headline": "OpenRouter's Fusion fans prompts out to a panel of models",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "24:30",
-      "attribution": null,
-      "summary": "Fusion claims Fable-level intelligence at half the price by fanning each prompt out to a panel of models in parallel (with web search and bash tools), then having a judge extract structure and a synthesizer write the grounded final answer. OpenRouter found panels consistently outperform individual models \u2014 and panels of budget models can surpass frontier ones at much lower cost.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#openrouter-fusion-panels"
-    },
-    {
-      "id": "smart-routing-beat-brute-force",
-      "headline": "Smart routing beat brute force. Inference optimization just became a first-class competitive advantage.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "27:45",
-      "attribution": "Patrick Ojo",
-      "summary": "The insight from Harvey's worker-advisor experiment isn't that open source beat frontier \u2014 it's that using the most expensive model for every task is laziness, not a quality strategy. Teams building routing layers that send each task to the right model at the right cost are now ahead on quality and cost simultaneously.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#smart-routing-beat-brute-force"
-    },
-    {
-      "id": "harvey-worker-advisor",
-      "headline": "Harvey pairs an open-weight worker with a frontier advisor",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "27:15",
-      "attribution": null,
-      "summary": "Working with Fireworks, Harvey built a setup where an open-weight worker (GLM 5.1) delegates high-stakes, complex tasks to a closed frontier advisor (Opus 4.7). The combination was not only cheaper than using Opus alone but actually delivered increased performance \u2014 and Harvey says it's just the beginning of its model experimentation.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#harvey-worker-advisor"
-    },
-    {
-      "id": "infinite-employees",
-      "headline": "Every company is about to get the ability to hire infinite employees.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "26:20",
-      "attribution": "Gabe Pereyra, Harvey president and co-founder",
-      "summary": "Harvey's Gabe Pereyra explains AI got more expensive, not cheaper: the shift from chat to agents exploded costs, with one user triggering hundreds of agents that trigger more agents. The challenge becomes managing those agents and making the business model work the same way it did with human employees.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#infinite-employees"
-    },
-    {
-      "id": "inference-optimization-coming",
-      "headline": "The Fable gap accelerated something that was coming anyway",
+      "id": "declaration-of-independence",
+      "headline": "NLW: the post is also Microsoft narrative-building",
       "type": "take",
       "segment": "main",
-      "timestamp": "28:30",
+      "timestamp": "20:00",
       "attribution": null,
-      "summary": "NLW's bright side: in a world where frontier costs keep rising, companies will have to get sophisticated about combining models for the best results. Inference optimization and token-efficiency exploration was coming no matter what \u2014 and now companies have more chance to get ahead of it than when everyone could just get lost in the glory of Fable 5.",
-      "link": "https://aidailybrief.ai/e/2026-06-18#inference-optimization-coming"
+      "summary": "NLW reads Nadella's essay as a declaration of independence from Anthropic and OpenAI's growing power \u2014 and as positioning for Microsoft's own ecosystem play. The deeply enmeshed enterprise incumbent has a direct self-interest in the ecosystem approach over one-model-to-rule-them-all.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#declaration-of-independence"
+    },
+    {
+      "id": "frontier-tuning",
+      "headline": "\"It's time to move from renting intelligence to truly controlling your AI.\"",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "20:00",
+      "attribution": "Mustafa Suleyman, Microsoft AI CEO",
+      "summary": "Microsoft AI CEO Mustafa Suleyman's underappreciated Frontier Tuning launch lets companies turn Microsoft's models into custom partners via reinforcement learning environments \u2014 \"training gyms\" where agents learn a firm's specific processes and keep continually learning. It tackles AI sovereignty and AI budget in one move.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#frontier-tuning"
+    },
+    {
+      "id": "token-capital-formula",
+      "headline": "\"Token capital equals human capital times scaffolding times feedback loops.\"",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "22:00",
+      "attribution": "Mark Aghenstad, on X",
+      "summary": "Mark Aghenstad boiled Nadella's essay to a formula where any zero zeroes everything out. He says he stopped asking clients about their model strategy and started asking about feedback loops \u2014 most have the model but zero scaffolding and zero measurement of what AI actually produced versus what shipped.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#token-capital-formula"
+    },
+    {
+      "id": "new-balance-sheet",
+      "headline": "\"The new firm will own a compounding cognition loop.\"",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "23:00",
+      "attribution": "Site Bringer, on X",
+      "summary": "Site Bringer reframes token capital as the new balance sheet: every workflow becomes a training surface, every decision a trace, every expert judgment reusable signal \u2014 accumulated machine-operable cognition that's executable, queryable, improvable, and portable across models.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#new-balance-sheet"
+    },
+    {
+      "id": "institutional-harness",
+      "headline": "What Satya is really describing is an institutional harness",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "24:00",
+      "attribution": null,
+      "summary": "A big 2026 revelation is how much the harness \u2014 the software layer that embeds context, skills, and tools around a model \u2014 drives performance. NLW frames Nadella's vision as the need for a larger institutional AI harness that sits around the entire ecosystem of AI usage, not just a single model.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#institutional-harness"
+    },
+    {
+      "id": "applied-ai-layer",
+      "headline": "Aaron Levie: the applied AI layer is no thin wrapper",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "25:00",
+      "attribution": "Aaron Levie, Box",
+      "summary": "Box's Levie argues driving agentic workflows in the enterprise is far more complex than a thin LLM layer \u2014 and anywhere there's complexity, you gain a moat. The playbook includes tuned interfaces, bespoke tools, model routing to balance frontier with cheaper models, and implementation/change management.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#applied-ai-layer"
+    },
+    {
+      "id": "harvey-law-firm-loop",
+      "headline": "\"Everything has to change\" for law firms",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": "Gabe Pereira, Harvey",
+      "summary": "Harvey's Gabe Pereira says the cognitive loop for law firms will be a self-improving human-agent system that completes client matters end to end \u2014 requiring a fragmented tech stack integrated into one platform and a rethink of how firms are structured, associates trained, data protected, and clients billed.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#harvey-law-firm-loop"
+    },
+    {
+      "id": "mollick-waypoint",
+      "headline": "\"Practical agents are merely months old.\"",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "28:00",
+      "attribution": "Ethan Mollick",
+      "summary": "Ethan Mollick cautions that nobody honestly knows the best approaches to rebuilding companies around AI agents yet \u2014 experimentation and productive failures will be required. He warns the current comfortable, normal-technology phase \"is very possibly a waypoint, not a stable phase.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-19#mollick-waypoint"
+    },
+    {
+      "id": "systems-not-implementations",
+      "headline": "NLW: design AI systems, not AI implementations",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "29:00",
+      "attribution": null,
+      "summary": "As token costs rise, NLW warns of the temptation to respond with strict spend limits and a bias toward known ROI. The most sophisticated organizations he talks to are instead shifting to designing AI systems \u2014 and if any good comes from the Fable ban, it's putting a fine point on that systems thinking.",
+      "link": "https://aidailybrief.ai/e/2026-06-19#systems-not-implementations"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-18.mp3",
-  "generated": "2026-06-19T19:06:39Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-19.mp3",
+  "generated": "2026-06-20T22:17:54Z"
 }

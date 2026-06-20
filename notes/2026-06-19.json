@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Own the loop, not just the scribe",
+      "body": "Nadella's idea translates neatly to a surgery: the durable asset is not the AI scribe itself but the accumulated templates, prompts and corrected notes your clinicians build around it. If NLW is right, a practice that captures and keeps that work owns something portable that survives a change of supplier. If Zitron is right, today's tidy price is subsidised and unproven, so the practical move either way is the same — make sure your templates and corrected transcripts can be exported, and never let a vendor lock that learning inside its own system."
+    },
+    {
+      "title": "Measuring ROI is harder in a consultation than in code",
+      "body": "Zitron's sharpest point — that nobody can measure AI's return or even a standard cost per task — bites harder in general practice, where the output is a safe consultation, not lines of code. If NLW is right, the gain is clinician time saved and better documentation; if Zitron is right, the honest answer is that no one yet has a clean cost-per-consultation or proven ROI. Either way, judge a scribe on whether it demonstrably saves time without adding a correction burden, and ask what it will cost once any free or subsidised tier ends."
+    },
+    {
+      "title": "Watch the renewal, not the demo",
+      "body": "Both men agree the action has moved to unit economics rather than which model is cleverest. For a practice that means the figure that matters is the renewal price and the per-seat or per-token cost, not the impressive launch demo. Ask your supplier which model sits behind the product, whether the price can change at renewal, and whether your data and templates leave with you if you switch."
+    }
+  ]
+}

@@ -162,6 +162,24 @@
    "resolution": "Within 12 months, major AI providers report shrinking enterprise spend/renewals or further forced price cuts amid persistent operating losses on inference. Fails if enterprise AI spend and renewals grow while providers move inference to sustainable gross margins.",
    "check_by": "2027-06-18",
    "status": "open"
+  },
+  {
+   "edition": "2026-06-19",
+   "side": "NLW",
+   "claim": "Companies that build a model-agnostic learning loop on top of AI — captured workflows, private evals measuring real business outcomes, RL environments trained on internal traces — will own durable, portable IP (token capital) that survives any single model swap, while those that merely pick a model cede their value to the model providers.",
+   "source": "https://aidailybrief.ai/e/2026-06-19",
+   "resolution": "Within 18 months, case studies or audited results show firms that built such owned learning systems demonstrating durable, portable productivity or ROI gains (net of token costs) that persist across a model change and differentiate them from peers who just bought a model. Fails if no measurable, portable advantage from 'token capital' systems emerges and outcomes track model choice and spend rather than owned scaffolding.",
+   "check_by": "2027-12-31",
+   "status": "open"
+  },
+  {
+   "edition": "2026-06-19",
+   "side": "Zitron",
+   "claim": "Enterprise AI has no measurable ROI and is not getting cheaper: there is no standard way to measure the cost of a task, AI remains more expensive than three years ago, and enterprises moved to token-based billing in 2026 will keep capping or cutting spend rather than finding sustainable returns.",
+   "source": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
+   "resolution": "Within 12 months, enterprises continue to report spend caps/cuts and there is still no industry-standard measure of AI cost-per-task or ROI, while real (unsubsidised) inference cost has not durably fallen. Fails if a credible standard ROI measure emerges and enterprise AI spend grows on sustainable inference margins.",
+   "check_by": "2027-06-30",
+   "status": "open"
   }
  ]
 }
