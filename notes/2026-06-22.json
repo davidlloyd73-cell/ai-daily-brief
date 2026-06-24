@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Keep a sandbox, but judge a scribe on the consultation, not the leaderboard",
+      "body": "NLW's practical advice - that every organisation should have a corner free to experiment with alternative models - translates cleanly to a surgery curious about AI scribes and triage tools. The lesson is not to chase whichever model topped a benchmark this week. If NLW is right that capable, cheaper, open models are now real, a practice gains optionality and resilience against any one supplier. If Zitron is right that the gains are marginal and the economics shaky, the same caution holds: trial a tool on real consultations, measure whether it genuinely saves clinician time without adding a correction burden, and never rebuild your workflow around a model that may be withdrawn or repriced."
+    },
+    {
+      "title": "Open weights raise a real data-governance question for the NHS",
+      "body": "The edition's sub-theme - that credible open-weight models let you run AI on your own terms - matters more in healthcare than in most sectors. An open model that can be hosted within NHS infrastructure could, in principle, keep patient data inside the organisation rather than sending it to a US vendor's servers. That is a genuine information-governance and DPIA advantage worth raising with any supplier. The caveat from Zitron's side: running these models properly is expensive (the edition cites roughly four hundred thousand pounds-worth of hardware or twenty thousand a month to rent), so for a single practice this is a question for ICB or national procurement, not the front desk."
+    },
+    {
+      "title": "Watch the renewal price, not the demo",
+      "body": "Both men agree the real action is in unit economics, not which model is cleverest. For a practice that means the figure that matters is the renewal cost and whether your transcripts and templates leave with you if you switch supplier. Ask which model sits behind any scribe, whether the price can change at renewal, and what happens to your data and accumulated corrections if you move."
+    }
+  ]
+}

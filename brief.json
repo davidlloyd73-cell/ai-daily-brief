@@ -1,291 +1,301 @@
 {
-  "date": "2026-06-19",
-  "title": "Your Company Doesn\u2019t Need an AI Strategy",
-  "dek": "Fable's still offline, but the thaw between the White House and Anthropic may finally be starting \u2014 and in the vacuum it left, the enterprise conversation has shifted from \"which model?\" to something much bigger. Satya Nadella's viral token-capital essay crystallizes it: your company doesn't need an AI strategy, it needs a learning loop you actually own.",
-  "source": "https://aidailybrief.ai/e/2026-06-19",
+  "date": "2026-06-23",
+  "title": "The Right Way to Deal With AI Data Centers",
+  "dek": "A slower news cycle gives NLW room to defuse one of AI's most contentious fights \u2014 data centers \u2014 by actually checking the water and electricity numbers. Plus a Mythos/NSA correction, OpenAI's cyber escalation, another SpaceX compute deal, and a $200B Google wobble over two departing researchers.",
+  "source": "https://aidailybrief.ai/e/2026-06-23",
   "oneIdea": {
-    "headline": "You don't need an AI strategy. You need an AI learning system you own.",
-    "summary": "The Fable ban exposed how fragile single-vendor AI foundations really are, and it landed right as the cost of state-of-the-art agentic AI was already forcing a rethink. Satya Nadella's answer \u2014 read 65 million times \u2014 is that the real asset isn't the model you pick but the compounding loop you build on top of it: human capital times scaffolding times feedback. Companies that turn workflows, judgment, and corrections into a portable, model-agnostic learning system own IP that survives any single model. Everyone else is just renting intelligence and ceding their value to a few models that eat everything they see."
+    "headline": "The data center fight needs a middle path between rollover and pitchforks.",
+    "summary": "Both sides of the data center debate are wildly reductive. The scary water and electricity numbers mostly don't survive contact with context \u2014 Amazon's entire global data center fleet uses a day's worth of US golf course watering. But communities aren't powerless either. The real opportunity isn't 'let big tech do whatever' or 'stop it entirely' \u2014 it's negotiating for serious economic benefits, like the Louisiana parish where teachers got $50,000 bonuses funded by Meta's campus. Move past the binary into the how-everyone-wins phase."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Own the loop, not just the scribe",
-        "body": "Nadella's idea translates neatly to a surgery: the durable asset is not the AI scribe itself but the accumulated templates, prompts and corrected notes your clinicians build around it. If NLW is right, a practice that captures and keeps that work owns something portable that survives a change of supplier. If Zitron is right, today's tidy price is subsidised and unproven, so the practical move either way is the same \u2014 make sure your templates and corrected transcripts can be exported, and never let a vendor lock that learning inside its own system."
+        "title": "How big numbers mislead - a lesson that travels to health statistics",
+        "body": "The edition's sharpest point is that astronomical-sounding figures grab attention precisely because most people have no sense of scale: Amazon's entire global data-centre water use for a year is roughly a single day of watering America's golf courses, and US leaky pipes waste about fifteen times all data-centre water combined. The same trick runs through health reporting - a 'doubling of risk' that moves a tiny absolute number, or a screening benefit quoted relatively rather than as numbers-needed-to-treat. If NLW is right, the antidote is always context and a denominator; if Zitron is right that headline numbers are often manufactured, the discipline is the same. It is a useful reminder for explaining risk to patients, and for reading the next alarming AI-and-NHS headline."
       },
       {
-        "title": "Measuring ROI is harder in a consultation than in code",
-        "body": "Zitron's sharpest point \u2014 that nobody can measure AI's return or even a standard cost per task \u2014 bites harder in general practice, where the output is a safe consultation, not lines of code. If NLW is right, the gain is clinician time saved and better documentation; if Zitron is right, the honest answer is that no one yet has a clean cost-per-consultation or proven ROI. Either way, judge a scribe on whether it demonstrably saves time without adding a correction burden, and ask what it will cost once any free or subsidised tier ends."
+        "title": "The 'how-everyone-wins' framing applied to AI in the surgery",
+        "body": "NLW argues communities should stop choosing between rolling over and grabbing pitchforks, and instead negotiate concrete benefits - he cites a Louisiana parish where data-centre tax receipts funded fifty-thousand-dollar teacher bonuses. The parallel for general practice is to refuse the binary of either swallowing whatever a vendor offers or rejecting AI outright. When an integrated care board or supplier brings an AI scribe or triage tool, the practical questions are what the practice gets in return: training, data control, fair pricing, and a share of any efficiency, not just a licence fee."
       },
       {
-        "title": "Watch the renewal, not the demo",
-        "body": "Both men agree the action has moved to unit economics rather than which model is cleverest. For a practice that means the figure that matters is the renewal price and the per-seat or per-token cost, not the impressive launch demo. Ask your supplier which model sits behind the product, whether the price can change at renewal, and whether your data and templates leave with you if you switch."
+        "title": "But check whether the benefit is real before you bargain for it",
+        "body": "Zitron's contrasting caution is worth holding alongside: he argues much of the claimed build-out is smaller and slower than the headlines suggest. The clinical translation is to verify that an AI tool's promised benefit is actually delivered and measured before reorganising around it. If NLW is right, there is genuine value to negotiate over; if Zitron is right, some of it is vapour - so insist on demonstrated, audited time-savings or safety gains in your own setting, not a vendor's slide."
       }
     ]
   },
   "the_other_side": {
-    "source": "AI Doesn't Have ROI",
-    "url": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
-    "date": "2026-06-02",
+    "source": "Where Are All The Data Centers?",
+    "url": "https://www.wheresyoured.at/where-are-all-the-data-centers/",
+    "date": "2026-05-12",
     "same_day": false,
-    "text": "Zitron's answer to the build-a-learning-loop gospel is blunt: you cannot build durable value on something whose return you cannot measure. He argues nobody can calculate the ROI of AI \u2014 or even a standard cost per task \u2014 because hallucination-prone models and an ever-growing list of harnesses make every interaction unpredictable. The fashionable talk of owning \"token capital\", on his telling, rests on subsidised and deliberately obfuscated token prices; the moment Anthropic and OpenAI moved enterprises to usage-based billing in early 2026, customers revolted and began capping spend. Far from compounding into owned IP, he insists, AI keeps getting more expensive, not cheaper, and much of the enthusiasm is written by people \"conned into ignoring the true cost.\""
+    "text": "NLW wants communities to move past the binary and bargain hard with a real, valuable build-out. Zitron's prior question is whether that build-out is as real and as large as everyone assumes. He spent a week hunting for big data centres that broke ground in 2023 or 2024 and were actually finished and switched on, and came up, in his words, \"surprisingly empty-handed.\" He argues nobody has yet built a true one-gigawatt facility, that \"operational\" routinely describes a campus where only a handful of the planned buildings have any gear inside, and that hyperscalers refuse to disclose how much capacity is genuinely online despite over eight hundred billion dollars of capex. On his telling, the fight over a data centre's water and electricity quietly assumes a scale that the disclosures do not actually support."
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: whether a company can wring measurable, durable value from AI that exceeds its true, unsubsidised cost. Both accept the same facts \u2014 token prices were subsidised and obfuscated, and enterprises recoiled once moved to usage-based billing. The empirical question that resolves it is whether the private evals, captured workflows and feedback loops Nadella prescribes actually raise measured output by more than the real per-token bill; the observable is audited enterprise AI ROI, net renewal and spend over coming quarters, and whether such \"token capital\" survives a model swap. The residue is pure worldview: Whittemore sees a compounding asset a firm can own, Zitron sees unmeasurable, subsidised theatre. Whittemore is vindicated if firms show durable, portable gains net of rising prices; Zitron if spend keeps being capped with no measurable return. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype, each with a newsletter to sell \u2014 so the signal is their shared premise that unit economics, not model choice, now decides. Watch whether any large firm publishes audited AI ROI net of true token costs."
+    "text": "Both men orbit one variable: how real and how large the AI data centre build-out actually is. Both accept that data centres exist, are being built and draw real water and power, and that reporting is muddy. The empirical question that will resolve it is how much capacity has been completed and switched on; the observable that settles it is disclosed, audited operational critical-IT load - finished megawatts and gigawatts, completion timelines, honest hyperscaler figures. The residue is pure worldview: Whittemore treats the build-out as a real, valuable thing worth negotiating local benefits over; Zitron treats much of the claimed capacity as phased public-relations vapour. Whittemore is vindicated if large finished capacity is verifiably online and communities win real concessions from real campuses; Zitron if gigawatt claims keep dissolving into a few populated buildings. Both are polemicists with incentives - Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype with a newsletter - so the signal is their shared distrust of headline numbers: he doubts the capacity figures, NLW the scary impact figures. Watch whether hyperscalers ever disclose real operational capacity."
   },
   "headlines": [
     {
-      "id": "anthropic-white-house-thaw",
-      "headline": "White House\u2013Anthropic talks may finally be thawing",
+      "id": "mythos-nsa-correction",
+      "headline": "The Mythos-hacked-the-NSA story was a misread",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "02:00",
+      "timestamp": "01:20",
       "attribution": null,
-      "summary": "Politico reports negotiations have shifted toward designing a framework to assess the severity of AI security flaws, reflecting a mutual understanding that no model can be completely immune to hacking. Export controls aren't lifted yet, but moving to set technical standards is a sign the talks are progressing after a week of dug-in heels.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#anthropic-white-house-thaw"
+      "summary": "An Economist reporter issued a correction: Senator Warner misunderstood NSA Director Rudd. The 'hours not weeks' wording was real, but Mythos's use was a controlled red-team exercise testing internal networks \u2014 not a live cyberattack \u2014 and the agency's red teams no longer have access to it.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#mythos-nsa-correction"
     },
     {
-      "id": "fable-ban-legality",
-      "headline": "\"I don't know what the legal authority is for that.\"",
-      "type": "quote",
+      "id": "mythos-raises-stakes",
+      "headline": "Mythos doesn't let anyone hack the NSA \u2014 but it speeds up the ones who get in",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "02:55",
+      "attribution": null,
+      "summary": "Per cybersecurity account Iris C2, gaining initial access to air-gapped classified systems remains the hard part. The real takeaway: once inside, Mythos makes exploit design and execution much faster, cutting the time defenders have to detect and contain an intruder.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#mythos-raises-stakes"
+    },
+    {
+      "id": "openai-gpt55-cyber",
+      "headline": "OpenAI ships GPT 5.5 Cyber, claims it beats Mythos",
+      "type": "insight",
       "segment": "headlines",
       "timestamp": "03:00",
-      "attribution": "Kevin Wolf, former Commerce Department official, to Politico",
-      "summary": "Former Commerce official Kevin Wolf argued the heavy-handed approach wouldn't scale and questioned the legal basis for blocking foreign nationals from logging into a cloud service. UC Berkeley's Andrew Reddy added the episode \"makes clear the unsustainability of the existing governance regime.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-19#fable-ban-legality"
-    },
-    {
-      "id": "levie-governance-preview",
-      "headline": "Aaron Levie: this is a preview of the new model-release regime",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "05:00",
       "attribution": null,
-      "summary": "Box's Aaron Levie argues these frameworks have massive implications \u2014 each model update going through extensive review, testing, and feedback with lots of subjective input on risk. The result could shift releases away from quick iterative drops toward bigger, more irregular updates.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#levie-governance-preview"
+      "summary": "As part of its Daybreak initiative \u2014 OpenAI's answer to Anthropic's Project Glasswing \u2014 OpenAI launched the full GPT 5.5 Cyber, its first cybersecurity-tuned model with reduced guardrails. It claims the model now overtakes Mythos on the CyberGym benchmark.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#openai-gpt55-cyber"
     },
     {
-      "id": "asml-euv-china",
-      "headline": "Lutnick accuses ASML of bad faith over a EUV machine in China",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "06:00",
-      "attribution": null,
-      "summary": "Bloomberg reports Commerce Secretary Howard Lutnick told ASML the US believes one of its ultraviolet lithography machines may have made its way into China, with officials claiming evidence the company is \"not acting in good faith.\" A developing story with big implications for the US-China AI balance.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#asml-euv-china"
-    },
-    {
-      "id": "sanders-7-trillion-fund",
-      "headline": "Bernie's $7T AI sovereign wealth fund, decoded",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "06:00",
-      "attribution": null,
-      "summary": "Sanders unveiled legislation for a $7 trillion fund \u2014 larger than the Social Security Trust Fund \u2014 funded by a one-time 50% tax on the equity of any company with over $200 million in annual AI sales. The fund would hold voting shares and pay every American a 5% annual dividend of more than $1,000.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#sanders-7-trillion-fund"
-    },
-    {
-      "id": "sanders-nationalization-2",
-      "headline": "NLW: read literally, this is nationalization of the AI industry",
-      "type": "take",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "NLW argues you don't need to debate the merits \u2014 50% of any company over $200M in revenue, in voting shares, amounts to de facto control of the whole sector. The more important read is how it sets the tent poles of where AI policy discourse is heading.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#sanders-nationalization-2"
-    },
-    {
-      "id": "vance-on-bernie",
-      "headline": "Vance likes the sovereign-fund idea \u2014 but wants workers at the table",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "JD Vance said the president likes the sovereign-wealth-fund concept of the US taking stakes in AI companies, but rejected a pure take-from-some-give-to-others model and pivoted to supporting labor unions. NLW's takeaway: a traditional left-right lens won't capture how AI policy plays out.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#vance-on-bernie"
-    },
-    {
-      "id": "accenture-hammered",
-      "headline": "Accenture hammered as the market prices in AI disruption",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": null,
-      "summary": "The consulting giant reported a 2% drop in Q3 bookings and cut revenue forecasts, sending the stock down 18% Thursday to its lowest in almost a decade \u2014 now cut in half this year. Accenture blamed a $400M Iran-war hole in its Middle East business; critics pointed to weak AI-transformation delivery.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#accenture-hammered"
-    },
-    {
-      "id": "petitti-domain-expertise",
-      "headline": "\"Real AI implementation requires deep domain expertise in the function where AI will actually be used.\"",
+      "id": "daybreak-democratize",
+      "headline": "Frontier defensive capabilities should not be concentrated in the hands of a few.",
       "type": "quote",
       "segment": "headlines",
-      "timestamp": "10:00",
-      "attribution": "Pat Petitti, CEO of a rival AI consulting platform",
-      "summary": "Rival AI consulting CEO Pat Petitti said that's exactly what Accenture lacks and investors are noticing. The snarkier internet version, from Greg on X: \"most people who say AI isn't good enough to replace people haven't hired Accenture before.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-19#petitti-domain-expertise"
+      "timestamp": "03:30",
+      "attribution": "OpenAI",
+      "summary": "OpenAI positioned Daybreak as more open than Glasswing, inviting smaller organizations to apply for access so defenders everywhere can find and fix vulnerabilities before attackers exploit them.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#daybreak-democratize"
     },
     {
-      "id": "harness-features-evolve",
-      "headline": "Claude Code Artifacts and Codex Record-and-Replay push AI multiplayer",
+      "id": "patch-the-planet",
+      "headline": "Patch the Planet finds hundreds of bugs, ships 37 fixes",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "10:00",
+      "timestamp": "04:30",
       "attribution": null,
-      "summary": "Claude Code launched Artifacts \u2014 interactive pages built from sessions, shared at a private link \u2014 mirroring Codex's sites. Codex shipped Record and Replay, which turns a demoed recurring task into an inspectable, editable skill. OpenAI's Jason: \"Boy, is it a bad day to be a manual workflow that crosses application boundaries.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-19#harness-features-evolve"
+      "summary": "OpenAI launched Patch the Planet with Trail of Bits to secure open-source libraries. Initial testing of GPT 5.5 Cyber surfaced hundreds of bugs; 37 patches are deployed with many more in the pipeline and 30+ projects already enrolled.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#patch-the-planet"
     },
     {
-      "id": "fragile-foundations",
-      "headline": "Fable's outage made companies question their AI foundations",
+      "id": "expensive-part-moved",
+      "headline": "The expensive part of security work has moved. The advantage is no longer in finding bugs but everything after.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "04:45",
+      "attribution": "Trail of Bits",
+      "summary": "Trail of Bits argues the value has shifted to confirming findings, getting severity right, writing patches maintainers will accept, and coordinating disclosure \u2014 exactly the work that floods of AI-generated reports threaten to bury.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#expensive-part-moved"
+    },
+    {
+      "id": "five-eyes-alert",
+      "headline": "Five Eyes issue a rare AI cyber-risk alert",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "05:30",
+      "attribution": null,
+      "summary": "The intelligence alliance warned that frontier AI is rapidly transforming cyber risk and that assumptions can become outdated in months, not years. The UK NCSC bulletin urged businesses to integrate AI into security ops and treat cyber as 'a core business risk and leadership responsibility,' not a purely technical issue.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#five-eyes-alert"
+    },
+    {
+      "id": "trump-quantum-orders",
+      "headline": "Trump orders a push for a working quantum computer by 2028",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "06:15",
+      "attribution": null,
+      "summary": "Two new executive orders direct federal agencies to partner with industry on a quantum computer for research (OSTP's Kratsios targets 2028), mandate migration to quantum-secure cryptography by 2031, and harden the quantum supply chain against adversaries.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#trump-quantum-orders"
+    },
+    {
+      "id": "reflection-spacex-deal",
+      "headline": "SpaceX signs a $6.3B compute deal with Reflection AI",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "07:15",
+      "attribution": null,
+      "summary": "Open-source startup Reflection AI agreed to rent Colossus II capacity through 2029 for $6.3B total, with three-month walk-away terms. It's notably smaller than the Anthropic and Google SpaceX deals running near $1B a month each.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#reflection-spacex-deal"
+    },
+    {
+      "id": "reflection-open-source",
+      "headline": "Reflection pitches itself as the domestic open-source alternative",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "08:00",
+      "attribution": "Reflection AI",
+      "summary": "Yet to ship its first frontier model, Reflection used the deal to argue that nations and enterprises increasingly recognize 'the risks and costs associated with exclusively depending on closed models.' It's working with the Pentagon and DOE's Genesis Mission.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#reflection-open-source"
+    },
+    {
+      "id": "spacex-neocloud-math",
+      "headline": "SpaceX as Neo Cloud plus Neo Lab is a 'crazy effective combo'",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "08:15",
+      "attribution": "Swigs, Layton Space",
+      "summary": "Swigs of Layton Space argued no one is doing the math right: SpaceX has already recouped about half its Cursor investment via compute deals, with the rest covered if Composer 3 does well. No other company is simultaneously a leading lab and a Neo cloud where GPUs are concerned.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#spacex-neocloud-math"
+    },
+    {
+      "id": "google-200b-drop",
+      "headline": "Two researcher exits, $200B in lost Google market cap",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "09:15",
+      "attribution": null,
+      "summary": "Google stock fell as much as 7.2% Monday \u2014 its largest intraday move since February \u2014 after Nobel laureate John Jumper left DeepMind for Anthropic and Noam Shazeer left for OpenAI. NLW thinks the market over-indexes on AI headlines, but a real narrative shift around Google's pace is underway.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#google-200b-drop"
+    },
+    {
+      "id": "google-talent-war",
+      "headline": "Google is losing the war for talent at the frontier of AI.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "09:30",
+      "attribution": "Gil Luria, D.A. Davidson",
+      "summary": "D.A. Davidson's Gil Luria argued Google held a state-of-the-art model for only weeks last year and has fallen off since, with these departures suggesting it is falling further behind on enterprise-essential agentic use cases.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#google-talent-war"
+    },
+    {
+      "id": "peak-google-done",
+      "headline": "NLW sticks to his guns on overreacting to personnel moves",
       "type": "take",
-      "segment": "main",
-      "timestamp": "15:00",
+      "segment": "headlines",
+      "timestamp": "10:30",
       "attribution": null,
-      "summary": "A week after Fable 5 went offline, NLW says many organizations are looking at their AI strategies and realizing how much they rely on one or a small handful of partners. The lesson: picking the right vendor is a very small part of real organizational change.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#fragile-foundations"
+      "summary": "Citing Prime Intellect's Florian, NLW notes the recurring cycle: 'peak Google is done for' is always followed by Google releasing a new model and everyone deciding no one can match its TPUs and data. For now it's for markets to debate which side is right.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#peak-google-done"
     },
     {
-      "id": "nadella-cognitive-loop",
-      "headline": "\"This is the first time we can create a real cognitive loop between people and digital systems.\"",
+      "id": "theo-von-rant",
+      "headline": "Nobody wants a data center, dude. And the people that want them seem kind of evil.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "16:00",
-      "attribution": "Satya Nadella, \"A Frontier Without an Ecosystem Is Not Stable\"",
-      "summary": "Nadella's viral post argues this platform shift is unlike any before: past digital systems enhanced human capital, but now organizations must rethink how they learn, build IP, and differentiate in a world where models can absorb and commoditize human expertise.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#nadella-cognitive-loop"
+      "timestamp": "14:30",
+      "attribution": "Theo Von, This Past Weekend podcast",
+      "summary": "Theo Von's podcast rant \u2014 warning of an emotional credit score and AI becoming a new god \u2014 packs a remarkable number of misperceptions into one paragraph. NLW argues Von reflects an emerging mainstream view rather than leading it.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#theo-von-rant"
     },
     {
-      "id": "human-and-token-capital",
-      "headline": "Every company will build both human capital and token capital",
+      "id": "bipartisan-opposition",
+      "headline": "Data center opposition has gone fully bipartisan",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "15:30",
+      "attribution": null,
+      "summary": "Erin Brockovich launched a campaign against data centers, former Tea Party conservatives are planning nationwide protests, and comedian Charlie Berens called opposition 'the most bipartisan issue since beer.' The two recurring complaints: water use and electricity prices.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#bipartisan-opposition"
+    },
+    {
+      "id": "water-numbers-context",
+      "headline": "Amazon's entire data center water use is a day of golf-course watering",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "In Nadella's framing, human capital is the knowledge, judgment, relationships, and pattern recognition of people; token capital is the AI capability a firm builds and owns. Crucially, human capital becomes more valuable as token capital grows \u2014 \"without human direction, you have compute running in circles.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-19#human-and-token-capital"
+      "summary": "Amazon's global data centers used 2.5 billion gallons in 2025 (down 2% even as footprint grew). US golf courses use over 500 billion gallons a year \u2014 meaning Amazon's full year is roughly one day of US golf maintenance. California almonds use 1.2\u20131.8 trillion gallons, 5\u20138x all US data centers.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#water-numbers-context"
     },
     {
-      "id": "learning-loop-over-model",
-      "headline": "\"You can offload a task or even a job, but you can never offload your learning.\"",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": "Satya Nadella",
-      "summary": "Nadella's core claim: the real opportunity isn't picking the best model but building a learning loop on top of models where human and token capital compound. A company should be able to swap out a generalist model without losing the veteran expertise built into its learning system.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#learning-loop-over-model"
-    },
-    {
-      "id": "private-evals-rl",
-      "headline": "The new IP: private evals, RL environments, and a hill-climbing machine",
+      "id": "leaky-pipes-comparison",
+      "headline": "Leaky US pipes waste 15x what data centers use",
       "type": "insight",
       "segment": "main",
-      "timestamp": "18:00",
+      "timestamp": "18:15",
       "attribution": null,
-      "summary": "Nadella prescribes private evals measuring real business outcomes (not external benchmarks), private RL environments trained on internal traces, and a queryable knowledge base. He calls it a \"hill climbing machine\" that compounds \u2014 every improved workflow generates better training signal.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#private-evals-rl"
+      "summary": "One study found the US loses 3.29 trillion gallons a year to leaky pipes \u2014 about 15 times total data center water use. In Indiana, the contested Amazon facility's 300 million gallons a year equals roughly 0.2% of the state's domestic water use.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#leaky-pipes-comparison"
     },
     {
-      "id": "no-societal-permission",
-      "headline": "\"There is no societal permission for an AI future that hollows out entire industries.\"",
-      "type": "quote",
+      "id": "karen-hao-correction",
+      "headline": "A foundational water myth was off by 1,000x",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "18:30",
+      "attribution": null,
+      "summary": "Author Karen Hao's claim in Empire of AI that a Chile Google data center consumed 1,000x the surrounding population's water was wrong by a factor of 1,000 due to a unit mix-up. She acknowledged and corrected the error \u2014 but the book is still out there making the claim.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#karen-hao-correction"
+    },
+    {
+      "id": "one-gallon-too-many",
+      "headline": "If you don't like what the water's used for, even one gallon is too many",
+      "type": "take",
       "segment": "main",
       "timestamp": "19:00",
-      "attribution": "Satya Nadella",
-      "summary": "Nadella warns that if a few models capture all the economic returns while industries find their knowledge commoditized, the political economy won't tolerate it \u2014 invoking the displacement of the first globalization wave. His priority: build a frontier ecosystem, not just a frontier model.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#no-societal-permission"
-    },
-    {
-      "id": "declaration-of-independence",
-      "headline": "NLW: the post is also Microsoft narrative-building",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "20:00",
       "attribution": null,
-      "summary": "NLW reads Nadella's essay as a declaration of independence from Anthropic and OpenAI's growing power \u2014 and as positioning for Microsoft's own ecosystem play. The deeply enmeshed enterprise incumbent has a direct self-interest in the ecosystem approach over one-model-to-rule-them-all.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#declaration-of-independence"
+      "summary": "NLW's core diagnosis of the water debate: big numbers are politically potent because most people have no sense of how much water we actually consume. The astronomical-sounding figures grab attention regardless of context.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#one-gallon-too-many"
     },
     {
-      "id": "frontier-tuning",
-      "headline": "\"It's time to move from renting intelligence to truly controlling your AI.\"",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": "Mustafa Suleyman, Microsoft AI CEO",
-      "summary": "Microsoft AI CEO Mustafa Suleyman's underappreciated Frontier Tuning launch lets companies turn Microsoft's models into custom partners via reinforcement learning environments \u2014 \"training gyms\" where agents learn a firm's specific processes and keep continually learning. It tackles AI sovereignty and AI budget in one move.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#frontier-tuning"
-    },
-    {
-      "id": "token-capital-formula",
-      "headline": "\"Token capital equals human capital times scaffolding times feedback loops.\"",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": "Mark Aghenstad, on X",
-      "summary": "Mark Aghenstad boiled Nadella's essay to a formula where any zero zeroes everything out. He says he stopped asking clients about their model strategy and started asking about feedback loops \u2014 most have the model but zero scaffolding and zero measurement of what AI actually produced versus what shipped.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#token-capital-formula"
-    },
-    {
-      "id": "new-balance-sheet",
-      "headline": "\"The new firm will own a compounding cognition loop.\"",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": "Site Bringer, on X",
-      "summary": "Site Bringer reframes token capital as the new balance sheet: every workflow becomes a training surface, every decision a trace, every expert judgment reusable signal \u2014 accumulated machine-operable cognition that's executable, queryable, improvable, and portable across models.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#new-balance-sheet"
-    },
-    {
-      "id": "institutional-harness",
-      "headline": "What Satya is really describing is an institutional harness",
+      "id": "electricity-no-correlation",
+      "headline": "No significant correlation between data centers and a state's power prices",
       "type": "insight",
       "segment": "main",
-      "timestamp": "24:00",
+      "timestamp": "19:45",
       "attribution": null,
-      "summary": "A big 2026 revelation is how much the harness \u2014 the software layer that embeds context, skills, and tools around a model \u2014 drives performance. NLW frames Nadella's vision as the need for a larger institutional AI harness that sits around the entire ecosystem of AI usage, not just a single model.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#institutional-harness"
+      "summary": "The Institute for Energy Research found prices in the top-ten data center states are virtually identical to the average elsewhere, with no significant relationship to faster rate increases. Most price pressure traces to upgrading an aging grid \u2014 a cost we'd face anyway.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#electricity-no-correlation"
     },
     {
-      "id": "applied-ai-layer",
-      "headline": "Aaron Levie: the applied AI layer is no thin wrapper",
-      "type": "quote",
+      "id": "local-price-spikes",
+      "headline": "The local short-run story is real \u2014 and it's a grid problem",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "25:00",
-      "attribution": "Aaron Levie, Box",
-      "summary": "Box's Levie argues driving agentic workflows in the enterprise is far more complex than a thin LLM layer \u2014 and anywhere there's complexity, you gain a moat. The playbook includes tuned interfaces, bespoke tools, model routing to balance frontier with cheaper models, and implementation/change management.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#applied-ai-layer"
+      "timestamp": "20:30",
+      "attribution": null,
+      "summary": "A Bloomberg analysis of 25,000 grid nodes found wholesale prices rose as much as 276% since 2020 near data center clusters, with 70%+ of increases within 50 miles of significant activity. The Daily Economy's read: not evidence of incompatibility, but that grid infrastructure and cost-allocation rules haven't kept up.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#local-price-spikes"
     },
     {
-      "id": "harvey-law-firm-loop",
-      "headline": "\"Everything has to change\" for law firms",
-      "type": "quote",
+      "id": "cost-allocation-policy",
+      "headline": "Policy is racing to make data centers pay their own way",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "27:00",
-      "attribution": "Gabe Pereira, Harvey",
-      "summary": "Harvey's Gabe Pereira says the cognitive loop for law firms will be a self-improving human-agent system that completes client matters end to end \u2014 requiring a fragmented tech stack integrated into one platform and a rethink of how firms are structured, associates trained, data protected, and clients billed.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#harvey-law-firm-loop"
+      "timestamp": "21:30",
+      "attribution": null,
+      "summary": "Oregon's POWER Act requires the biggest users to bear the cost of infrastructure built specifically for them. The White House's Ratepayer Protection Pledge has companies committing to build/buy new power supply, pay for delivery upgrades, pay whether they use the power or not, and invest in local jobs and resilience.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#cost-allocation-policy"
     },
     {
-      "id": "mollick-waypoint",
-      "headline": "\"Practical agents are merely months old.\"",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "28:00",
-      "attribution": "Ethan Mollick",
-      "summary": "Ethan Mollick cautions that nobody honestly knows the best approaches to rebuilding companies around AI agents yet \u2014 experimentation and productive failures will be required. He warns the current comfortable, normal-technology phase \"is very possibly a waypoint, not a stable phase.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-19#mollick-waypoint"
-    },
-    {
-      "id": "systems-not-implementations",
-      "headline": "NLW: design AI systems, not AI implementations",
+      "id": "unions-middle-path",
+      "headline": "Labor unions may be the key actor for finding the middle",
       "type": "take",
       "segment": "main",
-      "timestamp": "29:00",
+      "timestamp": "22:45",
       "attribution": null,
-      "summary": "As token costs rise, NLW warns of the temptation to respond with strict spend limits and a bias toward known ROI. The most sophisticated organizations he talks to are instead shifting to designing AI systems \u2014 and if any good comes from the Fable ban, it's putting a fine point on that systems thinking.",
-      "link": "https://aidailybrief.ai/e/2026-06-19#systems-not-implementations"
+      "summary": "NLW argues unions sit in both camps \u2014 sympathetic to community concerns that AI disproportionately benefits the rich, yet seeing firsthand how valuable the build-out is as demand for skilled blue-collar work climbs. They're positioned to broker the practical middle ground.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#unions-middle-path"
+    },
+    {
+      "id": "two-things-true",
+      "headline": "Two things can be true: data centers have drawbacks, but communities can win far more than they realize.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "23:30",
+      "attribution": "The Information (Anne Davis Vaughn)",
+      "summary": "The Information's reporting from rural data center projects found communities can extract far more financial concessions than they think \u2014 they're being taught the choice is roll over or grab pitchforks, while missing a massive middle path.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#two-things-true"
+    },
+    {
+      "id": "louisiana-teacher-bonuses",
+      "headline": "A Louisiana parish gave teachers $50,000 bonuses from a Meta campus",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "24:30",
+      "attribution": null,
+      "summary": "In rural Richland Parish, hundreds of teachers are set to receive unprecedented $50,000 bonuses funded by a surge in tax receipts tied to Meta's AI campus. An existing ordinance gives teachers a slice of sales taxes; bonuses quintupled from construction activity \u2014 a concrete example of the 'how everyone wins' phase NLW wants.",
+      "link": "https://aidailybrief.ai/e/2026-06-23#louisiana-teacher-bonuses"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-19.mp3",
-  "generated": "2026-06-20T22:17:54Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-23.mp3",
+  "generated": "2026-06-24T06:18:22Z"
 }

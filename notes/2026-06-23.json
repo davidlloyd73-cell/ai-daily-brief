@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "How big numbers mislead - a lesson that travels to health statistics",
+      "body": "The edition's sharpest point is that astronomical-sounding figures grab attention precisely because most people have no sense of scale: Amazon's entire global data-centre water use for a year is roughly a single day of watering America's golf courses, and US leaky pipes waste about fifteen times all data-centre water combined. The same trick runs through health reporting - a 'doubling of risk' that moves a tiny absolute number, or a screening benefit quoted relatively rather than as numbers-needed-to-treat. If NLW is right, the antidote is always context and a denominator; if Zitron is right that headline numbers are often manufactured, the discipline is the same. It is a useful reminder for explaining risk to patients, and for reading the next alarming AI-and-NHS headline."
+    },
+    {
+      "title": "The 'how-everyone-wins' framing applied to AI in the surgery",
+      "body": "NLW argues communities should stop choosing between rolling over and grabbing pitchforks, and instead negotiate concrete benefits - he cites a Louisiana parish where data-centre tax receipts funded fifty-thousand-dollar teacher bonuses. The parallel for general practice is to refuse the binary of either swallowing whatever a vendor offers or rejecting AI outright. When an integrated care board or supplier brings an AI scribe or triage tool, the practical questions are what the practice gets in return: training, data control, fair pricing, and a share of any efficiency, not just a licence fee."
+    },
+    {
+      "title": "But check whether the benefit is real before you bargain for it",
+      "body": "Zitron's contrasting caution is worth holding alongside: he argues much of the claimed build-out is smaller and slower than the headlines suggest. The clinical translation is to verify that an AI tool's promised benefit is actually delivered and measured before reorganising around it. If NLW is right, there is genuine value to negotiate over; if Zitron is right, some of it is vapour - so insist on demonstrated, audited time-savings or safety gains in your own setting, not a vendor's slide."
+    }
+  ]
+}

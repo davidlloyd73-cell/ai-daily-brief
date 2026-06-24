@@ -1,185 +1,221 @@
 {
- "note": "Calibration ledger: one falsifiable claim per side per edition, with a plain-English resolution condition and check-back date. Status: open | vindicated | falsified | unresolvable.",
- "claims": [
-  {
-   "edition": "2026-06-09",
-   "side": "NLW",
-   "claim": "Consumer AI and work/agentic AI are diverging into effectively separate technologies, and the agentic-work side is where the durable economic value lands.",
-   "source": "https://aidailybrief.ai/e/2026-06-09#consumer-vs-work",
-   "resolution": "By the check date, the bulk of frontier-lab revenue growth is attributable to API/agentic and enterprise usage rather than consumer subscriptions, and commentary has normalised treating 'consumer AI' and 'work AI' as distinct categories. Fails if consumer subscriptions remain the dominant revenue engine and the framing collapses back to a single 'AI'.",
-   "check_by": "2027-06-09",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-09",
-   "side": "Zitron",
-   "claim": "AI has no measurable ROI; firms cannot reliably measure either the benefit or the per-task cost, so spend will prove unjustifiable once examined.",
-   "source": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
-   "resolution": "By the check date, no widely accepted standard for measuring AI ROI or per-task cost has emerged and at least one further large enterprise publicly caps or cuts AI spend citing unmeasurable return. Fails if credible, audited enterprise ROI measurement becomes routine and spend grows on the back of it.",
-   "check_by": "2027-06-02",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-10",
-   "side": "NLW",
-   "claim": "Fable 5 is a genuine capability step change in agentic coding, not a saturated-benchmark illusion, and will translate into materially larger real-world tasks being handed to agents.",
-   "source": "https://aidailybrief.ai/e/2026-06-10#raises-the-bar",
-   "resolution": "By the check date, multiple independent enterprises report production agentic-coding workflows running many hours unattended and shipping merged code at scale (in the spirit of the Stripe 50M-line migration). Fails if Fable-class gains prove demo-bound and day-to-day developer workflows look essentially unchanged.",
-   "check_by": "2026-12-10",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-10",
-   "side": "Zitron",
-   "claim": "AI progress is slowing, and capability gains will not close the gap to the ~$2 trillion/yr in revenue the infrastructure build-out requires by 2030.",
-   "source": "https://www.wheresyoured.at/ai-is-slowing-down/",
-   "resolution": "By the check date, frontier-lab and hyperscaler AI revenue run-rate is tracking well below the trajectory needed to reach ~$2T/yr by 2030 while capex keeps rising. Fails if AI revenue growth visibly accelerates onto that trajectory.",
-   "check_by": "2027-06-08",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-11",
-   "side": "NLW",
-   "claim": "Anthropic holds durable, structural gatekeeping power over frontier access: it will keep setting terms (guardrails, access tiers) that customers and competitors must accept.",
-   "source": "https://aidailybrief.ai/e/2026-06-11#power-not-policy",
-   "resolution": "By the check date, Anthropic is still imposing access/usage terms that enterprise customers broadly accept without forcing reversal, and retains its enterprise position despite the Fable 5 backlash. Fails if competitive/price pressure forces Anthropic to materially open access or it loses significant enterprise share over trust.",
-   "check_by": "2027-06-11",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-11",
-   "side": "Zitron",
-   "claim": "Anthropic's apparent strength is borrowed: its profitability is an accounting artefact resting on subsidised compute, and its costs still scale linearly with revenue.",
-   "source": "https://www.wheresyoured.at/anthropics-profitability-swindle/",
-   "resolution": "When Anthropic discloses audited financials (e.g. via an IPO prospectus), they show costs scaling with revenue and no durable operating-margin path, with any prior 'profit' tied to one-off discounted-compute timing. Fails if audited figures show a credible, structural path to profitability.",
-   "check_by": "2027-06-30",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-12",
-   "side": "NLW",
-   "claim": "Total token consumption growth will dwarf any revenue lost to enterprises shifting to cheaper token baskets.",
-   "source": "https://aidailybrief.ai/e/2026-06-12#growth-dwarfs-cheaper-baskets",
-   "resolution": "By the check date, OpenAI + Anthropic combined revenue run-rate is at least 30% above the ~$60B/yr projected for 2026, without across-the-board price rises doing the work.",
-   "check_by": "2026-12-12",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-12",
-   "side": "Zitron",
-   "claim": "AI revenue growth is slowing and will slow further as token-based billing exposes true costs to customers.",
-   "source": "https://www.wheresyoured.at/ai-is-slowing-down/",
-   "resolution": "By the check date, labs' quarter-on-quarter revenue growth has visibly flattened versus 2025, or a second wave of enterprise spending caps arrives at lower limits than Uber's $1,500/seat.",
-   "check_by": "2027-03-31",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-13",
-   "side": "NLW",
-   "claim": "The Fable shutdown is a durable turning point: government will be materially more involved in gating frontier-model deployment, and access controls (KYC/citizenship checks) will spread rather than revert.",
-   "source": "https://aidailybrief.ai/e/2026-06-13#turning-point",
-   "resolution": "By the check date, at least one of: a second US government-ordered restriction, recall, or forced disablement of a frontier model; OR formal citizenship/ID verification gating access to a frontier model on at least one major platform (Claude, Cursor, OpenRouter, etc.). If neither occurs and the directive is quietly reversed with no lasting controls, the claim fails.",
-   "check_by": "2027-06-13",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-13",
-   "side": "Zitron",
-   "claim": "OpenAI and Anthropic have no path to profitability; their IPO filings are a race for exit liquidity rather than evidence of viable economics.",
-   "source": "https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-1/",
-   "resolution": "When OpenAI or Anthropic discloses audited financials via an IPO prospectus, the figures show continued large net losses with no credible near-term operating-margin path. If either company discloses profitability or a clear, dated path to it, the claim fails.",
-   "check_by": "2027-06-30",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-15",
-   "side": "NLW",
-   "claim": "The Fable standoff is interpersonal, not technical: it will only be resolved by direct principal-level engagement (Amodei with senior administration figures), not by an engineering fix.",
-   "source": "https://aidailybrief.ai/e/2026-06-15#if-dario-not-on-the-plane",
-   "resolution": "When Fable/Mythos access is restored, contemporaneous reporting attributes the resolution chiefly to direct executive/political engagement (e.g. Amodei meeting administration principals) rather than to a technical remediation of the jailbreak. Fails if access returns via a documented technical fix with no such engagement, or via litigation alone.",
-   "check_by": "2026-12-15",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-15",
-   "side": "Zitron",
-   "claim": "OpenAI has no path to profitability and its losses are compounding, not narrowing (reported up ~8x in 2025 on ~$34B of spending).",
-   "source": "https://www.wheresyoured.at/ais-brokenomics/",
-   "resolution": "OpenAI's audited financials (via IPO prospectus or comparable disclosure) show 2025 net loss materially larger than 2024 and no credible near-term operating-margin path. Fails if OpenAI discloses profitability or a clear, dated path to it.",
-   "check_by": "2027-06-30",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-16",
-   "side": "NLW",
-   "claim": "Over the next 6-12 months the labs will dramatically increase investment in enablement, training and expanding usage depth — even labs that don't believe everyone should build agents will act as if it's true, to hit quarterly token-growth targets.",
-   "source": "https://aidailybrief.ai/e/2026-06-16",
-   "resolution": "By the check date, major labs (Anthropic and/or OpenAI) have materially expanded enablement/training programmes, customer-success/forward-deployed capacity or usage-depth initiatives. Fails if no such material expansion in lab-led training/enablement is observable.",
-   "check_by": "2027-06-16",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-16",
-   "side": "Zitron",
-   "claim": "Token-based billing is fundamentally unprofitable and has triggered a customer revolt; 'training people to burn more tokens' is demand-manufacture that won't fix the missing ROI, and enterprise token budgets will keep being capped.",
-   "source": "https://www.wheresyoured.at/brokenomics/",
-   "resolution": "By the check date, enterprise token-spend caps persist or spread and there is no credible evidence that lab enablement/training converted into measurable ROI sufficient to lift those budgets. Fails if enablement demonstrably lifts capped budgets with attributable value.",
-   "check_by": "2027-06-15",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-17",
-   "side": "NLW",
-   "claim": "OpenAI's 2025 loss is largely a one-time non-cash accounting charge ($41.55bn from the for-profit conversion), and the underlying inference business is already profitable — $13.07bn revenue on $7.5bn cost of revenue — so the company is far healthier than the $38.5bn headline loss implies.",
-   "source": "https://aidailybrief.ai/e/2026-06-17",
-   "resolution": "A future audited disclosure or IPO prospectus shows that, with the one-time fair-value/conversion charge excluded, OpenAI's operating loss narrows year-over-year and inference/gross profit scales. Fails if operating losses (ex one-time items) keep widening with no margin path.",
-   "check_by": "2027-06-30",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-17",
-   "side": "Zitron",
-   "claim": "OpenAI's losses are mounting dramatically year over year (operating loss of $20.92bn in 2025 on $34bn of spending) with no visible path to sustainability or profitability.",
-   "source": "https://www.wheresyoured.at/exclusive-openai-financials/",
-   "resolution": "OpenAI's next audited figures show its operating loss (excluding one-time conversion charges) larger than 2025 with no credible near-term operating-margin path. Fails if OpenAI discloses a narrowing operating loss or a clear dated path to operating profitability.",
-   "check_by": "2027-06-30",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-18",
-   "side": "NLW",
-   "claim": "Open-weight and routed model stacks (e.g. GLM 5.2, OpenRouter Fusion, compound APIs) can deliver near-Fable/near-frontier performance on real enterprise tasks at a fraction of the cost — around 6¢ vs 49¢ per task in the landing-page example — making smart routing and inference optimisation a durable competitive advantage.",
-   "source": "https://aidailybrief.ai/e/2026-06-18",
-   "resolution": "Within 12 months, independent benchmarks or large enterprises report production workloads moved to open-weight/routed stacks at materially lower cost with quality within a few points of frontier models. Fails if open/routed stacks consistently underperform on real tasks (as the Kimi K2.7 benchmark-vs-reality gap warns) and enterprises revert to frontier models.",
-   "check_by": "2027-06-18",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-18",
-   "side": "Zitron",
-   "claim": "The shift to cheaper models reflects the bursting of an AI 'tokenomics bubble' — enterprises put on usage-based billing in early 2026 revolted at the true cost, forcing providers into 'drastic' price cuts; most users will refuse to pay AI's actual cost, so the economics still don't work.",
-   "source": "https://www.wheresyoured.at/brokenomics/",
-   "resolution": "Within 12 months, major AI providers report shrinking enterprise spend/renewals or further forced price cuts amid persistent operating losses on inference. Fails if enterprise AI spend and renewals grow while providers move inference to sustainable gross margins.",
-   "check_by": "2027-06-18",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-19",
-   "side": "NLW",
-   "claim": "Companies that build a model-agnostic learning loop on top of AI — captured workflows, private evals measuring real business outcomes, RL environments trained on internal traces — will own durable, portable IP (token capital) that survives any single model swap, while those that merely pick a model cede their value to the model providers.",
-   "source": "https://aidailybrief.ai/e/2026-06-19",
-   "resolution": "Within 18 months, case studies or audited results show firms that built such owned learning systems demonstrating durable, portable productivity or ROI gains (net of token costs) that persist across a model change and differentiate them from peers who just bought a model. Fails if no measurable, portable advantage from 'token capital' systems emerges and outcomes track model choice and spend rather than owned scaffolding.",
-   "check_by": "2027-12-31",
-   "status": "open"
-  },
-  {
-   "edition": "2026-06-19",
-   "side": "Zitron",
-   "claim": "Enterprise AI has no measurable ROI and is not getting cheaper: there is no standard way to measure the cost of a task, AI remains more expensive than three years ago, and enterprises moved to token-based billing in 2026 will keep capping or cutting spend rather than finding sustainable returns.",
-   "source": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
-   "resolution": "Within 12 months, enterprises continue to report spend caps/cuts and there is still no industry-standard measure of AI cost-per-task or ROI, while real (unsubsidised) inference cost has not durably fallen. Fails if a credible standard ROI measure emerges and enterprise AI spend grows on sustainable inference margins.",
-   "check_by": "2027-06-30",
-   "status": "open"
-  }
- ]
+  "note": "Calibration ledger: one falsifiable claim per side per edition, with a plain-English resolution condition and check-back date. Status: open | vindicated | falsified | unresolvable.",
+  "claims": [
+    {
+      "edition": "2026-06-09",
+      "side": "NLW",
+      "claim": "Consumer AI and work/agentic AI are diverging into effectively separate technologies, and the agentic-work side is where the durable economic value lands.",
+      "source": "https://aidailybrief.ai/e/2026-06-09#consumer-vs-work",
+      "resolution": "By the check date, the bulk of frontier-lab revenue growth is attributable to API/agentic and enterprise usage rather than consumer subscriptions, and commentary has normalised treating 'consumer AI' and 'work AI' as distinct categories. Fails if consumer subscriptions remain the dominant revenue engine and the framing collapses back to a single 'AI'.",
+      "check_by": "2027-06-09",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-09",
+      "side": "Zitron",
+      "claim": "AI has no measurable ROI; firms cannot reliably measure either the benefit or the per-task cost, so spend will prove unjustifiable once examined.",
+      "source": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
+      "resolution": "By the check date, no widely accepted standard for measuring AI ROI or per-task cost has emerged and at least one further large enterprise publicly caps or cuts AI spend citing unmeasurable return. Fails if credible, audited enterprise ROI measurement becomes routine and spend grows on the back of it.",
+      "check_by": "2027-06-02",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-10",
+      "side": "NLW",
+      "claim": "Fable 5 is a genuine capability step change in agentic coding, not a saturated-benchmark illusion, and will translate into materially larger real-world tasks being handed to agents.",
+      "source": "https://aidailybrief.ai/e/2026-06-10#raises-the-bar",
+      "resolution": "By the check date, multiple independent enterprises report production agentic-coding workflows running many hours unattended and shipping merged code at scale (in the spirit of the Stripe 50M-line migration). Fails if Fable-class gains prove demo-bound and day-to-day developer workflows look essentially unchanged.",
+      "check_by": "2026-12-10",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-10",
+      "side": "Zitron",
+      "claim": "AI progress is slowing, and capability gains will not close the gap to the ~$2 trillion/yr in revenue the infrastructure build-out requires by 2030.",
+      "source": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "resolution": "By the check date, frontier-lab and hyperscaler AI revenue run-rate is tracking well below the trajectory needed to reach ~$2T/yr by 2030 while capex keeps rising. Fails if AI revenue growth visibly accelerates onto that trajectory.",
+      "check_by": "2027-06-08",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-11",
+      "side": "NLW",
+      "claim": "Anthropic holds durable, structural gatekeeping power over frontier access: it will keep setting terms (guardrails, access tiers) that customers and competitors must accept.",
+      "source": "https://aidailybrief.ai/e/2026-06-11#power-not-policy",
+      "resolution": "By the check date, Anthropic is still imposing access/usage terms that enterprise customers broadly accept without forcing reversal, and retains its enterprise position despite the Fable 5 backlash. Fails if competitive/price pressure forces Anthropic to materially open access or it loses significant enterprise share over trust.",
+      "check_by": "2027-06-11",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-11",
+      "side": "Zitron",
+      "claim": "Anthropic's apparent strength is borrowed: its profitability is an accounting artefact resting on subsidised compute, and its costs still scale linearly with revenue.",
+      "source": "https://www.wheresyoured.at/anthropics-profitability-swindle/",
+      "resolution": "When Anthropic discloses audited financials (e.g. via an IPO prospectus), they show costs scaling with revenue and no durable operating-margin path, with any prior 'profit' tied to one-off discounted-compute timing. Fails if audited figures show a credible, structural path to profitability.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-12",
+      "side": "NLW",
+      "claim": "Total token consumption growth will dwarf any revenue lost to enterprises shifting to cheaper token baskets.",
+      "source": "https://aidailybrief.ai/e/2026-06-12#growth-dwarfs-cheaper-baskets",
+      "resolution": "By the check date, OpenAI + Anthropic combined revenue run-rate is at least 30% above the ~$60B/yr projected for 2026, without across-the-board price rises doing the work.",
+      "check_by": "2026-12-12",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-12",
+      "side": "Zitron",
+      "claim": "AI revenue growth is slowing and will slow further as token-based billing exposes true costs to customers.",
+      "source": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "resolution": "By the check date, labs' quarter-on-quarter revenue growth has visibly flattened versus 2025, or a second wave of enterprise spending caps arrives at lower limits than Uber's $1,500/seat.",
+      "check_by": "2027-03-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-13",
+      "side": "NLW",
+      "claim": "The Fable shutdown is a durable turning point: government will be materially more involved in gating frontier-model deployment, and access controls (KYC/citizenship checks) will spread rather than revert.",
+      "source": "https://aidailybrief.ai/e/2026-06-13#turning-point",
+      "resolution": "By the check date, at least one of: a second US government-ordered restriction, recall, or forced disablement of a frontier model; OR formal citizenship/ID verification gating access to a frontier model on at least one major platform (Claude, Cursor, OpenRouter, etc.). If neither occurs and the directive is quietly reversed with no lasting controls, the claim fails.",
+      "check_by": "2027-06-13",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-13",
+      "side": "Zitron",
+      "claim": "OpenAI and Anthropic have no path to profitability; their IPO filings are a race for exit liquidity rather than evidence of viable economics.",
+      "source": "https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-1/",
+      "resolution": "When OpenAI or Anthropic discloses audited financials via an IPO prospectus, the figures show continued large net losses with no credible near-term operating-margin path. If either company discloses profitability or a clear, dated path to it, the claim fails.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-15",
+      "side": "NLW",
+      "claim": "The Fable standoff is interpersonal, not technical: it will only be resolved by direct principal-level engagement (Amodei with senior administration figures), not by an engineering fix.",
+      "source": "https://aidailybrief.ai/e/2026-06-15#if-dario-not-on-the-plane",
+      "resolution": "When Fable/Mythos access is restored, contemporaneous reporting attributes the resolution chiefly to direct executive/political engagement (e.g. Amodei meeting administration principals) rather than to a technical remediation of the jailbreak. Fails if access returns via a documented technical fix with no such engagement, or via litigation alone.",
+      "check_by": "2026-12-15",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-15",
+      "side": "Zitron",
+      "claim": "OpenAI has no path to profitability and its losses are compounding, not narrowing (reported up ~8x in 2025 on ~$34B of spending).",
+      "source": "https://www.wheresyoured.at/ais-brokenomics/",
+      "resolution": "OpenAI's audited financials (via IPO prospectus or comparable disclosure) show 2025 net loss materially larger than 2024 and no credible near-term operating-margin path. Fails if OpenAI discloses profitability or a clear, dated path to it.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-16",
+      "side": "NLW",
+      "claim": "Over the next 6-12 months the labs will dramatically increase investment in enablement, training and expanding usage depth \u2014 even labs that don't believe everyone should build agents will act as if it's true, to hit quarterly token-growth targets.",
+      "source": "https://aidailybrief.ai/e/2026-06-16",
+      "resolution": "By the check date, major labs (Anthropic and/or OpenAI) have materially expanded enablement/training programmes, customer-success/forward-deployed capacity or usage-depth initiatives. Fails if no such material expansion in lab-led training/enablement is observable.",
+      "check_by": "2027-06-16",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-16",
+      "side": "Zitron",
+      "claim": "Token-based billing is fundamentally unprofitable and has triggered a customer revolt; 'training people to burn more tokens' is demand-manufacture that won't fix the missing ROI, and enterprise token budgets will keep being capped.",
+      "source": "https://www.wheresyoured.at/brokenomics/",
+      "resolution": "By the check date, enterprise token-spend caps persist or spread and there is no credible evidence that lab enablement/training converted into measurable ROI sufficient to lift those budgets. Fails if enablement demonstrably lifts capped budgets with attributable value.",
+      "check_by": "2027-06-15",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-17",
+      "side": "NLW",
+      "claim": "OpenAI's 2025 loss is largely a one-time non-cash accounting charge ($41.55bn from the for-profit conversion), and the underlying inference business is already profitable \u2014 $13.07bn revenue on $7.5bn cost of revenue \u2014 so the company is far healthier than the $38.5bn headline loss implies.",
+      "source": "https://aidailybrief.ai/e/2026-06-17",
+      "resolution": "A future audited disclosure or IPO prospectus shows that, with the one-time fair-value/conversion charge excluded, OpenAI's operating loss narrows year-over-year and inference/gross profit scales. Fails if operating losses (ex one-time items) keep widening with no margin path.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-17",
+      "side": "Zitron",
+      "claim": "OpenAI's losses are mounting dramatically year over year (operating loss of $20.92bn in 2025 on $34bn of spending) with no visible path to sustainability or profitability.",
+      "source": "https://www.wheresyoured.at/exclusive-openai-financials/",
+      "resolution": "OpenAI's next audited figures show its operating loss (excluding one-time conversion charges) larger than 2025 with no credible near-term operating-margin path. Fails if OpenAI discloses a narrowing operating loss or a clear dated path to operating profitability.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-18",
+      "side": "NLW",
+      "claim": "Open-weight and routed model stacks (e.g. GLM 5.2, OpenRouter Fusion, compound APIs) can deliver near-Fable/near-frontier performance on real enterprise tasks at a fraction of the cost \u2014 around 6\u00a2 vs 49\u00a2 per task in the landing-page example \u2014 making smart routing and inference optimisation a durable competitive advantage.",
+      "source": "https://aidailybrief.ai/e/2026-06-18",
+      "resolution": "Within 12 months, independent benchmarks or large enterprises report production workloads moved to open-weight/routed stacks at materially lower cost with quality within a few points of frontier models. Fails if open/routed stacks consistently underperform on real tasks (as the Kimi K2.7 benchmark-vs-reality gap warns) and enterprises revert to frontier models.",
+      "check_by": "2027-06-18",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-18",
+      "side": "Zitron",
+      "claim": "The shift to cheaper models reflects the bursting of an AI 'tokenomics bubble' \u2014 enterprises put on usage-based billing in early 2026 revolted at the true cost, forcing providers into 'drastic' price cuts; most users will refuse to pay AI's actual cost, so the economics still don't work.",
+      "source": "https://www.wheresyoured.at/brokenomics/",
+      "resolution": "Within 12 months, major AI providers report shrinking enterprise spend/renewals or further forced price cuts amid persistent operating losses on inference. Fails if enterprise AI spend and renewals grow while providers move inference to sustainable gross margins.",
+      "check_by": "2027-06-18",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-19",
+      "side": "NLW",
+      "claim": "Companies that build a model-agnostic learning loop on top of AI \u2014 captured workflows, private evals measuring real business outcomes, RL environments trained on internal traces \u2014 will own durable, portable IP (token capital) that survives any single model swap, while those that merely pick a model cede their value to the model providers.",
+      "source": "https://aidailybrief.ai/e/2026-06-19",
+      "resolution": "Within 18 months, case studies or audited results show firms that built such owned learning systems demonstrating durable, portable productivity or ROI gains (net of token costs) that persist across a model change and differentiate them from peers who just bought a model. Fails if no measurable, portable advantage from 'token capital' systems emerges and outcomes track model choice and spend rather than owned scaffolding.",
+      "check_by": "2027-12-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-19",
+      "side": "Zitron",
+      "claim": "Enterprise AI has no measurable ROI and is not getting cheaper: there is no standard way to measure the cost of a task, AI remains more expensive than three years ago, and enterprises moved to token-based billing in 2026 will keep capping or cutting spend rather than finding sustainable returns.",
+      "source": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
+      "resolution": "Within 12 months, enterprises continue to report spend caps/cuts and there is still no industry-standard measure of AI cost-per-task or ROI, while real (unsubsidised) inference cost has not durably fallen. Fails if a credible standard ROI measure emerges and enterprise AI spend grows on sustainable inference margins.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-22",
+      "side": "NLW",
+      "claim": "GLM 5.2 marks a durable break from the two-horse race: unlike previous Chinese open-weight models that benchmarked well then faded within weeks, capable open and runner-up models will now hold real, sustained production usage, so within 18 months a meaningful and growing share of organisations run non-frontier-lab models for genuine workloads rather than only as experiments.",
+      "source": "https://aidailybrief.ai/e/2026-06-22",
+      "resolution": "By end 2027, usage/adoption data show open-weight or runner-up models holding a material, non-trivial and growing share of enterprise AI production workloads, with GLM 5.2-class models still in real use rather than abandoned. Fails if GLM 5.2 and peers fade from real usage within months (as prior Chinese releases did) and production stays dominated by OpenAI and Anthropic.",
+      "check_by": "2027-12-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-22",
+      "side": "Zitron",
+      "claim": "AI capability and revenue growth are slowing just as the economics need them to accelerate: there is essentially no profitable paying AI demand outside OpenAI and Anthropic (and their hyperscaler backers), and enterprises will keep capping token spend rather than expanding it, so no large new base of sustainable AI compute demand will emerge.",
+      "source": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "resolution": "Within 12 months, enterprise token-spend caps persist or spread and no credible profitable base of AI compute demand emerges outside the two big labs and hyperscalers. Fails if a sizeable, profitable source of AI demand outside OpenAI/Anthropic appears with enterprise AI spend growing on sustainable margins rather than being capped.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-23",
+      "side": "NLW",
+      "claim": "The scary water and electricity figures driving data-centre opposition do not survive context, and the productive path is negotiated community benefit: as projects mature, more communities hosting large AI data centres will secure concrete, documented economic concessions (tax-funded local benefits, ratepayer protections, jobs) of the kind seen in Richland Parish, Louisiana, rather than either blocking projects or getting nothing.",
+      "source": "https://aidailybrief.ai/e/2026-06-23",
+      "resolution": "By end 2027, multiple US data-centre host communities have publicly documented negotiated benefits (e.g. ratepayer-protection commitments, cost-causation rules like Oregon's POWER Act, or tax-funded local payouts), and credible analyses continue to show data-centre water/electricity impacts are modest in context. Fails if host communities mostly absorb costs without concessions, or data-centre water/power demand proves a materially larger local burden than the edition claims.",
+      "check_by": "2027-12-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-23",
+      "side": "Zitron",
+      "claim": "The headline AI data-centre build-out is substantially overstated: claimed gigawatt-scale capacity is mostly phased, partly-built or mislabelled as 'operational', no true one-gigawatt facility has actually been completed and switched on, and hyperscalers will continue to avoid disclosing genuine completed operational capacity.",
+      "source": "https://www.wheresyoured.at/where-are-all-the-data-centers/",
+      "resolution": "By end 2026, independent verification of fully completed and operational AI data-centre capacity still falls well short of headline gigawatt figures, and hyperscalers still do not disclose audited completed capacity. Fails if a genuine one-gigawatt-plus facility is verifiably completed and fully operational, or hyperscalers publish audited operational-capacity figures matching the headline build-out.",
+      "check_by": "2026-12-31",
+      "status": "open"
+    }
+  ]
 }
