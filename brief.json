@@ -1,301 +1,271 @@
 {
-  "date": "2026-06-23",
-  "title": "The Right Way to Deal With AI Data Centers",
-  "dek": "A slower news cycle gives NLW room to defuse one of AI's most contentious fights \u2014 data centers \u2014 by actually checking the water and electricity numbers. Plus a Mythos/NSA correction, OpenAI's cyber escalation, another SpaceX compute deal, and a $200B Google wobble over two departing researchers.",
-  "source": "https://aidailybrief.ai/e/2026-06-23",
+  "date": "2026-06-24",
+  "title": "5 Ways Claude Tag Could Change How You Use AI",
+  "dek": "Anthropic's Claude Tag puts a full Claude Code teammate inside Slack \u2014 and the way the people building it are talking suggests it's less a feature than a third major redesign of how we interact with LLMs. Plus a customer sues the US over the Fable ban, and Washington's friskiness moves from models to robots.",
+  "source": "https://aidailybrief.ai/e/2026-06-24",
   "oneIdea": {
-    "headline": "The data center fight needs a middle path between rollover and pitchforks.",
-    "summary": "Both sides of the data center debate are wildly reductive. The scary water and electricity numbers mostly don't survive contact with context \u2014 Amazon's entire global data center fleet uses a day's worth of US golf course watering. But communities aren't powerless either. The real opportunity isn't 'let big tech do whatever' or 'stop it entirely' \u2014 it's negotiating for serious economic benefits, like the Louisiana parish where teachers got $50,000 bonuses funded by Meta's campus. Move past the binary into the how-everyone-wins phase."
+    "headline": "Claude Tag moves AI from a private chatbot to a shared org teammate.",
+    "summary": "Anthropic dropped the full power of Claude Code into Slack \u2014 not as another channel to prompt, but as a persistent, asynchronous entity with org-wide tools and context that works alongside humans. NLW reads it as a leading indicator of five shifts: from app-native interfaces to existing workspaces, from private chatbot to shared teammate, from single-user to full-team context, from prompting to delegation, and from personally-essential tool to organizational dependency. Whether or not Claude Tag itself wins, this is the direction labs and agent companies are heading."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "How big numbers mislead - a lesson that travels to health statistics",
-        "body": "The edition's sharpest point is that astronomical-sounding figures grab attention precisely because most people have no sense of scale: Amazon's entire global data-centre water use for a year is roughly a single day of watering America's golf courses, and US leaky pipes waste about fifteen times all data-centre water combined. The same trick runs through health reporting - a 'doubling of risk' that moves a tiny absolute number, or a screening benefit quoted relatively rather than as numbers-needed-to-treat. If NLW is right, the antidote is always context and a denominator; if Zitron is right that headline numbers are often manufactured, the discipline is the same. It is a useful reminder for explaining risk to patients, and for reading the next alarming AI-and-NHS headline."
+        "title": "From prompting the scribe to delegating to it \u2014 but mind the meter",
+        "body": "The edition's core claim is that interaction is moving from prompting to delegation: you stop telling the tool each step and instead hand it an outcome. For a GP already living with an AI scribe, that is the plausible next step \u2014 letting a tool draft the letter, flag the abnormal result, chase the unactioned task. If NLW is right, the practices that learn to delegate well, not just prompt well, will pull ahead. If Zitron is right that 'delegation' and 'loops' are partly a way to make you consume more, the discipline is to watch the cost: confirm a tool still saves real clinician time once any introductory pricing ends, not just while it is being subsidised."
       },
       {
-        "title": "The 'how-everyone-wins' framing applied to AI in the surgery",
-        "body": "NLW argues communities should stop choosing between rolling over and grabbing pitchforks, and instead negotiate concrete benefits - he cites a Louisiana parish where data-centre tax receipts funded fifty-thousand-dollar teacher bonuses. The parallel for general practice is to refuse the binary of either swallowing whatever a vendor offers or rejecting AI outright. When an integrated care board or supplier brings an AI scribe or triage tool, the practical questions are what the practice gets in return: training, data control, fair pricing, and a share of any efficiency, not just a licence fee."
+        "title": "The 'surveillance device in the meeting' problem is an information-governance problem",
+        "body": "One of the sharpest worries raised was that dropping an AI teammate into a shared channel means it reads everyone's messages, so it stops looking like a team tool and starts looking like one person's tool in everyone's workspace. In general practice the equivalent is real and regulated: any AI that sits across shared clinical communication is reading patient-identifiable information, and consent, the caldicott principles and the practice's data-protection duties apply regardless of how useful it is. Useful framing whether you trust the technology or not \u2014 decide who can see what before the tool is dropped in, not after."
       },
       {
-        "title": "But check whether the benefit is real before you bargain for it",
-        "body": "Zitron's contrasting caution is worth holding alongside: he argues much of the claimed build-out is smaller and slower than the headlines suggest. The clinical translation is to verify that an AI tool's promised benefit is actually delivered and measured before reorganising around it. If NLW is right, there is genuine value to negotiate over; if Zitron is right, some of it is vapour - so insist on demonstrated, audited time-savings or safety gains in your own setting, not a vendor's slide."
+        "title": "Demand demonstrated benefit before you reorganise around it",
+        "body": "Both sides, oddly, agree on one number: the average enterprise spent about eleven and a half million on AI this year and most cannot prove a dollar back. The translation for a surgery or an integrated care board is to insist on demonstrated, audited time-savings or safety gains in your own setting before changing rotas or workflow around a tool. If NLW is right there is genuine value to capture; if Zitron is right that much adoption is cargo-cult imitation, the same test protects you \u2014 measure it here, on your patients, not on a vendor's slide."
       }
     ]
   },
   "the_other_side": {
-    "source": "Where Are All The Data Centers?",
-    "url": "https://www.wheresyoured.at/where-are-all-the-data-centers/",
-    "date": "2026-05-12",
+    "source": "Cargo Culture",
+    "url": "https://www.wheresyoured.at/cargo-culture/",
+    "date": "2026-06-23",
     "same_day": false,
-    "text": "NLW wants communities to move past the binary and bargain hard with a real, valuable build-out. Zitron's prior question is whether that build-out is as real and as large as everyone assumes. He spent a week hunting for big data centres that broke ground in 2023 or 2024 and were actually finished and switched on, and came up, in his words, \"surprisingly empty-handed.\" He argues nobody has yet built a true one-gigawatt facility, that \"operational\" routinely describes a campus where only a handful of the planned buildings have any gear inside, and that hyperscalers refuse to disclose how much capacity is genuinely online despite over eight hundred billion dollars of capex. On his telling, the fight over a data centre's water and electricity quietly assumes a scale that the disclosures do not actually support."
+    "text": "NLW reads Claude Tag, and the move \"from prompting to delegation,\" as a genuine third redesign of how we work with AI \u2014 a paradigm shift, not just a feature. Writing the day before, Zitron reads the very same \"the age of prompting is over, now you just handle loops\" framing as a desperate, self-interested push to get users to burn more tokens for revenue, noting Jensen Huang and Claude Code's Boris Cherny floated it within twenty-four hours of each other. He points out that Cherny is, in his words, \"allowed to burn upwards of $130,000 a month in tokens\" and runs agents that never stop running. More broadly, he casts enterprise AI adoption itself as a cargo cult: executives \"demanding that people use it because 'AI is so powerful'\" while having little idea what it actually does, copying whatever everyone else is doing rather than what is demonstrably valuable."
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: how real and how large the AI data centre build-out actually is. Both accept that data centres exist, are being built and draw real water and power, and that reporting is muddy. The empirical question that will resolve it is how much capacity has been completed and switched on; the observable that settles it is disclosed, audited operational critical-IT load - finished megawatts and gigawatts, completion timelines, honest hyperscaler figures. The residue is pure worldview: Whittemore treats the build-out as a real, valuable thing worth negotiating local benefits over; Zitron treats much of the claimed capacity as phased public-relations vapour. Whittemore is vindicated if large finished capacity is verifiably online and communities win real concessions from real campuses; Zitron if gigawatt claims keep dissolving into a few populated buildings. Both are polemicists with incentives - Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype with a newsletter - so the signal is their shared distrust of headline numbers: he doubts the capacity figures, NLW the scary impact figures. Watch whether hyperscalers ever disclose real operational capacity."
+    "text": "Both men orbit one variable: whether the shift from prompting to autonomous delegation creates real, durable productivity or merely consumes more tokens. Both accept that agents and loops exist, that they burn compute, and that Anthropic genuinely leans on its internal tool. The empirical question that will resolve it is whether delegated AI yields measurable output net of its true cost; the observable that settles it is audited productivity and retention once access is charged at unsubsidised prices rather than on free credits. The residue is pure worldview: Whittemore sees a paradigm shift, Zitron a revenue-driven ritual. Whittemore is vindicated if enterprises show sustained, measured gains at real prices; Zitron if usage and the headline \"sixty-five percent of code\" figures collapse when subsidies end. Both are polemicists with incentives \u2014 NLW bullish and anti-doom, Zitron bubble-certain and anti-hype with a paid newsletter \u2014 and the signal is their shared doubt that the average eleven-and-a-half-million-dollar enterprise AI spend can prove a dollar back. Watch whether ROI appears once the free credits stop."
   },
   "headlines": [
     {
-      "id": "mythos-nsa-correction",
-      "headline": "The Mythos-hacked-the-NSA story was a misread",
+      "id": "legion-sues-us",
+      "headline": "An Anthropic customer sues the US over the Fable ban",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "01:20",
       "attribution": null,
-      "summary": "An Economist reporter issued a correction: Senator Warner misunderstood NSA Director Rudd. The 'hours not weeks' wording was real, but Mythos's use was a controlled red-team exercise testing internal networks \u2014 not a live cyberattack \u2014 and the agency's red teams no longer have access to it.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#mythos-nsa-correction"
+      "summary": "Legal tech firm Legion filed suit Tuesday calling the ban illegal and existential, arguing export control laws don't cover shutting down cloud software access and that serving code or text outputs isn't a proper export. The filing centers on its Canadian dev team losing access and notes targeting allied nations is highly unusual.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#legion-sues-us"
     },
     {
-      "id": "mythos-raises-stakes",
-      "headline": "Mythos doesn't let anyone hack the NSA \u2014 but it speeds up the ones who get in",
-      "type": "insight",
+      "id": "harm-immediate-irreparable",
+      "headline": "The harm to Legion is immediate, irreparable, and existential.",
+      "type": "quote",
       "segment": "headlines",
-      "timestamp": "02:55",
-      "attribution": null,
-      "summary": "Per cybersecurity account Iris C2, gaining initial access to air-gapped classified systems remains the hard part. The real takeaway: once inside, Mythos makes exploit design and execution much faster, cutting the time defenders have to detect and contain an intruder.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#mythos-raises-stakes"
+      "timestamp": "02:00",
+      "attribution": "Legion's lawsuit against the US government",
+      "summary": "Legion's lawsuit argues competitive ground lost during a model suspension can't be regained after the fact \u2014 a sentiment NLW suspects many listeners share regardless of the suit's ultimate success.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#harm-immediate-irreparable"
     },
     {
-      "id": "openai-gpt55-cyber",
-      "headline": "OpenAI ships GPT 5.5 Cyber, claims it beats Mythos",
-      "type": "insight",
+      "id": "resolved-by-negotiation",
+      "headline": "The lawsuit won't matter \u2014 negotiation will",
+      "type": "take",
       "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "As part of its Daybreak initiative \u2014 OpenAI's answer to Anthropic's Project Glasswing \u2014 OpenAI launched the full GPT 5.5 Cyber, its first cybersecurity-tuned model with reduced guardrails. It claims the model now overtakes Mythos on the CyberGym benchmark.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#openai-gpt55-cyber"
+      "summary": "NLW argues that even though most legal analysts think the administration went outside the bounds of the law, it's unlikely to be clear-cut for a judge, and none of it will matter because Anthropic is taking it seriously and will hopefully resolve it through negotiation before any legal process runs its course.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#resolved-by-negotiation"
     },
     {
-      "id": "daybreak-democratize",
-      "headline": "Frontier defensive capabilities should not be concentrated in the hands of a few.",
-      "type": "quote",
+      "id": "meta-voluntary-review",
+      "headline": "Washington pressures Meta on 'voluntary' model review",
+      "type": "insight",
       "segment": "headlines",
-      "timestamp": "03:30",
-      "attribution": "OpenAI",
-      "summary": "OpenAI positioned Daybreak as more open than Glasswing, inviting smaller organizations to apply for access so defenders everywhere can find and fix vulnerabilities before attackers exploit them.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#daybreak-democratize"
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "The White House is pressing Meta to submit AI models for safety and performance testing before release, leaving Meta the lone holdout after Microsoft, xAI, and Google signed on. Meta says it hopes to sign soon \u2014 highlighting just how air-quotes voluntary the program really is.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#meta-voluntary-review"
     },
     {
-      "id": "patch-the-planet",
-      "headline": "Patch the Planet finds hundreds of bugs, ships 37 fixes",
+      "id": "robots-next-ban",
+      "headline": "Commerce turns its sights from models to robots",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "04:30",
       "attribution": null,
-      "summary": "OpenAI launched Patch the Planet with Trail of Bits to secure open-source libraries. Initial testing of GPT 5.5 Cyber surfaced hundreds of bugs; 37 patches are deployed with many more in the pipeline and 30+ projects already enrolled.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#patch-the-planet"
+      "summary": "Commerce Secretary Howard Lutnick held a closed-door meeting on the risk of Chinese-made robots, telling executives 'we don't want state-subsidized robotics attacking us in America.' Attendees included Boston Dynamics, SpaceX, Siemens, and Goldman Sachs.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#robots-next-ban"
     },
     {
-      "id": "expensive-part-moved",
-      "headline": "The expensive part of security work has moved. The advantage is no longer in finding bugs but everything after.",
+      "id": "american-brain-chinese-body",
+      "headline": "An American brain with a Chinese body is a very, very bad strategic plan.",
       "type": "quote",
       "segment": "headlines",
-      "timestamp": "04:45",
-      "attribution": "Trail of Bits",
-      "summary": "Trail of Bits argues the value has shifted to confirming findings, getting severity right, writing patches maintainers will accept, and coordinating disclosure \u2014 exactly the work that floods of AI-generated reports threaten to bury.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#expensive-part-moved"
+      "timestamp": "05:00",
+      "attribution": "A source from the Commerce Department meeting",
+      "summary": "A source at the Commerce robotics meeting framing the strategic fear, as the Congressional Select Committee on China called out Amazon for selling a military-designated Unitree humanoid for $17,990 and pushed for the GUARD Act.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#american-brain-chinese-body"
     },
     {
-      "id": "five-eyes-alert",
-      "headline": "Five Eyes issue a rare AI cyber-risk alert",
+      "id": "xai-goal-primitive",
+      "headline": "xAI adds the 'goal' primitive to Grok Build",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "05:30",
+      "timestamp": "06:30",
       "attribution": null,
-      "summary": "The intelligence alliance warned that frontier AI is rapidly transforming cyber risk and that assumptions can become outdated in months, not years. The UK NCSC bulletin urged businesses to integrate AI into security ops and treat cyber as 'a core business risk and leadership responsibility,' not a purely technical issue.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#five-eyes-alert"
+      "summary": "Following OpenAI and Anthropic, xAI's /goal command lets users define an outcome and set Grok to work long-horizon tasks with sub-agents \u2014 reinforcing that /goal is becoming a real new AI UX primitive. It's also the first glimpse of the xAI-Cursor tie-up, using a Grok Build fine-tune plus Cursor's Composer 2.5.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#xai-goal-primitive"
     },
     {
-      "id": "trump-quantum-orders",
-      "headline": "Trump orders a push for a working quantum computer by 2028",
+      "id": "seedance-25",
+      "headline": "ByteDance's Seedance 2.5 may be video's 'mythos moment'",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "06:15",
+      "timestamp": "08:30",
       "attribution": null,
-      "summary": "Two new executive orders direct federal agencies to partner with industry on a quantum computer for research (OSTP's Kratsios targets 2028), mandate migration to quantum-secure cryptography by 2031, and harden the quantum supply chain against adversaries.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#trump-quantum-orders"
+      "summary": "The new model doubles clip length to 30 seconds, adds 4K, and supports up to 50 input references plus image, video, and audio references for the first time. NLW credits the corpus of TikTok training content for ByteDance pulling away in the video race.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#seedance-25"
     },
     {
-      "id": "reflection-spacex-deal",
-      "headline": "SpaceX signs a $6.3B compute deal with Reflection AI",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "07:15",
-      "attribution": null,
-      "summary": "Open-source startup Reflection AI agreed to rent Colossus II capacity through 2029 for $6.3B total, with three-month walk-away terms. It's notably smaller than the Anthropic and Google SpaceX deals running near $1B a month each.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#reflection-spacex-deal"
-    },
-    {
-      "id": "reflection-open-source",
-      "headline": "Reflection pitches itself as the domestic open-source alternative",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": "Reflection AI",
-      "summary": "Yet to ship its first frontier model, Reflection used the deal to argue that nations and enterprises increasingly recognize 'the risks and costs associated with exclusively depending on closed models.' It's working with the Pentagon and DOE's Genesis Mission.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#reflection-open-source"
-    },
-    {
-      "id": "spacex-neocloud-math",
-      "headline": "SpaceX as Neo Cloud plus Neo Lab is a 'crazy effective combo'",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "08:15",
-      "attribution": "Swigs, Layton Space",
-      "summary": "Swigs of Layton Space argued no one is doing the math right: SpaceX has already recouped about half its Cursor investment via compute deals, with the rest covered if Composer 3 does well. No other company is simultaneously a leading lab and a Neo cloud where GPUs are concerned.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#spacex-neocloud-math"
-    },
-    {
-      "id": "google-200b-drop",
-      "headline": "Two researcher exits, $200B in lost Google market cap",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "09:15",
-      "attribution": null,
-      "summary": "Google stock fell as much as 7.2% Monday \u2014 its largest intraday move since February \u2014 after Nobel laureate John Jumper left DeepMind for Anthropic and Noam Shazeer left for OpenAI. NLW thinks the market over-indexes on AI headlines, but a real narrative shift around Google's pace is underway.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#google-200b-drop"
-    },
-    {
-      "id": "google-talent-war",
-      "headline": "Google is losing the war for talent at the frontier of AI.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "09:30",
-      "attribution": "Gil Luria, D.A. Davidson",
-      "summary": "D.A. Davidson's Gil Luria argued Google held a state-of-the-art model for only weeks last year and has fallen off since, with these departures suggesting it is falling further behind on enterprise-essential agentic use cases.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#google-talent-war"
-    },
-    {
-      "id": "peak-google-done",
-      "headline": "NLW sticks to his guns on overreacting to personnel moves",
+      "id": "google-ai-selloff",
+      "headline": "Watch the Google-led AI sell-off",
       "type": "take",
       "segment": "headlines",
-      "timestamp": "10:30",
+      "timestamp": "09:00",
       "attribution": null,
-      "summary": "Citing Prime Intellect's Florian, NLW notes the recurring cycle: 'peak Google is done for' is always followed by Google releasing a new model and everyone deciding no one can match its TPUs and data. For now it's for markets to debate which side is right.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#peak-google-done"
+      "summary": "NLW flags market moves around Google broadening into a wider AI sell-off as a story he's monitoring \u2014 promising to return to it if it becomes a significant narrative trend rather than just a market moment.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#google-ai-selloff"
     },
     {
-      "id": "theo-von-rant",
-      "headline": "Nobody wants a data center, dude. And the people that want them seem kind of evil.",
+      "id": "claude-tag-defined",
+      "headline": "Claude Tag is Claude Code as a full team member in Slack",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "13:30",
+      "attribution": null,
+      "summary": "Announced Tuesday, Claude Tag isn't just another channel to prompt \u2014 it's a persistent teammate with access to context across channels and the tools your team already uses. Tag it with a request and it breaks the task into stages, writes or merges pull requests, runs data analysis, or helps resolve incidents in-thread.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#claude-tag-defined"
+    },
+    {
+      "id": "65-percent-code",
+      "headline": "65% of Anthropic's product code now comes from Claude Tag",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "14:00",
+      "attribution": null,
+      "summary": "Anthropic says its internal version of Claude Tag is now one of the main ways it gets work done, generating 65% of the product team's code. With ambient behavior on, Claude follows up on quiet threads and flags relevant items across its channels and tools.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#65-percent-code"
+    },
+    {
+      "id": "karpathy-third-paradigm",
+      "headline": "This is the third major redesign of how we interact with LLMs.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "14:30",
-      "attribution": "Theo Von, This Past Weekend podcast",
-      "summary": "Theo Von's podcast rant \u2014 warning of an emotional credit score and AI becoming a new god \u2014 packs a remarkable number of misperceptions into one paragraph. NLW argues Von reflects an emerging mainstream view rather than leading it.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#theo-von-rant"
+      "timestamp": "16:30",
+      "attribution": "Andrej Karpathy",
+      "summary": "Karpathy frames the progression: first the LLM was a website you go to, then an app you download, and now a self-contained, persistent, asynchronous entity with org-wide tools and context working alongside teams of humans. 'It works and it is awesome.'",
+      "link": "https://aidailybrief.ai/e/2026-06-24#karpathy-third-paradigm"
     },
     {
-      "id": "bipartisan-opposition",
-      "headline": "Data center opposition has gone fully bipartisan",
+      "id": "tobin-90-percent",
+      "headline": "Claude Tag is how I do 90%-plus of my work.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": "Tobin South, Anthropic",
+      "summary": "Anthropic team members were so emphatic about Claude Tag's significance that some texted NLW directly when he didn't cover it on the prior day's show \u2014 a tell for how the team behind it views its impact.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#tobin-90-percent"
+    },
+    {
+      "id": "not-first-mover",
+      "headline": "Anthropic isn't first \u2014 but the friction is lower",
       "type": "insight",
       "segment": "main",
       "timestamp": "15:30",
       "attribution": null,
-      "summary": "Erin Brockovich launched a campaign against data centers, former Tea Party conservatives are planning nationwide protests, and comedian Charlie Berens called opposition 'the most bipartisan issue since beer.' The two recurring complaints: water use and electricity prices.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#bipartisan-opposition"
+      "summary": "Perplexity's Comet coworker and ChatGPT workspace agents already live in Slack. The difference, per Click Health's Simon Smith, is that Claude Tag needs no configuration \u2014 you drop it into a Slack channel and it picks up context and becomes useful, collapsing duplicated context across Slack, ChatGPT projects, and NotebookLM.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#not-first-mover"
     },
     {
-      "id": "water-numbers-context",
-      "headline": "Amazon's entire data center water use is a day of golf-course watering",
+      "id": "slack-to-production",
+      "headline": "Now you can literally go from Slack to a production-ready feature.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "17:30",
+      "attribution": "Ejazz, on X",
+      "summary": "Observers marveled that 65% of Anthropic product code now comes from tagging Claude in group chats where staff discuss what they want to build \u2014 with Claude Code barely a year old. The sneaky shift: when you tag @Claude, what you're really calling on is Claude Code.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#slack-to-production"
+    },
+    {
+      "id": "setup-complications",
+      "headline": "Power users are sharing Claude Tag playbooks",
       "type": "insight",
       "segment": "main",
-      "timestamp": "17:00",
+      "timestamp": "18:00",
       "attribution": null,
-      "summary": "Amazon's global data centers used 2.5 billion gallons in 2025 (down 2% even as footprint grew). US golf courses use over 500 billion gallons a year \u2014 meaning Amazon's full year is roughly one day of US golf maintenance. California almonds use 1.2\u20131.8 trillion gallons, 5\u20138x all US data centers.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#water-numbers-context"
+      "summary": "Claude Code's Tariq suggests introducing Claude to a channel with a pinned instructions message (think Claude.md), keeping a personal channel like tariq-claude for your own work, and having Claude maintain a pinned status message with emoji to track work streams at a glance.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#setup-complications"
     },
     {
-      "id": "leaky-pipes-comparison",
-      "headline": "Leaky US pipes waste 15x what data centers use",
+      "id": "coworker-that-picks-up",
+      "headline": "It behaves like a coworker that picks things up",
       "type": "insight",
       "segment": "main",
-      "timestamp": "18:15",
+      "timestamp": "19:30",
       "attribution": null,
-      "summary": "One study found the US loses 3.29 trillion gallons a year to leaky pipes \u2014 about 15 times total data center water use. In Indiana, the contested Amazon facility's 300 million gallons a year equals roughly 0.2% of the state's domestic water use.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#leaky-pipes-comparison"
+      "summary": "Fractional's Chris Taylor described Claude Tag owning busy work \u2014 daily status summaries, following up when people are out, nudging on open to-dos \u2014 and even catching, fixing, and writing up a bug in its own scheduled task without being asked. It read a codebase, stack-ranked the 10 most important fixes, and opened them for review, all in Slack.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#coworker-that-picks-up"
     },
     {
-      "id": "karen-hao-correction",
-      "headline": "A foundational water myth was off by 1,000x",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "18:30",
-      "attribution": null,
-      "summary": "Author Karen Hao's claim in Empire of AI that a Chile Google data center consumed 1,000x the surrounding population's water was wrong by a factor of 1,000 due to a unit mix-up. She acknowledged and corrected the error \u2014 but the book is still out there making the claim.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#karen-hao-correction"
-    },
-    {
-      "id": "one-gallon-too-many",
-      "headline": "If you don't like what the water's used for, even one gallon is too many",
+      "id": "five-big-shifts",
+      "headline": "NLW's five shifts Claude Tag represents",
       "type": "take",
-      "segment": "main",
-      "timestamp": "19:00",
-      "attribution": null,
-      "summary": "NLW's core diagnosis of the water debate: big numbers are politically potent because most people have no sense of how much water we actually consume. The astronomical-sounding figures grab attention regardless of context.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#one-gallon-too-many"
-    },
-    {
-      "id": "electricity-no-correlation",
-      "headline": "No significant correlation between data centers and a state's power prices",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "19:45",
-      "attribution": null,
-      "summary": "The Institute for Energy Research found prices in the top-ten data center states are virtually identical to the average elsewhere, with no significant relationship to faster rate increases. Most price pressure traces to upgrading an aging grid \u2014 a cost we'd face anyway.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#electricity-no-correlation"
-    },
-    {
-      "id": "local-price-spikes",
-      "headline": "The local short-run story is real \u2014 and it's a grid problem",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "20:30",
-      "attribution": null,
-      "summary": "A Bloomberg analysis of 25,000 grid nodes found wholesale prices rose as much as 276% since 2020 near data center clusters, with 70%+ of increases within 50 miles of significant activity. The Daily Economy's read: not evidence of incompatibility, but that grid infrastructure and cost-allocation rules haven't kept up.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#local-price-spikes"
-    },
-    {
-      "id": "cost-allocation-policy",
-      "headline": "Policy is racing to make data centers pay their own way",
-      "type": "insight",
       "segment": "main",
       "timestamp": "21:30",
       "attribution": null,
-      "summary": "Oregon's POWER Act requires the biggest users to bear the cost of infrastructure built specifically for them. The White House's Ratepayer Protection Pledge has companies committing to build/buy new power supply, pay for delivery upgrades, pay whether they use the power or not, and invest in local jobs and resilience.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#cost-allocation-policy"
+      "summary": "From app-native interfaces to existing workplace interfaces; from a private chatbot to a shared teammate; from single-user context to full-team context; from prompting to delegation; and from a tool that's personally essential to key workers to an actual organizational dependency.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#five-big-shifts"
     },
     {
-      "id": "unions-middle-path",
-      "headline": "Labor unions may be the key actor for finding the middle",
+      "id": "delegation-not-prompting",
+      "headline": "The mode of interaction is shifting from prompting to delegation",
       "type": "take",
       "segment": "main",
-      "timestamp": "22:45",
+      "timestamp": "22:30",
       "attribution": null,
-      "summary": "NLW argues unions sit in both camps \u2014 sympathetic to community concerns that AI disproportionately benefits the rich, yet seeing firsthand how valuable the build-out is as demand for skilled blue-collar work climbs. They're positioned to broker the practical middle ground.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#unions-middle-path"
+      "summary": "As agentic capacity has come online through the year, people have moved from telling AI what to do toward telling it what they're trying to accomplish \u2014 giving it more freedom and latitude over an ever-expanding scale of goals.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#delegation-not-prompting"
     },
     {
-      "id": "two-things-true",
-      "headline": "Two things can be true: data centers have drawbacks, but communities can win far more than they realize.",
+      "id": "surveillance-device-frame",
+      "headline": "I become the person who brought the surveillance device to the meeting.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "23:30",
-      "attribution": "The Information (Anne Davis Vaughn)",
-      "summary": "The Information's reporting from rural data center projects found communities can extract far more financial concessions than they think \u2014 they're being taught the choice is roll over or grab pitchforks, while missing a massive middle path.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#two-things-true"
+      "timestamp": "24:00",
+      "attribution": "Gail Wiener",
+      "summary": "Gail Wiener warns that dropping Claude into a shared channel means it reads everyone's messages, so it stops looking like a team tool and starts looking like the power user's tool in everyone's workspace. Skeptics feel validated whether output is good ('she's outsourcing her thinking') or bad \u2014 a human-layer challenge that must be solved too.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#surveillance-device-frame"
     },
     {
-      "id": "louisiana-teacher-bonuses",
-      "headline": "A Louisiana parish gave teachers $50,000 bonuses from a Meta campus",
+      "id": "many-claudes-disorienting",
+      "headline": "Claude being many Claudes is a bit disorienting.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "25:00",
+      "attribution": "Simon Smith, Click Health",
+      "summary": "Because each Claude is channel-dependent and admin-configured with different tools, permissions, and contexts, Simon Smith notes none of the Slack Claudes are 'his' the way the app version is \u2014 and people's first move is tagging Claude to ask what it can do and remember.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#many-claudes-disorienting"
+    },
+    {
+      "id": "build-your-own",
+      "headline": "Building your own Slack agent is quite simple \u2014 and avoids lock-in",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "25:30",
+      "attribution": "Victor, Hugging Face",
+      "summary": "In light of the Fable ban, Hugging Face's head of product Victor argues there are increasingly good reasons not to outsource this to a single closed provider: build your own and you get any model you want, including self-hosted, full customization, no lock-in, no waitlist, and no overpricing.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#build-your-own"
+    },
+    {
+      "id": "reasoning-partner-research",
+      "headline": "High-impact AI users treat it as a reasoning partner, not prompt engineering",
       "type": "insight",
       "segment": "main",
-      "timestamp": "24:30",
+      "timestamp": "09:45",
       "attribution": null,
-      "summary": "In rural Richland Parish, hundreds of teachers are set to receive unprecedented $50,000 bonuses funded by a surge in tax receipts tied to Meta's AI campus. An existing ordinance gives teachers a slice of sales taxes; bonuses quintupled from construction activity \u2014 a concrete example of the 'how everyone wins' phase NLW wants.",
-      "link": "https://aidailybrief.ai/e/2026-06-23#louisiana-teacher-bonuses"
+      "summary": "KPMG and UT Austin analyzed 1.4 million real workplace AI interactions and found the highest-impact users aren't better prompt engineers \u2014 they frame problems, guide thinking, iterate, and push for better answers. The good news: those behaviors are teachable at scale.",
+      "link": "https://aidailybrief.ai/e/2026-06-24#reasoning-partner-research"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-23.mp3",
-  "generated": "2026-06-24T06:18:22Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-24.mp3",
+  "generated": "2026-06-25T06:13:34Z"
 }

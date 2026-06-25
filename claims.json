@@ -216,6 +216,24 @@
       "resolution": "By end 2026, independent verification of fully completed and operational AI data-centre capacity still falls well short of headline gigawatt figures, and hyperscalers still do not disclose audited completed capacity. Fails if a genuine one-gigawatt-plus facility is verifiably completed and fully operational, or hyperscalers publish audited operational-capacity figures matching the headline build-out.",
       "check_by": "2026-12-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-06-24",
+      "side": "NLW",
+      "claim": "Claude Tag-style persistent, in-workspace AI teammates represent a durable shift from prompting to delegation that becomes an organisational dependency: within roughly eighteen months a substantial share of knowledge organisations will run persistent in-workspace AI agents (in Slack, Teams or similar) as a standard, relied-upon part of normal workflow, not just pilots.",
+      "source": "https://aidailybrief.ai/e/2026-06-24",
+      "resolution": "By end 2027, persistent in-workspace AI teammates are in mainstream enterprise use with documented, repeated workflow reliance and productivity, beyond experiments at AI-native firms. Fails if such agents remain niche, pilot-stage, or confined largely to the labs that build them.",
+      "check_by": "2027-12-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-24",
+      "side": "Zitron",
+      "claim": "The 'prompting is over, now run loops / delegate' narrative is primarily a token-consumption revenue play wrapped in cargo-cult enterprise adoption: when introductory subsidies and free credits end and true per-token costs are charged, enterprise AI usage and the headline internal-productivity figures (such as 'sixty-five percent of code') will not translate into a profitable, sustainable base of enterprise AI demand outside the big labs and their hyperscaler backers.",
+      "source": "https://www.wheresyoured.at/cargo-culture/",
+      "resolution": "Within 12 months, charging true at-cost pricing leaves enterprise AI demand flat or contracting and no profitable, sustainable enterprise AI demand base emerges beyond OpenAI/Anthropic and hyperscalers. Fails if priced-at-cost enterprise AI demand grows on sustainable margins with documented ROI.",
+      "check_by": "2027-06-30",
+      "status": "open"
     }
   ]
 }

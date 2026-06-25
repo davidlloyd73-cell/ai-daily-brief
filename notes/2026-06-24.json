@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "From prompting the scribe to delegating to it \u2014 but mind the meter",
+      "body": "The edition's core claim is that interaction is moving from prompting to delegation: you stop telling the tool each step and instead hand it an outcome. For a GP already living with an AI scribe, that is the plausible next step \u2014 letting a tool draft the letter, flag the abnormal result, chase the unactioned task. If NLW is right, the practices that learn to delegate well, not just prompt well, will pull ahead. If Zitron is right that 'delegation' and 'loops' are partly a way to make you consume more, the discipline is to watch the cost: confirm a tool still saves real clinician time once any introductory pricing ends, not just while it is being subsidised."
+    },
+    {
+      "title": "The 'surveillance device in the meeting' problem is an information-governance problem",
+      "body": "One of the sharpest worries raised was that dropping an AI teammate into a shared channel means it reads everyone's messages, so it stops looking like a team tool and starts looking like one person's tool in everyone's workspace. In general practice the equivalent is real and regulated: any AI that sits across shared clinical communication is reading patient-identifiable information, and consent, the caldicott principles and the practice's data-protection duties apply regardless of how useful it is. Useful framing whether you trust the technology or not \u2014 decide who can see what before the tool is dropped in, not after."
+    },
+    {
+      "title": "Demand demonstrated benefit before you reorganise around it",
+      "body": "Both sides, oddly, agree on one number: the average enterprise spent about eleven and a half million on AI this year and most cannot prove a dollar back. The translation for a surgery or an integrated care board is to insist on demonstrated, audited time-savings or safety gains in your own setting before changing rotas or workflow around a tool. If NLW is right there is genuine value to capture; if Zitron is right that much adoption is cargo-cult imitation, the same test protects you \u2014 measure it here, on your patients, not on a vendor's slide."
+    }
+  ]
+}
