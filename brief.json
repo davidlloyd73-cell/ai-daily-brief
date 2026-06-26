@@ -1,271 +1,301 @@
 {
-  "date": "2026-06-24",
-  "title": "5 Ways Claude Tag Could Change How You Use AI",
-  "dek": "Anthropic's Claude Tag puts a full Claude Code teammate inside Slack \u2014 and the way the people building it are talking suggests it's less a feature than a third major redesign of how we interact with LLMs. Plus a customer sues the US over the Fable ban, and Washington's friskiness moves from models to robots.",
-  "source": "https://aidailybrief.ai/e/2026-06-24",
+  "date": "2026-06-25",
+  "title": "CEO-Led AI Gets 3X the ROI",
+  "dek": "A no-single-story day where a million small stories become tea leaves: OpenAI tapes out its first in-house chip, Anthropic ratchets up its China-distillation rhetoric, Micron's blowout earnings nuke the bubble jitters \u2014 and a KPMG survey lands the punchline, that the CEOs who actually own AI strategy are seeing roughly three times the ROI.",
+  "source": "https://aidailybrief.ai/e/2026-06-25",
   "oneIdea": {
-    "headline": "Claude Tag moves AI from a private chatbot to a shared org teammate.",
-    "summary": "Anthropic dropped the full power of Claude Code into Slack \u2014 not as another channel to prompt, but as a persistent, asynchronous entity with org-wide tools and context that works alongside humans. NLW reads it as a leading indicator of five shifts: from app-native interfaces to existing workspaces, from private chatbot to shared teammate, from single-user to full-team context, from prompting to delegation, and from personally-essential tool to organizational dependency. Whether or not Claude Tag itself wins, this is the direction labs and agent companies are heading."
+    "headline": "Who owns AI matters more than which AI you buy.",
+    "summary": "KPMG's latest Quarterly Pulse Survey, run during the agentic period rather than the before times, shows AI confidence and strategic priority both climbing. But the standout finding is about accountability: organizations with clear ownership are 3x more likely to report ROI, and when the CEO is personally accountable, established-ROI rates jump from 4% to 14% and meaningful-business-value reports go from 21% to 57%. AI is no longer an IT tool-selection problem \u2014 it's an organizational design challenge, and leadership owns it."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "From prompting the scribe to delegating to it \u2014 but mind the meter",
-        "body": "The edition's core claim is that interaction is moving from prompting to delegation: you stop telling the tool each step and instead hand it an outcome. For a GP already living with an AI scribe, that is the plausible next step \u2014 letting a tool draft the letter, flag the abnormal result, chase the unactioned task. If NLW is right, the practices that learn to delegate well, not just prompt well, will pull ahead. If Zitron is right that 'delegation' and 'loops' are partly a way to make you consume more, the discipline is to watch the cost: confirm a tool still saves real clinician time once any introductory pricing ends, not just while it is being subsidised."
+        "title": "\"Reported ROI\" is not measured ROI \u2014 hold AI scribes to the harder test",
+        "body": "The headline finding is a survey one: where the CEO personally owns AI, far more leaders say it delivers meaningful value. That is sentiment, not arithmetic, and Zitron's point lands squarely \u2014 a Bain study he cites concluded \"the technology worked, the value didn't arrive.\" For a surgery weighing an AI scribe, the translation is to insist on a measured saving in your own setting: minutes saved per consultation, letters turned round faster, fewer unactioned results \u2014 audited locally, not taken from a vendor's slide or a confidence survey. If NLW is right there is real value to capture; if Zitron is right it is mostly perception, the same local measurement protects you."
       },
       {
-        "title": "The 'surveillance device in the meeting' problem is an information-governance problem",
-        "body": "One of the sharpest worries raised was that dropping an AI teammate into a shared channel means it reads everyone's messages, so it stops looking like a team tool and starts looking like one person's tool in everyone's workspace. In general practice the equivalent is real and regulated: any AI that sits across shared clinical communication is reading patient-identifiable information, and consent, the caldicott principles and the practice's data-protection duties apply regardless of how useful it is. Useful framing whether you trust the technology or not \u2014 decide who can see what before the tool is dropped in, not after."
+        "title": "Watch the meter as token billing arrives",
+        "body": "Both sides agree on one uncomfortable thing: only about a third of organisations can fully see their AI operating costs, and pricing is shifting from flat subscriptions toward paying per use. A practice or ICB adopting any AI tool should know what a unit of work actually costs before reorganising around it, and confirm a scribe still saves real clinician time once any introductory pricing ends. Cheap-feeling now is not the same as cheap when the subsidy stops."
       },
       {
-        "title": "Demand demonstrated benefit before you reorganise around it",
-        "body": "Both sides, oddly, agree on one number: the average enterprise spent about eleven and a half million on AI this year and most cannot prove a dollar back. The translation for a surgery or an integrated care board is to insist on demonstrated, audited time-savings or safety gains in your own setting before changing rotas or workflow around a tool. If NLW is right there is genuine value to capture; if Zitron is right that much adoption is cargo-cult imitation, the same test protects you \u2014 measure it here, on your patients, not on a vendor's slide."
+        "title": "Ownership and accountability are sound NHS instincts \u2014 regardless of who is right on ROI",
+        "body": "Stripped of the hype, the edition's organisational point is reasonable for general practice: decide who is accountable for each AI-assisted decision before deploying. Who signs off that a scribe's summary is safe? Who reviews errors? That clarity is good clinical governance whether AI proves transformative or turns out to be an expensive disappointment, and it is the part of this survey that travels to a surgery without needing to believe the 3x figure."
       }
     ]
   },
   "the_other_side": {
-    "source": "Cargo Culture",
-    "url": "https://www.wheresyoured.at/cargo-culture/",
-    "date": "2026-06-23",
+    "source": "AI Doesn't Have ROI",
+    "url": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
+    "date": "2026-06-02",
     "same_day": false,
-    "text": "NLW reads Claude Tag, and the move \"from prompting to delegation,\" as a genuine third redesign of how we work with AI \u2014 a paradigm shift, not just a feature. Writing the day before, Zitron reads the very same \"the age of prompting is over, now you just handle loops\" framing as a desperate, self-interested push to get users to burn more tokens for revenue, noting Jensen Huang and Claude Code's Boris Cherny floated it within twenty-four hours of each other. He points out that Cherny is, in his words, \"allowed to burn upwards of $130,000 a month in tokens\" and runs agents that never stop running. More broadly, he casts enterprise AI adoption itself as a cargo cult: executives \"demanding that people use it because 'AI is so powerful'\" while having little idea what it actually does, copying whatever everyone else is doing rather than what is demonstrably valuable."
+    "text": "The edition's lead is that CEOs who personally own AI strategy report roughly three times the ROI. Zitron's argument is that AI's return on investment cannot actually be measured at all \u2014 there is no standard way to price a task given hallucinations and an ever-shifting list of agentic harnesses \u2014 so \"reported ROI\" from a survey is sentiment, not arithmetic. He points to a Bain study of 951 executives whose own conclusion was, in his quote, \"The technology worked. The value didn't arrive,\" and warns that firms self-funding the next wave from past savings are making \"a circular bet with a structural leak.\" And he argues that making AI use a CEO-owned KPI is precisely what manufactures inflated self-reports: people conditioned to ignore the true, now-rising token cost keep claiming value while nobody can point to a measured dollar back."
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: whether the shift from prompting to autonomous delegation creates real, durable productivity or merely consumes more tokens. Both accept that agents and loops exist, that they burn compute, and that Anthropic genuinely leans on its internal tool. The empirical question that will resolve it is whether delegated AI yields measurable output net of its true cost; the observable that settles it is audited productivity and retention once access is charged at unsubsidised prices rather than on free credits. The residue is pure worldview: Whittemore sees a paradigm shift, Zitron a revenue-driven ritual. Whittemore is vindicated if enterprises show sustained, measured gains at real prices; Zitron if usage and the headline \"sixty-five percent of code\" figures collapse when subsidies end. Both are polemicists with incentives \u2014 NLW bullish and anti-doom, Zitron bubble-certain and anti-hype with a paid newsletter \u2014 and the signal is their shared doubt that the average eleven-and-a-half-million-dollar enterprise AI spend can prove a dollar back. Watch whether ROI appears once the free credits stop."
+    "text": "Both men orbit one variable: whether enterprise AI yields a real, measurable return once a firm pays its true, unsubsidised cost. Both accept that companies are spending heavily, that token-based pricing has now arrived, and that cost accounting is poor \u2014 this very edition notes only about a third of organisations can fully see their AI costs. The empirical question that will settle it is whether audited outcomes, not survey sentiment, show a positive net return; the observable that resolves it is hard productivity or profit data at real prices set against spend. The residue is pure worldview: Whittemore reads rising executive confidence and \"reported ROI\" as signal, Zitron reads the same self-reports as a con that dissolves the moment anyone measures. Whittemore is vindicated if owned, accountable AI shows durable audited gains; Zitron if \"reported\" value keeps failing to become a demonstrable dollar. Both are polemicists with incentives \u2014 NLW bullish and anti-doom, Zitron bubble-certain with a paid newsletter \u2014 and the signal is that both concede firms cannot yet measure the cost. Watch whether anyone publishes audited, priced-at-cost ROI once the subsidies end."
   },
   "headlines": [
     {
-      "id": "legion-sues-us",
-      "headline": "An Anthropic customer sues the US over the Fable ban",
+      "id": "openai-jalapeno-chip",
+      "headline": "OpenAI unveils its first in-house chip, codenamed Jalape\u00f1o",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "01:20",
+      "timestamp": "01:00",
       "attribution": null,
-      "summary": "Legal tech firm Legion filed suit Tuesday calling the ban illegal and existential, arguing export control laws don't cover shutting down cloud software access and that serving code or text outputs isn't a proper export. The filing centers on its Canadian dev team losing access and notes targeting allied nations is highly unusual.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#legion-sues-us"
+      "summary": "Built with Broadcom, Jalape\u00f1o is an inference ASIC similar to Google's TPUs \u2014 purpose-built to serve LLMs rather than the general-purpose work NVIDIA GPUs do. OpenAI calls it the first accelerator in a multi-generation compute platform and says it went from initial design to tape-out in nine months, what they believe is the fastest development cycle ever for a high-performance ASIC.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#openai-jalapeno-chip"
     },
     {
-      "id": "harm-immediate-irreparable",
-      "headline": "The harm to Legion is immediate, irreparable, and existential.",
+      "id": "brockman-compute-economy",
+      "headline": "The world is moving to a compute-powered economy.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "01:00",
+      "attribution": "Greg Brockman, OpenAI President",
+      "summary": "Greg Brockman framed Jalape\u00f1o as part of a long-term full-stack infrastructure strategy to make compute more abundant \u2014 and credited AI-enhanced design for the speed: \"The degree to which our models have been able to accelerate it was very surprising to us.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-25#brockman-compute-economy"
+    },
+    {
+      "id": "insatiable-compute-demand",
+      "headline": "Compute demand is simply insatiable.",
       "type": "quote",
       "segment": "headlines",
       "timestamp": "02:00",
-      "attribution": "Legion's lawsuit against the US government",
-      "summary": "Legion's lawsuit argues competitive ground lost during a model suspension can't be regained after the fact \u2014 a sentiment NLW suspects many listeners share regardless of the suit's ultimate success.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#harm-immediate-irreparable"
+      "attribution": "Hock Tan, Broadcom CEO",
+      "summary": "Broadcom CEO Hock Tan said demand is \"much more than we can address, and this is not just '26, not '27 \u2014 we're seeing that same and even elevated demand in '28.\" Brockman reaffirmed OpenAI still \"cannot get compute fast enough,\" so the new chip won't cut NVIDIA orders.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#insatiable-compute-demand"
     },
     {
-      "id": "resolved-by-negotiation",
-      "headline": "The lawsuit won't matter \u2014 negotiation will",
-      "type": "take",
+      "id": "gpt-55-instant-upgrade",
+      "headline": "OpenAI keeps quietly upgrading its free-tier Instant model",
+      "type": "insight",
       "segment": "headlines",
-      "timestamp": "03:00",
+      "timestamp": "02:00",
       "attribution": null,
-      "summary": "NLW argues that even though most legal analysts think the administration went outside the bounds of the law, it's unlikely to be clear-cut for a judge, and none of it will matter because Anthropic is taking it seriously and will hopefully resolve it through negotiation before any legal process runs its course.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#resolved-by-negotiation"
+      "summary": "A new GPT-5.5 Instant version is \"much more fun to talk to,\" better at intent, complex constraints, and shopping/local recommendations. OpenAI has shipped Instant upgrades every month or two since February \u2014 whether they care about free users or see them as top of funnel, the free models keep improving.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#gpt-55-instant-upgrade"
     },
     {
-      "id": "meta-voluntary-review",
-      "headline": "Washington pressures Meta on 'voluntary' model review",
+      "id": "fable-return-market",
+      "headline": "Prediction markets swing wildly on a 'Fable 5' return",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "The White House is pressing Meta to submit AI models for safety and performance testing before release, leaving Meta the lone holdout after Microsoft, xAI, and Google signed on. Meta says it hopes to sign soon \u2014 highlighting just how air-quotes voluntary the program really is.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#meta-voluntary-review"
+      "summary": "Odds of a July 1st return jumped from 15% to 63% around 2pm Wednesday on insider-style signals: a Claude code snippet hinting at weekly usage limits and inclusion in subscriptions, and the model reappearing on Amazon Bedrock. As one observer put it: \"I'm gonna believe Fable is imminently coming back, and I'm ready to get hurt again.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-25#fable-return-market"
     },
     {
-      "id": "robots-next-ban",
-      "headline": "Commerce turns its sights from models to robots",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "04:30",
-      "attribution": null,
-      "summary": "Commerce Secretary Howard Lutnick held a closed-door meeting on the risk of Chinese-made robots, telling executives 'we don't want state-subsidized robotics attacking us in America.' Attendees included Boston Dynamics, SpaceX, Siemens, and Goldman Sachs.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#robots-next-ban"
-    },
-    {
-      "id": "american-brain-chinese-body",
-      "headline": "An American brain with a Chinese body is a very, very bad strategic plan.",
+      "id": "trump-anthropic-talks",
+      "headline": "Tom Brown is not being a weirdo like Dario and can actually engage.",
       "type": "quote",
       "segment": "headlines",
-      "timestamp": "05:00",
-      "attribution": "A source from the Commerce Department meeting",
-      "summary": "A source at the Commerce robotics meeting framing the strategic fear, as the Congressional Select Committee on China called out Amazon for selling a military-designated Unitree humanoid for $17,990 and pushed for the GUARD Act.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#american-brain-chinese-body"
+      "timestamp": "04:00",
+      "attribution": "A White House source, via Wired",
+      "summary": "Wired reports the Trump administration is sick of Dario Amodei but happy to deal with co-founder Tom Brown, who has now taken over negotiations while Dario is sidelined. Talks have shifted to what proof Anthropic can provide to alleviate the administration's jailbreak concerns; there's still no timeline.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#trump-anthropic-talks"
     },
     {
-      "id": "xai-goal-primitive",
-      "headline": "xAI adds the 'goal' primitive to Grok Build",
+      "id": "claude-tag-lockin",
+      "headline": "Claude Tag draws vendor lock-in fears",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "06:30",
+      "timestamp": "06:00",
       "attribution": null,
-      "summary": "Following OpenAI and Anthropic, xAI's /goal command lets users define an outcome and set Grok to work long-horizon tasks with sub-agents \u2014 reinforcing that /goal is becoming a real new AI UX primitive. It's also the first glimpse of the xAI-Cursor tie-up, using a Grok Build fine-tune plus Cursor's Composer 2.5.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#xai-goal-primitive"
+      "summary": "Critics argue Claude Tag starts as a handy feature but becomes vendor lock-in: \"it looks like convenience until you try to cancel.\" NLW's take \u2014 this is the unavoidable consequence of any AI getting deeply embedded with organizational context and permissions, not Anthropic-specific \u2014 but it's another argument for considering alternative or local model architectures.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#claude-tag-lockin"
     },
     {
-      "id": "seedance-25",
-      "headline": "ByteDance's Seedance 2.5 may be video's 'mythos moment'",
-      "type": "insight",
+      "id": "karpathy-org-harness",
+      "headline": "It is an org-level harness. The difference will become clearer over time.",
+      "type": "quote",
       "segment": "headlines",
-      "timestamp": "08:30",
-      "attribution": null,
-      "summary": "The new model doubles clip length to 30 seconds, adds 4K, and supports up to 50 input references plus image, video, and audio references for the first time. NLW credits the corpus of TikTok training content for ByteDance pulling away in the video race.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#seedance-25"
+      "timestamp": "06:00",
+      "attribution": "Andrej Karpathy",
+      "summary": "Andrej Karpathy defended calling Claude Tag a new paradigm, saying critics \"didn't read past the title\" \u2014 it's not a crappy Slackbot and not quite a Claude, though it has aspects of it.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#karpathy-org-harness"
     },
     {
-      "id": "google-ai-selloff",
-      "headline": "Watch the Google-led AI sell-off",
-      "type": "take",
+      "id": "mollick-org-design",
+      "headline": "AI decisions are organizational design, not IT choices.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "08:00",
+      "attribution": "Ethan Mollick",
+      "summary": "Ethan Mollick: \"Decisions about how to use AI in your organization are increasingly organizational design and strategy decisions, not IT choices. How do you integrate agents into your firm? What intelligence will you outsource? What are the boundaries of the firm? What is the role of people?\"",
+      "link": "https://aidailybrief.ai/e/2026-06-25#mollick-org-design"
+    },
+    {
+      "id": "anthropic-alibaba-distillation",
+      "headline": "Anthropic accuses Alibaba of the largest distillation attack ever",
+      "type": "insight",
       "segment": "headlines",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "NLW flags market moves around Google broadening into a wider AI sell-off as a story he's monitoring \u2014 promising to return to it if it becomes a significant narrative trend rather than just a market moment.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#google-ai-selloff"
+      "summary": "In a letter to the Senate Banking Committee, Anthropic says Alibaba accessed Claude almost 29 million times via 25,000 fraudulent accounts from mid-April to early June. NLW notes the \"attacks\" don't degrade Anthropic's product and likely breach terms of service rather than law \u2014 calling them attacks is a deliberate Washington-facing rhetorical choice.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#anthropic-alibaba-distillation"
     },
     {
-      "id": "claude-tag-defined",
-      "headline": "Claude Tag is Claude Code as a full team member in Slack",
+      "id": "china-token-gray-market",
+      "headline": "A shadow market for Claude tokens thrives in China",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "13:30",
+      "segment": "headlines",
+      "timestamp": "10:00",
       "attribution": null,
-      "summary": "Announced Tuesday, Claude Tag isn't just another channel to prompt \u2014 it's a persistent teammate with access to context across channels and the tools your team already uses. Tag it with a request and it breaks the task into stages, writes or merges pull requests, runs data analysis, or helps resolve incidents in-thread.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#claude-tag-defined"
+      "summary": "A Hacker News post described resellers pooling Claude Max accounts, running bot networks, and selling access far below official API prices \u2014 with user logs and reasoning traces allegedly resold as training data. \"Model access arbitrage turning frontier AI usage into a shadow data pipeline.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-25#china-token-gray-market"
     },
     {
-      "id": "65-percent-code",
-      "headline": "65% of Anthropic's product code now comes from Claude Tag",
+      "id": "alibaba-sues-dod",
+      "headline": "Alibaba sues the Pentagon over military-affiliate designation",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "14:00",
+      "segment": "headlines",
+      "timestamp": "11:00",
       "attribution": null,
-      "summary": "Anthropic says its internal version of Claude Tag is now one of the main ways it gets work done, generating 65% of the product team's code. With ambient behavior on, Claude follows up on quiet threads and flags relevant items across its channels and tools.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#65-percent-code"
+      "summary": "After the DoD added Alibaba and a dozen-plus Chinese cloud, EV, robotics, and chip firms to its list of companies tied to the Chinese military, Alibaba sued, claiming no military affiliation. Analysts see the designation as a precursor to broader civilian bans, as happened with Huawei.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#alibaba-sues-dod"
     },
     {
-      "id": "karpathy-third-paradigm",
-      "headline": "This is the third major redesign of how we interact with LLMs.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "16:30",
-      "attribution": "Andrej Karpathy",
-      "summary": "Karpathy frames the progression: first the LLM was a website you go to, then an app you download, and now a self-contained, persistent, asynchronous entity with org-wide tools and context working alongside teams of humans. 'It works and it is awesome.'",
-      "link": "https://aidailybrief.ai/e/2026-06-24#karpathy-third-paradigm"
+      "id": "google-talent-exodus",
+      "headline": "DeepMind keeps bleeding senior researchers",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "12:00",
+      "attribution": null,
+      "summary": "Following Noam Shazeer (to OpenAI) and Nobel laureate John Jumper (to Anthropic), Jonas Adler and Alexander Pritzel \u2014 key Gemini contributors \u2014 are also leaving for Anthropic. One theory: it's not just falling behind, but the pre-training center of gravity shifting from DeepMind's London roots to Mountain View.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#google-talent-exodus"
     },
     {
-      "id": "tobin-90-percent",
-      "headline": "Claude Tag is how I do 90%-plus of my work.",
-      "type": "quote",
-      "segment": "main",
+      "id": "gemini-35-delayed",
+      "headline": "Gemini 3.5 Pro slips to July",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "13:00",
+      "attribution": null,
+      "summary": "Business Insider reports the model won't ship this month as planned; DeepMind is using the extra time to tweak based on early-tester feedback, with testers asked to stress-test real-world coding use cases in anti-gravity.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#gemini-35-delayed"
+    },
+    {
+      "id": "micron-blowout",
+      "headline": "Micron's blowout earnings flip the bubble jitters",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "15:00",
-      "attribution": "Tobin South, Anthropic",
-      "summary": "Anthropic team members were so emphatic about Claude Tag's significance that some texted NLW directly when he didn't cover it on the prior day's show \u2014 a tell for how the team behind it views its impact.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#tobin-90-percent"
-    },
-    {
-      "id": "not-first-mover",
-      "headline": "Anthropic isn't first \u2014 but the friction is lower",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "15:30",
       "attribution": null,
-      "summary": "Perplexity's Comet coworker and ChatGPT workspace agents already live in Slack. The difference, per Click Health's Simon Smith, is that Claude Tag needs no configuration \u2014 you drop it into a Slack channel and it picks up context and becomes useful, collapsing duplicated context across Slack, ChatGPT projects, and NotebookLM.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#not-first-mover"
+      "summary": "After a week of AI-stock drawdowns, Micron beat on revenue and profit with 445% year-over-year growth and a 74% jump from last quarter, then hiked guidance another 22%. It locked in four long-term contracts at historically high memory prices (56% gross margins) and expects the memory market undersupplied for at least a year, with Q4 margins reaching 86%. The stock jumped 14% overnight.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#micron-blowout"
     },
     {
-      "id": "slack-to-production",
-      "headline": "Now you can literally go from Slack to a production-ready feature.",
+      "id": "goldman-underestimating-buildup",
+      "headline": "Consensus may underestimate the AI buildup by ~50%.",
       "type": "quote",
-      "segment": "main",
-      "timestamp": "17:30",
-      "attribution": "Ejazz, on X",
-      "summary": "Observers marveled that 65% of Anthropic product code now comes from tagging Claude in group chats where staff discuss what they want to build \u2014 with Claude Code barely a year old. The sneaky shift: when you tag @Claude, what you're really calling on is Claude Code.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#slack-to-production"
+      "segment": "headlines",
+      "timestamp": "16:00",
+      "attribution": "Goldman Sachs note",
+      "summary": "Goldman Sachs argues the investment boom is likely to extend and near-term expectations of its scope still need to rise \u2014 but warns that with a lot of value already priced in, \"markets are more vulnerable to news that challenges an optimistic view.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-25#goldman-underestimating-buildup"
     },
     {
-      "id": "setup-complications",
-      "headline": "Power users are sharing Claude Tag playbooks",
+      "id": "kpmg-agentic-survey",
+      "headline": "Why this KPMG survey actually has signal",
       "type": "insight",
       "segment": "main",
-      "timestamp": "18:00",
+      "timestamp": "20:00",
       "attribution": null,
-      "summary": "Claude Code's Tariq suggests introducing Claude to a channel with a pinned instructions message (think Claude.md), keeping a personal channel like tariq-claude for your own work, and having Claude maintain a pinned status message with emoji to track work streams at a glance.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#setup-complications"
+      "summary": "Most 2026 enterprise surveys are stale because of the non-agentic-to-agentic shift between November and January. KPMG's Quarterly Pulse is useful because it's longitudinal and was collected during the agentic period \u2014 not the before times.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#kpmg-agentic-survey"
     },
     {
-      "id": "coworker-that-picks-up",
-      "headline": "It behaves like a coworker that picks things up",
+      "id": "confidence-jump",
+      "headline": "Leaders reporting meaningful business value jumped 12 points",
       "type": "insight",
       "segment": "main",
-      "timestamp": "19:30",
+      "timestamp": "22:00",
       "attribution": null,
-      "summary": "Fractional's Chris Taylor described Claude Tag owning busy work \u2014 daily status summaries, following up when people are out, nudging on open to-dos \u2014 and even catching, fixing, and writing up a bug in its own scheduled task without being asked. It read a codebase, stack-ranked the 10 most important fixes, and opened them for review, all in Slack.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#coworker-that-picks-up"
+      "summary": "The share of senior leaders saying AI currently drives meaningful business value at the organizational level rose from 64% to 76%. It doesn't mean they have precise ROI metrics \u2014 but it's a strong indicator of how executives sense AI is working organizationally.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#confidence-jump"
     },
     {
-      "id": "five-big-shifts",
-      "headline": "NLW's five shifts Claude Tag represents",
-      "type": "take",
+      "id": "opportunity-over-efficiency",
+      "headline": "Opportunity AI is rising; efficiency AI is fading",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "21:30",
+      "timestamp": "23:00",
       "attribution": null,
-      "summary": "From app-native interfaces to existing workplace interfaces; from a private chatbot to a shared teammate; from single-user context to full-team context; from prompting to delegation; and from a tool that's personally essential to key workers to an actual organizational dependency.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#five-big-shifts"
+      "summary": "Strategic, opportunity-generating priorities are up while efficiency-focused ones decline: faster/better decisions fell 41%\u219236%, productivity gains 42%\u219235%, cost reduction 31%\u219229%. Meanwhile human-AI collaboration, responsible AI/governance, and ecosystem partnerships all rose. NLW: efficiency and cost are the amuse-bouche of what AI can really deliver.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#opportunity-over-efficiency"
     },
     {
-      "id": "delegation-not-prompting",
-      "headline": "The mode of interaction is shifting from prompting to delegation",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "22:30",
-      "attribution": null,
-      "summary": "As agentic capacity has come online through the year, people have moved from telling AI what to do toward telling it what they're trying to accomplish \u2014 giving it more freedom and latitude over an ever-expanding scale of goals.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#delegation-not-prompting"
-    },
-    {
-      "id": "surveillance-device-frame",
-      "headline": "I become the person who brought the surveillance device to the meeting.",
-      "type": "quote",
+      "id": "subsidy-era-ending",
+      "headline": "The end of the AI subsidy era is showing up in the data",
+      "type": "insight",
       "segment": "main",
       "timestamp": "24:00",
-      "attribution": "Gail Wiener",
-      "summary": "Gail Wiener warns that dropping Claude into a shared channel means it reads everyone's messages, so it stops looking like a team tool and starts looking like the power user's tool in everyone's workspace. Skeptics feel validated whether output is good ('she's outsourcing her thinking') or bad \u2014 a human-layer challenge that must be solved too.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#surveillance-device-frame"
+      "attribution": null,
+      "summary": "Concerns about pressure to demonstrate value rose 19%\u219224%, hiring/upskilling limits 18%\u219222%, and access to lower-cost LLMs jumped 15%\u219222%. NLW expects that lower-cost-LLM interest to only increase as usage-based pricing takes hold.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#subsidy-era-ending"
     },
     {
-      "id": "many-claudes-disorienting",
-      "headline": "Claude being many Claudes is a bit disorienting.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": "Simon Smith, Click Health",
-      "summary": "Because each Claude is channel-dependent and admin-configured with different tools, permissions, and contexts, Simon Smith notes none of the Slack Claudes are 'his' the way the app version is \u2014 and people's first move is tagging Claude to ask what it can do and remember.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#many-claudes-disorienting"
-    },
-    {
-      "id": "build-your-own",
-      "headline": "Building your own Slack agent is quite simple \u2014 and avoids lock-in",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "25:30",
-      "attribution": "Victor, Hugging Face",
-      "summary": "In light of the Fable ban, Hugging Face's head of product Victor argues there are increasingly good reasons not to outsource this to a single closed provider: build your own and you get any model you want, including self-hosted, full customization, no lock-in, no waitlist, and no overpricing.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#build-your-own"
-    },
-    {
-      "id": "reasoning-partner-research",
-      "headline": "High-impact AI users treat it as a reasoning partner, not prompt engineering",
+      "id": "ceo-owns-ai",
+      "headline": "75% say their CEO actively owns AI as a strategic priority",
       "type": "insight",
       "segment": "main",
-      "timestamp": "09:45",
+      "timestamp": "25:00",
       "attribution": null,
-      "summary": "KPMG and UT Austin analyzed 1.4 million real workplace AI interactions and found the highest-impact users aren't better prompt engineers \u2014 they frame problems, guide thinking, iterate, and push for better answers. The good news: those behaviors are teachable at scale.",
-      "link": "https://aidailybrief.ai/e/2026-06-24#reasoning-partner-research"
+      "summary": "A very high share of organizations report the CEO owns AI strategy \u2014 a strong signal that companies grasp this is an organizational design challenge, not a tool-selection problem. Actual accountability, though, is diffuse: spread across CEO, exec committee, named C-suite leaders, business units, or governance groups.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#ceo-owns-ai"
+    },
+    {
+      "id": "clear-accountability-3x",
+      "headline": "Clear accountability = 3x more likely to report ROI",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "25:00",
+      "attribution": null,
+      "summary": "Whatever the combination of ownership, organizations with clear accountability for AI-informed decisions were three times more likely to report ROI. NLW's quick win: make sure everyone knows who's accountable for which AI decisions.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#clear-accountability-3x"
+    },
+    {
+      "id": "ceo-accountable-outcomes",
+      "headline": "When the CEO is accountable, the outcomes transform",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "26:00",
+      "attribution": null,
+      "summary": "Where the CEO is accountable, 14% report established ROI vs just 4% when they're not; 57% report meaningful business value vs 21%; and 60% are confident in future-proofing their AI strategy vs 22%. NLW: \"Sorry, CEOs \u2014 it is your job, or your organization is going to have a much tougher time.\"",
+      "link": "https://aidailybrief.ai/e/2026-06-25#ceo-accountable-outcomes"
+    },
+    {
+      "id": "rephasing-deployments",
+      "headline": "Half of orgs have rephased AI deployments when costs outran value",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "About half rephased deployments after finding costs outweighed expected value \u2014 a sign of maturity, not failure. The reminder: even if you feel behind, not every implementation works, and you need to be comfortable cutting losses and repurposing funds and time.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#rephasing-deployments"
+    },
+    {
+      "id": "cost-visibility-gap",
+      "headline": "Only a third of orgs can fully see their AI costs",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "Just ~33% report full visibility into AI operating costs with active monitoring \u2014 a major challenge in the token-efficiency era. Roughly 54% have cost review in approvals, 53% have cost dashboards, and ~40% set usage or token budgets. NLW: build active cost monitoring before you even shift strategy.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#cost-visibility-gap"
+    },
+    {
+      "id": "us-agent-resistance",
+      "headline": "US employee resistance to AI agents spiked 5%\u219220%",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "28:00",
+      "attribution": null,
+      "summary": "While global agent adoption rose 25%\u219228%, US resistance jumped from 5% to 20% in a quarter. Bosses also consistently overestimate employee enthusiasm \u2014 71% of execs claim good progress toward an integrated AI-human workforce, a figure NLW would love to hear from individual contributors. Whether the spike is noise or signal will be clear next quarter.",
+      "link": "https://aidailybrief.ai/e/2026-06-25#us-agent-resistance"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-24.mp3",
-  "generated": "2026-06-25T06:13:34Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-25.mp3",
+  "generated": "2026-06-26T06:12:12Z"
 }

@@ -112,7 +112,7 @@
     {
       "edition": "2026-06-16",
       "side": "NLW",
-      "claim": "Over the next 6-12 months the labs will dramatically increase investment in enablement, training and expanding usage depth \u2014 even labs that don't believe everyone should build agents will act as if it's true, to hit quarterly token-growth targets.",
+      "claim": "Over the next 6-12 months the labs will dramatically increase investment in enablement, training and expanding usage depth — even labs that don't believe everyone should build agents will act as if it's true, to hit quarterly token-growth targets.",
       "source": "https://aidailybrief.ai/e/2026-06-16",
       "resolution": "By the check date, major labs (Anthropic and/or OpenAI) have materially expanded enablement/training programmes, customer-success/forward-deployed capacity or usage-depth initiatives. Fails if no such material expansion in lab-led training/enablement is observable.",
       "check_by": "2027-06-16",
@@ -130,7 +130,7 @@
     {
       "edition": "2026-06-17",
       "side": "NLW",
-      "claim": "OpenAI's 2025 loss is largely a one-time non-cash accounting charge ($41.55bn from the for-profit conversion), and the underlying inference business is already profitable \u2014 $13.07bn revenue on $7.5bn cost of revenue \u2014 so the company is far healthier than the $38.5bn headline loss implies.",
+      "claim": "OpenAI's 2025 loss is largely a one-time non-cash accounting charge ($41.55bn from the for-profit conversion), and the underlying inference business is already profitable — $13.07bn revenue on $7.5bn cost of revenue — so the company is far healthier than the $38.5bn headline loss implies.",
       "source": "https://aidailybrief.ai/e/2026-06-17",
       "resolution": "A future audited disclosure or IPO prospectus shows that, with the one-time fair-value/conversion charge excluded, OpenAI's operating loss narrows year-over-year and inference/gross profit scales. Fails if operating losses (ex one-time items) keep widening with no margin path.",
       "check_by": "2027-06-30",
@@ -148,7 +148,7 @@
     {
       "edition": "2026-06-18",
       "side": "NLW",
-      "claim": "Open-weight and routed model stacks (e.g. GLM 5.2, OpenRouter Fusion, compound APIs) can deliver near-Fable/near-frontier performance on real enterprise tasks at a fraction of the cost \u2014 around 6\u00a2 vs 49\u00a2 per task in the landing-page example \u2014 making smart routing and inference optimisation a durable competitive advantage.",
+      "claim": "Open-weight and routed model stacks (e.g. GLM 5.2, OpenRouter Fusion, compound APIs) can deliver near-Fable/near-frontier performance on real enterprise tasks at a fraction of the cost — around 6¢ vs 49¢ per task in the landing-page example — making smart routing and inference optimisation a durable competitive advantage.",
       "source": "https://aidailybrief.ai/e/2026-06-18",
       "resolution": "Within 12 months, independent benchmarks or large enterprises report production workloads moved to open-weight/routed stacks at materially lower cost with quality within a few points of frontier models. Fails if open/routed stacks consistently underperform on real tasks (as the Kimi K2.7 benchmark-vs-reality gap warns) and enterprises revert to frontier models.",
       "check_by": "2027-06-18",
@@ -157,7 +157,7 @@
     {
       "edition": "2026-06-18",
       "side": "Zitron",
-      "claim": "The shift to cheaper models reflects the bursting of an AI 'tokenomics bubble' \u2014 enterprises put on usage-based billing in early 2026 revolted at the true cost, forcing providers into 'drastic' price cuts; most users will refuse to pay AI's actual cost, so the economics still don't work.",
+      "claim": "The shift to cheaper models reflects the bursting of an AI 'tokenomics bubble' — enterprises put on usage-based billing in early 2026 revolted at the true cost, forcing providers into 'drastic' price cuts; most users will refuse to pay AI's actual cost, so the economics still don't work.",
       "source": "https://www.wheresyoured.at/brokenomics/",
       "resolution": "Within 12 months, major AI providers report shrinking enterprise spend/renewals or further forced price cuts amid persistent operating losses on inference. Fails if enterprise AI spend and renewals grow while providers move inference to sustainable gross margins.",
       "check_by": "2027-06-18",
@@ -166,7 +166,7 @@
     {
       "edition": "2026-06-19",
       "side": "NLW",
-      "claim": "Companies that build a model-agnostic learning loop on top of AI \u2014 captured workflows, private evals measuring real business outcomes, RL environments trained on internal traces \u2014 will own durable, portable IP (token capital) that survives any single model swap, while those that merely pick a model cede their value to the model providers.",
+      "claim": "Companies that build a model-agnostic learning loop on top of AI — captured workflows, private evals measuring real business outcomes, RL environments trained on internal traces — will own durable, portable IP (token capital) that survives any single model swap, while those that merely pick a model cede their value to the model providers.",
       "source": "https://aidailybrief.ai/e/2026-06-19",
       "resolution": "Within 18 months, case studies or audited results show firms that built such owned learning systems demonstrating durable, portable productivity or ROI gains (net of token costs) that persist across a model change and differentiate them from peers who just bought a model. Fails if no measurable, portable advantage from 'token capital' systems emerges and outcomes track model choice and spend rather than owned scaffolding.",
       "check_by": "2027-12-31",
@@ -232,6 +232,24 @@
       "claim": "The 'prompting is over, now run loops / delegate' narrative is primarily a token-consumption revenue play wrapped in cargo-cult enterprise adoption: when introductory subsidies and free credits end and true per-token costs are charged, enterprise AI usage and the headline internal-productivity figures (such as 'sixty-five percent of code') will not translate into a profitable, sustainable base of enterprise AI demand outside the big labs and their hyperscaler backers.",
       "source": "https://www.wheresyoured.at/cargo-culture/",
       "resolution": "Within 12 months, charging true at-cost pricing leaves enterprise AI demand flat or contracting and no profitable, sustainable enterprise AI demand base emerges beyond OpenAI/Anthropic and hyperscalers. Fails if priced-at-cost enterprise AI demand grows on sustainable margins with documented ROI.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-25",
+      "side": "NLW",
+      "claim": "Clear, CEO-level accountability for AI is a causal driver of return, not just a correlate: organisations where the CEO personally owns AI strategy will, over time, show genuinely superior, measurable AI outcomes (not merely higher self-reported confidence) versus those with diffuse or no ownership.",
+      "source": "https://aidailybrief.ai/e/2026-06-25",
+      "resolution": "By end 2027, independent or audited evidence (beyond self-report surveys) shows organisations with clear CEO/executive AI ownership achieving materially better measured AI ROI or productivity than comparable firms without it. Fails if the ownership-ROI link remains confined to survey sentiment with no measured outperformance, or disappears under controlled analysis.",
+      "check_by": "2027-12-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-25",
+      "side": "Zitron",
+      "claim": "Enterprise AI has no measurable ROI: once customers pay true, unsubsidised token costs, the favourable 'reported ROI' figures (such as KPMG's 3x and CEO-ownership uplifts) will not convert into audited, demonstrable net returns, and surveys will keep substituting executive sentiment for arithmetic.",
+      "source": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
+      "resolution": "By mid-2027, no body of audited, priced-at-cost evidence demonstrates positive net enterprise AI ROI at scale; ROI discussion remains dominated by self-report surveys and anecdotes. Fails if credible audited analyses show sustained positive enterprise AI ROI at real prices.",
       "check_by": "2027-06-30",
       "status": "open"
     }
