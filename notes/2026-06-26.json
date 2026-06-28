@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "\"Bot sitting\" has a direct surgery analogue — measure the net, not the gross",
+      "body": "The report's central finding is that AI saves time but quietly takes some back: feeding it context, checking and correcting its confident-but-wrong output. An AI scribe is exactly this — it drafts fast, but a clinician still reads, corrects and signs. The honest figure is minutes saved per consultation after that supervision, audited in your own list, not the vendor's headline. If NLW is right, transformation captures a real net dividend once workflows adapt; if Zitron is right, much of the apparent saving is ritual that evaporates under scrutiny. Either way, measuring the net rather than the gross is the safe instinct."
+    },
+    {
+      "title": "\"Bot shitting\" is a clinical-governance risk, not a productivity quirk",
+      "body": "The edition's bleaker term — shipping the first plausible output without being able to defend it, and then blaming the tool when it fails — is a recognisable hazard in medicine. A summary or letter you have not fully read remains your clinical responsibility; moral disengagement (\"the AI wrote it\") is no defence to the GMC or a coroner. Practical guardrail: decide in advance who signs off each AI-assisted entry and who reviews errors. That discipline holds whether AI proves transformative or, as Zitron argues, mostly an expensive cargo cult."
+    },
+    {
+      "title": "The adoption engine is people, not the licence",
+      "body": "The most striking number for a small organisation: a cross-functional colleague using AI well lifts adoption roughly five-fold — far more than a leader mandating it — because their workflow survives real-world mess. In a surgery, the partner or nurse who quietly models good scribe use, and the training and review around it, will matter more than which product is bought. That is the \"transformation\" NLW means; Zitron's caution is to make sure it delivers measured benefit rather than imitating the form of innovation."
+    }
+  ]
+}

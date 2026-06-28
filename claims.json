@@ -252,6 +252,24 @@
       "resolution": "By mid-2027, no body of audited, priced-at-cost evidence demonstrates positive net enterprise AI ROI at scale; ROI discussion remains dominated by self-report surveys and anecdotes. Fails if credible audited analyses show sustained positive enterprise AI ROI at real prices.",
       "check_by": "2027-06-30",
       "status": "open"
+    },
+    {
+      "edition": "2026-06-26",
+      "side": "NLW",
+      "claim": "The bot-sitting productivity paradox is a transition artefact, not a ceiling: organisations that do the real work of transformation — governance, training, rewarding AI skills, building human infrastructure — will convert individual AI time savings into measurable organisation-level performance gains, and a rerun of this study in the agentic era would amplify rather than nullify the upside.",
+      "source": "https://aidailybrief.ai/e/2026-06-26",
+      "resolution": "By end-2027, credible evidence (audited outcomes or a repeat large-sample study) shows 'transformative' organisations turning AI use into significant, measured organisation-level gains, and the share of organisations reporting significant improvement rises well above the current 13%. Fails if the org-level gap persists or widens despite transformation efforts.",
+      "check_by": "2027-12-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-26",
+      "side": "Zitron",
+      "claim": "The roughly trillion-dollar AI/data-centre buildout is cargo-cult spending driven by a lack of other ideas, not by arriving value; it will not generate organisational returns proportionate to the outlay, and the AI 'transformation' narrative will keep substituting ritual and planted stories for demonstrable results.",
+      "source": "https://www.wheresyoured.at/cargo-culture/",
+      "resolution": "By end-2027, the large AI capex shows no proportionate audited return — evidenced by impairments/writedowns, stalled data-centre economics, or continued absence of organisation-level ROI at real cost. Fails if AI investment demonstrably produces returns justifying the spend.",
+      "check_by": "2027-12-31",
+      "status": "open"
     }
   ]
 }
