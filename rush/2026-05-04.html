@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-04</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Monday 4 May 2026 · ~5 min read · Issue 007</strong></p>
+<hr>
+<p><strong>On the line today:</strong> South West London goes live with the largest NHS ambient-scribe contract yet, signed with an Australian supplier; a <em>Nature Health</em> paper finds patients tell AI chatbots less about their symptoms than they tell doctors; a five-hospital US study puts the real-world AI-scribe gain at 13 minutes a day, not the hour-plus on the vendor decks; Anthropic&#x27;s &quot;Claude Security&quot; comes out of preview — AI now patching the code that other AIs are writing; and the WHO&#x27;s first European AI-readiness snapshot lands with three quarters of EU systems already using diagnostic AI. <em>From the Eye</em> — three sharp items including a wave of deepfake-doctor scams and the bit of Liz Kendall&#x27;s 28 April speech most outlets missed.</p>
+<hr>
+<h2>1. South West London signs the biggest NHS ambient-scribe deal so far — and it&#x27;s not with an NHS supplier</h2>
+<p>The South West London Acute Provider Collaborative — St George&#x27;s, Epsom and St Helier, Croydon, and Kingston and Richmond — has contracted Australian supplier <strong>Lyrebird Health</strong> to roll ambient scribing out to <strong>10,000 clinicians in year one and 20,000 over four years</strong>, integrated into the trusts&#x27; shared Oracle Cerner Millennium EPR. Crucially, the deal includes automated clinical coding and RTT-pathway capture generated from the consultation audio, not the typed note. Lyrebird sits on NHSE&#x27;s AVT registry and clears the Class I medical-device bar that Frimley&#x27;s Epic trial did not.</p>
+<p><strong>The view from the surgery:</strong> This is the deployment to watch. The ambition is no longer &quot;save the doctor a few minutes&quot; — it is to drive coding and pathway reporting end-to-end from spoken sentences. That is real productivity, and also where the medico-legal exposure quietly migrates: when the discharge code is generated from what you said, &quot;validate the output&quot; becomes a heavier task than the GMC framework currently admits.</p>
+<hr>
+<h2>2. Patients tell the AI less than they tell the doctor</h2>
+<p>A <em>Nature Health</em> study by Reis and colleagues, published this month, put <strong>500 participants</strong> through a controlled experiment describing headache and flu-like symptoms — told their report would go either to a clinician or to an AI chatbot. <strong>Descriptions to the chatbot were measurably shorter and clinically thinner</strong> — averaging 228.7 versus 255.6 characters — and the effect held even among participants who actually had the symptoms in question. The authors flag the obvious risk: every triage assumption baked into AI front doors — NHS App, 111-online, the new voice-reception products — assumes the patient enters their problem honestly into a box.</p>
+<p><strong>Why it matters:</strong> Anyone who has done a Saturday OOH knows the same patient who tells the GP the truth at 4pm tells the Klinik form half of it at 11am — and a colder interface makes that worse, not better. If the digital front door eats the richest part of the history before a human sees it, all the downstream clever AI reasons on a shorter, quieter consultation.</p>
+<hr>
+<h2>3. Mass General Brigham puts a number on the AI-scribe gain — 13 minutes a day</h2>
+<p>A study co-led by Mass General Brigham, tracking ambient documentation across <strong>five US hospitals over two years</strong>, finds AI scribes are associated with a <strong>modest reduction of 13 minutes in EHR use and 16 minutes in documentation time per clinician per day</strong>. Not nothing — but well short of the hour-plus quoted in vendor decks and several NHSE adoption case studies, including the GOSH pilot whose 23.5% in-room-time figure has been the standard headline for a year.</p>
+<p><strong>The view:</strong> Worth keeping in your back pocket. It does not invalidate ambient scribing — clinicians who use it will tell you the cognitive offload matters more than the minutes — but it should temper business cases that bank the time. Any ICB whose payback model for AVT assumes per-clinician savings 3–4× higher than this real-world figure is now signing on optimistic ground.</p>
+<hr>
+<h2>4. Anthropic&#x27;s &quot;Claude Security&quot; comes out of preview — AI patching the code AI is writing</h2>
+<p>Anthropic moved Claude Security into public beta for Enterprise customers today, <strong>4 May</strong>. Built on Opus 4.7, it scans codebases for vulnerabilities, traces data flows across files, and proposes patches tagged with confidence, severity and reproduction steps. CrowdStrike, Microsoft Security, Palo Alto Networks, SentinelOne and Wiz are simultaneously integrating Opus 4.7 capabilities directly into their existing tools.</p>
+<p><strong>Why it matters:</strong> The story is the closing of a loop. AI has been writing a steadily larger fraction of new code for two years; the same vendors are now selling the AI that audits it. For NHS digital teams running clinical-safety reviews of vendor software — and particularly for the smaller suppliers behind much of the AVT registry — &quot;who reviewed this codebase&quot; is quietly becoming &quot;which model&quot;, with all the auditability questions that implies.</p>
+<hr>
+<h2>5. WHO/Europe&#x27;s first AI snapshot — three-quarters of EU systems already using diagnostic AI</h2>
+<p>The WHO/Europe report <strong>published 20 April</strong>, drawing on the 2024–25 AI-in-healthcare survey across all 27 EU Member States, is the cleanest single number on European adoption to date. <strong>74% of EU countries are using AI-assisted diagnostics</strong> (imaging, disease detection, decision support); 63% are using chatbots in patient engagement; 81% have begun stakeholder consultations on AI governance; nearly half have created dedicated AI or data-science roles in the health workforce.</p>
+<p><strong>The view from the surgery:</strong> The second number matters more than the first. If four in five EU governments are already running governance consultations, the UK&#x27;s &quot;let the regulators sort it out&quot; stance — still the position after Liz Kendall&#x27;s 28 April speech — is a deliberate choice, not an oversight. Whether that is agile or lazy depends on whether MHRA, GMC and CQC actually align in the next six months.</p>
+<hr>
+<h3>From the Eye</h3>
+<p>Three things humming under the front pages. <strong>The deepfake-doctor advert wave keeps building</strong> — STAT, AARP&#x27;s <em>Perfect Scam</em> podcast and a Greenfield Recorder piece all flagged fresh cases in the last fortnight, including a New Orleans paediatric specialist whose face is selling TikTok vitamin supplements and a Massachusetts woman scammed by an AI clone of her own consultant; the ad copy now sports fake &quot;FDA certificate of compliance&quot; graphics, and the targets skew strongly older. <strong>Aaron Parnas reports on his Substack</strong> that in the week of the White House Correspondents Dinner shooting, dozens of public figures — Tom Hanks, Sydney Sweeney, Barack Obama, Pierre Poilievre — were falsely linked to the suspect via AI-generated posts; Parnas&#x27;s own family received threats. The story is not the individual fakes but the speed at which one news event spawns a coordinated AI-disinformation field. <strong>And in the under-quoted section of Kendall&#x27;s 28 April speech</strong>, the health passage ran to three sentences and deferred everything to the long-promised NHSE/MHRA framework &quot;later this year&quot;; six months on from the AI in Health Bill consultation, &quot;later this year&quot; is doing an enormous amount of work.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · The Lancet · HSJ</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

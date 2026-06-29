@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-08</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Friday 8 May 2026 · ~5 min read · Issue 010</strong></p>
+<hr>
+<p><strong>On the line today:</strong> The EU AI Act Omnibus deal closed yesterday — and medtech is the one sector that didn&#x27;t get the simplification everyone else did. OpenAI takes the wraps off &quot;OpenAI for Healthcare&quot; with GPT-5.2 already inside Cedars-Sinai, MSK, UCSF and Stanford. <em>Pulse</em> tells GP practices they need a trained Clinical Safety Officer before plugging in an ambient scribe. Stanford and <em>NEJM AI</em> publish MedAgentBench — and Claude is top of the class on virtual EHR work. And OpenAI&#x27;s Washington policy blueprint asks for the floor and the ceiling at the same time. Plus <em>From the Eye</em> — Beth Israel&#x27;s working rule for ChatGPT use, the NHS GitHub deadline that lands Monday, and the misattribution machine.</p>
+<hr>
+<h2>1. The EU AI Act Omnibus deal lands — and medtech is left walking with two crutches</h2>
+<p>Council and Parliament reached provisional political agreement on the Digital AI Omnibus yesterday, <strong>7 May</strong>, a week earlier than expected. High-risk Annex III obligations slip to <strong>2 December 2027</strong>, AI in regulated products (Annex I) to <strong>2 August 2028</strong>. For machinery and connected vehicles, that is a clean win — DIGITALEUROPE estimates €600,000 of duplicative Year-1 compliance lifted off the typical SME. Medical devices got nothing. The Commission&#x27;s December proposal to fix the MDR/AI Act overlap was dropped to get the file across the line. MedTech Europe — 95% SMEs — calls it &quot;a major win for Europe&#x27;s manufacturers, but a missed opportunity for medtech innovators.&quot;</p>
+<p><strong>The view from the surgery:</strong> The EU is already not the first-launch market for new medical devices, and yesterday widened that gap. CE-marked devices coming out of Europe will still carry a heavier regulatory load than US-cleared kit. Expect Lyrebird-class scribes and ArteraAI-style prognostics to keep eyeing the FDA before Brussels — and MHRA&#x27;s International Reliance Framework to start mattering more than its own conformity rules.</p>
+<hr>
+<h2>2. OpenAI for Healthcare goes live — with GPT-5.2 inside the academic majors</h2>
+<p>OpenAI announced <strong>ChatGPT for Healthcare</strong> yesterday alongside GPT-5.2 — a HIPAA-aligned enterprise tier already rolling out at AdventHealth, Baylor Scott &amp; White, Boston Children&#x27;s, Cedars-Sinai, HCA Healthcare, Memorial Sloan Kettering, Stanford Medicine Children&#x27;s Health and UCSF. OpenAI is publishing GPT-5.2 scores against its own HealthBench rubric (5,000 multi-turn cases, 262 physicians) and claims the model now beats human baselines on every role tested.</p>
+<p><strong>Why it matters:</strong> The launch partners read like the US clinical AI A-list, and the framing has shifted decisively — this is OpenAI selling like Epic. The UK question is whether HCA Healthcare&#x27;s roll-in pulls HCA UK (Harley Street, the Princess Grace, the Wellington) into the same deployment, and what that does to data flows for shared-care NHS patients. &quot;HIPAA-aligned&quot; is not DPA 2018 / DTAC compliant — and the gap will need MHRA and CQC eyes before any UK private wing turns it on.</p>
+<hr>
+<h2>3. <em>Pulse</em> says: no AI scribe without a trained Clinical Safety Officer</h2>
+<p><em>Pulse</em> this week reported that GP practices are now being told — NHS England guidance, reinforced by the BMA — to appoint a Clinical Safety Officer with at least two days&#x27; formal training before deploying any ambient voice product. The CSO must be a clinician who understands clinical risk and DCB0129/0160. New procurement frameworks are landing alongside, intended to make the AVT registry less of a free-for-all.</p>
+<p><strong>The view:</strong> Two days&#x27; training and a named accountable clinician is, by NHS standards, light-touch. By GP-practice standards — already running QOF, CQC, IG, fire and DSP toolkit single-handed — it is another straw. Federations and PCNs will share CSOs across practices, and the medico-legal trail when a scribe-induced error reaches the GMC will run through whichever name is on the form. Worth knowing whose name that is before someone else writes it in for you.</p>
+<hr>
+<h2>4. <em>NEJM AI</em> publishes MedAgentBench — and Claude tops the EHR class</h2>
+<p>Stanford HAI and Stanford Medicine published <strong>MedAgentBench</strong> in <em>NEJM AI</em> — a virtual FHIR-compliant EHR loaded with 100 patient profiles and 300 physician-authored tasks, testing whether an LLM agent can actually do the EHR work clinicians do (place orders, document vitals, retrieve labs). <strong>Claude 3.5 Sonnet v2</strong> topped the board at <strong>69.67%</strong>, GPT-4o at 64.0%, DeepSeek-V3 at 62.67%. The headline number is that even the best model gets a third of routine EHR tasks wrong.</p>
+<p><strong>Why it matters:</strong> This is the first benchmark that measures the agent layer where the next wave of &quot;AI does the documentation&quot; claims will land. A 70% success rate on the easy, scripted work suggests the autonomous-EHR-agent market is not where its marketing slides say it is. Useful counterweight when a vendor next offers to &quot;let the AI close the loop.&quot;</p>
+<hr>
+<h2>5. OpenAI tells Washington it wants the safe-harbour and the speed limit</h2>
+<p>STAT, <strong>6 May</strong>, on OpenAI&#x27;s new health-policy blueprint: the company is asking US regulators for federal pre-emption to override state-level AI rules, liability protection for clinicians using AI tools, reimbursement codes for AI-assisted care, and a fast-track FDA pathway for adaptive models. <em>STAT</em>&#x27;s framing — &quot;they want to have their cake and eat it too&quot; — is the blunt version of a longer concern: OpenAI is now the one player whose products are used widely enough that regulatory structure follows lobbying preferences, not the other way round.</p>
+<p><strong>The view from the surgery:</strong> Where US payers go on AI reimbursement codes, NHS commissioning eventually follows — usually three years later, in a worse-funded form. The company asking for safe-harbour also runs 230 million weekly health questions. That is a lot of triage already happening outside the regulated system.</p>
+<hr>
+<h3>From the Eye</h3>
+<p>Three quieter items. <strong>Adam Rodman at Beth Israel Deaconess</strong> offered a working rule in the <em>Harvard Gazette</em> this week: a chatbot is most useful &quot;before you go and see a doctor — or after,&quot; never during an emergency. About <strong>32% of US adults</strong> have now consulted one for medical advice; cyberchondria is the new presenting complaint, and patients arriving with a Claude-printed differential of glioblastoma multiforme is now a documented Wednesday morning. <strong>The NHS England GitHub close-source deadline lands Monday 11 May</strong> — three days from now. The FSFE&#x27;s open letter has crossed 1,200 signatures, the Engineering Board has not yet blinked; expect a quiet extension or a noisy U-turn early next week. <strong>And the misattribution machine is now scaling</strong>: Aaron Parnas reported that within an hour of the White House Correspondents&#x27; Dinner shooter being named, AI-generated accounts had falsely linked dozens of public figures to him — Tom Hanks, Sydney Sweeney, Pierre Poilievre, Barack Obama. The tech that two years ago made deepfake videos now makes fake witness lists before the police press conference.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · <em>NEJM AI</em> · The Lancet · HSJ</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

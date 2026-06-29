@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-24</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Sunday 24 May 2026 · ~5 min read · Issue 026</strong></p>
+<hr>
+<p><strong>On the line today:</strong> The BMA&#x27;s science chair makes the case that the real AI fight in the NHS is not the scribe in the room but the platform underneath it — and who owns what it learns. Fresh survey data puts a quarter of UK GPs already using generative AI in the clinic, almost none of them trained to. Mass General Brigham marks twenty-one of the leading models on clinical reasoning and finds the homework still isn&#x27;t good enough. Google bets on cheap-and-fast over benchmark glory at I/O, with the frontier race now genuinely level. And the graduate job market quietly buckles for the cohort behind your trainees. Plus <em>From the Eye</em> — token anxiety, the NHS pulling its own code offline, and the one thing Brussels actually banned.</p>
+<hr>
+<h2>1. The BMA says the real AI battle is over the data, not the dictation</h2>
+<p>Professor David Strain, who chairs the BMA&#x27;s board of science, argues that the question facing the NHS is no longer whether to use AI but who controls the data once it does. His point is structural: AI systems don&#x27;t merely store records, they restructure and interpret them, generating new operational intelligence from routine care. Value, he writes, sits in three layers — compute, code and data — and the NHS need not own every server, but if it loses the data layer it loses the knowledge its own patients and clinicians generate. He puts the prize at the £10bn a year BCG once estimated, names the Federated Data Platform as the crux, and warns that the US CLOUD Act lets American firms be compelled to hand over data wherever the servers physically sit.</p>
+<p><strong>The view from the surgery:</strong> The clearest thing I&#x27;ve read on NHS AI in months, reframing the whole Palantir argument away from privacy panic towards national infrastructure. Strain isn&#x27;t anti-partnership — he&#x27;s anti-dependency, the slow kind that accretes through long contracts and rising switching costs until you can&#x27;t leave.</p>
+<hr>
+<h2>2. A quarter of UK GPs are already using generative AI — and 95% had no training</h2>
+<p>An updated online survey of UK GPs (Doctors.net.uk panel, with Harvard and Basel collaborators) finds 25% now use generative AI tools in clinical work, up from 20% a year earlier. Among users, ChatGPT dominates at 71%. The clinical uses are not trivial: 35% generate post-consultation documentation, 27% ask for a differential diagnosis, 24% for treatment options and 24% for referrals. The figure that should stop you is the last one — 95% reported no professional training of any kind in using these tools.</p>
+<p><strong>Why it matters:</strong> This is the actual state of play, not the pilot brochure. Colleagues are pasting clinical questions into a consumer chatbot with no governance, no indemnity clarity and no training, and a quarter of the profession is doing it now. The technology has already arrived through the side door; the scaffolding hasn&#x27;t.</p>
+<hr>
+<h2>3. Mass General Brigham grades the models on reasoning — and they fall short</h2>
+<p>Researchers at Mass General Brigham tested twenty-one leading large language models against a new benchmark they call PrIME-LLM, designed to probe clinical <em>reasoning</em> rather than raw diagnostic accuracy. The headline finding: the models are getting better at landing the right diagnosis when handed complete, tidy information, but their underlying reasoning remains weak — the chain of inference a clinician would actually defend. The authors reinforce the now-familiar conclusion that a human clinician in the loop is not optional.</p>
+<p><strong>The view:</strong> The gap between &quot;got the answer right&quot; and &quot;reasoned its way there&quot; is the whole game in general practice, where the information is never complete and never tidy. A model that&#x27;s right for the wrong reasons is fine on a benchmark and dangerous on a Tuesday morning surgery. Useful ammunition next time someone tells you the differential is &quot;basically solved&quot;.</p>
+<hr>
+<h2>4. Google bets cheap-and-fast at I/O — and the frontier race goes level</h2>
+<p>At this week&#x27;s I/O, Google leaned into AI across the board: a search box that flips between short queries and long chatbot-style conversations, an &quot;Ask YouTube&quot; feature, and — tellingly — a new flagship that wasn&#x27;t a behemoth. Gemini 3.5 Flash is the faster, cheaper model, a deliberate signal that Google would rather ship something deployable across products used by billions than chase benchmark supremacy. Executives across Google, OpenAI and Anthropic now describe the race as effectively neck-and-neck, with Anthropic widely credited with surging on its withheld Mythos model.</p>
+<p><strong>Why it matters:</strong> The interesting move is the retreat from bigger-is-better towards cheap-enough-to-deploy-everywhere. That&#x27;s the model class that will end up quietly embedded in the EHR you use, the triage tool, the patient app — not the headline frontier system. Watch the Flash-tier models; they&#x27;re the ones coming to a surgery near you.</p>
+<hr>
+<h2>5. The graduate job market is buckling behind your trainees</h2>
+<p>Outside medicine, the entry-level squeeze is getting hard to wave away. Employers project a token 1.6% rise in graduate hiring for the class of 2026 — a functional contraction once you account for a larger graduate pool. Junior tech postings have reportedly fallen by around two-thirds, and 89% of this year&#x27;s graduates fear AI will take entry-level work, up from 64% a year ago.</p>
+<p><strong>The view:</strong> Medicine is partly insulated — you can&#x27;t ambient-scribe your way through a night on AMU — but not immune. The training-grade roles where juniors learn by doing the unglamorous work are exactly the ones automation eyes first. Hollow out the apprenticeship layer to save money now, and we&#x27;ll be short of seniors who know how to think in a decade.</p>
+<hr>
+<h3>From the Eye</h3>
+<p><strong>Token anxiety.</strong> Azeem Azhar&#x27;s <em>Exponential View</em> this week (&quot;Bye, bye fixed costs. Hello, token anxiety.&quot;) makes a quietly important point for anyone signing AI deals: software used to be a fixed cost, but agentic AI bills by the token, and inference prices are now volatile — meaning the pilot you costed last year may not cost the same next quarter. Procurement teams used to predictable licence fees are about to discover the meter is running. <strong>The code that vanished.</strong> Largely unremarked, NHS technology leaders were ordered to switch the service&#x27;s public GitHub repositories to private by 11 May, the guidance explicitly citing advanced models &quot;capable of large-scale code ingestion&quot; — the NHS pulling its own open code offline for fear of what the machines might learn from it. <strong>What Brussels actually banned.</strong> Lost in the May omnibus that <em>delayed</em> almost every AI Act deadline was one genuinely new prohibition, effective December: &quot;nudifier&quot; apps that generate non-consensual intimate imagery or CSAM. Everything else got a stay of execution; that didn&#x27;t.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · The Lancet · HSJ</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

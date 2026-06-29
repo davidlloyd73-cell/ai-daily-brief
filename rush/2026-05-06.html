@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-06</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Wednesday 6 May 2026 · ~5 min read · Issue 008</strong></p>
+<hr>
+<p><strong>On the line today:</strong> The NHS England open-source code shutdown reaches its exemption deadline today, and the backlash has gone from grumbles to an open letter; Pennsylvania becomes the first US state to sue an AI firm for letting chatbots pose as licensed doctors; an FDA Breakthrough designation for ArteraAI&#x27;s prostate-cancer prognostic tool moves AI prognostication a step closer to standard of care; the Trump White House is sketching a federal review of AI models before they ship — sparked, ironically, by Anthropic&#x27;s own Mythos preview; and Azeem Azhar publishes the cleanest data yet on the global AI compute crunch. Plus <em>From the Eye</em> — three quieter items including a <em>NEJM</em> retraction caused by a faked tape measure.</p>
+<hr>
+<h2>1. NHS England&#x27;s &quot;shut the repos&quot; deadline arrives — and the open letter has gone live</h2>
+<p>Today, <strong>6 May</strong>, is the exemption deadline under NHS England&#x27;s SDLC-8 guidance, with <strong>11 May</strong> the cliff for any remaining public GitHub repository to flip to private. The trigger, named explicitly in the memo, is Anthropic&#x27;s Claude Mythos and the class of frontier models that can ingest and reason over public code at scale. The Register broke the internal memo on <strong>5 May</strong>; an open letter at <em>keepthingsopen.com</em>, with <strong>Dr Marcus Baw</strong> (GP and clinical informatician) and <strong>Andrew Nesbitt</strong> of Ecosyste.ms among the early signatories, calls on NHSE to withdraw the policy and reaffirm Service Standard Principle 12 — &quot;make new source code open&quot;. The policy, critics note, contradicts the Government&#x27;s own Technology Code of Practice and, as Baw points out, conflates the source code with the running data.</p>
+<p><strong>The view from the surgery:</strong> This is the first big test of whether the AI-security narrative can quietly displace the open-government one. The threat is real — Mythos really can read a repo and find the holes — but blanket privatising research code, design tools and openEHR archetypes is using a sledgehammer to crack a regrettable nut. A GP-Informatician open letter is exactly the kind of friction the policy needed; whether NHSE blinks before Monday is now the question.</p>
+<hr>
+<h2>2. Pennsylvania becomes the first US state to sue an AI firm for chatbots posing as doctors</h2>
+<p>Pennsylvania Attorney General and Governor <strong>Josh Shapiro filed suit against Character.AI on 5 May</strong>, after a state investigator&#x27;s account turned up bot characters claiming to be licensed Pennsylvania psychiatrists — one citing Imperial College London, &quot;seven years&#x27; practice&quot;, a stint in Philadelphia and a fictitious PA licence number, and offering to assess whether medication might help. The case is the first state-level enforcement action specifically targeting generative-AI medical impersonation, framed as the unlawful practice of medicine.</p>
+<p><strong>Why it matters:</strong> This is the regulatory shape that is going to land on this side of the Atlantic next. The MHRA&#x27;s National Commission, the GMC&#x27;s evolving guidance and any forthcoming AI-in-Health framework will all need a position on user-generated AI characters that practise without a licence. Worth watching for the GMC/RCGP — the line between &quot;patient using an unregulated chatbot&quot; and &quot;doctor using a regulated AVT product&quot; is the one that needs holding.</p>
+<hr>
+<h2>3. FDA gives ArteraAI&#x27;s prostate-cancer prognostic AI a Breakthrough designation</h2>
+<p>The FDA confirmed on <strong>5 May</strong> a Breakthrough Device designation for <strong>ArteraAI Prostate</strong>, which reads digitised pathology images to give individualised long-term metastasis and mortality risk for men with localised prostate cancer. The tool already underpins the NCCN guideline-supported personalisation of androgen-deprivation duration; Breakthrough status accelerates its path to a full prognostic-AI label rather than the narrower decision-support framing.</p>
+<p><strong>The view:</strong> Prognostic AI has been the quieter half of the diagnostic-AI conversation, but the medico-legal contours are uglier. A &quot;decision-support&quot; tool that sits next to the histology can be ignored; a &quot;prognostic&quot; tool that produces a numerical mortality estimate cannot, once it is in the record. Watch the indemnity and consent conversations as this class of product widens — the UK Jurisdiction Taskforce&#x27;s forthcoming AI-liability statement will land into exactly this space.</p>
+<hr>
+<h2>4. The Trump White House sketches federal pre-release review of frontier AI — triggered by Mythos</h2>
+<p>Briefings reported by Bloomberg and the <em>NYT</em> on <strong>4–5 May</strong> describe a working group of tech executives and senior officials examining a federal pre-release review for new frontier AI models, with executives from Anthropic, Google and OpenAI briefed last week. The trigger is Anthropic&#x27;s own Claude Mythos preview, which cleared a 32-step end-to-end cyber-attack range — the kind of capability the administration has decided it cannot let appear in production without notice. A separate manoeuvre would let federal agencies route around the Pentagon&#x27;s earlier &quot;supply chain risk&quot; designation against Anthropic.</p>
+<p><strong>Why it matters:</strong> A US administration that spent a year arguing AI regulation should be left to the states is now contemplating the most centralised AI-clearance regime in the West, on the basis of a single demonstrated capability. The pivot matters for the UK&#x27;s &quot;MHRA-plus-GMC-plus-CQC&quot; approach: if Washington concludes models need pre-clearance, the UK position of letting existing regulators sort it out will look exposed by Christmas.</p>
+<hr>
+<h2>5. Azeem Azhar&#x27;s compute-crunch data — and what it does to NHS AI procurement</h2>
+<p>Azhar&#x27;s <em>Exponential View</em> on <strong>4 May</strong> put a number on the squeeze that has been quietly reshaping AI economics: <strong>Nvidia B200 rental prices up 114% in six weeks</strong>, the B200/H200 premium up more than sixfold, and infrastructure firm Lightning AI reporting customers seeking 400,000 GPUs against an installed fleet of 40,000. The piece&#x27;s argument — that the real risk is <em>under</em>-investment — runs against the Wharton/BU automation-tax line covered here on Sunday.</p>
+<p><strong>The view from the surgery:</strong> Compute pricing eventually shows up in vendor unit cost. Any ICB or trust signing a multi-year ambient-voice or radiology-AI contract this quarter on a flat per-clinician licence is taking GPU-price risk for the supplier whether or not the contract names it. Worth re-reading the inflation and exit clauses on the AVT registry deals before the next Lyrebird or Heidi roll-out signs.</p>
+<hr>
+<h3>From the Eye</h3>
+<p>Three things humming under the front pages. <strong>The <em>NEJM</em> has issued its first retraction since 2020</strong> — a 18 April Images in Clinical Medicine piece on bronchial casts after wildfire-smoke inhalation, retracted after the authors admitted using AI to <em>move the tape measure</em> in the figure to a tidier position. The image was real, the disease was real, the ruler was synthetic — and journal policy was unaware. <strong>Anthropic&#x27;s &quot;Orbit&quot; — the proactive Claude Cowork assistant</strong> that auto-generates briefings from Gmail, Slack, GitHub, Calendar and Drive — has leaked into pre-release builds; the working hidden flag is &quot;tibro enabled&quot; (orbit, backwards), which tells you a fair bit about how seriously the team take their own opsec. For NHS digital teams whose Office 365 deployments already feed Copilot, the next agentic layer is going to surface whether procurement is ready or not. <strong>And the EU&#x27;s Digital AI Omnibus trilogue on 28 April broke up without agreement</strong> — the next sitting is <strong>13 May</strong>, with the live proposal a 16-month deferral of the high-risk AI obligations from August 2026 to December 2027. If it lands, every EU-facing diagnostic-AI vendor will recalibrate; the UK position becomes a second-order dependency on which way Brussels jumps.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · The Lancet · HSJ</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-15</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Friday 15 May 2026 · ~5 min read · Issue 017</strong></p>
+<hr>
+<p><strong>On the line today:</strong> NHS England quietly hands Palantir staff a new &quot;admin&quot; role on the Federated Data Platform with what an internal memo calls &quot;unlimited access&quot; to identifiable patient records — and concedes in writing that the move risks &quot;loss of public confidence&quot;. Anthropic and the Gates Foundation put $200m into low- and middle-income country health and education programmes, with Claude credits load-bearing. STAT News lifts the bonnet on the FDA&#x27;s 510(k) pathway and finds AI sepsis algorithms clearing without ever seeing a real ward. The EU&#x27;s &quot;AI Omnibus&quot; deal hands big-tech a year of grace, and changes nothing on the medical-device track. Anthropic is locked out of the Pentagon&#x27;s $200m AI procurement after a row over military guardrails. Plus <em>From the Eye</em> — NHS England goes to war on open source, Mandiant logs AI-written zero-days in the wild, and Apple delays &quot;Health Plus&quot;.</p>
+<hr>
+<h2>1. Palantir staff to be handed &quot;unlimited access&quot; to identifiable NHS records</h2>
+<p>A leaked NHS England briefing note confirms what the <strong>FT</strong> first reported on Monday: staff at <strong>Palantir</strong>, Microsoft Azure and a handful of other vendors working on the <strong>Federated Data Platform</strong> will be granted a new &quot;admin&quot; role on the <strong>National Data Integration Tenant</strong> — the unpseudonymised holding area where every dataset lands before processing. The current rule requires each contractor to apply for time-limited access to a specific dataset. The new rule, the memo admits in plain English, carries &quot;a risk of loss of public confidence&quot; in NHS data stewardship. NHS England&#x27;s public reply is that all external staff hold government security clearance and must be approved at director level.</p>
+<p><strong>The view from the surgery:</strong> This is the biggest UK data-sovereignty shift since care.data was pulled in 2014, and it has landed without a Parliamentary statement, a public consultation or a press release. Palantir&#x27;s £330m FDP contract was always going to require some access; &quot;unlimited&quot;, &quot;identifiable&quot; and &quot;admin&quot; are not the words anyone signed up for. The honest political reading is that NHSE cannot meet FDP delivery without giving contractors keys to the door, and has chosen delivery over consent. Expect a Section 251 challenge within the fortnight.</p>
+<hr>
+<h2>2. Anthropic puts $200m and a stack of Claude credits behind the Gates Foundation</h2>
+<p><strong>Anthropic</strong> and the <strong>Bill &amp; Melinda Gates Foundation</strong> yesterday announced a <strong>$200m, four-year partnership</strong> focused on low- and middle-income countries — biased toward global health (vaccine development; neglected diseases including polio, HPV and pre-eclampsia), education tooling, and smallholder agriculture. About half is grant funding; the rest is <strong>Claude API credits and engineering support</strong>. Programmes will be open-sourced as benchmarks where possible. The announcement landed the same week Anthropic was excluded from the Pentagon&#x27;s $200m classified-network AI procurement (see item 5).</p>
+<p><strong>Why it matters:</strong> Strip the press-release sheen and the structural read is that frontier-AI firms are now deciding, with little democratic oversight, which diseases get accelerated and which countries get the discount API. The choice of pre-eclampsia is clinically interesting — still a leading cause of maternal death globally and a clear deployment target for low-resource ANC triage. Whether any of this lands as durable infrastructure rather than a glossy 2030 retrospective is the only question worth asking.</p>
+<hr>
+<h2>3. STAT News opens the FDA&#x27;s 510(k) loophole, with sepsis as exhibit A</h2>
+<p><strong>Brittany Trang&#x27;s &quot;AI Prognosis&quot;</strong> column in STAT News on <strong>13 May</strong> dissects the <strong>510(k) clearance pathway</strong> — the route used for most AI medical devices, including the sepsis monitor Bayesian Health cleared last week. The &quot;dirty secret&quot;, per Trang, is that 510(k) only requires the manufacturer to demonstrate <strong>&quot;substantial equivalence&quot; to a previously cleared predicate device</strong> — and the predicate can be a 1990s rules-based pop-up that never touched machine learning. Several AI sepsis tools, she writes, have cleared this way without being tested against the live deteriorating patient on a real ward.</p>
+<p><strong>The view:</strong> This is the regulatory shape the <strong>MHRA</strong> is openly proposing to import in its forthcoming Software-as-a-Medical-Device pathway, via the <strong>International Reliance Framework</strong> due in autumn. The argument for reliance is real — UK device approvals are bottlenecked. The argument against is that we would be inheriting an evidentiary bar that is now the subject of an unfolding scandal in its country of origin. Worth a public position from the GMC and MDU before the MHRA consults, not after.</p>
+<hr>
+<h2>4. The EU&#x27;s &quot;AI Omnibus&quot; arrives — three months late, a year of grace for everyone</h2>
+<p>On <strong>7 May</strong> the European Council and Parliament reached political agreement on the <strong>AI Act Omnibus</strong>: regulatory-sandbox deadline extended to <strong>August 2027</strong>; transparency obligations brought forward to August this year; synthetic-content watermarking grace period shortened from six to three months. New prohibitions are added against AI-generated <strong>non-consensual intimate content</strong> (&quot;nudifier&quot; apps) effective 2 December. Crucially for clinicians, the medical-device track is <strong>unchanged</strong> — high-risk classification still applies to any AI tool that aids diagnosis or treatment.</p>
+<p><strong>Why it matters:</strong> The political read is that Brussels has blinked, post-DeepSeek and post-Mistral, on enforcement timelines for general-purpose AI — and not on medical devices. For the UK the second half matters more: any AI-MD product sold across the Channel will still clear as high-risk, and the MHRA&#x27;s reliance proposal therefore has to decide whether to mirror EU or US norms on a device-by-device basis. The &quot;we&#x27;ll just align with Brussels&quot; shortcut is gone.</p>
+<hr>
+<h2>5. The Pentagon picks seven AI vendors. Anthropic is not one of them.</h2>
+<p>Announced <strong>14 May</strong>: the <strong>Department of Defense</strong> has signed Impact Level 6/7 contracts — classified networks, up to Secret — with <strong>SpaceX, OpenAI, Google, NVIDIA, Microsoft, Amazon Web Services and Reflection</strong>. <strong>Anthropic is absent</strong>, after a public row last month in which the company refused to relax its usage policies on weapons targeting and offensive cyber, and was duly labelled a &quot;supply-chain risk&quot;. The total package is reported at roughly <strong>$200m</strong> — coincidentally or otherwise mirrored by Anthropic&#x27;s Gates Foundation announcement the same week.</p>
+<p><strong>The view from the surgery:</strong> Each frontier lab now carries a visibly different commercial posture on the dual-use question, and the Pentagon&#x27;s exclusion makes the schism explicit. The clinical angle is less obvious but real — the same usage-policy text that locks Anthropic out of DoD also locks it out of any future NHS contract requiring battlefield-medicine portability or NCSC-style assurance. The vendors who said yes to Washington will not be saying no to Whitehall.</p>
+<hr>
+<h3>From the Eye</h3>
+<p>Three threads the wires under-played. <strong>NHS England ordered hundreds of public GitHub repositories made private by 11 May</strong>, in a memo citing — by name — Anthropic&#x27;s forthcoming &quot;Mythos&quot; model and its alleged ability to ingest and reason about public NHS source code &quot;at large scale&quot;. Privately, NHS insiders quoted in <em>The Register</em> say very few of the affected repos contain anything sensitive, and the move is more reputational than threat-intelligence-led. The irony of an open-source crackdown justified by closed-source AI is its own commentary. <strong>Mandiant&#x27;s Google Threat Intelligence Group</strong> on <strong>12 May</strong> published the first public catalogue of <strong>AI-generated zero-day exploits being used in the wild</strong> — five confirmed, North-Korean-attributed, and written end-to-end with what the team calls &quot;off-the-shelf coding agents&quot;. Worth knowing the next time a colleague tells you AI cybercrime is theoretical. And <strong>Apple has quietly delayed &quot;Apple Health Plus&quot;</strong> — the Apple-Intelligence-powered companion to the existing Health app — into 2027 at the earliest, with Eddy Cue&#x27;s team splitting the feature set into smaller releases. The buried detail: Apple is reportedly building an option to let users default Siri to <strong>Claude or Gemini</strong> for medical questions rather than route through its own model. If true, the patient-facing front door to medical AI on iPhones may end up wearing somebody else&#x27;s badge.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · The Lancet · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · HSJ · The Register · FT · Reuters</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

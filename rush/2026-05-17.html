@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-17</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Sunday 17 May 2026 · ~5 min read · Issue 019</strong></p>
+<hr>
+<p><strong>On the line today:</strong> A King&#x27;s College London survey lands the most quotable UK number of the spring — one in seven adults have now used an AI chatbot instead of contacting a GP, and a fifth of those say the bot actively talked them out of seeing one. <em>NEJM AI</em> publishes the first hard randomised number for automation bias: physicians given erroneous LLM suggestions drop fourteen percentage points on diagnostic accuracy, with AI-literacy training making no measurable difference. Rotherham NHS Foundation Trust quietly proves the unglamorous AI use case works — 28% off the IT helpdesk in three months. Microsoft&#x27;s MDASH, a hundred-agent harness pointed at its own source code, finds sixteen new Windows vulnerabilities including four critical RCEs. And Trump publicly reverses himself on federal AI regulation, citing Anthropic&#x27;s Mythos by name. Plus <em>From the Eye</em> — Sweden&#x27;s fake-disease sting on the chatbots, Aaron Parnas builds his counter-misinformation engine, and Eli Lilly switches on the first pharmaceutical AI supercomputer.</p>
+<hr>
+<h2>1. King&#x27;s College London puts a number on the GP-to-GPT switch</h2>
+<p>A nationally representative poll of <strong>2,000 UK adults</strong> published last week by <strong>King&#x27;s College London&#x27;s Policy Institute</strong> with Ipsos finds <strong>one in seven (15%)</strong> have used an AI chatbot <strong>instead of contacting a doctor or NHS service</strong>, and <strong>one in ten</strong> have done the same for mental health support. Of those who consulted an AI, <strong>20% say the chatbot did not encourage them to seek a professional opinion</strong> and <strong>21% actively decided against</strong> seeing a clinician on the back of what the bot told them. The accidental punchline: the public estimate that <strong>39% of UK GPs already use AI in clinical decision-making</strong>. The actual figure, per the RCGP&#x27;s own member survey, is <strong>8%</strong>.</p>
+<p><strong>The view from the surgery:</strong> This is the most useful UK data point on AI-in-primary-care to land all year, and it changes the conversation in a quiet way. The argument has been about whether to allow AI into the consulting room; the data says it has already entered the patient&#x27;s home, with consent from no one and oversight from nothing. The 21% who declined to seek care are not a hypothetical — they are people we won&#x27;t see, with conditions we won&#x27;t diagnose. The right answer is not a leaflet about ChatGPT&#x27;s limitations. It is to acknowledge that we are now the second-opinion service and to position ourselves accordingly.</p>
+<hr>
+<h2>2. <em>NEJM AI</em> lands the first hard number on automation bias</h2>
+<p>A randomised trial published in <strong>NEJM AI</strong> by Akshay Bhuller and colleagues at Beth Israel Deaconess put <strong>44 physicians</strong>, all formally AI-literacy-trained, through <strong>264 diagnostic cases</strong> with optional LLM consultation. The control arm averaged <strong>84.9% accuracy</strong>. The arm exposed to <strong>deliberately erroneous LLM suggestions</strong> dropped to <strong>73.3%</strong> — an adjusted <strong>14-percentage-point fall</strong>. The drop held even when the doctor had explicitly questioned the AI&#x27;s reasoning before deferring to it. The authors&#x27; bottom line, in plain English: voluntary use and prior training did not protect against automation bias.</p>
+<p><strong>Why it matters:</strong> This is the first peer-reviewed clinical RCT to quantify what every GP suspects happens in the five-minute consult — that once the screen has produced a plausible answer, the brain quietly stops looking for the missing piece. The number is large enough to matter regulatorily. If the MHRA&#x27;s incoming Software-as-a-Medical-Device pathway leans on &quot;human in the loop&quot; as a safety claim, this paper is the inconvenient evidence that the loop closes the wrong way under time pressure. Expect citations in the next BMA briefing on AI scribe contracts.</p>
+<hr>
+<h2>3. Rotherham proves the boring AI case works</h2>
+<p><strong>Rotherham NHS Foundation Trust</strong> reported on <strong>15 May</strong> that the AI voice agent it deployed on Netcall&#x27;s Liberty Converse platform has <strong>cut IT helpdesk call volumes by 28%</strong> since launch, with <strong>41% of queries now self-served</strong>. The trust has costed avoided downtime separately and is preparing a phase-two rollout to out-of-hours support for clinical-system password resets and printer faults — the unromantic 3am calls that pull a duty technician away from a real incident.</p>
+<p><strong>The view:</strong> The healthcare-AI conversation is dominated by ambient scribes, diagnostic models and chatbot triage — high-stakes, high-headline. The bigger near-term efficiency is sitting on every trust&#x27;s internal helpdesk and switchboard. Rotherham&#x27;s 28% is not a moonshot; it is a procurement decision and a six-week training cycle. The contrast with the trusts spending eighteen months piloting a £1m AI radiology tool that delivers a 4% gain is becoming embarrassing. Worth showing this to your CCG/ICB analytics lead this week.</p>
+<hr>
+<h2>4. Microsoft turns a hundred agents on its own code — and finds sixteen new Windows holes</h2>
+<p>Microsoft Security disclosed on <strong>12 May</strong> that its <strong>MDASH</strong> (&quot;multi-model agentic scanning harness&quot;) found <strong>16 previously unknown vulnerabilities</strong> in Windows networking and authentication components — <strong>four of them critical remote-code-execution flaws</strong> — all patched in this month&#x27;s Patch Tuesday. MDASH orchestrates <strong>more than 100 specialised AI agents</strong> across frontier and distilled models that &quot;discover, debate, and prove&quot; exploitable bugs end-to-end. On Microsoft&#x27;s published planted-bug test it found <strong>21 of 21 with zero false positives</strong>, and scored <strong>88.45% on the CyberGym public benchmark</strong> — about five points above the next entry. Enterprise preview opens in June.</p>
+<p><strong>Why it matters:</strong> This is the first major-vendor demonstration that agentic AI applied to defensive cyber is producing real-world findings at scale — and a useful counterweight to Anthropic&#x27;s parallel offensive-Mythos warning. NHS Digital and the NCSC will be reading the technical paper carefully; the trust IT teams running unsupported Windows estates rather less carefully. The honest read is that AI is now on both sides of the cyber arms race, with the defenders briefly ahead — for the first time in a decade.</p>
+<hr>
+<h2>5. Trump pivots on AI regulation — and names Mythos as the reason</h2>
+<p>NPR reported on <strong>14 May</strong> that the White House has shifted line on federal AI regulation, with Trump telling reporters on Wednesday that &quot;there should be regulations on AI&quot; — a clean reversal from December&#x27;s Executive Order 14365 directing the AG to sue states pushing their own. The proximate cause, per two senior officials, is <strong>Anthropic&#x27;s Mythos preview</strong>, the cyber-offensive frontier model Dario Amodei has refused to release outside a hand-picked forty-organisation &quot;Glasswing&quot; cohort. CASI (the rebadged AI Safety Institute) is now being asked to draft federal evaluation standards by end-Q3.</p>
+<p><strong>The view from the surgery:</strong> The wider point for UK readers is that an American federal floor on frontier-model regulation, if it actually arrives, changes the calculus on the <strong>MHRA&#x27;s International Reliance Framework</strong> due in the autumn. The &quot;we&#x27;ll just import US standards&quot; shortcut becomes much more defensible if the US has standards worth importing. Until then, the Atlantic regulatory drift continues in our favour — but very slowly.</p>
+<hr>
+<h3>From the Eye</h3>
+<p>Three the bigger papers undersold. <strong>Sweden&#x27;s bixonimania sting</strong> — University of Gothenburg researchers uploaded two preprints describing a wholly invented eye condition (&quot;eyelid discoloration from blue light&quot;), authored by fictional academics at the equally fictional Asteria Horizon University; ChatGPT, Gemini, Copilot and Perplexity all proceeded to brief patients on its prevalence and recommend specialist referral, and one peer-reviewed Cureus paper cited it before retraction. The meta-finding, buried in the <em>Nature</em> write-up: LLMs are markedly more credulous when the input &quot;looks medical&quot; — formatted like a discharge summary or a clinical paper. <strong>Aaron Parnas</strong>, the <em>Parnas Perspective</em> political-news Substacker, trailed a new <strong>AI-misinformation counter-platform</strong> to launch next week, after his own team was repeatedly targeted by AI-generated impersonation video this spring; the architecture leans on watermark-detection plus rapid-response fact-checking, and is being pitched to local US election officials before the November midterms. Worth tracking whether the BBC Verify team picks it up. And <strong>Eli Lilly switched on &quot;LillyPod&quot;</strong> on <strong>13 May</strong> — billed as the world&#x27;s first pharmaceutical AI supercomputer, an NVIDIA DGX SuperPOD with B300 systems, dedicated to drug-discovery, genomics and clinical-development workflows. The headline is the hardware. The buried detail is that Lilly is paying NVIDIA directly rather than via AWS or Azure — the first hyperscaler-bypass deal in big pharma. The cloud middlemen will not have missed it.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>NEJM AI</em> · <em>The Lancet</em> · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · King&#x27;s College London · NPR · The Register · Microsoft Security · Nature</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

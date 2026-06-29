@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-16</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Saturday 16 May 2026 · ~5 min read · Issue 018</strong></p>
+<hr>
+<p><strong>On the line today:</strong> Wes Streeting resigned as Health Secretary on Thursday, twenty-four hours after the King&#x27;s Speech put his name on the NHS Modernisation Bill; James Murray inherits a Bill whose Single Patient Record clauses are now somebody else&#x27;s fight. <em>The Lancet</em> audits 2.5 million biomedical papers and finds AI-fabricated citations have risen twelvefold in two years. Mpathic&#x27;s first clinical chatbot benchmark shows the models passing explicit suicide-risk prompts and failing the subtle ones. Orgvue puts a hard number on AI layoffs going into reverse — almost a third of firms have rehired. And Maryland becomes the thirtieth US state to outlaw election deepfakes as Britain&#x27;s Electoral Commission runs its detection pilot for the May polls. Plus <em>From the Eye</em> — a &quot;natural Ozempic&quot; from Stanford, McKinsey buying skin in OpenAI&#x27;s deployment shop, and a healthcare-AI pitch deck that finally says the quiet bit.</p>
+<hr>
+<h2>1. Streeting out, Murray in — and the Bill that carried the AI plan</h2>
+<p>Health Secretary <strong>Wes Streeting</strong> resigned on <strong>Thursday 14 May</strong>, citing &quot;lost confidence&quot; in Keir Starmer&#x27;s leadership after Labour&#x27;s local-election results. The timing was excruciating: his resignation landed twenty-four hours after the <strong>King&#x27;s Speech</strong> introduced his <strong>NHS Modernisation Bill</strong> — the legislative vehicle for abolishing NHS England, the Single Patient Record by 2028 (maternity and frailty first), the neighbourhood-health-centre plan, and most of the AI-and-data agenda the 10-Year Plan promised. <strong>James Murray</strong>, MP for Ealing North and previously chief secretary to the Treasury, was confirmed in the brief on Thursday evening.</p>
+<p><strong>The view from the surgery:</strong> The Bill&#x27;s chief political author is gone before second reading. Murray comes in as a Treasury technocrat, not a health-policy figure, and his first decision is whether to defend the SPR clauses as drafted — including the powers letting DHSC override GP data controllers — or open them to amendment. The BMA&#x27;s May collective action is already squarely focused on data-sharing agreements; the new Secretary of State has both a structural fight and a contractual one in week one. The Treasury instinct in this seat will be to push delivery; the GP instinct will be to push consent. Whichever wins decides the shape of NHS AI for the rest of this parliament.</p>
+<hr>
+<h2>2. The Lancet audits 2.5 million papers — and finds AI hallucinations in the references</h2>
+<p>A letter in <em>The Lancet</em> on <strong>7 May</strong> by <strong>Maxim Topaz</strong> (Columbia Data Science Institute) and colleagues reports the first systematic audit of fabricated citations across PubMed Central&#x27;s Open Access subset — <strong>2.47 million biomedical papers, 97.1 million references</strong>, scanned by a bespoke verification system. The numbers: <strong>4,046 fabricated references in 2,810 papers</strong>, prevalence up <strong>twelvefold since 2023</strong>, and in the first seven weeks of 2026, <strong>one in every 277 published papers</strong> cited a study that does not exist (up from one in 458 last year and one in 2,828 in 2023).</p>
+<p><strong>Why it matters:</strong> The audit dates the sharpest inflection to mid-2024 — exactly when generative AI moved into mainstream academic writing — and is unsubtle about the route. The clinical-guideline implication is plain: a NICE working group quoting a systematic review that quietly cites a fabricated trial is now a plausible failure mode rather than a theoretical one. The fix — automated reference verification at journal submission — is procedural and trivially affordable. The delay in implementing it is the actual scandal.</p>
+<hr>
+<h2>3. Mpathic&#x27;s chatbot benchmark — the models pass the obvious, fail the subtle</h2>
+<p><strong>Mpathic</strong>, a Seattle clinician-led benchmarking outfit, published on <strong>12 May</strong> the first peer-relevant evaluation of six major language models on <strong>300 ten-to-fifteen-turn role plays</strong> designed by fifty licensed clinicians, on suicide risk and eating disorders. The headline: <strong>Anthropic&#x27;s Claude Sonnet 4.5</strong> scored highest on combined safety and helpfulness; <strong>OpenAI&#x27;s GPT-5.2</strong> scored highest on harm-avoidance alone. The honest finding, per Mpathic&#x27;s Danielle Schlosser: &quot;Almost all the models struggled with more nuanced risk signals&quot; — subtle comments about food, withdrawal, hopelessness, or beliefs that escalate slowly across a long conversation.</p>
+<p><strong>The view:</strong> GP-relevant in three ways. Patients are already using these tools as triage. The failure mode is exactly the one we worry about in five-minute appointments — explicit cues are easy, subtle cues are the case. And multi-turn drift is not measured by the FDA, the MHRA or any UK regulator; we lean on the vendors to publish, which Anthropic has now done and OpenAI has not. Last month&#x27;s AMA call for federal limits on mental-health chatbots is starting to look like the floor, not the ceiling.</p>
+<hr>
+<h2>4. Orgvue puts a number on the AI rehire — almost a third of firms have reversed course</h2>
+<p>Workforce-planning firm <strong>Orgvue</strong>&#x27;s research, refreshed this week, finds <strong>32% of organisations</strong> that made redundancies tied to AI deployment have since had to <strong>rehire</strong>, because the technology could not perform the work as advertised. The most cited case remains <strong>Klarna</strong>, whose CEO Sebastian Siemiatkowski admitted earlier this year that letting AI replace 700 customer-service agents pushed satisfaction and resolution scores low enough to reopen the headcount. Orgvue&#x27;s broader number: companies spend roughly <strong>$1.27 for every $1</strong> saved by AI-linked workforce cuts, once severance, unemployment and rework are accounted for. Goldman Sachs&#x27;s January frame still stands — AI investment contributed &quot;basically zero&quot; to US economic growth in 2025.</p>
+<p><strong>Why it matters:</strong> The reversal does not mean the displacement story is wrong — it means it is more uneven and slower than vendor decks claim. The NHS parallel is direct. Trusts cutting administrative posts on the assumption a scribe replaces the role rather than the task are signing themselves up for a Klarna in eighteen months. The few moving in earnest are quietly building hybrid teams. Worth re-reading any business case that lists a workforce-headcount reduction in year two.</p>
+<hr>
+<h2>5. Maryland&#x27;s deepfake law lands — and the Electoral Commission runs its UK pilot</h2>
+<p><strong>Maryland</strong> on <strong>14 May</strong> signed into law a statute prohibiting AI-generated deceptive media in political advertising — the <strong>thirtieth US state</strong> to do so — effective <strong>1 June</strong> ahead of the autumn midterms. The <strong>UK Electoral Commission</strong> has separately opened a <strong>deepfake-detection pilot</strong> for the <strong>7 May English and Welsh local elections</strong>, working with two UK fact-checking labs. Across the Atlantic, the National Republican Senatorial Committee has already deployed an AI-generated video of Texas Democratic Senate candidate <strong>James Talarico</strong> &quot;reading&quot; his own old social-media posts, with the disclaimer in microscopic type.</p>
+<p><strong>The view from the surgery:</strong> UK and US are converging on a labelling regime, and labelling is the regulatory equivalent of cycling lanes painted onto motorways — it does not stop the cars. The clinical analogue is the disclosure question coming for AI-summarised hospital letters. A &quot;this letter was AI-summarised&quot; footer is fine for governance; it will not protect the patient who reads the wrong dose at home.</p>
+<hr>
+<h3>From the Eye</h3>
+<p>Three quieter items working their way through. <strong>Stanford&#x27;s &quot;natural Ozempic&quot;</strong> — a <em>Science Daily</em> piece flagged on <strong>12 April</strong> that researchers had identified a peptide active in mouse and human cells that triggers GLP-1-style appetite suppression without the gut side effects of injectable semaglutide; the clinical lead is years away and the pharmaceutical incentive to discredit it is not. <strong>OpenAI&#x27;s DeployCo</strong>, the firm&#x27;s new enterprise-deployment arm, has closed seed funding at a <strong>$10bn pre-money valuation</strong> backed by <strong>Bain &amp; Company, Capgemini and McKinsey</strong> — three of the consultancies that for thirty years told the NHS what to buy now have skin in the game on what gets sold, and the conflict-of-interest disclosures for the next big NHS digital procurement will repay careful reading. And <strong>Optura</strong> closed an <strong>$11m Series A</strong> on <strong>14 May</strong> with the strapline: <em>&quot;healthcare does not have an AI-adoption problem, it has an AI-results problem&quot;</em>. The pitch deck argues the average trust has bought six AI tools and measured none of them. Hard to disagree.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>The Lancet</em> · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · Pharmaceutical Journal · King&#x27;s Fund · ITV · CNN · Reuters</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

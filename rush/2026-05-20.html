@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-20</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Wednesday 20 May 2026 · ~5 min read · Issue 022</strong></p>
+<hr>
+<p><strong>On the line today:</strong> NHS Shared Business Services puts £900m on the table for an eight-year national AI procurement framework — the biggest single signal yet on where the money is heading. Google uses I/O 2026 to unveil Gemini Spark, then trips immediately over its own healthcare disclaimer. NHS England quietly flips hundreds of public GitHub repos to private, naming Anthropic&#x27;s mysterious &quot;Mythos&quot; model as the proximate worry. The RCPsych and NHSE announce joint ambient-voice guidance for mental health, learning disability and neurodivergent patients. And OpenAI ties up with Dell to put Codex on-prem — quietly answering a question the NHS has not been brave enough to ask out loud. Plus <em>From the Eye</em> — the Mythos name surfacing in policy, the public&#x27;s wildly inflated mental model of GP AI use, and Azeem Azhar&#x27;s compute-crunch piece.</p>
+<hr>
+<h2>1. NHS SBS opens £900m, eight-year AI procurement framework</h2>
+<p><strong>NHS Shared Business Services</strong> has opened tenders for a new <strong>Healthcare AI Solutions</strong> framework worth <strong>£900m including VAT</strong>, running from <strong>May 2027 to May 2035</strong>. Published on <strong>11 May</strong> and entering its supplier-call phase this week, it covers <strong>eight lots</strong> — radiology and diagnostic imaging, early detection, virtual and robotic health, predictive analytics, research, and advisory services among them. Submission deadline is <strong>23 June</strong>, awards in <strong>March 2027</strong>. SMEs are explicitly invited; the framework is open to wider public sector use.</p>
+<p><strong>Why it matters:</strong> This is the procurement infrastructure on which actual NHS AI spending will sit for the next eight years — not a press release. It will determine who can sell into ICBs without a fresh tender, which sets defaults for years. Worth a careful read for anyone on a PCN or trust digital board; this is where the supplier shortlist for your 2028 procurement is being drawn now.</p>
+<hr>
+<h2>2. Google I/O — Gemini Spark launches, then warns you not to use it for medicine</h2>
+<p>At yesterday&#x27;s <strong>Google I/O</strong>, Sundar Pichai unveiled <strong>Gemini Spark</strong>, an always-on agentic assistant built on the new <strong>Gemini 3.5 Flash</strong> model. Spark runs in the cloud and is pitched for &quot;long-horizon tasks with minimal oversight&quot; — monitoring credit card charges, drafting Gmail follow-ups, tracking your child&#x27;s school updates. Beta for <strong>Google AI Ultra</strong> subscribers from next week. Tucked into the small print, Google instructs users to <strong>&quot;not rely on it for medical advice, legal, financial, or other professional help.&quot;</strong></p>
+<p><strong>The view from the surgery:</strong> The disclaimer is interesting because consumer behaviour has comprehensively ignored every previous version of it. Spark also reads Gmail by default — the first agentic system most patients will use that quietly correlates appointment letters, prescription notifications and symptom searches. Worth being aware of when discussing online health-information habits, particularly in the over-50s cohort, which is where adoption will land hardest.</p>
+<hr>
+<h2>3. NHS England pulls public GitHub repos behind a curtain — citing Anthropic&#x27;s &quot;Mythos&quot;</h2>
+<p><strong>NHS England</strong> has ordered all its technology teams to flip <strong>public GitHub repositories to private by 11 May</strong>, with exceptions requiring explicit Engineering Board approval. The reason given, in internal guidance seen by <em>Digital Health News</em>, is &quot;<strong>rapid advancements in AI models capable of large-scale code ingestion, inference, and reasoning (e.g. developments such as the Mythos model).</strong>&quot; Mythos is understood to be an unreleased Anthropic system briefed to cyber-security agencies as capable of reverse-engineering production code at scale. NHSE calls the move temporary.</p>
+<p><strong>The view:</strong> A real reversal of the long-standing &quot;code built with public money should be reusable&quot; policy. The point is not the policy itself — it is what NHSE has been told about the threat surface. If the assessment is that frontier models can read your code and find vulnerabilities faster than you can patch them, expect that logic to propagate well beyond GitHub when the autumn cyber assurance framework lands.</p>
+<hr>
+<h2>4. RCPsych and NHSE develop joint ambient-voice guidance for mental health settings</h2>
+<p>The <strong>Royal College of Psychiatrists</strong> and <strong>NHS England</strong> confirmed on <strong>6 May</strong> they are co-developing <strong>dedicated guidance on ambient voice technology</strong> for use in mental health, learning disability and neurodivergent populations, with publication by <strong>September 2026</strong>. The drafting group sits at RCPsych; existing NHSE scribe guidance (April 2026) does not adequately cover capacity, consent under fluctuating insight, or the privacy sensitivities of recording therapeutic dialogue.</p>
+<p><strong>Why it matters:</strong> The first college-led carve-out from the general ambient-scribe consensus, and a sensible one. The <em>BJPsych Bulletin</em> proof-of-concept work last year was promising on documentation efficiency but flagged exactly these consent and trust questions. If your practice covers safeguarding-vulnerable adults — frail elderly, dementia, learning disability — read the September document in full; the principles will travel into general practice quickly.</p>
+<hr>
+<h2>5. OpenAI–Dell partnership puts Codex on-prem — the NHS hosting question, answered for them</h2>
+<p><strong>OpenAI</strong> and <strong>Dell</strong> confirmed on <strong>19 May</strong> that <strong>Codex</strong> will deploy on-premises and in hybrid environments through Dell&#x27;s <strong>AI Factory</strong> and <strong>AI Data Platform</strong>. Codex has grown to over <strong>four million weekly developer users</strong>; the deployment lets enterprises run it inside their own data centres rather than calling OpenAI&#x27;s API. OpenAI&#x27;s framing is explicit: agents connect to &quot;codebases, documentation, business systems, operational knowledge.&quot;</p>
+<p><strong>The view from the surgery:</strong> This is the deployment model the NHS has been quietly asking for in private and refusing to commit to in public — frontier AI behind the firewall, data never leaving. The BMA&#x27;s data sovereignty paper last week argued precisely this case. The technical objection has now evaporated; what remains is procurement, indemnity and a willingness by NHSE to ringfence the budget. The harder questions land next.</p>
+<hr>
+<h3>From the Eye</h3>
+<p>Three the front pages didn&#x27;t run. <strong>Item one</strong> — that <strong>&quot;Mythos&quot;</strong> name in the NHSE GitHub directive is the first time Anthropic&#x27;s internal cyber-capability evaluation work has been named in a public UK government document. Anthropic has not released a model called Mythos; the reference appears to be a non-deployed evaluation system briefed under restricted channels to NCSC and counterparts. The kind of disclosure that will be quietly tidied out of later versions of the policy. <strong>Item two</strong> — the <strong>King&#x27;s College London Policy Institute survey</strong> last week contained the month&#x27;s most interesting datapoint: the public <strong>believes 39% of GPs use AI in clinical decision-making</strong>, when the actual figure is <strong>8%</strong>. The gap is wider than for almost any other technology King&#x27;s has surveyed, and it has implications for how patients interpret what we say in the room. <strong>Item three</strong> — Azeem Azhar&#x27;s <em>Exponential View</em> &quot;Prelude to an AI Supercycle&quot; (4 May) flagged that <strong>Nvidia B200 GPU rental prices have risen 114% in six weeks</strong>, with the premium over the older H200 up more than sixfold. Azhar&#x27;s contrarian read: the genuine risk is not that too much has been invested in AI, but that the compute is not there to deliver what has already been promised — and clinical-AI procurement timelines are downstream of that.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · The Lancet · HSJ · GPonline · King&#x27;s College London · RCPsych · The Register · TechCrunch · CNBC · OpenAI · publictechnology.net</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

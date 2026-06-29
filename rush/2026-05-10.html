@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-10</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Sunday 10 May 2026 · ~5 min read · Issue 012</strong></p>
+<hr>
+<p><strong>On the line today:</strong> Heidi publishes a UK ambient-scribe report — 15 million visits, an eye-watering 86% headline on documentation time, and one ED that compresses discharge letters from nine days to two minutes. Anthropic teaches its agents to &quot;dream&quot;, and a medical document-review firm reports a 50% time cut as the headline case. Google announces an AI Health Coach launching 19 May — the Fitbit app becomes the Google Health app, and Gemini gets the keys to the patient record. Trump&#x27;s promised AI security order will land without mandatory pre-release model tests. And in northern Utah, 1,000-plus residents are pushing a referendum to block a 40,000-acre AI data-centre campus. Plus <em>From the Eye</em> — mental-health chatbots and suicide screening, the deepfake doctors, and Parnas under fresh AI-generated attack.</p>
+<hr>
+<h2>1. Heidi&#x27;s UK report — 15 million visits, 86% off documentation, and a two-minute discharge letter</h2>
+<p>Ambient-scribe vendor <strong>Heidi</strong> published a UK report on <strong>8 May</strong> covering more than <strong>15 million NHS patient visits</strong>. The headline claims: an <strong>86% reduction in documentation time</strong>, <strong>4 million hours of clinical capacity returned</strong>, <strong>burnout improvement reported by 95% of clinicians</strong>. Site-level numbers are the bit worth reading: at one emergency department, <strong>discharge letter processing dropped from 9.03 days to 2.6 minutes</strong>; another trust cleared a <strong>2,700-letter clinic backlog in four months</strong>; and <strong>Dudley Group NHS Foundation Trust</strong> reports <strong>£95,200 of annualised capacity savings</strong> on a single same-day emergency care pilot. Heidi says it now handles <strong>half a million UK patient interactions a week</strong>.</p>
+<p><strong>The view from the surgery:</strong> A vendor-published number, with a vendor-flattering denominator. Eighty-six per cent off documentation time isn&#x27;t 86% off the GP day — most of us aren&#x27;t documenting eight hours a day in the first place. The interesting figure is the discharge-letter delta, because slow discharge letters are a real GP harm — patients turning up at the surgery before the post arrives, with no plan, no medication and no continuity. If Heidi has compressed that cycle to minutes at scale, it&#x27;s a different conversation from the time-saving sales pitch. The right question to ask the salesperson: show me the unedited &quot;before&quot; letter and the unedited &quot;after&quot; letter, on the same patient.</p>
+<hr>
+<h2>2. Anthropic teaches Claude to &quot;dream&quot; — and a medical document firm reports a 50% time cut</h2>
+<p>Anthropic on <strong>6 May</strong> released a research preview of <strong>&quot;dreaming&quot;</strong> for its managed-agent platform — a scheduled offline process that reviews an agent&#x27;s past sessions, extracts patterns and writes back as plain-text playbooks the next session can read. It does not retrain the underlying model. It is closer to a registrar going home, doing the post-clinic reflection nobody pays for, and coming in on Monday with a tidier checklist. Anthropic&#x27;s named case studies are <strong>Harvey</strong> (legal AI, ~6× task-completion improvement) and — more relevant here — <strong>Wisedocs</strong>, a medical document-review firm reporting a <strong>50% reduction</strong> in document review time after enabling dreaming.</p>
+<p><strong>Why it matters:</strong> Medico-legal document review is exactly the work that practices, federations and ICBs are queueing agentic vendors up for — subject access requests, complaints bundles, coronial summaries. A 50% reduction at a US firm with no NHS context is a marketing number, but the architectural shift is real: agents that get measurably better between Friday and Monday change the deployment story. The procurement question is whether the dreams are auditable. A regulator will eventually want to read the playbook the agent wrote about your patients.</p>
+<hr>
+<h2>3. Google&#x27;s AI Health Coach lands on 19 May — Fitbit app becomes Google Health</h2>
+<p>Google announced on <strong>7 May</strong> that the <strong>Fitbit app becomes the Google Health app on 19 May</strong>, with a <strong>Gemini-powered AI Health Coach</strong> at <strong>$9.99 a month</strong> as the headline feature: personalised weekly fitness plans, sleep coaching, AI summaries of any health records the user chooses to share, and a chatbot pointed at the user&#x27;s own fitness and medical data. UK pricing has not yet been published. A new screenless <strong>Fitbit Air</strong> wristband ships alongside. Google&#x27;s careful framing — &quot;not intended for medical use&quot; — is the same disclaimer Microsoft pinned to <strong>Copilot Health</strong> in March.</p>
+<p><strong>The view:</strong> The disclaimer is the only thing keeping the regulator off the lawn. In the surgery, the practical effect is a different shape of Monday morning: not &quot;Dr Google said it might be cancer&quot;, but &quot;the Google Health Coach has flagged that my resting heart rate is up, and asked me to come and see you&quot;. A few of those will be useful. A great many will be a paid algorithm seeing pattern in noise. Worth knowing what the patient has already been told before re-explaining it from scratch.</p>
+<hr>
+<h2>4. Trump&#x27;s AI security order — without the mandatory model tests</h2>
+<p><strong>Bloomberg</strong>, <strong>8 May</strong>: the White House is preparing an AI security executive order that would <strong>direct US agencies to partner with frontier-AI companies to defend networks</strong> against AI-enabled cyberattack — but will <strong>stop short of requiring government pre-deployment approval for new frontier models</strong>. NEC director <strong>Kevin Hassett</strong> has been comparing the proposed framework to the FDA. The FDA does not let drugs ship before review.</p>
+<p><strong>Why it matters:</strong> Hassett&#x27;s analogy is the policy ask; the order is the political compromise. The Mythos hysteria of the past fortnight is the backdrop — the case for pre-release testing has never been stronger, and this order ducks it. The UK reading is straightforward: any safety floor for frontier-clinical models will not come from Washington in this administration, and the EU AI Act path now matters more for what eventually reaches the MHRA&#x27;s desk.</p>
+<hr>
+<h2>5. Box Elder County, Utah: 40,000 acres, 9 gigawatts, and a referendum</h2>
+<p>Utah&#x27;s <strong>Box Elder County Commission</strong> voted unanimously on <strong>4 May</strong> to approve the <strong>Stratos Project</strong> — a <strong>40,000-acre AI and cloud-computing campus</strong> near the Great Salt Lake, backed by Kevin O&#x27;Leary. Larger than twice Manhattan; projected to draw up to <strong>9 GW of electricity</strong> (roughly double the state&#x27;s current consumption) and over <strong>10,000 acre-feet of water</strong>. <strong>More than 1,000 residents</strong> attended the meeting; commissioners adjourned to a private room and approved by livestream. By <strong>9 May</strong>, residents had filed an application for a <strong>November ballot referendum</strong> to overturn the decision.</p>
+<p><strong>The view from the surgery:</strong> Every compute story has a power-and-water story underneath, and that is now civic politics. Most NHS conversations about Anthropic, OpenAI and Google deals do not include the question of which county&#x27;s water table is being asked to keep the model fluent. They will, before long — particularly when &quot;sovereign UK compute&quot; gets to procurement, and Sizewell C&#x27;s neighbours notice.</p>
+<hr>
+<h3>From the Eye</h3>
+<p>Three less-trodden items. <strong>A 29-chatbot suicide-screening study</strong> in <em>Scientific Reports</em> tested 24 mental-health-branded products and five general-purpose ones against vignettes including suicidal ideation, and <strong>none provided an adequate response</strong> — 14 ranked inadequate, 15 marginal. Sit that next to <strong>RCPsych&#x27;s February warning</strong> that half a million children are on English mental-health waiting lists, and you have the safeguarding question no GP federation has yet written an SOP for. <strong>The deepfake-doctor scam ecosystem keeps scaling</strong>: <em>Axios</em> on <strong>6 May</strong> describes AI-generated videos cloning real physicians&#x27; faces and voices to push unregulated supplements — and US pharmacists are now reporting <strong>AI voice-cloned refill calls</strong> purporting to be from a known prescriber, used to authorise controlled-drug refills. Worth a quiet check on how the practice would spot one. <strong>And Aaron Parnas</strong> reports AI-generated attacks targeting him personally are now a daily backdrop — the unglamorous tail of the same generative-fakes pipeline that put Tom Hanks on a fake witness list at last week&#x27;s WHCD. The tech that two years ago made bad campaign ads now makes weekly weather around any public-facing voice.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · <em>Nature Medicine</em> · The Lancet · HSJ</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

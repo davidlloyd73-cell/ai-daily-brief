@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-05-30</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Saturday 30 May 2026 · ~5 min read · Issue 032</strong></p>
+<hr>
+<p><strong>On the line today:</strong> NHS England&#x27;s plan to push the Federated Data Platform into primary care leaks via the <em>HSJ</em>, opening up a fight the Palantir contract has so far avoided. Mass General Brigham&#x27;s AI long-COVID phenotyper finds the true US case count is <strong>twice</strong> what surveillance shows — a number with read-across for our under-coded patients. <em>Retraction Watch</em> publishes the cleanest evidence yet that AI fabrication is polluting the published literature. Google&#x27;s <em>Gemini Spark</em> — launched at I/O on 19 May — is the first agent aimed squarely at the inbox. And the US state-by-state rush to regulate AI mental-health chatbots accelerates, with Illinois and Nevada banning them outright. Plus <em>From the Eye</em> — Greater Manchester&#x27;s continuing FDP refusal, one in seven UK adults now consulting a chatbot instead of a GP, and the Irish grid carrying the global AI build-out.</p>
+<hr>
+<h2>1. NHSE quietly plans to push the Federated Data Platform into primary care</h2>
+<p>The <strong>HSJ</strong> revealed this week that <strong>NHS England</strong> has begun internal scoping to extend the <strong>Federated Data Platform</strong> — currently a secondary-care tool — into <strong>primary and community care</strong>. The FDP is the £330m Palantir contract awarded in 2023 to consolidate operational NHS data for planning and waiting-list management. The primary-care extension has not been put to ICBs and predates any decision on whether to trigger the 2027 contract extension, which ministers have promised &quot;later this year&quot;. <strong>Greater Manchester</strong> confirmed in May it will continue not to join the FDP at all, citing the lead supplier and a lack of evidence of benefit.</p>
+<p><strong>The view from the surgery:</strong> This is the bit of the FDP debate that has so far stayed out of GP consciousness. Bringing primary-care lists, demographic data and (eventually) consultation metadata into a Palantir-managed federated layer is a category change from operational PAS data; the consent, opt-out and data-controller chain will all need re-engineering before a single feed goes live. If your LMC has not asked the ICB whether the project exists, now is the time.</p>
+<hr>
+<h2>2. Mass General Brigham&#x27;s AI puts US long-COVID at 18 million — and the surveillance gap at 93%</h2>
+<p>A study published in <strong>JAMA Network Open on 27 May</strong> applied a &quot;<strong>precision-phenotyping</strong>&quot; algorithm to <strong>460,000</strong> COVID-positive patients across <strong>58 US hospitals</strong> and found <strong>16.3%</strong> developed long COVID — roughly <strong>18 million Americans</strong>, double the federal surveillance figure. The algorithm (P2RC, from MGB) sequences clinical events three or more months post-infection and excludes anything attributable to prior conditions. Of the cases it identifies, fewer than <strong>7%</strong> carry the <strong>ICD-10 U09.9</strong> code that current surveillance relies on.</p>
+<p><strong>Why it matters:</strong> The under-coding problem in US records is almost certainly worse in our SNOMED-coded primary care — post-COVID code usage in EMIS and SystmOne is patchy, and almost nobody re-codes after a six-month review. This is also a glimpse of what targeted phenotyping AI will do to chronic-disease registers: surface a long tail of cases QOF has never captured. The funding model that goes with that has not been written.</p>
+<hr>
+<h2>3. AI-fabricated references hit one paper in 277 — <em>Retraction Watch</em> publishes the data</h2>
+<p><strong>Retraction Watch</strong> on <strong>7 May</strong> reported analysis of <strong>PubMed-indexed papers</strong> from the first seven weeks of 2026: <strong>one in 277</strong> contained a reference to an article that does not exist. The 2025 baseline was one in 458; in 2023 it was one in 2,828. Earlier in May, <strong>NEJM</strong> retracted a case report from two Beijing authors after AI-manipulated bronchial-cast imagery was identified — its first retraction since the Surgisphere papers in 2020. <strong>JMIR</strong> has separately published evidence that GPT-class assistants still cite <strong>retracted</strong> papers when asked clinical questions.</p>
+<p><strong>The view:</strong> The provenance problem is no longer theoretical. The upstream risk is two layers deep: the patient who arrives with a confidently summarised &quot;study&quot; from a chatbot, and the CPD source we read that summarised the same paper without checking whether it exists. A short habit — paste any cited PMID into PubMed before quoting it — is the cheapest defence currently available.</p>
+<hr>
+<h2>4. Google&#x27;s <em>Gemini Spark</em> — the first agent built for the inbox</h2>
+<p>At <strong>Google I/O on 19 May</strong>, Google launched <strong>Gemini Spark</strong>: a 24/7 agentic assistant for Workspace customers, built on <strong>Gemini 3.5</strong> and the Antigravity harness. The selling point is the dedicated Gmail address — you email Spark like a colleague, it executes multi-step tasks across Gmail, Docs and Calendar, and it runs in an ephemeral cloud VM that does not persist data between sessions. Rollout began with AI Ultra subscribers the week of 26 May.</p>
+<p><strong>Why it matters:</strong> This is the first general-purpose agent positioned as an inbox-native colleague rather than a chatbot bolted onto a search box. For salaried GPs juggling NHS.net, GP TeamNet and a personal Gmail, the question is what your IG team will do when staff start asking Spark to triage their own clinical inbox. The answer almost certainly involves a policy update no one has drafted. Worth raising with the practice manager before someone trials it without telling you.</p>
+<hr>
+<h2>5. US states are racing to regulate AI mental-health chatbots — Illinois and Nevada ban them outright</h2>
+<p><strong>Manatt&#x27;s Health AI Policy Tracker</strong> confirms <strong>36 US states introduced over 70 bills regulating AI chatbots in Q1 2026</strong>, the bulk requiring explicit disclosure that the user is not speaking to a human, and many mandating self-harm detection and crisis-line referral. <strong>Illinois</strong> and <strong>Nevada</strong> have now banned the use of AI for behavioural health entirely. New York and Utah require chatbots to declare themselves AI. The pressure has come from two confirmed teen suicides — in Florida and California — after long sessions with chatbots that styled themselves as licensed therapists.</p>
+<p><strong>The view from the surgery:</strong> The MHRA, NICE and the National Commission into AI in Healthcare will all be watching this. The UK&#x27;s wellness-app market sits in a similar regulatory grey zone, and one in ten UK adults already report using AI for therapy or wellbeing support. A teen presenting in clinic having spent the previous month talking to a chatbot that called itself a &quot;psychologist&quot; is not a hypothetical — it is a safeguarding flag worth adding to the standard mental-health proforma now, ahead of any UK ban.</p>
+<hr>
+<h3>From the Eye</h3>
+<p><strong>Manchester holds the line.</strong> <strong>Greater Manchester ICS</strong> — the country&#x27;s largest integrated care system — confirmed on <strong>13 May</strong> it will continue to refuse to join the <strong>FDP</strong>, citing concerns over Palantir and the absence of cost-benefit evidence. NHS England has separately confirmed Palantir staff can now access patient data under an &quot;admin&quot; role created because individual data-access permissions had become &quot;too inconvenient&quot;. The optics in the week of the primary-care expansion leak are not great. <strong>One in seven now ask a chatbot first.</strong> Polling reported on <strong>14 May</strong> puts UK adults using AI chatbots <strong>instead of contacting a GP or other NHS service at 15%</strong>, with one in ten using AI for mental-health support rather than a trained professional. The denominator that should worry us is the deprivation gradient nobody has yet measured. <strong>Ireland keeps the lights on for everyone else.</strong> The IEA&#x27;s 2026 modelling has data centres projected to consume <strong>32% of all electricity in Ireland this year</strong>, driven almost entirely by AI training and inference loads. The Irish grid is, in effect, subsidising the AI build-out for the rest of Europe — and the carbon cost of every &quot;free&quot; inference your trust&#x27;s pilot is running gets booked somewhere.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · The Lancet · HSJ · Retraction Watch · MHRA · RCGP · IEA</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>

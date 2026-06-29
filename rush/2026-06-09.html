@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-06-09</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Tuesday 9 June 2026 · ~5 min read · Issue 042</strong></p>
+<hr>
+<p><strong>On the line today:</strong> NHS England has signed off the biggest single AI deployment in any health system on earth — <strong>Microsoft 365 Copilot for 505,000 staff</strong> — on the strength of a &quot;43 minutes saved a day&quot; trial. On the very same week, a <strong>21-model study from Mass General Brigham</strong> quietly reminds us that even GPT-5 and Grok still flunk the differential-diagnosis stage of clinical reasoning four times out of five. A new legal teardown of <strong>scribe contracts</strong> finds vendors quietly reserving the right to train on patient audio, with the indemnity left deliberately vague. On the broader beat, <strong>Google I/O</strong> ushered in the &quot;agentic era&quot; with Gemini 3.5, and a plague of <strong>deepfake doctors</strong> is now selling miracle cures in the likeness of real, named physicians. Plus <em>From the Eye</em> — the GP &quot;wild west&quot;, a watermark everyone suddenly wants, and Anthropic quietly passing OpenAI.</p>
+<hr>
+<h2>1. NHS England puts Copilot on half a million desktops</h2>
+<p>NHS England confirmed this week that it will roll out <strong>Microsoft 365 Copilot to roughly 505,000 clinicians and support staff</strong> from July — onboarding 200,000 in the first six months. It is, by a distance, the largest deployment of generative AI in any national health service. The business case rests on a 2025 trial across University Hospitals Birmingham, Guy&#x27;s and St Thomas&#x27;, and Manchester that measured <strong>43 minutes of admin saved per person per day</strong>. Data is pinned to UK Azure regions, with contractual promises that NHS material won&#x27;t be used to train Microsoft&#x27;s models.</p>
+<p><strong>The view from the surgery:</strong> Forty-three minutes is a real number and admin is a real misery, so I won&#x27;t sneer. But &quot;saved per day per clinician&quot; is the sort of figure that survives a press release and rarely survives a year of frontline use — measured against curated tasks, in motivated pilot sites, before scale exposed every edge case. The governance terms are the right ones to have insisted on. The open question is the one no rollout answers: who checks that 505,000 people actually use it safely, and who notices when they don&#x27;t.</p>
+<hr>
+<h2>2. Twenty-one models, and not one ready to reason unsupervised</h2>
+<p>Researchers at Mass General Brigham&#x27;s MESH Incubator ran 21 general-purpose models — the latest ChatGPT, Claude, Gemini, DeepSeek and Grok — through 29 published clinical cases. Given the full picture, all landed the <strong>correct final diagnosis over 90%</strong> of the time. But at the earlier, harder step — building an appropriate <strong>differential</strong> from incomplete information — <strong>every single model failed more than 80%</strong> of the time. Their new PrIME-LLM score, which grades the whole reasoning arc rather than just the endpoint, topped out at 78% (Grok 4 and GPT-5). Corresponding author Marc Succi&#x27;s verdict: &quot;not ready for unsupervised clinical-grade deployment.&quot;</p>
+<p><strong>Why it matters:</strong> Hold this beside item one. We&#x27;re handing AItools to half a million staff in the same month a careful study shows the best models can ace the exam answer while fumbling the actual thinking that gets you there. That&#x27;s not an argument against the tools — it&#x27;s the precise shape of their danger. They&#x27;re strongest exactly where we&#x27;re tempted to trust them (tidy final answers) and weakest where medicine actually lives (the messy front end, deciding what to worry about). Keep the human firmly in the loop, especially the junior one still learning to reason.</p>
+<hr>
+<h2>3. The scribe contract you didn&#x27;t read reserves the right to keep your audio</h2>
+<p>A legal analysis of real ambient-scribe vendor contracts (Foley &amp; Lardner) found a recurring set of problems hiding in the small print: <strong>missing data-processing terms, deliberately vague indemnity clauses, and provisions letting the vendor train its AI on patient audio and transcripts.</strong> The medico-legal sting is subtler. Once a consultation is recorded, that recording becomes &quot;proof of all that was or was not said&quot; — and the moment the transcript and the signed note diverge, you have manufactured your own contradiction for any future complaint.</p>
+<p><strong>The view:</strong> Every GP eyeing a scribe should ask three blunt questions before signing: does the recording get destroyed, who is liable when the note is wrong, and can the supplier mine my patients&#x27; voices to improve its product. If the salesperson waffles on any of them, that&#x27;s your answer. The time saved is genuine; the liability is being quietly transferred to the clinician who signs the note, and the contract is where that transfer happens.</p>
+<hr>
+<h2>4. Google declares the &quot;agentic era&quot; — Gemini stops assisting and starts acting</h2>
+<p>At I/O this week Google unveiled <strong>Gemini 3.5 Flash</strong> and <strong>Gemini Omni</strong>, framing 2026 as the year AI shifts &quot;from assistants to agents&quot; — software that navigates whole workflows on its own rather than answering one prompt at a time. The Flash model claims flagship-level intelligence at budget speed and beats last quarter&#x27;s Pro on coding and agentic benchmarks. Google also upgraded its agent-building platform, Antigravity, for orchestrating fleets of these things.</p>
+<p><strong>Why it matters:</strong> &quot;Agentic&quot; is the word to watch this year, and it should make health IT nervous in a useful way. An assistant that drafts a letter you check is one risk profile; an agent that books the test, orders the drug and updates the record on its own is another entirely. The clinical-AI tools heading for the NHS sit downstream of exactly this design shift. Before any of it touches a patient pathway, the question is no longer &quot;is the answer right&quot; but &quot;what did it do while I wasn&#x27;t looking, and can I undo it&quot;.</p>
+<hr>
+<h2>5. Deepfake doctors are now a public-health problem in their own right</h2>
+<p>Investigators have catalogued <strong>dozens of accounts and 100-plus AI-generated videos</strong> on TikTok and Instagram in which fabricated &quot;doctors&quot; — and, increasingly, the cloned faces of real, named physicians — flog weight-loss and wellness scams to audiences in the millions. One US doctor, Joel Bervell, found himself deepfaked last week promoting products he&#x27;d never heard of. The American Medical Association is now pressing legislators to modernise identity protections and force platforms to pull impersonations faster.</p>
+<p><strong>The view from the surgery:</strong> This is the consumer-facing edge of the same technology we&#x27;re welcoming through the back door, and it lands squarely in our waiting rooms. The patient who arrives convinced by a confident &quot;GP&quot; on their phone is now arriving convinced by a synthetic one wearing a borrowed face. Worth a gentle word in consultations: a doctor in a 30-second reel selling a supplement is, almost by definition, not your doctor.</p>
+<hr>
+<h3>From the Eye</h3>
+<p>Three the front pages didn&#x27;t run. <strong>Item one</strong> — the RCGP&#x27;s own data shows <strong>more than one in four GPs (28%)</strong> already using AI at work, with no consistent national guidance and no formal training — a &quot;wild west&quot; of clinical-note, referral and triage tools, with the promised regulatory framework still somewhere over the horizon. The deployment headlines are all top-down; the actual adoption is bottom-up and unsupervised, which is the opposite order from how you&#x27;d want safety to arrive. <strong>Item two</strong> — quietly, <strong>OpenAI, Kakao and ElevenLabs have all adopted Google&#x27;s SynthID watermark</strong> for AI-generated content. A shared provenance standard across rival labs is the kind of plumbing that matters more than any model launch — it&#x27;s the difference between a future where you can tell what a machine made and one where you can&#x27;t, and it&#x27;s being built with almost no fanfare. <strong>Item three</strong> — lost under the I/O noise, <strong>Anthropic has passed OpenAI</strong> as the world&#x27;s most valuable AI firm, raising at a <strong>$965bn</strong> valuation on a reported <strong>$47bn run-rate</strong>. Remember that the clinical tools the NHS is buying ride on these platforms — and when the people who set the token prices are valued near a trillion dollars before they&#x27;ve turned a profit, &quot;efficiency savings&quot; is a phrase worth reading twice.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · The Lancet · HSJ · RCGP · Mass General Brigham</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>
