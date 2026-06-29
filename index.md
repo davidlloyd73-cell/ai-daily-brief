@@ -15,6 +15,8 @@ _A new Glean / Work AI Institute report names the hidden labor eating the AI pro
 
 Source: https://aidailybrief.ai/e/2026-06-26
 
+Audio: https://davids-ai-brief.netlify.app/audio/2026-06-26.mp3
+
 ## The One Idea
 
 ### AI's individual gains keep disappearing into invisible work — and the fix isn't a better tool, it's transformation.
