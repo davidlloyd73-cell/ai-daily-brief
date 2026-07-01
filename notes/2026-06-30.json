@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Whether it's a bubble or not, budget for AI tools that outlast the hype cycle",
+      "body": "The edition's central claim is that AI revenue is real and compounding; Zitron's is that much of it is subsidised spend propping up a handful of loss-making labs. For a GP surgery the practical reading is the same from either direction. If NLW is right and the economy keeps growing, prices for the scribes and admin tools we already lean on should keep falling as token costs collapse — the edition notes a blended price drop from roughly seventeen dollars to two per million tokens. If Zitron is right and the money is being withdrawn, the vendors selling cheap subsidised AI scribes today may raise prices sharply or fold, exactly as he warns happened when Copilot moved users onto token-based billing. Either way, a surgery should avoid deep dependence on a single cut-price vendor and keep a manual fallback for note-taking."
+    },
+    {
+      "title": "Token-based billing is coming to clinical tools — watch the running cost",
+      "body": "A recurring thread across the edition is the shift from flat subscriptions to per-token billing: Amazon lost its wholesale deal with Anthropic, and consumer tools are being repriced by usage. Agentic tasks, the edition notes, can burn around 1,200 times the tokens of a simple chat. For general practice this matters because an ambient scribe that transcribes and summarises a full consultation is far heavier than a one-line query. When a practice or PCN procures these tools, the question to ask is not just the monthly headline price but the cost per consultation at realistic volume, and whether that price is contractually protected against the memory-and-compute shortages the edition describes."
+    },
+    {
+      "title": "The hardware shortage ('Ramageddon') could quietly raise the cost of NHS IT",
+      "body": "Less about AI clinically and more about the practice's wider kit: the edition reports memory prices up sharply, with Apple, Microsoft and Lenovo all raising prices and Micron quadrupling memory costs in a year. That feeds through to the ordinary computers, servers and devices a surgery buys. It is worth factoring a real-terms price rise into any hardware replacement plan over the next year or two, rather than assuming the usual gentle decline in the cost of PCs and storage."
+    }
+  ]
+}

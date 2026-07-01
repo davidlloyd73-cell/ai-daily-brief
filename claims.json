@@ -288,6 +288,24 @@
       "resolution": "By end-2027, the AI capex shows no proportionate audited return — evidenced by writedowns/impairments, a financing pullback, or the continued absence of frontier-only ROI at real (unsubsidised) cost, while cheaper/open models capture most practical value. Fails if rationed frontier access demonstrably produces returns or advantages justifying the spend.",
       "check_by": "2027-12-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-06-30",
+      "side": "NLW",
+      "claim": "The AI economy is genuinely revenue-validated and self-sustaining, not merely a promise: Exponential View's audit shows demand backed by realised revenue ($110B banked, a $175B run rate), quarterly revenue already exceeds CapEx depreciation, and older GPUs earn yields well past their six-year life — so the return-on-CapEx indicators are far more positive than the bubble discourse suggests.",
+      "source": "https://aidailybrief.ai/e/2026-06-30",
+      "resolution": "By end-2027, hyperscaler and lab AI economics show durable, unsubsidised returns — audited (GAAP) AI revenue growing faster than AI-related CapEx and depreciation, with no large writedowns or financing pullback. Fails if AI revenue remains reliant on hyperscaler subsidy of their own labs, capex persistently outpaces cashflow, or major impairments appear.",
+      "check_by": "2027-12-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-06-30",
+      "side": "Zitron",
+      "claim": "The AI build-out serves demand that does not exist outside OpenAI and Anthropic; hyperscaler CapEx will outpace cashflow from Q3 2026, headline 'run rate' revenue is recycled subsidy rather than real return, and the spend will ultimately surface as writedowns rather than durable economic value.",
+      "source": "https://www.wheresyoured.at/the-ai-industry-is-losing/",
+      "resolution": "By end-2027, evidence of a reckoning: hyperscaler AI CapEx exceeding free cash flow with no proportionate audited return, and/or material writedowns, impairments, or a financing pullback across the AI supply chain (e.g. neoclouds, OpenAI/Anthropic). Fails if AI revenue proves broad-based and self-funding with capex comfortably covered and no significant impairments.",
+      "check_by": "2027-12-31",
+      "status": "open"
     }
   ]
 }
