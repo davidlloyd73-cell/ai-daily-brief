@@ -1,281 +1,291 @@
 {
-  "date": "2026-06-30",
-  "title": "How Big Is the AI Economy?",
-  "dek": "OpenAI-style bubble talk is on a low ebb, so it's a good time to ask dispassionately: how big is the AI economy right now? Exponential View's new report says $175B annualized and growing 3x faster than any IT wave before it \u2014 while the headlines fill with identity checks, agent-neutrality bills, and a memory shortage nasty enough to earn the name Ramageddon.",
-  "source": "https://aidailybrief.ai/e/2026-06-30",
+  "date": "2026-07-01",
+  "title": "Fable is Back: Here's What You Should Try First",
+  "dek": "Two threads today: the industry's frantic hunt for cheaper inference \u2014 from OpenAI's secret 50% trick to Base44's own model \u2014 and the return of Fable 5 after 19 days offline. NLW closes with a practical guide to what you should actually try Fable on first.",
+  "source": "https://aidailybrief.ai/e/2026-07-01",
   "oneIdea": {
-    "headline": "The AI economy is real, big, and fast \u2014 more revenue-validated than any prior platform shift.",
-    "summary": "Exponential View audited over 1,000 AI companies and found demand backed by realized revenue, not just future promise: $110B banked over 12 months, a $175B run rate, and growth 3x faster than any IT wave before it. CapEx is enormous \u2014 $848B this year, $2T cumulative \u2014 but quarterly revenue now exceeds CapEx depreciation, older GPUs earn yields past their six-year life, and high-AI-spend companies have grown revenue 92% faster than non-adopters. The bubble question isn't settled, but the indicators are far more positive than the discourse suggests."
+    "headline": "Fable 5 is back \u2014 but the real story is what you do with it in the one free week.",
+    "summary": "After 19 days offline, Anthropic's Fable 5 returns for all global users, with 50% of weekly usage subsidized until July 7th. The conventional wisdom says save it for your hardest technical problems. NLW pushes back: from first-hand use, Fable is dramatically better at strategic thinking (it holds its ground under pushback instead of caving) and at rubric-driven writing (fewer AI-isms, better instruction following). Meanwhile the entire industry is racing to cut inference costs \u2014 the connective tissue behind OpenAI's secret technique, Base44's own model, and the shift toward open-weight deployment."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Whether it's a bubble or not, budget for AI tools that outlast the hype cycle",
-        "body": "The edition's central claim is that AI revenue is real and compounding; Zitron's is that much of it is subsidised spend propping up a handful of loss-making labs. For a GP surgery the practical reading is the same from either direction. If NLW is right and the economy keeps growing, prices for the scribes and admin tools we already lean on should keep falling as token costs collapse \u2014 the edition notes a blended price drop from roughly seventeen dollars to two per million tokens. If Zitron is right and the money is being withdrawn, the vendors selling cheap subsidised AI scribes today may raise prices sharply or fold, exactly as he warns happened when Copilot moved users onto token-based billing. Either way, a surgery should avoid deep dependence on a single cut-price vendor and keep a manual fallback for note-taking."
+        "title": "Cheaper inference could quietly cut the running cost of your AI scribe",
+        "body": "The edition's lead is that inference costs are dropping fast \u2014 OpenAI claims a 50 percent efficiency gain, and several founders reported cutting their AI spend by more than 75 percent in a day with no loss of quality. If NLW is right that this is real engineering progress, the ambient scribes and letter-drafting tools a surgery already uses should get cheaper or more capable at the same price over the next year. If Zitron is right that the labs are simply subsidising tokens they still lose money on, today's low prices are a customer-acquisition loss-leader that can be withdrawn \u2014 so a practice should treat a very cheap AI vendor as a flight risk, not a permanent saving, and keep the contract terms and an exit plan in view."
       },
       {
-        "title": "Token-based billing is coming to clinical tools \u2014 watch the running cost",
-        "body": "A recurring thread across the edition is the shift from flat subscriptions to per-token billing: Amazon lost its wholesale deal with Anthropic, and consumer tools are being repriced by usage. Agentic tasks, the edition notes, can burn around 1,200 times the tokens of a simple chat. For general practice this matters because an ambient scribe that transcribes and summarises a full consultation is far heavier than a one-line query. When a practice or PCN procures these tools, the question to ask is not just the monthly headline price but the cost per consultation at realistic volume, and whether that price is contractually protected against the memory-and-compute shortages the edition describes."
+        "title": "'Fall back to a smaller model' is now a clinical-safety question, not just a billing one",
+        "body": "A recurring theme is models being quietly downgraded for routine or low-engagement use \u2014 OpenAI testing its cheaper technique on its least-active users, and Anthropic's note that some routine tasks 'fall back' to a smaller model. For a scribe summarising a consultation, the practical question is whether you can tell which model actually produced a given note, and whether quality is being silently traded for cost. When procuring, ask the vendor to state which model transcribes and summarises, whether that can change without notice, and how the tool flags low-confidence output \u2014 because a summary that drops a red-flag symptom is a safety issue regardless of who is subsidising the compute."
       },
       {
-        "title": "The hardware shortage ('Ramageddon') could quietly raise the cost of NHS IT",
-        "body": "Less about AI clinically and more about the practice's wider kit: the edition reports memory prices up sharply, with Apple, Microsoft and Lenovo all raising prices and Micron quadrupling memory costs in a year. That feeds through to the ordinary computers, servers and devices a surgery buys. It is worth factoring a real-terms price rise into any hardware replacement plan over the next year or two, rather than assuming the usual gentle decline in the cost of PCs and storage."
+        "title": "Own-model and open-weight trend may favour on-premise NHS deployment",
+        "body": "Base44 built its own fine-tuned model to control cost and latency, and AWS noted enterprises shifting toward open-weight models. If that trend holds, it strengthens the case that clinically sensitive tools could eventually run on models hosted within NHS or UK data boundaries rather than sending consultation audio to a US frontier lab \u2014 relevant for information-governance and DPIA discussions at PCN level, though nothing here changes the current position that most scribes still call an external frontier model."
       }
     ]
   },
   "the_other_side": {
-    "source": "The AI Industry Is Losing",
-    "url": "https://www.wheresyoured.at/the-ai-industry-is-losing/",
-    "date": "2026-06-30",
-    "same_day": true,
-    "text": "This edition's lead rests on Exponential View's audit: $110bn banked over twelve months, a $175bn annualised run rate, quarterly revenue now exceeding CapEx depreciation \u2014 offered as proof that AI demand is real and realised, not merely promised. Zitron's piece attacks precisely that framing. The revenue, he argues, is largely circular: hyperscalers pour capital into their own unprofitable labs, OpenAI and Anthropic, which spend it straight back on compute, and only a fraction returns as \"revenue\" that is really venture subsidy recycled. He notes the hyperscalers won't disclose real AI revenues, hiding behind \"vague run rates,\" and that their capex will outpace cashflow from Q3 2026. Citing the Bank for International Settlements, he warns the build-out serves demand that \"does not exist outside of Anthropic and OpenAI\" and rests on the hope that today's models will \"turn into something completely different.\""
+    "source": "AI Is Too Expensive",
+    "url": "https://www.wheresyoured.at/ai-is-too-expensive/",
+    "date": "2026-05-19",
+    "same_day": false,
+    "text": "NLW reads the wave of inference cost cuts \u2014 OpenAI's undisclosed 50 percent trick, founders reporting 75 percent savings overnight, Base44 rolling its own model \u2014 as the industry engineering its way out of the compute crunch, a bullish sign. Zitron argues the exact opposite: nobody has ever shown the labs are actually profitable on inference, and cheaper tokens do not fix that. He notes Anthropic's own March affidavit implies it spent roughly three dollars of compute for every dollar of revenue, that Coatue found 85 percent of its 2025 revenue was API calls yet it still loses money, and that subscriptions let users \"burn between $8 and $13.50 of every dollar.\" His conclusion: \"If the margins were good, they'd be sharing the margins.\" Falling inference costs, to him, are a race to subsidise demand, not a path to sustainability."
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: whether the vast AI spend is converting into real, self-sustaining demand and returns, or only the promise of it. Both accept the capex is enormous \u2014 roughly $848bn this year, $2tn cumulative \u2014 that headline revenue is climbing fast, and that the money flows mainly through a handful of labs. The empirical question is whether that revenue is durable, unsubsidised paying demand; the observables are hyperscaler capex against free cash flow, lab losses against revenue, and whether \"run rate\" figures survive as audited profit. The residue is worldview: Exponential View reads rising realised revenue and GPUs earning past year six as validation, Zitron reads the same numbers as recycled subsidy propping a bubble. Whittemore is vindicated if the run rate becomes self-funding profit; Zitron if capex outruns cashflow and surfaces as writedowns. Both are polemicists with incentives \u2014 NLW bullish and anti-doom, Zitron bubble-certain with a paid newsletter \u2014 and the signal is where they agree despite opposite priors. Watch whether Q3 2026 results show hyperscaler capex crossing above free cash flow."
+    "text": "Both men orbit one variable: whether the cost of running these models can fall to genuinely unsubsidised profitability, or whether cheaper inference is just subsidy in a new suit. Both accept that token prices are collapsing fast and that the leading labs still post enormous losses. The empirical question is whether falling unit costs actually reach positive gross margin on real, paid usage; the observable that settles it is an audited inference margin \u2014 cost per token served against price charged \u2014 disclosed rather than asserted. The residue is worldview: NLW reads a 50 percent efficiency trick as engineering escaping the crunch, Zitron reads the same figure as proof they must keep cutting because the economics never worked. NLW is vindicated if a lab publishes real inference profit; Zitron if capex and compute deals keep outrunning it. Both are polemicists with incentives \u2014 NLW bullish and anti-doom, Zitron bubble-certain with a paid newsletter \u2014 and the signal is where they agree: prices are falling. Watch whether any lab discloses an audited inference margin rather than a run rate."
   },
   "headlines": [
     {
-      "id": "fable-identity-verification",
-      "headline": "Fable's relaunch may require you to KYC",
+      "id": "openai-inference-half",
+      "headline": "OpenAI cut inference costs in half \u2014 sort of",
       "type": "insight",
+      "segment": "headlines",
+      "timestamp": "00:00",
+      "attribution": null,
+      "summary": "The Information reports OpenAI found an optimization technique that halved inference requirements for existing models, letting it serve all signed-out ChatGPT users on just 100 GPUs. The technique wasn't disclosed; speculation ranges from quantization to query routing \u2014 and none of those improve larger models without quality trade-offs.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#openai-inference-half"
+    },
+    {
+      "id": "no-free-lunch",
+      "headline": "There's still no free lunch on inference",
+      "type": "take",
       "segment": "headlines",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Code strings in the Claude app suggest Fable usage will be credit-based and billed separately from subscriptions \u2014 and that model access will require users to submit identity documents. One string reads: \"Your credits will be added once your identity is verified.\"",
-      "link": "https://aidailybrief.ai/e/2026-06-30#fable-identity-verification"
+      "summary": "NLW's caution: this is likely a smaller breakthrough than the headline suggests, and it's being tested on OpenAI's least-engaged users \u2014 which could be a reasonable first step or a hint of quality-degradation risk. Don't treat it as a silver bullet for the compute crunch.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#no-free-lunch"
     },
     {
-      "id": "gun-license-comparison",
-      "headline": "Seems like the only path forward, similar to getting a gun license.",
+      "id": "secret-sauce-quote",
+      "headline": "This is a very important secret sauce for them that they don't even want to tell other OpenAI employees about.",
       "type": "quote",
       "segment": "headlines",
       "timestamp": "02:00",
-      "attribution": "Max Weinberg, on the Fable identity-verification rumor",
-      "summary": "NLW notes the comparison is fair given how the government views these models \u2014 and that Dario Amodei himself said companies called Mythos a \"super weapon\" that should require a gun license. Despite the pushback, NLW is confident nearly everyone will hand over ID anyway.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#gun-license-comparison"
+      "attribution": "Stefanie Palazzolo, The Information",
+      "summary": "The Information's Stefanie Palazzolo argues OpenAI is holding the technique close because if it leaked, rival labs could quickly adopt it to lower their own costs.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#secret-sauce-quote"
     },
     {
-      "id": "warner-agent-bill",
-      "headline": "Warner's bill would enshrine agent neutrality",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "02:55",
-      "attribution": null,
-      "summary": "Senator Mark Warner is preparing a 25-page discussion draft that protects third-party agents (send your own agent to shop on Amazon) and creates a \"duty of loyalty\" barring agents from favoring undisclosed partners \u2014 like a travel agent secretly preferring Hilton. It only covers consumer-facing agents, not internal enterprise workflows, and isn't expected to move this year.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#warner-agent-bill"
-    },
-    {
-      "id": "agents-accountable-quote",
-      "headline": "AI agents must be accountable to the people they serve.",
+      "id": "ai-mom-test",
+      "headline": "There's nothing my mom actually asks of her AI products that needs to be done by the frontier.",
       "type": "quote",
       "segment": "headlines",
       "timestamp": "03:00",
-      "attribution": "Senator Mark Warner",
-      "summary": "Warner frames the draft as a step toward a federal framework that promotes innovation while protecting consumers. NLW is of two minds: watch how much liability it imposes on agent providers, but the neutrality principles will likely be welcomed by many.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#agents-accountable-quote"
+      "attribution": "Everett Randall, Benchmark Ventures",
+      "summary": "Benchmark Ventures' Everett Randall's \"AI mom test\" captures why quality reductions may be tolerable for casual users \u2014 likely the exact segment OpenAI's new technique targets.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#ai-mom-test"
     },
     {
-      "id": "california-half-price-claude",
-      "headline": "California cuts a deal for half-price Claude",
+      "id": "founders-cut-75",
+      "headline": "Five founders cut inference spend 75%+ with little effort, no performance change, better latency.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "03:00",
+      "attribution": "Harry Stebbings, 20 Minute VC",
+      "summary": "20 Minute VC's Harry Stebbings said founders from 10-person startups to a $200 billion public company all reported major inference savings in 24 hours: \"The times they are a-changing.\"",
+      "link": "https://aidailybrief.ai/e/2026-07-01#founders-cut-75"
+    },
+    {
+      "id": "base44-model",
+      "headline": "Base44 builds its own model to control costs",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "Vibe coding platform Base44 launched Base1, fine-tuning an open-source base model on hundreds of millions of user interactions \u2014 the same playbook as Cursor's Composer. The bet: a model that only needs to be good at building web apps can rival the frontier while giving Base44 control over cost, latency, and quality.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#base44-model"
+    },
+    {
+      "id": "own-the-intelligence",
+      "headline": "Owning more of that intelligence becomes just as important as owning the infrastructure around it.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "05:00",
+      "attribution": "Shlomo, Base44",
+      "summary": "Base44's Shlomo frames the strategic logic: as AI becomes central to how software is created, controlling the model itself \u2014 paired with the harness \u2014 is a core moat.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#own-the-intelligence"
+    },
+    {
+      "id": "aws-fte-division",
+      "headline": "AWS drops $1B on forward-deployed engineers",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Governor Newsom announced the first statewide AI rollout: all state departments and local governments get Claude access at 50% off, plus free workforce training. Newsom cautioned that \"AI should not replace the human work of government\" \u2014 it should help workers move faster.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#california-half-price-claude"
+      "summary": "AWS is investing a billion dollars in a new unit of forward-deployed engineers to help customers set up AI tools, joining OpenAI, Anthropic, Google, and Microsoft in the FTE race. It's upskilling salespeople into \"solution architects\" and focusing on healthcare, government, and financial services.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#aws-fte-division"
     },
     {
-      "id": "amazon-anthropic-repricing",
-      "headline": "Amazon loses its Anthropic sweetheart deal",
+      "id": "budget-optimization-shift",
+      "headline": "Open weight models are definitely gaining traction \u2014 price performance, but also they service the task.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "06:00",
+      "attribution": "Vasquez, AWS Frontier AI Engineering and Services",
+      "summary": "AWS's Vasquez noted the big enterprise shift toward AI budget optimization rather than just capability deployment, with open-source and open-weight models gaining ground.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#budget-optimization-shift"
+    },
+    {
+      "id": "claude-tag-teams",
+      "headline": "Claude Tag is coming to Microsoft Teams",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "The Information reports Anthropic has renegotiated Amazon's wholesale, compute-hours pricing to token-based rates like every other large customer, starting next year. Amazon is now exploring cost savings by switching to OpenAI or its in-house Nova models \u2014 a sign the subsidy era is over.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#amazon-anthropic-repricing"
+      "summary": "Anthropic told Microsoft it plans to bring Claude Tag to Teams. It's an organization-centric agent \u2014 not tied to any user \u2014 with persistent memory and tool access, and it actually calls the full Claude Code suite rather than plain Claude.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#claude-tag-teams"
     },
     {
-      "id": "meta-distillation-trap",
-      "headline": "Meta bans coding agents to dodge the distillation trap",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "07:15",
-      "attribution": null,
-      "summary": "Meta's Applied AI data-labeling team must now solve coding problems without Codex or Claude Code, for fear model outputs contaminate training data and trigger \"serious escalations with partner companies.\" Distillation violates both labs' terms of service, so Meta is guarding against legal exposure as it builds its own MetaCode model.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#meta-distillation-trap"
-    },
-    {
-      "id": "distillation-trap-quote",
-      "headline": "The more companies rely on frontier models to build internal AI, the harder it becomes to prove where the intelligence came from.",
+      "id": "nadella-structural-position",
+      "headline": "The most exciting things in AI are plug-ins in Word or Excel... we have a structural position in knowledge work.",
       "type": "quote",
       "segment": "headlines",
+      "timestamp": "07:00",
+      "attribution": "Satya Nadella, Microsoft CEO",
+      "summary": "Satya Nadella framed third-party agents like Claude as reinforcing Microsoft's ecosystem \u2014 though NLW wonders whether the tune changes as Claude gets more endemic across knowledge work.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#nadella-structural-position"
+    },
+    {
+      "id": "spacex-starlink-memphis",
+      "headline": "SpaceX offers half-price Starlink to quell Memphis backlash",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "08:00",
+      "attribution": null,
+      "summary": "To ease controversy over its Colossus data centers \u2014 powered off-grid by 46 gas turbines running without a permit \u2014 SpaceX is offering greater-Memphis residents half-price Starlink and free hardware, and recommitted to a wastewater treatment plant. The US government recently intervened to shut down the turbines, calling Colossus a national security matter.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#spacex-starlink-memphis"
+    },
+    {
+      "id": "go-harder-than-half-price",
+      "headline": "Applaud the direction, but go a lot harder than half-price",
+      "type": "take",
+      "segment": "headlines",
       "timestamp": "09:00",
-      "attribution": "Chubby, on Meta's coding-agent restrictions",
-      "summary": "Chubby's summary of the bind every AI company will face: to build a better internal coding model, you must ensure you're not accidentally training or evaluating on rival model outputs.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#distillation-trap-quote"
-    },
-    {
-      "id": "google-capped-meta-gemini",
-      "headline": "Google capped Meta's Gemini usage in March",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "09:30",
       "attribution": null,
-      "summary": "Per the FT, Google imposed usage limits on Meta and other large customers to manage the compute crunch \u2014 restrictions that partly drove Meta to stop \"token maxing\" and push token efficiency. Meta had leaned on Gemini and Claude because they outperformed in-house Llama models.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#google-capped-meta-gemini"
+      "summary": "NLW is glad data center operators are starting to cut communities into the benefits \u2014 but says making residents become customers to get a discount is far too small a gesture. Still, encouraging signs that these relationships are being rethought.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#go-harder-than-half-price"
     },
     {
-      "id": "aws-gpu-price-hike",
-      "headline": "AWS raises Nvidia GPU rental prices 20%",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "10:45",
-      "attribution": null,
-      "summary": "AWS is hiking EC2 capacity block prices by 20% for Nvidia workloads, sparing only its own Trainium chips. It's another data point in a supply-constrained inference market where reservations, not on-demand rentals, are now the norm.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#aws-gpu-price-hike"
-    },
-    {
-      "id": "spot-vs-contract-pricing",
-      "headline": "Falling spot GPU prices don't mean weaker demand",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "11:15",
-      "attribution": null,
-      "summary": "H100 spot prices are down 40% from their May peak, but SemiAnalysis says contract prices keep rising. Their read: serious buyers are locking in term capacity for production workloads, shifting opportunistic spot usage toward committed deployment \u2014 not a demand slump.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#spot-vs-contract-pricing"
-    },
-    {
-      "id": "ramageddon-memory-prices",
-      "headline": "Ramageddon: memory prices become a tax on all electronics",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "12:15",
-      "attribution": null,
-      "summary": "AI memory demand pushed Apple to raise prices up to 15% and Microsoft to hike Xbox prices; Lenovo says pricing will \"never return to where it was last year.\" Micron raised prices 60% in three months, quadrupled them over a year, and is targeting 84% margins \u2014 putting it behind only Google and Nvidia among US firms.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#ramageddon-memory-prices"
-    },
-    {
-      "id": "apple-cxmt-petition",
-      "headline": "Apple asks to buy from a blacklisted Chinese chipmaker",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "13:45",
-      "attribution": null,
-      "summary": "Amid the memory crunch, Apple petitioned the Trump administration to buy memory from Chinese supplier CXMT \u2014 a firm on the Pentagon's blacklist over alleged military ties. Separately, a California class action alleges Samsung, SK Hynix, and Micron ran a memory cartel to inflate prices.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#apple-cxmt-petition"
-    },
-    {
-      "id": "ai-economy-run-rate",
-      "headline": "$175B run rate, growing 3x faster than any IT wave",
+      "id": "fable-back-online",
+      "headline": "Fable 5 is officially back after 19 days",
       "type": "insight",
       "segment": "main",
-      "timestamp": "19:00",
+      "timestamp": "13:00",
       "attribution": null,
-      "summary": "Exponential View's State of the AI Economy report, drawn from over 1,000 companies with confidence-weighted sources and deduplicated spend, finds AI companies banked $110B over 12 months at a $175B annualized run rate. Their top line: demand is real, big, and fast.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#ai-economy-run-rate"
+      "summary": "Anthropic announced the Department of Commerce lifted export controls, restoring Fable 5 for all global paid subscribers starting July 1st. A short subsidy extension covers up to 50% of weekly usage limits until July 7th; after that, access requires purchasing usage credits.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#fable-back-online"
     },
     {
-      "id": "two-days-per-billion",
-      "headline": "The industry now adds a billion in revenue every two days",
+      "id": "anthropic-jailbreak-defense",
+      "headline": "Anthropic: the jailbreak exposed no unique dangerous capability",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": null,
+      "summary": "Anthropic said testing confirmed many less-capable models \u2014 including GPT-5.5 and Kimi K2.7 \u2014 could identify the same vulnerabilities Fable 5 flagged, and the reported technique only involved routine defensive cybersecurity work. It trained a new classifier claiming a 99% block rate, validated by Commerce's Center for AI Standards and Innovation as \"extraordinarily strong.\"",
+      "link": "https://aidailybrief.ai/e/2026-07-01#anthropic-jailbreak-defense"
+    },
+    {
+      "id": "dean-ball-opacity",
+      "headline": "This opacity will not lend itself well to a stable, investable, trustworthy industry over time.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "17:00",
+      "attribution": "Dean Ball, policy advisor",
+      "summary": "Policy advisor Dean Ball welcomed Fable's return but noted no one knows what Anthropic actually did to make the model safe or how it applies to other models in the licensing queue. Still, he called a two-week review timeline \"not insane\" and real progress.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#dean-ball-opacity"
+    },
+    {
+      "id": "first-rule-fable-club",
+      "headline": "The first rule of Fable Club is you do not ask too many questions.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "18:00",
+      "attribution": "Miles Brundage",
+      "summary": "Miles Brundage captured the prevailing policy mood: even with lots of open questions about what exactly Anthropic agreed to, people are cautiously optimistic just to have the model back.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#first-rule-fable-club"
+    },
+    {
+      "id": "heavy-judgment-framework",
+      "headline": "We're living with a framework that requires heavy judgment",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "18:00",
+      "attribution": null,
+      "summary": "NLW's read: there's a semblance of a practical framework now, but a lot of subjectivity goes into assessing risks. The best-case outcome is an efficient process with faster review for incremental updates \u2014 a bad outcome would be every capable release triggering the same weeks-long review and slowing the pace of breakthroughs.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#heavy-judgment-framework"
+    },
+    {
+      "id": "fallback-to-opus",
+      "headline": "Only a small fraction of coding tasks fall back to Opus",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "In 2023 the AI industry needed 180 days to add $1B in cumulative revenue. It's now gotten 90 times faster, adding each new billion in under two days.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#two-days-per-billion"
+      "summary": "The announcement's line that \"some routine tasks like coding and debugging will fall back to Opus 4.8\" sparked backlash that the relaunch was \"fake.\" The Claude Code team clarified the wording was loose: only a small fraction of routine coding and debugging tasks get flagged and reverted to Opus.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#fallback-to-opus"
     },
     {
-      "id": "compute-super-cycle",
-      "headline": "The compute super cycle is reviving a moribund power sector",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "20:15",
-      "attribution": null,
-      "summary": "Global semiconductor revenue is projected to hit $1.5T this year, roughly double last year's $792B. US electricity generation was flat from 2008\u20132024; it's now growing at 150% of the historical average, reaching nine terawatt-hours per month in annual growth.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#compute-super-cycle"
-    },
-    {
-      "id": "capex-paying-back",
-      "headline": "The largest build-out in tech history is paying back \u2014 for now",
+      "id": "claude-sonnet-5",
+      "headline": "Anthropic ships Claude Sonnet 5 \u2014 its most agentic Sonnet",
       "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "CapEx will hit $848B this year and $2T cumulatively since 2020, still mostly balance-sheet cash but increasingly debt-funded. Since Q4 last year, quarterly revenues have exceeded CapEx depreciation, though not yet the cumulative bill.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#capex-paying-back"
+      "summary": "Pitched as nearly as good as Opus 4.8 for a fraction of the cost, Sonnet 5 sits a few points shy of Opus on major coding benchmarks but posted a big jump on GDPVal, hinting at strong end-to-end agentic follow-through. NLW suspects the timing means Anthropic didn't expect Fable 5 back so soon.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#claude-sonnet-5"
     },
     {
-      "id": "gpus-outlast-depreciation",
-      "headline": "Old GPUs are earning well past their six-year life",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:30",
-      "attribution": null,
-      "summary": "A key bubble worry was that GPUs go obsolete before earning their return. The data suggests the opposite: rental yields show older GPUs delivering meaningful gains into years seven, eight, and even nine \u2014 a much healthier payback scenario.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#gpus-outlast-depreciation"
-    },
-    {
-      "id": "ai-tiny-share-of-gdp",
-      "headline": "AI revenue is still just 0.42% of US GDP",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:30",
-      "attribution": null,
-      "summary": "The IT sector is ~9.4% of US GDP; AI revenue equals only 0.42% \u2014 but it's grown 3x versus Q1 2025 and 10x versus Q1 2024. Even heavy users barely dent their P&L: Uber spends about $1.5K per engineer, leaving enormous room to grow.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#ai-tiny-share-of-gdp"
-    },
-    {
-      "id": "agents-multiply-tokens",
-      "headline": "Agentic tasks use 1,200x the tokens of a chat",
+      "id": "sonnet5-expensive",
+      "headline": "Sonnet 5 can cost more than Opus \u2014 even more than Fable",
       "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "The chat-to-agents transition is multiplying token use \u2014 an agentic coding task can consume around 1,200x the tokens of a chat query. Global token volumes now exceed 30 quadrillion per month, growing 14x year over year.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#agents-multiply-tokens"
+      "summary": "Artificial Analysis found Sonnet 5 used ~40% more output tokens and ~3x the agentic turns of Sonnet 4.6; on the full benchmark it was more expensive than Opus 4.8 and even Fable. Without promotional pricing, it costs more per task than Opus \u2014 leaving many asking what it's actually for.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#sonnet5-expensive"
     },
     {
-      "id": "token-price-collapse",
-      "headline": "Tokens got 8x cheaper as capability jumped",
-      "type": "insight",
+      "id": "sonnet5-use-differently",
+      "headline": "You have to use it wildly differently... it's basically an automatic Ralph loop.",
+      "type": "quote",
       "segment": "main",
-      "timestamp": "23:30",
-      "attribution": null,
-      "summary": "From mid-2024 to mid-2026, the blended price per million tokens fell from $17 to $2 even as the capabilities index rose from 112 to 158, and intensity per request jumped from 12 to 36 tokens processed per output token. Price declines drive more use and make previously uneconomical apps viable.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#token-price-collapse"
+      "timestamp": "24:00",
+      "attribution": "Ben Davis",
+      "summary": "Ben Davis argued Sonnet 5 is good but inefficient and slow \u2014 spawning sub-agents, stacking PRs, reviewing itself adversarially. Others suggest the real framing is Fable 5 as the intelligent advisor and Sonnet 5 as the fast implementer running the sub-agents.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#sonnet5-use-differently"
     },
     {
-      "id": "value-moving-up-stack",
-      "headline": "Value is moving up the stack toward models and apps",
+      "id": "fable-for-strategy",
+      "headline": "Fable 5 blows the field away on strategic thinking",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "26:00",
+      "attribution": null,
+      "summary": "NLW's first-hand experience: unlike GPT-5.5 and Opus 4.8, which cave immediately under pushback and over-interpret instructions, Fable 5 accepts part of a critique while holding its ground on other parts \u2014 behavior he's never seen from another model. And it doesn't burn many tokens, so it won't chew through the 50% usage limit.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#fable-for-strategy"
+    },
+    {
+      "id": "fable-for-writing",
+      "headline": "Fable is far better at rubric-driven writing",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "Contrary to Every's vibe check, NLW found Fable 5 much better at instruction-following, with fewer AI-isms and less try-hard prose. His suspicion: when you have a clear rubric or examples of good writing, Fable meets that standard far better than prior models \u2014 even if it's not necessarily better at blank-page writing.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#fable-for-writing"
+    },
+    {
+      "id": "one-week-playbook",
+      "headline": "A one-week playbook for using Fable without going bankrupt",
       "type": "insight",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "Revenue is still concentrated in chips, but hosting is rising, model revenue is growing, and app revenue (companies like Cursor) is appearing for the first time. The app-and-model layer's share of AI revenue is up nearly 3x over the last year \u2014 even as labs push both down into infrastructure and up into apps.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#value-moving-up-stack"
-    },
-    {
-      "id": "92-percent-revenue-gap",
-      "headline": "High-AI spenders grew revenue 92% faster",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "26:00",
-      "attribution": null,
-      "summary": "Companies with no AI spend grew revenue roughly in line with nominal GDP (15\u201320%) over three years. Top-quartile AI spenders grew revenue more than 100% \u2014 a 92% growth differential. Meanwhile 33% of public companies now cite AI impact on earnings calls, up from ~10% in early 2023.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#92-percent-revenue-gap"
-    },
-    {
-      "id": "not-a-bubble-tweet",
-      "headline": "Not enough people are emotionally prepared for if it's not a bubble",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "27:00",
-      "attribution": "OpenAI's Rune, quoted by NLW",
-      "summary": "NLW allows the market can still get over-exuberant, but calls this the most insightful bubble tweet ever \u2014 from OpenAI's Rune. The indicators of return on CapEx, he argues, are far more positive than the average discourse suggests.",
-      "link": "https://aidailybrief.ai/e/2026-06-30#not-a-bubble-tweet"
+      "summary": "Panjwani's advice: use Fable 5 for planning not implementation (delegate coding to GPT-5.5 via Codex), ask it for improvements on your most valuable projects, use other models to surface your hardest problems then have Fable propose solutions, and review Fable's output with GPT Pro. NLW agrees on the hard technical problems half but pushes hard on also using it for strategy and writing.",
+      "link": "https://aidailybrief.ai/e/2026-07-01#one-week-playbook"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-06-30.mp3",
-  "generated": "2026-07-01T06:14:10Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-01.mp3",
+  "generated": "2026-07-02T06:15:04Z"
 }

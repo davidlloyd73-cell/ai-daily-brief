@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Cheaper inference could quietly cut the running cost of your AI scribe",
+      "body": "The edition's lead is that inference costs are dropping fast — OpenAI claims a 50 percent efficiency gain, and several founders reported cutting their AI spend by more than 75 percent in a day with no loss of quality. If NLW is right that this is real engineering progress, the ambient scribes and letter-drafting tools a surgery already uses should get cheaper or more capable at the same price over the next year. If Zitron is right that the labs are simply subsidising tokens they still lose money on, today's low prices are a customer-acquisition loss-leader that can be withdrawn — so a practice should treat a very cheap AI vendor as a flight risk, not a permanent saving, and keep the contract terms and an exit plan in view."
+    },
+    {
+      "title": "'Fall back to a smaller model' is now a clinical-safety question, not just a billing one",
+      "body": "A recurring theme is models being quietly downgraded for routine or low-engagement use — OpenAI testing its cheaper technique on its least-active users, and Anthropic's note that some routine tasks 'fall back' to a smaller model. For a scribe summarising a consultation, the practical question is whether you can tell which model actually produced a given note, and whether quality is being silently traded for cost. When procuring, ask the vendor to state which model transcribes and summarises, whether that can change without notice, and how the tool flags low-confidence output — because a summary that drops a red-flag symptom is a safety issue regardless of who is subsidising the compute."
+    },
+    {
+      "title": "Own-model and open-weight trend may favour on-premise NHS deployment",
+      "body": "Base44 built its own fine-tuned model to control cost and latency, and AWS noted enterprises shifting toward open-weight models. If that trend holds, it strengthens the case that clinically sensitive tools could eventually run on models hosted within NHS or UK data boundaries rather than sending consultation audio to a US frontier lab — relevant for information-governance and DPIA discussions at PCN level, though nothing here changes the current position that most scribes still call an external frontier model."
+    }
+  ]
+}

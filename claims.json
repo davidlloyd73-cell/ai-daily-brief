@@ -306,6 +306,24 @@
       "resolution": "By end-2027, evidence of a reckoning: hyperscaler AI CapEx exceeding free cash flow with no proportionate audited return, and/or material writedowns, impairments, or a financing pullback across the AI supply chain (e.g. neoclouds, OpenAI/Anthropic). Fails if AI revenue proves broad-based and self-funding with capex comfortably covered and no significant impairments.",
       "check_by": "2027-12-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-07-01",
+      "side": "NLW",
+      "claim": "The industry's inference-cost breakthroughs are real and durable: optimisation techniques (e.g. OpenAI's ~50% cut) and shifts to own/open-weight models are structurally lowering the cost of running frontier-class AI without materially degrading quality.",
+      "source_url": "https://aidailybrief.ai/e/2026-07-01",
+      "resolution": "Vindicated if, by the check-by date, at least one major lab or independent benchmark documents a sustained per-task inference cost reduction of 40%+ at comparable quality, and blended token prices for frontier-class output continue to fall rather than rise.",
+      "check_by": "2027-12-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-07-01",
+      "side": "Zitron",
+      "claim": "No AI lab is genuinely profitable on inference; cheaper tokens are subsidised customer-acquisition, and the leading labs will keep burning cash with capex and compute obligations outrunning inference revenue.",
+      "source_url": "https://www.wheresyoured.at/ai-is-too-expensive/",
+      "resolution": "Zitron vindicated if no major lab (OpenAI/Anthropic) discloses an audited, unsubsidised positive inference gross margin by the check-by date and reported losses/compute obligations continue to grow; NLW's side favoured if a lab publishes real inference profit.",
+      "check_by": "2027-12-31",
+      "status": "open"
     }
   ]
 }
