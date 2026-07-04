@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Entry-level hiring cuts both ways for the NHS",
+   "body": "Ramp's data says high-AI-adoption firms grew entry-level headcount 12 per cent — selecting for people who use AI well. If NLW's right, practices and trusts that adopt scribes and triage tools early may end up hiring more AI-literate admin and clinical support staff, not fewer. If Zitron's right, those same tools mostly add supervision burden — every unverified AI note is checking work for a clinician, and the 4am engineers in his piece are a warning about what 'productivity' feels like from inside."
+  },
+  {
+   "title": "16 per cent is the medico-legal point",
+   "body": "The Remote Labor Index finding — AI completes 16 per cent of freelance tasks to professional standard — maps neatly onto clinical documentation. The scribe drafts; the GP remains the quality gate and carries the medico-legal responsibility for the other 84 per cent. That is an argument for treating AI output as a junior's draft, never as a finished record — and for coding time to check it into the consultation, not out of it."
+  },
+  {
+   "title": "Ford's graybeards are an NHS parable",
+   "body": "Ford rehired 350 veteran engineers to fix AI tools trained on design documents alone — and topped the quality survey. The NHS analogue: experienced clinicians' judgement is the training signal these systems need, and letting senior GPs drift out of the workforce while automating on guidelines alone is a false economy. Retainer-style roles supervising and correcting AI may be a genuinely useful late-career job."
+  }
+ ]
+}

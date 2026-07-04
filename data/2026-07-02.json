@@ -1,0 +1,427 @@
+{
+  "id": "2026-07-02",
+  "date": "2026-07-02",
+  "weekday": "Thursday",
+  "type": "daily",
+  "title": "AI Companies Are Hiring More",
+  "slug": "ai-companies-are-hiring-more",
+  "canonicalUrl": "https://aidailybrief.ai/e/2026-07-02",
+  "dek": "OpenAI floats handing 5% of itself to the US government on the same day the jobs data delivers a genuine surprise: the companies going hardest on AI are the ones hiring the most. A messy, hopeful counter-narrative to the AI-jobs apocalypse.",
+  "durationMin": 28,
+  "sponsors": [
+    {
+      "name": "KPMG",
+      "url": "https://kpmg.com/us/sophisticated"
+    },
+    {
+      "name": "Rackspace Technology",
+      "url": "https://rackspace.com"
+    },
+    {
+      "name": "Blitzy",
+      "url": "https://blitzy.com"
+    },
+    {
+      "name": "Hyperagent",
+      "url": "https://hyperagent.com/aidailybrief"
+    }
+  ],
+  "listen": {
+    "all": "https://pod.link/1680633614",
+    "spotify": "https://open.spotify.com/show/7gKwwMLFLc6RmjmRpbMtEO",
+    "apple": "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-artificial-intelligence-news/id1680633614",
+    "youtube": "https://www.youtube.com/@AIDailyBrief",
+    "adFree": "https://patreon.com/aidailybrief",
+    "youtubeEpisode": null
+  },
+  "thesis": {
+    "tag": "The One Idea",
+    "headline": "The companies leaning hardest into AI are hiring more, not fewer, people.",
+    "sub": "The AI-and-jobs story has been dominated by fear, but the newest data cuts the other way. Ramp found high-AI-adoption firms grew headcount 10% over two years — and 12% at entry level — while low-adoption firms stayed flat. Box's survey echoes it. Meanwhile even a hard new benchmark shows AI completing just 16% of freelance tasks at professional quality. NLW's long-held optimism is getting numbers behind it — even as real, painful displacement in specific roles is still coming."
+  },
+  "numbers": [
+    {
+      "value": "5%",
+      "label": "Equity OpenAI proposes handing to the US government",
+      "accent": "amber"
+    },
+    {
+      "value": "$42B",
+      "label": "Value of that stake at current valuations",
+      "accent": "cyan"
+    },
+    {
+      "value": "+8.8%",
+      "label": "Meta's best single-day stock move in six months on cloud news",
+      "accent": "green"
+    },
+    {
+      "value": "-17%",
+      "label": "CoreWeave and Nebius drop as Meta enters the neocloud game",
+      "accent": "red"
+    },
+    {
+      "value": "16.1%",
+      "label": "Fable's score on the Remote Labor Index — up from GPT-5.2's 2.5%",
+      "accent": "amber"
+    },
+    {
+      "value": "28K",
+      "label": "Jobs lost per month on average in tech and finance in 2026",
+      "accent": "red"
+    },
+    {
+      "value": "10%",
+      "label": "Headcount growth at high-AI-adoption firms (12% at entry level)",
+      "accent": "green"
+    },
+    {
+      "value": "79%",
+      "label": "Mature AI adopters expecting headcount to rise (Box survey)",
+      "accent": "green"
+    }
+  ],
+  "nuggets": [
+    {
+      "id": "openai-5-percent-government",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "policy",
+      "functions": [
+        "finance",
+        "exec",
+        "legal"
+      ],
+      "ts": "00:00",
+      "headline": "OpenAI proposes giving the US government a 5% stake",
+      "body": "OpenAI has proposed contributing a 5% equity stake — worth around $42 billion at current valuations — to a sovereign wealth fund structured like Alaska's Permanent Fund. It's unclear whether the administration would buy the stake or receive it as a gift, and sources call the talks still \"conceptual,\" possibly requiring an act of Congress.",
+      "sources": []
+    },
+    {
+      "id": "all-labs-5-percent",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "policy",
+      "functions": [
+        "finance",
+        "exec"
+      ],
+      "ts": "01:00",
+      "headline": "OpenAI wants every leading lab to chip in 5%",
+      "body": "Beyond itself and Anthropic, OpenAI has proposed that all leading AI developers — potentially Google, Meta and others — contribute 5% of their equity. It's not clear any of the other firms agree or are even in the discussions.",
+      "sources": []
+    },
+    {
+      "id": "ft-quid-pro-quo",
+      "segment": "headlines",
+      "type": "quote",
+      "category": "policy",
+      "functions": [
+        "exec"
+      ],
+      "ts": "01:00",
+      "headline": "An ownership stake could help secure good relations with the administration.",
+      "body": "The FT read the proposal as a fairly clear quid pro quo — an attempt to address political blowback by sharing AI-generated wealth with the public while smoothing relations with the White House.",
+      "attribution": "Financial Times",
+      "sources": []
+    },
+    {
+      "id": "micron-trump-accounts",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "business",
+      "functions": [
+        "finance"
+      ],
+      "ts": "02:00",
+      "headline": "Micron pours $250M into government-funded Trump accounts",
+      "body": "Memory producer Micron agreed to invest $250 million in Trump accounts, the government-funded investment accounts for children introduced last year. The program has so far been funded largely by philanthropy, including a $6.25 billion donation from Dell CEO Michael Dell and his wife.",
+      "sources": []
+    },
+    {
+      "id": "tributary-capitalism",
+      "segment": "headlines",
+      "type": "take",
+      "category": "policy",
+      "functions": [
+        "exec"
+      ],
+      "ts": "02:00",
+      "headline": "The Overton window on tribute deals is shifting",
+      "body": "NLW frames the government stake and corporate contributions as a \"strange new era of tributary capitalism.\" The window on these arrangements is clearly moving — and he steers clear of a hotter take to keep the show moving.",
+      "sources": []
+    },
+    {
+      "id": "meta-compute",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "compute",
+      "functions": [
+        "engineering",
+        "exec"
+      ],
+      "ts": "03:00",
+      "headline": "Meta plans a cloud business to sell excess AI capacity",
+      "body": "Meta is developing \"Meta Compute,\" a cloud business that would sell access to models hosted on its data centers (like AWS Bedrock) or raw compute (like CoreWeave). It has a name and leadership team — Head of Infrastructure Janardhan, with Daniel Gross and Dina Powell McCormick — but plans are still in flux.",
+      "sources": []
+    },
+    {
+      "id": "meta-stock-neocloud",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "business",
+      "functions": [
+        "finance"
+      ],
+      "ts": "04:00",
+      "headline": "Meta soars 8.8%; neoclouds get pummeled",
+      "body": "The cloud report sent Meta stock up as much as 10%, closing up 8.8% — its best single day in six months — while CoreWeave and Nebius each lost 17%. Jefferies compared it to the early days of AWS; Mizuho called it more a \"plan B\" that adds a margin of safety to earnings.",
+      "sources": []
+    },
+    {
+      "id": "rune-frontier-lab",
+      "segment": "headlines",
+      "type": "quote",
+      "category": "compute",
+      "functions": [],
+      "ts": "05:00",
+      "headline": "You either die a frontier lab or live long enough to see yourself sell compute.",
+      "body": "OpenAI's Rune riffed on the trend of frontier labs turning into compute vendors, following SpaceX's pivot — including a $1.25 billion-a-month deal to supply Anthropic — which now drives more revenue than Starlink.",
+      "attribution": "Rune, OpenAI",
+      "sources": []
+    },
+    {
+      "id": "spacex-ai-device",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "business",
+      "functions": [
+        "product"
+      ],
+      "ts": "05:00",
+      "headline": "SpaceX reportedly showed investors an AI handset — Elon denies it",
+      "body": "The Wall Street Journal reports SpaceX showed a prototype AI device, slimmer than an iPhone, running a proprietary OS and integrating xAI tech, ahead of its IPO. Elon Musk called the report \"utterly false\" within minutes. With SpaceX's 2025 spectrum buy and T-Mobile chatter, it could hint at a carrier-plus-Starlink-plus-handset play.",
+      "sources": []
+    },
+    {
+      "id": "anthropic-spyware-rollback",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering",
+        "legal"
+      ],
+      "ts": "06:00",
+      "headline": "Anthropic rolls back Claude Code monitoring of Chinese labs",
+      "body": "After a Reddit uproar, Anthropic rolled back a March experiment in Claude Code that detected proxies and used time-zone and metadata to flag users in China or tied to Chinese labs. Co-developer Tarik said it was meant to prevent reseller abuse and distillation, and stronger mitigations have since replaced it.",
+      "sources": []
+    },
+    {
+      "id": "anthropic-visibility",
+      "segment": "headlines",
+      "type": "take",
+      "category": "models",
+      "functions": [
+        "legal",
+        "engineering"
+      ],
+      "ts": "07:00",
+      "headline": "The real story is how much Anthropic can see",
+      "body": "NLW argues the takeaway isn't the anti-distillation effort — it's a reminder of the visibility Anthropic has into the work being done on its systems.",
+      "sources": []
+    },
+    {
+      "id": "fable-5-reactions",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering",
+        "product"
+      ],
+      "ts": "08:00",
+      "headline": "Fable 5 returns to a wave of gushing",
+      "body": "Users regained access to Fable 5 and raved: Elvis Sun said it audited his business, cracked backend and engineering problems Opus couldn't, and \"is smarter than me.\" Andrew McAllister called it \"an absolute monster\" that's \"machine-gunning PRs.\"",
+      "sources": []
+    },
+    {
+      "id": "fable-opus-routing",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering"
+      ],
+      "ts": "08:00",
+      "headline": "Mixed reports on Fable kicking work to Opus",
+      "body": "A big open question is how often Fable reroutes benign coding tasks to Opus. Nick Dobos said Fable did only 20% of the work; one user paid $321 for a session where \"Fable 5 refused to do the work.\" Others, like Max Weinbach, had no refusals — and Theo found it shines as an orchestrator of other agents.",
+      "sources": []
+    },
+    {
+      "id": "mollick-day-one",
+      "segment": "headlines",
+      "type": "quote",
+      "category": "models",
+      "functions": [
+        "ops",
+        "engineering"
+      ],
+      "ts": "09:00",
+      "headline": "Nobody has enough experience to reach any real conclusions.",
+      "body": "Ethan Mollick noted that all the posts about the best workflows for Fable reveal how little anyone knows about organizing work for long-running agents. NLW: figuratively and literally, we're still on day one of figuring out this new class of models.",
+      "attribution": "Professor Ethan Mollick",
+      "sources": []
+    },
+    {
+      "id": "remote-labor-index-jump",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "product",
+        "engineering"
+      ],
+      "ts": "14:00",
+      "headline": "AI's ability to do real freelance work quadrupled in under 8 months",
+      "body": "The Center for AI Safety's Remote Labor Index — which judges deliverables against a paid professional's gold standard — has Fable at 16.1%, up from GPT-5.5's 6.3% and Opus 4A's 8.3%. When first run late last year, top performer GPT-5.2 scored just 2.5%. \"The frontier has more than quadrupled in under eight months.\"",
+      "sources": []
+    },
+    {
+      "id": "sixteen-percent-interpretation",
+      "segment": "main",
+      "type": "take",
+      "category": "business",
+      "functions": [
+        "exec"
+      ],
+      "ts": "16:00",
+      "headline": "16% of tasks is not 16% of jobs",
+      "body": "NLW argues the report has something for everyone: work quality is advancing fast, yet getting to a fully economically viable product remains hard. The gap between those two — 84% still needing a human — is where freelancers and firms can redesign their economics and deliverables.",
+      "sources": []
+    },
+    {
+      "id": "chatterji-tasks-jobs",
+      "segment": "main",
+      "type": "quote",
+      "category": "business",
+      "functions": [
+        "hr",
+        "exec"
+      ],
+      "ts": "17:00",
+      "headline": "Just because a task is exposed to AI doesn't mean it's going to substitute for it.",
+      "body": "OpenAI chief economist Ronnie Chatterji told an ECB event he doesn't think AI will replace workers, citing his economist father, whose job was \"exposed\" to the PC but who found it a complement that made him more productive. He noted predicted software-developer job shrinkage hasn't materialized as forecast.",
+      "attribution": "Ronnie Chatterji, OpenAI chief economist",
+      "sources": []
+    },
+    {
+      "id": "bls-tech-finance-losses",
+      "segment": "main",
+      "type": "insight",
+      "category": "business",
+      "functions": [
+        "hr",
+        "finance"
+      ],
+      "ts": "19:00",
+      "headline": "Tech and finance are shedding 28K jobs a month",
+      "body": "BLS data shows tech and finance losing an average of 28,000 jobs per month so far this year, even as the overall economy adds 113,000 monthly. Analysts split on whether it's genuine AI productivity or a cost-cutting narrative layered over 2022 over-hiring.",
+      "sources": []
+    },
+    {
+      "id": "china-no-layoffs",
+      "segment": "main",
+      "type": "insight",
+      "category": "policy",
+      "functions": [
+        "hr",
+        "legal",
+        "exec"
+      ],
+      "ts": "20:00",
+      "headline": "China is leaning on companies not to lay off for AI",
+      "body": "Per the New York Times, China's government is pressing firms to avoid AI-driven layoffs, with legal teeth: an April Hangzhou court ruled a tech company illegally fired a worker it replaced with AI. NLW notes this mirrors his own thesis that governments may incentivize keeping people employed before turning to something like UBI.",
+      "sources": []
+    },
+    {
+      "id": "ford-graybeards",
+      "segment": "main",
+      "type": "insight",
+      "category": "enterprise",
+      "functions": [
+        "hr",
+        "engineering",
+        "ops"
+      ],
+      "ts": "22:00",
+      "headline": "Ford rehired 350 \"graybeard\" engineers to fix its AI",
+      "body": "Ford brought back 350 veteran engineers to retrain AI tools that weren't getting the job done — and became the top mainstream brand in JD Power's Initial Quality Survey. VP Charles Poon: \"AI is a fantastic tool, but it's only as good as the information you use to train it,\" admitting they'd wrongly assumed ingesting design requirements alone would produce quality.",
+      "sources": []
+    },
+    {
+      "id": "ramp-headcount-growth",
+      "segment": "main",
+      "type": "insight",
+      "category": "enterprise",
+      "functions": [
+        "hr",
+        "finance",
+        "exec"
+      ],
+      "ts": "23:00",
+      "headline": "High-AI-adoption firms grew headcount 10% — 12% at entry level",
+      "body": "Ramp and Revelio Labs correlated AI spend against payroll for 21,000 US businesses: high-adoption firms grew headcount 10% over two years while low-adoption firms stayed flat, with entry-level growth even stronger at 12%. Aggressive hiring synced to the start of AI adoption, suggesting causation — with spend a modest ~$30 per employee per month.",
+      "sources": []
+    },
+    {
+      "id": "ramp-new-skills",
+      "segment": "main",
+      "type": "quote",
+      "category": "enterprise",
+      "functions": [
+        "hr"
+      ],
+      "ts": "25:00",
+      "headline": "High-AI-adopting firms are hiring different kinds of employees.",
+      "body": "Ramp economist Karazian said the data is the first evidence that AI-heavy firms are selecting for a new skill set — people who know how to use AI well — and that entry-level workers, recent grads and college students are a natural place to look. He also urged skepticism, noting a 6–12 month learning curve before hiring picks up.",
+      "attribution": "Karazian, Ramp lead economist",
+      "sources": []
+    },
+    {
+      "id": "box-levie-survey",
+      "segment": "main",
+      "type": "quote",
+      "category": "enterprise",
+      "functions": [
+        "hr",
+        "sales",
+        "exec"
+      ],
+      "ts": "26:00",
+      "headline": "79% of mature AI adopters expect headcount to rise.",
+      "body": "Box CEO Aaron Levie shared a survey of 1,600+ mid and large companies: 58% expect headcount to grow over three years, climbing to 79% among the most mature AI adopters. His logic: more customers from AI-powered sales means more salespeople; more software built means more engineers.",
+      "attribution": "Aaron Levie, Box CEO",
+      "sources": []
+    },
+    {
+      "id": "nlw-optimism-caveat",
+      "segment": "main",
+      "type": "take",
+      "category": "business",
+      "functions": [
+        "hr",
+        "exec"
+      ],
+      "ts": "26:00",
+      "headline": "Optimistic long term — but real displacement is still coming",
+      "body": "NLW is encouraged that both narrative and numbers now validate his jobs optimism, but warns some job categories will be wiped out and vulnerable populations near career's end will struggle to pivot. Crafting targeted policy for specific at-risk roles, he argues, is a far more tractable task than fighting an imagined AI job apocalypse.",
+      "sources": []
+    }
+  ],
+  "credits": {
+    "host": "Nathaniel Whittemore",
+    "show": "The AI Daily Brief",
+    "signoff": "Until next time, peace"
+  }
+}
