@@ -1,0 +1,15 @@
+David's AI brief for Friday, the third of July.
+
+Today's edition is a month in review, and the one idea is a big one. Nathaniel Whittemore argues that June may prove one of the most significant months since ChatGPT arrived, because AI's second great transition finally became real, and it arrived on three fronts at once: cost, sovereignty, and government.
+
+The story begins with money. Through the spring, providers had been quietly shifting away from flat, seat-based subscriptions towards charging by usage, because the new agentic tools consume vastly more intelligence than the old ones. In June that turned concrete. Walmart moved its staff from unlimited internal tools onto token budgets, and Uber set a cap of fifteen hundred dollars a month per employee on AI spend. The subsidy era, where tokens felt almost free, was over, and efficiency became the watchword.
+
+Then came the model. On the tenth of June, Anthropic released Fable 5, and unlike the usual underwhelming upgrade, this one was plainly far more capable, especially for technical work. Whittemore's neat description is that earlier models lowered the energy needed to start a project but not to finish one, leaving you stranded at eighty or ninety percent. Fable 5, he says, was the first that made finishing feel trivial.
+
+But the celebration was brief. Anthropic said it would retain prompts for thirty days for safety review, and many enterprises immediately balked at that. Then, within days, Washington used export controls to demand the model be withheld from foreign nationals, and Anthropic concluded the only way to comply was to switch it off for everyone. Suddenly companies had two reasons, not one, to diversify away from a single closed provider: cost, and now sovereignty. Open-weight models, local hosting, and custom-trained stacks moved from curiosity to genuine boardroom question.
+
+Now, the other side. Ed Zitron looks at the very same June and sees not maturation but a bubble beginning to bite. Citing the Bank for International Settlements, he notes the largest cloud firms are set to spend over a trillion dollars on AI in two years, outrunning their own earnings and cash flow, and warns that disappointing returns could turn the boom into a protracted bust. The honest signal is where these two opposites agree: both accept the era of cheap, subsidised AI has ended. What to watch next is the coming capex guidance from the big cloud companies, set against their cash flow.
+
+A couple of thoughts for our world in general practice. The retention and shutdown drama is not abstract for us; an AI scribe sits with a single vendor whose access can be paused overnight, so it is worth knowing where our consultation data is processed and what happens if the service goes dark. If Whittemore is right, cheaper local models could ease the data-residency worries that slow NHS procurement. If Zitron is right, today's affordable subscriptions are underpriced and will climb, so it is wise to keep the manual workflow usable and avoid leaning the whole clinic on one tool.
+
+That's the brief — source, The AI Daily Brief.

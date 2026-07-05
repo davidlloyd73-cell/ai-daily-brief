@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Sovereignty and retention are now a GP-data question too",
+      "body": "The June story that spooked enterprises — a 30-day retention policy and a government able to switch a model off overnight — lands squarely on NHS ground. Any AI scribe or triage tool a surgery relies on sits with a single vendor whose access can be paused by policy or export control. Worth confirming with your practice where consultation transcripts are processed and stored, what the retention window is, and whether there is a fallback if the service goes dark for a week."
+    },
+    {
+      "title": "If NLW is right, cheaper local models could reach primary care",
+      "body": "The month's real shift was open-weight and post-trained models becoming a serious boardroom option. If that holds, the plausible NHS dividend is scribe and coding tools that run on local or UK-hosted infrastructure at lower cost, easing the data-residency worries that slow procurement. For a scribe user that would mean less dependence on one US lab and fewer information-governance objections."
+    },
+    {
+      "title": "If Zitron is right, budget for prices to rise, not fall",
+      "body": "If the buildout is a bubble whose costs are only now biting, today's affordable subscriptions are underpriced and will climb, or vendors will fail. Prudent practice planning treats the current AI scribe deal as provisional: keep the manual workflow usable, avoid single-vendor lock-in, and don't restructure clinics around a tool whose pricing may jump. The 6.4 hours a week of \"bot sitting\" is also a real cost to weigh against any time saved."
+    }
+  ]
+}

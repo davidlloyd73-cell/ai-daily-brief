@@ -1,26 +1,26 @@
 {
-  "date": "2026-07-02",
-  "title": "AI Companies Are Hiring More",
-  "dek": "OpenAI floats handing 5% of itself to the US government on the same day the jobs data delivers a genuine surprise: the companies going hardest on AI are the ones hiring the most. A messy, hopeful counter-narrative to the AI-jobs apocalypse.",
-  "source": "https://aidailybrief.ai/e/2026-07-02",
+  "date": "2026-07-03",
+  "title": "The Big Ways AI Just Changed",
+  "dek": "June is over, and NLW makes the case that it was one of the most consequential months in post-ChatGPT history \u2014 a matched pair with May that took AI from the subsidy era into token scarcity, then detonated with Fable 5, a government export-control shutdown, and the first real open-weight DeepSeek moment for the West.",
+  "source": "https://aidailybrief.ai/e/2026-07-03",
   "oneIdea": {
-    "headline": "The companies leaning hardest into AI are hiring more, not fewer, people.",
-    "summary": "The AI-and-jobs story has been dominated by fear, but the newest data cuts the other way. Ramp found high-AI-adoption firms grew headcount 10% over two years \u2014 and 12% at entry level \u2014 while low-adoption firms stayed flat. Box's survey echoes it. Meanwhile even a hard new benchmark shows AI completing just 16% of freelance tasks at professional quality. NLW's long-held optimism is getting numbers behind it \u2014 even as real, painful displacement in specific roles is still coming."
+    "headline": "June was the month AI's second great transition became real \u2014 cost, sovereignty, and government all at once.",
+    "summary": "May shifted AI from the subsidy era to token scarcity. June made it real: Walmart and Uber capped token budgets, Anthropic's Fable 5 stunned everyone, then the US government used export controls to shut it down \u2014 and suddenly companies had both a cost and a sovereignty reason to diversify away from closed frontier models. Open weights, routers, custom post-trained models, and harness engineering all moved from curiosity to boardroom question. The rest of 2026, NLW argues, is about figuring out how to actually operationalize this new capability."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Entry-level hiring cuts both ways for the NHS",
-        "body": "Ramp's data says high-AI-adoption firms grew entry-level headcount 12 per cent \u2014 selecting for people who use AI well. If NLW's right, practices and trusts that adopt scribes and triage tools early may end up hiring more AI-literate admin and clinical support staff, not fewer. If Zitron's right, those same tools mostly add supervision burden \u2014 every unverified AI note is checking work for a clinician, and the 4am engineers in his piece are a warning about what 'productivity' feels like from inside."
+        "title": "Sovereignty and retention are now a GP-data question too",
+        "body": "The June story that spooked enterprises \u2014 a 30-day retention policy and a government able to switch a model off overnight \u2014 lands squarely on NHS ground. Any AI scribe or triage tool a surgery relies on sits with a single vendor whose access can be paused by policy or export control. Worth confirming with your practice where consultation transcripts are processed and stored, what the retention window is, and whether there is a fallback if the service goes dark for a week."
       },
       {
-        "title": "16 per cent is the medico-legal point",
-        "body": "The Remote Labor Index finding \u2014 AI completes 16 per cent of freelance tasks to professional standard \u2014 maps neatly onto clinical documentation. The scribe drafts; the GP remains the quality gate and carries the medico-legal responsibility for the other 84 per cent. That is an argument for treating AI output as a junior's draft, never as a finished record \u2014 and for coding time to check it into the consultation, not out of it."
+        "title": "If NLW is right, cheaper local models could reach primary care",
+        "body": "The month's real shift was open-weight and post-trained models becoming a serious boardroom option. If that holds, the plausible NHS dividend is scribe and coding tools that run on local or UK-hosted infrastructure at lower cost, easing the data-residency worries that slow procurement. For a scribe user that would mean less dependence on one US lab and fewer information-governance objections."
       },
       {
-        "title": "Ford's graybeards are an NHS parable",
-        "body": "Ford rehired 350 veteran engineers to fix AI tools trained on design documents alone \u2014 and topped the quality survey. The NHS analogue: experienced clinicians' judgement is the training signal these systems need, and letting senior GPs drift out of the workforce while automating on guidelines alone is a false economy. Retainer-style roles supervising and correcting AI may be a genuinely useful late-career job."
+        "title": "If Zitron is right, budget for prices to rise, not fall",
+        "body": "If the buildout is a bubble whose costs are only now biting, today's affordable subscriptions are underpriced and will climb, or vendors will fail. Prudent practice planning treats the current AI scribe deal as provisional: keep the manual workflow usable, avoid single-vendor lock-in, and don't restructure clinics around a tool whose pricing may jump. The 6.4 hours a week of \"bot sitting\" is also a real cost to weigh against any time saved."
       }
     ]
   },
@@ -29,253 +29,253 @@
     "url": "https://www.wheresyoured.at/the-ai-industry-is-losing/",
     "date": "2026-06-30",
     "same_day": false,
-    "text": "Zitron's June 30 piece reads the AI-and-work story as a con running in both directions. Agents marketed as autonomous actually chain people to longer hours \u2014 he cites Bloomberg's account of engineers working until 4am alongside the bots they deploy, and a founder who says he has \"never worked harder in my life.\" The replacement threat, meanwhile, is deliberate fear-marketing by labs whose models, he writes, \"cost about as much as a person\" yet can neither replace one nor turn a profit, with benchmarks \"rigged in their favor.\" On his account, hiring data from AI-heavy firms would show only that the tools demand ever more human supervision."
+    "text": "Where NLW reads June's token budgets, Fable 5, and the scramble toward open weights as AI maturing into a real, cost-disciplined industry, Zitron reads the same month as the bubble's unit economics finally showing through. Seizing on the Bank for International Settlements' annual report, he notes the five largest hyperscalers are set to spend over a trillion dollars on AI capex across 2025-26, commitments that are \"outpacing earnings and free cash flow\" and forcing firms to issue debt. His warning is that disappointing returns could turn the capex boom into what the BIS calls a \"protracted investment bust\", cascading through indebted suppliers like Oracle and CoreWeave. To him, cheaper tokens and efficiency drives are not maturation but a sector discovering it cannot afford its own product."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is whether AI, at today's capability, complements human labour or substitutes for it. Both accept more than they let on: NLW's own headline benchmark has AI completing just 16 per cent of freelance tasks to professional standard, and Zitron insists models cannot replace a person \u2014 so both agree the substitution case is currently weak. The empirical question that will resolve is whether headcount at high-AI-adoption firms keeps growing as the tools mature; the observable that settles it is the next rounds of payroll data \u2014 Ramp and Revelio follow-ups, and the BLS tech-and-finance series \u2014 through 2027. The residue is pure worldview: whether higher output per worker is liberation or exploitation. NLW is vindicated if hiring growth persists and broadens beyond the subsidised early adopters; Zitron if it proves a spending artefact that reverses when the cheap money stops. Both are polemicists with incentives \u2014 NLW sells daily optimism, Zitron sells bubble certainty \u2014 so the signal is their overlap: today's AI does a small fraction of real work. Watch the next Ramp/Revelio update against the 28,000-a-month tech job losses."
+    "text": "The single variable both men orbit is whether the enormous money flowing into AI compute converts into durable, defensible economic returns. Both accept two facts: hyperscaler capex is vast and currently outruns free cash flow, and providers are tightening per-token pricing after the subsidy phase. The empirical question that will resolve it is whether enterprises keep expanding AI spend at genuine positive return, or whether the big four guide capex down for lack of it; the observable that settles it is Q3-Q4 2026 hyperscaler capex guidance set against operating cash flow, plus any audited inference margin. What remains pure worldview is interpretation: Whittemore reads discipline and diversification as an industry maturing, Zitron reads the identical signals as the economics finally biting. NLW is vindicated if token efficiency and open weights let firms scale AI profitably; Zitron if financing pulls back into a bust. Both are polemicists with incentives, NLW bullish and builder-facing, Zitron bubble-certain and anti-hype, so the signal is where they agree despite opposite priors, and here they agree the subsidy era is over. Watch the next capex guidance."
   },
   "headlines": [
     {
-      "id": "openai-5-percent-government",
-      "headline": "OpenAI proposes giving the US government a 5% stake",
-      "type": "insight",
-      "segment": "headlines",
+      "id": "june-most-significant-month",
+      "headline": "June was one of the most significant months in post-ChatGPT AI history",
+      "type": "take",
+      "segment": "main",
       "timestamp": "00:00",
       "attribution": null,
-      "summary": "OpenAI has proposed contributing a 5% equity stake \u2014 worth around $42 billion at current valuations \u2014 to a sovereign wealth fund structured like Alaska's Permanent Fund. It's unclear whether the administration would buy the stake or receive it as a gift, and sources call the talks still \"conceptual,\" possibly requiring an act of Congress.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#openai-5-percent-government"
+      "summary": "NLW frames May and June as a matched pair telling the same story from different angles \u2014 the shift from the AI subsidy era to the token scarcity era becoming real, then getting supercharged by a stunning new model and government intervention.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#june-most-significant-month"
     },
     {
-      "id": "all-labs-5-percent",
-      "headline": "OpenAI wants every leading lab to chip in 5%",
+      "id": "subsidy-to-scarcity-2",
+      "headline": "May's story: the subsidy era ends, token scarcity begins",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Beyond itself and Anthropic, OpenAI has proposed that all leading AI developers \u2014 potentially Google, Meta and others \u2014 contribute 5% of their equity. It's not clear any of the other firms agree or are even in the discussions.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#all-labs-5-percent"
+      "summary": "Providers had already been shifting from seat-based subscriptions to usage-based models \u2014 the inevitable consequence of moving from pre-agentic to agentic workloads that consume vastly more intelligence. Companies that ran out to \"token maximize\" started turning off their internal leaderboards.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#subsidy-to-scarcity-2"
     },
     {
-      "id": "ft-quid-pro-quo",
-      "headline": "An ownership stake could help secure good relations with the administration.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "01:00",
-      "attribution": "Financial Times",
-      "summary": "The FT read the proposal as a fairly clear quid pro quo \u2014 an attempt to address political blowback by sharing AI-generated wealth with the public while smoothing relations with the White House.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#ft-quid-pro-quo"
-    },
-    {
-      "id": "micron-trump-accounts",
-      "headline": "Micron pours $250M into government-funded Trump accounts",
+      "id": "walmart-uber-caps",
+      "headline": "Token discipline goes real: Walmart budgets, Uber's $1,500 cap",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "Memory producer Micron agreed to invest $250 million in Trump accounts, the government-funded investment accounts for children introduced last year. The program has so far been funded largely by philanthropy, including a $6.25 billion donation from Dell CEO Michael Dell and his wife.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#micron-trump-accounts"
+      "summary": "At the start of June, Walmart moved from unlimited internal-tool usage to token budgets, and Uber set a $1,500-per-month cap on AI spend. These stories cemented token efficiency and discipline as important new aspects of the enterprise AI landscape.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#walmart-uber-caps"
     },
     {
-      "id": "tributary-capitalism",
-      "headline": "The Overton window on tribute deals is shifting",
+      "id": "efficiency-name-of-game",
+      "headline": "Vanguard companies pivot to efficiency and cheaper architectures",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "02:00",
+      "attribution": null,
+      "summary": "For companies on the vanguard, June brought a clear new emphasis on efficiency, new model architectures, and shifting to lower-cost models \u2014 including Chinese open-weight models, a choice that would become more fraught later in the month.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#efficiency-name-of-game"
+    },
+    {
+      "id": "most-companies-tiny-consumption",
+      "headline": "Most companies aren't even close to needing token efficiency",
       "type": "take",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "NLW frames the government stake and corporate contributions as a \"strange new era of tributary capitalism.\" The window on these arrangements is clearly moving \u2014 and he steers clear of a hotter take to keep the show moving.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#tributary-capitalism"
+      "summary": "NLW notes it's reductive to think every company was throwing frontier models at every workload \u2014 most haven't adopted AI enough to worry about efficiency, consuming a \"vanishingly small\" portion of the intelligence they'll ultimately use.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#most-companies-tiny-consumption"
     },
     {
-      "id": "meta-compute",
-      "headline": "Meta plans a cloud business to sell excess AI capacity",
+      "id": "microsoft-post-training",
+      "headline": "Microsoft's under-discussed move: post-training models per enterprise",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Meta is developing \"Meta Compute,\" a cloud business that would sell access to models hosted on its data centers (like AWS Bedrock) or raw compute (like CoreWeave). It has a name and leadership team \u2014 Head of Infrastructure Janardhan, with Daniel Gross and Dina Powell McCormick \u2014 but plans are still in flux.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#meta-compute"
+      "summary": "NLW flags a wildly under-discussed June story \u2014 Microsoft pushing not only new proprietary models trained from the ground up, but a product that post-trains models to the specific criteria of a particular enterprise customer. It got lost amid a million other Microsoft announcements.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#microsoft-post-training"
     },
     {
-      "id": "meta-stock-neocloud",
-      "headline": "Meta soars 8.8%; neoclouds get pummeled",
+      "id": "fable-5-lands",
+      "headline": "Fable 5 breaks the pattern of underwhelming version jumps",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "The cloud report sent Meta stock up as much as 10%, closing up 8.8% \u2014 its best single day in six months \u2014 while CoreWeave and Nebius each lost 17%. Jefferies compared it to the early days of AWS; Mizuho called it more a \"plan B\" that adds a margin of safety to earnings.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#meta-stock-neocloud"
+      "summary": "Anthropic released Fable 5 on June 10th, and unlike labs that often underwhelm on new numerical categories, it was immediately and clearly much more powerful \u2014 especially for technical and coding use cases, though NLW found the improvement extraordinarily clear across every area.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#fable-5-lands"
     },
     {
-      "id": "rune-frontier-lab",
-      "headline": "You either die a frontier lab or live long enough to see yourself sell compute.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "05:00",
-      "attribution": "Rune, OpenAI",
-      "summary": "OpenAI's Rune riffed on the trend of frontier labs turning into compute vendors, following SpaceX's pivot \u2014 including a $1.25 billion-a-month deal to supply Anthropic \u2014 which now drives more revenue than Starlink.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#rune-frontier-lab"
+      "id": "completion-energy",
+      "headline": "Fable 5 killed the \"completion energy\" problem",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "NLW's best non-technical description: earlier coding models lowered the activation energy to start projects but not the completion energy to finish them, leaving him stuck at 80-90%. Fable 5 was the first model that made finishing big projects feel insignificant \u2014 the new AI Daily Brief website was one result.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#completion-energy"
     },
     {
-      "id": "spacex-ai-device",
-      "headline": "SpaceX reportedly showed investors an AI handset \u2014 Elon denies it",
+      "id": "fable-one-shots",
+      "headline": "Fable 5 built a product feature during a live customer call",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "The Wall Street Journal reports SpaceX showed a prototype AI device, slimmer than an iPhone, running a proprietary OS and integrating xAI tech, ahead of its IPO. Elon Musk called the report \"utterly false\" within minutes. With SpaceX's 2025 spectrum buy and T-Mobile chatter, it could hint at a carrier-plus-Starlink-plus-handset play.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#spacex-ai-device"
+      "summary": "In the first days after release, people saw dramatically more complete work: Riley Brown one-shotting a Replit-style mobile app builder, creators testing 3D worlds, and one story of Fable 5 building a requested product feature while the customer conversation was still happening.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#fable-one-shots"
     },
     {
-      "id": "anthropic-spyware-rollback",
-      "headline": "Anthropic rolls back Claude Code monitoring of Chinese labs",
+      "id": "retention-policy-backlash",
+      "headline": "Anthropic's 30-day retention policy triggered enterprise \"absolutely not\"",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "After a Reddit uproar, Anthropic rolled back a March experiment in Claude Code that detected proxies and used time-zone and metadata to flag users in China or tied to Chinese labs. Co-developer Tarik said it was meant to prevent reseller abuse and distillation, and stronger mitigations have since replaced it.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#anthropic-spyware-rollback"
+      "summary": "Anthropic said prompts and outputs for Mythos-class models including Fable would be retained 30 days for trust and safety review. Many enterprises immediately balked \u2014 a preview of a broader realization that access to a critical business asset was mediated by a single or small handful of companies.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#retention-policy-backlash"
     },
     {
-      "id": "anthropic-visibility",
-      "headline": "The real story is how much Anthropic can see",
-      "type": "take",
-      "segment": "headlines",
+      "id": "government-shutdown",
+      "headline": "The US government forced Fable 5 offline via export controls",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "NLW argues the takeaway isn't the anti-distillation effort \u2014 it's a reminder of the visibility Anthropic has into the work being done on its systems.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#anthropic-visibility"
+      "summary": "By that first Friday, Washington used an export-control directive to demand Anthropic suspend Fable-5 and Mythos-5 access for foreign nationals. Anthropic said the only way to comply was to shut down access for everyone \u2014 a precedent for direct government intervention in frontier AI access.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#government-shutdown"
     },
     {
-      "id": "fable-5-reactions",
-      "headline": "Fable 5 returns to a wave of gushing",
+      "id": "jailbreak-catalyst",
+      "headline": "A narrow Amazon jailbreak report was the catalyst \u2014 not the whole story",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "NLW says a narrow jailbreak report from Amazon triggered the flurry of government activity, but it felt more like a catalyst for parts of the US government to wake up to how much more powerful this class of models was than anything previously available.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#jailbreak-catalyst"
+    },
+    {
+      "id": "ad-hoc-licensing",
+      "headline": "An ad hoc AI licensing regime, shooting from the hip",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "Users regained access to Fable 5 and raved: Elvis Sun said it audited his business, cracked backend and engineering problems Opus couldn't, and \"is smarter than me.\" Andrew McAllister called it \"an absolute monster\" that's \"machine-gunning PRs.\"",
-      "link": "https://aidailybrief.ai/e/2026-07-02#fable-5-reactions"
+      "summary": "The ban extended beyond Fable as GPT 5.6 got delayed too (OpenAI announced it would be a set of three models). The government began approving each new wave of companies and people for access \u2014 what felt to many like the beginning of a messy, ad hoc licensing regime with no legal precedent.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#ad-hoc-licensing"
     },
     {
-      "id": "fable-opus-routing",
-      "headline": "Mixed reports on Fable kicking work to Opus",
-      "type": "insight",
-      "segment": "headlines",
+      "id": "cost-and-sovereignty",
+      "headline": "Now there are two reasons to diversify: cost AND sovereignty",
+      "type": "take",
+      "segment": "main",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "A big open question is how often Fable reroutes benign coding tasks to Opus. Nick Dobos said Fable did only 20% of the work; one user paid $321 for a session where \"Fable 5 refused to do the work.\" Others, like Max Weinbach, had no refusals \u2014 and Theo found it shines as an orchestrator of other agents.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#fable-opus-routing"
+      "summary": "The Fable pause became the second major reason, after cost, for companies to look at alternatives to closed frontier models. Companies now had both a cost and a sovereignty dimension for diversifying their architecture away from just OpenAI or Anthropic.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#cost-and-sovereignty"
     },
     {
-      "id": "mollick-day-one",
-      "headline": "Nobody has enough experience to reach any real conclusions.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": "Professor Ethan Mollick",
-      "summary": "Ethan Mollick noted that all the posts about the best workflows for Fable reveal how little anyone knows about organizing work for long-running agents. NLW: figuratively and literally, we're still on day one of figuring out this new class of models.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#mollick-day-one"
-    },
-    {
-      "id": "remote-labor-index-jump",
-      "headline": "AI's ability to do real freelance work quadrupled in under 8 months",
+      "id": "glm-52-deepseek-moment",
+      "headline": "GLM 5.2 was the West's first real DeepSeek moment since R1",
       "type": "insight",
+      "segment": "main",
+      "timestamp": "12:00",
+      "attribution": null,
+      "summary": "NLW argues z.ai's GLM 5.2 was the first model since DeepSeek-R1 that legitimately earned the \"DeepSeek moment\" label. It wasn't as good as Fable 5, but it exceeded the Opus 4.6 / GPT-5.2 level that had kicked off the agentic era \u2014 making the open-weight fallback feel like genuine competition rather than compromise.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#glm-52-deepseek-moment"
+    },
+    {
+      "id": "custom-post-trained-stacks",
+      "headline": "Custom post-trained and multi-model stacks stole attention",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "13:00",
+      "attribution": null,
+      "summary": "Interest went beyond raw open weights to custom post-trained models like Cursor's Composer 2.5 (built off Kimi) and integrated architectures \u2014 Harvey and Fireworks paired an open-weight GLM worker with an Opus advisor for legal tasks, beating Opus alone at a fraction of the cost. OpenRouter's Fusion used a panel of models, a judge, and a synthesizer.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#custom-post-trained-stacks"
+    },
+    {
+      "id": "local-ai-boardroom",
+      "headline": "Local AI became a serious boardroom question for the first time",
+      "type": "take",
       "segment": "main",
       "timestamp": "14:00",
       "attribution": null,
-      "summary": "The Center for AI Safety's Remote Labor Index \u2014 which judges deliverables against a paid professional's gold standard \u2014 has Fable at 16.1%, up from GPT-5.5's 6.3% and Opus 4A's 8.3%. When first run late last year, top performer GPT-5.2 scored just 2.5%. \"The frontier has more than quadrupled in under eight months.\"",
-      "link": "https://aidailybrief.ai/e/2026-07-02#remote-labor-index-jump"
+      "summary": "NLW says that for the first time since he's done the show, local AI and open-weight models became a genuine enterprise boardroom conversation worldwide \u2014 with firms reevaluating their policies on running models locally.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#local-ai-boardroom"
     },
     {
-      "id": "sixteen-percent-interpretation",
-      "headline": "16% of tasks is not 16% of jobs",
-      "type": "take",
+      "id": "harness-ecosystem-strategy",
+      "headline": "AI strategy became ecosystem strategy in the Fable pause",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "16:00",
+      "timestamp": "15:00",
       "attribution": null,
-      "summary": "NLW argues the report has something for everyone: work quality is advancing fast, yet getting to a fully economically viable product remains hard. The gap between those two \u2014 84% still needing a human \u2014 is where freelancers and firms can redesign their economics and deliverables.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#sixteen-percent-interpretation"
+      "summary": "With no new model to play with, attention shifted to harnesses and ecosystems. Satya Nadella posted that every company needs a learning loop around its AI usage \u2014 owning the compounding context, decisions, evaluations, and institutional memory, not just choosing the right model.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#harness-ecosystem-strategy"
     },
     {
-      "id": "chatterji-tasks-jobs",
-      "headline": "Just because a task is exposed to AI doesn't mean it's going to substitute for it.",
-      "type": "quote",
+      "id": "claude-tag-slack",
+      "headline": "Claude Tag turned Claude Code into a group experience",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": null,
+      "summary": "Claude Tag let anyone in Slack call on the power of Claude Code, democratizing access to advanced technical capabilities and giving it more persistent context. Anthropic's reverence was notable \u2014 it claimed 65% of its product team's code was now initiated from Slack rather than the Claude app or terminal.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#claude-tag-slack"
+    },
+    {
+      "id": "compute-market-neoclouds",
+      "headline": "Compute becomes its own market \u2014 and Meta joins the neocloud rush",
+      "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
-      "attribution": "Ronnie Chatterji, OpenAI chief economist",
-      "summary": "OpenAI chief economist Ronnie Chatterji told an ECB event he doesn't think AI will replace workers, citing his economist father, whose job was \"exposed\" to the PC but who found it a complement that made him more productive. He noted predicted software-developer job shrinkage hasn't materialized as forecast.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#chatterji-tasks-jobs"
+      "attribution": null,
+      "summary": "Memory companies outperformed as the memory shortage came into focus. SpaceX expanded its Anthropic deal plus deals with Google and Reflection AI, and Meta and Zuckerberg are now reportedly following Elon into the accidental neocloud space.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#compute-market-neoclouds"
     },
     {
-      "id": "bls-tech-finance-losses",
-      "headline": "Tech and finance are shedding 28K jobs a month",
+      "id": "data-centers-politics",
+      "headline": "Data centers are becoming a bipartisan political flashpoint",
       "type": "insight",
       "segment": "main",
-      "timestamp": "19:00",
+      "timestamp": "17:00",
       "attribution": null,
-      "summary": "BLS data shows tech and finance losing an average of 28,000 jobs per month so far this year, even as the overall economy adds 113,000 monthly. Analysts split on whether it's genuine AI productivity or a cost-cutting narrative layered over 2022 over-hiring.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#bls-tech-finance-losses"
+      "summary": "June was a low ebb but things are brewing on both left and right. When Erin Brockovich and former Tea Party conservatives mobilize against the same thing, NLW notes, AI data centers are going to be part of the political discourse.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#data-centers-politics"
     },
     {
-      "id": "china-no-layoffs",
-      "headline": "China is leaning on companies not to lay off for AI",
+      "id": "bot-sitting",
+      "headline": "\"Bot sitting\" eats 6.4 hours a week",
       "type": "insight",
+      "segment": "main",
+      "timestamp": "18:00",
+      "attribution": null,
+      "summary": "A Glean report identified bot sitting \u2014 all the work around making agents work. Workers spend an average of 6.4 hours per week feeding agents context, checking outputs, and rerunning underwhelming results, reinforcing that the capability overhang is solved by change management, not just new models.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#bot-sitting"
+    },
+    {
+      "id": "ceo-accountability",
+      "headline": "CEO-owned AI doubles the odds of real value",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "18:00",
+      "attribution": null,
+      "summary": "KPMG's quarterly pulse survey showed a big jump in CEOs actively owning AI as a strategic priority \u2014 and organizations where CEOs were accountable for AI were more than twice as likely to report meaningful business value than those where they weren't.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#ceo-accountability"
+    },
+    {
+      "id": "summer-opportunity",
+      "headline": "The summer slowdown is your window to race ahead",
+      "type": "take",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "Per the New York Times, China's government is pressing firms to avoid AI-driven layoffs, with legal teeth: an April Hangzhou court ruled a tech company illegally fired a worker it replaced with AI. NLW notes this mirrors his own thesis that governments may incentivize keeping people employed before turning to something like UBI.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#china-no-layoffs"
-    },
-    {
-      "id": "ford-graybeards",
-      "headline": "Ford rehired 350 \"graybeard\" engineers to fix its AI",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "Ford brought back 350 veteran engineers to retrain AI tools that weren't getting the job done \u2014 and became the top mainstream brand in JD Power's Initial Quality Survey. VP Charles Poon: \"AI is a fantastic tool, but it's only as good as the information you use to train it,\" admitting they'd wrongly assumed ingesting design requirements alone would produce quality.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#ford-graybeards"
-    },
-    {
-      "id": "ramp-headcount-growth",
-      "headline": "High-AI-adoption firms grew headcount 10% \u2014 12% at entry level",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": null,
-      "summary": "Ramp and Revelio Labs correlated AI spend against payroll for 21,000 US businesses: high-adoption firms grew headcount 10% over two years while low-adoption firms stayed flat, with entry-level growth even stronger at 12%. Aggressive hiring synced to the start of AI adoption, suggesting causation \u2014 with spend a modest ~$30 per employee per month.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#ramp-headcount-growth"
-    },
-    {
-      "id": "ramp-new-skills",
-      "headline": "High-AI-adopting firms are hiring different kinds of employees.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": "Karazian, Ramp lead economist",
-      "summary": "Ramp economist Karazian said the data is the first evidence that AI-heavy firms are selecting for a new skill set \u2014 people who know how to use AI well \u2014 and that entry-level workers, recent grads and college students are a natural place to look. He also urged skepticism, noting a 6\u201312 month learning curve before hiring picks up.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#ramp-new-skills"
-    },
-    {
-      "id": "box-levie-survey",
-      "headline": "79% of mature AI adopters expect headcount to rise.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "26:00",
-      "attribution": "Aaron Levie, Box CEO",
-      "summary": "Box CEO Aaron Levie shared a survey of 1,600+ mid and large companies: 58% expect headcount to grow over three years, climbing to 79% among the most mature AI adopters. His logic: more customers from AI-powered sales means more salespeople; more software built means more engineers.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#box-levie-survey"
-    },
-    {
-      "id": "nlw-optimism-caveat",
-      "headline": "Optimistic long term \u2014 but real displacement is still coming",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "26:00",
-      "attribution": null,
-      "summary": "NLW is encouraged that both narrative and numbers now validate his jobs optimism, but warns some job categories will be wiped out and vulnerable populations near career's end will struggle to pivot. Crafting targeted policy for specific at-risk roles, he argues, is a far more tractable task than fighting an imagined AI job apocalypse.",
-      "link": "https://aidailybrief.ai/e/2026-07-02#nlw-optimism-caveat"
+      "summary": "With Fable 5 back, NLW sees a unique July-August opportunity: big chunks of the corporate world turn off for the summer, so anyone who instead uses the time to see what this new class of models can do can significantly increase their value.",
+      "link": "https://aidailybrief.ai/e/2026-07-03#summer-opportunity"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-02.mp3",
-  "generated": "2026-07-04T06:16:47Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-03.mp3",
+  "generated": "2026-07-05T19:07:00Z"
 }
