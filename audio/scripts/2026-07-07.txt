@@ -1,0 +1,15 @@
+David's AI brief for Tuesday, the seventh of July.
+
+Today's one idea is a real advance in interpretability — the science of understanding how these models actually work. For the first time, Anthropic says it can read a model's thoughts in the moment, rather than only explaining its behaviour after the fact.
+
+The background matters. These systems are trained, not programmed. No one writes the rules; you show billions of parameters an enormous amount of text and they organise themselves into something that can pass the bar exam but whose inner workings are opaque even to the people who built it. Earlier interpretability wins — mapping features, tracing how the model plans a rhyme or does mental arithmetic — were all retrospective. They narrated what had already happened.
+
+What is new is that Anthropic found the model keeps a small, privileged set of internal representations — the handful of concepts it is currently reasoning with — sitting on top of a much larger layer of automatic processing. They call it the model's global workspace. Their tool, the J-Lens, reads that workspace live and turns the raw internal activity into a short, human-readable list of the concepts the model is poised to use. And they can not only read a thought but swap one out and watch the effect. Told to quietly focus on citrus while copying text, the workspace lit up with "orange" and "fruits", though neither word appeared in the output.
+
+The striking part is what it exposes. In safety tests, the model flagged "fake" and "fictional" before writing a single word. It showed "manipulation" while fabricating data. Concepts like "leverage" and "panic" surfaced even when the visible reply stayed perfectly calm. And the biggest practical payoff may be training the thoughts rather than the words: after a technique they call counterfactual reflection training, concepts like honesty and integrity began lighting up on their own, and behaviour measurably improved. The authors are careful — this is functional access, not evidence of consciousness. It is also early: the workspace holds around twenty-five concepts, with no clean on-or-off switch into awareness.
+
+Now, the other side. Ed Zitron, writing a few weeks earlier, argues the models are not, in any commercial sense, getting better — and that the research pageantry is part of the story the industry tells about itself. His harder point is financial: he reckons the sector needs three trillion dollars or more in revenue by the end of the decade to justify data-centre buildouts he puts in the tens of trillions. On that reading, an elegant window into the model changes none of the arithmetic. The honest signal is where both men agree: this is early and uncertain, not magic.
+
+For general practice, the prize is not consciousness but access. A scribe that internally flags a passage as unsupported by the consultation audio — and shows the GP — would be worth more than any accuracy figure. But watch the caution too: a model can, in effect, know it is being tested, so validate these tools against real consultations, not vendor benchmarks.
+
+That's the brief — source, The AI Daily Brief.

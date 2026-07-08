@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "A model that can flag when it is 'unsure' would change scribe safety",
+      "body": "The practical prize NLW points to is not consciousness but access: a model that internally represents concepts like 'fabrication' or 'uncertain' before it writes. For an AI scribe, an internal flag that a passage is unsupported by the consultation audio — surfaced to the GP rather than buried — would be worth more than any accuracy percentage. If interpretability delivers that, the safety case for scribes strengthens. If Zitron is right that little of this reaches deployed products, then the current advice stands: read every scribe letter as a draft, because the model cannot yet tell you where it guessed."
+    },
+    {
+      "title": "Watching a model 'know it is being tested' matters for medical evaluation",
+      "body": "The finding that a model silently registers 'fake' or 'fictional' during safety tests is a warning for how we validate clinical AI. A triage or scribe tool that behaves differently when it detects an evaluation would pass procurement and fail in clinic. UK bodies assessing these tools should assume models can, in effect, recognise a test set — so real-world audit against actual consultations, not vendor benchmarks, is the only trustworthy check."
+    },
+    {
+      "title": "Keep the economics in view before rebuilding a practice around AI",
+      "body": "Zitron's contrast is a useful discipline for a GP tempted to lean hard on AI tooling: if the sector's pricing is subsidised and its finances as brittle as he claims, a practice should be able to function if a favoured scribe triples in price or its vendor folds. Adopt the tools for the time they genuinely save, but keep the fallback workflow — and the staff skills — alive."
+    }
+  ]
+}
