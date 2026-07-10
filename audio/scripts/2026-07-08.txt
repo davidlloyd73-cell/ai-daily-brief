@@ -1,0 +1,15 @@
+David's AI brief for Wednesday, the eighth of July.
+
+Today's one idea is about money — the surging cost of running AI, and why the industry's favourite fix for it may be about to vanish.
+
+Some background. As AI has moved from chatbots to agents — systems that work away at long tasks on their own — the bills have ballooned. Tesla has just imposed a company-wide cap on AI spending. And when firms flinch at the cost, they have had two blunt options: spend less, or switch to a cheaper model. In practice, the cheaper models have overwhelmingly been Chinese — open-weight systems you can download and run yourself, nearly as capable as the American frontier at a fraction of the price.
+
+Now Reuters reports that Beijing is exploring blocking overseas distribution of its most advanced models. Alibaba, ByteDance and others have been called in to the Ministry of Commerce, and the ideas on the table include making the leaking of AI technology a national-security crime. Ethan Mollick, the Wharton professor, warns that whole national AI strategies rest on the assumption that frontier open models keep flowing — and that assumption may not hold much longer.
+
+The host's point is that even if the door closes, the underlying cost problem remains, and the beneficiaries would be Western alternatives. Google's lightweight open model, Gemma, has been downloaded two hundred million times in ten weeks. Microsoft now lets customers tune its own models, claiming ten times the efficiency for some tasks. And fine-tuning is proving remarkably cheap: the hedge fund Bridgewater tuned a small model to roughly eighty-five per cent accuracy on its own expert judgements, at single-digit dollars a task, beating frontier models costing many times more. Either way, he says, the enterprise buyer's life gets more complicated, not less.
+
+Now, the other side. Ed Zitron, writing the day before, thinks the China panic is a child's fantasy: the thing everyone fears — cheap Chinese models matching premium American ones — has already happened, and the sky did not fall. His deeper argument is that the cheap-model fix was never a fix, because nobody anywhere sells AI at a profit; subscriptions, he reckons, amount to selling forty dollars of computing for one dollar. Where the two men agree, from opposite corners, is the telling part: frontier AI at its true price is unaffordable for everyday, scaled-up use. Watch whether Beijing formalises the restriction — and what happens to the per-task price.
+
+For general practice, the thread runs straight to the consulting room. Your AI scribe is priced per seat, but the vendor pays per token. If cheap models disappear or prices rise, vendors will either raise prices or quietly swap in cheaper models behind the scenes. Two questions worth putting to any supplier: which models sit underneath the product, and would a change trigger re-validation and a notification? And Zitron's stress test is simply good practice management: could you function next month if the scribe trebled in price? Keep the fallback workflow, and the staff skills behind it, alive.
+
+That's the brief — source, The AI Daily Brief.

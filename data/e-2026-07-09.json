@@ -1,0 +1,406 @@
+{
+  "id": "2026-07-09",
+  "date": "2026-07-09",
+  "weekday": "Thursday",
+  "type": "daily",
+  "title": "How the 4 New AI Models Change How You Work",
+  "slug": "how-the-4-new-ai-models-change-how-you-work",
+  "canonicalUrl": "https://aidailybrief.ai/e/2026-07-09",
+  "dek": "Summer used to be when things slowed down. Not anymore. NLW walks through the four models that landed this week — GPT Live, Grok 4.5, Cognition's SWE 1.7, and GPT-5.6 Sol — and argues that the competition has quietly stopped being about raw intelligence and started being about interaction patterns, efficiency, and how you actually get work done.",
+  "durationMin": 35,
+  "sponsors": [
+    {
+      "name": "KPMG",
+      "url": "https://kpmg.com/us/sophisticated"
+    },
+    {
+      "name": "Robots and Pencils",
+      "url": "https://robotsandpencils.com"
+    },
+    {
+      "name": "Blitzy",
+      "url": "https://blitzy.com"
+    },
+    {
+      "name": "Airtable (Hyperagent)",
+      "url": "https://hyperagent.com/aidailybrief"
+    }
+  ],
+  "listen": {
+    "all": "https://pod.link/1680633614",
+    "spotify": "https://open.spotify.com/show/7gKwwMLFLc6RmjmRpbMtEO",
+    "apple": "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-artificial-intelligence-news/id1680633614",
+    "youtube": "https://www.youtube.com/@AIDailyBrief",
+    "adFree": "https://patreon.com/aidailybrief",
+    "youtubeEpisode": null,
+    "spotifyEpisode": "https://open.spotify.com/episode/08QwQjzaEl8GfXbf3WqZOZ"
+  },
+  "thesis": {
+    "tag": "The One Idea",
+    "headline": "The model wars have moved past raw intelligence — now it's about interaction and fit.",
+    "sub": "Four new models in one week tell a consistent story: frontier labs are no longer just racing on benchmarks. GPT Live is a voice-first interaction layer that calls smarter models in the background. Grok 4.5 delivers near-Opus performance at Haiku-level cost. Cognition's SWE 1.7 and Cursor's Composer show app-layer companies fine-tuning cheap specialized models on their own usage data. And GPT-5.6 Sol vs Fable is now a genuine personality choice, not a leaderboard rank. The takeaway: you'll increasingly run multiple models at once — orchestrators plus implementers — matched to the shape of the job, with voice becoming a bigger part of how you coordinate it all."
+  },
+  "numbers": [
+    {
+      "value": "31¢",
+      "label": "Grok 4.5's cost per task on the AA index vs $1.80 for Opus 4-8 and $2.75 for Fable 5",
+      "accent": "green"
+    },
+    {
+      "value": "1/9",
+      "label": "Grok 4.5's cost per task relative to Fable 5",
+      "accent": "cyan"
+    },
+    {
+      "value": "51.4%",
+      "label": "Grok 4.5's state-of-the-art Automation Bench score vs Fable 5's 48.6%",
+      "accent": "amber"
+    },
+    {
+      "value": "34¢",
+      "label": "Grok 4.5's Automation Bench cost per task vs $1.35 for Fable",
+      "accent": "green"
+    },
+    {
+      "value": "4th",
+      "label": "Where Grok 4.5 ranks overall on the artificial analysis index",
+      "accent": "cyan"
+    },
+    {
+      "value": "~1/3",
+      "label": "SWE 1.7's cost vs frontier models for comparable tasks",
+      "accent": "green"
+    },
+    {
+      "value": "10T",
+      "label": "Parameters in the Grok model Elon reportedly has in training",
+      "accent": "red"
+    },
+    {
+      "value": "~4 wks",
+      "label": "When GPT-6 (a new, larger pretrain) may arrive, per leakers",
+      "accent": "amber"
+    }
+  ],
+  "nuggets": [
+    {
+      "id": "month-of-models",
+      "segment": "main",
+      "type": "take",
+      "category": "models",
+      "functions": [
+        "exec"
+      ],
+      "ts": "00:00",
+      "headline": "The 'month of models' has begun",
+      "body": "AI has obliterated the summer slowdown. With the previous release cadence thrown off by government interference, NLW expects a cavalcade of models in July and August — this week alone brought GPT Live, Grok 4.5, Cognition SWE 1.7, and GPT-5.6 Sol, several with real implications for how people work.",
+      "sources": []
+    },
+    {
+      "id": "gpt-live-full-duplex",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "product"
+      ],
+      "ts": "02:00",
+      "headline": "GPT Live runs on a full-duplex architecture",
+      "body": "GPT Live (and GPT Live Mini) can listen and speak at the same time, continuously processing input while generating output. It makes interaction decisions many times per second — whether to speak, keep listening, pause, interrupt, or invoke a tool — making conversation feel far closer to human-to-human.",
+      "sources": []
+    },
+    {
+      "id": "voice-evolution",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering",
+        "product"
+      ],
+      "ts": "03:00",
+      "headline": "From cascaded to turn-based to continuous voice",
+      "body": "Early ChatGPT voice chained three models (speech-to-text, LLM, text-to-speech), which was slow and lossy. Advanced voice mode moved to a single turn-based model but still waited for silence to respond. GPT Live's continuous architecture removes the awkward, stilted turn-taking entirely.",
+      "sources": []
+    },
+    {
+      "id": "interaction-orchestrator",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering"
+      ],
+      "ts": "04:00",
+      "headline": "Voice model as orchestrator, reasoning done in the background",
+      "body": "OpenAI separated GPT Live's continuous-interaction job from deeper work like reasoning, agents, and search. While talking, GPT Live can summon a model like GPT-5.5 or 5.6 to handle a task in the background — the voice equivalent of the orchestrator-plus-sub-agent pattern now common in advanced AI systems.",
+      "sources": []
+    },
+    {
+      "id": "thinking-machines-parallel",
+      "segment": "main",
+      "type": "quote",
+      "category": "models",
+      "functions": [
+        "engineering"
+      ],
+      "ts": "04:00",
+      "headline": "You don't need to wait for the voice model to finish doing something while talking to it.",
+      "body": "Riley Brown noted the release closely resembles the interaction model Thinking Machines Labs introduced months ago: a real-time voice model that runs background models and tools without blocking the conversation.",
+      "attribution": "Riley Brown",
+      "sources": []
+    },
+    {
+      "id": "translation-language-learning",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "hr",
+        "product"
+      ],
+      "ts": "06:00",
+      "headline": "Turn-less voice unlocks translation and tutoring",
+      "body": "Because it doesn't wait for pauses, GPT Live can translate each phrase as it's spoken, working like a human interpreter. Testers also found it excellent for language learning — critiquing pronunciation and quizzing — and note that with new visual cards, a flashcard-style tutor is a short hop away.",
+      "sources": []
+    },
+    {
+      "id": "siri-use-cases",
+      "segment": "main",
+      "type": "take",
+      "category": "business",
+      "functions": [
+        "product",
+        "marketing"
+      ],
+      "ts": "07:00",
+      "headline": "The 'grannies' ad targets the Siri use cases",
+      "body": "OpenAI's viral clip of sophisticated grandmothers interrupting and even being rude to the model is a deliberate stress test of archetypal assistant failure modes — the basic personal-assistant tasks people have long screeched that Siri can't do. It signals an evolution in how OpenAI imagines regular, non-work consumers using ChatGPT.",
+      "sources": []
+    },
+    {
+      "id": "altman-typing-shift",
+      "segment": "main",
+      "type": "quote",
+      "category": "models",
+      "functions": [],
+      "ts": "08:00",
+      "headline": "I have always preferred typing to talking to an AI. Now I think that's going to shift.",
+      "body": "Sam Altman said GPT Live 'feels magical and real' and predicted it will change even his own long-standing preference for typing over voice.",
+      "attribution": "Sam Altman",
+      "sources": []
+    },
+    {
+      "id": "nlw-voice-as-input",
+      "segment": "main",
+      "type": "take",
+      "category": "enterprise",
+      "functions": [
+        "ops",
+        "exec"
+      ],
+      "ts": "08:00",
+      "headline": "NLW's tip: use voice as input, not conversation",
+      "body": "One of NLW's most common productivity tips is switching to voice — not back-and-forth voice mode, but tools like Whisperflow to ramble-speak inputs. You talk faster than you type and provide richer context, and reading the AI's reply is faster than waiting for it to speak back.",
+      "sources": []
+    },
+    {
+      "id": "jarvis-tech-is-here",
+      "segment": "main",
+      "type": "quote",
+      "category": "models",
+      "functions": [
+        "product",
+        "ops"
+      ],
+      "ts": "10:00",
+      "headline": "The tech is basically already there for Jarvis. The only thing left is a generative UI layer.",
+      "body": "Riley Brown, a self-described skeptic converted by the model, foresees doing email, checking business data, and scheduling meetings just by chatting — voice models are getting very good at using tools fast.",
+      "attribution": "Riley Brown",
+      "sources": []
+    },
+    {
+      "id": "voice-isnt-the-product",
+      "segment": "main",
+      "type": "quote",
+      "category": "models",
+      "functions": [],
+      "ts": "12:00",
+      "headline": "The voice isn't the product. The thinking is.",
+      "body": "Gail Wiener praised GPT Live's warmth and pacing but warned that a beautiful voice wrapped around shallow reasoning is 'a pretty face with no depth' — lovely for quick answers, but not for real brainstorming and building work.",
+      "attribution": "Gail Wiener",
+      "sources": []
+    },
+    {
+      "id": "interaction-tiers",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering",
+        "product"
+      ],
+      "ts": "13:00",
+      "headline": "These are interaction tiers, not just model tiers",
+      "body": "A viral clip showed GPT Live insisting 'seventeen' has two E's. The lesson: voice models trade deep reasoning for low latency, natural interruption, and flow. For extended strategic debate, the benchmark is still the underlying frontier reasoning model, not the voice layer.",
+      "sources": []
+    },
+    {
+      "id": "grok-45-coding",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering"
+      ],
+      "ts": "18:00",
+      "headline": "Grok 4.5 is SpaceX AI's first model built for coding and agents",
+      "body": "The first output of the SpaceX AI–Cursor collaboration after the acquisition closed, Grok 4.5 targets real-world engineering across large codebases and long-running multi-repo tasks. Cursor's Composer line will continue as a separate, smaller weight class.",
+      "sources": []
+    },
+    {
+      "id": "grok-45-efficiency",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering",
+        "finance"
+      ],
+      "ts": "20:00",
+      "headline": "Near-Opus performance at Haiku-level cost",
+      "body": "On artificial analysis tests Grok 4.5 ranks fourth overall but is by far the most cost-efficient near-frontier model at 31¢ per task — vs $1.80 for Opus 4-8 and $2.75 for Fable 5, roughly a third the cost of GPT-5.5, a fifth of Opus, and a ninth of Fable 5.",
+      "sources": []
+    },
+    {
+      "id": "grok-45-automation-bench",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "ops",
+        "engineering"
+      ],
+      "ts": "20:00",
+      "headline": "Grok 4.5 tops Automation Bench for real SaaS workflows",
+      "body": "On AA's proprietary agentic computer-use benchmark spanning Excel, Gmail, and Slack, Grok 4.5 scored a state-of-the-art 51.4% (vs Fable 5's 48.6%) at 34¢ per task versus $1.35 for Fable — using fewer tokens and turns than other frontier models.",
+      "sources": []
+    },
+    {
+      "id": "elon-most-tasks",
+      "segment": "main",
+      "type": "quote",
+      "category": "models",
+      "functions": [
+        "exec"
+      ],
+      "ts": "22:00",
+      "headline": "Fable is definitely better than Grok 4.5, but most tasks don't require Fable-level capability.",
+      "body": "Even Elon Musk conceded the point. Early adopters aren't using Grok 4.5 to replace top OpenAI or Anthropic models — they're using it as the implementation agent under a Fable or GPT-5.6 orchestrator.",
+      "attribution": "Elon Musk",
+      "sources": []
+    },
+    {
+      "id": "grok-vs-chinese-open",
+      "segment": "main",
+      "type": "quote",
+      "category": "business",
+      "functions": [
+        "exec",
+        "finance"
+      ],
+      "ts": "23:00",
+      "headline": "They are about to suck the oxygen out of the room.",
+      "body": "Stonk Daddy argued Grok 4.5 delivers better-than-Chinese-open-source performance at near-Chinese-open-source cost, without the data-sovereignty and compliance stigma — and Cursor's enterprise footprint is the Trojan horse that already got it through the door.",
+      "attribution": "Stonk Daddy",
+      "sources": []
+    },
+    {
+      "id": "app-layer-models",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering"
+      ],
+      "ts": "25:00",
+      "headline": "Cognition's SWE 1.7 extends the app-layer model pattern",
+      "body": "Built on a Kimi K 2.7 base and post-trained on Cognition's UX data, SWE 1.7 slightly beats GLM 5.2 and Composer 2.5 at half to a third the cost of frontier models. As Ben Dickson notes, closed frontier models are for exploration while open LLMs become the engine for scale and production.",
+      "sources": []
+    },
+    {
+      "id": "swe-17-speed-middle-mode",
+      "segment": "main",
+      "type": "quote",
+      "category": "models",
+      "functions": [
+        "engineering"
+      ],
+      "ts": "26:00",
+      "headline": "A task that used to justify walking away finishes before you've mentally moved on.",
+      "body": "Cognition's Nader Dabit describes a new 'weird middle mode' created by SWE 1.7's speed: technically async, but fast enough that you just watch. It targets the awkward zone of tasks too slow for real-time yet too quick to walk away from.",
+      "attribution": "Nader Dabit, Cognition",
+      "sources": []
+    },
+    {
+      "id": "gpt56-writing-legal",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "legal",
+        "marketing"
+      ],
+      "ts": "28:00",
+      "headline": "GPT-5.6 Sol excels at writing and narrow legal research",
+      "body": "Testers say Sol is a much better writer than Fable, one-shotting marketing emails prior models failed. Lawyer Prinz found it can replace an associate at any level for legal research where all relevant authorities are publicly available online, thanks to strong needle-in-haystack search.",
+      "sources": []
+    },
+    {
+      "id": "owl-vs-rottweiler",
+      "segment": "main",
+      "type": "quote",
+      "category": "models",
+      "functions": [
+        "exec"
+      ],
+      "ts": "30:00",
+      "headline": "Fable is a wise owl; GPT-5.6 Sol is a Rottweiler who grabs the problem by the throat.",
+      "body": "Arena AI's Peter Gustev summed up the contrast: Fable is the smarter model, but Sol is an insanely capable, diligent workhorse with no lectures or 'you're absolutely right'-isms. His advice: use both, and learn what each is for.",
+      "attribution": "Peter Gustev, Arena AI",
+      "sources": []
+    },
+    {
+      "id": "models-distinct-and-ahead",
+      "segment": "main",
+      "type": "quote",
+      "category": "models",
+      "functions": [
+        "exec"
+      ],
+      "ts": "32:00",
+      "headline": "The leading models are so decidedly ahead of everything else, and so distinct from one another.",
+      "body": "Dean Ball and Ethan Mollick both flag that Sol and Fable represent jumps over previous models and have opened a large gap over the next-best AIs — while feeling genuinely different. For work where intelligence matters, they're the only two choices.",
+      "attribution": "Dean Ball",
+      "sources": []
+    },
+    {
+      "id": "gpt6-rumor",
+      "segment": "main",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "exec"
+      ],
+      "ts": "32:00",
+      "headline": "GPT-6 rumored within about four weeks",
+      "body": "Leakers Leo and Andrew Curran say GPT-6 — a new, significantly larger pretrain replacing the 4-trillion 'Spud' base — may arrive far sooner than expected, though likely held back by the government initially. Everyone is going big: Anthropic's Fable 5.1 is in late stages, and Elon reportedly has a 10-trillion Grok in training, with labs seeing 'no ceiling.'",
+      "sources": []
+    }
+  ],
+  "credits": {
+    "host": "Nathaniel Whittemore",
+    "show": "The AI Daily Brief",
+    "signoff": "Until next time, peace"
+  }
+}

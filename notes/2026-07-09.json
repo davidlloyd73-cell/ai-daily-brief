@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Full-duplex voice is the most clinically interesting release in months",
+      "body": "GPT Live translating each phrase as it is spoken — like a human interpreter, with no turn-taking — speaks directly to a real primary-care problem. In a population like Harrow's, interpreted consultations through telephone services are slow, costly and often triadic in the worst way. If NLW is right, a phone on the desk could do live interpreting better than the current service within a year, and language tutoring for staff is a bonus. If Zitron's economics are right, the price is subsidised and the vendor brittle — so pilot it, but sign nothing long."
+    },
+    {
+      "title": "The voice layer must never be the thing answering clinical questions",
+      "body": "The edition's own caution matters most in medicine: continuous voice models trade depth of reasoning for fluency and low latency — one insisted 'seventeen' has two E's while sounding entirely confident. A warm, instant voice is precisely the interface most likely to be over-trusted by patients and clinicians alike. Any consulting-room use should treat the voice tier as an interpreter and receptionist, with clinical reasoning explicitly routed to (and checked against) a stronger model — or a doctor."
+    },
+    {
+      "title": "Cheap implementer models will end up under your scribe",
+      "body": "Grok 4.5 at roughly a ninth of Fable's cost per task is exactly the kind of model a scribe vendor migrates to in order to protect margin. Both NLW and Zitron agree most tasks don't need frontier intelligence — but a discharge summary or a safeguarding note is not 'most tasks'. The governance question for practices: who decides which tier of model your documentation runs on, and does a downgrade trigger re-validation? Worth asking before the swap happens, not after."
+    }
+  ]
+}

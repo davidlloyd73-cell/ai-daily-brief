@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Your scribe is priced per seat; your vendor pays per token",
+      "body": "AI scribes in UK practice sit on top of exactly the model economics this edition describes. If the cheap-model route narrows and per-token costs rise, vendors protect margin by raising prices or quietly swapping in cheaper models underneath the product. Two questions worth putting to any scribe supplier: which models sit under the tool, and does a model change trigger re-validation and notification? If NLW is right, routers will soon pick a different model per task — which makes 'which model wrote this letter?' a live clinical-governance question. If Zitron is right, budget on the assumption that today's scribe pricing is subsidised and will rise."
+    },
+    {
+      "title": "Don't build clinical workflow on geopolitically contingent models",
+      "body": "Chinese open-weight models were never a serious option for NHS patient data, so Beijing's possible export block matters less directly to primary care than to enterprise buyers. But the general lesson lands: any clinical workflow that depends on a specific model's continued availability — for price, capability or interpretive style — carries a supply risk that procurement rarely prices in. Favour tools whose vendors can demonstrate they can swap engines without degrading output, and keep the paper-and-dictation fallback workflow alive."
+    },
+    {
+      "title": "Zitron's stress test is good practice management",
+      "body": "Whichever man is right, his discipline is useful: could the practice function next month if the scribe trebled in price or the vendor folded? Adopt AI for the time it genuinely saves — but keep the staff skills and the fallback process warm. That costs little if NLW is right, and a great deal of pain avoided if Zitron is."
+    }
+  ]
+}
