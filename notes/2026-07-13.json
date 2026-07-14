@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Scribe pricing rides on subsidised compute \u2014 check your contract, not the demo",
+   "body": "Ambient scribes and other GP-facing AI tools sit on top of frontier models currently sold well below cost. If NLW's right, inference keeps getting cheaper and today's per-licence prices hold or fall \u2014 fine to commit. If Zitron's right, the subsidy ends and suppliers either raise prices or quietly swap in weaker models. Practical hedge either way: avoid multi-year single-supplier lock-in, insist on price-review and exit clauses, and ask the supplier which model actually powers the product and what happens if it's repriced."
+  },
+  {
+   "title": "Nadella's 'you pay twice' applies to every corrected consultation note",
+   "body": "The edition's sharpest enterprise idea \u2014 you pay for AI with money and again with your proprietary knowledge \u2014 lands directly on general practice. Every correction a GP makes to a scribe draft is training 'exhaust' that can leak value back to the model provider. Worth checking the data-processing agreement: does the supplier use your corrections to improve its models, and if so, on what terms? Both men would agree the NHS shouldn't be donating clinical expertise for free; they differ only on whether the resulting models will be worth anything."
+  },
+  {
+   "title": "Supplier turbulence is now the norm \u2014 plan for a vendor falling over",
+   "body": "Apple suing OpenAI, labs poaching staff, subsidy wars, Zitron predicting collapse without bailout: whichever reading is right, the AI supply base is volatile in a way NHS procurement isn't used to. If Zitron's right, some suppliers to primary care will simply disappear when funding dries up; if NLW's right, the churn continues but from competition rather than collapse. Either way a practice depending on an AI tool for clinical documentation needs a tested fallback \u2014 the old Dictaphone question: what do we do the week the service goes off?"
+  }
+ ]
+}

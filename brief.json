@@ -1,26 +1,26 @@
 {
-  "date": "2026-07-09",
-  "title": "How the 4 New AI Models Change How You Work",
-  "dek": "Summer used to be when things slowed down. Not anymore. NLW walks through the four models that landed this week \u2014 GPT Live, Grok 4.5, Cognition's SWE 1.7, and GPT-5.6 Sol \u2014 and argues that the competition has quietly stopped being about raw intelligence and started being about interaction patterns, efficiency, and how you actually get work done.",
-  "source": "https://aidailybrief.ai/e/2026-07-09",
+  "date": "2026-07-13",
+  "title": "How the Escalating AI Wars Benefit You",
+  "dek": "Apple goes thermonuclear on OpenAI, Musk and Altman trade jabs, and a subsidy price war rages between the labs \u2014 but NLW's read is that all this escalating acrimony is, at least for now, a gift to the rest of us. The competition has moved beyond frontier models to the entire ecosystem, and nobody has a handle on what shifts next.",
+  "source": "https://aidailybrief.ai/e/2026-07-13",
   "oneIdea": {
-    "headline": "The model wars have moved past raw intelligence \u2014 now it's about interaction and fit.",
-    "summary": "Four new models in one week tell a consistent story: frontier labs are no longer just racing on benchmarks. GPT Live is a voice-first interaction layer that calls smarter models in the background. Grok 4.5 delivers near-Opus performance at Haiku-level cost. Cognition's SWE 1.7 and Cursor's Composer show app-layer companies fine-tuning cheap specialized models on their own usage data. And GPT-5.6 Sol vs Fable is now a genuine personality choice, not a leaderboard rank. The takeaway: you'll increasingly run multiple models at once \u2014 orchestrators plus implementers \u2014 matched to the shape of the job, with voice becoming a bigger part of how you coordinate it all."
+    "headline": "AI competition just got personal \u2014 and the chaos is good for you.",
+    "summary": "The AI race is no longer just about who has the best frontier model. It's about hardware, architecture, learning loops, and geopolitics, all colliding in a liminal in-between moment where nobody knows where value will accrue. That anxiety is driving public spats \u2014 Apple's lawsuit, the Musk-Altman feud \u2014 but it's also driving a subsidy price war between the labs. NLW's takeaway: take advantage of the competitive upheaval while it lasts, because a smart individual can benefit mightily."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Full-duplex voice is the most clinically interesting release in months",
-        "body": "GPT Live translating each phrase as it is spoken \u2014 like a human interpreter, with no turn-taking \u2014 speaks directly to a real primary-care problem. In a population like Harrow's, interpreted consultations through telephone services are slow, costly and often triadic in the worst way. If NLW is right, a phone on the desk could do live interpreting better than the current service within a year, and language tutoring for staff is a bonus. If Zitron's economics are right, the price is subsidised and the vendor brittle \u2014 so pilot it, but sign nothing long."
+        "title": "Scribe pricing rides on subsidised compute \u2014 check your contract, not the demo",
+        "body": "Ambient scribes and other GP-facing AI tools sit on top of frontier models currently sold well below cost. If NLW's right, inference keeps getting cheaper and today's per-licence prices hold or fall \u2014 fine to commit. If Zitron's right, the subsidy ends and suppliers either raise prices or quietly swap in weaker models. Practical hedge either way: avoid multi-year single-supplier lock-in, insist on price-review and exit clauses, and ask the supplier which model actually powers the product and what happens if it's repriced."
       },
       {
-        "title": "The voice layer must never be the thing answering clinical questions",
-        "body": "The edition's own caution matters most in medicine: continuous voice models trade depth of reasoning for fluency and low latency \u2014 one insisted 'seventeen' has two E's while sounding entirely confident. A warm, instant voice is precisely the interface most likely to be over-trusted by patients and clinicians alike. Any consulting-room use should treat the voice tier as an interpreter and receptionist, with clinical reasoning explicitly routed to (and checked against) a stronger model \u2014 or a doctor."
+        "title": "Nadella's 'you pay twice' applies to every corrected consultation note",
+        "body": "The edition's sharpest enterprise idea \u2014 you pay for AI with money and again with your proprietary knowledge \u2014 lands directly on general practice. Every correction a GP makes to a scribe draft is training 'exhaust' that can leak value back to the model provider. Worth checking the data-processing agreement: does the supplier use your corrections to improve its models, and if so, on what terms? Both men would agree the NHS shouldn't be donating clinical expertise for free; they differ only on whether the resulting models will be worth anything."
       },
       {
-        "title": "Cheap implementer models will end up under your scribe",
-        "body": "Grok 4.5 at roughly a ninth of Fable's cost per task is exactly the kind of model a scribe vendor migrates to in order to protect margin. Both NLW and Zitron agree most tasks don't need frontier intelligence \u2014 but a discharge summary or a safeguarding note is not 'most tasks'. The governance question for practices: who decides which tier of model your documentation runs on, and does a downgrade trigger re-validation? Worth asking before the swap happens, not after."
+        "title": "Supplier turbulence is now the norm \u2014 plan for a vendor falling over",
+        "body": "Apple suing OpenAI, labs poaching staff, subsidy wars, Zitron predicting collapse without bailout: whichever reading is right, the AI supply base is volatile in a way NHS procurement isn't used to. If Zitron's right, some suppliers to primary care will simply disappear when funding dries up; if NLW's right, the churn continues but from competition rather than collapse. Either way a practice depending on an AI tool for clinical documentation needs a tested fallback \u2014 the old Dictaphone question: what do we do the week the service goes off?"
       }
     ]
   },
@@ -29,243 +29,223 @@
     "url": "https://www.wheresyoured.at/let-ai-burn/",
     "date": "2026-07-07",
     "same_day": false,
-    "text": "Where this edition reads four models in a week as a market maturing beyond raw intelligence into interaction and fit, Zitron reads the same parade as the hype machine at full throttle. Every 'innovation', he argues, exists only because billions are burned to produce it, and the results remain more expensive and less useful than the people they claim to replace. Cheap models matching expensive ones is not differentiation to him but indictment: he notes Anthropic itself admitted that far cheaper models, including Kimi K2.7, found the same vulnerabilities as its flagship \u2014 proof the premium was never worth paying. And since hallucination is, per OpenAI's own research, \"mathematically inevitable\", no voice layer or orchestration pattern fixes the underlying trust problem. Nobody in the real world, he insists, cares about any of it."
+    "text": "Zitron's answer to the idea that the subsidy war is a gift is that the gift is the whole con. Subscription demand, he argues, only exists because labs sell what he calls '$40 for a dollar' \u2014 the very Semi Analysis figures NLW celebrates are, for him, proof there is no real business underneath, just venture capital funnelled through OpenAI and Anthropic to hyperscalers and NVIDIA. Demand is 'decidedly artificial', manufactured by media consent and free compute, and it will vanish the moment the discount does. His conclusion is blunt: when the bubble pops, 'no bailouts, no handouts' \u2014 an industry propped up by subsidy is unworthy of rescue and should be allowed to burn."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is whether model differentiation \u2014 interaction patterns, efficiency tiers, personality fit \u2014 represents real value creation or evidence the raw-capability race has stalled. Both accept two facts: cheap models now do most tasks roughly as well as frontier ones (Musk concedes it, Zitron celebrates it), and per-task costs for similar work vary as much as nine-fold. The empirical question that will resolve is whether the new tiers \u2014 full-duplex voice, cheap implementer models under frontier orchestrators \u2014 convert into durable paid usage; the observable that settles it is whether OpenAI and SpaceX AI revenue from these products grows over the next two quarters, or whether enterprise spend keeps being capped and consolidated downward. The residue is pure worldview: 'different, not just better' as product maturity versus plateau dressed as strategy. NLW is vindicated if interaction-layer products drive real new spending; Zitron if commoditisation crushes pricing while costs climb. Both are polemicists with incentives \u2014 NLW bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and their accidental agreement is the signal: most work does not need frontier-priced intelligence. Watch GPT Live's paid adoption when numbers first surface."
+    "text": "The variable both men orbit is the subsidy \u2014 the gap between what a token costs to serve and what a subscriber pays. Neither disputes the facts: both cite Semi Analysis's finding that a $200 monthly plan can burn up to $14,000 of compute. The empirical question, which will resolve, is whether inference costs fall fast enough for today's prices to turn profitable before the capital funding the gap runs out; the observable that settles it is what happens to rate limits and subscription prices over the next year, and whether usage survives the change. The residue is pure worldview: is subsidised usage seeding durable demand or manufacturing fake demand? NLW is vindicated if costs collapse and users stay at honest prices; Zitron if usage retreats the moment the discount does. Both are polemicists with incentives \u2014 NLW sells daily bullishness to builders, Zitron sells bubble certainty to sceptics \u2014 so the signal is where they agree despite opposite priors: today's prices are unsustainable as charged. Watch the first frontier lab to materially tighten limits or raise prices, and what its users do next."
   },
   "headlines": [
     {
-      "id": "month-of-models",
-      "headline": "The 'month of models' has begun",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "00:00",
-      "attribution": null,
-      "summary": "AI has obliterated the summer slowdown. With the previous release cadence thrown off by government interference, NLW expects a cavalcade of models in July and August \u2014 this week alone brought GPT Live, Grok 4.5, Cognition SWE 1.7, and GPT-5.6 Sol, several with real implications for how people work.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#month-of-models"
-    },
-    {
-      "id": "gpt-live-full-duplex",
-      "headline": "GPT Live runs on a full-duplex architecture",
+      "id": "trump-open-source-eo",
+      "headline": "Trump admin reportedly eyeing an open-source AI executive order",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "02:00",
+      "segment": "headlines",
+      "timestamp": "01:20",
       "attribution": null,
-      "summary": "GPT Live (and GPT Live Mini) can listen and speak at the same time, continuously processing input while generating output. It makes interaction decisions many times per second \u2014 whether to speak, keep listening, pause, interrupt, or invoke a tool \u2014 making conversation feel far closer to human-to-human.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#gpt-live-full-duplex"
+      "summary": "Politico reports (citing nine people familiar) that the White House is in early-stage discussions about an EO to deal with the perceived security threat of Chinese open-source AI. Officials denied it, but the tea leaves point that direction \u2014 likely galvanized by headlines around GLM 5.2 rather than any real benchmark testing.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#trump-open-source-eo"
     },
     {
-      "id": "voice-evolution",
-      "headline": "From cascaded to turn-based to continuous voice",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "03:00",
-      "attribution": null,
-      "summary": "Early ChatGPT voice chained three models (speech-to-text, LLM, text-to-speech), which was slow and lossy. Advanced voice mode moved to a single turn-based model but still waited for silence to respond. GPT Live's continuous architecture removes the awkward, stilted turn-taking entirely.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#voice-evolution"
-    },
-    {
-      "id": "interaction-orchestrator",
-      "headline": "Voice model as orchestrator, reasoning done in the background",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "04:00",
-      "attribution": null,
-      "summary": "OpenAI separated GPT Live's continuous-interaction job from deeper work like reasoning, agents, and search. While talking, GPT Live can summon a model like GPT-5.5 or 5.6 to handle a task in the background \u2014 the voice equivalent of the orchestrator-plus-sub-agent pattern now common in advanced AI systems.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#interaction-orchestrator"
-    },
-    {
-      "id": "thinking-machines-parallel",
-      "headline": "You don't need to wait for the voice model to finish doing something while talking to it.",
+      "id": "six-months-to-live",
+      "headline": "Six Months to Live for Open Models",
       "type": "quote",
-      "segment": "main",
-      "timestamp": "04:00",
-      "attribution": "Riley Brown",
-      "summary": "Riley Brown noted the release closely resembles the interaction model Thinking Machines Labs introduced months ago: a real-time voice model that runs background models and tools without blocking the conversation.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#thinking-machines-parallel"
+      "segment": "headlines",
+      "timestamp": "03:30",
+      "attribution": "Nathan Lambert, Interconnects",
+      "summary": "Interconnects' Nathan Lambert warned that open-source AI is 'staring down the barrel of policy action that could make open models a permanent second-class citizen,' as advocates grow wary of impending US restrictions.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#six-months-to-live"
     },
     {
-      "id": "translation-language-learning",
-      "headline": "Turn-less voice unlocks translation and tutoring",
+      "id": "uae-export-controls-eased",
+      "headline": "US eases chip export controls for the UAE",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "Commerce ruled that the UAE government and approved firms can access advanced AI chips without a license, paving the way for Gulf mega-clusters. Last year's deal mentioned 500,000 chips, but once G42 and MGX are approved there's effectively no limit \u2014 a first for a non-NATO, non-treaty nation.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#uae-export-controls-eased"
+    },
+    {
+      "id": "uae-deal-backlash",
+      "headline": "There is only one explanation for why Commerce made this change. The UAE paid for it.",
+      "type": "quote",
+      "segment": "headlines",
       "timestamp": "06:00",
-      "attribution": null,
-      "summary": "Because it doesn't wait for pauses, GPT Live can translate each phrase as it's spoken, working like a human interpreter. Testers also found it excellent for language learning \u2014 critiquing pronunciation and quizzing \u2014 and note that with new visual cards, a flashcard-style tutor is a short hop away.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#translation-language-learning"
+      "attribution": "Chris Maguire, Council on Foreign Relations",
+      "summary": "China hawk Chris Maguire warned the world's largest data centers will now sit in the UAE, operated by firms that could provide backdoor access to China. Elizabeth Warren called the deal corrupt over Trump's family crypto ties.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#uae-deal-backlash"
     },
     {
-      "id": "siri-use-cases",
-      "headline": "The 'grannies' ad targets the Siri use cases",
+      "id": "gulf-inevitable",
+      "headline": "I don't see an alternative to that future.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "06:30",
+      "attribution": "Ryan Fetesiyuk, American Enterprise Institute",
+      "summary": "AEI's Ryan Fetesiyuk argued the concerns are overblown given where the world is heading: the Gulf is becoming an essential node in a globally distributed network of US AI inference hubs, and the US should install 'chips in sockets' fast while China's chipmaking is still immature.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#gulf-inevitable"
+    },
+    {
+      "id": "sk-hynix-ipo",
+      "headline": "SK Hynix pulls off the largest US IPO ever by a foreign company",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "07:15",
+      "attribution": null,
+      "summary": "The Korean memory maker raised $26.5B in its Nasdaq debut, edging out Alibaba's 2014 listing, and popped 13% on day one \u2014 a strong result amid a 9% semiconductor correction this month.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#sk-hynix-ipo"
+    },
+    {
+      "id": "memory-shortage-2027",
+      "headline": "We expect 2027 to be the worst year in terms of memory supply shortage.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "09:00",
+      "attribution": "Chey Tae-Won, SK Hynix Chairman",
+      "summary": "SK Hynix Chairman Chey Tae-Won dismissed oversupply fears, saying customers keep telling him doubling capacity 'is not enough.' Demand from AI agents and physical robots, he argued, is 'enormous, exponential.'",
+      "link": "https://aidailybrief.ai/e/2026-07-13#memory-shortage-2027"
+    },
+    {
+      "id": "meta-image-rollback",
+      "headline": "Meta rolls back Instagram-tagging image feature after days",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "09:30",
+      "attribution": null,
+      "summary": "Meta's new image model let users generate images of others by tagging their Instagram accounts, pulling public photos as context. After the Screen Actors Guild urged members to disable it, Meta pulled it \u2014 another marker of where the public draws the line on AI imagery.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#meta-image-rollback"
+    },
+    {
+      "id": "apple-sues-openai",
+      "headline": "Apple sues OpenAI over stolen trade secrets",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "14:15",
+      "attribution": null,
+      "summary": "Apple filed a blockbuster suit alleging OpenAI stole hardware designs and IP, claiming 400+ former Apple employees joined OpenAI's hardware push. Centered on engineer Chang Liu \u2014 who allegedly used a software bug to access Apple servers ('I found out I can access the network storage. So funny') \u2014 the suit alleges OpenAI actively encouraged new hires to bring confidential parts to show-and-tell sessions.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#apple-sues-openai"
+    },
+    {
+      "id": "thermonuclear-option",
+      "headline": "The Wall Street Journal calls it Apple's 'thermonuclear option'",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "17:45",
+      "attribution": null,
+      "summary": "The suit echoes Steve Jobs' 2010 vow of thermonuclear war on Android \u2014 with Tim Cook, as a final act as CEO, taking a similar approach to stifle OpenAI's device. Experts are split: California courts reject non-competes, so trade-secrets law is 'the only legal perimeter left around institutional knowledge,' and Apple pleaded squarely inside it.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#thermonuclear-option"
+    },
+    {
+      "id": "hardware-new-battleground",
+      "headline": "The AI race is entering a phase where hardware, not just models, is the battleground",
       "type": "take",
       "segment": "main",
-      "timestamp": "07:00",
+      "timestamp": "19:45",
       "attribution": null,
-      "summary": "OpenAI's viral clip of sophisticated grandmothers interrupting and even being rude to the model is a deliberate stress test of archetypal assistant failure modes \u2014 the basic personal-assistant tasks people have long screeched that Siri can't do. It signals an evolution in how OpenAI imagines regular, non-work consumers using ChatGPT.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#siri-use-cases"
+      "summary": "NLW wants to see OpenAI's response before making up his mind, but agrees the lawsuit signals the core theme: it's no longer just about models, it's about the entire ecosystem around them. The alleged IP theft still seems 'strange and desperate' in a way that doesn't comport with OpenAI's self-image.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#hardware-new-battleground"
     },
     {
-      "id": "altman-typing-shift",
-      "headline": "I have always preferred typing to talking to an AI. Now I think that's going to shift.",
+      "id": "musk-altman-feud",
+      "headline": "The most reliable way to tell is that Elon is obsessed with me again.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "08:00",
+      "timestamp": "20:15",
       "attribution": "Sam Altman",
-      "summary": "Sam Altman said GPT Live 'feels magical and real' and predicted it will change even his own long-standing preference for typing over voice.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#altman-typing-shift"
+      "summary": "Musk retweeted the lawsuit ('They sure put a lot of effort into this crime') and resumed his feud with Altman. NLW crowned Altman the winner of the tit-for-tat, though Altman also cooled it on Apple: 'I have tremendous respect for them. S-tier company.'",
+      "link": "https://aidailybrief.ai/e/2026-07-13#musk-altman-feud"
     },
     {
-      "id": "nlw-voice-as-input",
-      "headline": "NLW's tip: use voice as input, not conversation",
-      "type": "take",
+      "id": "token-burn-556",
+      "headline": "GPT-5.6 Sol launch weekend: users burning tokens at insane rates",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "08:00",
+      "timestamp": "21:30",
       "attribution": null,
-      "summary": "One of NLW's most common productivity tips is switching to voice \u2014 not back-and-forth voice mode, but tools like Whisperflow to ramble-speak inputs. You talk faster than you type and provide richer context, and reading the AI's reply is faster than waiting for it to speak back.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#nlw-voice-as-input"
+      "summary": "Power users hit usage limits fast on the new model \u2014 partly because you now need to control reasoning effort rather than max everything, partly configuration issues on OpenAI's end. OpenAI temporarily removed the five-hour limit for Plus/Business/Pro, pushed efficiency changes, and reset usage after hitting 6M active users: 'Go do things.'",
+      "link": "https://aidailybrief.ai/e/2026-07-13#token-burn-556"
     },
     {
-      "id": "jarvis-tech-is-here",
-      "headline": "The tech is basically already there for Jarvis. The only thing left is a generative UI layer.",
+      "id": "capacity-wars",
+      "headline": "Capacity wars between labs are one of the best things that can happen to us who build with this.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "10:00",
-      "attribution": "Riley Brown",
-      "summary": "Riley Brown, a self-described skeptic converted by the model, foresees doing email, checking business data, and scheduling meetings just by chatting \u2014 voice models are getting very good at using tools fast.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#jarvis-tech-is-here"
+      "timestamp": "23:30",
+      "attribution": "Developer ECAS",
+      "summary": "Instead of poaching Anthropic users as GPT-5.6 launched, Anthropic extended its Fable trial twice and kept Claude Code limits 50% higher \u2014 turning the moment into a subsidy price war that benefits builders.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#capacity-wars"
     },
     {
-      "id": "voice-isnt-the-product",
-      "headline": "The voice isn't the product. The thinking is.",
+      "id": "subsidy-still-insane",
+      "headline": "Subscriptions are still a ludicrously good deal",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "24:00",
+      "attribution": null,
+      "summary": "Semi Analysis found the $20/mo tier still allows ~$400 of Anthropic usage or $700 of OpenAI usage; the $200/mo tier runs to $8,000 (Anthropic) or a staggering $14,000 (OpenAI) in max tokens. NLW's advice: take advantage while it lasts, because the frontier won't be subsidized forever.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#subsidy-still-insane"
+    },
+    {
+      "id": "zai-open-frontier",
+      "headline": "Frontier intelligence should not belong only to a select few.",
       "type": "quote",
-      "segment": "main",
-      "timestamp": "12:00",
-      "attribution": "Gail Wiener",
-      "summary": "Gail Wiener praised GPT Live's warmth and pacing but warned that a beautiful voice wrapped around shallow reasoning is 'a pretty face with no depth' \u2014 lovely for quick answers, but not for real brainstorming and building work.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#voice-isnt-the-product"
-    },
-    {
-      "id": "interaction-tiers",
-      "headline": "These are interaction tiers, not just model tiers",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "13:00",
-      "attribution": null,
-      "summary": "A viral clip showed GPT Live insisting 'seventeen' has two E's. The lesson: voice models trade deep reasoning for low latency, natural interruption, and flow. For extended strategic debate, the benchmark is still the underlying frontier reasoning model, not the voice layer.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#interaction-tiers"
-    },
-    {
-      "id": "grok-45-coding",
-      "headline": "Grok 4.5 is SpaceX AI's first model built for coding and agents",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "18:00",
-      "attribution": null,
-      "summary": "The first output of the SpaceX AI\u2013Cursor collaboration after the acquisition closed, Grok 4.5 targets real-world engineering across large codebases and long-running multi-repo tasks. Cursor's Composer line will continue as a separate, smaller weight class.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#grok-45-coding"
-    },
-    {
-      "id": "grok-45-efficiency",
-      "headline": "Near-Opus performance at Haiku-level cost",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": null,
-      "summary": "On artificial analysis tests Grok 4.5 ranks fourth overall but is by far the most cost-efficient near-frontier model at 31\u00a2 per task \u2014 vs $1.80 for Opus 4-8 and $2.75 for Fable 5, roughly a third the cost of GPT-5.5, a fifth of Opus, and a ninth of Fable 5.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#grok-45-efficiency"
-    },
-    {
-      "id": "grok-45-automation-bench",
-      "headline": "Grok 4.5 tops Automation Bench for real SaaS workflows",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": null,
-      "summary": "On AA's proprietary agentic computer-use benchmark spanning Excel, Gmail, and Slack, Grok 4.5 scored a state-of-the-art 51.4% (vs Fable 5's 48.6%) at 34\u00a2 per task versus $1.35 for Fable \u2014 using fewer tokens and turns than other frontier models.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#grok-45-automation-bench"
-    },
-    {
-      "id": "elon-most-tasks",
-      "headline": "Fable is definitely better than Grok 4.5, but most tasks don't require Fable-level capability.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": "Elon Musk",
-      "summary": "Even Elon Musk conceded the point. Early adopters aren't using Grok 4.5 to replace top OpenAI or Anthropic models \u2014 they're using it as the implementation agent under a Fable or GPT-5.6 orchestrator.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#elon-most-tasks"
-    },
-    {
-      "id": "grok-vs-chinese-open",
-      "headline": "They are about to suck the oxygen out of the room.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": "Stonk Daddy",
-      "summary": "Stonk Daddy argued Grok 4.5 delivers better-than-Chinese-open-source performance at near-Chinese-open-source cost, without the data-sovereignty and compliance stigma \u2014 and Cursor's enterprise footprint is the Trojan horse that already got it through the door.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#grok-vs-chinese-open"
-    },
-    {
-      "id": "app-layer-models",
-      "headline": "Cognition's SWE 1.7 extends the app-layer model pattern",
-      "type": "insight",
       "segment": "main",
       "timestamp": "25:00",
-      "attribution": null,
-      "summary": "Built on a Kimi K 2.7 base and post-trained on Cognition's UX data, SWE 1.7 slightly beats GLM 5.2 and Composer 2.5 at half to a third the cost of frontier models. As Ben Dickson notes, closed frontier models are for exploration while open LLMs become the engine for scale and production.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#app-layer-models"
+      "attribution": "Zhipu / Z.AI founder",
+      "summary": "Z.AI's founder defended open models, releasing GLM 5.2 (1M-token context) under the permissive MIT license: 'The heights we reach belong to all humanity, and the roads we build belong to everyone.' The company's CEO conceded they're not yet at Mythos level but expect to be by year's end.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#zai-open-frontier"
     },
     {
-      "id": "swe-17-speed-middle-mode",
-      "headline": "A task that used to justify walking away finishes before you've mentally moved on.",
+      "id": "nadella-pay-twice",
+      "headline": "You essentially pay for intelligence twice \u2014 once with money and again with your proprietary knowledge.",
       "type": "quote",
       "segment": "main",
       "timestamp": "26:00",
-      "attribution": "Nader Dabit, Cognition",
-      "summary": "Cognition's Nader Dabit describes a new 'weird middle mode' created by SWE 1.7's speed: technically async, but fast enough that you just watch. It targets the awkward zone of tasks too slow for real-time yet too quick to walk away from.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#swe-17-speed-middle-mode"
+      "attribution": "Satya Nadella, Microsoft CEO",
+      "summary": "Satya Nadella argued models learn from 'exhaust' \u2014 prompts, tool use, and especially corrections \u2014 which leaks 'trace by trace' into the model provider. His pitch: distribute learning infrastructure to every firm so they control their own learning loop. 'In consuming intelligence, you are creating intelligence, and what you create should belong to you.'",
+      "link": "https://aidailybrief.ai/e/2026-07-13#nadella-pay-twice"
     },
     {
-      "id": "gpt56-writing-legal",
-      "headline": "GPT-5.6 Sol excels at writing and narrow legal research",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "28:00",
-      "attribution": null,
-      "summary": "Testers say Sol is a much better writer than Fable, one-shotting marketing emails prior models failed. Lawyer Prinz found it can replace an associate at any level for legal research where all relevant authorities are publicly available online, thanks to strong needle-in-haystack search.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#gpt56-writing-legal"
-    },
-    {
-      "id": "owl-vs-rottweiler",
-      "headline": "Fable is a wise owl; GPT-5.6 Sol is a Rottweiler who grabs the problem by the throat.",
+      "id": "own-the-means",
+      "headline": "Make the model a cog in a machine you own.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "30:00",
-      "attribution": "Peter Gustev, Arena AI",
-      "summary": "Arena AI's Peter Gustev summed up the contrast: Fable is the smarter model, but Sol is an insanely capable, diligent workhorse with no lectures or 'you're absolutely right'-isms. His advice: use both, and learn what each is for.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#owl-vs-rottweiler"
+      "timestamp": "27:30",
+      "attribution": "Guillermo Rauch, Vercel CEO",
+      "summary": "Nadella cited Palantir's Alex Karp \u2014 customers 'want to know they own the means of production' \u2014 and Vercel's Guillermo Rauch summed up the enterprise playbook: own your data, evals, model choices, and software layer. Don't outsource your brain.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#own-the-means"
     },
     {
-      "id": "models-distinct-and-ahead",
-      "headline": "The leading models are so decidedly ahead of everything else, and so distinct from one another.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "32:00",
-      "attribution": "Dean Ball",
-      "summary": "Dean Ball and Ethan Mollick both flag that Sol and Fable represent jumps over previous models and have opened a large gap over the next-best AIs \u2014 while feeling genuinely different. For work where intelligence matters, they're the only two choices.",
-      "link": "https://aidailybrief.ai/e/2026-07-09#models-distinct-and-ahead"
-    },
-    {
-      "id": "gpt6-rumor",
-      "headline": "GPT-6 rumored within about four weeks",
+      "id": "race-shifting-cheaper",
+      "headline": "The AI race is shifting from bigger models to cheaper, smarter systems",
       "type": "insight",
       "segment": "main",
-      "timestamp": "32:00",
+      "timestamp": "27:45",
       "attribution": null,
-      "summary": "Leakers Leo and Andrew Curran say GPT-6 \u2014 a new, significantly larger pretrain replacing the 4-trillion 'Spud' base \u2014 may arrive far sooner than expected, though likely held back by the government initially. Everyone is going big: Anthropic's Fable 5.1 is in late stages, and Elon reportedly has a 10-trillion Grok in training, with labs seeing 'no ceiling.'",
-      "link": "https://aidailybrief.ai/e/2026-07-09#gpt6-rumor"
+      "summary": "CNBC's Deirdre Bosa framed the shift NLW has charted for months, and even Big Short's Michael Burry retweeted it. For Burry it's how the bubble bursts; for Gavin Baker it's the 'mega bull case' \u2014 margin dollars redistributing from frontier labs (90%+ inference margins) to infra providers with the lowest per-token cost.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#race-shifting-cheaper"
+    },
+    {
+      "id": "labs-wont-roll-over",
+      "headline": "If you think the frontier labs will just roll over, you're nuts",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "29:15",
+      "attribution": null,
+      "summary": "NLW pushes back on the assumption that leading labs won't participate in the cheaper-model shift. GPT-5.6's cheaper versions \u2014 Terra and Luna \u2014 are 'basically better than GLM performance for lower than GLM costs.' He also thinks the pace of change is wildly overstated: most firms are still trying to get employees to use Claude at all.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#labs-wont-roll-over"
+    },
+    {
+      "id": "take-advantage",
+      "headline": "Take advantage of the competitive upheaval while it lasts",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "30:30",
+      "attribution": null,
+      "summary": "NLW's bottom line: the tectonic plates of AI competition are shifting, and nobody has a handle on what comes next \u2014 which is why the spats and acrimony are intensifying. But the subsidy extensions prove that, in the short term, this fierce competition is genuinely good for all of us.",
+      "link": "https://aidailybrief.ai/e/2026-07-13#take-advantage"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-09.mp3",
-  "generated": "2026-07-10T06:50:04Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-13.mp3",
+  "generated": "2026-07-14T20:05:18Z"
 }

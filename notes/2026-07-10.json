@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Agentic admin is aimed straight at the practice back office \u2014 governance first",
+   "body": "ChatGPT Work \u2014 an agent that stays on a task for hours, reconciles spreadsheets, drafts reports and connects to Drive and Microsoft 365 \u2014 describes a good chunk of what a practice manager's team does all week. If NLW's right, this becomes as routine as the scribe within a couple of years, and practices that map their admin workflows now will be ready. If Zitron's right, the pricing that makes it tempting is subsidised and temporary. Either way the rule is the same: nothing patient-identifiable goes near it without a DPIA, and pilot on genuinely non-clinical work first \u2014 rotas, invoices, supplier chase-ups."
+  },
+  {
+   "title": "Enterprise buyers walk over data retention \u2014 practices can ask the same questions",
+   "body": "One telling nugget: a large firm standardised on GPT-5.6 because Anthropic wouldn't change its data-retention policy. Retention terms are now a live competitive lever between suppliers. A practice buying a scribe or admin AI can borrow that leverage: ask exactly how long the supplier keeps audio, drafts and corrections, and whether your data trains their models. If the big enterprise customers can move suppliers over retention, an NHS contract can at least demand the answer in writing."
+  },
+  {
+   "title": "The cheap-model shift should show up in your licence fee \u2014 and your hardware budget",
+   "body": "If NLW's right that frontier-quality models now cost a third to a tenth of what they did, suppliers building on them have falling input costs \u2014 worth asking at renewal whether any of that reaches your per-clinician price. If Zitron's right, the same boom is inflating the price of the kit on your desks: RAM-driven price rises have already hit laptops, phones and tablets. A practice planning an IT refresh this year should budget for dearer devices even as the software gets cheaper \u2014 both halves are currently true."
+  }
+ ]
+}
