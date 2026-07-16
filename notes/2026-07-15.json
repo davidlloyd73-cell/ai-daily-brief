@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The 'skills' idea, translated to the consulting room",
+      "body": "The edition's core practice — encoding the workflows and quality checks a senior person carries in their head so a machine follows them reliably — maps neatly onto general practice: your referral thresholds, safety-netting phrases, QOF recall templates. If NLW's right, formalising one such task into a scribe or assistant is the fastest way to get dependable help without waiting for a cleverer model. If Zitron's right, you'll spend real effort codifying work the tool then follows only patchily, adding governance overhead for little gain. Sensible either way: pick one well-defined task, write the rule down, and measure whether it actually saves time and cuts error before trusting it more widely."
+    },
+    {
+      "title": "'Autonomy without structure creates slop' is a documentation safety rule",
+      "body": "This is the one line both men effectively accept — NLW as a caution, Zitron as an indictment. For clinical notes it translates directly: the safe pattern keeps the clinician firmly in the outer loop, reviewing and directing, never letting the tool run unsupervised. Whether you back the hype or not, an unread AI-drafted consultation note is a medico-legal liability, not a time-saving. The discipline of reading and correcting every draft is not a temporary caution while the tools mature; on this reading it is the permanent design of safe use."
+    },
+    {
+      "title": "The Grok Build data leak is a prompt to ask what your scribe sends away",
+      "body": "One of the week's headlines — a coding tool quietly uploading entire codebases, gigabytes even when a task needed a few files — is a fair analogy for the surgery. It is worth asking your ambient-scribe supplier exactly what leaves the practice: whole consultation audio, full record context, or just the note? Both readings converge here regardless of who is right about the bubble — check the data-protection impact assessment and the processing agreement, and confirm what is retained and whether your corrections are used to train the vendor's models."
+    }
+  ]
+}
