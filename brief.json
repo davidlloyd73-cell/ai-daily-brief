@@ -1,281 +1,291 @@
 {
-  "date": "2026-07-15",
-  "title": "5 AI Engineering Trends for Non-Engineers",
-  "dek": "OpenAI's first consumer device enters prototyping as a screen-free, semi-alive home speaker \u2014 but the real payload today is a field guide: the five things AI engineers are talking about right now, and why non-engineers get a six-month head start by eavesdropping.",
-  "source": "https://aidailybrief.ai/e/2026-07-15",
+  "date": "2026-07-16",
+  "title": "The New Enterprise Battle Over Who Owns the Model",
+  "dek": "Thinking Machines ships its first model \u2014 and it's the availability, not the benchmarks, that matters. Inkling is a base model built for fine-tuning, and it lands right as Microsoft trains its salesforce to attack the frontier labs on data trust. The new enterprise fight isn't which model you rent \u2014 it's who owns the one you customize.",
+  "source": "https://aidailybrief.ai/e/2026-07-16",
   "oneIdea": {
-    "headline": "Autonomy without structure creates as much slop as leverage.",
-    "summary": "Three years after Swix coined 'AI engineer,' the World's Fair has shifted from 'let the agents rip' to putting humans back at the center. Across five trends \u2014 systems over agents, loop engineering, enterprise software factories, coding agents as the interface, and skills \u2014 the through line is a recalibration of our relationship with autonomy. And what AI engineers argue about today, NLW's thesis goes, is what every knowledge worker will be arguing about in six months. So listen in."
+    "headline": "The next enterprise battle is over who owns the model you fine-tune.",
+    "summary": "Thinking Machines released Inkling \u2014 a mediocre-on-benchmarks but strategically pointed open-weights model designed to be the base for its Tinker fine-tuning platform. It arrives the same week Microsoft trains its salesforce to argue that companies shouldn't trust OpenAI or Anthropic with their data. Two things converge: enterprises increasingly want cost control and data sovereignty, and multiple labs are racing to sell fine-tuning as the answer. Whether closed (Microsoft Frontier Tuning) or open (Inkling + Tinker), the question is no longer just which frontier model to rent \u2014 it's how much independence you want over the model itself. The bitter lesson may still win, but the experimental period is real and there's alpha for nimble teams."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "The 'skills' idea, translated to the consulting room",
-        "body": "The edition's core practice \u2014 encoding the workflows and quality checks a senior person carries in their head so a machine follows them reliably \u2014 maps neatly onto general practice: your referral thresholds, safety-netting phrases, QOF recall templates. If NLW's right, formalising one such task into a scribe or assistant is the fastest way to get dependable help without waiting for a cleverer model. If Zitron's right, you'll spend real effort codifying work the tool then follows only patchily, adding governance overhead for little gain. Sensible either way: pick one well-defined task, write the rule down, and measure whether it actually saves time and cuts error before trusting it more widely."
+        "title": "\"Who owns the model you fine-tune\" has an NHS translation: data sovereignty",
+        "body": "The edition's core fight \u2014 rent a frontier model, or run and customise your own \u2014 lands squarely on the question every practice faces with an ambient scribe: where does the consultation data go, and who can train on it? An open-weights model you host, or a supplier who fine-tunes on your data but keeps it on your infrastructure, is the commercial version of what information governance already demands. If NLW's right, this competitive pressure gives buyers real leverage to insist on models that stay inside the data controller's walls. If Zitron's right, none of it is worth the spend regardless \u2014 so the safe move is unchanged: demand a clear data-processing agreement and confirm nothing leaves the practice unbidden, whoever's economics win."
       },
       {
-        "title": "'Autonomy without structure creates slop' is a documentation safety rule",
-        "body": "This is the one line both men effectively accept \u2014 NLW as a caution, Zitron as an indictment. For clinical notes it translates directly: the safe pattern keeps the clinician firmly in the outer loop, reviewing and directing, never letting the tool run unsupervised. Whether you back the hype or not, an unread AI-drafted consultation note is a medico-legal liability, not a time-saving. The discipline of reading and correcting every draft is not a temporary caution while the tools mature; on this reading it is the permanent design of safe use."
+        "title": "Beware the 'fine-tuning is the answer' pitch in health IT",
+        "body": "Two of the edition's own voices \u2014 Simon Smith and Zitron \u2014 warn that fine-tuning is far more effort and ongoing cost than vendors admit, needing constant curation as edge cases and model updates arrive. That caution matters for any practice or ICB tempted by a bespoke, 'trained-on-our-data' clinical tool. If Zitron's right, a big general model plus good prompting and local context often beats a hard-won custom model as token costs fall. If NLW's right, there's still real value for well-resourced teams \u2014 but general practice rarely has the data-engineering capacity to maintain a fine-tune, so the honest default is a well-governed general model, not a custom one you cannot keep current."
       },
       {
-        "title": "The Grok Build data leak is a prompt to ask what your scribe sends away",
-        "body": "One of the week's headlines \u2014 a coding tool quietly uploading entire codebases, gigabytes even when a task needed a few files \u2014 is a fair analogy for the surgery. It is worth asking your ambient-scribe supplier exactly what leaves the practice: whole consultation audio, full record context, or just the note? Both readings converge here regardless of who is right about the bubble \u2014 check the data-protection impact assessment and the processing agreement, and confirm what is retained and whether your corrections are used to train the vendor's models."
+        "title": "The Microsoft-attacks-rivals story is a reminder to judge tools on evidence, not sales scripts",
+        "body": "Bloomberg's report that Microsoft is training salespeople to tell customers a rival model is \"slower and less accurate\" while sidestepping overall quality is a clean illustration of vendor incentive at work. In the surgery the parallel is exact: scribe and triage-tool claims should be checked against independent testing and your own audit, not the supplier's comparison slide. Whichever side of the bubble argument you take, the discipline is the same \u2014 measure accuracy and time saved on your own consultations before trusting anyone's marketing."
       }
     ]
   },
   "the_other_side": {
-    "source": "Cargo Culture",
-    "url": "https://www.wheresyoured.at/cargo-culture/",
-    "date": "2026-06-23",
+    "source": "The OpenAI Bubble",
+    "url": "https://www.wheresyoured.at/the-openai-bubble/",
+    "date": "2026-07-15",
     "same_day": false,
-    "text": "Zitron got to 'loops' first, predicting weeks earlier that the industry would push them \u2014 language models prompting language models, left to their token-hungry devices \u2014 as a desperate way to make users burn more compute and manufacture revenue. He notes the same Claude Code chief NLW quotes, Boris Cherny, is by his employer's arrangement 'allowed to burn upwards of $130,000 a month in tokens.' His wider case: loops, skills and 'software factories' are not progress but the rituals of 'the largest cargo cult of all time' \u2014 a tech industry out of ideas, copying the shape of past success and mistaking it for the substance. So eavesdropping on engineers buys not a six-month head start on the future but a front-row seat to token-burning theatre."
+    "text": "Zitron's case cuts underneath the whole model-ownership debate: to him it is a rounding error beside the fact that enterprise AI has no measurable return. He argues the boom rests not on ROI but on \"vibes\" and a \"cult-like psychosis,\" and that no architectural choice \u2014 open weights, fine-tuning, closed tuning \u2014 changes the economics, because \"without OpenAI, the AI industry doesn't exist.\" He notes API costs already \"became a 'huge issue'\" for enterprise customers, and that four years in there is still no agreed accounting of what these models actually cost to run. He would read Inkling and Microsoft Frontier Tuning not as sovereignty on offer but as fresh ways to keep spending on something that has not shown a return."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is whether the new engineering fashions \u2014 loops, skills, software factories \u2014 produce durable work output or merely more token consumption. Both accept the facts: engineers really are adopting these patterns and usage is climbing fast. The empirical question that will resolve is whether structured autonomy lifts measurable output per worker or only compute spend; the observable that settles it is independent, non-vendor productivity data \u2014 do teams working with loops and skills ship more with less rework, or just pay more per seat? The residue is pure worldview: early literacy of a real shift, or ritual imitation by an industry out of ideas. NLW is vindicated if encoded skills and loops yield durable gains and early adopters genuinely got ahead; Zitron if the practices mostly generate slop and quiet abandonment once subsidies tighten. Both are polemicists with incentives \u2014 NLW sells head-start optimism to builders, Zitron sells cargo-cult certainty to sceptics \u2014 so the signal is where they agree despite opposite priors: undisciplined autonomy creates slop. Watch the first independent study of loop-and-skills workflows, and whether the practice survives tighter token limits."
+    "text": "The single variable both men orbit is enterprise AI economics \u2014 whether the cost of running these models is ever justified by the value enterprises get back. Both accept the same facts: token costs are large and real, and the unit economics are genuinely murky. The empirical question that will resolve is whether enterprises running fine-tuned or open-weights stacks show durable, auditable ROI; the observable that settles it is published enterprise unit economics and renewal data \u2014 does cost-per-outcome fall and does spend keep being renewed? The residue is pure worldview: NLW sees an experimental period with alpha for nimble teams, Zitron sees a capital misallocation heading for collapse. NLW is vindicated if fine-tuning lowers cost-per-outcome and enterprises keep paying and expanding; Zitron if spend keeps climbing while returns don't and a major player runs out of money. Both are polemicists with incentives \u2014 NLW bullish and anti-doom to an audience of buyers, Zitron bubble-certain and anti-hype to subscribers who reward it \u2014 so the signal is where they agree despite opposite priors: enterprise token cost is a real, unsolved problem. Watch whether any enterprise publishes hard fine-tuning ROI numbers, or whether the bills just keep rising."
   },
   "headlines": [
     {
-      "id": "openai-home-device-prototyping",
-      "headline": "OpenAI's first device: a screen-free speaker that feels 'alive'",
+      "id": "cursor-model-ambitions",
+      "headline": "Cursor wants to be a top-tier model developer, not just a coding tool",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "00:00",
+      "timestamp": "00:59",
       "attribution": null,
-      "summary": "Per Bloomberg's Mark Gurman, OpenAI's first consumer device is a portable, screen-free smart speaker pitched as a 'home computer for the AI era' \u2014 controlling smart appliances, playing music, and acting as a human-like companion. It uses ChatGPT memory, a camera and sensors, GPT Live's two-way voice, and even components that move on their own to feel like an anthropomorphic mini robot.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#openai-home-device-prototyping"
+      "summary": "The Information reported on a May all-hands where CEO Michael Truell said Cursor aims to produce a state-of-the-art model by year end and accrue a real compute advantage by 2027 \u2014 pushing the frontier itself, not staying limited to coding. SpaceX wanted Cursor for its brand, enterprise relationships, and go-to-market team.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#cursor-model-ambitions"
     },
     {
-      "id": "openai-device-timeline",
-      "headline": "Unveil by year-end, ship in 2027 \u2014 with more devices behind it",
+      "id": "grok-45-cursor",
+      "headline": "First SpaceX-Cursor model lands in Grok 4.5",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "01:00",
+      "timestamp": "01:20",
       "attribution": null,
-      "summary": "OpenAI aims to reveal the device by the end of the year and release it in 2027, potentially as the first of several consumer products \u2014 with rumors of a pendant, earbuds, and even a smartphone.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#openai-device-timeline"
+      "summary": "Setting aside recent data-retention controversy, the first SpaceX AI model trained in partnership with Cursor has been well received and is competitive. Cursor is also rumored to be building a competitor to Claude Cowork \u2014 its first big expansion beyond coding.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#grok-45-cursor"
     },
     {
-      "id": "apple-lawsuit-shadow",
-      "headline": "An Apple injunction is casting a shadow over the launch",
+      "id": "spacex-below-ipo",
+      "headline": "SpaceX dips below its IPO price for the first time",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "02:00",
+      "timestamp": "02:30",
       "attribution": null,
-      "summary": "Apple has accused OpenAI of IP theft and is expected to seek an injunction against any device based on its IP \u2014 while itself reportedly building AI-powered smart home devices. OpenAI's response: 'we're not aware of any evidence that this complaint has merit.'",
-      "link": "https://aidailybrief.ai/e/2026-07-15#apple-lawsuit-shadow"
+      "summary": "SpaceX traded down to $133 Wednesday, breaking the $135 IPO price before recovering to close at $135.27 \u2014 now down 33% from its all-time high, costing Musk his trillionaire status. Insider lockups don't start for another month.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#spacex-below-ipo"
     },
     {
-      "id": "family-ai-bull-case",
-      "headline": "What's missing is a family AI.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "03:00",
-      "attribution": "Prakash, on X",
-      "summary": "The bull case: you'll have a personal AI (ChatGPT), a corporate AI (Claude Tag), and the gap is a family AI that recognizes every member by face and voice, manages schedules, runs errands, and upgrades over time \u2014 'as familiar and lovable as your family dog.'",
-      "link": "https://aidailybrief.ai/e/2026-07-15#family-ai-bull-case"
-    },
-    {
-      "id": "nlw-device-skepticism",
-      "headline": "'Alexa but better' is a hard sell \u2014 but suspend some skepticism",
-      "type": "take",
+      "id": "ipo-implications",
+      "headline": "OpenAI leans toward a 2027 IPO; Anthropic pushes for fall",
+      "type": "insight",
       "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "NLW is skeptical of the pitch but notes it's notoriously hard to predict how consumers adopt new device categories. His bigger question: whether hardware fits OpenAI's priorities as a company going public that just found its mojo by abandoning 'side quests' \u2014 and whether it can be a hardware and software company at once.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#nlw-device-skepticism"
+      "summary": "Advisors reportedly told Altman a trillion-dollar market cap is unlikely, nudging OpenAI toward next year. Anthropic has appointed investment banks, added a couple billion in revolving credit, and is meeting investors \u2014 still targeting an IPO as early as September or October.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#ipo-implications"
     },
     {
-      "id": "gold-eagle-cyber",
-      "headline": "Trump's first AI-EO program is a cyber clearinghouse called 'Gold Eagle'",
+      "id": "nvidia-cosmos-edge",
+      "headline": "NVIDIA's Cosmos 3 Edge fills the physical-AI niche",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "04:00",
+      "timestamp": "03:50",
       "attribution": null,
-      "summary": "The initiative \u2014 a joint Treasury, DHS, and Pentagon effort with AI-company consultation \u2014 brings government, companies, and open-source projects together to share cyber vulnerability info. It makes permanent the 'Project Glasswing' bug-detection sprint that followed the 'Mythos' shock.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#gold-eagle-cyber"
+      "summary": "The new 4-billion-parameter open model is built to run on edge devices inside robots, functioning as both a world model and a vision-language model. It arrives alongside a fresh wave of robot designs and NVIDIA's expanded Toyota partnership across robots, smart cities, and factories.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#nvidia-cosmos-edge"
     },
     {
-      "id": "model-vetting-open-source",
-      "headline": "A model-vetting protocol is coming \u2014 and open source has cover",
+      "id": "chip-autonomous-vehicle",
+      "headline": "A new take on the family car: send it to run your errands",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "05:00",
+      "timestamp": "04:30",
       "attribution": null,
-      "summary": "Reporting suggests the government is defining a model vetting protocol for safety testing ahead of frontier releases, negotiating clear standards with industry. On the feared Chinese-model ban possibly extending to open source, Cyber Director Sean Carancross said he 'could not be more clear' about full support for the US open-source community.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#model-vetting-open-source"
+      "summary": "A just-launched company called Chip combines AI and autonomy to turn a golf-cart-style vehicle into a robot \u2014 the launch video shows a dad sending it to fetch snacks at a soccer game or park itself after an Uber home. A herald of how AI integrates into the physical world.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#chip-autonomous-vehicle"
     },
     {
-      "id": "grok-build-codebase-upload",
-      "headline": "Grok Build was quietly uploading entire codebases",
+      "id": "apple-chip-acquisition",
+      "headline": "Apple is shopping to buy its way back into the AI race",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "07:00",
+      "timestamp": "05:50",
       "attribution": null,
-      "summary": "A Sarah Lab audit found Grok Build uploaded whole repos up front \u2014 gigabytes even when a task needed only a few files, and even in sessions with zero tool calls. One analyst called it a 'malware-like background code collector,' and it happened regardless of user opt-out settings.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#grok-build-codebase-upload"
+      "summary": "Per The Information, Apple is far along in an effort to acquire a chipmaker to build AI server chips, having spoken with bankers and approached semiconductor startups. Its own server-grade Baltra chip has been delayed, and it currently outsources to Google Cloud on NVIDIA hardware \u2014 a striking shift for a company whose biggest deal ever was $3B for Beats.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#apple-chip-acquisition"
     },
     {
-      "id": "xai-trust-fallout",
-      "headline": "My trust for xAI as a business partner is on the floor.",
+      "id": "apple-slim-targets",
+      "headline": "The list of proven chip targets is painfully short",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "06:30",
+      "attribution": null,
+      "summary": "NVIDIA just paid $20B for Groq, Cerebras is valued at $40B, and Broadcom's $1.8T valuation would make it a merger with huge antitrust exposure. Tenstorrent is a possible natural fit given ex-Apple designer Jim Keller \u2014 but no solid rumors yet.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#apple-slim-targets"
+    },
+    {
+      "id": "microsoft-sells-against-claude",
+      "headline": "Microsoft trains its salesforce to attack OpenAI and Anthropic",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "07:15",
+      "attribution": null,
+      "summary": "Per Bloomberg, Microsoft's new fiscal-year strategy has sales staff pushing MAI models' cost-effectiveness and its vertically integrated stack \u2014 telling customers Claude is \"slower and less accurate\" and lacks proper security integrations in Office, while sidestepping overall model quality.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#microsoft-sells-against-claude"
+    },
+    {
+      "id": "nadella-data-trust",
+      "headline": "The pitch's subtext: don't trust OpenAI or Anthropic with your data",
+      "type": "take",
+      "segment": "headlines",
+      "timestamp": "08:40",
+      "attribution": null,
+      "summary": "NLW reads Microsoft's move as aligning with Nadella's argument that the frontier labs have an incentive to build competing services \u2014 and as a foot in the door for its own models before upselling customer-specific fine-tuning via Microsoft Frontier Tuning.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#nadella-data-trust"
+    },
+    {
+      "id": "tml-inkling-release",
+      "headline": "Thinking Machines ships Inkling, its first LLM",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "13:00",
+      "attribution": null,
+      "summary": "Mira Murati's lab released Inkling \u2014 a 975B-parameter MoE (41B active) with a 1M-token window that reasons natively across text, images, and audio \u2014 plus a 12B Inkling Small in preview. It's the first in a planned family and was pre-trained from scratch, aside from a small bootstrap distilled from Kimi K2.5.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#tml-inkling-release"
+    },
+    {
+      "id": "inkling-not-strongest",
+      "headline": "Inkling is not the strongest overall model available today, open or closed.",
       "type": "quote",
-      "segment": "headlines",
-      "timestamp": "07:00",
-      "attribution": "Accelerate Harder, on X",
-      "summary": "After xAI patched the uploads, added a /privacy override, and Musk promised all prior data would be 'completely and utterly deleted,' developers weren't mollified. Critics noted the double standard and asked why it happened at all \u2014 'I guess we'll delete it now' is not great.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#xai-trust-fallout"
+      "segment": "main",
+      "timestamp": "13:40",
+      "attribution": "Thinking Machines Lab, Inkling launch post",
+      "summary": "TML positioned Inkling honestly: a broad, balanced foundation model whose value is a combination of qualities \u2014 multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning \u2014 that make it a good open-weights base for customization.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#inkling-not-strongest"
     },
     {
-      "id": "nadella-data-risk",
-      "headline": "The buyer risks giving away knowledge just in order to use what they bought.",
+      "id": "inkling-benchmarks",
+      "headline": "Competitive but not state-of-the-art \u2014 with strong token efficiency",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "14:20",
+      "attribution": null,
+      "summary": "Inkling scores 29.7% on Humanity's Last Exam (46% with tools), 54.3% on SWE-Bench Pro, and 1238 on GDPVal \u2014 ahead of Nemotron and Kimi K2.5 but well behind GLM 5.2, 5.6 Sol, and Fable 5. Artificial Analysis ranked it 19th at 41, while noting it uses ~two-thirds the tokens per task of GLM 5.2 and DeepSeek V4 Pro.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#inkling-benchmarks"
+    },
+    {
+      "id": "mollick-rough",
+      "headline": "So far Inkling is pretty rough in my tests. Not close to frontier Chinese open weights models.",
       "type": "quote",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": "Satya Nadella, Microsoft CEO",
-      "summary": "NLW argues the Grok Build episode gives credence to Satya Nadella's warning about AI-age data risk: the kind of knowledge a competitor could never buy, leaking out almost imperceptibly. Ultimately, so much of AI data-retention policy still hinges on trust that's hard to verify.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#nadella-data-risk"
+      "segment": "main",
+      "timestamp": "16:20",
+      "attribution": "Professor Ethan Mollick",
+      "summary": "Ethan Mollick reported it failed the LEM test that every frontier model has passed since DeepSeek-R1 and Sonnet 3.5, and that its chain of thought went haywire even on simple requests. First impressions were broadly unflattering.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#mollick-rough"
     },
     {
-      "id": "eavesdrop-on-engineers",
-      "headline": "Watching AI engineers gives non-engineers a six-month head start",
+      "id": "only-non-distilled",
+      "headline": "This is the only open weight model that's trained without distilling from OpenAI or Anthropic.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "18:35",
+      "attribution": "Jack Morris",
+      "summary": "Jack Morris argues Kimi, GLM, Qwen, and Nemotron all distill \u2014 making Inkling a fully different tech stack and the first pure open frontier coding model. A community note added TML did use a small bootstrap from open models like K2.5, and that Llama was also trained without lab distillation.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#only-non-distilled"
+    },
+    {
+      "id": "american-non-distilled-edge",
+      "headline": "Why \"American and non-distilled\" could suddenly matter to enterprises",
       "type": "take",
       "segment": "main",
-      "timestamp": "12:00",
+      "timestamp": "18:50",
       "attribution": null,
-      "summary": "NLW's longest-held tip: pay attention to what actual software engineers are discussing about AI, and you get roughly a six-month lead on tools, model-ecosystem thinking, and the new AI-mediated relationship with work. The best source, he says, is the AI Engineering World's Fair and Summit.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#eavesdrop-on-engineers"
+      "summary": "NLW's read: as enterprises pay more attention to open-weights models, the fact that Inkling is an American model not primarily distilled from a closed lab becomes meaningful \u2014 especially once lawyers and risk teams weigh in on data sovereignty.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#american-non-distilled-edge"
     },
     {
-      "id": "systems-around-agents",
-      "headline": "Trend 1: focus shifts from agents to the systems around them",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "14:00",
-      "attribution": null,
-      "summary": "Agentic capacity isn't just the model or even its context \u2014 it's the harness: access to context and data, skills, tools, and model routing. Richard contrasts Lilian Weng's 2023 'LLM-Powered Autonomous Agents' with her new 'Harness Engineering for Self-Improvement,' which focuses on managing workflows, permissions, evals, and continuous improvement.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#systems-around-agents"
-    },
-    {
-      "id": "agents-augment-not-replace",
-      "headline": "AI ate software, but now the AI engineers are eating the world.",
+      "id": "tinker-business-story",
+      "headline": "Inkling was somewhat inevitable once Tinker took off.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "16:00",
-      "attribution": "Romain Huet, OpenAI",
-      "summary": "At the event, agents were positioned as augmenting engineers rather than replacing them \u2014 the substance of OpenAI's day-two keynote from Romain Huet, who argued tools like Codex exist to help engineers collaborate with agents.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#agents-augment-not-replace"
+      "timestamp": "19:30",
+      "attribution": "Nathan Lambert",
+      "summary": "Nathan Lambert frames Inkling as the integration of post-training services across TML's entire stack \u2014 \"one of the best open model business stories to date.\" The model was designed to be the base model for the Tinker fine-tuning platform.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#tinker-business-story"
     },
     {
-      "id": "loop-engineering-control-layer",
-      "headline": "Trend 2: loop engineering is the new control layer",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": null,
-      "summary": "'Loops' was the buzzword of the event, splitting into an inner loop (largely autonomous agent work) and an outer loop (engineers overseeing and improving it with better skills). As former Google engineer Addy Osmani put it, 'Agents can run much more of the inner execution loop, but that outer loop is still engineering.'",
-      "link": "https://aidailybrief.ai/e/2026-07-15#loop-engineering-control-layer"
-    },
-    {
-      "id": "steinberger-loops",
-      "headline": "The agent runs the inner execution loop. I set the direction in the outer loop.",
+      "id": "monetize-fine-tuning",
+      "headline": "Attack the labs' weakness: competitive paranoia over leaking alpha",
       "type": "quote",
       "segment": "main",
-      "timestamp": "18:00",
-      "attribution": "Peter Steinberger, OpenClaw creator",
-      "summary": "OpenClaw creator Peter Steinberger's framing captures the reclamation of human agency \u2014 and NLW stresses 'loops' is lowercase-l: not one fixed thing, but an emerging set of interaction patterns that let agents improve their work and let humans improve the agents.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#steinberger-loops"
+      "timestamp": "19:50",
+      "attribution": "Jeffrey Emanuel",
+      "summary": "Jeffrey Emanuel argues open weights let companies run models on their own infrastructure without leaking data, and TML's clever answer to open-weights monetization is charging for fine-tuning a company's model on its own internal data \u2014 keeping the benefits exclusive to that company.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#monetize-fine-tuning"
     },
     {
-      "id": "software-factories",
-      "headline": "Trend 3: AI engineering enters the enterprise via 'software factories'",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "19:00",
-      "attribution": null,
-      "summary": "With every AI company now deploying hands-on forward-deployed engineers, an FTE track showed up at the event. Warp CEO Zach Lloyd defines a software factory as automating the main loop of software engineering \u2014 triage, spec, implementation, review, verification, shipping, monitoring \u2014 while managing where humans stay in the loop.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#software-factories"
-    },
-    {
-      "id": "factory-minimizes-variability",
-      "headline": "Factories exist to tame human variability, not just to scale agents",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Zach Lloyd argues interactive agents created problems \u2014 cost controls, governance, security \u2014 because human operators use them differently, like always picking the most expensive model or installing over-permissioned MCPs. The factory approach minimizes variability and maximizes output with compliance controls.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#factory-minimizes-variability"
-    },
-    {
-      "id": "factory-problems-spread",
-      "headline": "These 'software factory' problems are coming to every function",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "NLW's read: the issues software factories solve \u2014 cost overruns from over-powered models, security holes from careless tool access, wildly variable human usage \u2014 will repeat as agents move into product, marketing, and sales. It's a software conversation today and a knowledge-work conversation tomorrow.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#factory-problems-spread"
-    },
-    {
-      "id": "agents-replace-ides",
-      "headline": "Trend 4: coding agents are replacing IDEs as the developer interface",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "The interface is shifting to agent instances tied not to individual users but to specific permissions and context within a channel \u2014 a marketing-channel Claude with different tools than the sales one. Boris of Claude Code said roughly 65% of new code is now initiated in Claude Tag chats.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#agents-replace-ides"
-    },
-    {
-      "id": "labs-drag-functionality-over",
-      "headline": "The labs are dragging engineer-first features into consumer apps",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": null,
-      "summary": "Unlike other patterns, the big labs aren't waiting for non-engineers to adopt engineer practices \u2014 they're pulling functionality across. The best example: ChatGPT Work, which takes Codex and drops it into the main ChatGPT app for everyone.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#labs-drag-functionality-over"
-    },
-    {
-      "id": "skills-as-discipline",
-      "headline": "Trend 5: every agent platform is building around skills",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "Skills encode the workflows, quality gates, and best practices senior engineers use, packaged so agents follow them consistently. Speakers called skills 'portable on-demand knowledge,' a shift from agent tools to agent skills, and a way to reduce orchestration code \u2014 with one arguing 'skill engineering' will be a discipline in its own right.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#skills-as-discipline"
-    },
-    {
-      "id": "skills-for-knowledge-workers",
-      "headline": "Skills \u2014 not waiting for the next model \u2014 may be the fastest path",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "NLW argues skills are high on the list of engineer conversations coming to all knowledge work: rather than waiting for the next model to fix the limits you hit when you're great at your job, encode your knowledge, rules, and taste into skills. YC's Gary Tan called skill use across sales, support, and finance integral to being an AI-native organization.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#skills-for-knowledge-workers"
-    },
-    {
-      "id": "revisit-skills-per-model",
-      "headline": "Each new model is like a kid moving from middle school to high school \u2014 change the curriculum.",
+      "id": "forward-deployed-fine-tuner",
+      "headline": "Enter the forward-deployed fine-tuner.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "26:00",
-      "attribution": "Tyler Brown, AI Engineer World's Fair attendee",
-      "summary": "Attendee Tyler Brown's lesson: revisit and re-implement your skills with each model release to capture the new capability \u2014 a reminder that skills themselves can become an autonomy trap if left static.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#revisit-skills-per-model"
+      "timestamp": "22:20",
+      "attribution": "Daniel Kaplan",
+      "summary": "Daniel Kaplan sees a new services category: self-serve Inkling + Tinker for teams with AI researchers, plus a high-priced forward-deployed fine-tuner for those without \u2014 scaling to big companies, AI startups protecting their alpha, and app-layer companies chasing cheaper tokens.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#forward-deployed-fine-tuner"
     },
     {
-      "id": "autonomy-without-structure",
-      "headline": "The standout sentiment: put the human back at the center",
+      "id": "microsoft-still-requires-trust",
+      "headline": "Microsoft's fine-tuning still requires trusting Microsoft",
       "type": "take",
       "segment": "main",
-      "timestamp": "26:00",
+      "timestamp": "21:30",
       "attribution": null,
-      "summary": "Tyler Brown captured the shift: last year was 'let the agents rip'; this year was realizing autonomy without structure creates as much slop as leverage. NLW ties it to his own March tweet \u2014 companies that give everyone a team of agents will 'kick the slats out of' companies that replace teams with agents.",
-      "link": "https://aidailybrief.ai/e/2026-07-15#autonomy-without-structure"
+      "summary": "NLW notes Microsoft Frontier Tuning on MAI models rides on decades of built-up enterprise trust \u2014 an easier leap than trusting OpenAI or Anthropic \u2014 but it still looks very different from an open-weights option like Inkling that offers real independence and sovereignty.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#microsoft-still-requires-trust"
+    },
+    {
+      "id": "bet-against-bitter-lesson",
+      "headline": "Thinking Machines is basically a bet against the bitter lesson.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "23:40",
+      "attribution": "Simon Smith",
+      "summary": "Simon Smith is unconvinced: fine-tuning is far more effort than people think, ongoing to handle edge cases and model updates, and a big general model plus a bit of context often beats hard-won fine-tunes as token costs collapse. Teams frequently ignore the fully loaded cost of curating data and maintaining pipelines.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#bet-against-bitter-lesson"
+    },
+    {
+      "id": "problem-vs-answer",
+      "headline": "Recognizing the problem doesn't mean today's answers are right",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "24:30",
+      "attribution": null,
+      "summary": "NLW cautions that acknowledging real challenges in data sovereignty and token cost doesn't mean Microsoft Frontier Tuning or Tinker is the ultimate solution. The flip side: as an open-weights model, Inkling addresses both the cost and sovereignty sides at once, whereas a closed fine-tuning solution may be caught in between.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#problem-vs-answer"
+    },
+    {
+      "id": "open-source-moment",
+      "headline": "Organizations are trading frontier access for control over their data",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "25:30",
+      "attribution": "Sriram Krishnan, former White House AI advisor and a16z investor",
+      "summary": "Sriram Krishnan lists the forces behind open source's moment: you can now catch near-SOTA with clean lineage; many well-funded teams exist; organizations fear enabling a future competitor; open source is a slider you tune; companies now worry about ballooning token costs; and countries want frontier tokens inside controlled environments.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#open-source-moment"
+    },
+    {
+      "id": "era-of-choice",
+      "headline": "Enterprises' choice has exploded far beyond \"OpenAI or Anthropic\"",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "26:40",
+      "attribution": null,
+      "summary": "NLW argues the decision now spans models, the harnesses they live in, and complex multi-model architectures including fine-tuning approaches. Not every flower will bloom, and the juggernauts may absorb the best ideas \u2014 but the experimental period will shape the eventual solutions, with real alpha for nimble teams.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#era-of-choice"
+    },
+    {
+      "id": "pay-attention-now",
+      "headline": "You don't have to sign up \u2014 but you can't ignore this",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "27:40",
+      "attribution": null,
+      "summary": "NLW's bottom line for buyers: no need to rush into Tinker or Microsoft Frontier Tuning or switch everything to OpenRouter, but if you make enterprise buying decisions and aren't at least experimenting with or closely watching these fine-tuning and open-weights options, you're missing real opportunity.",
+      "link": "https://aidailybrief.ai/e/2026-07-16#pay-attention-now"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-15.mp3",
-  "generated": "2026-07-16T19:08:42Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-16.mp3",
+  "generated": "2026-07-17T19:09:51Z"
 }

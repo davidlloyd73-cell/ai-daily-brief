@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "\"Who owns the model you fine-tune\" has an NHS translation: data sovereignty",
+      "body": "The edition's core fight — rent a frontier model, or run and customise your own — lands squarely on the question every practice faces with an ambient scribe: where does the consultation data go, and who can train on it? An open-weights model you host, or a supplier who fine-tunes on your data but keeps it on your infrastructure, is the commercial version of what information governance already demands. If NLW's right, this competitive pressure gives buyers real leverage to insist on models that stay inside the data controller's walls. If Zitron's right, none of it is worth the spend regardless — so the safe move is unchanged: demand a clear data-processing agreement and confirm nothing leaves the practice unbidden, whoever's economics win."
+    },
+    {
+      "title": "Beware the 'fine-tuning is the answer' pitch in health IT",
+      "body": "Two of the edition's own voices — Simon Smith and Zitron — warn that fine-tuning is far more effort and ongoing cost than vendors admit, needing constant curation as edge cases and model updates arrive. That caution matters for any practice or ICB tempted by a bespoke, 'trained-on-our-data' clinical tool. If Zitron's right, a big general model plus good prompting and local context often beats a hard-won custom model as token costs fall. If NLW's right, there's still real value for well-resourced teams — but general practice rarely has the data-engineering capacity to maintain a fine-tune, so the honest default is a well-governed general model, not a custom one you cannot keep current."
+    },
+    {
+      "title": "The Microsoft-attacks-rivals story is a reminder to judge tools on evidence, not sales scripts",
+      "body": "Bloomberg's report that Microsoft is training salespeople to tell customers a rival model is \"slower and less accurate\" while sidestepping overall quality is a clean illustration of vendor incentive at work. In the surgery the parallel is exact: scribe and triage-tool claims should be checked against independent testing and your own audit, not the supplier's comparison slide. Whichever side of the bubble argument you take, the discipline is the same — measure accuracy and time saved on your own consultations before trusting anyone's marketing."
+    }
+  ]
+}
