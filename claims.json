@@ -504,6 +504,24 @@
    "resolution": "Vindicated if by the check date OpenAI has run an emergency or down-round raise on distressed terms, taken a government/hyperscaler bailout, folded into Microsoft, or breached a major compute contract (e.g. Oracle). Fails if OpenAI completes a healthy up-round or IPO and continues operating independently and solvently through 2027.",
    "check_by": "2027-12-31",
    "status": "open"
+  },
+  {
+   "edition": "2026-07-17",
+   "side": "NLW",
+   "claim": "The trajectory of open Chinese models is now as steep as the closed US frontier: Chinese open-weight models will continue to close (not fall further behind) the gap to the best US closed models, staying within roughly a three-month lag on major public benchmarks.",
+   "source": "https://aidailybrief.ai/e/2026-07-17",
+   "resolution": "Vindicated if, by the check date, the leading Chinese open-weight model remains within about three months of the best US closed-source model on a recognised independent benchmark (e.g. Artificial Analysis intelligence index), and the gap has not widened from its July 2026 level. Fails if the best US closed models pull materially further ahead of the top Chinese open model on those benchmarks.",
+   "check_by": "2027-01-17",
+   "status": "open"
+  },
+  {
+   "edition": "2026-07-17",
+   "side": "Zitron",
+   "claim": "Serving frontier-class inference (open-weights models like Kimi K3 included) is not profitable, and no provider will demonstrate audited profit from hosting such a model: cheaper Chinese open models undercut the labs' economics without creating a viable, profitable inference business.",
+   "source_url": "https://www.wheresyoured.at/let-ai-burn/",
+   "resolution": "Vindicated if by the check date no inference provider or self-hoster has publicly shown audited profit from serving a frontier-class (K3-scale) model, and price competition continues to compress margins. Fails if a provider publishes credible, audited figures showing frontier-class inference served at a durable profit.",
+   "check_by": "2027-07-07",
+   "status": "open"
   }
  ]
 }
