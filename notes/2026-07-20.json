@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Set boundaries the way you would with a locum you don't yet trust",
+      "body": "The most portable lesson for the surgery needs no view on the hype. As models get more tenacious, the edition's advice is to state the few hard boundaries explicitly - 'prepare the message as a draft, don't send it,' 'use only the sources I've given you,' 'leave approved dates unchanged.' For anyone using an AI scribe or letter-drafting tool this is the safety rail that matters: the more capable the tool, the bigger the real-world consequence of it acting unbidden - a letter sent to a patient, a coding change, an unchecked source. Write the boundary down once, clearly, and check the tool honours it before you rely on it."
+    },
+    {
+      "title": "Automate the admin, but measure before you scale - the loops question cuts both ways",
+      "body": "The edition urges you to move AI onto higher-leverage work and to adopt 'loops' where an agent keeps working until a target is met. If NLW is right, loop-based agents could one day take genuinely tedious practice admin - recalls, QOF chasing, first-draft referral letters - end to end. If Zitron is right, loops mainly burn tokens and subscription money for motion that resembles progress without measured benefit. The disciplined path for a practice is the same whoever wins: pick one workflow, record a baseline (time taken, errors, safety events), and only expand what shows a real reduction in workload or a genuine safety gain. Adopt because it demonstrably helps, not because everyone else is."
+    },
+    {
+      "title": "Resist the pull to 'raise ambition' into clinical decisions",
+      "body": "The One Idea is to attempt bigger, harder things until the model's real limits show. That is fine for drafting and admin, but in clinical work the limits are exactly where patients get harmed, and 'find the edge by pushing' is the wrong method for diagnosis or prescribing. Keep the ambition aimed at the paperwork and the thinking-aloud - a sparring partner for a knotty referral, a blind-spot pass on a service redesign - and keep a clinician firmly between the model and any decision that touches a patient."
+    }
+  ]
+}
