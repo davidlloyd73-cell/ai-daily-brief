@@ -540,6 +540,24 @@
       "resolution": "Vindicated if by the check date no credible independent evidence (controlled study or audited case) shows loop-based agentic workflows delivering measurable net productivity gains over single-pass or human-directed prompting, while per-task token consumption rises. Fails if a credible independent study or audited deployment shows loops producing a real, measured productivity improvement that justifies their extra cost.",
       "check_by": "2027-06-23",
       "status": "open"
+    },
+    {
+      "edition": "2026-07-21",
+      "side": "NLW",
+      "claim": "The de facto informal regime governing model releases will move toward formalisation, and the US will take concrete regulatory action to restrict Chinese open-weight models - shaping which models enterprises can access and at what cost.",
+      "source": "https://aidailybrief.ai/e/2026-07-21",
+      "resolution": "Vindicated if by the check date the US has instituted a formal approval/clearinghouse mechanism gating frontier-model release (e.g. Gold Eagle) and/or taken concrete regulatory action against Chinese open-weight models (entity-list additions, an executive order creating hosting liability, or an effective ban). Fails if the regime remains genuinely voluntary with no such formal mechanism or restriction in place.",
+      "check_by": "2027-01-21",
+      "status": "open"
+    },
+    {
+      "edition": "2026-07-21",
+      "side": "Zitron",
+      "claim": "OpenAI has no meaningful return on investment and remains deeply unprofitable; the premium-frontier business that justifies the industry's trillions in capex does not generate tangible, measurable returns and is a systemic liability.",
+      "source_url": "https://www.wheresyoured.at/the-openai-bubble/",
+      "resolution": "Vindicated if by the check date OpenAI is still reporting large net losses with no credible path to profitability and no independent evidence of ROI justifying the capex (or a major funding failure / restructuring occurs). Fails if OpenAI demonstrates sustainable profitability or audited positive ROI that justifies the premium-frontier spend.",
+      "check_by": "2027-07-15",
+      "status": "open"
     }
   ]
 }

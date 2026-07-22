@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Which model ends up inside your clinical tools won't be your choice",
+      "body": "The edition's real message for a GP is that the AI sitting under your scribe, letter-drafter or triage aid will be shaped by procurement and policy fights, not by clinical merit. If NLW is right that access gets gated by clearinghouses and approval regimes, practices may find their tools locked to a couple of expensive US vendors. If Zitron is right that the premium frontier is a bubble, cheaper open-weight models could become the affordable, data-sovereign path for the NHS. Either way the practical step is the same: ask any supplier which model sits underneath their product, where the patient data goes, and what happens to price and availability if that model gets restricted."
+    },
+    {
+      "title": "Open weights and data sovereignty - a genuine NHS angle",
+      "body": "Open-weight models can be self-hosted on NHS infrastructure, keeping patient data in-country and off third-party servers - a real advantage for information governance whoever wins the hype argument. The security worry the edition raises (possible backdoors in foreign models) is legitimate, but for the health service the answer isn't to bet everything on two US firms; it's the ordinary due diligence any clinical system needs - known provenance, auditable behaviour, and data staying where it should."
+    },
+    {
+      "title": "None of this changes today's consultation",
+      "body": "This is a supply-side, geopolitical story; it doesn't alter how you should use an AI scribe this week. Keep checking every AI-drafted letter and note before it goes out, keep a clinician between the tool and any decision that touches a patient, and treat vendor and model churn as a procurement risk to plan for - not a reason to change clinical practice."
+    }
+  ]
+}
