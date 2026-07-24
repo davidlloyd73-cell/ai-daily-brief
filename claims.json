@@ -576,6 +576,24 @@
       "resolution": "Vindicated if by the check date there is no credible independent evidence of broad, sustained improvement in frontier-model reliability on ordinary real-world tasks AND leading labs (OpenAI, Anthropic) still lack audited positive ROI on their frontier spend. Fails if independent evidence shows both a measurable, broad reliability improvement on real workloads and a credible path to / demonstration of positive ROI.",
       "check_by": "2027-06-08",
       "status": "open"
+    },
+    {
+      "edition": "2026-07-23",
+      "side": "NLW",
+      "claim": "The current China-driven selloff is another recurring 'AI freakout' rather than the onset of a real crash: the market's compulsive bubble-hunting acts as a pressure-release valve that keeps a runaway 1999-style AI bubble from forming, so no such broad boom-and-bust collapse takes hold.",
+      "source_url": "https://aidailybrief.ai/e/2026-07-23",
+      "resolution": "Fails if by the check date there has been a 1999-2000-style AI bubble collapse, i.e. a broad, sustained crash in AI/AI-exposed equities (order of 40%+ peak-to-trough) accompanied by a wave of failures or defaults among major AI infrastructure players. Vindicated if no such systemic AI-equity collapse has occurred and the sector's valuation stress remained a series of contained, recoverable pullbacks.",
+      "check_by": "2027-07-23",
+      "status": "open"
+    },
+    {
+      "edition": "2026-07-23",
+      "side": "Zitron",
+      "claim": "AI data-centre construction is a debt-funded asset bubble: real compute demand is roughly an order of magnitude smaller than the capacity being built, 70-90% of it comes from OpenAI and Anthropic, and the SPV/off-balance-sheet debt behind data centres will begin to show subprime-style distress.",
+      "source_url": "https://www.wheresyoured.at/the-subprime-data-center-crisis/",
+      "resolution": "Vindicated if by the check date there is credible evidence of data-centre SPV distress (defaults, breached debt-service ratios, cancelled financings tied to unpaid contracts) AND compute demand remains concentrated in OpenAI, Anthropic and their hyperscaler backers with little diverse third-party revenue. Fails if substantial third-party (non-hyperscaler, non-OpenAI/Anthropic) compute revenue materialises at scale and the data-centre debt structures continue to be serviced without notable default or distress.",
+      "check_by": "2027-07-22",
+      "status": "open"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Whether it is a bubble or not, do not bet the surgery on the cheapest tool",
+      "body": "The whole edition is an argument about AI's finances, and the two camps disagree completely. If Zitron is right that the build-out is a debt-funded bubble propped up by two loss-making labs, then some of today's AI clinical tools are being sold below cost and a shake-out could see prices jump, features withdrawn, or a supplier fold. If NLW is right that the market simply overreacts and the sector grows steadily, the risk is milder but not zero. Either way the practical instruction for a practice is the same: when choosing an AI scribe or triage tool, favour a supplier likely to be solvent in three years, read the exit terms, and make sure patient records and letters can be exported if the product disappears."
+    },
+    {
+      "title": "Concentration risk applies to clinical suppliers too",
+      "body": "Zitron's central claim is that almost all AI demand traces back to a handful of firms and their backers. Most AI scribes and triage products are thin wrappers over a model from OpenAI, Anthropic, Google or a Chinese lab. If NLW is right, that is fine and the models keep improving. If Zitron is right, a wobble at one lab could degrade or interrupt a tool a surgery has come to depend on mid-clinic. It is a fair due-diligence question to ask any vendor which model sits underneath, and what happens to your service if that provider raises prices sharply or pulls access."
+    },
+    {
+      "title": "The honest healthcare read: this is a money story, not a safety story",
+      "body": "Unlike some editions, there is little direct clinical content here. The value for general practice is disposition, not diagnosis: do not over-commit to long contracts or expensive integrations on the assumption that today's generous pricing is permanent, and keep any AI tool as an assistant with a clinician in the loop, so that a commercial collapse upstream is an inconvenience rather than a clinical risk."
+    }
+  ]
+}
