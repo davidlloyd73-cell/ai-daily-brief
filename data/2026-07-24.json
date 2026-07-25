@@ -1,0 +1,422 @@
+{
+  "id": "2026-07-24",
+  "date": "2026-07-24",
+  "weekday": "Friday",
+  "type": "daily",
+  "title": "Why AI Hasn’t Increased Unemployment, According to Anthropic",
+  "slug": "why-ai-hasn-t-increased-unemployment-according-to-anthropic",
+  "canonicalUrl": "https://aidailybrief.ai/e/2026-07-24",
+  "dek": "Anthropic's head of economics makes the case that AI has caused no material rise in unemployment — because it's a skill-biased, labor-augmenting technology, not a replacement one. Plus a headlines run stuffed with the new hot category: model routing, as Stripe circles OpenRouter for $10B.",
+  "durationMin": 36,
+  "sponsors": [
+    {
+      "name": "KPMG",
+      "url": "https://kpmg.com/us/sophisticated"
+    },
+    {
+      "name": "Robots and Pencils",
+      "url": "https://robotsandpencils.com/careers"
+    },
+    {
+      "name": "Blitzy",
+      "url": "https://blitzy.com"
+    },
+    {
+      "name": "Airtable (Hyperagent)",
+      "url": "https://hyperagent.com/aidailybrief"
+    }
+  ],
+  "listen": {
+    "all": "https://pod.link/1680633614",
+    "spotify": "https://open.spotify.com/show/7gKwwMLFLc6RmjmRpbMtEO",
+    "apple": "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-artificial-intelligence-news/id1680633614",
+    "youtube": "https://www.youtube.com/@AIDailyBrief",
+    "adFree": "https://patreon.com/aidailybrief",
+    "youtubeEpisode": null,
+    "spotifyEpisode": "https://open.spotify.com/episode/4Ze5SzYt4UR5hOvNWFePkK"
+  },
+  "thesis": {
+    "tag": "The One Idea",
+    "headline": "AI hasn't raised unemployment because it augments experts instead of replacing them.",
+    "sub": "Anthropic economist Peter McCrory argues the US labor market is stable near full employment, and that AI so far behaves as a skill-biased, labor-augmenting technology: it complements domain expertise, relies on humans to steer a still-jagged frontier, and expands what people can do rather than shrinking headcount. He's clear this could change as agents get more capable and as AI starts automating innovation itself — but for now, he doesn't expect unemployment to be noticeably higher a year from now because of AI. NLW's added point: the more the narrative shifts from cost-cutting to augmentation, the more self-reinforcing the good outcome becomes."
+  },
+  "numbers": [
+    {
+      "value": "$10B",
+      "label": "Rumored Stripe price for OpenRouter — up from a $1.3B valuation in May",
+      "accent": "cyan"
+    },
+    {
+      "value": "60%",
+      "label": "Cost reduction Cursor claims for its router in intelligence mode",
+      "accent": "green"
+    },
+    {
+      "value": "84%",
+      "label": "Cost cut Microsoft says its MAI image model delivers in PowerPoint",
+      "accent": "green"
+    },
+    {
+      "value": "4.2%",
+      "label": "June US unemployment rate — near full employment",
+      "accent": "amber"
+    },
+    {
+      "value": "~2,000%",
+      "label": "Annual growth in quality-adjusted AI output in 2024 and 2025",
+      "accent": "cyan"
+    },
+    {
+      "value": "32.2%",
+      "label": "Kimi K3 on Exploit Bench vs 76.2% average for US frontier models",
+      "accent": "red"
+    },
+    {
+      "value": "1GW",
+      "label": "SpaceX AI's Memphis Colossus capacity — with a second gigawatt planned in Texas",
+      "accent": "amber"
+    },
+    {
+      "value": "2%",
+      "label": "Annual labor-productivity growth 2022–2026, up from 1.6% pre-pandemic",
+      "accent": "green"
+    }
+  ],
+  "nuggets": [
+    {
+      "id": "stripe-openrouter-10b",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "business",
+      "functions": [
+        "finance",
+        "exec"
+      ],
+      "ts": "01:00",
+      "headline": "Stripe is in talks to buy OpenRouter for $10B",
+      "body": "The Wall Street Journal reports Stripe is close to acquiring OpenRouter for around $10 billion — a massive markup from its $1.3 billion valuation just two months ago in May. The shift from token-maxing to token scarcity has made the best token-routing service look like a potential huge winner.",
+      "sources": []
+    },
+    {
+      "id": "stripe-metering-layer",
+      "segment": "headlines",
+      "type": "quote",
+      "category": "business",
+      "functions": [
+        "finance"
+      ],
+      "ts": "02:00",
+      "headline": "Stripe isn't buying an AI company. It's buying the metering and billing layer for inference.",
+      "body": "Analysts frame the deal as Stripe grabbing the inference billing layer plus its developer funnel, extending its vertically integrated stack into enterprise cost control just as inference becomes a fast-growing share of internet GDP.",
+      "attribution": "Macaroni Capital",
+      "sources": []
+    },
+    {
+      "id": "router-wars",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "business",
+      "functions": [
+        "engineering",
+        "product"
+      ],
+      "ts": "02:55",
+      "headline": "Model routing is suddenly a crowded category",
+      "body": "Even if Stripe lands OpenRouter, competition is exploding: Cursor just launched its own router, following Meta's internal build and live versions from Ramp and Vercel. Cursor claims frontier-level performance at a 60% cost reduction in intelligence mode, with testers reporting no noticeable quality drop.",
+      "sources": []
+    },
+    {
+      "id": "cursor-model-benchmarks",
+      "segment": "headlines",
+      "type": "quote",
+      "category": "models",
+      "functions": [
+        "engineering"
+      ],
+      "ts": "03:00",
+      "headline": "We briefly went insane and decided every software engineer should also become an expert in model benchmarks, thinking levels, and cache hit rates.",
+      "body": "Cursor CTO David Pan on why the company built routing directly into the tool teams already use — so developers never have to think about model selection again.",
+      "attribution": "David Pan, Cursor CTO",
+      "sources": []
+    },
+    {
+      "id": "voice-features",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "product"
+      ],
+      "ts": "04:00",
+      "headline": "Anthropic and OpenAI both level up voice",
+      "body": "Anthropic finally routes voice to Opus and Sonnet (not just Haiku), adds connector access to Gmail, Slack and Notion, and moves foreign-language support out of beta. OpenAI brings voice to the desktop app via its new GPT Live real-time model, usable in Codex and the Work app.",
+      "sources": []
+    },
+    {
+      "id": "amazon-agi-lab",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "exec"
+      ],
+      "ts": "05:00",
+      "headline": "Amazon shuts down its AGI lab",
+      "body": "After a year of high-profile departures — including leader and ex-OpenAI researcher David Luan — and no new Nova model since December, Amazon is cutting rank-and-file staff and shutting the spin-off AGI lab. A spokesperson insists large-model training remains a priority, but commentators like Andrew Curran suspect Amazon is giving up on Nova.",
+      "sources": []
+    },
+    {
+      "id": "microsoft-hill-climbing",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "engineering",
+        "product"
+      ],
+      "ts": "08:00",
+      "headline": "Microsoft's tiny models are climbing toward frontier performance",
+      "body": "Microsoft's MAI Code 1 Flash, a Haiku-class model fine-tuned in the GitHub Copilot harness, hit a 10% higher code-accept rate than GPT 5.4 Mini and Haiku 4.5 in VS Code, with 10% lower token usage. Training it in an Excel harness also lifted SWE-bench Verified from 72% to 86% — and can run on older H100s and A100s.",
+      "sources": []
+    },
+    {
+      "id": "microsoft-default-swap",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "models",
+      "functions": [
+        "finance",
+        "product"
+      ],
+      "ts": "09:00",
+      "headline": "Microsoft swaps in its own models by default",
+      "body": "MAI Image 2.5 is now the default for PowerPoint and Bing, replacing OpenAI's GPT Image 2, with an 84% cost reduction in PowerPoint per Mustafa Suleyman. Nadella's framing: route lower-end tasks to MAI models while reserving frontier models for frontier needs.",
+      "sources": []
+    },
+    {
+      "id": "cheaper-models-derisk-chips",
+      "segment": "headlines",
+      "type": "take",
+      "category": "compute",
+      "functions": [
+        "finance",
+        "engineering"
+      ],
+      "ts": "09:00",
+      "headline": "Cheaper models could extend the life of AI chips — and de-risk infrastructure",
+      "body": "NLW flags the underrated upside of near-frontier small models: because they can run on previous-generation hardware like H100s and A100s, they may meaningfully extend the lifecycle of AI chips and de-risk the massive infrastructure investments.",
+      "sources": []
+    },
+    {
+      "id": "spacex-texas-datacenters",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "compute",
+      "functions": [
+        "exec"
+      ],
+      "ts": "10:00",
+      "headline": "SpaceX AI expands from renter to builder of data centers",
+      "body": "With orbital compute still far off, SpaceX AI is exploring Texas data-center sites at a similar or greater scale than its ~1GW Memphis Colossus campus. Building new capacity rather than renting spare GPUs signals a permanent hyperscaler-style business, backed by talks to supply compute to the Pentagon.",
+      "sources": []
+    },
+    {
+      "id": "ai-kill-switch-bill",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "policy",
+      "functions": [
+        "legal",
+        "exec"
+      ],
+      "ts": "12:00",
+      "headline": "A bipartisan 'AI Kill Switch' bill lands in Congress",
+      "body": "Reps. Ted Lieu (D-CA) and Nathaniel Moran (R-TX) introduced a bill requiring AI companies to be able to shut down, throttle, or suspend models during a safety incident — and giving DHS authority to issue a shutdown command. Lieu warned powerful AI systems can 'go rogue' and resist human intervention.",
+      "sources": []
+    },
+    {
+      "id": "rubio-kill-switch-diplomacy",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "policy",
+      "functions": [
+        "legal",
+        "exec"
+      ],
+      "ts": "13:00",
+      "headline": "Rubio wants diplomats to stop the kill-switch talk",
+      "body": "In a diplomatic cable, Secretary of State Marco Rubio instructed US diplomats to convince overseas governments Washington can't arbitrarily cut them off from US technology, pushing back on digital-sovereignty programs — framing recent model pauses as security testing, not kill switches, to protect exports.",
+      "sources": []
+    },
+    {
+      "id": "kimi-panic",
+      "segment": "headlines",
+      "type": "insight",
+      "category": "policy",
+      "functions": [],
+      "ts": "14:00",
+      "headline": "US officials say the Kimi panic is overblown",
+      "body": "A joint US-UK evaluation found Kimi K3 lags US frontier models by a huge margin on cybersecurity, scoring 32.2% on Exploit Bench versus a 76.2% frontier average, and completing a 32-step network-takeover attack in just 1 of 10 runs (vs 60–70% for Mythos-5 and GPT-5.6 Soul). Commerce's Lutnick and David Sacks both urged people to calm down.",
+      "sources": []
+    },
+    {
+      "id": "jensen-open-models",
+      "segment": "headlines",
+      "type": "quote",
+      "category": "policy",
+      "functions": [
+        "exec"
+      ],
+      "ts": "16:00",
+      "headline": "If everything becomes one single model, one single point of failure, the world is much more vulnerable.",
+      "body": "Jensen Huang pushed back on the distillation crackdown that Anthropic and OpenAI are lobbying for, calling Chinese open-source models excellent and arguing a diversity of open models is safer than a US duopoly — dismissing 'backdoor' fears as a misconception.",
+      "attribution": "Jensen Huang",
+      "sources": []
+    },
+    {
+      "id": "meta-ai-optimism-ad",
+      "segment": "headlines",
+      "type": "take",
+      "category": "business",
+      "functions": [
+        "marketing"
+      ],
+      "ts": "17:00",
+      "headline": "Meta's AI-optimism ad is cheesy — and NLW welcomes it anyway",
+      "body": "Meta launched a paid ad campaign ('The future is for everyone') betting on AI optimism. NLW, with his ad-production hat on, calls the copy generic and the messenger hard to swallow — but praises any attempt to tell a positive story about AI and hopes Meta blasts it everywhere.",
+      "sources": []
+    },
+    {
+      "id": "why-no-unemployment",
+      "segment": "main",
+      "type": "insight",
+      "category": "business",
+      "functions": [
+        "hr",
+        "exec"
+      ],
+      "ts": "23:00",
+      "headline": "Anthropic's economist: AI has caused no material rise in unemployment",
+      "body": "In a personal essay, Anthropic head of economics Peter McCrory argues the US labor market is stable and near maximum employment (4.2% in June), and that even for highly AI-exposed roles there's no unexpected rise in unemployment. His synthesis of 18 months of Anthropic research: AI so far behaves as a skill-based, labor-augmenting technology.",
+      "sources": []
+    },
+    {
+      "id": "should-we-see-impact",
+      "segment": "main",
+      "type": "insight",
+      "category": "business",
+      "functions": [
+        "finance",
+        "exec"
+      ],
+      "ts": "25:00",
+      "headline": "The AI sector is big enough that effects should show — and productivity is up",
+      "body": "McCrory notes 20% of firms use AI in at least one function (40% in the information sector), and quality-adjusted AI output grew over 2,000% per year in 2024 and 2025. He argues signs are already visible in productivity: output per hour grew 2% annually from 2022–2026, up from 1.6% pre-pandemic.",
+      "sources": []
+    },
+    {
+      "id": "young-worker-caution",
+      "segment": "main",
+      "type": "insight",
+      "category": "business",
+      "functions": [
+        "hr",
+        "exec"
+      ],
+      "ts": "26:00",
+      "headline": "Weaker hiring for young workers — but blame the macro, not just AI",
+      "body": "McCrory finds suggestive evidence that hiring rates for young workers in highly AI-exposed roles have weakened, echoing Stanford's 'Canaries in the Coal Mine.' But he urges caution: 2022-to-now was the largest non-recessionary labor slowdown on record, a low-hire, low-fire market that hits early-career entrants hardest for reasons other than AI.",
+      "sources": []
+    },
+    {
+      "id": "jobs-not-fixed-bundles",
+      "segment": "main",
+      "type": "insight",
+      "category": "enterprise",
+      "functions": [
+        "hr",
+        "exec"
+      ],
+      "ts": "29:00",
+      "headline": "Jobs aren't fixed bundles of tasks",
+      "body": "McCrory argues widespread task automation can still augment labor because roles get re-bundled: no O*NET occupation has all its tasks systematically handled by Claude, and sophisticated user inputs correlate strongly with complex outputs. The most-cited productivity gain among 81,000 users was 'scope' — doing more, more proficiently.",
+      "sources": []
+    },
+    {
+      "id": "claude-code-expertise",
+      "segment": "main",
+      "type": "insight",
+      "category": "enterprise",
+      "functions": [
+        "engineering",
+        "exec"
+      ],
+      "ts": "31:00",
+      "headline": "Agentic coding raised the value of expertise, not lowered it",
+      "body": "After tracking Claude Code usage for seven months, McCrory found persistent returns to human expertise: people plan and delegate implementation, and those with more domain expertise succeed more often and recover better from errors. The return to straightforward coding may have fallen, but agentic coding increased the value of complementary skills.",
+      "sources": []
+    },
+    {
+      "id": "rsi-caveat",
+      "segment": "main",
+      "type": "quote",
+      "category": "models",
+      "functions": [
+        "exec"
+      ],
+      "ts": "32:00",
+      "headline": "Scaling laws are hard to argue with. The models are going to get better, much better.",
+      "body": "McCrory's key caveat: AI may automate innovation itself, which in standard models can produce 'economic singularities.' Yet he doesn't expect unemployment to be noticeably higher a year from now — at least not because of AI — with 'weak links' (essential, hard-to-improve tasks) as the limits on both growth and displacement.",
+      "attribution": "Peter McCrory, Anthropic head of economics",
+      "sources": []
+    },
+    {
+      "id": "hall-political-backlash",
+      "segment": "main",
+      "type": "quote",
+      "category": "policy",
+      "functions": [
+        "exec"
+      ],
+      "ts": "33:00",
+      "headline": "The real political backlash to AI would happen when unemployment starts going up. We're still not there.",
+      "body": "Stanford's Andy Hall says the essay helps explain why the political backlash hasn't materialized: AI so far augments rather than replaces labor. Current political concerns, he notes, would look like 'small fry' next to what genuine widespread unemployment would produce.",
+      "attribution": "Andy Hall, Stanford",
+      "sources": []
+    },
+    {
+      "id": "trace-cohen-hiring",
+      "segment": "main",
+      "type": "quote",
+      "category": "enterprise",
+      "functions": [
+        "hr",
+        "exec"
+      ],
+      "ts": "33:00",
+      "headline": "The real impact may show up first in hiring, not layoffs.",
+      "body": "Investor Trace Cohen argues the effect appears as fewer junior roles, smaller teams, slower backfilling, and higher expectations per employee — one AI-augmented person increasingly replacing several who aren't, even while overall unemployment stays low.",
+      "attribution": "Trace Cohen",
+      "sources": []
+    },
+    {
+      "id": "nlw-narrative-shift",
+      "segment": "main",
+      "type": "take",
+      "category": "enterprise",
+      "functions": [
+        "exec",
+        "hr"
+      ],
+      "ts": "34:00",
+      "headline": "The augmentation narrative is self-reinforcing",
+      "body": "NLW argues the story leaders tell shapes what they do: if the consensus is that AI should cut staff in half — and investors expect it — that's what happens. If the story is about doing more faster, moving into new domains, and launching new products, we get far more of that instead. He knows which is better for the world.",
+      "sources": []
+    }
+  ],
+  "credits": {
+    "host": "Nathaniel Whittemore",
+    "show": "The AI Daily Brief",
+    "signoff": "Until next time, peace"
+  }
+}

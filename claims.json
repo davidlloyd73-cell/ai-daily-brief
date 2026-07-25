@@ -594,6 +594,24 @@
       "resolution": "Vindicated if by the check date there is credible evidence of data-centre SPV distress (defaults, breached debt-service ratios, cancelled financings tied to unpaid contracts) AND compute demand remains concentrated in OpenAI, Anthropic and their hyperscaler backers with little diverse third-party revenue. Fails if substantial third-party (non-hyperscaler, non-OpenAI/Anthropic) compute revenue materialises at scale and the data-centre debt structures continue to be serviced without notable default or distress.",
       "check_by": "2027-07-22",
       "status": "open"
+    },
+    {
+      "edition": "2026-07-24",
+      "side": "NLW",
+      "claim": "Following Anthropic economist Peter McCrory, AI will not cause a noticeable rise in US unemployment over the next year, because it is behaving as a skill-biased, labour-augmenting technology that complements expertise rather than replacing headcount; the recent lift in labour productivity (about 2% a year, up from 1.6% pre-pandemic) reflects real AI-driven gains.",
+      "source_url": "https://aidailybrief.ai/e/2026-07-24",
+      "resolution": "Vindicated if, by the check date, US unemployment remains near full employment (broadly in the 4-5% range) with no credible evidence of a material, AI-attributable rise in joblessness, and labour-productivity growth holds around or above 2%. Fails if unemployment rises materially with credible attribution to AI displacement, or if the productivity uptick reverses toward or below the pre-pandemic 1.6% trend.",
+      "check_by": "2027-07-24",
+      "status": "open"
+    },
+    {
+      "edition": "2026-07-24",
+      "side": "Zitron",
+      "claim": "The AI build-out is producing no actual return on investment - no revenue, profitability, productivity gains or anything tangible and measurable - and is 'the greatest capital misallocation in history', sustained only because OpenAI (the linchpin, intending to burn over $852bn by 2030) has not yet collapsed.",
+      "source_url": "https://www.wheresyoured.at/the-openai-bubble/",
+      "resolution": "Vindicated if, by the check date, there is credible evidence that AI has failed to produce measurable aggregate productivity or profit returns AND OpenAI shows acute financial distress (failed/renegotiated funding, defaulted or unmet remaining performance obligations, or collapse). Fails if OpenAI's committed spending continues to be funded and serviced without acute distress AND independent evidence shows durable AI-attributable productivity or profit gains at scale.",
+      "check_by": "2027-07-15",
+      "status": "open"
     }
   ]
 }

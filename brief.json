@@ -1,251 +1,281 @@
 {
-  "date": "2026-07-23",
-  "title": "A Field Guide to AI Market Freakouts",
-  "dek": "One extended theme today: the latest China-driven AI selloff. NLW zooms out to catalog every recurring way investors panic about AI \u2014 cheap models, circular financing, revenue-vs-CapEx, token caps, scaling walls \u2014 and argues the market's compulsive bubble-hunting is exactly what keeps a real bubble from forming.",
-  "source": "https://aidailybrief.ai/e/2026-07-23",
+  "date": "2026-07-24",
+  "title": "Why AI Hasn\u2019t Increased Unemployment, According to Anthropic",
+  "dek": "Anthropic's head of economics makes the case that AI has caused no material rise in unemployment \u2014 because it's a skill-biased, labor-augmenting technology, not a replacement one. Plus a headlines run stuffed with the new hot category: model routing, as Stripe circles OpenRouter for $10B.",
+  "source": "https://aidailybrief.ai/e/2026-07-24",
   "oneIdea": {
-    "headline": "AI market freakouts follow a pattern \u2014 and the pattern is why the bubble hasn't formed.",
-    "summary": "Since ChatGPT, investors have cycled through the same anxieties: cheap Chinese models, circular financing, revenue not justifying spend, CapEx running too hot, token caps, scaling walls. NLW's field guide walks each one, notes they often coincide with predictable summer seasonality, and lands on a counterintuitive conclusion \u2014 the market's relentless determination to call everything a bubble is itself the pressure-release valve keeping a runaway 1999-style bubble from ever taking hold."
+    "headline": "AI hasn't raised unemployment because it augments experts instead of replacing them.",
+    "summary": "Anthropic economist Peter McCrory argues the US labor market is stable near full employment, and that AI so far behaves as a skill-biased, labor-augmenting technology: it complements domain expertise, relies on humans to steer a still-jagged frontier, and expands what people can do rather than shrinking headcount. He's clear this could change as agents get more capable and as AI starts automating innovation itself \u2014 but for now, he doesn't expect unemployment to be noticeably higher a year from now because of AI. NLW's added point: the more the narrative shifts from cost-cutting to augmentation, the more self-reinforcing the good outcome becomes."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Whether it is a bubble or not, do not bet the surgery on the cheapest tool",
-        "body": "The whole edition is an argument about AI's finances, and the two camps disagree completely. If Zitron is right that the build-out is a debt-funded bubble propped up by two loss-making labs, then some of today's AI clinical tools are being sold below cost and a shake-out could see prices jump, features withdrawn, or a supplier fold. If NLW is right that the market simply overreacts and the sector grows steadily, the risk is milder but not zero. Either way the practical instruction for a practice is the same: when choosing an AI scribe or triage tool, favour a supplier likely to be solvent in three years, read the exit terms, and make sure patient records and letters can be exported if the product disappears."
+        "title": "What 'augmentation, not replacement' means for a surgery",
+        "body": "McCrory's finding \u2014 that AI so far complements expertise rather than replacing it, and that people with more domain knowledge get more out of it \u2014 maps neatly onto what an AI scribe actually does in a consulting room. The tool drafts the letter or the notes; the clinician still steers, corrects and signs. If McCrory is right, the sensible posture is to use these tools to widen what a GP can get through in a session while keeping the doctor firmly in the loop. If Zitron is right that the underlying economics are hollow, the practical caution is the same one that always applies to a cheap, venture-subsidised tool: do not build your workflow so tightly around it that you are stranded if the price jumps or the supplier folds."
       },
       {
-        "title": "Concentration risk applies to clinical suppliers too",
-        "body": "Zitron's central claim is that almost all AI demand traces back to a handful of firms and their backers. Most AI scribes and triage products are thin wrappers over a model from OpenAI, Anthropic, Google or a Chinese lab. If NLW is right, that is fine and the models keep improving. If Zitron is right, a wobble at one lab could degrade or interrupt a tool a surgery has come to depend on mid-clinic. It is a fair due-diligence question to ask any vendor which model sits underneath, and what happens to your service if that provider raises prices sharply or pulls access."
+        "title": "Junior roles and training are the place to watch",
+        "body": "The one soft signal in the essay is weaker hiring for young workers in AI-exposed roles \u2014 though McCrory rightly blames a low-hire, low-fire macro market as much as AI. For general practice and the wider NHS the read-across is about training pipelines rather than redundancy: if AI quietly absorbs the routine tasks that junior staff once cut their teeth on, someone has to make sure trainees, HCAs and new GPs still get the reps that build judgement. The augmentation story is only good news if the ladder underneath it is protected."
       },
       {
-        "title": "The honest healthcare read: this is a money story, not a safety story",
-        "body": "Unlike some editions, there is little direct clinical content here. The value for general practice is disposition, not diagnosis: do not over-commit to long contracts or expensive integrations on the assumption that today's generous pricing is permanent, and keep any AI tool as an assistant with a clinician in the loop, so that a commercial collapse upstream is an inconvenience rather than a clinical risk."
+        "title": "A money story with a clinical tail",
+        "body": "Most of this edition is macroeconomics, not medicine, and it is fair to say the direct clinical content is thin. The honest takeaway for a practice is disposition, not diagnosis: whether or not you believe the productivity numbers, keep AI as an assistant with a clinician accountable for every output, and avoid long or expensive lock-ins premised on today's generous pricing being permanent."
       }
     ]
   },
   "the_other_side": {
-    "source": "The Subprime Data Center Crisis",
-    "url": "https://www.wheresyoured.at/the-subprime-data-center-crisis/",
-    "date": "2026-07-22",
+    "source": "The OpenAI Bubble",
+    "url": "https://www.wheresyoured.at/the-openai-bubble/",
+    "date": "2026-07-15",
     "same_day": false,
-    "text": "Where NLW argues the market's relentless bubble-hunting is a pressure-release valve, that circular financing is nothing like the dot-com trap because OpenAI pays cash for GPUs, and that cancelled data centres reflect hard construction rather than weak demand, Zitron's argument is the mirror image. He contends the AI build-out is a genuine debt-funded asset bubble whose special-purpose vehicles are the equivalent of 2008's collateralised debt obligations: off-balance-sheet structures, reminiscent of Enron, that hide something like 1.65 trillion dollars of obligations while NVIDIA finances the very companies buying its chips and then rents that capacity back. He estimates that 70 to 90 percent of compute demand comes from OpenAI and Anthropic, two loss-making firms, and that roughly fifteen times more data-centre capacity is being built than real demand supports. On his reading the freakouts are not preventing a bubble; they are belatedly noticing a real one."
+    "text": "Where McCrory reads a stable labour market and rising productivity as proof that AI is a real, value-creating technology quietly augmenting workers, Zitron denies the premise underneath it: that AI is producing measurable economic value at all. He argues the AI build-out \"isn't a result of any actual return on investment \u2014 whether that be in purely monetary terms, like revenue or profitability, productivity gains, or anything tangible or measurable,\" but is instead \"the greatest capital misallocation in history,\" held aloft only because OpenAI has not yet collapsed. On his reading, the very productivity figures McCrory cites are noise dressed up as signal; the honest test is not the unemployment rate but whether the trillions in spending ever convert into durable profit, and he expects they will not."
   },
   "the_truth_beneath": {
-    "text": "The single variable both men orbit is whether demand for AI compute is real and durable enough to service the debt now being raised against it. Both accept the facts of scale: staggering capital spending heading past a trillion dollars, roughly half the S&P 500 AI-exposed, and much of the financing routed through hyperscalers and neoclouds. The empirical question that will resolve is whether paying customers exist beyond OpenAI and Anthropic to fill the capacity, and whether those two can keep paying. The observable that settles it is third-party compute revenue and remaining performance obligations from buyers who are not hyperscalers or the two big labs, plus whether the data-centre SPVs actually meet their debt-service ratios once leases begin. The residue is worldview: NLW reads compulsive bubble-calling as self-correcting; Zitron reads it as recognition of hidden systemic leverage. NLW is vindicated if diverse enterprise demand climbs to absorb the build and spending keeps being funded without defaults; Zitron if demand stays concentrated in two unprofitable labs and the SPVs start missing payments. Both are polemicists with incentives, NLW bullish and anti-doom, Zitron bubble-certain and anti-hype, so the signal is where they agree despite opposite priors: both concede the spending is enormous and both concede it currently hinges on two loss-making companies. Watch whether compute revenue from anyone other than OpenAI, Anthropic and their hyperscaler backers actually materialises."
+    "text": "The single variable both men orbit is whether AI is yet producing real, measurable economic value \u2014 the productivity that McCrory says is already visible and Zitron says does not exist. Both accept the plain facts: unemployment sits near 4.2%, no mass AI layoffs have arrived, and capital spending is enormous. The empirical question that will resolve is whether the recent uptick in labour productivity (2% versus 1.6% before the pandemic) is genuinely AI-driven and durable, or a transient blip; the observable that settles it is sustained total-factor productivity growth attributable to AI alongside real firm-level returns, set against whether OpenAI's finances and remaining performance obligations actually hold. The residue is worldview: McCrory reads early numbers as augmentation beginning to show; Zitron reads the same spending as psychosis awaiting its Lehman moment. McCrory is vindicated if productivity growth persists and firms bank real returns without a lab collapsing; Zitron if the gains revert and OpenAI's funding unravels. Both are polemicists with incentives \u2014 NLW bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 so the signal is where they agree despite opposite priors: both concede AI has not yet produced mass unemployment. Watch the next few quarters of aggregate productivity data, and whether OpenAI's committed spending stays funded."
   },
   "headlines": [
     {
-      "id": "bessent-sanctions-threat",
-      "headline": "Treasury floats sanctions over distillation attacks",
+      "id": "stripe-openrouter-10b",
+      "headline": "Stripe is in talks to buy OpenRouter for $10B",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "02:00",
+      "segment": "headlines",
+      "timestamp": "01:00",
       "attribution": null,
-      "summary": "Treasury Secretary Scott Bessent proposed that Chinese AI companies could face sanctions and entity-list designations as a response to 'covert industrial-scale distillation attacks that cross the line into IP theft.' It's the first time an executive-branch member suggested the government might actually act on distillation.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#bessent-sanctions-threat"
+      "summary": "The Wall Street Journal reports Stripe is close to acquiring OpenRouter for around $10 billion \u2014 a massive markup from its $1.3 billion valuation just two months ago in May. The shift from token-maxing to token scarcity has made the best token-routing service look like a potential huge winner.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#stripe-openrouter-10b"
     },
     {
-      "id": "kratsios-moonshot-claim",
-      "headline": "White House accuses Moonshot of distilling Anthropic's Fable",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "03:00",
-      "attribution": null,
-      "summary": "OSTP Director Michael Kratsios alleged Moonshot built 'a sophisticated internal platform to conduct large-scale distillation against US models' for its K3 model, switching between access methods to avoid detection, and accessed GB300 servers in Thailand. Anthropic confirmed it's working with the administration on the matter.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#kratsios-moonshot-claim"
-    },
-    {
-      "id": "signal-colossal-mess",
-      "headline": "Congratulations, you protected domestic AI companies by taxing the competitiveness of the entire country.",
+      "id": "stripe-metering-layer",
+      "headline": "Stripe isn't buying an AI company. It's buying the metering and billing layer for inference.",
       "type": "quote",
-      "segment": "main",
-      "timestamp": "04:00",
-      "attribution": "Signal, on the proposed China AI restrictions",
-      "summary": "Signal's viral summary argued the crackdown forces US companies to buy pricier American AI while the rest of the world uses cheaper models of equal intelligence \u2014 and distillation doesn't stop just because Washington publishes a list.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#signal-colossal-mess"
+      "segment": "headlines",
+      "timestamp": "02:00",
+      "attribution": "Macaroni Capital",
+      "summary": "Analysts frame the deal as Stripe grabbing the inference billing layer plus its developer funnel, extending its vertically integrated stack into enterprise cost control just as inference becomes a fast-growing share of internet GDP.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#stripe-metering-layer"
     },
     {
-      "id": "white-house-split",
-      "headline": "The White House is split on how to fight Chinese AI",
+      "id": "router-wars",
+      "headline": "Model routing is suddenly a crowded category",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "02:55",
+      "attribution": null,
+      "summary": "Even if Stripe lands OpenRouter, competition is exploding: Cursor just launched its own router, following Meta's internal build and live versions from Ramp and Vercel. Cursor claims frontier-level performance at a 60% cost reduction in intelligence mode, with testers reporting no noticeable quality drop.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#router-wars"
+    },
+    {
+      "id": "cursor-model-benchmarks",
+      "headline": "We briefly went insane and decided every software engineer should also become an expert in model benchmarks, thinking levels, and cache hit rates.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "03:00",
+      "attribution": "David Pan, Cursor CTO",
+      "summary": "Cursor CTO David Pan on why the company built routing directly into the tool teams already use \u2014 so developers never have to think about model selection again.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#cursor-model-benchmarks"
+    },
+    {
+      "id": "voice-features",
+      "headline": "Anthropic and OpenAI both level up voice",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "Anthropic finally routes voice to Opus and Sonnet (not just Haiku), adds connector access to Gmail, Slack and Notion, and moves foreign-language support out of beta. OpenAI brings voice to the desktop app via its new GPT Live real-time model, usable in Codex and the Work app.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#voice-features"
+    },
+    {
+      "id": "amazon-agi-lab",
+      "headline": "Amazon shuts down its AGI lab",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Per Wired, parts of the White House want stricter controls while Commerce sees them as unworkable. Commerce Secretary Howard Lutnick reportedly favors combating Chinese AI with competition \u2014 pitching direct incentives for US labs to open-source their models rather than regulating anyone.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#white-house-split"
+      "summary": "After a year of high-profile departures \u2014 including leader and ex-OpenAI researcher David Luan \u2014 and no new Nova model since December, Amazon is cutting rank-and-file staff and shutting the spin-off AGI lab. A spokesperson insists large-model training remains a priority, but commentators like Andrew Curran suspect Amazon is giving up on Nova.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#amazon-agi-lab"
     },
     {
-      "id": "ai-quarter-of-gdp",
-      "headline": "AI is now 25% of US GDP growth",
+      "id": "microsoft-hill-climbing",
+      "headline": "Microsoft's tiny models are climbing toward frontier performance",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "08:00",
+      "attribution": null,
+      "summary": "Microsoft's MAI Code 1 Flash, a Haiku-class model fine-tuned in the GitHub Copilot harness, hit a 10% higher code-accept rate than GPT 5.4 Mini and Haiku 4.5 in VS Code, with 10% lower token usage. Training it in an Excel harness also lifted SWE-bench Verified from 72% to 86% \u2014 and can run on older H100s and A100s.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#microsoft-hill-climbing"
+    },
+    {
+      "id": "microsoft-default-swap",
+      "headline": "Microsoft swaps in its own models by default",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "09:00",
+      "attribution": null,
+      "summary": "MAI Image 2.5 is now the default for PowerPoint and Bing, replacing OpenAI's GPT Image 2, with an 84% cost reduction in PowerPoint per Mustafa Suleyman. Nadella's framing: route lower-end tasks to MAI models while reserving frontier models for frontier needs.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#microsoft-default-swap"
+    },
+    {
+      "id": "cheaper-models-derisk-chips",
+      "headline": "Cheaper models could extend the life of AI chips \u2014 and de-risk infrastructure",
+      "type": "take",
+      "segment": "headlines",
+      "timestamp": "09:00",
+      "attribution": null,
+      "summary": "NLW flags the underrated upside of near-frontier small models: because they can run on previous-generation hardware like H100s and A100s, they may meaningfully extend the lifecycle of AI chips and de-risk the massive infrastructure investments.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#cheaper-models-derisk-chips"
+    },
+    {
+      "id": "spacex-texas-datacenters",
+      "headline": "SpaceX AI expands from renter to builder of data centers",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "10:00",
       "attribution": null,
-      "summary": "Per Bloomberg, AI investment represents 25% of US GDP growth \u2014 the largest single-sector contribution in history. JPMorgan credits AI with 75% of S&P 500 returns, 80% of earnings growth, and 90% of capital-spending growth since ChatGPT's release.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#ai-quarter-of-gdp"
+      "summary": "With orbital compute still far off, SpaceX AI is exploring Texas data-center sites at a similar or greater scale than its ~1GW Memphis Colossus campus. Building new capacity rather than renting spare GPUs signals a permanent hyperscaler-style business, backed by talks to supply compute to the Pentagon.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#spacex-texas-datacenters"
     },
     {
-      "id": "everyone-has-ai-exposure",
-      "headline": "Even passive indexers are making a bet on AI",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "11:00",
-      "attribution": null,
-      "summary": "With roughly 50% of the S&P 500 now AI or AI-exposed, NLW argues everyone needs to understand the narrative \u2014 even a 401(k) contributor or passive indexer carries significant AI exposure whether they realize it or not.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#everyone-has-ai-exposure"
-    },
-    {
-      "id": "deepseek-redux",
-      "headline": "The 'cheap models' freakout is a DeepSeek rerun",
+      "id": "ai-kill-switch-bill",
+      "headline": "A bipartisan 'AI Kill Switch' bill lands in Congress",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "11:00",
-      "attribution": null,
-      "summary": "This round echoes the early-2025 DeepSeek panic, when markets believed a Chinese lab built frontier AI for a few million dollars. Investors later learned the difference between training and inference compute \u2014 and that R1 wasn't actually ahead, just the first free reasoning model.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#deepseek-redux"
-    },
-    {
-      "id": "k3-not-that-cheap",
-      "headline": "Kimi K3 is cheaper \u2014 but not pennies on the dollar",
-      "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "12:00",
       "attribution": null,
-      "summary": "K3 is being served at around a third of Fable's price or half of Opus \u2014 a meaningful saving, but far from the near-free clone many analysts imagine. The 'Chinese AI is cheap, US AI is eye-watering' framing is oversimplified.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#k3-not-that-cheap"
+      "summary": "Reps. Ted Lieu (D-CA) and Nathaniel Moran (R-TX) introduced a bill requiring AI companies to be able to shut down, throttle, or suspend models during a safety incident \u2014 and giving DHS authority to issue a shutdown command. Lieu warned powerful AI systems can 'go rogue' and resist human intervention.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#ai-kill-switch-bill"
     },
     {
-      "id": "circular-financing-fear",
-      "headline": "Circular financing isn't the dot-com trap people fear",
+      "id": "rubio-kill-switch-diplomacy",
+      "headline": "Rubio wants diplomats to stop the kill-switch talk",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "13:00",
       "attribution": null,
-      "summary": "The worry that Nvidia's investments flow straight back as chip revenue misreads history: unlike Cisco's 1990s vendor financing, OpenAI pays cash for GPUs. If OpenAI stumbles, Nvidia holds devalued stock, not a debt default and a balance-sheet hole.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#circular-financing-fear"
+      "summary": "In a diplomatic cable, Secretary of State Marco Rubio instructed US diplomats to convince overseas governments Washington can't arbitrarily cut them off from US technology, pushing back on digital-sovereignty programs \u2014 framing recent model pauses as security testing, not kill switches, to protect exports.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#rubio-kill-switch-diplomacy"
     },
     {
-      "id": "google-200b-line",
-      "headline": "Google found Wall Street's AI spending limit: $200B",
+      "id": "kimi-panic",
+      "headline": "US officials say the Kimi panic is overblown",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "15:00",
+      "segment": "headlines",
+      "timestamp": "14:00",
       "attribution": null,
-      "summary": "Google posted 24% overall growth and 82% cloud growth \u2014 but the stock fell 1.2% because CapEx guidance hit $200 billion. 'The two hundred was the do-not-cross line,' said Zacks' Brian Mulberry, likely the psychological shock of a round number more than the fundamentals.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#google-200b-line"
+      "summary": "A joint US-UK evaluation found Kimi K3 lags US frontier models by a huge margin on cybersecurity, scoring 32.2% on Exploit Bench versus a 76.2% frontier average, and completing a 32-step network-takeover attack in just 1 of 10 runs (vs 60\u201370% for Mythos-5 and GPT-5.6 Soul). Commerce's Lutnick and David Sacks both urged people to calm down.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#kimi-panic"
     },
     {
-      "id": "capex-uncharted",
-      "headline": "Combined CapEx is heading past $1 trillion next year",
-      "type": "insight",
-      "segment": "main",
+      "id": "jensen-open-models",
+      "headline": "If everything becomes one single model, one single point of failure, the world is much more vulnerable.",
+      "type": "quote",
+      "segment": "headlines",
       "timestamp": "16:00",
-      "attribution": null,
-      "summary": "Hyperscalers have raised CapEx guidance every quarter for three years, with combined spend on track to exceed a trillion dollars in 2027. The flip side of 'revenue not growing fast enough' is 'CapEx growing too fast' \u2014 the bigger the spend, the steeper the revenue hill.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#capex-uncharted"
+      "attribution": "Jensen Huang",
+      "summary": "Jensen Huang pushed back on the distillation crackdown that Anthropic and OpenAI are lobbying for, calling Chinese open-source models excellent and arguing a diversity of open models is safer than a US duopoly \u2014 dismissing 'backdoor' fears as a misconception.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#jensen-open-models"
     },
     {
-      "id": "agentic-changed-the-math",
-      "headline": "Agentic spend broke the seat-based revenue math",
-      "type": "insight",
-      "segment": "main",
+      "id": "meta-ai-optimism-ad",
+      "headline": "Meta's AI-optimism ad is cheesy \u2014 and NLW welcomes it anyway",
+      "type": "take",
+      "segment": "headlines",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Late-2025 bubble talk faded when analysts stopped multiplying knowledge-worker seats by $20-30 and saw agentic use cases arrive \u2014 employees spending hundreds or thousands per month. It made clear AI isn't just another category of SaaS.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#agentic-changed-the-math"
+      "summary": "Meta launched a paid ad campaign ('The future is for everyone') betting on AI optimism. NLW, with his ad-production hat on, calls the copy generic and the messenger hard to swallow \u2014 but praises any attempt to tell a positive story about AI and hopes Meta blasts it everywhere.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#meta-ai-optimism-ad"
     },
     {
-      "id": "mit-95-percent-garbage",
-      "headline": "That MIT '95% of pilots fail' study was garbage science",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": null,
-      "summary": "NLW dismisses the notorious report as 'absolute garbage social science MIT should be embarrassed to be associated with' \u2014 but notes it didn't matter, because the headline landed on every Wall Street desk anyway.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#mit-95-percent-garbage"
-    },
-    {
-      "id": "token-caps-overstated",
-      "headline": "Token caps are less dramatic than the headlines",
+      "id": "why-no-unemployment",
+      "headline": "Anthropic's economist: AI has caused no material rise in unemployment",
       "type": "insight",
       "segment": "main",
-      "timestamp": "18:00",
+      "timestamp": "23:00",
       "attribution": null,
-      "summary": "Uber caps users at $1,500/month and Tesla allows $200/week with the ability to request more. Since most knowledge workers use nowhere near those budgets, even universal adoption of such policies leaves enormous room for growth.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#token-caps-overstated"
+      "summary": "In a personal essay, Anthropic head of economics Peter McCrory argues the US labor market is stable and near maximum employment (4.2% in June), and that even for highly AI-exposed roles there's no unexpected rise in unemployment. His synthesis of 18 months of Anthropic research: AI so far behaves as a skill-based, labor-augmenting technology.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#why-no-unemployment"
     },
     {
-      "id": "scaling-wall-looks-quaint",
-      "headline": "The 2024 'scaling wall' fear now looks ridiculous",
+      "id": "should-we-see-impact",
+      "headline": "The AI sector is big enough that effects should show \u2014 and productivity is up",
       "type": "insight",
       "segment": "main",
-      "timestamp": "19:00",
+      "timestamp": "25:00",
       "attribution": null,
-      "summary": "Fall-2024 panic held that pre-training had plateaued and both labs scuttled flagship runs. Then o1 revealed reasoning as a new performance vector, and pre-training clearly didn't hit a wall \u2014 few would argue Fable V isn't a completely different beast from Opus III.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#scaling-wall-looks-quaint"
+      "summary": "McCrory notes 20% of firms use AI in at least one function (40% in the information sector), and quality-adjusted AI output grew over 2,000% per year in 2024 and 2025. He argues signs are already visible in productivity: output per hour grew 2% annually from 2022\u20132026, up from 1.6% pre-pandemic.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#should-we-see-impact"
     },
     {
-      "id": "fud-seasonality",
-      "headline": "AI FUD has a seasonality \u2014 investors want an August excuse",
+      "id": "young-worker-caution",
+      "headline": "Weaker hiring for young workers \u2014 but blame the macro, not just AI",
       "type": "insight",
       "segment": "main",
-      "timestamp": "20:00",
+      "timestamp": "26:00",
       "attribution": null,
-      "summary": "Summer momentum breakdowns are well documented, especially when semis drive the rally. Morgan Stanley notes momentum stocks are down 40% this month \u2014 the worst on record, beating early-2021's 29% \u2014 while Goldman says hedge funds sold tech in record numbers.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#fud-seasonality"
+      "summary": "McCrory finds suggestive evidence that hiring rates for young workers in highly AI-exposed roles have weakened, echoing Stanford's 'Canaries in the Coal Mine.' But he urges caution: 2022-to-now was the largest non-recessionary labor slowdown on record, a low-hire, low-fire market that hits early-career entrants hardest for reasons other than AI.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#young-worker-caution"
     },
     {
-      "id": "bubble-logic-prevents-bubble",
-      "headline": "The market's bubble obsession is what prevents a bubble",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": null,
-      "summary": "NLW argues that a generation raised on The Big Short calling everything a bubble is a feature, not a bug: every time the market gets over its skis, there's a pressure release. We're not seeing the frenetic 1999-2000 boom-and-bust IPO frenzy.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#bubble-logic-prevents-bubble"
-    },
-    {
-      "id": "data-center-roadbumps",
-      "headline": "Data centers are too slow to build to overshoot demand",
+      "id": "jobs-not-fixed-bundles",
+      "headline": "Jobs aren't fixed bundles of tasks",
       "type": "insight",
       "segment": "main",
-      "timestamp": "21:00",
+      "timestamp": "29:00",
       "attribution": null,
-      "summary": "Half of this year's announced data centers were canceled or delayed \u2014 which bears read as weak demand, but NLW says the simpler explanation is that permitting and construction are genuinely hard and builders have badly mishandled community concerns. These road bumps buy the economy time to adjust.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#data-center-roadbumps"
+      "summary": "McCrory argues widespread task automation can still augment labor because roles get re-bundled: no O*NET occupation has all its tasks systematically handled by Claude, and sophisticated user inputs correlate strongly with complex outputs. The most-cited productivity gain among 81,000 users was 'scope' \u2014 doing more, more proficiently.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#jobs-not-fixed-bundles"
     },
     {
-      "id": "cheap-model-inference-problem",
-      "headline": "Cheap models don't matter if you can't serve them",
-      "type": "take",
+      "id": "claude-code-expertise",
+      "headline": "Agentic coding raised the value of expertise, not lowered it",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "22:00",
+      "timestamp": "31:00",
       "attribution": null,
-      "summary": "NLW argues this China round resolves once people realize inference capacity matters more than price: Moonshot was completely tapped out of compute on K3's opening weekend, and it's questionable whether all Chinese labs combined can serve even a fraction of US companies' users.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#cheap-model-inference-problem"
+      "summary": "After tracking Claude Code usage for seven months, McCrory found persistent returns to human expertise: people plan and delegate implementation, and those with more domain expertise succeed more often and recover better from errors. The return to straightforward coding may have fallen, but agentic coding increased the value of complementary skills.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#claude-code-expertise"
     },
     {
-      "id": "nick-carter-no-business-model",
-      "headline": "The US government does not owe either of the large labs a business model.",
+      "id": "rsi-caveat",
+      "headline": "Scaling laws are hard to argue with. The models are going to get better, much better.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "23:00",
-      "attribution": "Nick Carter, investor",
-      "summary": "Investor Nick Carter argued that if token economics collapse, American enterprise will be fine \u2014 benefiting from hyper-deflation in the cost of cognition. The hyperscalers, neoclouds and internet companies survive; only OpenAI and Anthropic's current forms are at risk, and they can adapt.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#nick-carter-no-business-model"
+      "timestamp": "32:00",
+      "attribution": "Peter McCrory, Anthropic head of economics",
+      "summary": "McCrory's key caveat: AI may automate innovation itself, which in standard models can produce 'economic singularities.' Yet he doesn't expect unemployment to be noticeably higher a year from now \u2014 at least not because of AI \u2014 with 'weak links' (essential, hard-to-improve tasks) as the limits on both growth and displacement.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#rsi-caveat"
     },
     {
-      "id": "nlw-base-case",
-      "headline": "NLW's base case: frontier tokens sell at a premium for five years",
+      "id": "hall-political-backlash",
+      "headline": "The real political backlash to AI would happen when unemployment starts going up. We're still not there.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "33:00",
+      "attribution": "Andy Hall, Stanford",
+      "summary": "Stanford's Andy Hall says the essay helps explain why the political backlash hasn't materialized: AI so far augments rather than replaces labor. Current political concerns, he notes, would look like 'small fry' next to what genuine widespread unemployment would produce.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#hall-political-backlash"
+    },
+    {
+      "id": "trace-cohen-hiring",
+      "headline": "The real impact may show up first in hiring, not layoffs.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "33:00",
+      "attribution": "Trace Cohen",
+      "summary": "Investor Trace Cohen argues the effect appears as fewer junior roles, smaller teams, slower backfilling, and higher expectations per employee \u2014 one AI-augmented person increasingly replacing several who aren't, even while overall unemployment stays low.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#trace-cohen-hiring"
+    },
+    {
+      "id": "nlw-narrative-shift",
+      "headline": "The augmentation narrative is self-reinforcing",
       "type": "take",
       "segment": "main",
-      "timestamp": "23:00",
+      "timestamp": "34:00",
       "attribution": null,
-      "summary": "He expects every frontier token to be bought at a premium for at least five years even as cheaper workloads come online, because premium state-of-the-art supply stays ahead of demand. A flourishing of routers, fine-tuning and vertical model plays distributes AI's revenue gains and relieves pressure on the big two labs to carry the whole market.",
-      "link": "https://aidailybrief.ai/e/2026-07-23#nlw-base-case"
+      "summary": "NLW argues the story leaders tell shapes what they do: if the consensus is that AI should cut staff in half \u2014 and investors expect it \u2014 that's what happens. If the story is about doing more faster, moving into new domains, and launching new products, we get far more of that instead. He knows which is better for the world.",
+      "link": "https://aidailybrief.ai/e/2026-07-24#nlw-narrative-shift"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-23.mp3",
-  "generated": "2026-07-24T19:16:23Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-24.mp3",
+  "generated": "2026-07-25T19:07:27Z"
 }
