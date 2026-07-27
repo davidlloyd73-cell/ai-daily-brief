@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Draft, never send — the permissions lesson is the clinical one",
+      "body": "The sharpest detail in this edition is that Mollick's two agents behaved differently on the same instruction: Claude drafted a reply, ChatGPT actually sent an email, because it had been granted send permission earlier and never asked again. Transpose that into a surgery and it stops being an anecdote. A scribe that drafts and waits is a wholly different clinical risk from an agent that files a referral, orders a test or messages a patient. The workable rule for general practice is the one Mollick arrives at the hard way: leave everything set to ask for approval until you know the system's failure modes, and make every output land in a queue with a named clinician accountable for it. If NLW is right that delegation is the real skill, the delegation still has to end at a human signature."
+    },
+    {
+      "title": "The 195 references, and what would actually count as evidence",
+      "body": "Thirty minutes of work, 195 references chased down, no invented page numbers — impressive, and precisely the sort of result that tells a practice manager nothing yet. The NHS question is not whether an agent can produce good work in a demonstration but what its error rate looks like under audit, on your patients, on a Monday morning. If Zitron is right that these stories are cargo cult in miniature, the discipline is cheap to adopt anyway: before buying anything agentic, decide in advance the number you would measure — letters returned for correction, coding errors, minutes per consultation — and measure it before and after. That one habit protects you whichever man turns out to be right."
+    },
+    {
+      "title": "Close your own overhang, but be slow with the practice cheque book",
+      "body": "There is a real asymmetry worth naming. For an individual GP the capability overhang is genuine and almost free to close: better prompting of the scribe you already have, dictating letters differently, using the tool on the correspondence that eats your evenings. For a practice or a PCN the same enthusiasm becomes a procurement decision with a contract attached, and that is where Zitron's warning bites hardest. Note too what Mollick did to make the agents useful — he connected them to Gmail and a Google Drive. Nothing patient-identifiable belongs in a general consumer connector, and any such link needs a DPIA and the usual information-governance route first, not afterwards."
+    }
+  ]
+}

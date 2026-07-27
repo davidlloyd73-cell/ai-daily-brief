@@ -1,281 +1,241 @@
 {
-  "date": "2026-07-24",
-  "title": "Why AI Hasn\u2019t Increased Unemployment, According to Anthropic",
-  "dek": "Anthropic's head of economics makes the case that AI has caused no material rise in unemployment \u2014 because it's a skill-biased, labor-augmenting technology, not a replacement one. Plus a headlines run stuffed with the new hot category: model routing, as Stripe circles OpenRouter for $10B.",
-  "source": "https://aidailybrief.ai/e/2026-07-24",
+  "date": "2026-07-26",
+  "title": "How to Get the Most from AI This Summer",
+  "dek": "It's a summer weekend, so NLW goes action-oriented: a walkthrough of Ethan Mollick's refreshed \"which AI to use to do stuff\" guide, plus the launch of AIDB's choose-your-own-adventure Summer Adventure training. The through-line is one big behavioral shift \u2014 working with AI now looks a lot more like managing a team than chatting with a bot.",
+  "source": "https://aidailybrief.ai/e/2026-07-26",
   "oneIdea": {
-    "headline": "AI hasn't raised unemployment because it augments experts instead of replacing them.",
-    "summary": "Anthropic economist Peter McCrory argues the US labor market is stable near full employment, and that AI so far behaves as a skill-biased, labor-augmenting technology: it complements domain expertise, relies on humans to steer a still-jagged frontier, and expands what people can do rather than shrinking headcount. He's clear this could change as agents get more capable and as AI starts automating innovation itself \u2014 but for now, he doesn't expect unemployment to be noticeably higher a year from now because of AI. NLW's added point: the more the narrative shifts from cost-cutting to augmentation, the more self-reinforcing the good outcome becomes."
+    "headline": "The skill now is managing agents, not chatting with a bot.",
+    "summary": "Ethan Mollick's updated guide draws a bright line between two interaction patterns: the old back-and-forth chat, where almost any model will do, and the new agentic workflow, where you delegate hours of work to a system that plans and acts on its own. That second pattern isn't just a new tool \u2014 it requires reprogramming how you think about AI. AIDB's free Summer Adventure is built to help you close your own \"capability overhang\": the gap between what AI can already do and what you're actually using it for."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "What 'augmentation, not replacement' means for a surgery",
-        "body": "McCrory's finding \u2014 that AI so far complements expertise rather than replacing it, and that people with more domain knowledge get more out of it \u2014 maps neatly onto what an AI scribe actually does in a consulting room. The tool drafts the letter or the notes; the clinician still steers, corrects and signs. If McCrory is right, the sensible posture is to use these tools to widen what a GP can get through in a session while keeping the doctor firmly in the loop. If Zitron is right that the underlying economics are hollow, the practical caution is the same one that always applies to a cheap, venture-subsidised tool: do not build your workflow so tightly around it that you are stranded if the price jumps or the supplier folds."
+        "title": "Draft, never send \u2014 the permissions lesson is the clinical one",
+        "body": "The sharpest detail in this edition is that Mollick's two agents behaved differently on the same instruction: Claude drafted a reply, ChatGPT actually sent an email, because it had been granted send permission earlier and never asked again. Transpose that into a surgery and it stops being an anecdote. A scribe that drafts and waits is a wholly different clinical risk from an agent that files a referral, orders a test or messages a patient. The workable rule for general practice is the one Mollick arrives at the hard way: leave everything set to ask for approval until you know the system's failure modes, and make every output land in a queue with a named clinician accountable for it. If NLW is right that delegation is the real skill, the delegation still has to end at a human signature."
       },
       {
-        "title": "Junior roles and training are the place to watch",
-        "body": "The one soft signal in the essay is weaker hiring for young workers in AI-exposed roles \u2014 though McCrory rightly blames a low-hire, low-fire macro market as much as AI. For general practice and the wider NHS the read-across is about training pipelines rather than redundancy: if AI quietly absorbs the routine tasks that junior staff once cut their teeth on, someone has to make sure trainees, HCAs and new GPs still get the reps that build judgement. The augmentation story is only good news if the ladder underneath it is protected."
+        "title": "The 195 references, and what would actually count as evidence",
+        "body": "Thirty minutes of work, 195 references chased down, no invented page numbers \u2014 impressive, and precisely the sort of result that tells a practice manager nothing yet. The NHS question is not whether an agent can produce good work in a demonstration but what its error rate looks like under audit, on your patients, on a Monday morning. If Zitron is right that these stories are cargo cult in miniature, the discipline is cheap to adopt anyway: before buying anything agentic, decide in advance the number you would measure \u2014 letters returned for correction, coding errors, minutes per consultation \u2014 and measure it before and after. That one habit protects you whichever man turns out to be right."
       },
       {
-        "title": "A money story with a clinical tail",
-        "body": "Most of this edition is macroeconomics, not medicine, and it is fair to say the direct clinical content is thin. The honest takeaway for a practice is disposition, not diagnosis: whether or not you believe the productivity numbers, keep AI as an assistant with a clinician accountable for every output, and avoid long or expensive lock-ins premised on today's generous pricing being permanent."
+        "title": "Close your own overhang, but be slow with the practice cheque book",
+        "body": "There is a real asymmetry worth naming. For an individual GP the capability overhang is genuine and almost free to close: better prompting of the scribe you already have, dictating letters differently, using the tool on the correspondence that eats your evenings. For a practice or a PCN the same enthusiasm becomes a procurement decision with a contract attached, and that is where Zitron's warning bites hardest. Note too what Mollick did to make the agents useful \u2014 he connected them to Gmail and a Google Drive. Nothing patient-identifiable belongs in a general consumer connector, and any such link needs a DPIA and the usual information-governance route first, not afterwards."
       }
     ]
   },
   "the_other_side": {
-    "source": "The OpenAI Bubble",
-    "url": "https://www.wheresyoured.at/the-openai-bubble/",
-    "date": "2026-07-15",
+    "source": "Cargo Culture",
+    "url": "https://www.wheresyoured.at/cargo-culture/",
+    "date": "2026-06-23",
     "same_day": false,
-    "text": "Where McCrory reads a stable labour market and rising productivity as proof that AI is a real, value-creating technology quietly augmenting workers, Zitron denies the premise underneath it: that AI is producing measurable economic value at all. He argues the AI build-out \"isn't a result of any actual return on investment \u2014 whether that be in purely monetary terms, like revenue or profitability, productivity gains, or anything tangible or measurable,\" but is instead \"the greatest capital misallocation in history,\" held aloft only because OpenAI has not yet collapsed. On his reading, the very productivity figures McCrory cites are noise dressed up as signal; the honest test is not the unemployment rate but whether the trillions in spending ever convert into durable profit, and he expects they will not."
+    "text": "Zitron's answer to \"you have a capability overhang\" is that the overhang is a story told by people who need you to keep buying. In his account the tech industry has become a cargo cult, \"people doing impressions of things that have worked before\", and AI adoption is the purest example: executives who do not do the work mandate the tools because someone they admire said to. He is blunt about the demand side too, arguing the popularity of AI \"has come entirely from social pressure and endlessly-discounted access\", and that the moment real prices arrived customers started asking about ROI. He reads the industry's sudden enthusiasm for agentic loops as a revenue mechanism rather than a discovery, noting that Anthropic's Claude Code lead is allowed to burn upwards of a hundred and thirty thousand dollars a month in tokens, and saying flatly that it is unclear what benefits a loop might have."
   },
   "the_truth_beneath": {
-    "text": "The single variable both men orbit is whether AI is yet producing real, measurable economic value \u2014 the productivity that McCrory says is already visible and Zitron says does not exist. Both accept the plain facts: unemployment sits near 4.2%, no mass AI layoffs have arrived, and capital spending is enormous. The empirical question that will resolve is whether the recent uptick in labour productivity (2% versus 1.6% before the pandemic) is genuinely AI-driven and durable, or a transient blip; the observable that settles it is sustained total-factor productivity growth attributable to AI alongside real firm-level returns, set against whether OpenAI's finances and remaining performance obligations actually hold. The residue is worldview: McCrory reads early numbers as augmentation beginning to show; Zitron reads the same spending as psychosis awaiting its Lehman moment. McCrory is vindicated if productivity growth persists and firms bank real returns without a lab collapsing; Zitron if the gains revert and OpenAI's funding unravels. Both are polemicists with incentives \u2014 NLW bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 so the signal is where they agree despite opposite priors: both concede AI has not yet produced mass unemployment. Watch the next few quarters of aggregate productivity data, and whether OpenAI's committed spending stays funded."
+    "text": "The variable both men circle is the gap between what AI can be shown doing and what it can be shown paying for. Both accept the demos are real: Zitron never disputes that a model checked Mollick's 195 references, he disputes that such anecdotes aggregate into economics. The empirical question that will resolve is whether skilled agentic use survives unsubsidised pricing, and the observable is renewal and seat-expansion on full-price agent tiers once free credits stop. The residue is pure worldview: whether slow uptake is a learning curve or a polite name for not worth the money. NLW is vindicated if heavy users keep paying real prices and firms show margin gains; Zitron is vindicated if usage falls away when the discounts do. Both are polemicists with skin in the game: NLW is launching a training programme premised on your overhang, Zitron sells subscriptions premised on certain collapse. Where they agree is the signal, and both say executives mandating AI they do not understand is a genuine failure mode. Watch full-price retention."
   },
   "headlines": [
     {
-      "id": "stripe-openrouter-10b",
-      "headline": "Stripe is in talks to buy OpenRouter for $10B",
+      "id": "two-interaction-patterns",
+      "headline": "Using AI now means two very different things",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "The Wall Street Journal reports Stripe is close to acquiring OpenRouter for around $10 billion \u2014 a massive markup from its $1.3 billion valuation just two months ago in May. The shift from token-maxing to token scarcity has made the best token-routing service look like a potential huge winner.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#stripe-openrouter-10b"
+      "summary": "Mollick's new guide splits AI use into two categories: the old chatbot back-and-forth, and agentic systems that can do the equivalent of many hours of human work in one go by pairing a model's brains with tools that let it plan and act. As he puts it, an agentic system basically gives an AI a computer to use.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#two-interaction-patterns"
     },
     {
-      "id": "stripe-metering-layer",
-      "headline": "Stripe isn't buying an AI company. It's buying the metering and billing layer for inference.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "02:00",
-      "attribution": "Macaroni Capital",
-      "summary": "Analysts frame the deal as Stripe grabbing the inference billing layer plus its developer funnel, extending its vertically integrated stack into enterprise cost control just as inference becomes a fast-growing share of internet GDP.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#stripe-metering-layer"
-    },
-    {
-      "id": "router-wars",
-      "headline": "Model routing is suddenly a crowded category",
+      "id": "low-vs-high-stakes",
+      "headline": "For low-stakes answers, any model will do",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "02:55",
+      "segment": "main",
+      "timestamp": "01:00",
       "attribution": null,
-      "summary": "Even if Stripe lands OpenRouter, competition is exploding: Cursor just launched its own router, following Meta's internal build and live versions from Ramp and Vercel. Cursor claims frontier-level performance at a 60% cost reduction in intelligence mode, with testers reporting no noticeable quality drop.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#router-wars"
+      "summary": "For quick, low-stakes tasks like asking for a recipe or help drafting a letter, Mollick says nearly any model \u2014 including the free ones \u2014 is good enough. For anything you really care about, use a premier model set to a high thinking level.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#low-vs-high-stakes"
     },
     {
-      "id": "cursor-model-benchmarks",
-      "headline": "We briefly went insane and decided every software engineer should also become an expert in model benchmarks, thinking levels, and cache hit rates.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "03:00",
-      "attribution": "David Pan, Cursor CTO",
-      "summary": "Cursor CTO David Pan on why the company built routing directly into the tool teams already use \u2014 so developers never have to think about model selection again.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#cursor-model-benchmarks"
-    },
-    {
-      "id": "voice-features",
-      "headline": "Anthropic and OpenAI both level up voice",
+      "id": "only-two-choices",
+      "headline": "Only two real choices for serious work: ChatGPT or Claude",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
+      "timestamp": "01:00",
+      "attribution": null,
+      "summary": "When it comes to intensive agentic work, Mollick argues there are effectively only two options right now \u2014 ChatGPT or Claude. Notably, that means Gemini is officially out of his rankings, at least for now.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#only-two-choices"
+    },
+    {
+      "id": "gemini-fallen-behind",
+      "headline": "Google\u2026 has fallen behind where it now counts.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "05:00",
+      "attribution": "Ethan Mollick, \"An opinionated guide to which AI to use to do stuff\"",
+      "summary": "Mollick writes that Google, which led on benchmarks not long ago, has no leading frontier model and nothing close to Codex or Claude Code \u2014 which is why he doesn't suggest Gemini as a primary system, though he notes that could change quickly.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#gemini-fallen-behind"
+    },
+    {
+      "id": "give-ai-a-computer",
+      "headline": "The real unlock is connecting AI to your stuff",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "02:00",
+      "attribution": null,
+      "summary": "Mollick's nudge is to actually use connectors \u2014 he's wired his systems into email, a non-private Google Drive, and many other apps. The \"harness\" he's describing is the set of controls and permissions that shape what the models can do, without ever using the word.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#give-ai-a-computer"
+    },
+    {
+      "id": "mba-seminar-demo",
+      "headline": "\"Prep for my seminar\" \u2014 and the agents just went to work",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "03:00",
+      "attribution": null,
+      "summary": "Mollick told both ChatGPT and Claude to connect to Gmail and prep his MBA seminar, including building demos and answering messages. Both correctly figured out the target Monday was in September, did web research, built teaching materials, and drafted responses \u2014 returning results in about 10 minutes that would've taken hours.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#mba-seminar-demo"
+    },
+    {
+      "id": "permissions-matter",
+      "headline": "Permissions matter a lot \u2014 one agent sent the email",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "03:00",
+      "attribution": null,
+      "summary": "In the seminar test, Claude only drafted a reply while ChatGPT actually sent an email to a colleague \u2014 because Mollick had previously granted it send permission. His lesson: until you trust a system and understand its mistakes, leave everything set to ask for approval first.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#permissions-matter"
+    },
+    {
+      "id": "computer-use-blender",
+      "headline": "Computer use lets AI literally take over your machine",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Anthropic finally routes voice to Opus and Sonnet (not just Haiku), adds connector access to Gmail, Slack and Notion, and moves foreign-language support out of beta. OpenAI brings voice to the desktop app via its new GPT Live real-time model, usable in Codex and the Work app.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#voice-features"
+      "summary": "With computer-use turned on in Claude Code or Codex, the AI can control your mouse, browser, and computer. Mollick had it download Blender \u2014 a program he doesn't know how to use \u2014 and model an otter using a laptop on an airplane. He flags it as a security concern to approach carefully.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#computer-use-blender"
     },
     {
-      "id": "amazon-agi-lab",
-      "headline": "Amazon shuts down its AGI lab",
+      "id": "book-check-195-refs",
+      "headline": "195 references checked, zero hallucinations",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "After a year of high-profile departures \u2014 including leader and ex-OpenAI researcher David Luan \u2014 and no new Nova model since December, Amazon is cutting rank-and-file staff and shutting the spin-off AGI lab. A spokesperson insists large-model training remains a priority, but commentators like Andrew Curran suspect Amazon is giving up on Nova.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#amazon-agi-lab"
+      "summary": "Mollick fed the full PDF of his professionally edited upcoming book to the AI, which worked 30 minutes, chased down 195 references, and returned pages of accurate notes \u2014 no invented page numbers, no fake text. His only complaint: it was too nitpicky, which he overrode with human judgment.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#book-check-195-refs"
     },
     {
-      "id": "microsoft-hill-climbing",
-      "headline": "Microsoft's tiny models are climbing toward frontier performance",
+      "id": "managing-not-chatting",
+      "headline": "Working with these systems is more like managing than it is chatting.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "05:00",
+      "attribution": "Ethan Mollick",
+      "summary": "Mollick's framing: you can almost think of AI agents as a team you delegate work to. NLW's read is that this is the core reprogramming required \u2014 a big shift in working, not just a new set of skills.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#managing-not-chatting"
+    },
+    {
+      "id": "google-notebook-media",
+      "headline": "Google isn't useless \u2014 just not your main driver",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "08:00",
+      "segment": "main",
+      "timestamp": "05:00",
       "attribution": null,
-      "summary": "Microsoft's MAI Code 1 Flash, a Haiku-class model fine-tuned in the GitHub Copilot harness, hit a 10% higher code-accept rate than GPT 5.4 Mini and Haiku 4.5 in VS Code, with 10% lower token usage. Training it in an Excel harness also lifted SWE-bench Verified from 72% to 86% \u2014 and can run on older H100s and A100s.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#microsoft-hill-climbing"
+      "summary": "Even while dropping Gemini from his primary recommendations, Mollick points to Google's Gemini Notebook (formerly NotebookLM) and richer media models like a video-capable Gemini model as things worth using.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#google-notebook-media"
     },
     {
-      "id": "microsoft-default-swap",
-      "headline": "Microsoft swaps in its own models by default",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": null,
-      "summary": "MAI Image 2.5 is now the default for PowerPoint and Bing, replacing OpenAI's GPT Image 2, with an 84% cost reduction in PowerPoint per Mustafa Suleyman. Nadella's framing: route lower-end tasks to MAI models while reserving frontier models for frontier needs.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#microsoft-default-swap"
-    },
-    {
-      "id": "cheaper-models-derisk-chips",
-      "headline": "Cheaper models could extend the life of AI chips \u2014 and de-risk infrastructure",
+      "id": "bright-line-take",
+      "headline": "Mollick is making agent-management feel approachable",
       "type": "take",
-      "segment": "headlines",
+      "segment": "main",
+      "timestamp": "06:00",
+      "attribution": null,
+      "summary": "NLW's take: rather than going model-by-model, Mollick draws a bright line between the old chat pattern and the new managing-agents pattern \u2014 deliberately making agent management feel accessible to people whose eyes glaze over at words like \"harness.\" It's simple on purpose, because he's writing for a far less mature AI audience.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#bright-line-take"
+    },
+    {
+      "id": "summer-adventure-launch",
+      "headline": "AIDB launches a free \"Summer Adventure\" training",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "The new self-directed program at summeradventure.ai is a choose-your-own-adventure to expand your AI skills, following earlier AIDB programs like New Year, Claw Camp, and Agent OS. It's organized around 20+ travel-themed \"destinations,\" each a lab or project teaching a new skill.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#summer-adventure-launch"
+    },
+    {
+      "id": "filter-by-level",
+      "headline": "Beginner to advanced, filterable by topic",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "NLW flags the underrated upside of near-frontier small models: because they can run on previous-generation hardware like H100s and A100s, they may meaningfully extend the lifecycle of AI chips and de-risk the massive infrastructure investments.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#cheaper-models-derisk-chips"
+      "summary": "Destinations span beginner, intermediate, and advanced, filterable by level or by topic \u2014 tools, agents and automation, building and creating, or setting up knowledge and context. Complete a project and you \"stamp your passport,\" which can stay private or be shared publicly.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#filter-by-level"
     },
     {
-      "id": "spacex-texas-datacenters",
-      "headline": "SpaceX AI expands from renter to builder of data centers",
+      "id": "stamp-levels",
+      "headline": "From day tripper to globetrotter",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "10:00",
+      "segment": "main",
+      "timestamp": "09:00",
       "attribution": null,
-      "summary": "With orbital compute still far off, SpaceX AI is exploring Texas data-center sites at a similar or greater scale than its ~1GW Memphis Colossus campus. Building new capacity rather than renting spare GPUs signals a permanent hyperscaler-style business, backed by talks to supply compute to the Pentagon.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#spacex-texas-datacenters"
+      "summary": "The gamified tiers: one stamp makes you a \"day tripper,\" three a \"certified AI explorer,\" six a \"trailblazer,\" and 10 a \"globetrotter.\" NLW's own verdict on the naming: \"Is that the height of millennial cringe? Yes. Do I care? Not even a little.\"",
+      "link": "https://aidailybrief.ai/e/2026-07-26#stamp-levels"
     },
     {
-      "id": "ai-kill-switch-bill",
-      "headline": "A bipartisan 'AI Kill Switch' bill lands in Congress",
+      "id": "pack-your-id",
+      "headline": "\"Pack Your ID\" \u2014 build a portable profile of yourself",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "12:00",
-      "attribution": null,
-      "summary": "Reps. Ted Lieu (D-CA) and Nathaniel Moran (R-TX) introduced a bill requiring AI companies to be able to shut down, throttle, or suspend models during a safety incident \u2014 and giving DHS authority to issue a shutdown command. Lieu warned powerful AI systems can 'go rogue' and resist human intervention.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#ai-kill-switch-bill"
-    },
-    {
-      "id": "rubio-kill-switch-diplomacy",
-      "headline": "Rubio wants diplomats to stop the kill-switch talk",
-      "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "13:00",
       "attribution": null,
-      "summary": "In a diplomatic cable, Secretary of State Marco Rubio instructed US diplomats to convince overseas governments Washington can't arbitrarily cut them off from US technology, pushing back on digital-sovereignty programs \u2014 framing recent model pauses as security testing, not kill switches, to protect exports.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#rubio-kill-switch-diplomacy"
+      "summary": "A beginner \"quick trip\" project has you build a paste-ready global identity block of 150-300 words so any AI starts a chat already knowing who you are. Each lab ships with instructions, copyable prompts, an extension (e.g. teaching the AI how to push back on you), and a stretch goal.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#pack-your-id"
     },
     {
-      "id": "kimi-panic",
-      "headline": "US officials say the Kimi panic is overblown",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "14:00",
+      "id": "vibe-code-first-app",
+      "headline": "Building your first app is the biggest unlock",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "15:00",
       "attribution": null,
-      "summary": "A joint US-UK evaluation found Kimi K3 lags US frontier models by a huge margin on cybersecurity, scoring 32.2% on Exploit Bench versus a 76.2% frontier average, and completing a 32-step network-takeover attack in just 1 of 10 runs (vs 60\u201370% for Mythos-5 and GPT-5.6 Soul). Commerce's Lutnick and David Sacks both urged people to calm down.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#kimi-panic"
+      "summary": "NLW argues that vibe-coding your first application is one of the biggest unlocks available right now \u2014 more than almost anything else, it shifts you from seeing AI as an assistant that speeds up current work to something that unlocks entirely new capabilities. \"Excursions\" are projects that build something outlasting a single session.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#vibe-code-first-app"
     },
     {
-      "id": "jensen-open-models",
-      "headline": "If everything becomes one single model, one single point of failure, the world is much more vulnerable.",
-      "type": "quote",
-      "segment": "headlines",
+      "id": "lemonade-stand",
+      "headline": "\"Lemonade Stand\": build an AI-staffed micro business",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "16:00",
-      "attribution": "Jensen Huang",
-      "summary": "Jensen Huang pushed back on the distillation crackdown that Anthropic and OpenAI are lobbying for, calling Chinese open-source models excellent and arguing a diversity of open models is safer than a US duopoly \u2014 dismissing 'backdoor' fears as a misconception.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#jensen-open-models"
-    },
-    {
-      "id": "meta-ai-optimism-ad",
-      "headline": "Meta's AI-optimism ad is cheesy \u2014 and NLW welcomes it anyway",
-      "type": "take",
-      "segment": "headlines",
-      "timestamp": "17:00",
       "attribution": null,
-      "summary": "Meta launched a paid ad campaign ('The future is for everyone') betting on AI optimism. NLW, with his ad-production hat on, calls the copy generic and the messenger hard to swallow \u2014 but praises any attempt to tell a positive story about AI and hopes Meta blasts it everywhere.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#meta-ai-optimism-ad"
+      "summary": "This flagship \"expedition\" runs three sprints: mining 5-8 ideas from your history and skills down to a ranked top three; mapping one into a real micro business with an AI org chart and week-one task list; and validating demand with a thin demo before overbuilding. NLW says even happy employees gain from designing a full micro business.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#lemonade-stand"
     },
     {
-      "id": "why-no-unemployment",
-      "headline": "Anthropic's economist: AI has caused no material rise in unemployment",
+      "id": "the-loop",
+      "headline": "\"The Loop\": agentic loops for non-technical work",
       "type": "insight",
       "segment": "main",
-      "timestamp": "23:00",
+      "timestamp": "18:00",
       "attribution": null,
-      "summary": "In a personal essay, Anthropic head of economics Peter McCrory argues the US labor market is stable and near maximum employment (4.2% in June), and that even for highly AI-exposed roles there's no unexpected rise in unemployment. His synthesis of 18 months of Anthropic research: AI so far behaves as a skill-based, labor-augmenting technology.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#why-no-unemployment"
+      "summary": "The Loop expedition helps you build an actual agentic loop in a useful area of work \u2014 harder and less intuitive than in software engineering. It front-loads background learning on what a loop is and isn't, costs, models, how loops fail, and how to run one in tools like Claude Code, Cursor, and Codex.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#the-loop"
     },
     {
-      "id": "should-we-see-impact",
-      "headline": "The AI sector is big enough that effects should show \u2014 and productivity is up",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "McCrory notes 20% of firms use AI in at least one function (40% in the information sector), and quality-adjusted AI output grew over 2,000% per year in 2024 and 2025. He argues signs are already visible in productivity: output per hour grew 2% annually from 2022\u20132026, up from 1.6% pre-pandemic.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#should-we-see-impact"
-    },
-    {
-      "id": "young-worker-caution",
-      "headline": "Weaker hiring for young workers \u2014 but blame the macro, not just AI",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "26:00",
-      "attribution": null,
-      "summary": "McCrory finds suggestive evidence that hiring rates for young workers in highly AI-exposed roles have weakened, echoing Stanford's 'Canaries in the Coal Mine.' But he urges caution: 2022-to-now was the largest non-recessionary labor slowdown on record, a low-hire, low-fire market that hits early-career entrants hardest for reasons other than AI.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#young-worker-caution"
-    },
-    {
-      "id": "jobs-not-fixed-bundles",
-      "headline": "Jobs aren't fixed bundles of tasks",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "29:00",
-      "attribution": null,
-      "summary": "McCrory argues widespread task automation can still augment labor because roles get re-bundled: no O*NET occupation has all its tasks systematically handled by Claude, and sophisticated user inputs correlate strongly with complex outputs. The most-cited productivity gain among 81,000 users was 'scope' \u2014 doing more, more proficiently.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#jobs-not-fixed-bundles"
-    },
-    {
-      "id": "claude-code-expertise",
-      "headline": "Agentic coding raised the value of expertise, not lowered it",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "31:00",
-      "attribution": null,
-      "summary": "After tracking Claude Code usage for seven months, McCrory found persistent returns to human expertise: people plan and delegate implementation, and those with more domain expertise succeed more often and recover better from errors. The return to straightforward coding may have fallen, but agentic coding increased the value of complementary skills.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#claude-code-expertise"
-    },
-    {
-      "id": "rsi-caveat",
-      "headline": "Scaling laws are hard to argue with. The models are going to get better, much better.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "32:00",
-      "attribution": "Peter McCrory, Anthropic head of economics",
-      "summary": "McCrory's key caveat: AI may automate innovation itself, which in standard models can produce 'economic singularities.' Yet he doesn't expect unemployment to be noticeably higher a year from now \u2014 at least not because of AI \u2014 with 'weak links' (essential, hard-to-improve tasks) as the limits on both growth and displacement.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#rsi-caveat"
-    },
-    {
-      "id": "hall-political-backlash",
-      "headline": "The real political backlash to AI would happen when unemployment starts going up. We're still not there.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "33:00",
-      "attribution": "Andy Hall, Stanford",
-      "summary": "Stanford's Andy Hall says the essay helps explain why the political backlash hasn't materialized: AI so far augments rather than replaces labor. Current political concerns, he notes, would look like 'small fry' next to what genuine widespread unemployment would produce.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#hall-political-backlash"
-    },
-    {
-      "id": "trace-cohen-hiring",
-      "headline": "The real impact may show up first in hiring, not layoffs.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "33:00",
-      "attribution": "Trace Cohen",
-      "summary": "Investor Trace Cohen argues the effect appears as fewer junior roles, smaller teams, slower backfilling, and higher expectations per employee \u2014 one AI-augmented person increasingly replacing several who aren't, even while overall unemployment stays low.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#trace-cohen-hiring"
-    },
-    {
-      "id": "nlw-narrative-shift",
-      "headline": "The augmentation narrative is self-reinforcing",
+      "id": "capability-overhang",
+      "headline": "Everyone has a capability overhang",
       "type": "take",
       "segment": "main",
-      "timestamp": "34:00",
+      "timestamp": "19:00",
       "attribution": null,
-      "summary": "NLW argues the story leaders tell shapes what they do: if the consensus is that AI should cut staff in half \u2014 and investors expect it \u2014 that's what happens. If the story is about doing more faster, moving into new domains, and launching new products, we get far more of that instead. He knows which is better for the world.",
-      "link": "https://aidailybrief.ai/e/2026-07-24#nlw-narrative-shift"
+      "summary": "NLW's closing thesis: the 2026-defining idea is the capability overhang \u2014 the gap between what AI can do and what we're actually using it for. Almost no one is exempt, not even lab researchers or full-time AI content creators, because capabilities keep racing ahead faster than anyone can adopt them. The Summer Adventure is meant to help you close your own gap and have fun doing it.",
+      "link": "https://aidailybrief.ai/e/2026-07-26#capability-overhang"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-24.mp3",
-  "generated": "2026-07-25T19:07:27Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-07-26.mp3",
+  "generated": "2026-07-27T19:09:49Z"
 }

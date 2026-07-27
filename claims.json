@@ -612,6 +612,24 @@
       "resolution": "Vindicated if, by the check date, there is credible evidence that AI has failed to produce measurable aggregate productivity or profit returns AND OpenAI shows acute financial distress (failed/renegotiated funding, defaulted or unmet remaining performance obligations, or collapse). Fails if OpenAI's committed spending continues to be funded and serviced without acute distress AND independent evidence shows durable AI-attributable productivity or profit gains at scale.",
       "check_by": "2027-07-15",
       "status": "open"
+    },
+    {
+      "edition": "2026-07-26",
+      "side": "NLW",
+      "claim": "Endorsing Ethan Mollick's refreshed guide, that for intensive agentic work there are effectively only two real choices - ChatGPT or Claude - and that Google has no leading frontier model and nothing comparable to Codex or Claude Code, so Gemini should not be anyone's primary agentic system.",
+      "source_url": "https://aidailybrief.ai/e/2026-07-26",
+      "resolution": "Vindicated if, by the check date, Google still has no frontier model or agentic coding harness that independent reviewers and mainstream 'which AI should I use' guidance rank alongside ChatGPT and Claude for sustained agentic work. Fails if Gemini (or a Google successor) is by then routinely recommended as a primary agentic system on equal footing, as Mollick himself concedes could happen quickly.",
+      "check_by": "2027-01-26",
+      "status": "open"
+    },
+    {
+      "edition": "2026-07-26",
+      "side": "Zitron",
+      "claim": "That the popularity of AI 'has come entirely from social pressure and endlessly-discounted access', and that the industry's push toward agentic loops is a token-burn revenue mechanism rather than a demonstrated productivity gain - implying usage falls away once real, unsubsidised prices are charged.",
+      "source_url": "https://www.wheresyoured.at/cargo-culture/",
+      "resolution": "Vindicated if, by the check date, credible reporting or disclosed figures show paid agentic/AI seats shrinking or renewals falling materially once free credits and discounts are withdrawn, with no independent evidence of measurable output gains from agentic loops. Fails if paid seat counts and renewal rates on full-price agentic tiers hold or grow through price rises, or if credible independent studies show measurable productivity gains from agentic loop workflows.",
+      "check_by": "2027-06-23",
+      "status": "open"
     }
   ]
 }
