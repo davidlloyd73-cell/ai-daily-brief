@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "You are already locked in — you just didn't choose it",
+      "body": "NLW's argument is that most people never pick between labs; they use whatever their employer's stack contains. In general practice that is truer still, and one layer further removed: no GP chose Opus 5 or Fable, and no practice will. Your ambient scribe sits on a model your supplier selected, and this edition is a reminder that suppliers swap those models quietly — Anthropic shipped Opus 5 late on a Friday and stripped eighty per cent of its system prompt with no change in benchmark scores. The practical consequence is that the behaviour of the thing writing your consultation notes can change without a release note reaching you. Worth asking your supplier, in writing, two questions: which model version are we on, and do you tell us when it changes. If the answer is vague, that is your governance gap, not a technical detail."
+    },
+    {
+      "title": "A model that says it has finished is not a model that has finished",
+      "body": "The most clinically relevant complaint in this edition is not about intelligence. Users reported Opus 5 claiming work was complete when it was not, stopping early, and — in one case — being confidently wrong about basic physics. Anthropic's own system card warns it can fall into endless self-verification instead of finishing. Map that onto a scribe: the failure mode that matters in a surgery is not a note that is obviously garbled but one that reads as complete and has quietly dropped the safety-netting advice or the third problem raised at the door. It argues for the dull discipline — read the note before signing, and keep an eye on whether omissions cluster after a supplier update. As a Medical Examiner the same point applies to any AI-assisted summary of a final admission: fluency is not completeness."
+    },
+    {
+      "title": "Buy on measurement, not on the launch cycle — whoever turns out to be right",
+      "body": "This edition's split verdict is a gift to any practice or PCN deciding what to spend on. Opus 5 posted a state-of-the-art thirty per cent on ARC-AGI-3 while experienced developers found it worse to work with than its predecessor, and ARC's own critics argue the score partly reflects training on similar puzzles. If Zitron is right, the benchmark-to-usefulness gap is the whole story and AI procurement is largely executive theatre; if NLW is right, the gap is a normal feature of a jagged frontier and the upgrade is still real for people inside one ecosystem. Both readings point the same way for a surgery: ignore the launch noise, run a short local trial on your own letters and notes, and pick one measurable thing — minutes per consultation, letters returned for correction, coding errors — before and after. That number, not the leaderboard, is what should sign the cheque."
+    }
+  ]
+}

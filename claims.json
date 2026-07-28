@@ -630,6 +630,24 @@
       "resolution": "Vindicated if, by the check date, credible reporting or disclosed figures show paid agentic/AI seats shrinking or renewals falling materially once free credits and discounts are withdrawn, with no independent evidence of measurable output gains from agentic loops. Fails if paid seat counts and renewal rates on full-price agentic tiers hold or grow through price rises, or if credible independent studies show measurable productivity gains from agentic loop workflows.",
       "check_by": "2027-06-23",
       "status": "open"
+    },
+    {
+      "edition": "2026-07-27",
+      "side": "NLW",
+      "claim": "That most knowledge workers are not model omnivores but locked into a single company's ecosystem, so Claude Opus 5 should be judged as the daily-driver slot in Anthropic's stack rather than as a Fable replacement — and on that reading it is a significant upgrade that will hold that slot.",
+      "source_url": "https://aidailybrief.ai/e/2026-07-27",
+      "resolution": "Vindicated if, by the check date, credible usage data or enterprise surveys show most AI-using knowledge workers still working predominantly within one vendor's models, AND Opus 5 (or its direct successor) is Anthropic's routinely-used everyday model rather than one users work around. Fails if multi-model routing and cross-lab switching become the normal enterprise pattern, or if Opus 5 is widely abandoned in favour of Opus 4.8, Sonnet or rival models on reliability grounds.",
+      "check_by": "2027-04-27",
+      "status": "open"
+    },
+    {
+      "edition": "2026-07-27",
+      "side": "Zitron",
+      "claim": "That almost nothing will actually be built at the ten-gigawatt SoftBank-affiliate campus behind NVIDIA's reported $250bn financing guarantee — 'somewhere between nothing and very little' — because the deal is a mechanism for booking GPU sales rather than a response to real demand; at prevailing build rates the site would take over a decade to complete.",
+      "source_url": "https://www.wheresyoured.at/the-more-you-buy-the-more-you-lose/",
+      "resolution": "Vindicated if, by the check date, the campus has no more than token construction — no substantial energised critical IT load, or the financing guarantee is never executed, restructured away, or the project is quietly shelved. Fails if the guarantee is signed and a material share of the site is under active construction with meaningful capacity energised and contracted to OpenAI on the announced schedule.",
+      "check_by": "2028-01-31",
+      "status": "open"
     }
   ]
 }
