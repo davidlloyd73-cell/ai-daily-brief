@@ -648,6 +648,24 @@
       "resolution": "Vindicated if, by the check date, the campus has no more than token construction — no substantial energised critical IT load, or the financing guarantee is never executed, restructured away, or the project is quietly shelved. Fails if the guarantee is signed and a material share of the site is under active construction with meaningful capacity energised and contracted to OpenAI on the announced schedule.",
       "check_by": "2028-01-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-07-28",
+      "side": "NLW",
+      "claim": "That the open-weight coalition — roughly $8tn of market cap, plus OpenAI added after pushback — is broad enough to defeat the proposed US ban on Chinese open-weight models, with Lutnick's 'compete, don't ban' position prevailing over the Bessent/security camp, leaving Anthropic isolated rather than vindicated.",
+      "source_url": "https://aidailybrief.ai/e/2026-07-28",
+      "resolution": "Vindicated if, by the check date, no US statute, executive order or Commerce rule broadly prohibits US persons or firms from downloading, hosting or building on Chinese open-weight models, and policy instead targets specific unlawful extraction. Fails if a broad ban or effective equivalent (entity-listing the major Chinese open-model labs, or barring their weights from US distribution) is enacted.",
+      "check_by": "2027-04-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-07-28",
+      "side": "Zitron",
+      "claim": "That NVIDIA's investment in Safe Superintelligence is demand manufacture rather than a bet on research — SSI being, in his words, a company with no products or plans other than to rent NVIDIA GPUs — and so will not produce a commercial product or third-party revenue within the window, whatever compute it is given.",
+      "source_url": "https://www.wheresyoured.at/the-more-you-buy-the-more-you-lose/",
+      "resolution": "Vindicated if, by the check date, SSI has released no generally available commercial product and reports no meaningful external revenue, while having taken NVIDIA capital and Vera Rubin capacity. Fails if SSI ships a product, licenses its technology, or discloses material third-party revenue by then.",
+      "check_by": "2027-07-28",
+      "status": "open"
     }
   ]
 }

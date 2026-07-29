@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Open weights are the only version of this that can ever run inside the NHS",
+      "body": "Strip away the Washington politics and there is a practical point for general practice. An open-weight model is one anyone can download and run on their own infrastructure — which is the only arrangement under which patient-identifiable audio or text never leaves an NHS-controlled environment. Every ambient scribe now in use in English general practice sends the consultation to a supplier's cloud, and the DPIA turns on trusting that supplier's processing terms. If the open ecosystem thrives, on-premise or UK-hosted models become a realistic procurement option for ICBs and trusts; if it is squeezed, the choice narrows permanently to a handful of American APIs. That is worth knowing when your practice or PCN next signs a scribe contract: ask where the model runs, not just where the data is stored."
+    },
+    {
+      "title": "A ban drafted in Washington is a supplier risk in Harrow",
+      "body": "The concrete proposal in this edition is a US ban on Chinese open models. Several cheaper transcription and summarisation tools sold into UK primary care are built on open weights of uncertain provenance, and suppliers rarely volunteer which base model they fine-tuned. If restrictions land, some of those products change model or price at short notice — the same quiet substitution problem as any model swap, but forced by policy rather than engineering. The reasonable step is dull and cheap: ask each AI supplier, in writing, which base model the product uses, and whether they would notify you if it changed. Keep the answer with the DPIA."
+    },
+    {
+      "title": "The safety argument is not obviously wrong, and neither is the cynical one",
+      "body": "Anthropic's refusal to sign rests on Dario Amodei's worry about frontier-grade cyber capability being downloadable by anyone. If he is right, a health service running on internet-facing clinical systems is exactly the sort of target that finds out first — the 2017 WannaCry week is still the reference point for most of us. If Zitron and the cynics are right, the whole exchange is commercial positioning between firms with capex to justify, and safety language is the wrapper. General practice does not need to pick. Either way the operational lesson is the same one the NHS keeps relearning: patch, segment, and rehearse the paper fallback, because your exposure comes from the estate you actually run rather than from whose model won the argument."
+    }
+  ]
+}
