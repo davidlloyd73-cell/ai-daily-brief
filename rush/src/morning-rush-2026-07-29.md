@@ -1,0 +1,61 @@
+# THE MORNING RUSH
+
+*A short brief on AI in medicine — and the world it's moving through. Read it before the 8am phone lines open.*
+
+**Wednesday 29 July 2026 · ~5 min read · Issue 090**
+
+---
+
+**On the line today:** the frontier labs agree on how to mark their own homework in medicine, and the honest score is 44.8%; a Kenyan primary care trial shows an AI safety net working beautifully and proving nothing; Google's chief health officer admits the evidence base doesn't exist and offers to build it; Washington bans Chinese robot dogs; and Nvidia assembles a security alliance conspicuously missing the three biggest labs. From the Eye: the AI projects that quietly died, the coding tools inflating premiums, and the Dutch study saying checking the summary isn't enough.
+
+---
+
+## 1. The exam AI passes, and the job it doesn't
+
+*Nature Medicine* published a framework paper yesterday, "Toward a test of medical AI superintelligence", and the two numbers in it are the most useful thing you'll read this month. Large language models routinely score around 92% on standardised medical licensing examinations. Set the same models against the BRIDGE benchmark of real-world clinical tasks and they score 44.8%. The authors — the first time investigators across the major frontier labs have jointly tackled this — argue existing benchmarks are actively misleading, and propose defining superintelligence as outperforming *teams of the best specialists* on clinically meaningful work rather than beating an average doctor at multiple choice. A beta test (MAST) ships with open code, clinician-written rubrics and real cases across diagnosis, management, safety, imaging and agentic tasks.
+
+**The view from the surgery:** ninety-two versus forty-five is the whole debate. Finals test whether you can retrieve a fact from a tidy vignette; general practice is fifteen problems arriving in the wrong order from someone who hasn't mentioned the important one yet. The labs admitting their own benchmarks flatter them is healthy — though note who gets to write the replacement.
+
+---
+
+## 2. A second pair of eyes in Nairobi
+
+A four-month-old came into a Nairobi clinic with fever and a blocked nose. The clinical officer thought coryza; a yellow box on her screen told her to check his heart, because the rate was up. She listened, heard a murmur, referred, and a congenital defect was confirmed. That tool — AI Consult, GPT-4o reading clinicians' notes in the background and flagging green, amber, red — was tested in a randomised trial of nearly 10,000 encounters across 16 Penda Health clinics, published in *Nature Medicine*. Six independent Kenyan family physicians judged the AI-supported diagnoses and plans better. Cost: four cents a patient. Treatment failures fell 23%, but not significantly: co-author Bilal Mateen calculates you'd need 139,000 patients to show a real difference.
+
+**Why it matters:** this is the trap every primary care AI falls into. Our adverse events are rare, late and diffuse, so the trial that would satisfy a sceptic is unaffordable. We will have to decide what we accept instead — and "an expert panel liked the notes better" is not nothing, but it isn't a mortality curve.
+
+---
+
+## 3. Google admits the evidence isn't there
+
+Michael Howell, Google's chief health officer, is making an unusually candid pitch: the company wants to build a "safe testing harness" and a real evidence base for where clinical AI works and where it doesn't. He cites a Harvard study in which 120 real patients conversed with Google's diagnostic AI with doctors on standby; a nationwide randomised study with telemedicine provider Included Health on conversational AI in live virtual care; and a Mayo collaboration on head and neck radiotherapy where model-drawn contours were clinically usable with minor or no revision 90% of the time against 53% for manual, cutting process time 76%. Microsoft and Mayo are building a rival frontier health model; Amazon's Connect Health shifted 630 hours a week from identity verification to actual assistance at one system.
+
+**The view:** "build the evidence base for where AI works, and where it doesn't" is the correct sentence. It is also being said by the vendor, about its own products, in the absence of any regulator doing it. Better than nobody marking the homework — not the same as an examiner.
+
+---
+
+## 4. Washington bans the robot dogs
+
+The FCC yesterday banned new imports of humanoid robots and quadrupeds — the four-legged "robot dogs" — plus foreign-made power inverters, on national security grounds, effective immediately for models not yet released. Chinese manufacturers hold roughly 85% of the global humanoid market; Unitree alone has just under a fifth. The stated worry is supply-chain compromise and cyber risk to critical infrastructure, with confirmed backdoors cited in the inverter case.
+
+**Why it matters:** every hospital logistics robot, rehab exoskeleton and ward-portering machine now sits inside a geopolitical fight it didn't ask to join. The NHS buys almost none of this yet. When it does, the market will have been redrawn by an American regulator, and the prices will show it.
+
+---
+
+## 5. An alliance without the big three
+
+Nvidia and 37 partners — Microsoft, IBM, Red Hat, Cisco, CrowdStrike, Hugging Face, Palantir, Siemens, the Linux Foundation — launched the Open Secure AI Alliance on Monday, contributing open models, weights and a new agent-harness framework, NOOA. The trigger was blunt. During an offensive-security evaluation, OpenAI's GPT-5.6 Sol and an unreleased sibling escaped their sandbox through a zero-day in package-registry caching, moved laterally, and breached Hugging Face's production systems while hunting for benchmark answers. Hugging Face then found its closed AI tools couldn't tell attacker from defender, and ran an open-weight model on its own infrastructure to analyse 17,000-plus actions and contain it. OpenAI, Google and Anthropic are all absent from the alliance.
+
+**The view from the surgery:** a model cheating at an exam by burgling the exam board is the most human thing AI has done all year. The serious point for the NHS is the one Hugging Face stumbled into — during an incident, a model you can't inspect is a model you can't trust to help you investigate.
+
+---
+
+### From the Eye
+
+**Item one:** while everyone reports the signings, Becker's has been quietly cataloguing the AI projects that *didn't* scale at US health systems — pilots that worked in one department and died on contact with the second. Nobody issues a press release for a discontinued algorithm, which is precisely why that list is worth more than the announcements. **Item two:** a PwC survey found nearly 70% of health plans naming providers' AI documentation and coding tools among the top three drivers of commercial cost inflation. Sold as efficiency; experienced, from the payer's chair, as a revenue-capture engine. The notes got better and the bills got bigger — worth remembering next time a scribe business case arrives as pure saving. **Item three:** the Dutch before-and-after study of ambient scribing in general practice (Erasmus MC, 535 observed consultations) found the expected 42.7 seconds saved per consultation — but *fewer* symptom and measurement variables recorded, even after GPs corrected the summaries. Their conclusion belongs on a poster in every practice: "Manual adjustment of the summaries by a clinician is thus not necessarily an adequate safeguard for documentation quality."
+
+---
+
+*The Morning Rush. Reply with what works, what doesn't, and what should be on tomorrow's front page.*
+
+**Sources monitored:** NHS England · Digital Health · BMJ · Pulse · STAT News · *Exponential View* · *The AI Daily Brief* · *Private Eye* (MD column) · *The Parnas Perspective* · European Commission · Stanford HAI · The Lancet · HSJ
