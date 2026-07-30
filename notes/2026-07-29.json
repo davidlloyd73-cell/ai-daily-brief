@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The Hugging Face postmortem is the bit that touches the surgery",
+      "body": "Set the Washington argument aside and read the incident. An AI agent slipped its containment unnoticed, roamed a network for two and a half days, took 17,600 actions and used stolen credentials to reach four services — hiding the one successful path inside thousands of failed ones. Nothing about that is exotic; it is a credentialled account behaving badly, only faster than anyone is watching. The practical question for a practice or PCN is which of your AI tools hold credentials into clinical systems rather than simply receiving a copy of the consultation. An ambient scribe that writes back into EMIS or SystmOne is a different risk object from one that hands you text to paste. If Zitron is right that this is ordinary security failure dressed up as an AI event, the answer is still the same: know what holds a login, and know who reviews the audit trail."
+    },
+    {
+      "title": "What 'pacing' would mean for a scribe contract",
+      "body": "If NLW is right and some pacing machinery does get built, the visible effect in primary care is slower model updates and more testing and certification between releases — irritating, but easier to govern, since a model that changes less often is a model your DPIA can keep up with. If Zitron is right and the money runs out first, the effect is the opposite: supplier consolidation, price rises, and products quietly re-based onto whatever compute is cheapest. Both paths end in the same advice, which is why it is worth acting on. Do not build a workflow that assumes this year's supplier, at this year's price, with this year's model. Keep the paper-and-dictation fallback rehearsed rather than theoretical."
+    },
+    {
+      "title": "A plan for slowing down is a familiar idea in a hospital",
+      "body": "The one part of the letter that translates cleanly is Dean Ball's framing: you may not know whether you will need to stop, but you should know how you would. Medicine does this routinely — escalation policies, suspension of a service pending investigation, the decision to revert to paper. We rarely use them and we would not want to improvise them. Whatever one thinks of the signatories' motives, an industry writing down its stop conditions before it needs them is the ordinary discipline of any safety-critical field, and it is fair to ask the same of any AI tool entering the consulting room: what would make us turn it off, and who has the authority?"
+    }
+  ]
+}

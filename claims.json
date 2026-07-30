@@ -666,6 +666,24 @@
       "resolution": "Vindicated if, by the check date, SSI has released no generally available commercial product and reports no meaningful external revenue, while having taken NVIDIA capital and Vera Rubin capacity. Fails if SSI ships a product, licenses its technology, or discloses material third-party revenue by then.",
       "check_by": "2027-07-28",
       "status": "open"
+    },
+    {
+      "edition": "2026-07-29",
+      "side": "NLW",
+      "claim": "That no thoughtful, coalition-building international pacing effort will actually materialise — US AI policy will continue to be made ad hoc by a handful of officials and the president's mood, so the Pacing the Frontier letter will not produce a real international mechanism, and in particular nothing that includes China, which NLW identifies as the letter's true subtext and the only constituency that would make pacing work.",
+      "source_url": "https://aidailybrief.ai/e/2026-07-29",
+      "resolution": "Vindicated if, by the check date, no international body, treaty or formal agreement exists with US participation that sets technical or governance mechanisms for pacing frontier AI capability, and no such process includes China as a participant. Fails if such a mechanism is established and China is party to it, or if a US-led multilateral pacing process is formally constituted with Chinese participation.",
+      "check_by": "2027-12-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-07-29",
+      "side": "Zitron",
+      "claim": "That the US government will not rescue the frontier AI labs — no bailout, no sovereign wealth fund stake, no CHIPS-style special treatment — because any such package would have to pass Congress and would be politically intolerable; the industry's safety and importance framing is the groundwork for asking, but the ask will fail.",
+      "source_url": "https://www.wheresyoured.at/let-ai-burn/",
+      "resolution": "Vindicated if, by the check date, no federal legislation, executive order or Treasury facility provides equity investment, loan guarantee, debt backstop or comparable financial rescue to OpenAI, Anthropic or their data-centre financing. Fails if any such federal support is enacted or executed, including a sovereign-fund equity swap of the kind Altman has floated.",
+      "check_by": "2027-12-31",
+      "status": "open"
     }
   ]
 }
