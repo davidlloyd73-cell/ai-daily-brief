@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Priced in tokens, not seats — which is a budgeting problem, not a technology one",
+      "body": "The single most useful thing in this edition for anyone signing an AI contract is the observation that AI spend behaves less like software and more like labour: it is metered by use rather than by headcount. A practice that budgets an ambient scribe at so much per clinician per month is buying on the old model, and the vendors know the old model does not cover their costs. If NLW is right that consumption is the real unit, expect scribe and triage products to drift towards per-consultation or tiered-usage pricing as contracts renew. If Zitron is right that compute has to be repriced upwards, expect the same drift but faster and less gently. Either way the practical step is the same and it is cheap: find out now what your current tool actually costs per consultation, and ask the supplier in writing what happens to the price at renewal."
+    },
+    {
+      "title": "The enablement bill is the part the NHS will underfund",
+      "body": "NLW's own bully-pulpit point is that when AI was only about prompting you could skimp on training, but once the job becomes supervising something that acts on your behalf, training stops being optional. That is exactly where general practice sits. A scribe is easy — you talk, you check, you sign. Anything that drafts referrals, sorts documents or actions results is a different object, and the people handed it are receptionists, care coordinators and salaried GPs with no protected time. His point that organisations are giving up on polished courses and doing messy in-house training is worth taking seriously: the person in your practice who has quietly worked out how to use the tool well is your training resource, and half an hour of their time in a staff meeting is worth more than any supplier webinar."
+    },
+    {
+      "title": "\"What is an audit if agents do it persistently?\" — a question with a medical-examiner edge",
+      "body": "One of the six questions is what happens to professional services when the work can be done continuously rather than in samples. Audit is the example given, but the same logic reaches mortality review, significant-event analysis and coding accuracy: these are all sampling exercises that exist because looking at everything was impossible. It is not fanciful to imagine a system that flags every case meeting review criteria rather than the ones that happen to be noticed. That would be a genuine improvement in scrutiny and also a considerable increase in workload, and nobody has yet said who does the resulting work. Worth holding onto before anyone in an ICB describes continuous review as an efficiency."
+    }
+  ]
+}

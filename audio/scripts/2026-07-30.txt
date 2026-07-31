@@ -1,0 +1,15 @@
+David's AI brief for Thursday, the thirtieth of July.
+
+Nathaniel Whittemore spent this episode reflecting on a year of enterprise artificial intelligence, and his one idea is simple: the argument has moved from whether to how. A year ago the excited conversation was that around forty per cent of large organisations had reached two or three working use cases, and that Anthropic had passed a billion dollars in annualised revenue. Both now look quaint. He dates the real change to the model updates last November and December, when systems that act on your behalf genuinely began to work.
+
+There are six of them: how to redesign work around these agents rather than bolting them on; how to think in architectures rather than picking a best model; how to provision and observe cost, which requires knowing what your own usage actually costs, and almost nobody does; how to train people properly, which is messy in-house work rather than a tidy video course; how agents reshape what you sell; and how to build things that assume they will need rebuilding in months. Almost none have answers yet. His point is that they are finally the right questions. He also noted that enterprises are burning through annual budgets in a matter of months, and that this spend behaves less like software, priced per seat, and more like labour, priced by use.
+
+Now, the other side. Ed Zitron published a piece the following day arguing that this whole conversation is a distraction. His figures are stark: around a hundred and ten billion dollars of revenue across the entire industry in the past twelve months, against hundreds of billions of committed spend. His claim is that the longer this goes on the harder the arithmetic gets, because infrastructure keeps getting more expensive, so compute will eventually have to cost considerably more — and the only two customers big enough to buy it are the two that cannot pay. What is worth noticing is where the two men agree. Both now treat cost, rather than capability, as the central question. What settles it is whether this work makes a positive margin once the depreciation on all that hardware lands.
+
+Three thoughts for the surgery. First, if spend really is metered by use rather than by headcount, then a scribe contract priced per clinician per month is priced on the old model — and the old model may not survive renewal. Worth asking your supplier in writing what happens to the price when the contract rolls over.
+
+Second, the training point applies to us directly. A scribe is easy: you talk, you check, you sign. Anything that drafts referrals or actions results is a different object, handed to people with no protected time to learn it. The person in your practice who has quietly worked out how to use it well is your best training resource.
+
+And third, one of the six questions was what an audit becomes if done continuously rather than by sampling. The same logic reaches mortality review and significant event analysis: better scrutiny, considerably more work, and nobody has yet said who does it.
+
+That's the brief — source, The AI Daily Brief.
