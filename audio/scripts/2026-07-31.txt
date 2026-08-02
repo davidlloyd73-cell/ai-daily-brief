@@ -1,0 +1,17 @@
+David's AI brief for Friday, the thirty-first of July.
+
+Two stories arrived in the same week and they look like opposites. The artificial intelligence labs have just posted their best revenue months ever — OpenAI's July annualised revenue beat the whole of its second quarter, and Anthropic appears to have jumped roughly ten billion dollars in a single month, to a run rate of around seventy-one billion. At the same time, semiconductor shares crashed, Korea's stock market fell forty per cent in a month — its worst fall on record — and a famous artificial intelligence hedge fund was wiped out overnight.
+
+Nathaniel Whittemore's one idea is that these are not contradictions. Strip away the frightening historical analogies, he says, and most of the weakness is old-fashioned leverage, forced selling and a market that has simply turned risk-off. The fund in question, Situational Awareness, had about thirty billion dollars of its own money controlling a hundred and twenty billion of positions. At four times leverage a twenty-five per cent fall wipes you out entirely, and because American funds must disclose their holdings, everyone knew what it owned and could sell into it. His verdict: this resembles Archegos five years ago — painful and leveraged, but not systemic. Underneath it all, he argues, demand for intelligence does nothing but grow, and revenue acceleration is the only number that really matters.
+
+Now, the other side. Ed Zitron published a piece nine days earlier taking the opposite view of the very debt Whittemore waves away. Each data centre, he says, is financed through a separate company that owns the chips and the debt and pays it back purely out of customer revenue, so the obligation never appears on the parent's balance sheet — legal, he writes, and a little bit Enron. He thinks the paper is badly underwritten and barely secured, and that it now sits with private credit funds, insurers and pension schemes. Importantly, he does not need anyone big to go bust: the losses land on the vehicles and their creditors, and single deals run to hundreds of millions, so ten or fifteen failures would be enough.
+
+What is worth noticing is that both men now locate the fragility in the financing rather than in the technology. The thing to watch is not the share prices but the spreads on data centre debt.
+
+Three thoughts for the surgery, and I will be honest that today's edition is mostly finance. The connection is procurement. The scribe running in your consulting room is sold by a company that buys from a lab that rents compute financed by exactly this debt. Whoever turns out to be right, the sensible step is the same and costs nothing: know your notice period, and know whether your consultation records can be exported in a usable form if the supplier vanishes.
+
+Second, ask who actually owns the company processing your consultations, and what happens to that data on insolvency or sale. That belongs in your data protection assessment, and one email answers it.
+
+And third, for anyone doing the sums about their own money: the National Health Service pension is unfunded and paid from current contributions, so it holds none of this paper. Private arrangements are another matter.
+
+That's the brief — source, The AI Daily Brief.

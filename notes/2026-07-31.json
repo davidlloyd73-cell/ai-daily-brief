@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "This edition is mostly finance — but the scribe on your desk sits downstream of it",
+      "body": "There is little direct clinical content today, and it would be forcing it to pretend otherwise. The one genuine connection is procurement. The ambient scribe running in your consulting room is sold by a company that buys inference from a lab that rents compute from an infrastructure business financed by exactly the debt being argued about here. If NLW is right that demand outruns supply for years, prices keep falling and nothing changes for you. If Zitron is right, some of these suppliers do not survive the repricing. The practical response is the same either way and costs nothing: know what your notice period is, know whether your consultation data can be exported in a usable form if the supplier disappears overnight, and avoid multi-year commitments with a small vendor whose funding you cannot see."
+    },
+    {
+      "title": "Ask who actually owns the company handling your consultations",
+      "body": "The recurring theme in this edition is that ownership and risk have been deliberately separated — assets sit in one vehicle, the debt in another, and the parent is insulated. That structure is not confined to data centres. Several UK clinical AI suppliers are venture-funded and have changed hands or restructured. For a data controller this matters: your DPIA and data processing agreement should name who the processor is now, and what happens to patient data on insolvency or acquisition. It is a dull question that nobody asks until it is urgent, and it takes one email to the supplier to answer."
+    },
+    {
+      "title": "A note on pensions, since the piece is about who ends up holding the paper",
+      "body": "Zitron's central worry is that this debt has been distributed to private credit funds, insurers and pension schemes. Worth knowing, for anyone reading this and doing the arithmetic about their own money: the NHS Pension Scheme is unfunded and pay-as-you-go — benefits are paid from current contributions and Exchequer funds rather than from an invested portfolio — so it holds none of this paper. Private arrangements are a different matter, and anything tracking a US index is now heavily weighted towards a handful of the companies in this story. That is an observation about concentration, not advice, and a proper adviser is the right person to ask."
+    }
+  ]
+}
