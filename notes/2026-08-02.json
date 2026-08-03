@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Your scribe is on a flat fee today. This edition explains why that may not hold.",
+      "body": "Almost every ambient scribe sold into UK general practice is priced per clinician per month, which makes budgeting easy and hides the meter entirely. The edition's own numbers show why that pricing is fragile: agentic work runs five to thirty times the tokens of a simple chat, and when Anthropic reissued Opus in April the price sheet was unchanged while the same text produced about thirty per cent more tokens. If Whittemore is right, inference keeps getting cheaper and the flat fee survives. If Zitron is right, the subsidy is withdrawn and per-seat becomes per-use. Neither requires action now, but it is worth knowing your notice period and whether renewal locks the current price, before the conversation is had for you."
+    },
+    {
+      "title": "The self-censoring clinician is the real cost, not the tokens",
+      "body": "The best line in the edition is Nufar Gaspar's: the most expensive token is the one your best person is afraid to spend. Translated to a surgery, that is the partner who stops using the scribe on the complicated twenty-minute consultation — precisely where it saves the most time and where the note matters most — because a complex case feels extravagant. The arithmetic says the opposite. An email-length exchange costs roughly half a penny; the deep, messy consultation is exactly what you bought the thing for. If a colleague is rationing, the fix is telling them the actual unit cost, not adding a policy."
+    },
+    {
+      "title": "Cost per accepted task has a clean clinical translation",
+      "body": "The edition's central metric — cost per accepted task, counting retries and correction rather than raw consumption — maps almost exactly onto the only scribe question worth asking: what proportion of notes go into the record without meaningful editing? That is measurable in an afternoon. Take twenty consultations across two clinicians, record whether each draft was accepted unchanged, lightly edited, or rewritten, and note the minutes spent correcting. It gives a number for the next contract discussion and, more usefully, tells you whether the tool is stronger in some consultation types than others. The same logic applies to Medical Examiner work, where the acceptable error rate on a scrutiny summary is effectively zero and a draft that needs checking line by line has saved nothing."
+    }
+  ]
+}

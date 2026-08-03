@@ -720,6 +720,24 @@
       "resolution": "Vindicated if, by the check date, multiple data-centre SPV or neocloud financings have breached coverage covenants, defaulted or been written down, with disclosed losses at private credit funds, insurers or pension schemes, and secondary spreads on data-centre securities remain materially wider than at issuance. Fails if data-centre debt performs to schedule, spreads normalise, and no cluster of SPV or neocloud defaults occurs.",
       "check_by": "2028-07-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-02",
+      "side": "NLW",
+      "claim": "That overspending beats underspending on a one-year view — a company that wildly overspends on AI via an internal usage leaderboard will be materially further ahead than a comparable company that underspends out of fear of proving ROI; and that higher-value work inherently consumes more tokens, so the direction of travel is upward consumption, not restraint.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-02",
+      "resolution": "Vindicated if, by the check date, published evidence — company disclosures, a controlled study, or comparable-cohort research — shows heavy-AI-usage organisations outperforming AI-rationing peers on output or productivity measures, and enterprise token consumption per user continues to rise. Fails if the leaderboard-era heavy spenders (Meta, Uber, and similar) show no measurable advantage over constrained peers, or if enterprise consumption per user flattens or falls while outcomes hold.",
+      "check_by": "2027-08-02",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-02",
+      "side": "Zitron",
+      "claim": "That heavy AI usage is loss-making for the vendor rather than the customer — flat-rate plans let users consume many multiples of what they pay (a $200 plan absorbing $8,000-$14,000 of usage; Copilot subscribers burning over 25 times their fee) — and that this subsidy, not customer discipline, is what makes current AI spend look affordable.",
+      "source_url": "https://www.wheresyoured.at/the-more-you-buy-the-more-you-lose/",
+      "resolution": "Vindicated if, by the check date, major flat-rate AI plans are converted to metered or hard-capped billing, effective prices per unit of comparable work rise, or a leading lab discloses negative inference gross margins. Fails if flat-rate heavy-use plans persist at similar effective prices and a leading lab publishes positive, audited inference gross margins.",
+      "check_by": "2027-08-02",
+      "status": "open"
     }
   ]
 }

@@ -1,0 +1,21 @@
+David's AI brief for Sunday, the second of August.
+
+Today's edition is a primer, not a news round-up. Nufar Gaspar joins Nathaniel Whittemore to explain the word that now dominates every enterprise conversation about artificial intelligence: the token.
+
+A token is simply a chunk of text — larger than a letter, usually smaller than a word — that the model reads and writes. In English it works out at roughly three-quarters of a word, so a page of text comes to about a thousand tokens. Everything you are billed for is counted in these.
+
+The one idea is this. Spend tokens wisely, not sparingly, and measure the cost per accepted task rather than the cost per token.
+
+The argument runs through four eras. First the all-inclusive era, when a flat subscription hid the meter entirely. Then the token-maxing era — Meta put employee usage on an internal leaderboard and burned something like seventy-four trillion tokens in a single month, its heaviest user getting through two hundred and eighty billion. One unnamed company ran up a five hundred million dollar bill with no limits in place. Then the backlash, and today's token-anxious era, in which Meta has issued a memo restraining usage and Uber caps its staff.
+
+Gaspar's warning is that the anxiety is the worse failure. Her line is that the most expensive token is the one your best person is afraid to spend. An email costs about half a penny. Nobody should be rationing those.
+
+The practical part is the bill itself. Every laboratory uses its own tokenizer, so the same document can cost ten to twenty per cent more with one supplier than another, and the advertised price per million is not comparable. When Anthropic shipped a new version of Opus in April the price sheet was unchanged, but the new tokenizer produced around thirty per cent more tokens for the same text. Agentic work, where the model runs in a loop, costs five to thirty times a simple chat. And Databricks found the cheaper model was the more expensive one, because it needed more attempts to arrive.
+
+Hence the metric. Count the retries, the review and the correction, then divide by the results you actually accepted.
+
+Now, the other side. Ed Zitron, writing five days earlier, argues that this discipline optimises a number that is subsidised in the first place. His evidence is that heavy use ruins the seller rather than the buyer — two hundred dollar plans absorbing eight to fourteen thousand dollars of usage, and GitHub Copilot subscribers burning twenty-five times their monthly fee. Both men now agree the sticker price tells you nothing.
+
+For our purposes in the surgery, three thoughts. Your ambient scribe sits on a flat monthly fee that hides all of this, so it is worth knowing your notice period before renewal. The clinician quietly avoiding the scribe on the complicated twenty-minute consultation is making precisely the mistake Gaspar describes — that is the consultation it was bought for. And cost per accepted task has a clean clinical translation: what proportion of your notes go into the record without meaningful editing? Twenty consultations across two clinicians would answer it, and that is the number worth taking into the next contract discussion.
+
+That's the brief — source, The AI Daily Brief.
