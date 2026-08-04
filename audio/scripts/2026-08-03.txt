@@ -1,0 +1,19 @@
+David's AI brief for Monday, the third of August.
+
+The one idea today is uncomfortable, and it is this: artificial intelligence has now started to outrun our ability to judge it.
+
+OpenAI has an unreleased model called Astra. Over a single night, it reportedly solved, or made substantial progress on, ten open problems in mathematics — high-dimensional geometry, group theory, quantum complexity, the sort of thing a serious mathematician might circle for a decade without landing. Total cost in tokens, about two thousand dollars. Roughly two hundred dollars a problem.
+
+The remarkable part is not the mathematics. It is the reaction. One data scientist with ten thousand hours of study behind him said he could not follow the proofs without weeks of work, and neither could his colleagues with doctorates. So what did people do? They asked a different artificial intelligence how hard the problems were, and took its word for it. That is the new default, and it should give us pause.
+
+Two saving graces. The model wrote each argument out as a formal certificate, so a machine can check the proof is valid even if no human can follow it. And OpenAI's own Noam Brown tempered things: mathematics is not solved, he said, and the model is not posing interesting new conjectures.
+
+Now, the other side. Ed Zitron, writing three days earlier, would say this whole conversation is the distraction. Debating what these models can theoretically do, he argues, is a way of avoiding the messier subject — the money already committed against those promises. He puts the entire industry's trailing revenue at about a hundred and ten billion dollars, less than OpenAI raised in a single round in March. On his reading, a two-hundred-dollar proof is a demonstration, not a business. What is worth holding on to is that both men now treat the capability as more or less settled, and disagree only about whether it can be paid for.
+
+So, thoughts for general practice. The reason mathematics fell first is that a proof can be checked. Aaron Levie of Box made the point in this edition — verifiable work gets automated first. Our work is close to the opposite. There is rarely a clean answer key for how a ten-minute consultation went, and the outcome that would settle it arrives weeks or years later. That is precisely why clinical AI has arrived as a scribe and a safety net rather than a decision-maker.
+
+Which leads to the second thought, and it is the important one. Checking one model's summary against another model is not verification. It feels like it, and it is not — two systems trained on overlapping material agreeing tells you very little. So the discipline stays dull and human. Read the note against what you actually remember of the consultation before you sign it. The signature is still yours, and so is the responsibility behind it.
+
+And a practical one. Do not build a workflow that only survives if today's prices hold. Either way, the questions to ask a supplier are the same — what is the notice period, and can we get our records out.
+
+That's the brief — source, The AI Daily Brief.

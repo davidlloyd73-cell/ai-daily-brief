@@ -738,6 +738,24 @@
       "resolution": "Vindicated if, by the check date, major flat-rate AI plans are converted to metered or hard-capped billing, effective prices per unit of comparable work rise, or a leading lab discloses negative inference gross margins. Fails if flat-rate heavy-use plans persist at similar effective prices and a leading lab publishes positive, audited inference gross margins.",
       "check_by": "2027-08-02",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-03",
+      "side": "NLW",
+      "claim": "That the capability overhang is the market opportunity — that models already released can do far more than the systems around them permit, so the bulk of near-term AI value will be created at the applied layer by redesigning workflows, not by the next frontier model; and that verifiable domains (maths, code, cyber) will be automated substantially ahead of unverifiable ones (legal, marketing, sales).",
+      "source_url": "https://aidailybrief.ai/e/2026-08-03",
+      "resolution": "Vindicated if, by the check date, application-layer AI companies (not the frontier labs) account for the majority of new third-party AI revenue growth, and measured automation or benchmark progress in verifiable domains clearly outpaces that in unverifiable professional domains. Fails if value continues to concentrate in the labs and infrastructure, or if unverifiable domains show comparable displacement to maths and code.",
+      "check_by": "2027-08-03",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-03",
+      "side": "Zitron",
+      "claim": "That the economics get worse as the bubble inflates — infrastructure becomes more expensive to build, so hyperscalers and neoclouds must charge materially more for compute to reach profitability, and the only two customers of sufficient scale (OpenAI and Anthropic) cannot pay it; therefore frontier capability demonstrations such as $200-per-proof results do not reflect sustainable prices.",
+      "source_url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/",
+      "resolution": "Vindicated if, by the check date, published compute or frontier-model list prices for comparable reasoning workloads have risen rather than fallen, or a leading lab discloses negative inference gross margins while renegotiating or defaulting on compute commitments. Fails if the effective price of a comparable frontier reasoning task has fallen materially and a leading lab publishes positive, audited inference gross margins.",
+      "check_by": "2027-08-03",
+      "status": "open"
     }
   ]
 }

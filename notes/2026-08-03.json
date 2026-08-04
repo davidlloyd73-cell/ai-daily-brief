@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Verifiability is the whole argument — and it is why medicine will lag maths",
+      "body": "The reason Astra's results land first in mathematics is that a proof can be checked mechanically: it was formalised in Lean, so the community can accept it without following the reasoning. Aaron Levie's point in this edition is that verifiable domains automate first. General practice is close to the opposite case. There is rarely a clean answer key for whether a ten-minute consultation was handled well, and the outcome that would settle it arrives weeks or years later, if at all. That is not a reason to be complacent — it is the reason clinical AI arrives as a scribe and a safety net rather than as a decision-maker, and why the burden of judgement stays with the person in the room. Where a checkable answer does exist — a coding audit, a drug interaction, a QOF denominator — expect the tools to get very good very quickly."
+    },
+    {
+      "title": "\"Ask a different AI whether the answer is real\" is not a workable clinical safeguard",
+      "body": "The most striking detail in this edition is that when mathematicians could not verify the proofs, commentators asked another model to rate the difficulty. That habit is already creeping into medicine — checking one model's summary against another's. It feels like verification and is not: two systems trained on overlapping data agreeing tells you little about whether either is right. For scribe output the discipline remains dull and human. Read the note against what you remember of the consultation before you sign it, and treat the medicolegal position as unchanged: the signature is yours. As a Medical Examiner the same principle applies to any AI-assisted summary of a case record — the source documents are the evidence, not the summary of them."
+    },
+    {
+      "title": "If Zitron is right the bill arrives; if NLW is right the bill falls — plan for both",
+      "body": "NLW's read is that costs collapse and the work is redesigning systems around cheap capability. Zitron's is that compute must get more expensive before anyone makes money, and today's prices are a subsidy. A practice cannot resolve that argument, but it can avoid being hostage to it. Two practical consequences: do not build a workflow that only works if per-seat scribe pricing stays where it is, and if a supplier's price is conspicuously below what the underlying inference plausibly costs, treat that as a commercial risk to note rather than a bargain to lock in. The DeepSeek figure in this edition — three pence a task against fifty-nine for a rival — is a reminder that the floor may still be falling. Either way, the questions to ask a supplier are the same: what is the notice period, and can we export the record."
+    }
+  ]
+}

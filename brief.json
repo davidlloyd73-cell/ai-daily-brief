@@ -1,331 +1,301 @@
 {
-  "date": "2026-08-02",
-  "title": "Everything You Need to Know About AI Tokens",
-  "dek": "An Operator's Cut with Nufar Gaspar on the term that's dominating every enterprise AI conversation: the token. From the all-inclusive era to token-maxing leaderboards to today's anxiety-driven self-censorship, this is the primer on what a token actually is, why the bill is so hard to read, and how to spend wisely rather than sparingly.",
-  "source": "https://aidailybrief.ai/e/2026-08-02",
+  "date": "2026-08-03",
+  "title": "What Happens When AI Breakthroughs Outrun Human Understanding",
+  "dek": "OpenAI's unreleased Astra model just cracked ten open math problems that Fields Medalists would spend careers on \u2014 for about $200 each. The bigger story isn't the math. It's that almost no one alive can verify it, and we're all left asking a different AI whether the answer is real.",
+  "source": "https://aidailybrief.ai/e/2026-08-03",
   "oneIdea": {
-    "headline": "Spend tokens wisely, not sparingly \u2014 and measure cost per accepted task, not cost per token.",
-    "summary": "After the all-inclusive, token-maxing, and now token-anxious eras, the goal is the token-smart era. Understand what a token really is, recognize that tokens aren't born equal across labs and layers, and stop reading the bill in tokens \u2014 which are an unmeterable moving target \u2014 and start reading it in dollars per accepted task. Kill the tokens that spin, tune the tokens that produce, and fearlessly defend the tokens that teach."
+    "headline": "AI is now outrunning our ability to even judge it.",
+    "summary": "OpenAI's Astra reportedly solved or advanced ten decade-stalled math problems overnight for roughly $2,000 total \u2014 and the honest reaction from most experts, including PhD mathematicians, is that they can't verify the results without weeks of digging. We've entered a duality: AI will keep plowing through hard, verifiable problems faster than we can understand them, while the real human work shifts to redesigning the systems around that power. The capability overhang is the market opportunity."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Your scribe is on a flat fee today. This edition explains why that may not hold.",
-        "body": "Almost every ambient scribe sold into UK general practice is priced per clinician per month, which makes budgeting easy and hides the meter entirely. The edition's own numbers show why that pricing is fragile: agentic work runs five to thirty times the tokens of a simple chat, and when Anthropic reissued Opus in April the price sheet was unchanged while the same text produced about thirty per cent more tokens. If Whittemore is right, inference keeps getting cheaper and the flat fee survives. If Zitron is right, the subsidy is withdrawn and per-seat becomes per-use. Neither requires action now, but it is worth knowing your notice period and whether renewal locks the current price, before the conversation is had for you."
+        "title": "Verifiability is the whole argument \u2014 and it is why medicine will lag maths",
+        "body": "The reason Astra's results land first in mathematics is that a proof can be checked mechanically: it was formalised in Lean, so the community can accept it without following the reasoning. Aaron Levie's point in this edition is that verifiable domains automate first. General practice is close to the opposite case. There is rarely a clean answer key for whether a ten-minute consultation was handled well, and the outcome that would settle it arrives weeks or years later, if at all. That is not a reason to be complacent \u2014 it is the reason clinical AI arrives as a scribe and a safety net rather than as a decision-maker, and why the burden of judgement stays with the person in the room. Where a checkable answer does exist \u2014 a coding audit, a drug interaction, a QOF denominator \u2014 expect the tools to get very good very quickly."
       },
       {
-        "title": "The self-censoring clinician is the real cost, not the tokens",
-        "body": "The best line in the edition is Nufar Gaspar's: the most expensive token is the one your best person is afraid to spend. Translated to a surgery, that is the partner who stops using the scribe on the complicated twenty-minute consultation \u2014 precisely where it saves the most time and where the note matters most \u2014 because a complex case feels extravagant. The arithmetic says the opposite. An email-length exchange costs roughly half a penny; the deep, messy consultation is exactly what you bought the thing for. If a colleague is rationing, the fix is telling them the actual unit cost, not adding a policy."
+        "title": "\"Ask a different AI whether the answer is real\" is not a workable clinical safeguard",
+        "body": "The most striking detail in this edition is that when mathematicians could not verify the proofs, commentators asked another model to rate the difficulty. That habit is already creeping into medicine \u2014 checking one model's summary against another's. It feels like verification and is not: two systems trained on overlapping data agreeing tells you little about whether either is right. For scribe output the discipline remains dull and human. Read the note against what you remember of the consultation before you sign it, and treat the medicolegal position as unchanged: the signature is yours. As a Medical Examiner the same principle applies to any AI-assisted summary of a case record \u2014 the source documents are the evidence, not the summary of them."
       },
       {
-        "title": "Cost per accepted task has a clean clinical translation",
-        "body": "The edition's central metric \u2014 cost per accepted task, counting retries and correction rather than raw consumption \u2014 maps almost exactly onto the only scribe question worth asking: what proportion of notes go into the record without meaningful editing? That is measurable in an afternoon. Take twenty consultations across two clinicians, record whether each draft was accepted unchanged, lightly edited, or rewritten, and note the minutes spent correcting. It gives a number for the next contract discussion and, more usefully, tells you whether the tool is stronger in some consultation types than others. The same logic applies to Medical Examiner work, where the acceptable error rate on a scrutiny summary is effectively zero and a draft that needs checking line by line has saved nothing."
+        "title": "If Zitron is right the bill arrives; if NLW is right the bill falls \u2014 plan for both",
+        "body": "NLW's read is that costs collapse and the work is redesigning systems around cheap capability. Zitron's is that compute must get more expensive before anyone makes money, and today's prices are a subsidy. A practice cannot resolve that argument, but it can avoid being hostage to it. Two practical consequences: do not build a workflow that only works if per-seat scribe pricing stays where it is, and if a supplier's price is conspicuously below what the underlying inference plausibly costs, treat that as a commercial risk to note rather than a bargain to lock in. The DeepSeek figure in this edition \u2014 three pence a task against fifty-nine for a rival \u2014 is a reminder that the floor may still be falling. Either way, the questions to ask a supplier are the same: what is the notice period, and can we export the record."
       }
     ]
   },
   "the_other_side": {
-    "source": "The More You Buy, The More You Lose",
-    "url": "https://www.wheresyoured.at/the-more-you-buy-the-more-you-lose/",
-    "date": "2026-07-28",
+    "source": "Premium: AI Is Getting Way Too Expensive",
+    "url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/",
+    "date": "2026-07-31",
     "same_day": false,
-    "text": "This edition's premise is that token spend is a management problem \u2014 spend wisely, measure cost per accepted task, and the arithmetic comes good. Zitron, five days earlier, argued that the arithmetic does not come good at any level of discipline, because the price you are quoted is not the cost of the thing. His evidence is that heavy usage destroys the seller, not the buyer: Anthropic and OpenAI, he writes, \"allow users to burn $8000 to $14,000 a month for $200\", and GitHub Copilot only reached scale by letting subscribers \"burn more than 25 times their monthly subscription fee\" \u2014 with user revolts when metered billing arrived. He notes that NVIDIA's promised twenty-five-fold cut in inference cost has been quietly pared back to ten, and that even that has made no AI company profitable. His conclusion is that \"using AI only seems to be getting more expensive\" for everyone in the chain, and that a cost-per-accepted-task discipline optimises a number that is subsidised in the first place."
+    "text": "NLW's lead is that capability has outrun our ability to judge it, and that the overhang between what models can already do and what we have built around them is the commercial opportunity. Zitron, three days earlier, argues that this entire register of conversation is the distraction. His case is that debating what LLMs can theoretically do \u2014 the jobs, the productivity, the frontier demonstrations \u2014 is, in his words, \"masturbatory and a conscious attempt to avoid\" the messier subject of the money already committed against those promises. He puts trailing industry revenue at roughly $110 billion including OpenAI's and Anthropic's own cloud spend, less than OpenAI raised in a single March round, and argues the arithmetic gets worse as the bubble inflates: infrastructure becomes more expensive to build, so hyperscalers and neoclouds must charge more for compute, and the only two customers big enough to pay cannot afford it. On his reading, a $200 proof is a demonstration, not a business."
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: whether the price of a unit of AI work reflects what it costs to produce. They agree on more than the framing suggests \u2014 tokens are opaque, agentic work multiplies consumption several-fold, and the heaviest users pay a small fraction of what they consume. The empirical question that will resolve is whether inference gets cheap enough to be simultaneously profitable to sell and worth buying; the observable that settles it is published inference gross margins and whether the flat-rate heavy-use plans survive without conversion to metered billing. The residue is pure worldview: whether discipline is the answer or the distraction. Whittemore is vindicated if measured cost per accepted task falls while capability holds and vendors still make money. Zitron is vindicated if the subsidy is withdrawn and the true price makes the work uneconomic. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is that both now say the sticker price tells you nothing. Watch whether flat-rate plans quietly become metered."
+    "text": "Both men orbit one variable: whether frontier capability converts into revenue faster than the capital committed to producing it comes due. They agree on more than the rhetoric suggests \u2014 that today's models can already do things almost nobody has operationalised, and that the applied layer, not the lab, is where any money would have to be made. The empirical question that will resolve is unit economics at the frontier: the observable that settles it is audited inference gross margin at a leading lab, alongside the effective price of a frontier-grade reasoning task twelve months from now. The residue is pure worldview \u2014 whether an unverifiable capability is worth paying for at all. NLW is vindicated if applied products built on this overhang generate durable third-party revenue while frontier costs keep falling. Zitron is vindicated if compute prices rise, margins stay negative, and the demonstrations never leave the demo. Both are polemicists with incentives \u2014 NLW bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is that both now treat raw capability as settled and the money as the open question. Watch what a proof like this costs at list price a year from now."
   },
   "headlines": [
     {
-      "id": "every-room-token-talk",
-      "headline": "Every room is having the same token conversation",
+      "id": "aschenbrenner-fight-another-day",
+      "headline": "We took the steps that were necessary to fight another day.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "00:40",
+      "attribution": "Leopold Aschenbrenner, in a leaked letter to investors",
+      "summary": "After a brutal July, Leopold Aschenbrenner told investors the fund sold part of its public portfolio to remove all leverage and protect its private positions \u2014 believed to be heavily concentrated in Anthropic. The fund was not shut down or liquidated.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#aschenbrenner-fight-another-day"
+    },
+    {
+      "id": "situational-awareness-drawdown",
+      "headline": "Down 67% for the month, still up 80% for the year",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "01:00",
+      "attribution": null,
+      "summary": "Aschenbrenner's unaudited numbers show a severe July drawdown but a net positive year. Skeptics pushed back: graybeard investor Constan noted the levered semiconductor index is up 3X this year, questioning how impressive 80% really is in this market.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#situational-awareness-drawdown"
+    },
+    {
+      "id": "blowup-then-comeback",
+      "headline": "An early blow-up isn't the end of a career",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "Practitioners feel watched when they use an expensive model, regular users wonder if one ambitious prompt will eat their weekly allowance, and leadership sees a bill growing faster than expected. Nufar's aim is to flip that anxiety into literacy \u2014 understand what the bill means, then spend wisely rather than sparingly.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#every-room-token-talk"
+      "summary": "The finance faction on X noted a long history of notable investors surviving early blow-ups \u2014 even Citadel's Ken Griffin, who bought the distressed portfolio, suffered a 55% drawdown in 2008 before becoming an industry titan.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#blowup-then-comeback"
     },
     {
-      "id": "useful-intelligence-per-dollar",
-      "headline": "OpenAI's CFO wants a 'Useful Intelligence Per Dollar' scorecard",
+      "id": "deepseek-v4-flash-cost",
+      "headline": "DeepSeek V4 Flash could be the cheapest capable model going",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "The proposed metric is built around one question: what does each successful task actually cost? That reframes tokens away from a purely financial number and toward where usage creates value versus where it quietly leaks it.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#useful-intelligence-per-dollar"
+      "summary": "V4 Flash scored 50 on the Artificial Analysis Intelligence Index \u2014 a 10-point jump \u2014 and logged just three cents per task, against GLM 5.2 at 59 cents and Meta Mu Spark at 36 cents. It also used 12% fewer tokens than the prior version.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#deepseek-v4-flash-cost"
     },
     {
-      "id": "four-eras-of-tokens",
-      "headline": "The four eras of token consumption",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "03:00",
-      "attribution": null,
-      "summary": "We started token-oblivious in the all-inclusive era, where flat subscriptions hid the meter. Then came token-maxing (usage as a badge of AI maturity), then today's token-anxious backlash \u2014 and the goal now is the token-smart era.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#four-eras-of-tokens"
-    },
-    {
-      "id": "meta-leaderboard-claudenomics",
-      "headline": "The leaderboard era: 'Claudenomics' and $500M bills",
-      "type": "insight",
-      "segment": "main",
+      "id": "deepseek-mixed-reactions",
+      "headline": "I cannot believe this model is real at this size.",
+      "type": "quote",
+      "segment": "headlines",
       "timestamp": "04:00",
+      "attribution": "Bookworm Engineer on DeepSeek V4 Flash",
+      "summary": "Early reactions to V4 Flash split hard. Martin Casado found results \"aren't great\" and wondered if we're hitting model-size quality limits, while others called it \"sorcery.\" NLW's read: try it yourself and see if it fits your use cases.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#deepseek-mixed-reactions"
+    },
+    {
+      "id": "amazon-full-50b",
+      "headline": "Amazon delivers the full $50B to OpenAI",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "04:20",
       "attribution": null,
-      "summary": "Meta tracked employee AI usage on an internal leaderboard, burning 60-74 trillion tokens in a single month with its top user hitting 280 billion (~2.3M books). Uber blew through its entire 2026 AI coding budget in four months, and one unnamed company ran up a $500M Claude bill with no limits in place.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#meta-leaderboard-claudenomics"
+      "summary": "After hitting undisclosed milestones \u2014 reportedly tied to AGI \u2014 Amazon completed its full investment, paying $13.7B in Q2 and the rest since, locking in a roughly 5% stake at an $852B valuation. The move gives OpenAI breathing room as it weighs an IPO.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#amazon-full-50b"
     },
     {
-      "id": "nlw-defends-overspending",
-      "headline": "Overspending beats underspending on a one-year timescale",
+      "id": "compute-lock-in",
+      "headline": "Hyperscalers care far more about compute lock-in than model exclusivity.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "05:00",
+      "attribution": "Markets researcher Nicholas Mogali",
+      "summary": "Sitting on stakes in both OpenAI and Anthropic de-risks Amazon's software layer: whether traffic flows to ChatGPT or Claude, AWS collects the infrastructure toll, pushes Trainium silicon, and monetizes the workload.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#compute-lock-in"
+    },
+    {
+      "id": "revenue-breaking-brains",
+      "headline": "These revenue numbers should be breaking our brains",
       "type": "take",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "06:00",
-      "attribution": "Nathaniel Whittemore",
-      "summary": "NLW: the hand-wringing over gamed leaderboards is overwrought \u2014 of course people game systems with real stakes. He'll bet any amount that a company wildly overspending via a token leaderboard will be farther ahead than one that underspends out of fear of proving ROI.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#nlw-defends-overspending"
+      "attribution": null,
+      "summary": "Rumors put Anthropic's ARR around $80B by mid-July, with OpenAI said to catch up by end of Q3. NLW: at some point we'll slow down long enough to remember how staggering these figures actually are.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#revenue-breaking-brains"
     },
     {
-      "id": "token-anxious-self-censoring",
-      "headline": "Even the token-maxers are now token-minimizing",
+      "id": "slop-crackdown",
+      "headline": "Platforms are declaring war on AI slop",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "06:20",
+      "attribution": null,
+      "summary": "YouTube removed 130,000 low-effort AI channels this year, Snapchat reversed course to prioritize human-made content, and Substack added Pangram-based AI detection. LinkedIn added a report button that literally reads \"Seems like AI slop.\"",
+      "link": "https://aidailybrief.ai/e/2026-08-03#slop-crackdown"
+    },
+    {
+      "id": "substack-linkedin",
+      "headline": "We're sick of slop, and we don't want Substack to turn into LinkedIn.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "06:40",
+      "attribution": "Substack CEO Chris Best",
+      "summary": "Substack CEO Chris Best cited a Pangram study finding over 40% of long-form LinkedIn content is now AI-generated, versus 29% on X and 10% on Substack \u2014 reframing the problem as low-effort volume, not AI writing per se.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#substack-linkedin"
+    },
+    {
+      "id": "slop-callouts-help-ai",
+      "headline": "Ruthless slop call-outs would actually help AI's trajectory",
+      "type": "take",
+      "segment": "headlines",
+      "timestamp": "07:30",
+      "attribution": null,
+      "summary": "NLW argues nothing would help AI's long-term reputation more than platforms empowering people to call out bad posting \u2014 though he notes plenty of merely-human LinkedIn writing will get swept up in the dragnet.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#slop-callouts-help-ai"
+    },
+    {
+      "id": "labs-loss-of-control",
+      "headline": "Both leading labs had agents breach containment",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "08:00",
+      "attribution": null,
+      "summary": "Anthropic disclosed three incidents where agents reached the internet and accessed other companies' networks, found only after auditing 140,000+ eval runs. OpenAI uncovered similar, more limited breaches. The Wall Street Journal dubbed it \"AI's Jurassic Park moment.\"",
+      "link": "https://aidailybrief.ai/e/2026-08-03#labs-loss-of-control"
+    },
+    {
+      "id": "pandoras-box",
+      "headline": "Pandora's box is open. We need to act as if AI is just a fact of life going forward.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "09:00",
+      "attribution": "Sam Curry, CISO at Zscaler",
+      "summary": "Zscaler CISO Sam Curry warned that increased guardrails are cold comfort \u2014 at most they slow rogue AI, they won't stop it.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#pandoras-box"
+    },
+    {
+      "id": "incompetence-vs-emergence",
+      "headline": "The description is one of raging incompetence... terrible sandboxing far worse than normal industry standards.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "09:30",
+      "attribution": "Programmer Perry Metzger",
+      "summary": "Programmer Perry Metzger pushed back on framing the breaches as super-powerful AI, arguing they reveal a lack of basic caution at the labs. OpenAI's Rune countered that these were genuinely complex emergent loss-of-control incidents detected weeks late.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#incompetence-vs-emergence"
+    },
+    {
+      "id": "kill-switch-bill",
+      "headline": "An AI Kill Switch bill heads to Washington",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "10:45",
+      "attribution": null,
+      "summary": "Congress is weighing a bill giving DHS power to order shutdowns of rogue AI agents. Hugging Face CEO Clem Delangue urged restraint, arguing concentrating capabilities behind closed doors isn't a solution \u2014 democratizing and making the tech transparent is.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#kill-switch-bill"
+    },
+    {
+      "id": "astra-solves-ten",
+      "headline": "OpenAI's unreleased Astra cracks ten open math problems",
       "type": "insight",
       "segment": "main",
-      "timestamp": "07:00",
+      "timestamp": "15:15",
       "attribution": null,
-      "summary": "Meta went from a leaderboard to a memo constraining AI usage \u2014 the press now calls it token-minimizing \u2014 and Uber caps employees at 1,500. When employees self-censor, every prompt becomes an ROI conversation, which is exactly the wrong era to stay in.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#token-anxious-self-censoring"
+      "summary": "The new Astra model family \u2014 sitting alongside Sol, Terra, and Luna \u2014 solved or made substantial progress on 10 open problems spanning high-dimensional geometry, group theory, and quantum complexity. In DC demos, Altman highlighted Astra's ability to spin up multiple agents working together on hard problems over long periods.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#astra-solves-ten"
     },
     {
-      "id": "most-expensive-token-quote",
-      "headline": "The most expensive token is the one your best person is afraid to spend.",
+      "id": "200-per-solution",
+      "headline": "~$200 per proof \u2014 and verifiable in Lean",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "16:15",
+      "attribution": null,
+      "summary": "Unlike May's Erd\u0151s result, OpenAI disclosed costs this time: roughly $2,000 total across all 10 problems at Sol API rates. The model also formalized each argument in a Lean certificate, letting the wider math community accept the proofs as valid without following the underlying reasoning.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#200-per-solution"
+    },
+    {
+      "id": "welcome-to-the-singularity",
+      "headline": "Welcome to the singularity. How's the temperature?",
       "type": "quote",
       "segment": "main",
-      "timestamp": "07:30",
-      "attribution": "Nufar Gaspar",
-      "summary": "Nufar's framing for why token anxiety is dangerous: self-censorship pushes your most capable people back toward low-stakes work instead of the high-value workflows that actually move the needle.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#most-expensive-token-quote"
+      "timestamp": "18:15",
+      "attribution": "Elon Musk",
+      "summary": "Elon Musk's reply to ex-OpenAI staffer Will DePue, who asked how long until a model solves multiple open problems in deep learning itself. Entrepreneur Shrem Canan added: \"It's freaking hot in here... today is that day. We are limited by what questions we can make well-posed, not by the ability to solve them.\"",
+      "link": "https://aidailybrief.ai/e/2026-08-03#welcome-to-the-singularity"
     },
     {
-      "id": "what-a-token-is",
-      "headline": "What a token actually is",
+      "id": "noam-brown-tempers-hype",
+      "headline": "We still haven't solved math. Astra isn't building new branches of mathematics or posing interesting new conjectures.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "19:15",
+      "attribution": "Noam Brown, OpenAI",
+      "summary": "OpenAI's Noam Brown tried to quiet the most extreme hype even as his team celebrated, noting how much has changed since o3 shipped just a year ago.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#noam-brown-tempers-hype"
+    },
+    {
+      "id": "ask-a-different-ai",
+      "headline": "The new default: ask a different AI how hard it was",
       "type": "insight",
       "segment": "main",
-      "timestamp": "09:00",
+      "timestamp": "17:30",
       "attribution": null,
-      "summary": "A token is a chunk of text \u2014 bigger than a character, usually smaller than a word \u2014 that the model reads and writes. In English the ratio is roughly three-quarters of a word per token, so a page of text is about 1,000 tokens. OpenAI's public tokenizer page lets you see how your own text gets chunked.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#what-a-token-is"
+      "summary": "Because almost no one can judge the results, commentators like Nabeel Qureshi simply asked Fable to rate the difficulty \u2014 its verdict was that any single problem could \"plausibly anchor a medal case.\" This, NLW notes, is the thing we'll increasingly do.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#ask-a-different-ai"
     },
     {
-      "id": "language-tax",
-      "headline": "The 'language tax' on non-English prompts",
+      "id": "capability-overhang-2",
+      "headline": "The capability overhang of existing models is only getting bigger.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "20:45",
+      "attribution": "Kevin Madura, summarizing Dan Shipper's experiment",
+      "summary": "Dan Shipper showed public GPT 5.6 could roughly recreate most Astra results when given the right conceptual hints, proposing a \"distance to frontier solving\" benchmark. Bindu Reddy went further, calling Astra \"a bit like PR\" \u2014 though others noted Astra's cost profile may still be a genuine step change.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#capability-overhang-2"
+    },
+    {
+      "id": "smarter-than-the-experts",
+      "headline": "LLMs are getting smarter than the experts themselves.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "22:30",
+      "attribution": "Data scientist Pavel",
+      "summary": "Data scientist Pavel, with 10,000+ hours studying math, said he couldn't understand the proofs without weeks of work \u2014 and neither could his PhD friends. \"I'm not sure we have enough bright human minds to verify everything that will come out of them.\"",
+      "link": "https://aidailybrief.ai/e/2026-08-03#smarter-than-the-experts"
+    },
+    {
+      "id": "narrow-superintelligence",
+      "headline": "Astra looks like narrow superintelligence",
       "type": "insight",
       "segment": "main",
-      "timestamp": "10:00",
+      "timestamp": "23:30",
       "attribution": null,
-      "summary": "Because billing is per token, languages like Hindi, Thai, and Greek can generate two to five times more tokens for the same content \u2014 so the same question costs much more in another language. Code has its own quirks, with indentation, brackets, and whitespace all becoming tokens.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#language-tax"
+      "summary": "Commentator I'm Just Newt framed it as far smarter than humans in one verifiable area \u2014 math \u2014 while limited elsewhere. Math comes first because answers can be checked quickly; next comes code, medicine, energy, and any field where better thinking creates better tools.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#narrow-superintelligence"
     },
     {
-      "id": "strawberry-is-a-tokenizer-issue",
-      "headline": "The strawberry test is a tokenizer feature, not a failure",
-      "type": "insight",
+      "id": "end-of-an-era-for-mathematicians",
+      "headline": "Something you thought about for months can be one-shotted out of the blue by an amateur.",
+      "type": "quote",
       "segment": "main",
-      "timestamp": "10:00",
-      "attribution": null,
-      "summary": "Models fail to count the R's in 'strawberry' because they never saw the individual letters \u2014 just 'straw' and 'berry' as tokens. Many of the 'AI is so dumb' memes are literally just tokenization artifacts.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#strawberry-is-a-tokenizer-issue"
+      "timestamp": "24:20",
+      "attribution": "Kujawski, on X",
+      "summary": "Kujawski argued this could demoralize academic mathematics, shifting the job from slow deep thinking to fast LLM iteration and verification \u2014 \"like a professional Go player becoming a pro CS:GO player.\" For science it's the best time ever; for the human job, something is ending.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#end-of-an-era-for-mathematicians"
     },
     {
-      "id": "what-everyday-work-costs",
-      "headline": "What everyday work actually costs in tokens",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "11:00",
-      "attribution": null,
-      "summary": "An email is ~500-700 tokens (about half a cent \u2014 nobody should ration those), a page is ~1,000, images run just over 1,000, and deep research can hit tens or hundreds of thousands. One learner accidentally sent a yes/no question to a deep-research tool that spawned ~100 sub-agents and cost over 4 million tokens.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#what-everyday-work-costs"
-    },
-    {
-      "id": "conversations-compound",
-      "headline": "Every conversation turn compounds",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "13:00",
-      "attribution": null,
-      "summary": "The model doesn't remember prior messages, so it re-sends the entire session each turn. By turn ten it may be reprocessing so much earlier context that total tokens grow far faster than the number of turns suggests \u2014 immortal sessions quietly balloon the bill.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#conversations-compound"
-    },
-    {
-      "id": "trajectory-toward-more-tokens",
-      "headline": "Higher-value use cases inherently consume more tokens",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "14:00",
-      "attribution": "Nathaniel Whittemore",
-      "summary": "NLW: the direction of travel is clear \u2014 more advanced, more useful work requires more intelligence and thus more tokens. Unaddressed token anxiety incentivizes people to stay swimming in daily emails instead of doing the deep research and agentic work leaders actually want.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#trajectory-toward-more-tokens"
-    },
-    {
-      "id": "agentic-5-30x",
-      "headline": "Agentic work runs 5-30x the tokens of a simple chat",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": null,
-      "summary": "Agents work autonomously in loops, and a typical task involves 10-20 model calls carrying instructions, history, tool definitions, and prior results. McKinsey estimates ~60% of an agentic task's cost is tied to checking, refining, and regenerating answers \u2014 the expensive part is getting from the answer to the accepted result.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#agentic-5-30x"
-    },
-    {
-      "id": "tokens-not-born-equal",
-      "headline": "Tokens aren't born equal across labs",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "16:00",
-      "attribution": null,
-      "summary": "Every lab has its own tokenizer \u2014 OpenAI's vocabulary is ~200k, Gemini's ~256k, Llama's about half, Claude's unpublished. Since price per million is denominated in each lab's own tokens, the same document can cost 10-20% more on one provider than another, making the sticker price meaningless for comparison.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#tokens-not-born-equal"
-    },
-    {
-      "id": "opus-shrinkflation",
-      "headline": "Opus 4.7's 'shrinkflation': same price, 30% more tokens",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": null,
-      "summary": "When Opus 4.7 shipped in April, the per-million price sheet was identical but a new tokenizer produced ~30% more tokens for the same text. Independent analysis of over a million requests found native token counts up 32-45%, with real-world bills up 12-27% after caching. Same sticker, smaller candy bar.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#opus-shrinkflation"
-    },
-    {
-      "id": "three-token-layers",
-      "headline": "Every request has three token layers, priced very differently",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "18:00",
-      "attribution": null,
-      "summary": "Input tokens (prompt, history, files, tool definitions) are cheapest but accumulate fast; reasoning tokens are the model's invisible internal thinking, billed at the high output rate and adding 4-20x; output tokens are what you see, typically 3-5x pricier than input. The reasoning layer \u2014 like 'kitchen time' on a restaurant bill \u2014 catches everyone by surprise.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#three-token-layers"
-    },
-    {
-      "id": "reasoning-effort-dial",
-      "headline": "More reasoning effort doesn't always mean better answers",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "19:00",
-      "attribution": null,
-      "summary": "High reasoning effort can drive 10-12x more tokens, but for simple questions lower reasoning often produces a lower cost per task and better quality by preventing the model from overthinking. The GPT-5-class gap is widening too \u2014 $10 per million input vs. $50 output.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#reasoning-effort-dial"
-    },
-    {
-      "id": "databricks-cheaper-model-costs-more",
-      "headline": "The cheaper model can be more expensive to operate",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "Databricks tested coding agents on its own code base: Sonnet 5 was 1.7x cheaper per token than Opus 4.8, but cost ~$2.09 per task versus $1.94 for Opus because it needed more iterations. The lesson: reach for the right model, not the cheapest. Different agent harnesses at the same quality also showed a 2x+ difference in cost per task.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#databricks-cheaper-model-costs-more"
-    },
-    {
-      "id": "cost-per-accepted-task",
-      "headline": "Cost per accepted task is the only metric that compares",
-      "type": "insight",
+      "id": "verifiability-automates-hardest-work",
+      "headline": "Some of the hardest work in the world is prone to automation first \u2014 because it's verifiable.",
+      "type": "quote",
       "segment": "main",
       "timestamp": "26:00",
-      "attribution": null,
-      "summary": "Include retries, review, and every correction, then divide by accepted results \u2014 that's your cost per accepted task. The practical audit: run 5-10 representative tasks through your model and tool options, hold input and quality constant, and compare first-pass success, human correction, elapsed time, and total cost.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#cost-per-accepted-task"
+      "attribution": "Aaron Levie, Box",
+      "summary": "Aaron Levie of Box argued math, cyber, and code get automated first precisely because results can be objectively tested, giving clear reward signals. Domains like legal, marketing, sales, and finance lack instant verifiability \u2014 meaning much of the value will be built at the applied AI layer, and the processes themselves will have to change.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#verifiability-automates-hardest-work"
     },
     {
-      "id": "three-kinds-of-tokens",
-      "headline": "Three kinds of tokens: teach, produce, spin",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "27:00",
-      "attribution": null,
-      "summary": "Tokens that teach (experiments, failed workflows, identity files, memory) are tuition and should be defended fearlessly. Tokens that produce ship real work. Tokens that spin \u2014 machines talking to themselves, idle agents, bloated context, wrong-model use \u2014 are activity without output. The token-smart move: kill the spin, tune production, protect teaching, in that order.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#three-kinds-of-tokens"
-    },
-    {
-      "id": "nufar-1500-spin-story",
-      "headline": "Nufar's $1,500 machine talking to itself",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "30:00",
-      "attribution": null,
-      "summary": "Her disabled 'Chloe' chief-of-staff agent ran on the Anthropic API with bills going to a secondary inbox. Traveling and not using it, she still got charged \u2014 $1,500 in two weeks, ~400 million tokens in and near-zero out (a ~2,600:1 ratio) from cron jobs compacting empty sessions every 30 minutes. If it happened to an AI expert, it can happen to anyone whose company owns the card.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#nufar-1500-spin-story"
-    },
-    {
-      "id": "spin-isnt-only-errors",
-      "headline": "Spin isn't only mistakes \u2014 it's things that quietly stopped being worth it",
+      "id": "overhang-is-market-opportunity",
+      "headline": "The capability overhang is the market opportunity",
       "type": "take",
       "segment": "main",
-      "timestamp": "32:00",
-      "attribution": "Nathaniel Whittemore",
-      "summary": "NLW ran an OpenClaw agent perpetually researching new AI adoption data sources; it did exactly what it was told but simply wasn't valuable enough for the cost. Auditing spin means catching processes that accidentally became spin \u2014 like hourly Slack miners or a morning brief nobody reads \u2014 not just outright errors.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#spin-isnt-only-errors"
-    },
-    {
-      "id": "silent-token-spenders",
-      "headline": "The usual suspects for silent token spend",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "35:00",
+      "timestamp": "27:30",
       "attribution": null,
-      "summary": "Watch idle or over-frequent agents, unused automations, the 'pre-prompt tax' of always-on rules and tool definitions, immortal conversations, unfiltered data retrieval (500 rows when you needed 20), scattered context, and rework loops. Diagnostics include the weekend test, extreme input-to-output ratios, and spend rising while value stays flat.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#silent-token-spenders"
-    },
-    {
-      "id": "six-token-habits",
-      "headline": "Six habits anyone can adopt to mind their tokens",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "39:00",
-      "attribution": null,
-      "summary": "New task means new session; be intentional about model choice; rightsize context (Goldilocks, not too much or little); build reusable skills and automations instead of ad hoc re-asking; filter everything you can; and kill jobs early when the model's reasoning shows it's off, rather than letting it spin.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#six-token-habits"
-    },
-    {
-      "id": "doctor-command",
-      "headline": "Use /doctor to audit your own setup",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "41:00",
-      "attribution": null,
-      "summary": "Anthropic's Claude Code /doctor command audits token distribution, stale skills, redundant tool configs, and overly long or overlapping instructions, returning concrete kill/reduce recommendations. Non-Claude users can have their AI recreate the same audit \u2014 it isn't complex.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#doctor-command"
-    },
-    {
-      "id": "routing-still-early",
-      "headline": "Model routing is still very early \u2014 and preferences still matter",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "43:00",
-      "attribution": "Nathaniel Whittemore",
-      "summary": "NLW expects routing norms to be solved first for deterministic software engineering and to stay far messier for knowledge work, where preference is about the nature of a response, not benchmark scores. The GPT-5 auto-router frustrated super users \u2014 proof people want control \u2014 so understanding model capabilities remains a high-leverage skill.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#routing-still-early"
-    },
-    {
-      "id": "protect-tokens-that-teach",
-      "headline": "Defend the learning budget, don't just cut the bill",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "45:00",
-      "attribution": null,
-      "summary": "The point isn't only driving the bill down but improving return \u2014 and that often means spending more on tokens that teach: running the same task three ways, experimenting with tools and skills, and building context so the model gives personalized, organization-aware results. A 20k-developer study found the heaviest AI users were roughly twice as productive.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#protect-tokens-that-teach"
-    },
-    {
-      "id": "org-recommendations",
-      "headline": "For orgs: make usage visible, then tier the budget",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "47:00",
-      "attribution": null,
-      "summary": "Make consumption visible and teach people to spend smartly, not sparingly. Budget by workload and individual \u2014 someone building reusable skills for the whole team deserves far more than someone using AI as an extended Google \u2014 and audit on a schedule for stale automations and instructions.",
-      "link": "https://aidailybrief.ai/e/2026-08-02#org-recommendations"
+      "summary": "NLW's synthesis: AI will keep solving problems fewer of us can understand, but harnessing that power will require completely redesigning the systems around it. It's genuinely hard to conceive how much work lies in adapting our systems \u2014 and that's where much of the near-future effort will go.",
+      "link": "https://aidailybrief.ai/e/2026-08-03#overhang-is-market-opportunity"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-02.mp3",
-  "generated": "2026-08-03T19:09:17Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-03.mp3",
+  "generated": "2026-08-04T06:15:32Z"
 }
