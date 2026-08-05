@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "\"AI wishing\" has an NHS accent, and it sounds like a pilot",
+      "body": "Julie Averill's phrase for waving AI at a hard problem and skipping the work of solving it will be familiar to anyone who has sat through a transformation meeting. In general practice it usually arrives as a pilot: a tool is procured, a few enthusiasts use it, a slide says the backlog will fall, and nobody redesigns the appointment book, the admin workflow or the roles around it. Her sharper point is the one to carry into any ICB conversation — this kind of work does not happen in a quarter, and believing that it can is the trap. NHS planning runs on quarters and annual returns, so the incentive to declare success early is stronger here than in most industries, not weaker."
+    },
+    {
+      "title": "The layoff-and-rehire cycle is the warning worth borrowing",
+      "body": "The figure in this edition that should travel is the survey finding that around a third of hiring managers who cut a role citing AI had already rehired for the same or a similar post. Primary care is not going to make redundancies over a scribe, but the same logic reaches us as vacancy control and skill-mix: leaving a post unfilled because a system is coming, or thinning reception and coding staff on the assumption that automation will absorb the work. Real efficiency shows up first as measurable time released — minutes per consultation, letters turned round, coding queries cleared — and only afterwards, if at all, in headcount. Reversing an establishment decision costs far more than making it, and the people asked to stay pay for it in goodwill."
+    },
+    {
+      "title": "If Zitron is right the price rises; if NLW is right the choice widens — either way, ask about exit",
+      "body": "Zitron's case is that demand outside the labs is thin and today's prices are a subsidy that must eventually be withdrawn. NLW's is that the market is broadening — a two-point-four-trillion-parameter open-weights model priced at a fifth of the frontier is now something enterprise IT actually notices. A practice cannot arbitrate that, but both readings point the same way for procurement. Do not sign anything whose value depends on current per-seat pricing holding, and treat conspicuously cheap AI as a commercial risk to record rather than a bargain. The questions stay dull: what is the notice period, where does the data sit, and can we export the record in a usable form. Note also the DNA-database item — 1995-vintage software running critical evidence with no tamper detection is not a distant problem when you consider how much NHS clinical software is of similar vintage."
+    }
+  ]
+}

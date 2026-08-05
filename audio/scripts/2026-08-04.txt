@@ -1,0 +1,19 @@
+David's AI brief for Tuesday, the fourth of August.
+
+The one idea today is that artificial intelligence washing — the practice of announcing it, badging it, and never actually doing it — is running out of road, because the people buying are finally asking better questions.
+
+The evidence is a change in the conversation. A year ago, at a large accountancy firm's symposium, the talk among big organisations was whether they had one, two or three uses for artificial intelligence. This year it was governance for coding tools, how to provision cost across models and departments, and whether to have a policy on open-weight models at all. That is a different quality of question altogether.
+
+Which is why a release from Alibaba this week matters beyond the enthusiasts. Their new Qwen model has two point four trillion parameters, is the first of its largest class to be released with open weights, and is priced at six dollars per million output tokens against twenty-five for the frontier — about a fifth. Independent testing so far says solid, not spectacular. But open weights change who pays attention, and it is now mainstream corporate technology departments, not just developers.
+
+Alongside that, a former chief information officer of Lululemon wrote a piece coining a useful phrase: artificial intelligence wishing. The belief that you can wave the technology at a hard problem and skip the work of solving it. Her sharpest line is that this kind of work does not happen in a quarter, and believing that it can is the trap. Her damning example is the layoff that is really a cash grab in an efficiency costume — in May, American employers announced ninety-seven thousand job cuts and blamed forty per cent of them on artificial intelligence, while a separate survey found a third of managers who cut a role for it had already rehired for the same one.
+
+Now, the other side. Ed Zitron published the same day, arguing that the demand everyone is celebrating is largely manufactured. On analyst estimates he cites, something like three-quarters of Amazon's artificial intelligence revenue is simply OpenAI and Anthropic buying compute — with money the hyperscalers themselves supplied. Microsoft's Copilot, he notes, earns under four billion dollars across some thirty million paid seats. His verdict is that the demand for this software is not there. What is striking is that both men now say the cost-cutting story is a fiction. They disagree only about whether anything real sits underneath it.
+
+So, thoughts for general practice. Wishing has an NHS accent, and it sounds like a pilot: a tool procured, a slide promising the backlog will fall, and nobody redesigning the appointment book or the roles around it. The quarterly habit is stronger here, not weaker.
+
+Second, borrow the layoff warning. We will not make redundancies over a scribe, but the same logic reaches us as vacancy control — leaving a post unfilled because a system is coming. Real efficiency shows first as minutes released, not as headcount.
+
+And third, whichever man is right, the procurement questions are the same. What is the notice period, where does the data sit, and can we get our records out.
+
+That's the brief — source, The AI Daily Brief.

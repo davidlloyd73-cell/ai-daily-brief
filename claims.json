@@ -756,6 +756,24 @@
       "resolution": "Vindicated if, by the check date, published compute or frontier-model list prices for comparable reasoning workloads have risen rather than fallen, or a leading lab discloses negative inference gross margins while renegotiating or defaulting on compute commitments. Fails if the effective price of a comparable frontier reasoning task has fallen materially and a leading lab publishes positive, audited inference gross margins.",
       "check_by": "2027-08-03",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-04",
+      "side": "NLW",
+      "claim": "That the era of AI washing is ending because enterprise buyers have become too sophisticated to fool — evidenced by the shift from counting first use cases to debating open-weights policies, model routing and cost provisioning — so that PR-driven, cost-cut-framed AI announcements will stop delivering board and market rewards, and organisations treating AI purely as an efficiency play will be outperformed by those redesigning processes and roles around it.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-04",
+      "resolution": "Vindicated if, by the check date, the share of large-employer job-cut announcements attributing cuts to AI has fallen materially from the 40% of May 2026's 97,000 US cuts, AI-attributed layoff announcements no longer produce positive share-price reactions on average, and enterprise adoption surveys show open-weights policies and model-routing governance as mainstream practice. Fails if AI-attributed cost-cutting announcements continue at or above current rates and continue to be rewarded by markets.",
+      "check_by": "2027-08-04",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-04",
+      "side": "Zitron",
+      "claim": "That genuine AI demand outside the frontier labs barely exists — that roughly 55-73% of the big three hyperscalers' AI revenues are OpenAI's and Anthropic's own compute spend (funded substantially by those same hyperscalers), and that embedded AI software has no real pull, evidenced by Microsoft 365 Copilot generating only about $3.9bn in FY2026 across roughly 30 million paid seats.",
+      "source_url": "https://www.wheresyoured.at/the-ai-demand-bubble/",
+      "resolution": "Vindicated if, by the check date, a hyperscaler discloses AI revenue net of OpenAI/Anthropic compute spend and that figure is in the low tens of billions or below against reported capex, or if AI-segment growth at Amazon, Microsoft or Google decelerates sharply following any reduction in lab compute commitments. Fails if a hyperscaler breaks out AI revenue showing lab customers below roughly one third of the total, or if Copilot-class embedded AI revenue per paid seat rises materially toward list price.",
+      "check_by": "2027-08-04",
+      "status": "open"
     }
   ]
 }
