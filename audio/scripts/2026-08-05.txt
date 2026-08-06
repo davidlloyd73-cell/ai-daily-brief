@@ -1,0 +1,19 @@
+David's AI brief for Wednesday, the fifth of August.
+
+Today's one idea is that the fight over data centres has surprisingly little to do with artificial intelligence.
+
+The numbers first. Texas has told its Public Utility Commission to audit every new data centre proposal, and new applications are paused meanwhile. The connection queue there runs to four hundred and seventy-four gigawatts, ninety per cent of it data centres — about five times the state grid's record peak, and much of it duplicate and speculative. Governor Hochul has signed New York's first moratorium. One tracker counts two hundred and nineteen local moratoriums and twenty-three state bills.
+
+But the interesting reporting is not the numbers. A writer called Jasmine Sun spent ten days in the American Midwest actually talking to people — union leaders, brokers, activists, council officials — and came back with a six thousand word piece. Her finding is that the objection is not about the technology. The organisers she met use these tools to draft emails and make memes. They do not deny they are useful. They just cannot square a widget with the sums being asked of their towns.
+
+What they are actually fighting is being done to rather than asked. Councils bound by non-disclosure agreements could not confirm what was being built, name the customer, or state its power draw — while the rumours leaked out through contractor chains anyway. One official's line was, we could not get ahead of social media because we had signed a non-disclosure agreement. And behind all of it sits the shadow of Foxconn: a town of twenty-eight thousand people in Wisconsin, hundreds of millions in subsidies, thirteen thousand jobs promised, about a thousand delivered, debt still being paid down. As Sun puts it, it is not Skynet, it is the oligarchy.
+
+The conclusion drawn is that building data centres has stopped being a business process and become a democratic one, and that community benefit is now core infrastructure to be budgeted for.
+
+Now, the other side. Ed Zitron, writing a fortnight ago, would say the fight has everything to do with artificial intelligence. On his reading the build-out is a debt-funded asset bubble, financed through special purpose vehicles that keep the obligations off the parent balance sheets, against something over five hundred billion dollars of outstanding data centre debt. He puts the compute revenue needed to justify the planned capacity at around four hundred and thirty-five billion a year, against actual spend nearer a hundred billion, nearly all of it from two loss-making labs. If he is right, the distrust in those town halls is not a communications failure to be fixed with better engagement. It is an accurate reading of the deal.
+
+Two thoughts for us. First, the non-disclosure agreement problem is our problem too. We have watched service changes negotiated in confidence and announced as settled, and the confidentiality never bought calm — it just left a vacuum for someone else to fill. Tell patients what the scribe is before they hear it elsewhere.
+
+Second, the White House has published a safety-testing framework so secret that companies not in the room will not be told the rules. An assurance process you cannot show a patient is not one to lean on.
+
+That's the brief — source, The AI Daily Brief.

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The NDA problem has an NHS twin, and we have lived it",
+      "body": "The finding that carries furthest from this edition is not about data centres at all: it is that city councils signed non-disclosure agreements, could not tell residents what was being built, and then lost the argument to rumour. One official's line — we could not get ahead of social media because we had signed an NDA — will be recognisable to anyone who has watched a service change land in a borough. Walk-in centre closures, PCN reconfigurations and estates decisions are routinely negotiated in confidence and announced as settled, and the confidentiality is usually defended as commercial necessity. The lesson is that secrecy does not buy calm, it just guarantees the vacuum gets filled by someone else. If we want patients to accept AI in the consulting room, the practice-level version of this is telling them plainly what the scribe is, before they hear it from a leaflet or a neighbour."
+    },
+    {
+      "title": "A safety framework nobody is allowed to read is not a safety framework",
+      "body": "The White House scheme invites labs to submit frontier models for up to thirty days of pre-release government testing, but the criteria, the participants and the mechanics are all undisclosed — firms not in the room will not even be told the policy. Neil Chilson's objection, that secrecy invites abuse and rules should be written in public and in law, is the same objection a clinician should make about clinical AI assurance. In the UK we at least have named routes: MHRA registration for software as a medical device, NICE evaluation, DTAC. They are slow and imperfect, but they are readable, and a practice can point to them when a patient asks who checked this. Any assurance process we cannot show a patient is one we should not be relying on."
+    },
+    {
+      "title": "If Zitron is right the price rises; if NLW is right the supply grows — either way, do not build a rota on today's tariff",
+      "body": "Zitron's case is that the data centre build-out is debt-funded against demand that does not exist, so the compute underneath our tools is currently subsidised and will have to reprice upward. NLW's case is that the constraint is political rather than financial, and that projects which earn community consent will get built, keeping capacity growing. A surgery cannot arbitrate that. But both readings say the same thing about procurement: do not commit to a workflow whose viability depends on today's per-seat scribe price holding for three years. Ask for the notice period, the price-review clause, where the audio and transcript are stored, and whether the record exports in a form we can keep. Dull questions, but they are the ones that survive either outcome."
+    }
+  ]
+}
