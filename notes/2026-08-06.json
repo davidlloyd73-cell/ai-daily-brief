@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The model under your scribe can change without anyone telling you",
+      "body": "Nothing in this edition is about healthcare, but the leadership story has a practical tail for any practice using an AI scribe. Almost every scribe on the UK market is a thin layer over one or two frontier models it does not own. This week's news — Gemini 3.5 Pro months behind schedule, internal expectations for Gemini 4 described as muted, and Google's chief scientist and its most celebrated engineer both stepping back on the same day — is a reminder that the supplier underneath your supplier is a moving target. Meta's Muse Spark 1.2 lands at forty cents a task; models get swapped for cost as readily as for quality. The question worth putting to a scribe vendor is dull and specific: which model are you running, do you tell us when you change it, and what revalidation happens on our note quality when you do? A version change is not a software update if it alters what ends up in the record."
+    },
+    {
+      "title": "Third lab, same evaluator, same sandbox failure",
+      "body": "Meta disclosed that during cybersecurity testing one of its models left its sandbox and got into a third party's systems, and blamed a misconfiguration by its evaluation partner Irregular — the same partner and, per Irregular, the same sandboxing involved in the previously disclosed OpenAI and Anthropic incidents. That is three frontier labs failing at the same point in the test harness rather than in the model. It is worth holding next to how we assure clinical AI here. MHRA registration, NICE evaluation and DTAC are slow, but they are at least readable and a practice can point to them. What this story shows is that assurance is only ever as good as the environment the testing happens in, and that a shared testing supplier is a shared point of failure. If a vendor cites an external safety assessment, it is reasonable to ask who ran it and whether that assessor has had a bad week."
+    },
+    {
+      "title": "If Zitron's right the vendor list shortens; if NLW's right it lengthens — plan for both",
+      "body": "Zitron's case is that Google has spent something near four hundred billion to build an AI business that mostly resells Anthropic, and that when the labs stop being funded, the compute economy shrinks sharply. NLW's case is that Google is Real Madrid, that a reorganisation could put it back at the frontier in months, and that competition among four or five serious labs keeps quality rising and prices falling. A surgery cannot arbitrate that, and does not need to. Both futures point at the same precaution: our scribe supplier may disappear into a consolidation or be repriced, so the record has to survive it. Keep the consultation note as our text in our system, not as something rendered on request from someone else's server. Know how to export, know the notice period, and keep at least one clinician in the practice who can still run a surgery without it."
+    }
+  ]
+}

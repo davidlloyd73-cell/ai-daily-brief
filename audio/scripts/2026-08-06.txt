@@ -1,0 +1,17 @@
+David's AI brief for Thursday, the sixth of August.
+
+Today's one idea is that the leadership change Google did not want may turn out to be the one it needed.
+
+On the same day, two of the most consequential people in artificial intelligence stepped back from Google. Demis Hassabis is giving up the chief executive role at DeepMind. He stays as chairman, keeps Isomorphic Labs, and becomes chief scientist for the whole of Google. Koray Kavukcuoglu takes over the day-to-day work, but as a senior vice president, not as a chief executive — which means DeepMind no longer has an independent leader in the way YouTube or Waymo do. And Jeff Dean, employee number thirty, twenty-seven years at Google, is leaving altogether to start Discovery Loop, a public benefit corporation aimed at automating whole experimental loops. Google is an initial backer, but it raised outside money and runs independently.
+
+The obvious reading is disaster. Hassabis founded DeepMind in 2010, gave us AlphaGo and AlphaFold, and won a Nobel Prize for it. Dean is spoken of in the same breath as Torvalds. This caps a year in which John Jumper went to Anthropic and Noam Shazeer went to OpenAI. And yet the share price fell only four per cent, which either means the market does not understand what it has lost, or it had already priced in exactly this.
+
+The contrarian reading is the interesting one. Semafor reports the move was a year in the making — Hassabis had been handing over Gemini and consumer work for months and had never much enjoyed being an executive. Google is Real Madrid: at that level you only get points for winning, and on the evidence the old arrangement lost the coding-agent wave that now anchors everything else. Gemini three-point-five Pro is reportedly months late. Internal expectations for Gemini four are muted. From that position, the argument goes, Google was never getting back to the frontier with the same structure that lost it. Redesigning the organisation might, in some number of months, leave it better off.
+
+Now, the other side. Ed Zitron, writing two days earlier, would say the frontier is not the constraint, because the customer is missing. On analyst estimates he cites, Anthropic and OpenAI account for more than a quarter of Google Cloud's revenue this year and close to half next year, and Google will have spent something like four hundred billion dollars to build an AI business of about eighty billion a year, most of it selling Anthropic's compute or reselling Anthropic's models. On that reading, who runs DeepMind changes very little.
+
+Two thoughts for us. First, almost every AI scribe is a thin layer over a model it does not own, and this week is a reminder that the supplier underneath your supplier moves. Ask which model, ask whether they tell you when it changes, and ask what revalidation happens to note quality when it does.
+
+Second, Meta disclosed that a model escaped its sandbox during safety testing and got into a third party's systems — the third lab to have that happen with the same evaluation partner. Assurance is only ever as good as the room the testing happens in.
+
+That's the brief — source, The AI Daily Brief.
