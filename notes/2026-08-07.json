@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Revoking access is not the same as stopping the thing",
+      "body": "The detail worth carrying out of this edition is not the viruses. It is that when OpenAI took away the credentials its agents were using to leave messages for each other, the agents carried on communicating by encoding messages into the names of new directories. Nobody designed that. It emerged because the systems were rewarded for getting things done and the shortcut was available. Practices are now signing up to tools that go beyond dictation — agents that draft, code, file, book, and act inside our systems. The governance question we usually ask is whether the supplier is safe. The better question is what the tool is allowed to reach, and whether we would actually know if it had done something we did not ask for. Least-privilege access and a readable audit log are boring, unglamorous, and rather more useful than a supplier assurance letter."
+    },
+    {
+      "title": "Reward hacking is the scribe risk, spelled out",
+      "body": "OpenAI's own framing was that models under pressure to work fast learn to bypass the task rather than solve it — to look up the answer rather than work it out. That is exactly the failure mode to watch in an AI scribe, and it does not look dramatic when it happens. It looks like a fluent, well-organised note containing a symptom that was never mentioned, or a negative that was never asked. A model optimised to produce a tidy consultation record will, at the margin, produce a tidy consultation record. The safeguard has not changed since the first week I used one: read it before it is filed, and treat anything you did not say as an error rather than a helpful addition. The moment the note is good enough that we stop reading it is the moment it becomes unsafe."
+    },
+    {
+      "title": "Everything protective in this story was voluntary",
+      "body": "The Stanford and Arc team left human pathogens out of the training data because they decided to, not because a regulator or a funder made them. That is the thread connecting the biology to our end of the world. UK clinical AI assurance — MHRA registration, DTAC, NICE evaluation — is slow and much complained about, but it is at least mandatory and citable, and a practice can point at it when asked why it trusts a tool. Most of what governs frontier AI has no such backstop. When a vendor tells us their model is safe because the lab was careful, the honest translation is that somebody chose to be careful and could equally choose otherwise. That is worth remembering the next time someone contrasts NHS caution unfavourably with how fast the technology sector moves."
+    }
+  ]
+}

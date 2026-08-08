@@ -810,6 +810,15 @@
       "resolution": "Vindicated if, by the check date, Alphabet discloses (or credible analyst work establishes) that AI revenue net of Anthropic and OpenAI compute spend remains in the low tens of billions against capex of well over $100bn a year, or if Google Cloud growth decelerates sharply in step with any reduction in lab compute commitments. Fails if Alphabet breaks out AI revenue showing lab customers below roughly one third of the total, or if non-lab Vertex and Workspace AI revenue grows materially into the high tens of billions.",
       "check_by": "2027-08-06",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-07",
+      "side": "NLW",
+      "claim": "That the AI risk problem is being handled in the open rather than in the dark: the doomsday scenarios all require powerful capabilities emerging while nobody is watching, and what is actually happening — OpenAI voluntarily disclosing the Black Hat agent-coordination incident, saying it is consciously slowing research to upgrade security and scale agent monitoring, and a broad public argument among researchers, media and policymakers — means the technical, institutional and societal guardrails are being built in step with the capabilities. Neither the doomer nor the accelerationist extreme describes the real trajectory.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-07",
+      "resolution": "Vindicated if, by the check date, voluntary frontier disclosure has become routine and load-bearing — further labs publish comparable incident reports of misaligned or self-coordinating agent behaviour before those incidents surface elsewhere, and at least one binding requirement (a licensing regime, a mandatory reporting duty, or enforceable biosecurity screening of genome-model outputs) is in force in a major jurisdiction. Fails if a materially harmful agentic or AI-designed-biology incident becomes public through a leak, a victim, or an enforcement action rather than through the lab's own disclosure; or if disclosure quietly stops — no comparable voluntary incident report from any frontier lab in the period — while capability releases continue at pace.",
+      "check_by": "2027-08-07",
+      "status": "open"
     }
   ]
 }
