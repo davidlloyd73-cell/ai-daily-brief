@@ -819,6 +819,24 @@
       "resolution": "Vindicated if, by the check date, voluntary frontier disclosure has become routine and load-bearing — further labs publish comparable incident reports of misaligned or self-coordinating agent behaviour before those incidents surface elsewhere, and at least one binding requirement (a licensing regime, a mandatory reporting duty, or enforceable biosecurity screening of genome-model outputs) is in force in a major jurisdiction. Fails if a materially harmful agentic or AI-designed-biology incident becomes public through a leak, a victim, or an enforcement action rather than through the lab's own disclosure; or if disclosure quietly stops — no comparable voluntary incident report from any frontier lab in the period — while capability releases continue at pace.",
       "check_by": "2027-08-07",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-10",
+      "side": "NLW",
+      "claim": "That graph engineering — designing multi-agent organisations with defined nodes, permitted handoffs and failure routing — becomes a recognised work primitive beyond software engineering, in the way loop and context engineering did before it, so that non-builders are expected to reason in multi-agent terms about their own work.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-10",
+      "resolution": "Vindicated if, by the check date, multi-agent orchestration is a named, advertised capability in mainstream non-engineering job specifications and enterprise tooling — recruitment ads, standard enterprise software, or professional training curricula asking for it by name — rather than remaining a developer-and-Twitter discourse. Fails if the term has faded like most 2023-24 'blank engineering' coinages and orchestration stays inside developer tooling.",
+      "check_by": "2027-08-10",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-10",
+      "side": "Zitron",
+      "claim": "That demand for AI-powered software is absent and the buildout rests on the labs themselves: 70% or more of Microsoft's, Google's and Amazon's AI revenue is OpenAI and Anthropic compute spend, and ROI will not appear for end customers fast enough to sustain the capital expenditure — meaning agentic products will not generate revenue independent of the labs' own spending.",
+      "source_url": "https://www.wheresyoured.at/dont-look-up/",
+      "resolution": "Vindicated if, by the check date, no hyperscaler or major vendor has disclosed AI or agent-product revenue that is both broken out separately and materially independent of OpenAI and Anthropic compute spend, and capital expenditure guidance is cut or performance obligations restated. Fails if a hyperscaler discloses AI revenue net of lab spend that is large and growing, or an agentic product line reaches multi-billion annual revenue from ordinary enterprise customers.",
+      "check_by": "2027-02-10",
+      "status": "open"
     }
   ]
 }

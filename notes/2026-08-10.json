@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "A practice already runs on a graph — it is just made of people",
+      "body": "Strip the jargon and graph engineering is the thing general practice has done for decades: reception triages, a nurse takes the bloods, a GP decides, a pharmacist reconciles the meds, a coder codes it, and every step has a rule about what happens when it fails. The genuinely useful idea in this edition is not the technology but the discipline of writing that down — who owns what, what information travels with the handover, and what happens when a node drops the work. If NLW is right and multi-agent systems arrive in primary care, the practices that cope will be the ones that already know their own handovers; if Zitron is right and none of it lands commercially, mapping the handovers is still the cheapest quality improvement available and costs nothing but an afternoon."
+    },
+    {
+      "title": "Anthropic's 89% versus 13.6% is a finding about humans, not about AI",
+      "body": "The number worth carrying out of this edition is that human reviewers caught 13.6% of harmful code changes because they were waving through 97% of everything put in front of them. That is not a software finding — it is the same rubber-stamp behaviour that turns a medicines reconciliation into a click, or an AI scribe note into a signature. Anthropic's conclusion is that the machine should decide when to interrupt, since a prompt that always fires stops being read. The equivalent question for a practice using a scribe or an inbox triage tool is whether our safety netting is a genuine check or a habit. If we are approving everything, the approval is not doing the work we think it is, and we should either reduce how often it asks or accept that we are not really reviewing."
+    },
+    {
+      "title": "The bit with no NHS relevance, and why it still matters",
+      "body": "Most of this edition — ByteDance's ten-trillion-parameter training run, Oracle's Malaysian GPUs, open-weight licensing tolls — has no bearing on a Harrow surgery this year, and it would be forcing it to pretend otherwise. The one indirect line is price. If Zitron is right that the compute buildout rests on two loss-making labs, the cheap or free AI tools practices are trialling now are being sold below cost, and repricing is a foreseeable risk when procuring anything on a multi-year basis. Worth a clause in the contract rather than a worry."
+    }
+  ]
+}

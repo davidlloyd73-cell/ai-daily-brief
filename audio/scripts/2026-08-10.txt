@@ -1,0 +1,15 @@
+David's AI brief for Monday, the tenth of August.
+
+Today's one idea is that the interesting work has moved from talking to a single agent to designing a whole organisation of them.
+
+Nathaniel Whittemore lays it out as a ladder. Prompt engineering controlled the instructions. Context engineering controlled what the model could see. The harness — the tools, the permissions, the environment around the model — became part of the agent itself. Then came loops: the system by which an agent observes, plans, acts, checks its own result, and repeats until it reaches a measurable stop condition. The newest rung is what people have started calling graph engineering, and it controls the organisation. A graph specifies which agents exist, what each one owns, which handovers are permitted, what information travels between them, and what happens when one of them fails — whether the work is retried, sent to a fallback, or escalated upstream. His line is the one worth keeping: a loop is how one agent does its job, a graph is how an entire agentic organisation works.
+
+He is careful to say you do not need to build one tomorrow. The value, he argues, is in learning to think in these terms — seeing distinct jobs with distinct owners, and designing the relationships between them. He calls that a new work primitive.
+
+Now, the other side. Ed Zitron's newest piece treats this whole ladder of new disciplines as vocabulary rather than demand. His argument is that bank analysts now put seventy per cent or more of Microsoft's, Google's and Amazon's artificial intelligence revenue at OpenAI and Anthropic's own compute spending — so the buildout rests on two loss-making laboratories rather than on anyone actually getting paid work done. He also thinks the productivity claims are socially coerced: that saying the technology has not transformed your job now carries professional consequences. Both men are polemicists with incentives. What is telling is that they agree on one thing — that prompt-level skill is largely exhausted.
+
+Two thoughts for our end of the world. The first is that a practice already runs on a graph; it is just made of people. Reception triages, a nurse takes the bloods, a doctor decides, a pharmacist reconciles the medicines, and every step has an unwritten rule about what happens when it fails. The discipline worth borrowing is simply writing that down. Whether or not any of this technology arrives, mapping our own handovers costs an afternoon and is the cheapest quality improvement available.
+
+The second is a number. In Anthropic's study of a thousand testers, its automatic mode caught eighty-nine per cent of harmful actions while human reviewers caught thirteen point six — because those reviewers were approving ninety-seven per cent of everything put in front of them. That is not a finding about software. It is the rubber stamp we all recognise: the medicines reconciliation that becomes a click, the scribe note that becomes a signature. If we are approving everything, the approval is no longer doing the work we think it is.
+
+That's the brief — source, The AI Daily Brief.
