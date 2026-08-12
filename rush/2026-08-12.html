@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-08-12</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Wednesday 12 August 2026 · ~5 min read · Issue 103</strong></p>
+<hr>
+<p><strong>On the line today:</strong> the single statistic holding up the national AI triage rollout has been referred to the statistics watchdog, because nobody outside NHS England can see how it was calculated; a very large study of what doctors actually change in ambient scribe drafts finds we spend our time putting the uncertainty back in; twelve American health systems have stopped piloting alone and formed a diagnostic AI club with the vendor sitting inside it; OpenAI has shipped a model built to write working exploits; and the electricity AI drinks is now physically wrecking the buildings it&#x27;s drunk in. From the Eye: Interpol counts the machines in African cybercrime, the scribe turns out politer than the doctor, and America grows a patchwork of laws on AI therapists while we grow none.</p>
+<hr>
+<h2>1. The 29 per cent that nobody can check</h2>
+<p>When NHS England announced national AI triage through the NHS App, one figure did the heavy lifting: a Sussex pilot practice cutting the number of people queuing on the phone by 29 per cent. Carl Heneghan and Tom Jefferson went looking for it. The published preprint on that pilot reports concordance between the AI and GP decisions, clinician interviews and patient satisfaction — but no call volumes, no queue analysis, no 29 per cent. After weeks of chasing by the Sunday Express&#x27;s Lucy Johnston, NHS England confirmed the number came from an unpublished internal evaluation of GP telephony data comparing two five-month periods. The pair wrote again on 29 July asking whether there had been a pre-specified protocol. No reply. They have now referred it to the Office for Statistics Regulation.</p>
+<p><strong>The view from the surgery:</strong> a single-practice before-and-after with no published protocol and no stated denominator is the sort of thing we&#x27;d take apart in a journal club before the coffee got cold. It may well be true — that isn&#x27;t the point. It is being used to justify a rollout reaching every NHS App user by 2028, and nobody outside the building can see the working. If the evaluation is sound, publishing it costs nothing.</p>
+<hr>
+<h2>2. Doctors are putting the doubt back in</h2>
+<p>A paired analysis of 62,811 ambient AI draft note sections against the clinician-finalised versions finds we add hedging language considerably more often than we remove it. &quot;Possible&quot;, &quot;likely&quot;, &quot;appears&quot; get introduced into text the machine wrote flat and certain, and where clinicians swap one phrase for another the direction of travel is systematically towards greater uncertainty, not less. The effect varied widely between vendors and specialties.</p>
+<p><strong>Why it matters:</strong> the scribe writes like a confident F1 — everything asserted, nothing qualified. Clinical hedging isn&#x27;t padding; it&#x27;s the record of what you did and didn&#x27;t know at 9.40 on a Tuesday, and it&#x27;s what protects you two years later. We&#x27;re catching it, which is reassuring. It also means safety currently rests on tired clinicians reading every line, and raises an obvious question about the notes signed off by whoever isn&#x27;t.</p>
+<hr>
+<h2>3. Twelve health systems stop piloting alone</h2>
+<p>Yesterday twelve US health systems announced a Diagnostic AI Consortium with Aidoc: co-designed diagnostic workflows, shared measurement of safety, quality and speed to diagnosis across member sites, and common implementation and governance practice. Aidoc supplies the plumbing — its CARE foundation model and aiOS platform. First results promised in 2027.</p>
+<p><strong>The view:</strong> the instinct is right and overdue. Everyone has been evaluating the same tools separately, badly, and calling it a pilot. The flaw is that the vendor supplies the technology and sits inside the body assessing it, so the governance framework and the sales channel are the same object. Still, a joint evaluation across NW London providers would beat fifteen separate ones.</p>
+<hr>
+<h2>4. OpenAI ships a model built to break things</h2>
+<p>On Monday OpenAI released GPT-5.6-Cyber, built on GPT-5.6-Sol and trained to find zero-days and construct exploit chains, with a deliberately lowered refusal rate for dual-use requests. Its own testing reports 95% completion on prompts covering exploit chains, privilege escalation and authentication bypass, against 1.5% for the general model, and it answers up to 98.5% of security queries otherwise blocked. It has already turned up two unknown Chrome vulnerabilities. Access is limited to a &quot;Daybreak Red&quot; tier — the big consultancies and security vendors: Accenture, IBM, PwC, EY, KPMG, Capgemini, CrowdStrike, Palo Alto, Sophos, Fortinet, Akamai, Cloudflare.</p>
+<p><strong>Why it matters:</strong> the defensive case is real — better your side finds the hole first. But an offence-grade capability now exists as a product with a customer list, and the gap to an equivalent open-weights model is measured in months. Trusts are still running kit that fell over in 2017.</p>
+<hr>
+<h2>5. The power swings are eating the buildings</h2>
+<p>Training runs make hundreds of thousands of GPUs ramp up and down within milliseconds, and Bloomberg reported last week that the resulting swings — exceeding equipment design tolerances by up to 50% — are physically damaging data centre plant. Batteries, generators, transformers and cooling are failing far earlier than planned; cranks have snapped off gas engines, and turbines at xAI&#x27;s Colossus site in Memphis developed cracks. Lenders already nervous about hyperscaler spending now have a depreciation question as well as a demand one.</p>
+<p><strong>The view from the surgery:</strong> the least glamorous constraint on AI turns out to be metallurgy. Everyone modelled chips, power contracts and water; nobody modelled what a decade of millisecond load cycling does to a transformer. The physical layer under all this is younger and more fragile than the confidence attached to it.</p>
+<hr>
+<h3>From the Eye</h3>
+<p><strong>Item one</strong> — Interpol&#x27;s African Cyberthreat Assessment, drawing on 36 member countries, finds AI now enabling up to 55% of reported cybercrime on the continent, losses more than doubling since 2024 to $484m, and scam centres operating in 72% of countries surveyed; deepfakes and synthetic identities are routinely defeating biometric checks, which should give pause to anyone piloting face-based patient ID. <strong>Item two</strong> — the companion paper to today&#x27;s item two is the uncomfortable one: across 66,297 paired note sections, stigmatising language appeared in 21.4% of AI drafts and 24.0% of the clinician-finalised versions, doctors introducing such terms more often than removing them. The machine was the more courteous author, and the human in the loop was the one making the note worse. <strong>Item three</strong> — America is quietly assembling a patchwork on AI therapists: four states now bar AI from delivering therapy to the public, Illinois and Nevada joined by Rhode Island and Maine as of late July, while Utah mandates disclosure and New York, California and Nebraska impose crisis-referral and minor-protection duties; 36 states filed more than 70 chatbot bills in the first quarter alone. We have nothing equivalent, and your sixteen-year-old with low mood has all of them on her phone this morning.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · The Lancet · HSJ</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>
