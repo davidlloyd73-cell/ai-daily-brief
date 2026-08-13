@@ -837,6 +837,42 @@
       "resolution": "Vindicated if, by the check date, no hyperscaler or major vendor has disclosed AI or agent-product revenue that is both broken out separately and materially independent of OpenAI and Anthropic compute spend, and capital expenditure guidance is cut or performance obligations restated. Fails if a hyperscaler discloses AI revenue net of lab spend that is large and growing, or an agentic product line reaches multi-billion annual revenue from ordinary enterprise customers.",
       "check_by": "2027-02-10",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-11",
+      "side": "NLW",
+      "claim": "That the extreme poles of the AI debate are losing their grip and a 'sensible middle' is beginning to assert itself in mainstream, non-specialist opinion — evidenced, in NLW's reading, by the unusually wide and thoughtful coverage of Zuckerberg's manifesto and by ordinary commentary that holds both that AI should not replace artists and that reflexive anti-AI positioning has become performative.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-11",
+      "resolution": "Vindicated if, by the check date, repeated national polling in the US or UK shows the share holding mixed or conditional views on AI rising while the strongly-negative share falls or holds flat. Fails if headline public concern about AI keeps rising and the strongly-negative share grows — the direction polls have shown throughout 2026.",
+      "check_by": "2027-08-11",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-11",
+      "side": "Zitron",
+      "claim": "That the optimist framing is a capital-raising device rather than an argument, because the underlying demand is not there: roughly 190 gigawatts of planned data-centre capacity implies $1.62 trillion to $2.92 trillion of annual compute spending against an industry with, at best, about $110 billion of genuine annual demand, 90% or more of it from OpenAI and Anthropic.",
+      "source_url": "https://www.wheresyoured.at/dont-look-up/",
+      "resolution": "Vindicated if, by the check date, planned data-centre capacity is materially cut — announced projects cancelled, deferred or written down, or hyperscaler capex guidance reduced — or a major AI lab fails to close a funding round it needs. Fails if capacity plans hold or expand and paying AI demand from customers other than OpenAI and Anthropic is disclosed at a scale of tens of billions annually.",
+      "check_by": "2027-02-11",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-12",
+      "side": "NLW",
+      "claim": "That mass agent adoption was a packaging problem rather than a capability problem, and that GrokBot's chat-simple assembly of existing components is the launch that gets millions of ordinary, non-technical people using multi-agent systems for the first time.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-12",
+      "resolution": "Vindicated if, by the check date, GrokBot or a directly comparable agent product is available at a mainstream consumer price — under roughly $50 a month — and its vendor reports paying or active users in the millions, with usage extending beyond developers and AI-industry early adopters. Fails if the product stays gated behind premium tiers, or reported usage remains in the hundreds of thousands and concentrated among technical users.",
+      "check_by": "2027-08-12",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-12",
+      "side": "Zitron",
+      "claim": "That AI software does not sell at a price that reflects claimed value, and ease of use will not change that: Microsoft 365 Copilot is estimated at $3.859 billion of revenue for fiscal 2026 against some thirty million claimed paid seats — roughly $129 per seat per year — which he reads as evidence of deep discounting and demand driven by peer pressure rather than measured benefit.",
+      "source_url": "https://www.wheresyoured.at/the-ai-demand-bubble/",
+      "resolution": "Vindicated if, by the check date, no major vendor discloses per-seat AI or agent revenue materially above the roughly $129-a-year Copilot benchmark at comparable seat volumes, and agent products remain either premium-gated or heavily discounted. Fails if a vendor breaks out agent-product revenue showing both large seat counts and per-seat revenue several times that benchmark, independent of the labs' own compute spend.",
+      "check_by": "2027-02-12",
+      "status": "open"
     }
   ]
 }

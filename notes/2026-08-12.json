@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "A computer-use agent holds your actual login, not a scoped key",
+      "body": "The single line in this edition that should stop a practice manager is NLW's own hesitation: he signed an agent into his email happily, then baulked at connecting an account where mistakes would be costly. Computer-use agents work by driving a browser as you — full session, full permissions, no scoped API and no audit trail that distinguishes agent from clinician. Against a clinical system with an NHS smartcard identity, that is not a productivity tool, it is a shared login by another name, and it fails both information governance and any subsequent investigation of who did what. The rule to hold now, before anyone gets enthusiastic: agents may touch systems where an error is recoverable and attributable, and nothing else."
+    },
+    {
+      "title": "Watermarked text and the medico-legal record",
+      "body": "Anthropic has begun embedding invisible statistical watermarks in generated text across all its models and regions, designed to survive copy-paste and some editing. For scribe-assisted notes and any AI-drafted correspondence this is double-edged. It makes provenance demonstrable, which is helpful if a record is ever challenged. It also means that text pasted into a clinical record may carry a machine-detectable origin marker the author never knew about, and the open question — whether quoted material gets subtly reworded to carry the mark — matters when the quoted material is a coroner's wording or a consultant's letter. Read what comes out, as always; but this is a good reason to review rather than paste."
+    },
+    {
+      "title": "Why 'nothing to set up' is the whole adoption lesson",
+      "body": "Strip away the product hype and the claim is that people abandon agent tools not because they fail but because there is too much to configure before anything happens. That is precisely why the scribe took hold in practices where every other digital initiative stalled: it asked for nothing except pressing record. Any tool proposed to a busy surgery should be judged first on how much has to be decided before the first useful output. If it needs a training session, it will not survive a Monday."
+    }
+  ]
+}

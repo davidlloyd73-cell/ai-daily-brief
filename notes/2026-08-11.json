@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The trust question is the same one we answer at the start of every consultation",
+      "body": "This edition is an argument about who gets believed, and general practice already knows the shape of it. A patient who is easy about an AI scribe is usually not making a judgement about the technology; they are making a judgement about the doctor who asked. That is why the consent line matters more than the vendor's assurances: told plainly, in the room, with a genuine option to decline, and repeated for anyone who looks uncertain. If Zitron is right that the industry's optimism is a sales pitch, our own credibility is the only thing standing between a patient and the microphone. If NLW is right that a sensible middle is forming, it will be built in encounters like ours rather than in manifestos."
+    },
+    {
+      "title": "An open model that runs on your own hardware is the more interesting NHS story",
+      "body": "Buried under the manifesto is Muse Glimmer, a thirty-billion-parameter open-weights model small enough to run on local hardware. For a Harrow surgery the appeal is not benchmark scores but information governance: a model that never sends anything outside the building changes the data protection impact assessment entirely. This is not a next-week proposition — someone still has to own the hardware, the updates and the clinical safety case — but it is worth knowing that the local option exists when a supplier insists cloud processing is the only way."
+    },
+    {
+      "title": "The knitting point, and what it means for our end of the work",
+      "body": "The Verge's line that an agent cannot knit your scarf because the knitting is what soothes is the most useful sentence in this edition for clinicians. The tasks worth handing over are the ones where the doing carries no value — typing, coding, chasing letters. The tasks worth guarding are the ones where the doing is the point: the pause after a difficult answer, the phone call to a bereaved relative. Medical examiner work sits almost entirely in the second category, and it is worth being explicit about that boundary before anyone offers to automate it."
+    }
+  ]
+}
