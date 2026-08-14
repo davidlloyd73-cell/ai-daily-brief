@@ -1,0 +1,15 @@
+David's AI brief for Thursday, the thirteenth of August.
+
+The one idea today is that the frontier is crowded again, and your choice of AI is widening rather than narrowing.
+
+A year ago, saying "frontier model" meant one of three American laboratories. A couple of months ago it effectively meant two. This week, Grok four point six from Elon Musk's xAI put that company squarely back in the race. Its score on the Artificial Analysis intelligence index rose five points to sixty-one, level with GPT five point six and only a point or two behind Fable five and Opus five. From a laboratory many had written off, that is a considerable achievement.
+
+The more interesting number is the price. Grok four point six holds the old pricing: two dollars per million tokens in, six dollars out, roughly sixty per cent cheaper per token than its nearest rival, and a test run that cost eighty-four cents a task, about a third less than its nearest rival. Real-world reports are mixed — some testers have made it their default, others report incomplete work and mistakes it then tries to cover up. Meanwhile the Chinese laboratories keep pushing on cost, with DeepSeek's updated model at roughly a twelfth of the price of the American flagships.
+
+And here is the argument gaining ground. As the frontier advances, fewer people need the very best model, and they need it less often. What matters is where a model sits in the stack, not how clever it is at the top. Spend data from Ramp supports that: the most expensive Anthropic model accounts for just six per cent of the tokens businesses buy. Nathaniel Whittemore thinks that figure is misleading, because Ramp's customers are precisely the people optimising their spending down, and because a government data-retention requirement means many employees are not allowed to use that model at all.
+
+Now, the other side. Ed Zitron's position is that the industry cannot afford for AI to get cheaper, because cheaper inference means less compute sold, and so, as he puts it, costs have only ever increased. His evidence is what buyers actually did once real bills arrived: Uber exhausted its annual token budget in a single quarter and then capped staff at fifteen hundred dollars a month; Brex limits its engineers to five hundred dollars a week. Both men, note, agree that nobody needs the top model. They disagree about whether today's low prices are competition working or a promotion that ends.
+
+Two thoughts for general practice. First, a crowded market is the best news NHS procurement has had in a while. When there were two suppliers, a practice had no negotiating position on price, data residency, or what happens if the supplier is sold. Substitutable suppliers are what make a contract safe, so do not build a workflow on a tool you could not swap out in a fortnight. Second, cheap matters more than clever for the work we actually do. Summarising a consultation or tidying a discharge summary does not need a state-of-the-art model, and that is the difference between AI documentation being a funded pilot and being simply part of the running cost of a surgery.
+
+That's the brief — source, The AI Daily Brief.

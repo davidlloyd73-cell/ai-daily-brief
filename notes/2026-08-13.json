@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "A crowded frontier is the first good news for NHS procurement in a while",
+      "body": "Until now, anything AI-shaped that a practice or an ICB wanted came from one of two American suppliers, which is a poor position from which to negotiate anything — price, data residency, or continuity if the supplier is bought or changes terms. If NLW is right that there are now several credible frontier labs plus open-weight models a few months behind, then the scribe you use, and the triage or coding tools an ICB buys, become substitutable, and substitutable is what makes a contract safe. If Zitron is right and the cheap prices are promotional, the same reasoning cuts the other way: the sensible question to ask any supplier is not what it costs this year but what happens to the price when the funding round ends. Either way the practical rule is the same — do not build a workflow on a tool you could not swap out in a fortnight."
+    },
+    {
+      "title": "Cheaper models matter more than better ones for the work general practice actually does",
+      "body": "The argument gaining ground on the show — that as the frontier advances, fewer people need the bleeding edge and need it less often — describes clinical administration precisely. Summarising a consultation, drafting a referral, tidying a discharge summary into a coded problem list: none of that needs a state-of-the-art model, and a near-frontier model at a tenth of the price will do it. That is the difference between AI documentation being a funded pilot and being simply part of the running cost of a surgery. Zitron's counterpoint deserves a hearing though: he cites companies capping staff token budgets after the first real bills arrived, which is exactly the shape of a practice discovering its scribe subscription was priced to acquire it rather than to keep it."
+    },
+    {
+      "title": "The Samsung number is the shape of the gain, not its size",
+      "body": "Three months of verification work compressed into two days, and a second-year engineer completing a month-long task in a day, is the jagged frontier in one sentence: enormous gains on highly structured, highly repetitive work, and juniors suddenly performing well above their experience. Both halves have analogues in medicine, and the second is the one to think about. In a supervised training environment, output that outruns understanding is a governance problem before it is a productivity one — as with any registrar whose letters read better than their reasoning. If we start using these tools with trainees, the thing to assess is not the document produced but whether they can defend it."
+    }
+  ]
+}

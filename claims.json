@@ -873,6 +873,24 @@
       "resolution": "Vindicated if, by the check date, no major vendor discloses per-seat AI or agent revenue materially above the roughly $129-a-year Copilot benchmark at comparable seat volumes, and agent products remain either premium-gated or heavily discounted. Fails if a vendor breaks out agent-product revenue showing both large seat counts and per-seat revenue several times that benchmark, independent of the labs' own compute spend.",
       "check_by": "2027-02-12",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-13",
+      "side": "NLW",
+      "claim": "That model choice is genuinely expanding and price is now the axis that matters: Grok 4.6 reaches 61 on the Artificial Analysis index at $2 per million input and $6 per million output tokens — around 60% cheaper per token than GPT-5.6 Soul and 84 cents per task — and that near-frontier models an order of magnitude cheaper are good enough for most work, so where a model sits in the stack matters more than raw capability.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-13",
+      "resolution": "Vindicated if, by the check date, at least two labs other than OpenAI and Anthropic are shipping models within a few points of the top Artificial Analysis score at a materially lower published price than today's flagships, and independent spend data (Ramp's AI Index or equivalent) shows cheaper and open-weight models taking a rising share of enterprise tokens. Fails if the frontier narrows back to two labs, or if published prices for near-frontier capability rise rather than fall once current promotional pricing ends.",
+      "check_by": "2027-02-13",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-13",
+      "side": "Zitron",
+      "claim": "That AI cannot actually get cheaper because the industry's economics depend on it not doing so — costs have only ever increased, efficiency runs counter to the narrative since cheaper inference means less compute sold, and buyers respond to real prices by capping spend (Uber exhausting its annual token budget in a quarter then limiting staff to $1,500 a month, T-Mobile $2,000, Brex $500 a week for engineers).",
+      "source_url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "resolution": "Vindicated if, by the check date, the effective cost of a comparable real-world task has risen rather than fallen — published prices increased, discounts withdrawn, or usage caps and rate limits tightened at major labs — and more large customers publicly restrict AI spend. Fails if per-task cost for equivalent capability is demonstrably lower than in August 2026 and enterprise AI budgets are reported as growing rather than capped.",
+      "check_by": "2027-02-13",
+      "status": "open"
     }
   ]
 }

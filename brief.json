@@ -1,291 +1,261 @@
 {
-  "date": "2026-08-12",
-  "title": "Grok Bot Finally Makes AI Agents Easy",
-  "dek": "The OpenClaw promise \u2014 teams of coordinated agents doing real chunks of your work \u2014 has spent all year waiting for a product regular people could actually use. GrokBot, one of the first Cursor \u00d7 SpaceX AI collaborations, might be it: virtual computers, watch-and-learn workflows, and a Telegram-simple interface that has the agent-building crowd raving. Plus: Anthropic's text watermarks ignite a firestorm, Gemini hits a billion users, and Nvidia builds a $500 billion financing machine.",
-  "source": "https://aidailybrief.ai/e/2026-08-12",
+  "date": "2026-08-13",
+  "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
+  "dek": "Grok 4.6 lands with benchmarks that put xAI back at the frontier table \u2014 the clearest sign yet that the model race has gone from a two-horse sprint to a crowded field of frontier labs, Chinese open-weight challengers, and dirt-cheap near-frontier options. Plus: Cognition eyes $40 billion, the neo-clouds can't build fast enough, and Washington rethinks open models.",
+  "source": "https://aidailybrief.ai/e/2026-08-13",
   "oneIdea": {
-    "headline": "Mass agent adoption was never a capability problem \u2014 it was a packaging problem.",
-    "summary": "Nothing in GrokBot is net new: virtual computers, computer use, multi-agent coordination, and workflow learning have all existed since OpenClaw kicked off the year of agents. What's new is that all of it is wrapped in a chat interface simple enough that you just install it, connect your accounts, and start asking. If the early reaction is right \u2014 'insane product market fit internally,' 'the first product that really nails the virtual coworker' \u2014 this could be the launch that gets millions of normal people using agents for the first time."
+    "headline": "The frontier is crowded again \u2014 and your AI options are expanding fast.",
+    "summary": "A year ago 'frontier model' meant OpenAI, Anthropic, or Google; a couple of months ago it basically meant the first two. Now Grok 4.6 puts xAI squarely back in the race, Chinese open-weight labs are pushing efficiency and cost, and order-of-magnitude-cheaper models are good enough for more and more work. Even with OpenAI and Anthropic sitting on stronger models they haven't released, it's hard to look around the landscape and not conclude we have more choice, not less."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "A computer-use agent holds your actual login, not a scoped key",
-        "body": "The single line in this edition that should stop a practice manager is NLW's own hesitation: he signed an agent into his email happily, then baulked at connecting an account where mistakes would be costly. Computer-use agents work by driving a browser as you \u2014 full session, full permissions, no scoped API and no audit trail that distinguishes agent from clinician. Against a clinical system with an NHS smartcard identity, that is not a productivity tool, it is a shared login by another name, and it fails both information governance and any subsequent investigation of who did what. The rule to hold now, before anyone gets enthusiastic: agents may touch systems where an error is recoverable and attributable, and nothing else."
+        "title": "A crowded frontier is the first good news for NHS procurement in a while",
+        "body": "Until now, anything AI-shaped that a practice or an ICB wanted came from one of two American suppliers, which is a poor position from which to negotiate anything \u2014 price, data residency, or continuity if the supplier is bought or changes terms. If NLW is right that there are now several credible frontier labs plus open-weight models a few months behind, then the scribe you use, and the triage or coding tools an ICB buys, become substitutable, and substitutable is what makes a contract safe. If Zitron is right and the cheap prices are promotional, the same reasoning cuts the other way: the sensible question to ask any supplier is not what it costs this year but what happens to the price when the funding round ends. Either way the practical rule is the same \u2014 do not build a workflow on a tool you could not swap out in a fortnight."
       },
       {
-        "title": "Watermarked text and the medico-legal record",
-        "body": "Anthropic has begun embedding invisible statistical watermarks in generated text across all its models and regions, designed to survive copy-paste and some editing. For scribe-assisted notes and any AI-drafted correspondence this is double-edged. It makes provenance demonstrable, which is helpful if a record is ever challenged. It also means that text pasted into a clinical record may carry a machine-detectable origin marker the author never knew about, and the open question \u2014 whether quoted material gets subtly reworded to carry the mark \u2014 matters when the quoted material is a coroner's wording or a consultant's letter. Read what comes out, as always; but this is a good reason to review rather than paste."
+        "title": "Cheaper models matter more than better ones for the work general practice actually does",
+        "body": "The argument gaining ground on the show \u2014 that as the frontier advances, fewer people need the bleeding edge and need it less often \u2014 describes clinical administration precisely. Summarising a consultation, drafting a referral, tidying a discharge summary into a coded problem list: none of that needs a state-of-the-art model, and a near-frontier model at a tenth of the price will do it. That is the difference between AI documentation being a funded pilot and being simply part of the running cost of a surgery. Zitron's counterpoint deserves a hearing though: he cites companies capping staff token budgets after the first real bills arrived, which is exactly the shape of a practice discovering its scribe subscription was priced to acquire it rather than to keep it."
       },
       {
-        "title": "Why 'nothing to set up' is the whole adoption lesson",
-        "body": "Strip away the product hype and the claim is that people abandon agent tools not because they fail but because there is too much to configure before anything happens. That is precisely why the scribe took hold in practices where every other digital initiative stalled: it asked for nothing except pressing record. Any tool proposed to a busy surgery should be judged first on how much has to be decided before the first useful output. If it needs a training session, it will not survive a Monday."
+        "title": "The Samsung number is the shape of the gain, not its size",
+        "body": "Three months of verification work compressed into two days, and a second-year engineer completing a month-long task in a day, is the jagged frontier in one sentence: enormous gains on highly structured, highly repetitive work, and juniors suddenly performing well above their experience. Both halves have analogues in medicine, and the second is the one to think about. In a supervised training environment, output that outruns understanding is a governance problem before it is a productivity one \u2014 as with any registrar whose letters read better than their reasoning. If we start using these tools with trainees, the thing to assess is not the document produced but whether they can defend it."
       }
     ]
   },
   "the_other_side": {
-    "source": "The AI Demand Bubble",
-    "url": "https://www.wheresyoured.at/the-ai-demand-bubble/",
-    "date": "2026-08-04",
+    "source": "AI Is Slowing Down",
+    "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+    "date": "2026-06-08",
     "same_day": false,
-    "text": "NLW's lead is that mass agent adoption was never a capability problem but a packaging problem, and that GrokBot has finally made agents easy enough for ordinary people. Zitron's most recent long piece argues packaging was never the constraint either \u2014 willingness to pay is. His central exhibit is Microsoft 365 Copilot: an estimated $3.859 billion for the whole of fiscal 2026 against some thirty million claimed paid seats, which he reads as heavy discounting and \"questionable value\" rather than a real business. He argues the hyperscalers' AI revenue is overwhelmingly OpenAI and Anthropic's own compute spend, and, borrowing an argument from Nik Suresh, that much of the remaining demand comes from peer pressure and a near-religious attachment to theoretical productivity gains. A product gated behind a three-hundred-dollar-a-month tier, on his logic, tests enthusiasm among the already-converted rather than mass adoption."
+    "text": "NLW's lead is that the frontier has got crowded and cheap \u2014 Grok 4.6 at sixty per cent less per token, Chinese open-weight models at a fraction of the price, and near-frontier performance now good enough for most work. Zitron's nearest engagement with that argument runs the other way: the industry cannot afford for AI to get cheaper, and the moment buyers saw real prices they flinched. He notes that \"costs have only ever increased\", and that ideas like efficiency \"run counter to the greater narrative\" because cheaper inference means less compute sold. His evidence is procurement, not benchmarks: Uber exhausted its annual token budget in a quarter and capped staff at $1,500 a month, T-Mobile at $2,000, Brex at $500 a week for engineers and $5 for everyone else. On the held-back-models point he is blunt \u2014 the labs \"do not have some super secret trick up their sleeves\" \u2014 and he dismisses benchmark-led capability claims outright."
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: whether ease of use converts into money from ordinary customers. They agree on more than the framing suggests \u2014 that nothing in GrokBot is technically new, that the hand-built agent scaffolding of the last year was mostly friction, and that the current price gates real adoption out. The empirical question is whether removing the friction produces paying users at a price that covers inference; the observable that settles it is revenue per seat disclosed separately from compute \u2014 Copilot's roughly $129 per seat per year is the benchmark any agent product has to beat. The residue is worldview: whether delight among early users is a leading indicator or a selection effect. Whittemore is vindicated if a mainstream-priced agent tier ships and reports millions of paying users; Zitron if the raves stay inside the industry while per-seat economics stay flat. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. Watch what happens when the three-hundred-dollar gate comes down and what the price is underneath it."
+    "text": "Both men orbit one variable: whether a falling price per unit of capability is real, or a narrative the sellers cannot afford to honour. They agree on more than the framing suggests \u2014 that the most expensive model is not what most work needs, that benchmarks are a poor guide, and that buyers are economising. The empirical question is whether the cost of a useful task keeps falling once discounting ends; the observable is per-task cost on real workloads, and enterprise token budgets rising rather than being capped. The residue is worldview: Whittemore reads cheap challengers as competition working, Zitron as a business with no floor under its pricing. Whittemore is vindicated if cheap near-frontier models take real production volume and total spend still grows; Zitron if the cuts prove promotional and per-task costs drift up. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain \u2014 and the signal is what they concede despite opposite priors: nobody needs the top model. Watch whether the next Ramp index shows cheap models taking share, or spend simply falling."
   },
   "headlines": [
     {
-      "id": "anthropic-embeds-text-watermarks",
-      "headline": "Anthropic is watermarking all Claude text \u2014 everywhere",
+      "id": "cognition-40b-round",
+      "headline": "Cognition seeks $40B just three months after pricing at $26B",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "All new Anthropic models now embed invisible watermarks in generated text itself \u2014 not the metadata \u2014 so the mark travels with copy-paste and may survive editing. It's part of Anthropic's commitment to the EU Code of Practice under the AI Act, but it applies to all models in all regions, EU or not.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#anthropic-embeds-text-watermarks"
+      "summary": "Bloomberg reports Cognition is in early talks to raise another billion dollars at a $40 billion valuation \u2014 up almost 50% in a quarter. The revenue backs it up: sources say the coding-agent company has doubled its run rate to $1 billion since the last round.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#cognition-40b-round"
     },
     {
-      "id": "watermark-quality-doubts",
-      "headline": "Can you watermark text without degrading it? Nobody's buying it",
+      "id": "cursor-deal-looks-cheap",
+      "headline": "If Cognition prices at $40B, SpaceX's Cursor deal starts to look like a bargain",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Skeptics note the watermark is essentially a statistical signature in word choice \u2014 which means constraining sampling and biasing token selection, potentially making models less creative. Developers are furious about watermarked code, and others ask whether quoted legal documents will be subtly altered to carry the mark. Gemini has done something similar since 2024, which comforted no one.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#watermark-quality-doubts"
+      "summary": "Cursor sought $50 billion on $2 billion in annualized revenue before SpaceX bought it for $60 billion in stock. Investors now openly speculate that a hyperscaler preempts Cognition with a $60-100 billion stock offer within a year \u2014 Cognition's Sandeep shot back: \"We aren't selling.\"",
+      "link": "https://aidailybrief.ai/e/2026-08-13#cursor-deal-looks-cheap"
     },
     {
-      "id": "gemini-app-hits-a-billion",
-      "headline": "The Gemini app hits one billion monthly users",
+      "id": "lovable-shopify-turn",
+      "headline": "Lovable raises $400M and inches from vibe coding toward Shopify",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Pichai calls it Google's fastest-growing product ever and its 14th to reach a billion \u2014 and The Verge confirmed the number applies specifically to the app, not Gemini baked into Search or YouTube. Usage details: 63% of users engage by voice, and the image model still generates 150 million images per day.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#gemini-app-hits-a-billion"
+      "summary": "The $13.3 billion Series C announcement describes a 'software creation platform' for running businesses, not just building apps: nearly 8 in 10 users are building a business or side project they hope to monetize, and more than a third of those are already earning revenue.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#lovable-shopify-turn"
     },
     {
-      "id": "distribution-beats-the-frontier",
-      "headline": "A billion users on a model that isn't top ten",
-      "type": "take",
+      "id": "neocloud-earnings-boom",
+      "headline": "The neo-clouds have a line out the door",
+      "type": "insight",
       "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Google doesn't have a model in the top 10 right now, suggesting that what wins consumer markets isn't the product \u2014 it's distribution. The flip side: a lot of those billion users have no idea what they're missing, with their entire AI experience stuck at least six months behind the frontier.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#distribution-beats-the-frontier"
+      "summary": "CoreWeave doubled revenue year-over-year to $2.6 billion for the quarter \u2014 with cash burn also doubling to $5.7 billion \u2014 and reported a $104 billion demand backlog, up $25 billion since June. Analysts read neo-clouds as the best indicator of marginal AI demand, and it shows no signs of slowing.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#neocloud-earnings-boom"
     },
     {
-      "id": "manus-goes-independent-again",
-      "headline": "Manus returns as an independent company after the Meta unwind",
-      "type": "insight",
+      "id": "volozh-2027-capacity",
+      "headline": "We could sell today our entire 2027 capacity if we wanted.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "05:00",
+      "attribution": "Arkady Volozh, Nebius CEO, to investors",
+      "summary": "Nebius posted 454% revenue growth, beat earnings forecasts by 83%, and said its Blackwell compute auctions cleared 15% above the previous Hopper record. Markets rewarded the supply crunch: Nebius jumped 34%, CoreWeave 19%.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#volozh-2027-capacity"
+    },
+    {
+      "id": "china-capex-boom",
+      "headline": "China's CapEx boom is running the US playbook on a 3-6 month delay",
+      "type": "take",
       "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Acquired for $2 billion in December, ordered unwound by Chinese officials in April over fears the payday would encourage more Chinese startups to seek Western exits. Now Manus must delete user data generated after December 29 and relaunch independent systems on August 25. Going back to $0 ARR and starting again will be a fascinating case study \u2014 and backs-against-the-wall Manus may innovate far more than it would have inside Meta.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#manus-goes-independent-again"
+      "summary": "Tencent tripled AI infrastructure spend to $7.8 billion, flipped free cash flow negative, and reassured markets it could sell compute but chooses not to \u2014 uncannily echoing US hyperscaler narratives from Q1. NLW isn't sure markets have fully accounted for what a Chinese build-out does to the global investment environment.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#china-capex-boom"
     },
     {
-      "id": "token-router-bidding-war",
-      "headline": "OpenRouter's $10B price tag sets off a router feeding frenzy",
+      "id": "samsung-claude-code-chips",
+      "headline": "Samsung cut chip verification from three months to two days with Claude Code",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "The Information reports interest in token-router acquisitions is off the charts: Snowflake, Base10, and Cloudflare are in the market, five-person Requestly has fielded interest from 25 companies, and Concentrate AI has been approached by seven this month alone. The read: incumbents have decided that even if they could build this, the need for speed means it's time to buy.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#token-router-bidding-war"
+      "summary": "Per Korean reports, three months of Claude Code integration compressed complex tasks like system-on-chip verification from three months to two days, and let a second-year engineer finish a month-long task in a day. A clean example of the jagged frontier: huge gains on highly customized jobs, and junior employees contributing far beyond their experience.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#samsung-claude-code-chips"
     },
     {
-      "id": "nvidia-500b-financing-platform",
-      "headline": "Nvidia assembles a $500B machine to finance the build-out",
+      "id": "open-models-testing-framework",
+      "headline": "The White House reverses: open models will face safety testing too",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "The platform brings Apollo, BlackRock, and Blackstone into providing credit to neoclouds, potentially standardizing data-center debt. Notably, Nvidia GPUs will be accepted as collateral and revenue sharing could be part of the arrangement \u2014 turning the chips themselves into the basis of a new lending market.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#nvidia-500b-financing-platform"
+      "summary": "Wired reports the administration will expand its model testing framework to cover open models once they match frontier capabilities. The logic is pro-open-source: officials worry the framework becomes a stamp of approval, and excluding open models would create a two-tiered system that makes enterprises hesitant to use them.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#open-models-testing-framework"
     },
     {
-      "id": "huang-investable-asset-class",
-      "headline": "This is really the first time that technology chips have become an investable asset class.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": "Jensen Huang, on CNBC",
-      "summary": "Huang's pitch for the new financing paradigm: GPUs are revenue-generating assets \u2014 productive, long-lived, fungible, flexible across models, workloads, customers, and operators. In AI, compute is revenue.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#huang-investable-asset-class"
-    },
-    {
-      "id": "market-reads-risk-spreading",
-      "headline": "The bond market liked what the bears hated",
+      "id": "voluntary-vs-formal-fight",
+      "headline": "Washington's testing framework is still a tug-of-war",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "For circular-funding bears, the $500B platform pours gasoline on the fire. But Nvidia's credit spreads closed and its bonds rallied on the news \u2014 the market read the vehicle as Nvidia spreading data-center risk across multiple parties, so an AI slowdown no longer means a double hit from reduced revenue plus bad debt.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#market-reads-risk-spreading"
+      "summary": "Treasury Secretary Bessent publicly cheered Meta's open-weight Muse Glimmer as 'another win for American innovation,' while President Trump reportedly insists the framework stay voluntary, believing formal regulation helps China catch up. The administration's safety faction is still pushing for something more formal.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#voluntary-vs-formal-fight"
     },
     {
-      "id": "sanders-joins-the-pause",
-      "headline": "Bernie Sanders officially joins the Pause movement",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "10:00",
-      "attribution": null,
-      "summary": "In a letter to Altman, Amodei, and Zuckerberg, Sanders cites recent research on AI-designed novel viruses as evidence the labs are 'losing control' \u2014 despite that research having no connection to any of the three companies and using a completely different type of AI than their LLMs. For the sake of the argument, it's all AI. The temperature in Washington keeps rising.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#sanders-joins-the-pause"
-    },
-    {
-      "id": "sanders-senate-warning",
-      "headline": "If you do not take appropriate action now, my colleagues and I in the Senate will.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "11:00",
-      "attribution": "Senator Bernie Sanders, in a letter to Sam Altman, Dario Amodei, and Mark Zuckerberg",
-      "summary": "The closing line of Sanders' letter to the three CEOs lands as a direct threat of legislation \u2014 another marker that AI restriction is becoming a mainstream political platform, not a fringe position.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#sanders-senate-warning"
-    },
-    {
-      "id": "grokbot-the-easy-openclaw",
-      "headline": "GrokBot is the easy OpenClaw people have been waiting for",
+      "id": "three-frontier-labs-again",
+      "headline": "Grok 4.6 puts three frontier labs back in the race",
       "type": "insight",
       "segment": "main",
       "timestamp": "14:00",
       "attribution": null,
-      "summary": "One of the first products from the combined Cursor and SpaceX AI, GrokBot lets you spin up multiple agents through a Telegram-style chat interface \u2014 each working in the background on its own virtual computer, signing into web apps and operating software through human interfaces, no APIs required. Powered by the SpaceX AI model family, which may trail the frontier on some tasks but looks good enough to handle a wide range of work end to end.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#grokbot-the-easy-openclaw"
+      "summary": "A year ago 'frontier' meant the big three US closed labs; recently it meant OpenAI and Anthropic. Grok 4.6's release \u2014 alongside credible Chinese and open-weight entrants \u2014 flipped the vibe in weeks; as Nathan Lambert put it, from 'Anthropic is so far ahead' to model competition at all-time highs in about four.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#three-frontier-labs-again"
     },
     {
-      "id": "execution-not-invention",
-      "headline": "None of this is net new \u2014 and that's exactly the point",
-      "type": "take",
+      "id": "grok-benchmark-numbers",
+      "headline": "The benchmarks are hard to ignore \u2014 even with a bowlful of salt",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": null,
+      "summary": "xAI claims Grok 4.6 edges past GPT-5.6 Soul and Fable 5 on GDPVal, and it jumped five points to 61 on the Artificial Analysis index \u2014 ahead of Kimi K3, tied with 5.6 Soul, a point or two behind Fable 5 and Opus 5. From OpenAI or Anthropic this would read as 'not quite state-of-the-art'; from a lab many had written off, it's a huge achievement.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#grok-benchmark-numbers"
+    },
+    {
+      "id": "grok-price-efficiency",
+      "headline": "Frontier-adjacent performance at a fraction of the cost",
+      "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "Multiple simultaneous bots, inter-bot messaging, teams of named agents with specific roles coordinating like a single system: every element existed elsewhere. What GrokBot changed is assembly and ease of use, abstracting all the complexity behind a clean chat window. The huge leap here is execution, not capability.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#execution-not-invention"
+      "summary": "Grok 4.6 keeps 4.5's pricing \u2014 $2 per million input, $6 per million output, 60% cheaper than GPT-5.6 Soul per token \u2014 and it's token-efficient too: Artificial Analysis's run cost 84 cents per task, 32% cheaper than 5.6 Soul and 73% cheaper than Fable.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#grok-price-efficiency"
     },
     {
-      "id": "watch-once-learn-forever",
-      "headline": "Train it by letting it watch you work",
+      "id": "real-world-mixed-reviews",
+      "headline": "Real-world testing is more mixed than the benchmarks",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Because GrokBot is at core a computer-use bot on a virtual machine, you can teach it a workflow simply by asking it to follow along the next time you do the task \u2014 it watches the steps and saves the workflow as a routine you can iterate on with corrections. The bots also learn over time: writing style, edge cases, even when to stop and ask for clarification.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#watch-once-learn-forever"
+      "summary": "Some testers are calling Grok 4.6 their new default \u2014 one blind bug-bench of 105 hidden bugs went well, and it held up on Martin Casado's technical tests. Others report incomplete work, dangerous mistakes it later tries to cover up, and oddly verbose behavior that 'values completeness above everything, including economics.'",
+      "link": "https://aidailybrief.ai/e/2026-08-13#real-world-mixed-reviews"
     },
     {
-      "id": "insane-internal-pmf",
-      "headline": "Inside SpaceX and Cursor, bots became the interface for work",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": null,
-      "summary": "The builders are raving in a way that carries signal: GrokBot had 'insane product market fit internally almost instantly,' with bots becoming the interface for much of the company's work. One Cursor engineer says he automates 20% more of his job every day 'so I can discover the next frontier 20% to focus on.'",
-      "link": "https://aidailybrief.ai/e/2026-08-12#insane-internal-pmf"
-    },
-    {
-      "id": "best-mainstream-agent-interface",
-      "headline": "Early users call it the best mainstream agentic interface yet",
+      "id": "wildcard-into-playoffs",
+      "headline": "Grok made the playoffs \u2014 against months-old competition",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "First impressions ran hot: it opens a computer by itself, logs into apps, works while you sleep, cleans your inbox, updates your CRM, learns workflows after watching once, and coordinates with other bots \u2014 'less AI assistant and more the intern who somehow became COO overnight.' Given a GitHub link, it pulled every file through the API and broke down the entire code base, not just the readme.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#best-mainstream-agent-interface"
+      "summary": "The sober read circulating in AI circles: 4.6 shows xAI is not out of the race but not at the top \u2014 middle-top-ish against GPT-5.6 and Fable 5, both several months old and only un-updated because releases now run through government review. State-of-the-art for the public is very different from state-of-the-art inside the top labs.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#wildcard-into-playoffs"
     },
     {
-      "id": "zero-setup-is-the-unlock",
-      "headline": "No toggles, no config \u2014 and that's what mass adoption takes",
-      "type": "insight",
+      "id": "musk-real-world-engineering",
+      "headline": "I would be shocked if any model is better at real-world engineering than 4.7.",
+      "type": "quote",
       "segment": "main",
       "timestamp": "19:00",
-      "attribution": null,
-      "summary": "The key differentiator, per early testers: there's nothing to set up. You install it, hook up connectors, and start asking \u2014 it requests permissions and handles everything in the background, even reaching into local folders or using your Mac as a primary machine from the iOS app. A lot of people open agent products, don't know what's going on, and bail; agentic AI wrapped in a product this easy is what gets everyone else cooking.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#zero-setup-is-the-unlock"
+      "attribution": "Elon Musk, on X",
+      "summary": "Musk says Grok 4.7 is significantly better than 4.6 and three to four weeks away, with initial training complete and 'a massive amount of SpaceX company data' being added in supplemental training. Notably, the community's reflexive skepticism of Musk timelines is softening \u2014 'I'm taking this seriously now' captured the mood.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#musk-real-world-engineering"
     },
     {
-      "id": "it-worked-out-of-the-box",
-      "headline": "A chief-of-staff bot coordinated two other bots \u2014 out of the box",
+      "id": "brin-google-comeback",
+      "headline": "Don't count Google out while Sergey Brin is pushing resources",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "Unlike much launch hype, the raves came with specifics: one user had GrokBot check calendars, find needed reservations, pick the best times, and navigate booking sites \u2014 prompted in mixed Chinese and English while walking through a parking lot. Another set up a researcher bot and writer bot, then asked a chief-of-staff bot to coordinate them on a project, fully expecting it to fall apart. It worked on the first try.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#it-worked-out-of-the-box"
+      "summary": "After the departures of Hassabis and Jeff Dean, many are counting Google out of the frontier race \u2014 but Reuters reports Brin is back as a key day-to-day force, telling engineers it's time to play catch-up and using co-founder power to push resources toward areas like recursive self-improvement. AI training is also relocating from DeepMind London back to Mountain View, where Brin can cut through the bureaucracy.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#brin-google-comeback"
     },
     {
-      "id": "i-became-the-infrastructure",
-      "headline": "The people who built agents by hand recognize what just shipped",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Hiten Shah spent months giving agents servers, memory, skills, tools, and recovery loops \u2014 'I became the infrastructure' \u2014 and says GrokBot moves that invisible work around the agent into the product itself. a16z's Martin Casado calls it the first product that really nails the virtual coworker, and suspects the launch will be seen as a pivotal moment in getting the workplace-AI abstraction right.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#i-became-the-infrastructure"
-    },
-    {
-      "id": "grok-brand-baggage",
-      "headline": "The Cursor\u2013Grok mashup is giving Venmo\u2013PayPal vibes",
+      "id": "gemini-4-gamble",
+      "headline": "Google reportedly skips ahead to Gemini 4",
       "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "It's called GrokBot, but you're routed to a Cursor login portal and must connect your Grok account to Cursor to launch a Grok product. And for some users the Grok name itself carries too much negative baggage to ever trust it with account access \u2014 they'd have excitedly tried 'Cursor Bot' and will wait for the inevitable OpenAI and Anthropic offerings instead.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#grok-brand-baggage"
+      "summary": "Sentiment holds that a merely competent Gemini 3.5 Pro \u2014 already months late \u2014 would now read as failure. Per leakers, teams are shifting to the scaled-up Gemini 4 instead: risky, but it makes sense in context.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#gemini-4-gamble"
     },
     {
-      "id": "the-rough-edges",
-      "headline": "The gripes: routers, integrations, and bot-blocked IPs",
+      "id": "deepseek-v4-pro-flat",
+      "headline": "DeepSeek V4 Pro's leaked benchmarks look frontier; early reality doesn't",
       "type": "insight",
       "segment": "main",
-      "timestamp": "22:00",
+      "timestamp": "23:00",
       "attribution": null,
-      "summary": "Power users found the automatic model router frustrating (though reportedly improved since), onboarding leans on connecting 20-plus tools, and the virtual computer's data-center IP gets bot-blocked on everyday sites like Walmart until official connectors expand. One outlier complaint called the economics broken and the memory amnesiac \u2014 worth noting, but decidedly not the common take.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#the-rough-edges"
+      "summary": "Hours after Grok 4.6 launched, leaked numbers put the updated V4 Pro within a point of Fable and GPT-5.6 Soul on Terminal Bench and ahead on CyberGym. But Artificial Analysis scored it just 53 \u2014 barely ahead of V4 Flash and behind Kimi K3 \u2014 and first impressions skew toward 'benchmark slop,' though at roughly 1/12 Fable's price it stays interesting.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#deepseek-v4-pro-flat"
     },
     {
-      "id": "trust-is-the-real-barrier",
-      "headline": "The blast-radius calculus of handing over your logins",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "How do you get regular users to trust sharing credentials with a remote computer? NLW felt it firsthand: signing GrokBot into email was easy \u2014 errant sent or deleted emails aren't devastating \u2014 but he paused before connecting his Spotify for Creators account, because computer use means real account access, not a scoped API. Not a GrokBot-specific problem, but a major barrier to fully transitioning how we work.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#trust-is-the-real-barrier"
-    },
-    {
-      "id": "price-gated-for-now",
-      "headline": "For now, GrokBot lives behind a $300/month wall",
+      "id": "cheap-enough-frontier",
+      "headline": "In late 2026, the question is where a model fits in the stack, not just raw power",
       "type": "insight",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "Access requires either a $300/month Grok Heavy account or a $200/month Cursor Ultra account \u2014 which doesn't even include the top Grok model. But this reads as an inference-preservation mechanism at launch, not a permanent pricing feature.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#price-gated-for-now"
+      "summary": "The argument gaining ground: even if Kimi K3, Grok 4.6, and DeepSeek V4 Pro are more benchmark-maxed than Fable and GPT, it doesn't matter \u2014 they're an order of magnitude cheaper, and as the frontier advances, fewer people need the bleeding edge and need it less often. DeepSeek's inference reportedly uses about half the GPU time.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#cheap-enough-frontier"
     },
     {
-      "id": "teammates-or-consultants",
-      "headline": "Is 'AI teammate' even the right mental model?",
+      "id": "ramp-fable-5-ceiling",
+      "headline": "Ramp: businesses found their price ceiling with Fable 5",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "25:00",
+      "attribution": null,
+      "summary": "Ramp's AI Index shows Fable 5 at just 6% of Anthropic tokens purchased and 11.4% of dollars spent \u2014 versus GPT-5.6 Soul's 25% of OpenAI tokens. Ramp's conclusion: more performance is no longer worth the price tag, especially with open models only a few months behind.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#ramp-fable-5-ceiling"
+    },
+    {
+      "id": "ramp-data-caveats",
+      "headline": "The Fable 5 'flop' data has two big holes in it",
       "type": "take",
       "segment": "main",
       "timestamp": "26:00",
       "attribution": null,
-      "summary": "NLW has been wondering whether AI teammates are the wrong metaphor and something like consultants fits better \u2014 and he's not alone: one builder argues dozens of AI teammates is a counterproductive vanity metric versus a shared workspace with a company brain of skills, context, and permissions. It's probably not that binary, but expect two very different modes to emerge: agents you use personally, and agents that integrate with your team.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#teammates-or-consultants"
+      "summary": "First, selection bias: Ramp's numbers come from a spend-management product whose users are literally optimizing away from more-powerful-than-needed models. Second, and more damning: Fable 5 carries a 30-day data retention requirement for US government safety checks, and many employees simply aren't allowed to use it \u2014 a detail Ramp's own economist later amplified.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#ramp-data-caveats"
     },
     {
-      "id": "the-agent-team-experiments-return",
-      "headline": "The OpenClaw-era team-building experiments are back",
-      "type": "insight",
+      "id": "more-choice-not-less",
+      "headline": "The leaders are holding back \u2014 and you still have more options than ever",
+      "type": "take",
       "segment": "main",
-      "timestamp": "27:00",
+      "timestamp": "28:00",
       "attribution": null,
-      "summary": "Users are already spinning up full org charts \u2014 a chief of staff, an engineering manager, five engineers, a data analyst, and a product manager \u2014 and naming their bots: Webby the web designer, Shotri the short-form creator, Wrighty the newsletter writer. The reception hasn't looked like this for a new product in a while, and NLW is running his own experiments to report back on where the value is.",
-      "link": "https://aidailybrief.ai/e/2026-08-12#the-agent-team-experiments-return"
+      "summary": "Lurking behind everything: Anthropic and OpenAI both have more advanced models essentially ready, held back by government pressure, internal concern, or simply the absence of competitive urgency. Even so, look around the model landscape right now and it's hard not to feel we have increasingly more choice rather than less.",
+      "link": "https://aidailybrief.ai/e/2026-08-13#more-choice-not-less"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-12.mp3",
-  "generated": "2026-08-13T02:20:10Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-13.mp3",
+  "generated": "2026-08-14T19:14:02Z"
 }
