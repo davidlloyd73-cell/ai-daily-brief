@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The deputization audit fits a surgery well — until you reach the checkability column",
+      "body": "Inventory the recurring work of a practice and the list writes itself: coding and filing incoming letters, results acknowledgement, medication query triage, recall and QOF chasing, drafting routine referrals, insurance and DWP report first drafts, the endless summarising. Score those on NLW's five dimensions and most sit in his middle tier, because the third criterion — how long checking takes against doing — behaves differently in clinical work. A referral letter that reads well but has the wrong laterality costs more to miss than it saved to draft, and the responsible clinician signs it either way, so the check cannot be delegated with the task. That is the honest reason a scribe has been transformative while more ambitious hand-offs have not: the scribe produces something I was going to read carefully in any case."
+    },
+    {
+      "title": "Ambient observation is the wrong shape for a consulting-room desktop",
+      "body": "A tool that watches everything you do across every application, and learns from it, is a very different information governance proposition in a surgery than in a marketing department. The screen holds other patients' records, open pathology, safeguarding notes and correspondence about third parties, and a continuous capture of interaction events is still processing of special category data that needs a DPIA, a clear lawful basis, and DCB0129/0160 clinical safety assurance from the supplier. Deliberate demonstration — you decide to record one workflow, on synthetic or your own test data — is much easier to justify than passive observation, and it is the option I would ask about first. If NLW is right that ambient context is where the real gains are, then practices will need suppliers to answer the governance questions properly rather than shipping a consumer feature into the NHS by the back door."
+    },
+    {
+      "title": "Cost the experiment at the price it will be, not the price it is",
+      "body": "NLW closes by suggesting the price of these agent tools will come down as access widens. Zitron's counter is that buyers have never seen the true cost, and that the arrival of real billing produced spending caps rather than enthusiasm. For a practice deciding whether to build a workflow around any of this, the two positions converge on the same prudent question to a supplier: what does this cost per unit of work, and what happens to that figure when the current pricing ends? A scribe subscription that is affordable at one price and unaffordable at three times it is a workflow risk as much as a budget one, and the mitigation is the dull one — do not build a process you could not run without the tool for a fortnight."
+    }
+  ]
+}

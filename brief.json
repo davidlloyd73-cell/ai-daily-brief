@@ -1,261 +1,291 @@
 {
-  "date": "2026-08-13",
-  "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
-  "dek": "Grok 4.6 lands with benchmarks that put xAI back at the frontier table \u2014 the clearest sign yet that the model race has gone from a two-horse sprint to a crowded field of frontier labs, Chinese open-weight challengers, and dirt-cheap near-frontier options. Plus: Cognition eyes $40 billion, the neo-clouds can't build fast enough, and Washington rethinks open models.",
-  "source": "https://aidailybrief.ai/e/2026-08-13",
+  "date": "2026-08-14",
+  "title": "How to Decide What Work AI Should Do for You: The AI Deputization Audit",
+  "dek": "Two new features \u2014 GrokBot's teach-a-task and ChatGPT's Computer History \u2014 mark the moment the AI bottleneck officially moved from capability to context. But once your AI can learn how you work, you still have to decide what work it should actually do. NLW proposes a scoring system: the AI deputization audit.",
+  "source": "https://aidailybrief.ai/e/2026-08-14",
   "oneIdea": {
-    "headline": "The frontier is crowded again \u2014 and your AI options are expanding fast.",
-    "summary": "A year ago 'frontier model' meant OpenAI, Anthropic, or Google; a couple of months ago it basically meant the first two. Now Grok 4.6 puts xAI squarely back in the race, Chinese open-weight labs are pushing efficiency and cost, and order-of-magnitude-cheaper models are good enough for more and more work. Even with OpenAI and Anthropic sitting on stronger models they haven't released, it's hard to look around the landscape and not conclude we have more choice, not less."
+    "headline": "AI's bottleneck has moved from capability to context \u2014 now the question is what you deputize.",
+    "summary": "GrokBot lets you teach a task by recording yourself doing it; ChatGPT's Computer History watches how you work and learns over time. Deliberate demonstration and ambient observation both solve the same problem: models are capable enough, they just don't know your work. What's left is a decision framework \u2014 score each recurring process on frequency, teachability, checkability, stakes, and how much it really needs to be you. Deputize the 8-10s, defend the 0-3s, and duet on everything in the middle, which is where most knowledge work still lives."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "A crowded frontier is the first good news for NHS procurement in a while",
-        "body": "Until now, anything AI-shaped that a practice or an ICB wanted came from one of two American suppliers, which is a poor position from which to negotiate anything \u2014 price, data residency, or continuity if the supplier is bought or changes terms. If NLW is right that there are now several credible frontier labs plus open-weight models a few months behind, then the scribe you use, and the triage or coding tools an ICB buys, become substitutable, and substitutable is what makes a contract safe. If Zitron is right and the cheap prices are promotional, the same reasoning cuts the other way: the sensible question to ask any supplier is not what it costs this year but what happens to the price when the funding round ends. Either way the practical rule is the same \u2014 do not build a workflow on a tool you could not swap out in a fortnight."
+        "title": "The deputization audit fits a surgery well \u2014 until you reach the checkability column",
+        "body": "Inventory the recurring work of a practice and the list writes itself: coding and filing incoming letters, results acknowledgement, medication query triage, recall and QOF chasing, drafting routine referrals, insurance and DWP report first drafts, the endless summarising. Score those on NLW's five dimensions and most sit in his middle tier, because the third criterion \u2014 how long checking takes against doing \u2014 behaves differently in clinical work. A referral letter that reads well but has the wrong laterality costs more to miss than it saved to draft, and the responsible clinician signs it either way, so the check cannot be delegated with the task. That is the honest reason a scribe has been transformative while more ambitious hand-offs have not: the scribe produces something I was going to read carefully in any case."
       },
       {
-        "title": "Cheaper models matter more than better ones for the work general practice actually does",
-        "body": "The argument gaining ground on the show \u2014 that as the frontier advances, fewer people need the bleeding edge and need it less often \u2014 describes clinical administration precisely. Summarising a consultation, drafting a referral, tidying a discharge summary into a coded problem list: none of that needs a state-of-the-art model, and a near-frontier model at a tenth of the price will do it. That is the difference between AI documentation being a funded pilot and being simply part of the running cost of a surgery. Zitron's counterpoint deserves a hearing though: he cites companies capping staff token budgets after the first real bills arrived, which is exactly the shape of a practice discovering its scribe subscription was priced to acquire it rather than to keep it."
+        "title": "Ambient observation is the wrong shape for a consulting-room desktop",
+        "body": "A tool that watches everything you do across every application, and learns from it, is a very different information governance proposition in a surgery than in a marketing department. The screen holds other patients' records, open pathology, safeguarding notes and correspondence about third parties, and a continuous capture of interaction events is still processing of special category data that needs a DPIA, a clear lawful basis, and DCB0129/0160 clinical safety assurance from the supplier. Deliberate demonstration \u2014 you decide to record one workflow, on synthetic or your own test data \u2014 is much easier to justify than passive observation, and it is the option I would ask about first. If NLW is right that ambient context is where the real gains are, then practices will need suppliers to answer the governance questions properly rather than shipping a consumer feature into the NHS by the back door."
       },
       {
-        "title": "The Samsung number is the shape of the gain, not its size",
-        "body": "Three months of verification work compressed into two days, and a second-year engineer completing a month-long task in a day, is the jagged frontier in one sentence: enormous gains on highly structured, highly repetitive work, and juniors suddenly performing well above their experience. Both halves have analogues in medicine, and the second is the one to think about. In a supervised training environment, output that outruns understanding is a governance problem before it is a productivity one \u2014 as with any registrar whose letters read better than their reasoning. If we start using these tools with trainees, the thing to assess is not the document produced but whether they can defend it."
+        "title": "Cost the experiment at the price it will be, not the price it is",
+        "body": "NLW closes by suggesting the price of these agent tools will come down as access widens. Zitron's counter is that buyers have never seen the true cost, and that the arrival of real billing produced spending caps rather than enthusiasm. For a practice deciding whether to build a workflow around any of this, the two positions converge on the same prudent question to a supplier: what does this cost per unit of work, and what happens to that figure when the current pricing ends? A scribe subscription that is affordable at one price and unaffordable at three times it is a workflow risk as much as a budget one, and the mitigation is the dull one \u2014 do not build a process you could not run without the tool for a fortnight."
       }
     ]
   },
   "the_other_side": {
-    "source": "AI Is Slowing Down",
-    "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
-    "date": "2026-06-08",
+    "source": "AI Doesn't Have ROI",
+    "url": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
+    "date": "2026-06-02",
     "same_day": false,
-    "text": "NLW's lead is that the frontier has got crowded and cheap \u2014 Grok 4.6 at sixty per cent less per token, Chinese open-weight models at a fraction of the price, and near-frontier performance now good enough for most work. Zitron's nearest engagement with that argument runs the other way: the industry cannot afford for AI to get cheaper, and the moment buyers saw real prices they flinched. He notes that \"costs have only ever increased\", and that ideas like efficiency \"run counter to the greater narrative\" because cheaper inference means less compute sold. His evidence is procurement, not benchmarks: Uber exhausted its annual token budget in a quarter and capped staff at $1,500 a month, T-Mobile at $2,000, Brex at $500 a week for engineers and $5 for everyone else. On the held-back-models point he is blunt \u2014 the labs \"do not have some super secret trick up their sleeves\" \u2014 and he dismisses benchmark-led capability claims outright."
+    "text": "NLW's lead is that models are now capable enough, the missing ingredient is context, and the sensible response is an audit that hands recurring work over. Zitron's nearest published argument attacks the arithmetic underneath that audit: he says nobody can measure the return on AI, or even \"create a standard measurement of the cost of a task\", because outputs are hallucination-prone and every harness behaves differently. His evidence is billing rather than benchmarks \u2014 GitHub Copilot users burning a third of a month's credits in a few hours once token pricing arrived, Uber's COO saying the spend was getting harder to justify, Walmart and Amazon telling staff to stop using AI for its own sake. And on the point NLW calls checkability, Zitron's position is that the vigilance never ends: a model with no ability to learn outside training can go wrong unpredictably on any given run, so the human stays in the loop indefinitely."
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: whether a falling price per unit of capability is real, or a narrative the sellers cannot afford to honour. They agree on more than the framing suggests \u2014 that the most expensive model is not what most work needs, that benchmarks are a poor guide, and that buyers are economising. The empirical question is whether the cost of a useful task keeps falling once discounting ends; the observable is per-task cost on real workloads, and enterprise token budgets rising rather than being capped. The residue is worldview: Whittemore reads cheap challengers as competition working, Zitron as a business with no floor under its pricing. Whittemore is vindicated if cheap near-frontier models take real production volume and total spend still grows; Zitron if the cuts prove promotional and per-task costs drift up. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain \u2014 and the signal is what they concede despite opposite priors: nobody needs the top model. Watch whether the next Ramp index shows cheap models taking share, or spend simply falling."
+    "text": "Both men orbit one variable: the cost of checking work you have handed over, and whether that cost falls as the machine learns how you work. They agree on more than the framing admits \u2014 that most delegable work is dull and recurring, that output must be verified, and that users have been shielded from what a task really costs. The empirical question is whether verification and cost per task fall as observed context accumulates; the observable that settles it is organisations publishing before-and-after error rates and per-task spend on a specific deputized process, rather than adoption anecdotes. The residue is worldview: Whittemore reads a solvable context gap, Zitron an unmeasurable product sold on obscured pricing. Whittemore is vindicated if recurring processes run on spot checks at stable cost; Zitron if checking still takes as long as doing and bills keep surprising people. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is their shared premise that checkability decides everything. Watch for the first honest published per-task cost and error rate on a deputized workflow."
   },
   "headlines": [
     {
-      "id": "cognition-40b-round",
-      "headline": "Cognition seeks $40B just three months after pricing at $26B",
+      "id": "gemini-37-flash-lands",
+      "headline": "Google ships Gemini 3.7 Flash \u2014 and it's built for speed",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "02:00",
+      "timestamp": "01:00",
       "attribution": null,
-      "summary": "Bloomberg reports Cognition is in early talks to raise another billion dollars at a $40 billion valuation \u2014 up almost 50% in a quarter. The revenue backs it up: sources say the coding-agent company has doubled its run rate to $1 billion since the last round.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#cognition-40b-round"
+      "summary": "Not the delayed 3.5 Pro or the anticipated Gemini 4, but a play in a different category: efficiency. At 340 tokens per second it's more than twice as fast as GPT-56 and even edges NVIDIA's new Nemotron 3.5 Lightning, with solid gains on the DeepSwee coding benchmark and prices cut in half.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#gemini-37-flash-lands"
     },
     {
-      "id": "cursor-deal-looks-cheap",
-      "headline": "If Cognition prices at $40B, SpaceX's Cursor deal starts to look like a bargain",
+      "id": "flash-no-mans-land",
+      "headline": "Flash sits in an uncomfortable middle ground on cost-per-intelligence",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Cursor sought $50 billion on $2 billion in annualized revenue before SpaceX bought it for $60 billion in stock. Investors now openly speculate that a hyperscaler preempts Cognition with a $60-100 billion stock offer within a year \u2014 Cognition's Sandeep shot back: \"We aren't selling.\"",
-      "link": "https://aidailybrief.ai/e/2026-08-13#cursor-deal-looks-cheap"
+      "summary": "Even after the price cut, 3.7 Flash costs 40 cents per task on the Artificial Analysis run \u2014 the same as MuSpark, more than Nemotron 3 Ultra or GLM 5.2, and around eight times more than ultra-cheap models like GPT 56-Luna. Most users are either paying a little more for a frontier model or looking for something much cheaper.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#flash-no-mans-land"
     },
     {
-      "id": "lovable-shopify-turn",
-      "headline": "Lovable raises $400M and inches from vibe coding toward Shopify",
+      "id": "flash-defenders-pareto",
+      "headline": "The counter-case: for interactive coding, Flash's speed changes the math",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "The $13.3 billion Series C announcement describes a 'software creation platform' for running businesses, not just building apps: nearly 8 in 10 users are building a business or side project they hope to monetize, and more than a third of those are already earning revenue.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#lovable-shopify-turn"
+      "summary": "Vercel's Brandon Galang says to ignore the FUD \u2014 3.7 Flash sits on the Pareto frontier once you account for 5.6 Luna being a much smaller model \u2014 and analyst Max Weinbach is enjoying it in Anti-Gravity with 'insanely high' usage limits. For partially synchronous coding, where you sit and interact with the agent's output, speed can justify a premium even below frontier performance.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#flash-defenders-pareto"
     },
     {
-      "id": "neocloud-earnings-boom",
-      "headline": "The neo-clouds have a line out the door",
-      "type": "insight",
+      "id": "model-race-branching",
+      "headline": "The 'model race' is branching into multiple races",
+      "type": "take",
       "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "CoreWeave doubled revenue year-over-year to $2.6 billion for the quarter \u2014 with cash burn also doubling to $5.7 billion \u2014 and reported a $104 billion demand backlog, up $25 billion since June. Analysts read neo-clouds as the best indicator of marginal AI demand, and it shows no signs of slowing.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#neocloud-earnings-boom"
+      "summary": "There's still a race for the frontier \u2014 but also races for distribution, harnesses, and revenue. Within models alone, Google is betting speed is a dimension people will pay attention to, and the massive efficiency boost also makes 3.7 Flash a big upgrade for Gemini Spark, Google's personal agent.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#model-race-branching"
     },
     {
-      "id": "volozh-2027-capacity",
-      "headline": "We could sell today our entire 2027 capacity if we wanted.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "05:00",
-      "attribution": "Arkady Volozh, Nebius CEO, to investors",
-      "summary": "Nebius posted 454% revenue growth, beat earnings forecasts by 83%, and said its Blackwell compute auctions cleared 15% above the previous Hopper record. Markets rewarded the supply crunch: Nebius jumped 34%, CoreWeave 19%.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#volozh-2027-capacity"
-    },
-    {
-      "id": "china-capex-boom",
-      "headline": "China's CapEx boom is running the US playbook on a 3-6 month delay",
-      "type": "take",
+      "id": "cheap-chinese-models-arent-cheaper",
+      "headline": "Switching to a cheaper Chinese model won't necessarily save you money",
+      "type": "insight",
       "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Tencent tripled AI infrastructure spend to $7.8 billion, flipped free cash flow negative, and reassured markets it could sell compute but chooses not to \u2014 uncannily echoing US hyperscaler narratives from Q1. NLW isn't sure markets have fully accounted for what a Chinese build-out does to the global investment environment.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#china-capex-boom"
+      "summary": "An Alpha Sense study ran US and Chinese models through hundreds of real-world financial-analysis tasks. GPT 5.6 Sol completed the work around 13% cheaper than Kimi K3 with roughly 20% higher quality, while US open-weight models Gemma 4 and Inkling matched GLM 5.2's quality at less than one-fifth the cost. Sonnet 5 was the outlier: lower quality than Opus 4.8 at more than five times the price.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#cheap-chinese-models-arent-cheaper"
     },
     {
-      "id": "samsung-claude-code-chips",
-      "headline": "Samsung cut chip verification from three months to two days with Claude Code",
+      "id": "coco-token-price-deceives",
+      "headline": "Some of the more expensive models actually ended up being less costly because they were more efficient in using tokens.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "07:00",
+      "attribution": "Jack Coco, Alpha Sense CEO",
+      "summary": "The message for enterprise buyers and planners: price per token is a deceptive metric. The faster conventional wisdom shifts toward measuring efficiency on your actual tasks, the better off your budget will be.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#coco-token-price-deceives"
+    },
+    {
+      "id": "openai-ultra-fast-mode",
+      "headline": "OpenAI answers on speed: ultra fast mode for GPT-56 Sol",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "Per Korean reports, three months of Claude Code integration compressed complex tasks like system-on-chip verification from three months to two days, and let a second-year engineer finish a month-long task in a day. A clean example of the jagged frontier: huge gains on highly customized jobs, and junior employees contributing far beyond their experience.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#samsung-claude-code-chips"
+      "summary": "The company claims frontier intelligence at fourteen times the speed \u2014 750 tokens per second, more than double Gemini 3.7 Flash \u2014 leveraging its Cerebras optimizations. API-only for select customers, pitched at latency-sensitive work like real-time voice, commerce, coding, financial research, and security response. No word on the premium, but presumably it's not ultra cheap.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#openai-ultra-fast-mode"
     },
     {
-      "id": "open-models-testing-framework",
-      "headline": "The White House reverses: open models will face safety testing too",
+      "id": "dresser-departs-openai",
+      "headline": "OpenAI's CRO exits after nine months \u2014 the third senior departure in months",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "Wired reports the administration will expand its model testing framework to cover open models once they match frontier capabilities. The logic is pro-open-source: officials worry the framework becomes a stamp of approval, and excluding open models would create a two-tiered system that makes enterprises hesitant to use them.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#open-models-testing-framework"
+      "summary": "Denise Dresser, the Salesforce veteran and former Slack CEO brought in to ease investor concerns, is leaving; former Wiz president and COO Dolly Rajak replaces her. Coming days after Brad Lightcap's exit and following Fiji Simo's July departure, it looks like a pattern \u2014 and Axios sources suggest President Greg Brockman has been building up his own team of leaders.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#dresser-departs-openai"
     },
     {
-      "id": "voluntary-vs-formal-fight",
-      "headline": "Washington's testing framework is still a tug-of-war",
-      "type": "insight",
+      "id": "personnel-tea-leaves",
+      "headline": "Nine times out of ten, the Occam's razor explanation for personnel moves is personal",
+      "type": "take",
       "segment": "headlines",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "Treasury Secretary Bessent publicly cheered Meta's open-weight Muse Glimmer as 'another win for American innovation,' while President Trump reportedly insists the framework stay voluntary, believing formal regulation helps China catch up. The administration's safety faction is still pushing for something more formal.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#voluntary-vs-formal-fight"
+      "summary": "There's an outsized appetite right now to read every executive shift as a tea leaf for major problems inside OpenAI, and analyzing from outside is fraught. Still, the market is noticing \u2014 turnover is being flagged as a pre-IPO problem, though with the listing now delayed to next year, there's plenty of time to build another narrative.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#personnel-tea-leaves"
     },
     {
-      "id": "three-frontier-labs-again",
-      "headline": "Grok 4.6 puts three frontier labs back in the race",
+      "id": "capability-to-context",
+      "headline": "The bottleneck in AI has moved from capability to context",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "13:00",
+      "attribution": null,
+      "summary": "Two features launched this week make the shift concrete: just because a model can do something doesn't mean it has the information it needs to do it well relative to you personally. The new tools attack that gap directly \u2014 by watching you work.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#capability-to-context"
+    },
+    {
+      "id": "grokbot-teach-a-task",
+      "headline": "GrokBot lets you teach it a task by recording yourself doing it",
       "type": "insight",
       "segment": "main",
       "timestamp": "14:00",
       "attribution": null,
-      "summary": "A year ago 'frontier' meant the big three US closed labs; recently it meant OpenAI and Anthropic. Grok 4.6's release \u2014 alongside credible Chinese and open-weight entrants \u2014 flipped the vibe in weeks; as Nathan Lambert put it, from 'Anthropic is so far ahead' to model competition at all-time highs in about four.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#three-frontier-labs-again"
+      "summary": "In Cursor and SpaceX AI's simplified take on Open Claw, you hit a plus button in chat, record yourself doing something in the browser, and the bot watches \u2014 then theoretically can do it again. The Cursor team says many things GrokBot handles on its own, but if it's struggling, teaching it a task solves the problem in one fell swoop.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#grokbot-teach-a-task"
     },
     {
-      "id": "grok-benchmark-numbers",
-      "headline": "The benchmarks are hard to ignore \u2014 even with a bowlful of salt",
+      "id": "chatgpt-computer-history",
+      "headline": "ChatGPT's Computer History learns from everything you do on a computer",
       "type": "insight",
       "segment": "main",
       "timestamp": "15:00",
       "attribution": null,
-      "summary": "xAI claims Grok 4.6 edges past GPT-5.6 Soul and Fable 5 on GDPVal, and it jumped five points to 61 on the Artificial Analysis index \u2014 ahead of Kimi K3, tied with 5.6 Soul, a point or two behind Fable 5 and Opus 5. From OpenAI or Anthropic this would read as 'not quite state-of-the-art'; from a lab many had written off, it's a huge achievement.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#grok-benchmark-numbers"
+      "summary": "Per OpenAI's Ari Weinstein, it lets ChatGPT understand how you work, finish tasks you're in the middle of, and suggest skills and automations based on how you use your machine. Same goal as GrokBot's teach-a-task: show the AI how you work so it can do more of it.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#chatgpt-computer-history"
     },
     {
-      "id": "grok-price-efficiency",
-      "headline": "Frontier-adjacent performance at a fraction of the cost",
+      "id": "recall-redux",
+      "headline": "This is Windows Recall \u2014 except this time people want it",
       "type": "insight",
       "segment": "main",
-      "timestamp": "16:00",
+      "timestamp": "15:00",
       "attribution": null,
-      "summary": "Grok 4.6 keeps 4.5's pricing \u2014 $2 per million input, $6 per million output, 60% cheaper than GPT-5.6 Soul per token \u2014 and it's token-efficient too: Artificial Analysis's run cost 84 cents per task, 32% cheaper than 5.6 Soul and 73% cheaper than Fable.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#grok-price-efficiency"
+      "summary": "Microsoft's 2024 screenshot-everything feature was branded a privacy nightmare and had to be recalled and reworked. Now users are openly handing AI their history, medical records, and bank statements, and creators who quietly wanted Recall are saying so out loud. Part of it is shifting privacy attitudes; a technical difference helps too \u2014 as Simon Smith notes, Computer History records interaction events, not screens or audio.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#recall-redux"
     },
     {
-      "id": "real-world-mixed-reviews",
-      "headline": "Real-world testing is more mixed than the benchmarks",
-      "type": "insight",
+      "id": "value-prop-changed-not-just-attitudes",
+      "headline": "What changed isn't just privacy norms \u2014 it's the value proposition",
+      "type": "take",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Some testers are calling Grok 4.6 their new default \u2014 one blind bug-bench of 105 hidden bugs went well, and it held up on Martin Casado's technical tests. Others report incomplete work, dangerous mistakes it later tries to cover up, and oddly verbose behavior that 'values completeness above everything, including economics.'",
-      "link": "https://aidailybrief.ai/e/2026-08-13#real-world-mixed-reviews"
+      "summary": "Microsoft pitched Recall as solving 'finding something you've seen before on your PC' \u2014 not a big enough problem to risk the privacy trade. An AI agent that actually does your work for you is a much different value proposition, and now there's real choice in how agents get the context they need.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#value-prop-changed-not-just-attitudes"
     },
     {
-      "id": "wildcard-into-playoffs",
-      "headline": "Grok made the playoffs \u2014 against months-old competition",
+      "id": "ambient-vs-deliberate",
+      "headline": "Two paradigms for AI learning your work: ambient observation vs. deliberate demonstration",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "The sober read circulating in AI circles: 4.6 shows xAI is not out of the race but not at the top \u2014 middle-top-ish against GPT-5.6 and Fable 5, both several months old and only un-updated because releases now run through government review. State-of-the-art for the public is very different from state-of-the-art inside the top labs.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#wildcard-into-playoffs"
+      "summary": "Computer History is ambient \u2014 it watches across apps and builds context without effort on your part, which for many will be the killer feature. GrokBot's teach-a-task is deliberate \u2014 you intentionally decide 'I am going to teach you this skill,' show the workflow, and it saves the steps as a repeatable routine. Both patterns have real constituencies.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#ambient-vs-deliberate"
     },
     {
-      "id": "musk-real-world-engineering",
-      "headline": "I would be shocked if any model is better at real-world engineering than 4.7.",
-      "type": "quote",
+      "id": "deputization-not-automation",
+      "headline": "Deputize, don't automate",
+      "type": "take",
       "segment": "main",
       "timestamp": "19:00",
-      "attribution": "Elon Musk, on X",
-      "summary": "Musk says Grok 4.7 is significantly better than 4.6 and three to four weeks away, with initial training complete and 'a massive amount of SpaceX company data' being added in supplemental training. Notably, the community's reflexive skepticism of Musk timelines is softening \u2014 'I'm taking this seriously now' captured the mood.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#musk-real-world-engineering"
+      "attribution": null,
+      "summary": "The word choice is intentional: deputizing AI to go do something in your stead is a different relationship than automating a task away and never thinking about it again. That framing shapes the whole audit.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#deputization-not-automation"
     },
     {
-      "id": "brin-google-comeback",
-      "headline": "Don't count Google out while Sergey Brin is pushing resources",
+      "id": "audit-step-one-inventory",
+      "headline": "Step one: inventory your recurring processes",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "19:00",
+      "attribution": null,
+      "summary": "No matter how novel we want our work to be, a lot of it is stuff done day in, day out: email triage, weekly status reports, meeting prep, research briefs, CRM hygiene, content repurposing, scheduling, vendor portal chores, inbound lead qualification, metrics pulls. Recurring work is what deputization is built for.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#audit-step-one-inventory"
+    },
+    {
+      "id": "five-scoring-criteria",
+      "headline": "Score each process 0-2 on five dimensions",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "After the departures of Hassabis and Jeff Dean, many are counting Google out of the frontier race \u2014 but Reuters reports Brin is back as a key day-to-day force, telling engineers it's time to play catch-up and using co-founder power to push resources toward areas like recursive self-improvement. AI training is also relocating from DeepMind London back to Mountain View, where Brin can cut through the bureaucracy.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#brin-google-comeback"
+      "summary": "One: is it worth it \u2014 how often does it happen and how long does it take? Two: teachability \u2014 could you show it in a ten-minute screen share? Three: checkability \u2014 how long does verifying the output take versus doing it? Four: stakes \u2014 how bad is it if the AI gets it wrong and nobody catches it? Five: how much you personally are the key factor in the output's quality.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#five-scoring-criteria"
     },
     {
-      "id": "gemini-4-gamble",
-      "headline": "Google reportedly skips ahead to Gemini 4",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "Sentiment holds that a merely competent Gemini 3.5 Pro \u2014 already months late \u2014 would now read as failure. Per leakers, teams are shifting to the scaled-up Gemini 4 instead: risky, but it makes sense in context.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#gemini-4-gamble"
-    },
-    {
-      "id": "deepseek-v4-pro-flat",
-      "headline": "DeepSeek V4 Pro's leaked benchmarks look frontier; early reality doesn't",
+      "id": "deputize-duet-defend",
+      "headline": "Three tiers: deputize (8-10), duet (4-7), defend (0-3)",
       "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "Hours after Grok 4.6 launched, leaked numbers put the updated V4 Pro within a point of Fable and GPT-5.6 Soul on Terminal Bench and ahead on CyberGym. But Artificial Analysis scored it just 53 \u2014 barely ahead of V4 Flash and behind Kimi K3 \u2014 and first impressions skew toward 'benchmark slop,' though at roughly 1/12 Fable's price it stays interesting.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#deepseek-v4-pro-flat"
+      "summary": "Eight-plus means low stakes, high frequency, highly teachable, and it doesn't need to be you \u2014 hand it over, spot check, and start there with Computer History or GrokBot. Zero to three means keep it: mistakes are expensive or the person on the other end expects you. The catch is that most knowledge work today falls in the duet middle \u2014 and the real question is whether AI learns well enough over time to move duets into deputized.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#deputize-duet-defend"
     },
     {
-      "id": "cheap-enough-frontier",
-      "headline": "In late 2026, the question is where a model fits in the stack, not just raw power",
+      "id": "name-the-blocker",
+      "headline": "For everything you can't hand off, name the specific blocker",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "24:00",
+      "attribution": null,
+      "summary": "Because new tools change the equation blocker by blocker. Work trapped in legacy software with no API? Computer-use agents that click the same screens you do dissolve that. Processes you know how to do but can't write down? Now you can show rather than tell. Missing context might be solved by Computer History's ongoing observation \u2014 but probably not by a ten-minute GrokBot demo.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#name-the-blocker"
+    },
+    {
+      "id": "blockers-that-remain",
+      "headline": "Some blockers survive \u2014 and the new tools even create one",
       "type": "insight",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "The argument gaining ground: even if Kimi K3, Grok 4.6, and DeepSeek V4 Pro are more benchmark-maxed than Fable and GPT, it doesn't matter \u2014 they're an order of magnitude cheaper, and as the frontier advances, fewer people need the bleeding edge and need it less often. DeepSeek's inference reportedly uses about half the GPU time.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#cheap-enough-frontier"
+      "summary": "Work requiring taste or judgment, costly or irreversible mistakes, and tasks that depend on human relationships aren't solved by teach-a-task capabilities. And if privacy or security was the blocker, these tools can add one: recording your screen creates a new thing to secure.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#blockers-that-remain"
     },
     {
-      "id": "ramp-fable-5-ceiling",
-      "headline": "Ramp: businesses found their price ceiling with Fable 5",
+      "id": "grokbot-advanced-limits",
+      "headline": "GrokBot's day-two reviews: great for beginners, limiting for power users",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "Ramp's AI Index shows Fable 5 at just 6% of Anthropic tokens purchased and 11.4% of dollars spent \u2014 versus GPT-5.6 Soul's 25% of OpenAI tokens. Ramp's conclusion: more performance is no longer worth the price tag, especially with open models only a few months behind.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#ramp-fable-5-ceiling"
-    },
-    {
-      "id": "ramp-data-caveats",
-      "headline": "The Fable 5 'flop' data has two big holes in it",
-      "type": "take",
       "segment": "main",
       "timestamp": "26:00",
       "attribution": null,
-      "summary": "First, selection bias: Ramp's numbers come from a spend-management product whose users are literally optimizing away from more-powerful-than-needed models. Second, and more damning: Fable 5 carries a 30-day data retention requirement for US government safety checks, and many employees simply aren't allowed to use it \u2014 a detail Ramp's own economist later amplified.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#ramp-data-caveats"
+      "summary": "Superintelligent trainer Nufar Gaspar found GrokBot is good for people who haven't built complete agent systems yet, but advanced users hit walls \u2014 no control over which folder holds the relevant context, no model choice. If you've been through Claw Camp, it may not be a perfect fit.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#grokbot-advanced-limits"
     },
     {
-      "id": "more-choice-not-less",
-      "headline": "The leaders are holding back \u2014 and you still have more options than ever",
+      "id": "early-grokbot-patterns",
+      "headline": "Early GrokBot patterns: topic-per-bot with a chief of staff on top",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "John O'Neill, who owns a plumbing company, went from zero to automated dispatch and office chores in 24 hours with no engineers on payroll. Many users spin up individual bots for individual tasks but interact only through a main chief-of-staff bot that coordinates the rest \u2014 an early emerging best practice.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#early-grokbot-patterns"
+    },
+    {
+      "id": "universal-starter-job",
+      "headline": "The universal starter job: inbox/Slack tracker and morning brief",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "Matt Van Horne notes it's the same first job as for every agent generation before \u2014 except now it takes about a minute to set up. A good low-risk first experiment for anyone with GrokBot or Computer History access.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#universal-starter-job"
+    },
+    {
+      "id": "carving-out-the-time",
+      "headline": "The biggest barrier is carving out time to work differently",
       "type": "take",
       "segment": "main",
       "timestamp": "28:00",
       "attribution": null,
-      "summary": "Lurking behind everything: Anthropic and OpenAI both have more advanced models essentially ready, held back by government pressure, internal concern, or simply the absence of competitive urgency. Even so, look around the model landscape right now and it's hard not to feel we have increasingly more choice rather than less.",
-      "link": "https://aidailybrief.ai/e/2026-08-13#more-choice-not-less"
+      "summary": "Even highly AI-forward people struggle here \u2014 especially high-productivity workers whose workflows are so dialed in that changing them feels like a short-term waste of time, even when it would save a lot of time in the long run. The experiments are worth it; watch for GrokBot's cost to come down as access expands.",
+      "link": "https://aidailybrief.ai/e/2026-08-14#carving-out-the-time"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-13.mp3",
-  "generated": "2026-08-14T19:14:02Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-14.mp3",
+  "generated": "2026-08-16T09:29:32Z"
 }
