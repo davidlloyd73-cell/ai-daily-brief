@@ -909,6 +909,24 @@
    "resolution": "Vindicated if, by the check date, no widely adopted standard for per-task AI cost and error measurement has emerged, and further large employers publicly impose or tighten AI spending caps. Fails if a credible per-task cost-and-accuracy standard is in common enterprise use — published by vendors, auditors or a standards body — and reported cases of caps give way to reported cases of budgets being raised on measured returns.",
    "check_by": "2027-02-14",
    "status": "open"
+  },
+  {
+   "edition": "2026-08-16",
+   "side": "NLW",
+   "claim": "That the Clay-style AI writing policy — which bans laziness rather than AI itself: stand behind every sentence, writing is thinking, spend more time writing than readers spend reading, longer is not better — will be adopted at many more organisations soon, and that institutional anti-slop mechanisms such as LinkedIn's 'seems like AI slop' flag will measurably weaken the incentive to publish lazy AI writing.",
+   "source_url": "https://aidailybrief.ai/e/2026-08-16",
+   "resolution": "Vindicated if, by the check date, several further named organisations have published comparable company-wide AI writing policies framed around effort and ownership rather than prohibition, and platform anti-slop signals are reported to be reducing low-effort AI posting. Fails if policy adoption stalls at a handful of tech firms, or if organisations continue to default to outright bans or to no policy at all, with no measurable change in the volume of low-effort AI writing.",
+   "check_by": "2027-02-16",
+   "status": "open"
+  },
+  {
+   "edition": "2026-08-16",
+   "side": "Zitron",
+   "claim": "That genuine enterprise AI demand does not exist at scale outside OpenAI and Anthropic: Microsoft's estimated $34.43bn fiscal-2026 AI revenue collapses to roughly $10.33bn once OpenAI's own compute spend of about $24.1bn is removed, against $261.3bn of capital expenditure since 2022 — and therefore 'if Microsoft doesn't have the demand, nobody has the demand.'",
+   "source_url": "https://www.wheresyoured.at/dont-look-up/",
+   "resolution": "Vindicated if, by the check date, hyperscaler disclosures or credible analyst reconstructions still show AI revenue dominated by frontier-lab compute purchases, with non-lab enterprise AI revenue at Microsoft flat or growing far slower than capital expenditure. Fails if Microsoft or its peers report AI revenue excluding lab compute growing substantially — roughly doubling or better year on year — or disclose customer concentration materially lower than the seventy per cent he cites.",
+   "check_by": "2027-02-16",
+   "status": "open"
   }
  ]
 }

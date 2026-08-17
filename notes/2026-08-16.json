@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The cognitive commons problem is the GP training problem, and it is already here",
+      "body": "The paper NLW cites names something general practice will recognise immediately: checking the work requires expertise, expertise is built from years of unglamorous work, and the unglamorous work is exactly what gets automated first. Registrars have always learned by summarising notes, drafting the referral, reading the whole result set and having it picked apart in tutorial. Take that away and you keep the output while losing the apprenticeship that made someone able to spot when the output is wrong. His counter-question is the fair one — grunt work is not a law of nature — but nobody has yet shown what replaces it, and a training practice cannot wait for the literature. The practical move is small and boring: keep some work deliberately unassisted for trainees, and make the review of AI-drafted material an explicit teaching exercise rather than a rubber stamp."
+    },
+    {
+      "title": "Every prompt is a running cost — which changes what a practice should sign up to",
+      "body": "The point about AI being an operating expense rather than a one-off purchase matters more in a partnership than in a large corporate. If Zitron is right that the true cost has never been passed on and the reckoning is coming, a scribe subscription that is comfortable at today's price could be uncomfortable at three times it, and the practice that built its whole documentation workflow around it has no easy way back. If NLW is right and this is simply capital allocation done properly, the same discipline applies for the opposite reason: you want to know the value per unit, not the seat count. Either way the question to the supplier is identical — what is the price when the current contract ends, and could we run for a fortnight without it?"
+    },
+    {
+      "title": "Clay's writing policy translates almost directly to clinical records",
+      "body": "The four rules — stand behind every sentence, writing is thinking so do not circumvent it, spend more time writing than the reader spends reading, and longer is not better — read like guidance for consultation notes and Medical Examiner scrutiny summaries. A record padded by a model is worse than a short honest one, and length has never been a proxy for care. The useful framing is that the policy bans laziness rather than the tool: I sign the note, so I have to have thought it. That is also the practical defence when a record is later read by a coroner, a complaints team or a colleague picking up the patient at three in the morning."
+    }
+  ]
+}

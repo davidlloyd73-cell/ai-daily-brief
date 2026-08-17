@@ -1,291 +1,241 @@
 {
-  "date": "2026-08-14",
-  "title": "How to Decide What Work AI Should Do for You: The AI Deputization Audit",
-  "dek": "Two new features \u2014 GrokBot's teach-a-task and ChatGPT's Computer History \u2014 mark the moment the AI bottleneck officially moved from capability to context. But once your AI can learn how you work, you still have to decide what work it should actually do. NLW proposes a scoring system: the AI deputization audit.",
-  "source": "https://aidailybrief.ai/e/2026-08-14",
+  "date": "2026-08-16",
+  "title": "The New Problems AI Is Creating (And How People Are Solving Them)",
+  "dek": "A weekend deep-dive on the second-order problems of the agentic era \u2014 AI slop, token economics, de-skilling, the vanishing pipeline of expertise \u2014 and the case that companies aren't the bumbling laggards the media paints, but are already solving these problems in public, one shared playbook at a time.",
+  "source": "https://aidailybrief.ai/e/2026-08-16",
   "oneIdea": {
-    "headline": "AI's bottleneck has moved from capability to context \u2014 now the question is what you deputize.",
-    "summary": "GrokBot lets you teach a task by recording yourself doing it; ChatGPT's Computer History watches how you work and learns over time. Deliberate demonstration and ambient observation both solve the same problem: models are capable enough, they just don't know your work. What's left is a decision framework \u2014 score each recurring process on frequency, teachability, checkability, stakes, and how much it really needs to be you. Deputize the 8-10s, defend the 0-3s, and duet on everything in the middle, which is where most knowledge work still lives."
+    "headline": "We've stopped asking if AI is a thing \u2014 and started solving the problems it creates.",
+    "summary": "A year ago enterprises were still debating whether AI was overhyped. Now the questions have flipped from 'if' to 'how': how to police AI slop with writing policies instead of bans, how to allocate scarce tokens like capital instead of SaaS seats, how to measure value per unit of intelligence, and how to keep building experts when AI eats the grunt work. New technologies solve old problems while creating new ones \u2014 and the encouraging story of this year is how fast, and how publicly, organizations are working the new ones."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "The deputization audit fits a surgery well \u2014 until you reach the checkability column",
-        "body": "Inventory the recurring work of a practice and the list writes itself: coding and filing incoming letters, results acknowledgement, medication query triage, recall and QOF chasing, drafting routine referrals, insurance and DWP report first drafts, the endless summarising. Score those on NLW's five dimensions and most sit in his middle tier, because the third criterion \u2014 how long checking takes against doing \u2014 behaves differently in clinical work. A referral letter that reads well but has the wrong laterality costs more to miss than it saved to draft, and the responsible clinician signs it either way, so the check cannot be delegated with the task. That is the honest reason a scribe has been transformative while more ambitious hand-offs have not: the scribe produces something I was going to read carefully in any case."
+        "title": "The cognitive commons problem is the GP training problem, and it is already here",
+        "body": "The paper NLW cites names something general practice will recognise immediately: checking the work requires expertise, expertise is built from years of unglamorous work, and the unglamorous work is exactly what gets automated first. Registrars have always learned by summarising notes, drafting the referral, reading the whole result set and having it picked apart in tutorial. Take that away and you keep the output while losing the apprenticeship that made someone able to spot when the output is wrong. His counter-question is the fair one \u2014 grunt work is not a law of nature \u2014 but nobody has yet shown what replaces it, and a training practice cannot wait for the literature. The practical move is small and boring: keep some work deliberately unassisted for trainees, and make the review of AI-drafted material an explicit teaching exercise rather than a rubber stamp."
       },
       {
-        "title": "Ambient observation is the wrong shape for a consulting-room desktop",
-        "body": "A tool that watches everything you do across every application, and learns from it, is a very different information governance proposition in a surgery than in a marketing department. The screen holds other patients' records, open pathology, safeguarding notes and correspondence about third parties, and a continuous capture of interaction events is still processing of special category data that needs a DPIA, a clear lawful basis, and DCB0129/0160 clinical safety assurance from the supplier. Deliberate demonstration \u2014 you decide to record one workflow, on synthetic or your own test data \u2014 is much easier to justify than passive observation, and it is the option I would ask about first. If NLW is right that ambient context is where the real gains are, then practices will need suppliers to answer the governance questions properly rather than shipping a consumer feature into the NHS by the back door."
+        "title": "Every prompt is a running cost \u2014 which changes what a practice should sign up to",
+        "body": "The point about AI being an operating expense rather than a one-off purchase matters more in a partnership than in a large corporate. If Zitron is right that the true cost has never been passed on and the reckoning is coming, a scribe subscription that is comfortable at today's price could be uncomfortable at three times it, and the practice that built its whole documentation workflow around it has no easy way back. If NLW is right and this is simply capital allocation done properly, the same discipline applies for the opposite reason: you want to know the value per unit, not the seat count. Either way the question to the supplier is identical \u2014 what is the price when the current contract ends, and could we run for a fortnight without it?"
       },
       {
-        "title": "Cost the experiment at the price it will be, not the price it is",
-        "body": "NLW closes by suggesting the price of these agent tools will come down as access widens. Zitron's counter is that buyers have never seen the true cost, and that the arrival of real billing produced spending caps rather than enthusiasm. For a practice deciding whether to build a workflow around any of this, the two positions converge on the same prudent question to a supplier: what does this cost per unit of work, and what happens to that figure when the current pricing ends? A scribe subscription that is affordable at one price and unaffordable at three times it is a workflow risk as much as a budget one, and the mitigation is the dull one \u2014 do not build a process you could not run without the tool for a fortnight."
+        "title": "Clay's writing policy translates almost directly to clinical records",
+        "body": "The four rules \u2014 stand behind every sentence, writing is thinking so do not circumvent it, spend more time writing than the reader spends reading, and longer is not better \u2014 read like guidance for consultation notes and Medical Examiner scrutiny summaries. A record padded by a model is worse than a short honest one, and length has never been a proxy for care. The useful framing is that the policy bans laziness rather than the tool: I sign the note, so I have to have thought it. That is also the practical defence when a record is later read by a coroner, a complaints team or a colleague picking up the patient at three in the morning."
       }
     ]
   },
   "the_other_side": {
-    "source": "AI Doesn't Have ROI",
-    "url": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
-    "date": "2026-06-02",
+    "source": "Don't Look Up",
+    "url": "https://www.wheresyoured.at/dont-look-up/",
+    "date": "2026-08-11",
     "same_day": false,
-    "text": "NLW's lead is that models are now capable enough, the missing ingredient is context, and the sensible response is an audit that hands recurring work over. Zitron's nearest published argument attacks the arithmetic underneath that audit: he says nobody can measure the return on AI, or even \"create a standard measurement of the cost of a task\", because outputs are hallucination-prone and every harness behaves differently. His evidence is billing rather than benchmarks \u2014 GitHub Copilot users burning a third of a month's credits in a few hours once token pricing arrived, Uber's COO saying the spend was getting harder to justify, Walmart and Amazon telling staff to stop using AI for its own sake. And on the point NLW calls checkability, Zitron's position is that the vigilance never ends: a model with no ability to learn outside training can go wrong unpredictably on any given run, so the human stays in the loop indefinitely."
+    "text": "NLW's lead is that the argument has moved from whether AI is real to how to do it well, and that companies are working the second-order problems \u2014 token budgets, writing policies, de-skilling \u2014 quickly and in public. Zitron's most recent free piece argues that this sophistication is beside the point if the paying demand it implies never turns up in the vendors' own numbers. He puts Microsoft's fiscal 2026 AI revenue at roughly $34.4 billion, of which about $24.1 billion is OpenAI's own compute spend, leaving around $10.3 billion from every other AI product Microsoft sells, against $261.3 billion of capital expenditure since 2022 \u2014 \"$10.33 billion in annual revenue is a catastrophic failure.\" His inference is blunt: \"If Microsoft doesn't have the demand, nobody has the demand,\" and the enterprise playbooks being shared so enthusiastically are a story the market tells itself rather than a line of revenue anyone can point at."
   },
   "the_truth_beneath": {
-    "text": "Both men orbit one variable: the cost of checking work you have handed over, and whether that cost falls as the machine learns how you work. They agree on more than the framing admits \u2014 that most delegable work is dull and recurring, that output must be verified, and that users have been shielded from what a task really costs. The empirical question is whether verification and cost per task fall as observed context accumulates; the observable that settles it is organisations publishing before-and-after error rates and per-task spend on a specific deputized process, rather than adoption anecdotes. The residue is worldview: Whittemore reads a solvable context gap, Zitron an unmeasurable product sold on obscured pricing. Whittemore is vindicated if recurring processes run on spot checks at stable cost; Zitron if checking still takes as long as doing and bills keep surprising people. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is their shared premise that checkability decides everything. Watch for the first honest published per-task cost and error rate on a deputized workflow."
+    "text": "The single variable both men orbit is whether enterprise AI use converts into money \u2014 real, paid, non-lab demand. They accept more in common than the framing suggests: that inference carries a genuine marginal cost, that firms have exhausted annual budgets in months, and that the two frontier labs account for most of what is currently being spent on compute. The empirical question is what non-lab enterprise AI revenue does over the next year, and the observable that settles it is hyperscaler AI revenue reported separately from OpenAI's and Anthropic's own compute purchases. Whittemore is vindicated if that residual line grows sharply while firms raise budgets on measured returns; Zitron if it stays near ten billion for Microsoft while capital expenditure climbs. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is what they agree on despite opposite priors: tokens are an operating expense and value has to be shown per unit. Watch the next quarter's disclosure of AI revenue apart from lab compute."
   },
   "headlines": [
     {
-      "id": "gemini-37-flash-lands",
-      "headline": "Google ships Gemini 3.7 Flash \u2014 and it's built for speed",
+      "id": "ey-productivity-takes-time",
+      "headline": "EY: history says the productivity boom won't be immediate",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "01:00",
-      "attribution": null,
-      "summary": "Not the delayed 3.5 Pro or the anticipated Gemini 4, but a play in a different category: efficiency. At 340 tokens per second it's more than twice as fast as GPT-56 and even edges NVIDIA's new Nemotron 3.5 Lightning, with solid gains on the DeepSwee coding benchmark and prices cut in half.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#gemini-37-flash-lands"
-    },
-    {
-      "id": "flash-no-mans-land",
-      "headline": "Flash sits in an uncomfortable middle ground on cost-per-intelligence",
-      "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Even after the price cut, 3.7 Flash costs 40 cents per task on the Artificial Analysis run \u2014 the same as MuSpark, more than Nemotron 3 Ultra or GLM 5.2, and around eight times more than ultra-cheap models like GPT 56-Luna. Most users are either paying a little more for a frontier model or looking for something much cheaper.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#flash-no-mans-land"
+      "summary": "The steam engine took nearly a century to show up in Britain's sustained productivity growth, electricity took roughly five decades, and computers close to a decade. The first stage of any technology revolution is infrastructure build-out \u2014 data centers, chips, power, talent \u2014 before gains diffuse across the economy.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#ey-productivity-takes-time"
     },
     {
-      "id": "flash-defenders-pareto",
-      "headline": "The counter-case: for interactive coding, Flash's speed changes the math",
-      "type": "insight",
-      "segment": "headlines",
+      "id": "jagged-productivity",
+      "headline": "Productivity gains are as jagged as the capabilities",
+      "type": "take",
+      "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Vercel's Brandon Galang says to ignore the FUD \u2014 3.7 Flash sits on the Pareto frontier once you account for 5.6 Luna being a much smaller model \u2014 and analyst Max Weinbach is enjoying it in Anti-Gravity with 'insanely high' usage limits. For partially synchronous coding, where you sit and interact with the agent's output, speed can justify a premium even below frontier performance.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#flash-defenders-pareto"
+      "summary": "Some areas deliver immediate, transparent, huge gains; others stay stubbornly stuck. And integrating agentic work with new human oversight creates a whole new set of work that, in the short term, fills in the time you won back \u2014 a transitional phase, not a wash.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#jagged-productivity"
     },
     {
-      "id": "model-race-branching",
-      "headline": "The 'model race' is branching into multiple races",
-      "type": "take",
-      "segment": "headlines",
+      "id": "ai-is-not-nearly-free",
+      "headline": "AI isn't nearly free \u2014 every prompt is an operating expense",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "There's still a race for the frontier \u2014 but also races for distribution, harnesses, and revenue. Within models alone, Google is betting speed is a dimension people will pay attention to, and the massive efficiency boost also makes 3.7 Flash a big upgrade for Gemini Spark, Google's personal agent.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#model-race-branching"
+      "summary": "Unlike traditional enterprise software, AI carries a meaningful marginal cost every time it's used, turning a one-time technology investment into a recurring operating expense. Firms have reported exhausting annual AI budgets within months, and EY's implication is clear: manage AI like any other capital allocation, where the value per token has to exceed its cost.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#ai-is-not-nearly-free"
     },
     {
-      "id": "cheap-chinese-models-arent-cheaper",
-      "headline": "Switching to a cheaper Chinese model won't necessarily save you money",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "06:00",
-      "attribution": null,
-      "summary": "An Alpha Sense study ran US and Chinese models through hundreds of real-world financial-analysis tasks. GPT 5.6 Sol completed the work around 13% cheaper than Kimi K3 with roughly 20% higher quality, while US open-weight models Gemma 4 and Inkling matched GLM 5.2's quality at less than one-fifth the cost. Sonnet 5 was the outlier: lower quality than Opus 4.8 at more than five times the price.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#cheap-chinese-models-arent-cheaper"
-    },
-    {
-      "id": "coco-token-price-deceives",
-      "headline": "Some of the more expensive models actually ended up being less costly because they were more efficient in using tokens.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "07:00",
-      "attribution": "Jack Coco, Alpha Sense CEO",
-      "summary": "The message for enterprise buyers and planners: price per token is a deceptive metric. The faster conventional wisdom shifts toward measuring efficiency on your actual tasks, the better off your budget will be.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#coco-token-price-deceives"
-    },
-    {
-      "id": "openai-ultra-fast-mode",
-      "headline": "OpenAI answers on speed: ultra fast mode for GPT-56 Sol",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "07:00",
-      "attribution": null,
-      "summary": "The company claims frontier intelligence at fourteen times the speed \u2014 750 tokens per second, more than double Gemini 3.7 Flash \u2014 leveraging its Cerebras optimizations. API-only for select customers, pitched at latency-sensitive work like real-time voice, commerce, coding, financial research, and security response. No word on the premium, but presumably it's not ultra cheap.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#openai-ultra-fast-mode"
-    },
-    {
-      "id": "dresser-departs-openai",
-      "headline": "OpenAI's CRO exits after nine months \u2014 the third senior departure in months",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "Denise Dresser, the Salesforce veteran and former Slack CEO brought in to ease investor concerns, is leaving; former Wiz president and COO Dolly Rajak replaces her. Coming days after Brad Lightcap's exit and following Fiji Simo's July departure, it looks like a pattern \u2014 and Axios sources suggest President Greg Brockman has been building up his own team of leaders.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#dresser-departs-openai"
-    },
-    {
-      "id": "personnel-tea-leaves",
-      "headline": "Nine times out of ten, the Occam's razor explanation for personnel moves is personal",
+      "id": "agentic-broke-the-saas-math",
+      "headline": "Agentic AI broke the SaaS math",
       "type": "take",
-      "segment": "headlines",
+      "segment": "main",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "For AI's first few years, the equation was headcount times seat cost times twelve months versus value created. Agentic AI makes it less like software and more like a new type of labor \u2014 and the real surprise wasn't the shift itself, but how fast enfranchised employees could burn through expensive tokens.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#agentic-broke-the-saas-math"
+    },
+    {
+      "id": "token-budgets-arent-panic",
+      "headline": "Token budgets aren't panic \u2014 they're architecture",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "The media discourse treating enterprises as incompetent bumpkins frantically slapping on usage caps is infuriating and wrong. Serious organizations are building complete architectures \u2014 different models and structures for different problems, different access levels for different people \u2014 and pairing caps with pathways to apply for more budget or demonstrate you deserve it.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#token-budgets-arent-panic"
+    },
+    {
+      "id": "layoff-excuse-is-a-crock",
+      "headline": "Blaming 40% of layoffs on AI is 'a complete and utter crock'",
+      "type": "take",
+      "segment": "main",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "There's an outsized appetite right now to read every executive shift as a tea leaf for major problems inside OpenAI, and analyzing from outside is fraught. Still, the market is noticing \u2014 turnover is being flagged as a pre-IPO problem, though with the listing now delayed to next year, there's plenty of time to build another narrative.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#personnel-tea-leaves"
+      "summary": "The 'AI makes labor redundant' misconception was pushed by two groups: lab leaders (some now walking it back) and business leaders who needed a market-acceptable excuse for layoffs. That excuse isn't working anymore \u2014 and every story of companies re-hiring people they fired puts a dagger further into it.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#layoff-excuse-is-a-crock"
     },
     {
-      "id": "capability-to-context",
-      "headline": "The bottleneck in AI has moved from capability to context",
+      "id": "anti-slop-immune-system",
+      "headline": "The anti-slop immune system is coming online",
       "type": "insight",
       "segment": "main",
-      "timestamp": "13:00",
+      "timestamp": "10:00",
       "attribution": null,
-      "summary": "Two features launched this week make the shift concrete: just because a model can do something doesn't mean it has the information it needs to do it well relative to you personally. The new tools attack that gap directly \u2014 by watching you work.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#capability-to-context"
+      "summary": "Institutional and social immune systems are responding to the flood of terrible AI writing: AI detectors on Substack (about which NLW remains skeptical) and LinkedIn's new button letting readers flag that a post 'seems like AI slop.' The more of these systems emerge, the weaker the incentive to be lazy with AI writing.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#anti-slop-immune-system"
     },
     {
-      "id": "grokbot-teach-a-task",
-      "headline": "GrokBot lets you teach it a task by recording yourself doing it",
+      "id": "clay-ai-writing-policy",
+      "headline": "Clay's AI writing policy: four rules against laziness",
       "type": "insight",
       "segment": "main",
-      "timestamp": "14:00",
+      "timestamp": "11:00",
       "attribution": null,
-      "summary": "In Cursor and SpaceX AI's simplified take on Open Claw, you hit a plus button in chat, record yourself doing something in the browser, and the bot watches \u2014 then theoretically can do it again. The Cursor team says many things GrokBot handles on its own, but if it's struggling, teaching it a task solves the problem in one fell swoop.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#grokbot-teach-a-task"
+      "summary": "Co-founder Varun Anand published Clay's official policy \u2014 originally for engineering, expanded company-wide: stand behind every idea and sentence; writing is thinking, so don't circumvent it; spend more time writing a document than readers spend consuming it; and longer is not better \u2014 if you generated a doc from a short prompt, consider just sharing the prompt.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#clay-ai-writing-policy"
     },
     {
-      "id": "chatgpt-computer-history",
-      "headline": "ChatGPT's Computer History learns from everything you do on a computer",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": null,
-      "summary": "Per OpenAI's Ari Weinstein, it lets ChatGPT understand how you work, finish tasks you're in the middle of, and suggest skills and automations based on how you use your machine. Same goal as GrokBot's teach-a-task: show the AI how you work so it can do more of it.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#chatgpt-computer-history"
-    },
-    {
-      "id": "recall-redux",
-      "headline": "This is Windows Recall \u2014 except this time people want it",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": null,
-      "summary": "Microsoft's 2024 screenshot-everything feature was branded a privacy nightmare and had to be recalled and reworked. Now users are openly handing AI their history, medical records, and bank statements, and creators who quietly wanted Recall are saying so out loud. Part of it is shifting privacy attitudes; a technical difference helps too \u2014 as Simon Smith notes, Computer History records interaction events, not screens or audio.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#recall-redux"
-    },
-    {
-      "id": "value-prop-changed-not-just-attitudes",
-      "headline": "What changed isn't just privacy norms \u2014 it's the value proposition",
+      "id": "ban-laziness-not-ai",
+      "headline": "The best AI writing policy doesn't ban AI \u2014 it bans laziness",
       "type": "take",
+      "segment": "main",
+      "timestamp": "12:00",
+      "attribution": null,
+      "summary": "Clay's policy doesn't brand anyone with a scarlet letter for using AI or even create subtle social pressure against it. It's an injunction to respect that the process of producing something is often as valuable as the output \u2014 and with 8,377 reactions on the post, expect it to show up at many more organizations soon.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#ban-laziness-not-ai"
+    },
+    {
+      "id": "friar-zero-day-close",
+      "headline": "OpenAI's CFO set two bold ambitions: a zero-day close and continuous forecasting",
+      "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Microsoft pitched Recall as solving 'finding something you've seen before on your PC' \u2014 not a big enough problem to risk the privacy trade. An AI agent that actually does your work for you is a much different value proposition, and now there's real choice in how agents get the context they need.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#value-prop-changed-not-just-attitudes"
+      "summary": "In 'What Building an AI-Native Finance Function Taught Me,' Sarah Friar describes moving past static spreadsheets toward a real-time, reconciled, traceable view of the company's finances plus continuously updated forecasts. Getting there requires redesigning work around the decisions that matter \u2014 not just adopting new technology.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#friar-zero-day-close"
     },
     {
-      "id": "ambient-vs-deliberate",
-      "headline": "Two paradigms for AI learning your work: ambient observation vs. deliberate demonstration",
+      "id": "access-plus-structure",
+      "headline": "Give everyone access \u2014 then create a reason to use it",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "Computer History is ambient \u2014 it watches across apps and builds context without effort on your part, which for many will be the killer feature. GrokBot's teach-a-task is deliberate \u2014 you intentionally decide 'I am going to teach you this skill,' show the workflow, and it saves the steps as a repeatable routine. Both patterns have real constituencies.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#ambient-vs-deliberate"
+      "summary": "Friar's first lesson: access creates the most value when paired with structured experimentation around real problems \u2014 bottom-up experimentation plus top-down strategy. Intercompany hackathons have gone from sneer-worthy to a genuinely useful architecture showing up everywhere.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#access-plus-structure"
     },
     {
-      "id": "deputization-not-automation",
-      "headline": "Deputize, don't automate",
+      "id": "roi-proof-trap",
+      "headline": "Demanding ROI proof for every use case selects for the smallest wins",
       "type": "take",
       "segment": "main",
-      "timestamp": "19:00",
+      "timestamp": "18:00",
       "attribution": null,
-      "summary": "The word choice is intentional: deputizing AI to go do something in your stead is a different relationship than automating a task away and never thinking about it again. That framing shapes the whole audit.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#deputization-not-automation"
+      "summary": "As organizations design more sophisticated ways to allocate scarce tokens, requiring everyone to prove ROI for every single use case will yield only the easiest-to-prove use cases \u2014 simple productivity enhancements, not the total reimaginings of work where the real leverage lives.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#roi-proof-trap"
     },
     {
-      "id": "audit-step-one-inventory",
-      "headline": "Step one: inventory your recurring processes",
+      "id": "finance-pros-become-builders",
+      "headline": "Professionals of all stripes are becoming builders",
       "type": "insight",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "No matter how novel we want our work to be, a lot of it is stuff done day in, day out: email triage, weekly status reports, meeting prep, research briefs, CRM hygiene, content repurposing, scheduling, vendor portal chores, inbound lead qualification, metrics pulls. Recurring work is what deputization is built for.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#audit-step-one-inventory"
+      "summary": "OpenAI research shows 40% of finance professionals' specialized AI use involves work outside traditional finance, and 22% involves engineering-related tasks. Friar says everyone on her team is building custom dashboards and tools with ChatGPT and Codex \u2014 work moving from static Excel and PowerPoint to live tools on the full context of the business.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#finance-pros-become-builders"
     },
     {
-      "id": "five-scoring-criteria",
-      "headline": "Score each process 0-2 on five dimensions",
+      "id": "value-per-unit-of-intelligence",
+      "headline": "Measure value per unit of intelligence, not seats or tokens",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "One: is it worth it \u2014 how often does it happen and how long does it take? Two: teachability \u2014 could you show it in a ten-minute screen share? Three: checkability \u2014 how long does verifying the output take versus doing it? Four: stakes \u2014 how bad is it if the AI gets it wrong and nobody catches it? Five: how much you personally are the key factor in the output's quality.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#five-scoring-criteria"
+      "summary": "Friar's scorecard asks four questions per workflow: Did AI complete work that mattered? What did it cost, including employee time, review, and rework? Was the result good enough to use? Did it help us move faster or make a better decision? Buying more seats or burning more tokens tells you almost nothing.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#value-per-unit-of-intelligence"
     },
     {
-      "id": "deputize-duet-defend",
-      "headline": "Three tiers: deputize (8-10), duet (4-7), defend (0-3)",
+      "id": "lighthouse-team-10x",
+      "headline": "Token maxing is stupid \u2014 but so is token minimizing",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "21:00",
+      "attribution": null,
+      "summary": "Section CEO Greg Shove's advice to CEOs: don't shrink the budget before you can see gains \u2014 invest in transformation and accept you won't have the full picture for one to two years. Pick a lighthouse team and 10\u00d7 the investment, and avoid the 12-month stall: don't get skeptical, get specific about which teams are blocked and why.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#lighthouse-team-10x"
+    },
+    {
+      "id": "own-the-enterprise-cortex",
+      "headline": "The CEO question changed: from 'which model' to 'own the harness'",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "22:00",
+      "attribution": null,
+      "summary": "BCG Global Chair Rich Lesser says the most common CEO question has quietly shifted from 'Which model should we use?' to 'Are we committing too much too soon to an evolving ecosystem?' The answer: organizations should own the harness where their 'enterprise cortex' \u2014 IP, data, business rules, codified process knowledge \u2014 lives, able to use any model or combination of models.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#own-the-enterprise-cortex"
+    },
+    {
+      "id": "distributed-deskilling",
+      "headline": "The risk leaders aren't tracking: distributed de-skilling",
       "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "Eight-plus means low stakes, high frequency, highly teachable, and it doesn't need to be you \u2014 hand it over, spot check, and start there with Computer History or GrokBot. Zero to three means keep it: mistakes are expensive or the person on the other end expects you. The catch is that most knowledge work today falls in the duet middle \u2014 and the real question is whether AI learns well enough over time to move duets into deputized.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#deputize-duet-defend"
+      "summary": "Per a BCG paper, the quiet erosion of judgment, critical thinking, and problem framing across a workforce can happen while adoption numbers look great on a dashboard \u2014 half of surveyed leaders already see it, and over 60% expect it to be a real threat within three to five years. Fewer than one in five employees feel confident using AI today; token usage isn't a proxy for adoption, confidence is.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#distributed-deskilling"
     },
     {
-      "id": "name-the-blocker",
-      "headline": "For everything you can't hand off, name the specific blocker",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "Because new tools change the equation blocker by blocker. Work trapped in legacy software with no API? Computer-use agents that click the same screens you do dissolve that. Processes you know how to do but can't write down? Now you can show rather than tell. Missing context might be solved by Computer History's ongoing observation \u2014 but probably not by a ten-minute GrokBot demo.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#name-the-blocker"
-    },
-    {
-      "id": "blockers-that-remain",
-      "headline": "Some blockers survive \u2014 and the new tools even create one",
+      "id": "kpmg-talent-underspend",
+      "headline": "KPMG: companies are overspending on technology and underspending on talent",
       "type": "insight",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "Work requiring taste or judgment, costly or irreversible mistakes, and tasks that depend on human relationships aren't solved by teach-a-task capabilities. And if privacy or security was the blocker, these tools can add one: recording your screen creates a new thing to secure.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#blockers-that-remain"
+      "summary": "Executives are twice as likely to increase investment in new technology as in employee training; 57% prioritize performance and efficiency while under 10% prioritize workforce training. The payoff for doing both: 37% of leaders who increased workforce investment reported 20%+ revenue growth over three years, versus 25% overall.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#kpmg-talent-underspend"
     },
     {
-      "id": "grokbot-advanced-limits",
-      "headline": "GrokBot's day-two reviews: great for beginners, limiting for power users",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "26:00",
-      "attribution": null,
-      "summary": "Superintelligent trainer Nufar Gaspar found GrokBot is good for people who haven't built complete agent systems yet, but advanced users hit walls \u2014 no control over which folder holds the relevant context, no model choice. If you've been through Claw Camp, it may not be a perfect fit.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#grokbot-advanced-limits"
-    },
-    {
-      "id": "early-grokbot-patterns",
-      "headline": "Early GrokBot patterns: topic-per-bot with a chief of staff on top",
+      "id": "tragedy-cognitive-commons",
+      "headline": "Who checks AI's homework in 15 years?",
       "type": "insight",
       "segment": "main",
       "timestamp": "27:00",
       "attribution": null,
-      "summary": "John O'Neill, who owns a plumbing company, went from zero to automated dispatch and office chores in 24 hours with no engineers on payroll. Many users spin up individual bots for individual tasks but interact only through a main chief-of-staff bot that coordinates the rest \u2014 an early emerging best practice.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#early-grokbot-patterns"
+      "summary": "A paper called 'The Tragedy of the Cognitive Commons,' surfaced by Zara Zhang, names the bind: checking AI output requires deep expertise, deep expertise comes from years of grunt work, and grunt work is the first thing AI eats. Each company eliminating junior roles acts rationally; collectively, professions lose the ability to catch AI's mistakes. NLW's counter-question: is grunt work a law of nature, or just how expertise has always happened \u2014 and are there other ways to build it?",
+      "link": "https://aidailybrief.ai/e/2026-08-16#tragedy-cognitive-commons"
     },
     {
-      "id": "universal-starter-job",
-      "headline": "The universal starter job: inbox/Slack tracker and morning brief",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "27:00",
-      "attribution": null,
-      "summary": "Matt Van Horne notes it's the same first job as for every agent generation before \u2014 except now it takes about a minute to set up. A good low-risk first experiment for anyone with GrokBot or Computer History access.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#universal-starter-job"
-    },
-    {
-      "id": "carving-out-the-time",
-      "headline": "The biggest barrier is carving out time to work differently",
+      "id": "from-if-to-how",
+      "headline": "The big TLDR: we've gone from 'if' questions to 'how' questions",
       "type": "take",
       "segment": "main",
       "timestamp": "28:00",
       "attribution": null,
-      "summary": "Even highly AI-forward people struggle here \u2014 especially high-productivity workers whose workflows are so dialed in that changing them feels like a short-term waste of time, even when it would save a lot of time in the long run. The experiments are worth it; watch for GrokBot's cost to come down as access expands.",
-      "link": "https://aidailybrief.ai/e/2026-08-14#carving-out-the-time"
+      "summary": "Over the past year, businesses moved from the not-particularly-useful question of whether AI is going to be a thing to the far more valuable questions of how to do it well. Keep asking those questions and sharing your answers in public \u2014 so everyone doesn't have to solve them alone.",
+      "link": "https://aidailybrief.ai/e/2026-08-16#from-if-to-how"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-14.mp3",
-  "generated": "2026-08-16T09:29:32Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-16.mp3",
+  "generated": "2026-08-17T19:09:11Z"
 }
