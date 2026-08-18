@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "\"Show, don't tell\" is the same standard we apply to any new treatment",
+      "body": "Dario's concession — that the fairest criticism is that the promises haven't been delivered, and that saying AI will cure cancer is a cliche while actually curing cancer is not — is simply the evidential standard general practice already uses. We do not adopt a drug because the manufacturer describes its mechanism beautifully; we wait for the endpoint. The counter from OpenAI's side of the argument is worth holding alongside it: pharma has delivered enormous gains in human health and remains among the least trusted industries, because trust turns on pricing, access, opacity and who holds the power, not on efficacy alone. That is a familiar shape in the NHS. An AI tool can work and still be resented if the practice cannot see what it does with the data or what it will cost next year."
+    },
+    {
+      "title": "The best model is one you will never be offered — and that matters for procurement",
+      "body": "Anthropic's own risk report describes an unreleased internal model scoring materially above the public frontier, with no plans to release it. Whatever one makes of the safety reasoning, the practical consequence for a surgery is that the capability you are being sold is a deliberately chosen subset of what exists, and it can be changed under you. If NLW is right that options are multiplying and getting cheaper, that is mostly good news: a scribe or triage tool becomes a commodity you can swap. If Zitron is right that the economics are unsustainable, the same fact cuts the other way — the model behind your workflow can be withdrawn, throttled or repriced without your consent. Either reading points to one contractual question: what happens to our records and our workflow if the model we depend on changes or disappears?"
+    },
+    {
+      "title": "A two-trillion-dollar valuation is a clinical governance issue, indirectly",
+      "body": "It is tempting to skip the IPO stories as City noise, but the pricing of these companies determines the pressure they will be under to raise prices, and NHS primary care buys on the assumption that today's per-seat cost is roughly tomorrow's. If Zitron's reading is right and the numbers are being priced on a business that does not yet exist, the correction lands as a cost increase or a withdrawn free tier. If NLW's reading is right and revenue genuinely grows into the valuation, competition should hold prices down. Neither outcome is knowable now, so the sensible practice posture is the boring one: short contracts, exportable records, and a documented way of working for a fortnight without the tool."
+    }
+  ]
+}

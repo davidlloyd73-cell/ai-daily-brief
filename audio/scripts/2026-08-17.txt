@@ -1,0 +1,17 @@
+David's AI brief for Monday, the seventeenth of August.
+
+The one idea today is that trust cannot be repaired by messaging. It can only be repaired by delivering.
+
+It began with a rumour. On a podcast, an investor said several people he trusted had told him that Dario Amodei, the chief executive of Anthropic, believes his company might one day be the only private company left in the world. Just Anthropic, governments, and everybody else. Amodei almost never posts in public, and had written nothing since June. This time he came out with a few hundred words.
+
+He made three arguments. The first was that the choice between concentrating power through regulation and distributing it widely is a false one, and that the Silicon Valley shorthand, that regulation always means capture, underrates what fair institutional process can do. The second was structural: artificial intelligence concentrates power because of the way scaling works, and open weights only move that concentration to whoever holds the most compute. The third gave the episode its title. By far the most accurate criticism of AI companies, he said, including his own, is that they have not yet delivered on their big promises to benefit the world. Saying that AI will cure cancer, he added, is more of a cliche than it is inspiring. The thing that will work is actually curing cancer.
+
+Elsewhere: a Chinese laboratory released a mid-sized model within about five points of the frontier at less than a tenth of the cost. Anthropic's risk report disclosed an unreleased internal model, more capable than anything it sells, that it has no plans to release. And investors told the Financial Times they expect it to go public at around two trillion dollars.
+
+Now, the other side. Ed Zitron, writing the following day, reads exactly the same week and sees a financing problem being dressed up as a narrative one. He calls the two trillion figure a pre-IPO marketing campaign rather than reporting, and objects that the company is being priced on revenue it might book in two years while its actual losses go unmentioned. Valuing a business on what it could become, he says, is a euphemism for asking you to ignore your lying eyes.
+
+What is worth noticing is how much the two agree on. Both accept the promises are so far undelivered, and that annualised run rates are marketing. They differ on whether delivery arrives before the money runs out — a question a public filing would settle rather than an argument.
+
+Three thoughts for the surgery. The first is that show, don't tell, is the standard we already use. We do not adopt a drug because its mechanism is described beautifully. We wait for the endpoint. The second is that the model behind your scribe is a chosen subset of what exists, and it can be changed under you, so the contract matters more than the demonstration. And the third is that a two trillion dollar valuation is quietly a governance question, because the pricing of these companies determines the pressure they will be under to raise ours. Short contracts. Exportable records. A documented way of working for a fortnight without the tool.
+
+That's the brief — source, The AI Daily Brief.
