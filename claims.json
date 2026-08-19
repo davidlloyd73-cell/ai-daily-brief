@@ -945,6 +945,24 @@
       "resolution": "Vindicated if, by the check date, no Anthropic IPO has priced near $2 trillion, or a filed S-1 or equivalent disclosure shows large continuing operating losses and compute commitments broadly matching his reconstruction, or the valuation talk is publicly walked back. Fails if Anthropic files and prices at or above roughly $2 trillion on audited numbers showing revenue and margins consistent with the reported forecasts, without reliance on one-off compute discounts.",
       "check_by": "2027-02-18",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-18",
+      "side": "NLW",
+      "claim": "That Stripe's $7 billion purchase of OpenRouter is correctly priced rather than an overpay — that tokens are becoming an essential currency of the internet economy, that users need to move freely between categories of them, and that owning the leading gateway 'pays off for Stripe in big ways.'",
+      "source_url": "https://aidailybrief.ai/e/2026-08-18",
+      "resolution": "Vindicated if, by the check date, OpenRouter under Stripe shows materially higher routed token volume or paying developer accounts than at acquisition, or Stripe discloses AI/token infrastructure as a named growth line, or the gateway is credibly reported as default plumbing for multi-model buying. Fails if routed volume is flat or falling, if major labs successfully route customers around gateways with direct discounted bulk pricing, or if Stripe writes the deal down, folds OpenRouter into a general product line, or sheds its team.",
+      "check_by": "2027-02-18",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-18",
+      "side": "Zitron",
+      "claim": "That current AI usage is an artefact of temporary subsidy rather than durable demand — that inference is sold far below cost, that corporate 'token-maxxing initiatives' will have petered out within the year, and that enterprise customers are becoming cost-conscious exactly when the labs need them to spend more.",
+      "source_url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
+      "resolution": "Vindicated if, by the check date, enterprise AI spend on unsubsidised metered contracts is flat or falling — visible in Ramp-style corporate card data, published seat-and-token renewal figures, or labs reintroducing discounts and bulk token pricing to hold volume. Fails if enterprises renew and expand metered agent spend at or near list price, or if per-token prices fall far enough that current workflows remain economic without vendor subsidy.",
+      "check_by": "2027-02-18",
+      "status": "open"
     }
   ]
 }

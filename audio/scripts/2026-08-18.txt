@@ -1,0 +1,25 @@
+David's AI brief for Tuesday, the eighteenth of August.
+
+The one idea today is that knowledge work is shifting from doing our work to managing agents that do our work, and that five new skills follow from that shift.
+
+The list is borrowed in spirit from Andrew Ng's skills map for developers, and rebuilt for everybody else. The first skill is capability mapping: knowing what the tool is genuinely good at, and where it is not. Ethan Mollick calls that boundary the jagged frontier, and the point is that nobody can hand you the map. You learn it by trial and error, on your own work.
+
+The second is context and harness management. The harness is everything surrounding the model — the instructions, the documents it can see, what it may do, what it remembers. Most people are still typing a bare prompt and hoping.
+
+The third is prototyping — not marketers becoming software engineers, but building the small thing that does the work rather than doing it by hand. The fourth is spotting what has newly become possible. And the fifth is rapid skill acquisition, the meta-skill: noticing which adjacent skills have suddenly become worth having.
+
+Underneath all five sits domain judgment. Because ChatGPT can write the copy does not mean someone with no marketing experience can run a campaign. Judgment, he argues, comes in three forms: personal, borrowed from colleagues, or embedded in the rubrics and examples you give the machine.
+
+Elsewhere: Cursor launched a rival to GitHub, and GitHub obligingly went down for six hours the same day. Anthropic's revenue run rate leaked at sixty-five billion dollars, seven times where it began the year. And Stripe closed its OpenRouter purchase at seven billion.
+
+Now, the other side. Ed Zitron, writing the same day, never argues with the skills thesis directly, but he undercuts what it rests on. His case is that this way of working is being paid for by the vendors, not by us. The labs sell tokens well below cost, and when enterprises are moved onto accounts that charge the real price, the spending stalls. Customers, he says, are becoming cost-conscious at exactly the time the labs need them to spend more.
+
+The two agree on more than the tone suggests. Both accept that today's token prices are not the real ones. They differ on whether capability improves faster than the bill arrives — a question renewals will settle, not an argument.
+
+Three thoughts for the surgery. First, capability mapping is really clinical governance. We know the scribe is excellent on a single problem and shaky on the consultation that turns out to contain four. Writing down which consultations we check line by line is cheap, and someone will eventually ask to see it.
+
+Second, building the thing that does the work, in a practice, means the search, the audit, the recall cohort that has waited six months. The constraint is not the tool. It is information governance, and who signs off a query touching identifiable data.
+
+And third, the apprenticeship problem is ours. A registrar learns to think by deciding what mattered and writing it down. Let them write the problem list first, then compare it with the draft, and teach from the difference.
+
+That's the brief — source, The AI Daily Brief.

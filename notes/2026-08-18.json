@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Capability mapping is a clinical governance skill, and nobody can hand it to you",
+      "body": "The first of the five skills — knowing what the tool is natively good at, and where Mollick's jagged frontier runs — describes something every GP using a scribe has already been doing informally. The scribe is excellent on a single-problem consultation and quietly poor on the ten-minute appointment that turns out to contain four problems, a safeguarding hint and a medication reconciliation. NLW's point is that you only learn where the edge is by trial and error, because your particular caseload may break the received wisdom. That is worth saying out loud in a practice meeting, because at the moment this mapping lives in individual heads. Writing down, even crudely, which consultation types we check line by line and which we skim is cheap, and it is the sort of thing a CQC inspector will eventually ask to see."
+    },
+    {
+      "title": "Skill three in a surgery is not software engineering — it is the recall list you never got round to",
+      "body": "\"Building the thing that does the work\" sounds absurd in general practice until you translate it. It is not writing an EMIS module; it is producing the search, the audit, the recall cohort or the small dashboard that currently waits months for somebody with the time. If NLW is right that this is the biggest shift knowledge work has seen, the practical consequence for a practice is that clinical staff can specify and iterate their own queries rather than joining a queue, with the CCG or supplier reviewing rather than building. If Zitron is right that the whole thing is running on subsidised compute, the same capability is real but rented, and anything we build should be exportable and re-creatable by hand. Either way the constraint is not the tool. It is information governance and who signs off a query that touches identifiable data."
+    },
+    {
+      "title": "The apprenticeship problem is our problem, and it arrives sooner in training practices",
+      "body": "NLW closes on the question of how the next generation develops domain judgment if experienced workers use AI to do what juniors previously did. In GP training that is not hypothetical. Deciding what mattered in a consultation and committing it to the record is how a registrar learns to think, and a scribe that drafts a competent note removes exactly that friction. His tentative answer — treat AI as multiplayer, with the small team rather than the individual as the unit — maps neatly onto how we already teach: joint surgeries, tutorials on the notes, random case analysis. The cheap adjustment is to have registrars write the problem list and the plan themselves before the draft is accepted, and to use the difference between the two as the teaching material. That is worth doing whichever way the economics fall."
+    }
+  ]
+}
