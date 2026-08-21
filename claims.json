@@ -963,6 +963,24 @@
       "resolution": "Vindicated if, by the check date, enterprise AI spend on unsubsidised metered contracts is flat or falling — visible in Ramp-style corporate card data, published seat-and-token renewal figures, or labs reintroducing discounts and bulk token pricing to hold volume. Fails if enterprises renew and expand metered agent spend at or near list price, or if per-token prices fall far enough that current workflows remain economic without vendor subsidy.",
       "check_by": "2027-02-18",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-19",
+      "side": "NLW",
+      "claim": "That criteria-based data-centre rules of the kind in Shapiro's Pennsylvania executive order — binding transparency and environmental commitments, a ban on state-agency NDAs, bring-your-own-generation, community benefit agreements — will prove more durable and more productive than blanket moratoriums, and that this represents the beginning of a negotiable settlement rather than a staging post to outright bans.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-19",
+      "resolution": "Vindicated if, by the check date, further US states adopt criteria-based orders or statutes rather than moratoriums, and at least some Pennsylvania projects proceed having met the published conditions. Fails if Pennsylvania's order is superseded by a moratorium, if the dominant pattern in new state action is blanket pause or ban, or if developers simply route around the state and the negotiation never happens.",
+      "check_by": "2027-02-19",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-19",
+      "side": "Zitron",
+      "claim": "That the announced data-centre buildout is financed on demand that does not exist — that roughly 190GW of planned capacity would require $1.62–2.92 trillion of annual compute spend against an industry with about $110bn of annual demand, over 90% of it from OpenAI and Anthropic, and that stripping OpenAI out leaves Microsoft roughly $10.33bn of genuine third-party AI revenue.",
+      "source_url": "https://www.wheresyoured.at/dont-look-up/",
+      "resolution": "Vindicated if, by the check date, announced AI data-centre projects are cancelled, deferred or descoped at scale, or hyperscaler disclosure shows non-lab AI revenue remaining an order of magnitude below capex, or private-credit financing for data centres visibly tightens. Fails if third-party AI revenue at Microsoft, Google or Amazon grows into the tens of billions independent of OpenAI and Anthropic, or if announced capacity continues converting to energised, contracted capacity broadly on schedule.",
+      "check_by": "2027-02-19",
+      "status": "open"
     }
   ]
 }

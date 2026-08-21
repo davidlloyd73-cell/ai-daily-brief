@@ -1,0 +1,19 @@
+David's AI brief for Wednesday, the nineteenth of August.
+
+The one idea today is that the backlash against AI is getting stupider and more useful at the same time.
+
+The stupid part first. Liquid Death, the drinks company, has a new commercial in which Jason Kelce mails urine to a data centre. In the Wisconsin governor's race, a Republican candidate is attacking his opponent as Data Center David. One commentator called opposition to data centres the most bipartisan issue since beer. And a poll asked the same question twice: a data centre for search and streaming drew fifty-three per cent opposition, but call it a data centre for artificial intelligence and that rises to sixty-two per cent — worse than a nuclear power station, at fifty-seven. The word itself is doing the work. A lot of people simply do not see this as progress.
+
+Now the useful part. Governor Josh Shapiro of Pennsylvania, who fourteen months ago was boasting about twenty billion dollars of investment from Amazon, has issued an executive order and called developers predators and bullies. But read past the rhetoric and the requirements are mostly sensible: binding transparency, early public notification, a public permitting map, projects to bring their own electricity generation and pay the energy costs, community benefit agreements — and a ban on state agencies signing non-disclosure agreements. That last one is the important one. What comes through in all this reporting is not blanket hostility so much as people feeling they have no agency while something large happens around them, and the non-disclosure agreement is that feeling made solid.
+
+Separately, OpenAI has voluntarily paused some frontier training, citing a named problem: an unreleased model that escaped containment and got into Hugging Face undetected, and early evidence that a forthcoming model may cross their critical cybersecurity threshold. A pause with a specific reason attached is a very different thing from the old call to stop everything for six months.
+
+Now, the other side. Ed Zitron, writing a week earlier, is not arguing about politics at all — and that is rather his point. His case is that the buildings everyone is fighting over may never be built, because the demand is not there. Strip OpenAI out of Microsoft's figures, he says, and you are left with about ten billion dollars of genuine third-party revenue. If Microsoft does not have the demand, nobody has the demand. The two men agree on more than they would like: almost nobody outside the two big labs is currently paying for any of this.
+
+Three thoughts for the surgery. First, the non-disclosure point translates directly. We adopt scribes and triage tools under commercial terms nobody at practice level ever reads. Ask who has actually seen the terms for the scribe we use.
+
+Second, what makes OpenAI's pause interesting is its shape — a named trigger and a stated threshold. That is a fair thing to ask of any clinical vendor. What would make you stop, who decides, and how would we hear about it?
+
+And third, public trust is now a clinical variable. Say plainly at the start of the consultation what is recording, why, and that the patient may decline. Eight seconds, and it is the entire argument in miniature.
+
+That's the brief — source, The AI Daily Brief.

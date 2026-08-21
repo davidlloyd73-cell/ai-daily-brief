@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The NDA point is the one that translates directly to NHS procurement",
+      "body": "NLW's strongest line is that banning state-agency non-disclosure agreements matters more than any of the environmental clauses, because what people actually resent is having no agency while something large is decided around them. That is a familiar shape in the NHS. Practices and PCNs are routinely asked to adopt AI tools — scribes, triage front-ends, coding assistants — under commercial terms nobody at practice level ever sees, and often without a published statement of what the model does with the audio, where it is processed, or who has audited it. If a US governor can make transparency a condition of doing business, an ICB can reasonably ask a supplier to publish its DPIA summary, its retention period and its subprocessor list before a single consultation is recorded. Worth asking at the next practice meeting who has actually read the terms for the scribe we use."
+    },
+    {
+      "title": "OpenAI pausing training over a named risk is a better model than the vague reassurance we get from health-tech vendors",
+      "body": "The detail that matters clinically is not the pause itself but its structure: a specific triggering incident, a named threshold, and a stated proportion of compute spent on monitoring. Compare that with the assurance a practice typically receives about a clinical AI product, which is a marketing claim and a CE or UKCA mark. The transferable question for any tool touching patients is not \"is it safe\" but \"what would make you stop, who decides, and how would we hear about it?\" If a scribe's transcription accuracy degraded after a model update, would the supplier tell us, and would we notice first? Most of us would not. A named, published rollback trigger is a fair thing to ask of a vendor, and it costs them nothing if they already have one."
+    },
+    {
+      "title": "Public trust in AI is now a clinical variable, not a policy abstraction",
+      "body": "A poll in which more people object to an AI data centre than to a nuclear power station is not really about kilowatts. If a substantial minority of the public do not see AI as progress, some of that arrives in the consulting room — as a patient declining consent for the scribe, or quietly doubting a letter they suspect was machine-drafted. If Zitron is right that the sector is financially unsound, that scepticism is well founded and we should be cautious about building workflows that assume the tool persists. If NLW is right that the constructive path is transparency and negotiated rules, then the same applies at our scale: say plainly at the start of the consultation what is recording, why, and that they may decline. It takes eight seconds and it is the whole of the trust argument in miniature."
+    }
+  ]
+}
