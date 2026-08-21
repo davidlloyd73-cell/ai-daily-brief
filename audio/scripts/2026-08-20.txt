@@ -1,0 +1,17 @@
+David's AI brief for Thursday, the twentieth of August.
+
+The one idea today is that artificial intelligence is changing faster than anybody's habits, and this episode is a menu of nine techniques to catch up before the autumn.
+
+But it opens with something else. Moderna and Merck have reported a successful phase three trial of a personalised cancer vaccine. The tumour is sequenced, its mutations identified, and a bespoke messenger RNA vaccine made for that individual — and in more than eleven hundred patients with advanced melanoma it extended remission. Lung cancer trials are running. Moderna's share price rose a hundred and twenty-five per cent within hours. There was then a squabble about whether this counts as artificial intelligence at all. The fair answer is that it is advanced machine learning, closer to AlphaFold than to a chatbot, done by brilliant human scientists who should not be written out of it — but it would be equally silly to dismiss it as hype.
+
+Then the techniques. Live voice mode is the one everybody is excited about — not click-to-dictate but a continuous, ambient assistant you simply talk to while you do something else. Letting the tool watch how you actually work, rather than trying to explain your workflow to it. Turning a style guide into a permanent instruction so you stop re-prompting for the same thing. A new design command in Claude Code. Agent skills organised by when you would actually use them. Team agents that join a channel as a member with shared context, which the host thinks will be the big trend of the autumn. GrokBot, still finding its ceiling a week in. Local models — a twenty-seven billion parameter Qwen that runs on ordinary hardware and scores fifty-two on the intelligence index, which would have been state of the art a few months ago. And, most simply, two-word prompts. Now what. Please fix. Simulate it. Remember this.
+
+Now, the other side. Ed Zitron's most recent essay is not about techniques at all — it asks what happens if OpenAI dies. His arithmetic is over eight hundred billion dollars of compute commitments through twenty-thirty against a company that lost nearly twenty-one billion on thirteen billion of revenue last year. His conclusion is that at some point it will simply not be able to pay its bills — and what he sketches for users is being handed over to another provider, the free tier stripped back, and the models no longer developed. He is not saying the tools do not work. He is saying the company underwriting them may not be there.
+
+Three thoughts for the surgery. The vaccine is the one thing a patient may actually raise. It is not available here, it is adjuvant treatment for a specific advanced group under specialist care, and the honest answer is encouraging but not yet.
+
+Second, ambient voice is a reasonable next question to ask our scribe supplier. Letting a general-purpose tool watch our screens is not — that is patient data into a consumer service, and the answer is no.
+
+And third, whichever of these two men is right, write your workflows down somewhere the practice owns, in plain words, so they can move.
+
+That's the brief — source, The AI Daily Brief.

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The melanoma vaccine result is the one thing here a patient may actually raise with you",
+      "body": "Moderna and Merck's personalised mRNA vaccine extended remission in a phase III trial of more than 1,100 patients with advanced melanoma, and lung cancer trials are running. Two practical points for the surgery. First, the mechanism is worth being able to explain in a sentence: the tumour is sequenced, its mutations identified, and an mRNA vaccine made to that individual's cancer — it is adjuvant to existing immunotherapy, not a replacement for it, and not a preventive vaccine in the sense patients will assume. Second, it is not available here, and a phase III readout is the start of a regulatory and manufacturing road, not the end of one. The honest answer to 'should I be asking for this?' is that it is genuinely encouraging, that it applies to a specific advanced-melanoma population under specialist care, and that any route to it now is through their oncology team or a trial. Worth reading the eventual paper rather than the press release."
+    },
+    {
+      "title": "Ambient voice is the next scribe question — 'let the AI watch you work' is not",
+      "body": "Two of the nine techniques matter to a practice that already uses a scribe, and they pull in opposite directions. Ambient voice mode — speaking to the assistant continuously rather than clicking to dictate — is a plausible extension of what a scribe already does, and if a supplier offers it the governance questions are the familiar ones: what is recorded between consultations, when does the microphone stop, and can a patient decline it as easily as they can decline the scribe. The other technique, letting the tool keep a timeline of your screen activity and turn it into repeatable processes, is a straightforward no on a clinical desktop. A general-purpose product logging what is on a GP's screen is logging identifiable patient data into a consumer service with no DPIA, no data processing agreement and no lawful basis. It is a good idea in a marketing department and an information governance incident in a consulting room."
+    },
+    {
+      "title": "If Zitron's right, don't let the workflow live only in the tool",
+      "body": "NLW's framing is that habits should be rebuilt every few months around whatever is newest. Zitron's counter-argument this week is that the company underwriting several of these tools may not be able to pay its bills, and that users could be moved onto other providers or lose the free tier. Both readings point to the same practical discipline for a practice. If a way of working is worth adopting — a letter-writing standard encoded as a reusable instruction, a triage summary format, a coding prompt — write it down somewhere the practice owns, as plain text, so it can be moved to another vendor in an afternoon. That costs nothing if NLW is right and saves the winter if Zitron is. The same applies to the scribe: know what the fallback is before you need it, because the answer 'we go back to typing' is only tolerable if someone has checked the appointment book can absorb it."
+    }
+  ]
+}

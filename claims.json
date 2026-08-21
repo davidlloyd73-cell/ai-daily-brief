@@ -981,6 +981,24 @@
       "resolution": "Vindicated if, by the check date, announced AI data-centre projects are cancelled, deferred or descoped at scale, or hyperscaler disclosure shows non-lab AI revenue remaining an order of magnitude below capex, or private-credit financing for data centres visibly tightens. Fails if third-party AI revenue at Microsoft, Google or Amazon grows into the tens of billions independent of OpenAI and Anthropic, or if announced capacity continues converting to energised, contracted capacity broadly on schedule.",
       "check_by": "2027-02-19",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-20",
+      "side": "NLW",
+      "claim": "That 'multiplayer AI' — agents that live where teams intersect, with shared channel context and team-level permissions, rather than as one person's private assistant — will be the dominant product trend of autumn 2026, and that lifecycles like the Citizen SDLC will carry individually vibe-coded prototypes into company-wide production.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-20",
+      "resolution": "Vindicated if, by the check date, the major labs and agent vendors have shipped team-scoped agent products with per-channel permissions and shared context as headline releases, and there is published evidence of organisations running them at team rather than individual level. Fails if agent adoption remains predominantly single-user through the period, or if team-scoped deployments stall on permissions, cost or governance and the notable launches are still personal-assistant framed.",
+      "check_by": "2027-02-20",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-20",
+      "side": "Zitron",
+      "claim": "That OpenAI cannot fund its obligations from revenue and must raise again imminently — needing roughly $60bn annualized within three months to stay level with Anthropic, about $75bn annualized by the end of 2026, and $100–200bn of new capital a year against $800bn+ of compute commitments through 2030 — such that 'at some point, OpenAI will simply not be able to pay its bills'.",
+      "source_url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
+      "resolution": "Vindicated if, by the check date, OpenAI has raised at a flat or lower valuation than the $852bn round, has been absorbed or rescued, has missed or renegotiated disclosed compute commitments, or has failed to reach roughly $75bn annualized revenue leaving 2026. Fails if it closes a further raise at or above $852bn on ordinary terms, meets its stated commitments, and reports run-rate revenue near the $75bn mark.",
+      "check_by": "2027-01-31",
+      "status": "open"
     }
   ]
 }
