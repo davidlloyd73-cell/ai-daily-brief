@@ -999,6 +999,24 @@
       "resolution": "Vindicated if, by the check date, OpenAI has raised at a flat or lower valuation than the $852bn round, has been absorbed or rescued, has missed or renegotiated disclosed compute commitments, or has failed to reach roughly $75bn annualized revenue leaving 2026. Fails if it closes a further raise at or above $852bn on ordinary terms, meets its stated commitments, and reports run-rate revenue near the $75bn mark.",
       "check_by": "2027-01-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-21",
+      "side": "NLW",
+      "claim": "That the data centre backlash is a distributive fight that resolves in the builders' favour once they pay communities properly — that voters' stated 57-to-23 preference for clear rules over moratoriums holds, that the checklist template (community veto, banned NDAs, developers covering 100% of grid upgrade costs, union labour) becomes the mainstream settlement, and that the current moratorium wave peaks rather than spreads.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-21",
+      "resolution": "Vindicated if, by the check date, the count of local bans has stopped rising or fallen from the roughly 97 county / 93 city / 28 town baseline, New York remains the only or near-only state-level moratorium, and several states or large counties have enacted criteria-based data centre statutes with disclosure and grid-cost-recovery requirements that permit new builds. Fails if further states impose moratoriums, the local ban count keeps climbing through the 2026 midterms and after, or candidates who ran on outright opposition win and legislate bans rather than rules.",
+      "check_by": "2027-05-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-21",
+      "side": "Zitron",
+      "claim": "That AI data centre capacity is being built roughly fifteen times ahead of real demand — about 190GW planned implying some $1.68 trillion of annual compute revenue against roughly $120bn of genuine annual demand — and that consequently 'the vast majority of AI data centers and their associated SPVs will collapse', with 80% or more of funds invested in AI data centre debt lost, triggered by as few as ten or fifteen project failures.",
+      "source_url": "https://www.wheresyoured.at/the-subprime-data-center-crisis/",
+      "resolution": "Vindicated if, by the check date, multiple sizeable AI data centre SPVs have defaulted, been restructured, or had their debt marked down materially; or announced capacity is visibly cancelled or shelved at scale; or newly energised 2026-27 sites report significant uncontracted capacity. Fails if the 2026-27 cohort energises broadly contracted, AI data centre debt continues to issue and trade without a default cluster, and planned capacity keeps converting into signed leases.",
+      "check_by": "2027-07-31",
+      "status": "open"
     }
   ]
 }

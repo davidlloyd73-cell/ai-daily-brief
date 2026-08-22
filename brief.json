@@ -1,261 +1,291 @@
 {
-  "date": "2026-08-20",
-  "title": "9 AI Techniques You Probably Haven't Tried",
-  "dek": "A personalized cancer vaccine clears phase III and reignites the fight over what counts as 'AI' \u2014 then NLW switches into operator mode with nine techniques, from live voice mode to team agents to local Qwen, that even power users probably haven't tried yet.",
-  "source": "https://aidailybrief.ai/e/2026-08-20",
+  "date": "2026-08-21",
+  "title": "Why Everyone Suddenly Hates AI Data Centers",
+  "dek": "In twelve months, data center opposition went from niche land-use gripe to bipartisan electoral force \u2014 and every explanation on offer (water memes, China psyops, AI job-loss doomerism, big tech baggage) is partly right. NLW goes end to end on the backlash and lands on the real driver: agency and control. Which is exactly why he thinks this might be the most winnable, value-creating political battle of all time.",
+  "source": "https://aidailybrief.ai/e/2026-08-21",
   "oneIdea": {
-    "headline": "AI is changing faster than your habits \u2014 nine techniques to catch up before fall.",
-    "summary": "The thing that makes AI exciting is the thing that makes it hard: it changes constantly, and even power users settle into comfortable workflows while the frontier moves on. With back-to-school season approaching, this episode aggregates what people are learning in public \u2014 live voice mode, teaching agents by letting them watch, writing skills, /design, multiplayer AI, GrokBot, local models, and two-word prompts \u2014 as a menu for your next experimental day."
+    "headline": "The data center backlash is about agency \u2014 which makes it the most winnable fight in politics.",
+    "summary": "Americans have swung from mild support to overwhelming opposition to data centers in a year, and politicians are sprinting to catch the anger. But talk to people in these communities and the issue isn't really water or noise or even AI \u2014 it's control over their own future, negotiated away behind NDAs. That's fixable. Voters prefer clear rules to moratoriums by more than two to one, and the builders have both the money and the motive to make the equation come up positive. The smart politicians will write the checklist and take the credit."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "The melanoma vaccine result is the one thing here a patient may actually raise with you",
-        "body": "Moderna and Merck's personalised mRNA vaccine extended remission in a phase III trial of more than 1,100 patients with advanced melanoma, and lung cancer trials are running. Two practical points for the surgery. First, the mechanism is worth being able to explain in a sentence: the tumour is sequenced, its mutations identified, and an mRNA vaccine made to that individual's cancer \u2014 it is adjuvant to existing immunotherapy, not a replacement for it, and not a preventive vaccine in the sense patients will assume. Second, it is not available here, and a phase III readout is the start of a regulatory and manufacturing road, not the end of one. The honest answer to 'should I be asking for this?' is that it is genuinely encouraging, that it applies to a specific advanced-melanoma population under specialist care, and that any route to it now is through their oncology team or a trial. Worth reading the eventual paper rather than the press release."
+        "title": "The water-stat correction is the whole lesson, and we have lived it twice",
+        "body": "The striking finding in this episode is not the 75 per cent opposition \u2014 it is that correcting a wrong number changed almost nobody's mind. A famous water-usage figure was out by a factor of a thousand, the correction was published, and only 8 per cent of people found it very convincing. General practice has seen this film. It is care.data in 2014, it is the 2021 GP data extraction that was paused after a million opt-outs, and it is every vaccine conversation where the evidence was never the obstacle. The mechanism is identical: when people believe a decision was taken about them without them, they do not audit the facts, they discount the source. The practical read-across is that anything we introduce which touches patient data \u2014 the scribe included \u2014 is won or lost on whether people feel they were told and could say no, not on how good the evidence sheet is. Publish first, correct later never recovers."
       },
       {
-        "title": "Ambient voice is the next scribe question \u2014 'let the AI watch you work' is not",
-        "body": "Two of the nine techniques matter to a practice that already uses a scribe, and they pull in opposite directions. Ambient voice mode \u2014 speaking to the assistant continuously rather than clicking to dictate \u2014 is a plausible extension of what a scribe already does, and if a supplier offers it the governance questions are the familiar ones: what is recorded between consultations, when does the microphone stop, and can a patient decline it as easily as they can decline the scribe. The other technique, letting the tool keep a timeline of your screen activity and turn it into repeatable processes, is a straightforward no on a clinical desktop. A general-purpose product logging what is on a GP's screen is logging identifiable patient data into a consumer service with no DPIA, no data processing agreement and no lawful basis. It is a good idea in a marketing department and an information governance incident in a consulting room."
+        "title": "Agency, not accuracy, is the design question for AI in the consulting room",
+        "body": "NLW's landing point is that the backlash is about control negotiated away behind non-disclosure agreements, and that voters prefer clear rules to bans by 57 to 23. Translate that to a surgery. Patients are not, on the whole, asking whether the ambient scribe transcribes accurately; they are asking who else hears it and whether declining costs them anything. The equivalent of the 'clear rules' answer is a one-paragraph, posted policy: what is recorded, where it goes, how long it is kept, and the fact that saying no changes nothing about the consultation. That is cheap, and it is the only version of this that survives a bad news story. The equivalent of the NDA is the situation we drift into by default \u2014 a supplier arrangement nobody outside the practice manager's inbox has ever seen. Worth noting the same logic applies upwards: the ICB and the national programmes are making AI procurement decisions on our patients' behalf with roughly the transparency of a data centre deal."
       },
       {
-        "title": "If Zitron's right, don't let the workflow live only in the tool",
-        "body": "NLW's framing is that habits should be rebuilt every few months around whatever is newest. Zitron's counter-argument this week is that the company underwriting several of these tools may not be able to pay its bills, and that users could be moved onto other providers or lose the free tier. Both readings point to the same practical discipline for a practice. If a way of working is worth adopting \u2014 a letter-writing standard encoded as a reusable instruction, a triage summary format, a coding prompt \u2014 write it down somewhere the practice owns, as plain text, so it can be moved to another vendor in an afternoon. That costs nothing if NLW is right and saves the winter if Zitron is. The same applies to the scribe: know what the fallback is before you need it, because the answer 'we go back to typing' is only tolerable if someone has checked the appointment book can absorb it."
+        "title": "If Zitron's right / if NLW's right \u2014 the same instruction either way",
+        "body": "If NLW is right, compute is genuinely scarce and demand real, prices for clinical AI tools drift down as capacity comes online, and the sensible move is to adopt earlier and negotiate harder. If Zitron is right, a large share of that capacity is financed against demand that does not exist, and the correction arrives as vendors failing, being acquired, or repricing sharply \u2014 the scribe market in particular is thin, venture-funded and unlikely to survive intact. The instruction is the same under both: do not let a clinical workflow depend on one supplier's continued existence. In practice that means the exit clause and the export format matter more than the demo, notes must land in the record in a form we own rather than living in the vendor's cloud, and someone should be able to answer, without preparation, what we do on the Monday morning a supplier goes dark. That is not pessimism; it is the same continuity planning we would apply to any single-source clinical system."
       }
     ]
   },
   "the_other_side": {
-    "source": "What Happens If OpenAI Dies?",
-    "url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
-    "date": "2026-08-18",
+    "source": "The Subprime Data Center Crisis",
+    "url": "https://www.wheresyoured.at/the-subprime-data-center-crisis/",
+    "date": "2026-07-22",
     "same_day": false,
-    "text": "Nothing newer had been published, so the counter-source is Monday's essay again \u2014 but the half of it that bites on a nine-techniques menu is a different half. Most of the tools on this list sit on one company that, by Zitron's arithmetic, carries over $800bn of compute commitments through 2030, needs $100\u2013200bn a year in fresh capital, and lost $20.9bn on $13.07bn of revenue in 2025; his conclusion is that \"at some point, OpenAI will simply not be able to pay its bills\". What he sketches for users rather than investors is customers handed \"API keys that flow to Microsoft AI Foundry\", the free ChatGPT tier stripped back, and no further training of the models people had built their week around. He is not arguing that voice mode or computer history fail to work \u2014 he is arguing the entity underwriting them may not be there to keep them working."
+    "text": "Zitron's data centre argument is not about whether communities should be angry \u2014 it is about whether the thing they are being asked to host will still be running to pay them. He counts roughly 190 gigawatts of capacity in planning, implying about $1.68 trillion of annual compute revenue to justify it, against genuine demand he puts nearer $120 billion a year, 70 to 90 per cent of it from two loss-making labs. Each site is financed inside its own special purpose vehicle that services debt only out of customer revenue, so on his reading \"the vast majority of AI data centers and their associated SPVs will collapse\" if that demand never arrives. He restated the demand half of it as recently as 11 August. Where NLW sees Loudoun County's tax base and Quincy's swimming pool as the template, Zitron would say those were built on demand that already existed \u2014 and that a town signing a twenty-year bargain with an SPV in 2026 is counterparty to a balance sheet, not to Microsoft."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is durability: whether tools you build habits on this autumn still exist, at the same price and capability, in two years. Both accept the features work now and that the firms shipping them lose money at scale. The empirical question that resolves is whether OpenAI closes its next raise, and the observable that settles it is the terms \u2014 a round at or above the $852bn mark by roughly March 2027, versus a down round, a Microsoft absorption, or a quiet rescue. The residue is worldview: Whittemore treats capability as the thing that compounds and financing as someone else's problem; Zitron treats financing as what determines whether capability survives. Whittemore is vindicated if the money arrives and these techniques become ordinary; Zitron if a funding failure strands them. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is where they agree despite opposite priors: none of this is yet paid for by the people using it. Watch the next raise, and its price."
+    "text": "The variable both men orbit is durability of the local bargain: not whether a data centre is worth hosting today, but whether the entity promising the taxes, the grid payments and the park is still solvent to deliver them in ten years. Both accept the sites are being built at extraordinary speed, that the money behind them is largely debt, and that host communities currently negotiate in the dark. The empirical question that will resolve is whether newly energised capacity gets contracted \u2014 the observable is occupancy and lease renewal at the 2026-27 cohort of sites, and whether any sizeable data centre SPV defaults or is restructured. The residue is worldview: Whittemore reads demand as real and lagging supply, so the fight is distributive and therefore winnable; Zitron reads demand as manufactured by two funded losers, so the fight is about who is left holding an empty shed. Whittemore is vindicated if communities that sign good checklists collect for decades as Loudoun has; Zitron if the first wave of defaults strands towns with derelict plant and stranded grid costs. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is where they agree despite opposite priors: the NDA-shrouded deal structure is indefensible, and communities are bearing risk they cannot see. Watch the occupancy of the first big 2026 sites to switch on."
   },
   "headlines": [
     {
-      "id": "dario-actually-curing-cancer",
-      "headline": "The thing that will work is actually curing cancer.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "02:00",
-      "attribution": "Dario Amodei, responding to critics of his messaging",
-      "summary": "Responding to critics of his negative messaging, the Anthropic CEO argued that no glitzy marketing campaign wins back public trust \u2014 'saying that AI will cure cancer is more a clich\u00e9 than it is inspiring.' A day later, a lot of people were saying that's exactly what had happened.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#dario-actually-curing-cancer"
-    },
-    {
-      "id": "cancer-vaccine-phase-3",
-      "headline": "A personalized cancer vaccine clears its first late-stage trial",
+      "id": "midterms-made-it-radioactive",
+      "headline": "The midterms made data centers radioactive",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "Moderna and Merck's treatment analyzes cancerous cells, identifies the DNA mutation, and creates a personalized mRNA vaccine \u2014 extending remission in more than 1,100 advanced melanoma patients in a successful phase III trial, with lung cancer trials underway. Mass General's Dr. Ryan Sullivan: 'these approaches may change the way we treat cancer more broadly.'",
-      "link": "https://aidailybrief.ai/e/2026-08-20#cancer-vaccine-phase-3"
+      "summary": "A May Gallup poll found 71% of respondents opposed to data centers in their area \u2014 48% strongly. In an election year that's become a rare bipartisan cudgel: Democrats sit at net negative 75%, independents at negative 65%, and even Republicans, net supportive in August 2025, are now 43% net against. Governors like Greg Abbott and Josh Shapiro, once champions, are now bashing them.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#midterms-made-it-radioactive"
     },
     {
-      "id": "call-it-ml-dont-dismiss-it",
-      "headline": "Call it machine learning if you want \u2014 just don't dismiss it",
-      "type": "take",
-      "segment": "headlines",
+      "id": "fastest-opinion-shift-pollsters-have-seen",
+      "headline": "Pollsters have never seen opinion move this fast",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "02:00",
+      "attribution": null,
+      "summary": "Heatmap News' tracking shows local opposition jumping from 51% in February to 75% now, with strong support shrinking from 9% to 4%. Strong opposition went from 24% to 61% in twelve months \u2014 and lobbyists report opponents converting supporters not just to neutral, but all the way to opposition.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#fastest-opinion-shift-pollsters-have-seen"
+    },
+    {
+      "id": "nuclear-beats-a-data-center",
+      "headline": "Americans would rather live next to a nuclear plant",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Critics are right that this isn't scientists plugging results into ChatGPT \u2014 it's advanced ML closer to AlphaFold, and the brilliant human scientists shouldn't be erased by attributing the breakthrough to 'AI.' But it would also be dismissive to call it hype: the AI era's investment in compute, research, and talent fed this, and the market noticed \u2014 Moderna jumped 70%, then 125%, within hours.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#call-it-ml-dont-dismiss-it"
+      "summary": "An Echelon poll found Americans prefer a nuclear power plant in their backyard to an AI data center \u2014 and people are about twice as likely to accept a nearby coal plant. Since coal is clearly worse on water and pollution, this is Exhibit A that the backlash isn't a rational argument about environmental impacts.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#nuclear-beats-a-data-center"
     },
     {
-      "id": "private-safety-processing",
-      "headline": "OpenAI's private safety processing ends the monitoring-vs-privacy trade-off",
+      "id": "what-a-data-center-actually-is",
+      "headline": "Most opponents couldn't define what they oppose",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "For eligible API customers with zero-data-retention agreements, fully automated, encrypted scanning now covers entire agentic sessions \u2014 no human ever sees sensitive data, and flagged issues reach staff only as anonymized category-and-severity summaries. OpenAI's Adam GPT: 'This is one of those small things that is actually a huge thing' \u2014 and per NLW's enterprise conversations, that's absolutely true.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#private-safety-processing"
+      "summary": "A data center is a warehouse-sized computer plugged into industrial power and cooling \u2014 and it runs not just AI but your Gmail and your Netflix. As investor Nic Carter put it, part of the backlash is people discovering that the internet was never a weightless thing in the cloud: it requires physical infrastructure, and they're upset about it.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#what-a-data-center-actually-is"
     },
     {
-      "id": "anthropic-fable-contrast",
-      "headline": "Anthropic's Fable shows the cost of getting this wrong",
+      "id": "the-anger-is-everything",
+      "headline": "Why the anger? It's everything at once",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "05:00",
-      "attribution": null,
-      "summary": "Anthropic's answer to long-horizon agent safety was to simply disable zero data retention for Fable and scan full session data \u2014 a complete non-starter for many enterprise customers, showing up in fairly dismal enterprise adoption. OpenAI's new approach is aimed squarely at that gap.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#anthropic-fable-contrast"
-    },
-    {
-      "id": "replit-free-mode-luna",
-      "headline": "Replit's 'free mode' runs everything through GPT 5.6 Luna",
-      "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Not literally free \u2014 $20/month subscribers can use Replit without burning usage credits, with all queries routed through Luna for a claimed 30\u00d7 more output, and escalation to stronger models still available for complex tasks. Replit: 'AI models are now capable and affordable enough to make once unreachable outcomes practical.'",
-      "link": "https://aidailybrief.ai/e/2026-08-20#replit-free-mode-luna"
+      "summary": "Puck News asked voters which burdens they believe data centers impose: 78% think they strain the local grid, 75% think they consume excessive water, majorities believe they tank property values, generate constant noise, and don't create enough jobs. Even 48% believe data centers increase local taxes \u2014 a claim with no clear mechanism.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#the-anger-is-everything"
     },
     {
-      "id": "two-frontiers-at-once",
-      "headline": "OpenAI is fighting on two frontiers at once",
+      "id": "psyop-partly-true-too-convenient",
+      "headline": "The China psyop theory: partly true, entirely too convenient",
       "type": "take",
-      "segment": "headlines",
-      "timestamp": "07:00",
+      "segment": "main",
+      "timestamp": "09:00",
       "attribution": null,
-      "summary": "They're competing at the state of the art with 5.6 Sol and the Astra model to come \u2014 but since Luna launched, they're also clearly looking behind them at the Chinese open-weight models and refusing to surrender that ground. As users mature in matching power levels to tasks, expect much more competition on the efficiency frontier, not just the capability frontier.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#two-frontiers-at-once"
+      "summary": "From Kevin O'Leary blaming China in court to Founders Fund investors pointing at TikTok, the psyop explanation is everywhere. NLW's take: sowing social media discord is now standard strategy for America's adversaries, so bot farms are almost certainly contributing \u2014 but treating the backlash as all psyop is an excuse that will stop us from dealing with the real issues underneath.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#psyop-partly-true-too-convenient"
     },
     {
-      "id": "spacex-cognition-blurriness",
-      "headline": "SpaceX-Cognition deal talk: everyone can be telling the truth",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "Bloomberg reported SpaceX approached the coding-agent startup \u2014 which raised at $26B in May and is seeking $40B+ \u2014 before CEO Scott Wu shot it down ('Cognition is not for sale and we haven't been talking') and Elon backed him. NLW's read: 'approaching someone about a deal' is blurry enough that nobody needs to be lying \u2014 that shoulder-nudge conversation is genuinely how these offers start, and Elon's appetite for app-layer acquisitions wasn't sated by the Cursor deal.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#spacex-cognition-blurriness"
+      "id": "murphy-industry-promised-job-loss",
+      "headline": "The AI industry has been basically promising to destroy jobs at scale... and it feels like people are just believing them.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "09:00",
+      "attribution": "Senator Chris Murphy of Connecticut, on X",
+      "summary": "Responding to psyop accusations, the Connecticut senator located the anger in the industry's own words. He conflates anti-AI with anti-social media on the 'addictive products' point \u2014 but on jobs, he's far from alone in thinking the industry's leaders bear responsibility for the fear they marketed.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#murphy-industry-promised-job-loss"
     },
     {
-      "id": "safety-framework-black-box",
-      "headline": "The White House safety framework is a black box \u2014 even to the labs",
+      "id": "ai-data-centers-specifically",
+      "headline": "People don't hate data centers \u2014 they hate AI data centers",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "10:00",
       "attribution": null,
-      "summary": "OpenAI, Anthropic, and Google staff were handed paper copies at the closed-door unveiling and allowed only to take notes; written versions still haven't been distributed. Cato's Juan Ladano: 'a framework that raises more questions than the one it answers is worse than no framework at all' \u2014 and especially in light of the week's data-center trust discussions, NLW fully agrees.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#safety-framework-black-box"
+      "summary": "Polls that differentiate show AI data centers draw the most opposition specifically. The story ordinary people have absorbed from a decade of Silicon Valley messaging: AI will take your job, might kill you, will make hostile billionaires unimaginably rich, and now wants to plant an industrial monstrosity in your backyard \u2014 in exchange for what, exactly? As one commentator put it, they don't want these companies to build superintelligence.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#ai-data-centers-specifically"
     },
     {
-      "id": "steal-from-public-experimenters",
-      "headline": "The meta-technique: steal from people experimenting in public",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": null,
-      "summary": "This episode isn't NLW's own testing \u2014 it's an aggregation of what others are sharing, because one of the things that makes AI so cool is that people learn in public. For as cesspool-y as they can be, if you're not watching the AI conversation on X and LinkedIn, you're missing a lot of free R&D.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#steal-from-public-experimenters"
-    },
-    {
-      "id": "live-voice-mode-vibes",
-      "headline": "Live voice mode is the highest-vibe feature of the summer",
+      "id": "substance-not-messaging",
+      "headline": "The problem may be substance, not messaging",
       "type": "insight",
       "segment": "main",
-      "timestamp": "16:00",
+      "timestamp": "12:00",
       "attribution": null,
-      "summary": "Dan Shipper says almost everyone at Every is 'freaking out' about voice mode in ChatGPT for work, and Allie K. Miller credits Codex voice mode for finishing all her urgent work at 2 AM \u2014 firing off thumbnail requests, doc retrieval, and email checks while she fills her water bottle. 'Holler if you need me' is now a prompt.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#live-voice-mode-vibes"
+      "summary": "The counter to the 'bad comms' theory, per T. Greer: AI just hasn't delivered tangible benefits to the country writ large. The average person's mental model of an LLM is the thing their kids use to cheat on homework \u2014 so communities are being asked to host the local tentacle of a technology that's making faraway people rich while offering them marginal convenience.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#substance-not-messaging"
     },
     {
-      "id": "ambient-interaction-not-use-case",
-      "headline": "It's not a use case \u2014 it's ambient interaction",
+      "id": "productivity-reads-as-a-threat",
+      "headline": "'Productivity' is a selling point nobody asked for",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "12:00",
+      "attribution": null,
+      "summary": "Ben Thompson notes Silicon Valley relearns every decade that consumers won't pay for software and don't care about productivity. NLW pushes it further: when the industry says AI is coming for your job and CEOs use it as layoff cover, 'productivity' just translates to 'you're going to make me give away more of the labor I don't own.'",
+      "link": "https://aidailybrief.ai/e/2026-08-21#productivity-reads-as-a-threat"
+    },
+    {
+      "id": "big-tech-baggage",
+      "headline": "AI inherited fifteen years of big tech resentment",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "13:00",
+      "attribution": null,
+      "summary": "One argument holds that at least 75% of the anti-AI negativity is really about big tech at large: election manipulation, screen-time fears, radicalizing rabbit holes, gutted media, polarized communities. Data centers finally gave that long-simmering anger a literal, physical, real-world target.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#big-tech-baggage"
+    },
+    {
+      "id": "ndas-meet-the-trust-floor",
+      "headline": "NDA dealmaking landed on an all-time trust low",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "14:00",
+      "attribution": null,
+      "summary": "Gallup finds average confidence in nine major US institutions at its lowest point ever \u2014 27%, and just 17% for big business. Against that backdrop, the industry's habit of negotiating data center deals behind closed doors under non-disclosure agreements is almost tailor-made to deepen the mistrust. Technology you can't control is bad enough; decisions you can't even see are worse.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#ndas-meet-the-trust-floor"
+    },
+    {
+      "id": "not-skynet-the-oligarchy",
+      "headline": "It's not Skynet, it's the oligarchy.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "16:00",
+      "attribution": "Jasmine Sun, from her long-form report on data center deals",
+      "summary": "In her widely cited long-form report, Sun argues the technical content of data center deals is almost beside the point: communities reflexively disbelieve every claim about cooling, taxes, and jobs, because the deal structure \u2014 forced NDAs, dangled billions, externalities pushed onto poorer places \u2014 reads like a classic dark-money story of politicians bought to screw you over.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#not-skynet-the-oligarchy"
+    },
+    {
+      "id": "the-moratorium-wave",
+      "headline": "The moratorium wave: 97 counties, 93 cities, 28 towns \u2014 and now a state",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Miller's point: ambient assistant versus click-to-speak 'probably sounds like a negligible difference... but it is a world of distance in practice' \u2014 less a chief of staff than 'an ambient workforce, an ambient voice-controlled operating system.' NLW's advice: you won't get it from descriptions; commit to a period of working this way, even if it feels weird at first.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#ambient-interaction-not-use-case"
+      "summary": "Interconnected Capital's tracker counts hundreds of local bans, and New York just became the first state to impose a data center moratorium. A National Republican Senatorial Committee memo on data center liability appears to have flipped the entire GOP against them in one fell swoop.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#the-moratorium-wave"
     },
     {
-      "id": "let-ai-watch-your-workflow",
-      "headline": "Stop explaining your workflow \u2014 let the AI watch it",
+      "id": "two-flip-floppers-per-election",
+      "headline": "Every race is two former data center supporters accusing each other of supporting data centers",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "ChatGPT's computer history keeps an ambient timeline of how you actually work and turns it into repeatable processes, while GrokBot takes the deliberate approach: press a button and it watches a specific task as you do it. If you'd written something off as too hard to explain to AI, that may have changed significantly.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#let-ai-watch-your-workflow"
+      "summary": "Heatmap's Matthew Zeitlin captured the moment perfectly. Michigan's Tom Barrett is running ads against 'politicians cozying up with big tech billionaires' despite his own pro-data-center voting record, and Wisconsin's Tom Tiffany is fusing anti-data-center sentiment with anti-environmentalism \u2014 attacking his opponent's plan for 100% renewable-powered facilities.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#two-flip-floppers-per-election"
     },
     {
-      "id": "anti-ai-writing-skill",
-      "headline": "Turn the AI-writing tell list into a permanent skill",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "19:00",
-      "attribution": null,
-      "summary": "Instead of endlessly prompting 'rewrite without the tropes' \u2014 the tiny dramatic sentences, 'it's not this, it's that,' the AI clapping for itself \u2014 print Ruben Haseed's post of dead giveaways as a PDF, drop it into Claude, and make it a skill so it never happens again. Others are converting full style guides, like the ASD-STE-100 standard for plane manuals, the same way.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#anti-ai-writing-skill"
-    },
-    {
-      "id": "claude-design-command",
-      "headline": "Claude Code's /design command fixes iteration at both macro and micro",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "The new artboard interface lets you preview a batch of templates and give high-level feedback when you don't yet know what you want \u2014 and then highlight and edit specific regions rather than re-prompting the whole design. In NLW's experience, it improves the design loop at both ends.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#claude-design-command"
-    },
-    {
-      "id": "agent-skills-discipline",
-      "headline": "Agent skills are a discipline, not a binary",
+      "id": "facts-alone-dont-land",
+      "headline": "The facts are on the builders' side \u2014 and almost nobody believes them",
       "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "Matt Pocock's repository groups skills by when you'd actually use them \u2014 getting started, main flow, shaping, upkeep \u2014 each with a copyable install. His 'Grill with Docs' skill interviews you about a plan until you and the agent 'share one understanding of it,' writing the vocabulary and hard decisions into your repo as a leave-behind.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#agent-skills-discipline"
+      "summary": "A famous water-usage stat from Karen Hao's Empire of AI was off by a factor of 1,000 (an admitted, still-circulating error), and there's no real statistical correlation between where electricity prices are rising most and where data centers sit. But the trust gap swallows the corrections: only 8% of Puck respondents found the water-math fix very convincing, and only 12% found the high-paying-jobs argument very convincing.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#facts-alone-dont-land"
     },
     {
-      "id": "multiplayer-ai-trend",
-      "headline": "Multiplayer AI is going to be the big trend of the fall",
+      "id": "evidence-beats-apologies",
+      "headline": "Ford rehiring 'graybeards' does more than any CEO apology",
       "type": "take",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": null,
-      "summary": "Since Open Claw, we've run agents in single-player mode \u2014 personal chiefs of staff and research agents working for one person. But work is collaborative, full of handoffs and shared context, and the big opportunity is agentic tools that live where teams intersect rather than where individuals work alone.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#multiplayer-ai-trend"
-    },
-    {
-      "id": "claude-tag-team-member",
-      "headline": "Claude Tag makes the agent a teammate, not a tool",
-      "type": "insight",
       "segment": "main",
       "timestamp": "24:00",
       "attribution": null,
-      "summary": "Unlike the older tag-to-summon Slack integration, Claude Tag joins a channel as a team member with the entire channel's context \u2014 with permissions, tool access, and context that can differ channel by channel. Crucially, that Claude is a shared resource across the team, not something living on one person's computer.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#claude-tag-team-member"
+      "summary": "The job-loss messaging has softened lately \u2014 too little too late, in NLW's view. What matters more is that the evidence shows the mass-job-loss argument was wrong in the first place: Ford deciding to rehire its graybeard engineers does more than CEOs saying 'oops, I was wrong about job loss' ever could.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#evidence-beats-apologies"
     },
     {
-      "id": "citizen-sdlc",
-      "headline": "The Citizen SDLC: from personal prototype to company production",
+      "id": "unions-are-the-better-messengers",
+      "headline": "The unions are the messengers big tech can't be",
       "type": "insight",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "10x, an AI build partner out of New York, published a six-stage lifecycle that takes what non-technical employees vibe-code with AI from a personal prototype to production the whole company can use \u2014 another attack on the same problem of individual AI wins never scaling to the team.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#citizen-sdlc"
+      "summary": "The IBEW is loudly warning that proposed New England bans 'threaten to block billions of dollars in potential investment' and eliminate critical member jobs. Unions are seeing the trades benefits firsthand while also living in these communities \u2014 uniquely positioned to hold the nuance without surrendering the real value of the build-out.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#unions-are-the-better-messengers"
     },
     {
-      "id": "grokbot-week-one",
-      "headline": "A week in, GrokBot users are still finding the ceiling",
+      "id": "the-quincy-miracle",
+      "headline": "The Quincy Miracle: from farm town to 6.2% poverty",
       "type": "insight",
       "segment": "main",
       "timestamp": "26:00",
       "attribution": null,
-      "summary": "Its own virtual computer solves the access issues that plagued earlier agents, and X is full of use cases \u2014 application reviews, sales deck updates, Salesforce reports, daily briefings \u2014 plus patterns like a chief-of-staff bot managing all the others. Lenny Rachitsky suggests pointing it at an MCP of his 500+ podcast transcripts as a personal product-strategy advisor; for the Grok-averse, Nous Research's new Hermes Desktop bot mode is the open, more controllable alternative.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#grokbot-week-one"
+      "summary": "Quincy, Washington started attracting data centers in 2006 and now hosts 30. They contribute 57% of the town's property taxes \u2014 funding a $15M six-lane pool, a $120M high school, and an indoor sports complex \u2014 with four to six spillover jobs for every one of its ~900 direct data center jobs. Poverty fell from 29.4% in 2012 to 6.2% in 2024.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#the-quincy-miracle"
     },
     {
-      "id": "local-ai-qwen-27b",
-      "headline": "Local AI just got a real reason to try again: Qwen 3.8 27B",
+      "id": "loudoun-county-proof",
+      "headline": "Data Center Alley funds the lowest property taxes around",
       "type": "insight",
       "segment": "main",
       "timestamp": "27:00",
       "attribution": null,
-      "summary": "The model runs on common hardware and scores 52 on the Artificial Analysis Intelligence Index \u2014 a level that would have been state of the art just a few months ago. If you've been meaning to experiment with local AI, this is the moment to dive in.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#local-ai-qwen-27b"
+      "summary": "Loudoun County, Virginia \u2014 200+ facilities, roughly 14% of global capacity on 3% of its land \u2014 is the wealthiest county in the US, yet has cut its property tax rate every year for a decade, now just 0.8%, because data centers cover 42% of local tax funding. Neighboring Fairfax charges ~35% more in property taxes while spending ~45% less on public services.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#loudoun-county-proof"
     },
     {
-      "id": "two-word-prompts",
-      "headline": "Two-word prompts: 'Now what?' 'Please fix.' 'Simulate it.'",
+      "id": "just-give-people-stuff",
+      "headline": "Stop arguing. Start building parks.",
       "type": "insight",
       "segment": "main",
       "timestamp": "28:00",
       "attribution": null,
-      "summary": "Allie K. Miller's 18 two-word prompts read like talking to a teammate: 'Now what?' when you've finished a push and want more; 'Please fix' with a screenshot; 'Simulate it' to run scenarios and edge cases; 'Remember this' to force the AI to log a mistake in memory rather than hoping it does so automatically. Not a workflow overhaul \u2014 just simple ways to get more from tools you already use daily.",
-      "link": "https://aidailybrief.ai/e/2026-08-20#two-word-prompts"
+      "summary": "Lulu Cheng Meservey's advice \u2014 the most tried-and-true PR tactic is just giving people stuff: build parks, subsidize bills, hold cookouts, sponsor field trips. Even boosters like Mike Solana concede the noise, aesthetic, and property-value concerns are legit and need addressing. The whole issue reduces to one equation: does the community feel the value exceeds the cost?",
+      "link": "https://aidailybrief.ai/e/2026-08-21#just-give-people-stuff"
+    },
+    {
+      "id": "builders-are-getting-the-memo",
+      "headline": "The builders are getting the memo",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "30:00",
+      "attribution": null,
+      "summary": "Meta launched a billion-dollar fund for local initiatives around its builds. OpenAI announced direct community-defined funding at its Pike County, Ohio facility plus $84 million in Codex credits for roughly 844,000 Ohio college and technical students. And Microsoft has ended its use of NDAs with local governments to increase transparency.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#builders-are-getting-the-memo"
+    },
+    {
+      "id": "kill-your-property-taxes",
+      "headline": "A sub-hyperscale data center could zero out your town's property taxes",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "31:00",
+      "attribution": null,
+      "summary": "West Virginia is exploring using data centers to eliminate its income tax entirely \u2014 a model Grover Norquist wants every state to adopt. Back-of-napkin math suggests a 20,000-person town could drop property taxes altogether with a facility that doesn't even hit the 250-megawatt hyperscale threshold.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#kill-your-property-taxes"
+    },
+    {
+      "id": "voters-want-rules-not-bans",
+      "headline": "Voters want rules, not bans \u2014 by a landslide",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "32:00",
+      "attribution": null,
+      "summary": "Morning Consult finds 57% prefer 'clear rules, let responsible projects be built' versus 23% for a moratorium. Given a project that meets disclosure, cost, and public-review requirements, 58% would let it proceed. And requiring companies to pay for the grid upgrades their facilities need? 78% support, 13% opposed. People aren't stupid \u2014 they want their specific problems solved, not everything shut down.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#voters-want-rules-not-bans"
+    },
+    {
+      "id": "most-winnable-battle",
+      "headline": "This is the most winnable political compromise NLW has ever seen",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "33:00",
+      "attribution": null,
+      "summary": "The data centers are mission-critical to their builders, and the fix mostly comes down to spending more money in the host community. The template is already emerging: David Crowley's checklist (community veto, banned NDAs, 100% covered grid costs, union labor) and Vivek Ramaswamy's pledge of free home electricity and lower property taxes near new facilities. Expect it to get worse before it gets better \u2014 but the politicians who offer a path forward get to be the heroes.",
+      "link": "https://aidailybrief.ai/e/2026-08-21#most-winnable-battle"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-20.mp3",
-  "generated": "2026-08-21T19:09:45Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-21.mp3",
+  "generated": "2026-08-22T19:09:39Z"
 }

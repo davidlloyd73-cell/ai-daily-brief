@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The water-stat correction is the whole lesson, and we have lived it twice",
+      "body": "The striking finding in this episode is not the 75 per cent opposition — it is that correcting a wrong number changed almost nobody's mind. A famous water-usage figure was out by a factor of a thousand, the correction was published, and only 8 per cent of people found it very convincing. General practice has seen this film. It is care.data in 2014, it is the 2021 GP data extraction that was paused after a million opt-outs, and it is every vaccine conversation where the evidence was never the obstacle. The mechanism is identical: when people believe a decision was taken about them without them, they do not audit the facts, they discount the source. The practical read-across is that anything we introduce which touches patient data — the scribe included — is won or lost on whether people feel they were told and could say no, not on how good the evidence sheet is. Publish first, correct later never recovers."
+    },
+    {
+      "title": "Agency, not accuracy, is the design question for AI in the consulting room",
+      "body": "NLW's landing point is that the backlash is about control negotiated away behind non-disclosure agreements, and that voters prefer clear rules to bans by 57 to 23. Translate that to a surgery. Patients are not, on the whole, asking whether the ambient scribe transcribes accurately; they are asking who else hears it and whether declining costs them anything. The equivalent of the 'clear rules' answer is a one-paragraph, posted policy: what is recorded, where it goes, how long it is kept, and the fact that saying no changes nothing about the consultation. That is cheap, and it is the only version of this that survives a bad news story. The equivalent of the NDA is the situation we drift into by default — a supplier arrangement nobody outside the practice manager's inbox has ever seen. Worth noting the same logic applies upwards: the ICB and the national programmes are making AI procurement decisions on our patients' behalf with roughly the transparency of a data centre deal."
+    },
+    {
+      "title": "If Zitron's right / if NLW's right — the same instruction either way",
+      "body": "If NLW is right, compute is genuinely scarce and demand real, prices for clinical AI tools drift down as capacity comes online, and the sensible move is to adopt earlier and negotiate harder. If Zitron is right, a large share of that capacity is financed against demand that does not exist, and the correction arrives as vendors failing, being acquired, or repricing sharply — the scribe market in particular is thin, venture-funded and unlikely to survive intact. The instruction is the same under both: do not let a clinical workflow depend on one supplier's continued existence. In practice that means the exit clause and the export format matter more than the demo, notes must land in the record in a form we own rather than living in the vendor's cloud, and someone should be able to answer, without preparation, what we do on the Monday morning a supplier goes dark. That is not pessimism; it is the same continuity planning we would apply to any single-source clinical system."
+    }
+  ]
+}

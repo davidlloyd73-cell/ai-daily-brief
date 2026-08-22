@@ -1,0 +1,21 @@
+David's AI brief for Friday, the twenty-first of August.
+
+The one idea today is that the backlash against artificial intelligence data centres is not about water, or noise, or electricity. It is about agency — and that, the host argues, is why it is the most winnable fight in politics.
+
+The numbers are extraordinary. In February, fifty-one per cent of Americans said they would oppose a data centre near their home. Today it is seventy-five. Strong opposition has gone from twenty-four per cent to sixty-one in twelve months. Republicans, net supportive a year ago, are now forty-three points against. There are bans in ninety-seven American counties, ninety-three cities and twenty-eight towns, and New York is the first state to impose a moratorium.
+
+But look at what people believe. Forty-eight per cent think data centres raise local taxes, for which there is no obvious mechanism. Americans would rather live beside a nuclear power station, and are twice as likely to accept a coal plant — plainly worse on water and air. This is not an argument about environmental impact carefully weighed.
+
+The most telling detail is this. A widely quoted water figure was wrong by a factor of a thousand. The correction was published. Only eight per cent found it convincing. Facts are not the binding constraint. Confidence in big business is seventeen per cent, and these deals were negotiated behind non-disclosure agreements — close to the worst possible design against that backdrop. As one widely read essay put it: it's not Skynet, it's the oligarchy.
+
+The optimistic half is that the bargain has worked somewhere. Quincy, Washington hosts thirty data centres paying fifty-seven per cent of its property taxes, and its poverty rate has fallen from twenty-nine per cent to just over six. And voters prefer clear rules to bans by fifty-seven to twenty-three. They want their problems solved, not everything stopped altogether.
+
+Now, the other side. Ed Zitron's argument, from July, is not that communities are wrong to be angry, but that what they are asked to host may not survive to pay them. He counts roughly a hundred and ninety gigawatts in planning against real demand he puts at a fifteenth of that, most of it from two loss-making companies. Each site sits inside its own financing vehicle that pays its debts only out of customer revenue. If he is right, a town signing a twenty-year bargain today is counterparty to a balance sheet, not to a technology giant.
+
+Three thoughts for the surgery. The water correction is our lesson, not America's. It is care dot data; it is the data extraction paused after a million opt-outs. When people believe a decision was taken about them without them, they discount the source rather than audit the facts.
+
+Second, agency, not accuracy, is the design question for artificial intelligence in the consulting room. Patients are not asking whether the scribe transcribes well. They are asking who else hears it, and whether saying no costs them anything. A posted paragraph answering that is cheap, and it is the only version that survives a bad news story.
+
+And third, whichever man is right, do not let a clinical workflow depend on one supplier surviving. The exit clause and the export format matter more than the demonstration.
+
+That's the brief — source, The AI Daily Brief.
