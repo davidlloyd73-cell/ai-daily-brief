@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "\"More expert work, not less\" is exactly what the scribe has done to a surgery day",
+      "body": "Dan Shipper's claim is that automation takes the stable, well-framed layer and leaves more expert work behind, because someone must point the tool at the right thing, judge its output and turn it into a decision. That is a fair description of what an ambient scribe has done to a consultation. The typing has gone; the drafting is largely gone; what remains is the part that was always the job — deciding what the story actually is, what to safety-net, what to leave out of the record because it belongs to the patient rather than the notes. The important consequence is that the saved time is not neutral time. If it is quietly absorbed into more appointments, the practice has bought efficiency and nothing else. If it is spent on the patients where the diagnosis is genuinely uncertain, it has bought the thing Shipper is describing. That is a partnership decision, not a software decision, and no vendor will make it for you."
+    },
+    {
+      "title": "The \"best clock\" problem is the discharge summary problem with a new name",
+      "body": "Tom Critchlow's point is that agents operate in seconds while teams meet weekly and finance plans quarterly, so the organisation with the best shared record of goals, decisions and constraints wins over the one with the best model. General practice has had this problem for forty years without agents: the hospital acts on Tuesday, the letter arrives on Friday, the patient rings on Wednesday and nobody in the surgery yet knows what was decided. Adding AI to either end does not fix a coordination failure; it makes the mismatch faster on one side only. Before any practice buys a second AI tool, the useful question is whether it writes into the record everyone already reads, or creates a fourth place where the truth about a patient lives. As Medical Examiner work makes plain, most of what goes wrong between services is not a clinical error but a handover in which two parties were working from different presents."
+    },
+    {
+      "title": "If Zitron's right / if NLW's right — the answer for a Harrow practice is the same on Monday",
+      "body": "If NLW is right, the essays describe a real reorganisation and the sensible posture is to reshape the working week around what the tools genuinely take off you, expecting them to get cheaper and better. If Zitron is right, the whole future-of-work conversation is theatre financed by money that has not arrived, the productivity gains do not show up in any auditable figure, and the tools reprice sharply or disappear when the subsidy ends. Either way the instruction for a small NHS practice is identical: bank the change in working practice, not in the supplier. Keep the notes in a form the practice owns, keep at least one clinician competent to work without the tool, and be able to answer what happens on the Monday morning the vendor switches the lights off. Zitron's strongest and least contested line is worth holding onto in any procurement conversation — that on the labour-market data to date, nothing much has yet happened. It is a reasonable reason to buy on demonstrated workload relief in this building, and not on anybody's thesis about 2030."
+    }
+  ]
+}

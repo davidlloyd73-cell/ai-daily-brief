@@ -1017,6 +1017,24 @@
       "resolution": "Vindicated if, by the check date, multiple sizeable AI data centre SPVs have defaulted, been restructured, or had their debt marked down materially; or announced capacity is visibly cancelled or shelved at scale; or newly energised 2026-27 sites report significant uncontracted capacity. Fails if the 2026-27 cohort energises broadly contracted, AI data centre debt continues to issue and trade without a default cluster, and planned capacity keeps converting into signed leases.",
       "check_by": "2027-07-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-23",
+      "side": "NLW",
+      "claim": "That automation produces more expert human work rather than less — that AI-native firms restructured as human-agent systems (Every's ~30-person team having fired nobody in favour of agents) are the template, and that the shift from 'efficiency AI' to 'opportunity AI' generates net new categories of expert human work rather than displacing it.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-23",
+      "resolution": "Vindicated if, by the check date, employment in knowledge-work occupations most exposed to LLM automation (software, marketing, analysis, professional services) is flat or higher on official US/UK labour statistics, and surveyed AI-adopting firms report headcount growth or redeployment rather than net reduction. Fails if those occupations show sustained absolute employment decline, or if adopting firms report net headcount reduction attributed to agents, over the same period.",
+      "check_by": "2027-08-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-23",
+      "side": "Zitron",
+      "claim": "That the entire future-of-work discourse is theoretical cover — that no material AI-driven labour market effect exists, that the labs' economic research arms are marketing, and that total AI industry trailing-twelve-month revenue is only around $110bn, far below the sector's committed spending.",
+      "source_url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/",
+      "resolution": "Vindicated if, by the check date, official unemployment and occupational employment data still show no attributable AI-driven displacement, and credible independent estimates put whole-industry AI revenue at or below roughly $150bn trailing twelve months. Fails if a peer-reviewed or official statistical series identifies material AI-attributable displacement, or if industry-wide AI revenue is credibly measured well above that range.",
+      "check_by": "2027-06-30",
+      "status": "open"
     }
   ]
 }
