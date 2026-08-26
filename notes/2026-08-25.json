@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Usage is not outcome — an old lesson in new clothes",
+      "body": "The whole episode rests on tokens as a proxy for work, and the counter-argument is that nobody has shown the tokens turn into anything. General practice has been here before: appointment counts, QOF points and referral rates all measured activity rather than benefit. If a practice or an ICB starts quoting AI usage figures, the sensible question is the one both sides here failed to settle — what changed for the patient, or for the clinician's day, that we can actually measure?"
+    },
+    {
+      "title": "Where the ladder is safe to climb in a surgery",
+      "body": "The 'use case ladder' — generation, synthesis, execution, maintenance — is a useful frame for a GP setting, and it also marks where the risk starts. Generation and synthesis are what an AI scribe already does: draft the consultation note, pull together a discharge summary. Execution and maintenance mean software acting inside the clinical record, and that is a different governance question entirely. If Zitron is right that agentic rigs need constant babysitting, the failure mode in a surgery is not lost time but a wrong entry in a live record; if the Brief is right, the gain will come from the boring end — recalls, coding, documentation — not from anything clinical."
+    },
+    {
+      "title": "The legal 108X figure, read from a Medical Examiner's chair",
+      "body": "The fastest growth in agentic use is in legal work: comparing terms, flagging deviations, drafting, monitoring — with humans keeping the risk judgement and the accountability. That division of labour is precisely the one that would apply to medical examiner scrutiny or significant event work: software can read every note and flag what departs from the expected pattern, but the judgement of whether it mattered, and the signature under it, stays human. Worth watching, because the pattern arrives in medicine through the coroner's and governance side long before it arrives at the consulting room door."
+    }
+  ]
+}

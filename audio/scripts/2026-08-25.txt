@@ -1,0 +1,23 @@
+David's AI brief for Tuesday, the twenty-fifth of August.
+
+The one idea today is that the people who are good at this are pulling away from everyone else, and the reason is delegation.
+
+OpenAI published research on what it calls frontier firms — the top tenth of its enterprise customers by usage. Back in January, the average person at one of those firms was using about two and a half times as much AI as the average person anywhere else. By the end of June that gap had grown to more than eight times. Step back eighteen months and ordinary firms are using roughly twice what they used then. The frontier firms are using seventeen times as much.
+
+What changed is not the models. These firms stopped chatting to the thing and started handing work over to it. A year ago, essentially all enterprise usage was ordinary back and forth conversation. By this June, nearly two thirds of it was agentic — software given context and tools and left to get on with a piece of work.
+
+And the growth is fastest where you would least expect it. Among software engineers, use of OpenAI's coding agent has grown fivefold since February. In finance, twentyfold. In recruitment and in sales, forty-onefold each. In legal departments, a hundred and eightfold. Somebody put it well: these tools are to lawyers what the spreadsheet was to accountants.
+
+There is a ladder here worth holding on to. At the bottom, generation — drafting a letter, a summary. Then synthesis, pulling together information from several places. Then execution, the software acting inside a system you already use. And at the top, maintenance, keeping something running over time. Most of us are on the first two rungs.
+
+Now, the other side. Ed Zitron, writing the same day, went after the very measurement this all rests on. His point is that a token is a unit of consumption, not a unit of work, and that the whole market is being sold below cost — so heavy usage may simply mean heavy subsidy. His sharpest thrust is that OpenAI's own economists, on page thirty-five of that report, found no meaningful association between how many tokens a company burns and its revenue per employee. A firm using eight times as much is not shown to be eight times better off.
+
+Both things can be true. The usage is real and unevenly spread; whether it turns into anything is unsettled. Watch for somebody publishing an outcome, rather than a usage figure.
+
+Two thoughts for our end of the world.
+
+The first is that we have been here before. Appointment counts, referral rates, points on a framework — general practice has a long history of measuring activity and calling it benefit. If usage figures start appearing in practice or board papers, the honest question is what changed for the patient.
+
+The second is about that ladder. Generation and synthesis are what a scribe already does — draft the note, pull the summary together. Execution and maintenance mean software acting inside a live clinical record, which is a different governance conversation altogether. If the sceptics are right that these rigs need constant minding, the failure in a surgery is not lost time, it is a wrong entry in someone's record.
+
+That's the brief — source, The AI Daily Brief.
