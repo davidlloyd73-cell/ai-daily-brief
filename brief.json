@@ -1,261 +1,281 @@
 {
-  "date": "2026-08-23",
-  "title": "The Real Future of AI and Work",
-  "dek": "A weekend Long Reads episode built around Every's new Thesis Statements project \u2014 100 builders and thinkers writing short essays on the future of work after automation. NLW reads through the first batch and argues the tired 'will AI take our jobs' debate is finally giving way to the questions that actually matter: how work, teams, companies, and human advantage get rebuilt.",
-  "source": "https://aidailybrief.ai/e/2026-08-23",
+  "date": "2026-08-24",
+  "title": "The AI Model Tier List",
+  "dek": "A viral model tier list lands the same week that a misread FT chart, AT&T's open-model migration, and a flipped Vercel token graph all point the same direction: the question is no longer simply who has the best model, but how you assemble a stack that routes the right task to the right one \u2014 and NVIDIA, quietly, is buying its way into the open half of that future.",
+  "source": "https://aidailybrief.ai/e/2026-08-24",
   "oneIdea": {
-    "headline": "\"Will AI take all our jobs\" is the boring question. The real future of work is finally getting specific.",
-    "summary": "AI doesn't just take jobs \u2014 it changes the entire landscape of how we work: what individuals and teams can aspire to, how companies organize, which skills matter. Every's Thesis Statements project pulls the people living that future into the discourse, and a pattern emerges across the essays: more expert human work after automation, companies rebuilt as human-agent systems rather than software factories, and human advantage shifting toward wisdom, weirdness, unpredictability, and the heart."
+    "headline": "The model war is no longer about who's best \u2014 it's about what belongs in your stack.",
+    "summary": "Frontier models have crossed a threshold where they can all do a lot, and usage volume has exploded \u2014 so individuals, teams, and enterprises are shifting from 'which model leads' to model efficiency and complete model architectures that route the right task to the right model. Theo's tier list is the fun version of that conversation; AT&T serving 40% of employee queries with open models, routers cutting coding costs 56%, and open tokens flipping to 62% of Vercel's gateway are the serious one."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "\"More expert work, not less\" is exactly what the scribe has done to a surgery day",
-        "body": "Dan Shipper's claim is that automation takes the stable, well-framed layer and leaves more expert work behind, because someone must point the tool at the right thing, judge its output and turn it into a decision. That is a fair description of what an ambient scribe has done to a consultation. The typing has gone; the drafting is largely gone; what remains is the part that was always the job \u2014 deciding what the story actually is, what to safety-net, what to leave out of the record because it belongs to the patient rather than the notes. The important consequence is that the saved time is not neutral time. If it is quietly absorbed into more appointments, the practice has bought efficiency and nothing else. If it is spent on the patients where the diagnosis is genuinely uncertain, it has bought the thing Shipper is describing. That is a partnership decision, not a software decision, and no vendor will make it for you."
+        "title": "Routing by task is already how a surgery thinks \u2014 it just isn't how the software is sold",
+        "body": "The useful transferable idea from the tier list is not the ranking, it is the admission that different jobs want different tools. AT&T is reported to serve forty per cent of employee queries with open models and keep the expensive frontier ones for genuinely hard work, cutting coding costs by fifty-six per cent for a two per cent quality drop. General practice already reasons this way about people: the HCA does the blood pressure, the GP does the undifferentiated chest pain. The problem is that NHS primary care buys AI as single-product subscriptions, not as a stack, so there is no lever to route the cheap high-volume work \u2014 transcription, coding, letter drafting, inbox triage \u2014 differently from the small amount of work where you want the best available model and would happily pay for it. Worth asking any scribe vendor which model actually sits behind the product, whether it changes without notice, and what the quality-cost trade-off was that they chose on your behalf."
       },
       {
-        "title": "The \"best clock\" problem is the discharge summary problem with a new name",
-        "body": "Tom Critchlow's point is that agents operate in seconds while teams meet weekly and finance plans quarterly, so the organisation with the best shared record of goals, decisions and constraints wins over the one with the best model. General practice has had this problem for forty years without agents: the hospital acts on Tuesday, the letter arrives on Friday, the patient rings on Wednesday and nobody in the surgery yet knows what was decided. Adding AI to either end does not fix a coordination failure; it makes the mismatch faster on one side only. Before any practice buys a second AI tool, the useful question is whether it writes into the record everyone already reads, or creates a fourth place where the truth about a patient lives. As Medical Examiner work makes plain, most of what goes wrong between services is not a clinical error but a handover in which two parties were working from different presents."
+        "title": "The Fable data-retention story is the real procurement lesson, not the pricing",
+        "body": "The Financial Times chart was read as enterprises refusing to pay for the best model. NLW's counter is that the model carries a thirty-day data retention policy, and that alone is enough for a large number of organisations to refuse it outright. For a UK practice this is the whole conversation in miniature. Capability is not the binding constraint on what a surgery can adopt; data processing terms, retention periods, sub-processor lists and whether the DPIA survives contact with the ICB are. A tool two tiers down on somebody's ranking but with zero retention and UK hosting is the better clinical tool, because it is the one you are allowed to use on a real patient. When a vendor's demo is impressive, the next question is not how good the model is but where the audio and the transcript go, and for how long."
       },
       {
-        "title": "If Zitron's right / if NLW's right \u2014 the answer for a Harrow practice is the same on Monday",
-        "body": "If NLW is right, the essays describe a real reorganisation and the sensible posture is to reshape the working week around what the tools genuinely take off you, expecting them to get cheaper and better. If Zitron is right, the whole future-of-work conversation is theatre financed by money that has not arrived, the productivity gains do not show up in any auditable figure, and the tools reprice sharply or disappear when the subsidy ends. Either way the instruction for a small NHS practice is identical: bank the change in working practice, not in the supplier. Keep the notes in a form the practice owns, keep at least one clinician competent to work without the tool, and be able to answer what happens on the Monday morning the vendor switches the lights off. Zitron's strongest and least contested line is worth holding onto in any procurement conversation \u2014 that on the labour-market data to date, nothing much has yet happened. It is a reasonable reason to buy on demonstrated workload relief in this building, and not on anybody's thesis about 2030."
+        "title": "If Zitron's right / if NLW's right \u2014 the same defensive move either way",
+        "body": "If NLW is right, the open tier keeps improving, routing becomes ordinary IT, and the cost of ambient documentation falls steadily \u2014 good news for a service that will never fund premium licences at scale. If Zitron is right, open models are the first stage of cost-cutting before abandonment, and his structural point bites: distillation needs something to distil from, so if frontier training spend collapses the cheap tier stops improving and then stops being maintained. For a Harrow practice the response is identical under both. Do not build a working week that only functions with one named product; make sure the clinical record holds the finished note in a form the practice owns rather than the vendor; and treat any price you are quoted now as an introductory one, because both men agree the current economics are being subsidised from somewhere. Buy on demonstrated workload relief this month, on terms you could exit in ninety days."
       }
     ]
   },
   "the_other_side": {
-    "source": "Premium: AI Is Getting Way Too Expensive",
-    "url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/",
-    "date": "2026-07-31",
+    "source": "The AI Hater's Manifesto",
+    "url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
+    "date": "2026-08-25",
     "same_day": false,
-    "text": "Zitron's objection is not to any particular essay in the Thesis Statements collection \u2014 it is to the genre. He opens this piece by arguing that the whole discussion of AI's relationship to jobs, benefits and productivity is theoretical, that Anthropic's Economic Index and OpenAI's Economic Research Exchange are \"marketing operations\" propagating a belief for which little evidence exists, and that Anthropic's own head of economics has conceded \"no material increase in the unemployment rate to date\". His charge is that this conversation is \"masturbatory and a conscious attempt to avoid\" the messier one: roughly $110bn of trailing twelve-month revenue across the entire industry against hundreds of billions in commitments. Where NLW hears a hundred practitioners finally getting specific about work after automation, Zitron hears a hundred people describing a future underwritten by money that does not yet exist."
+    "text": "Zitron works from the same evidence and inverts all of it. He reads the AT&T migration not as a smarter stack but as the first move in cutting AI spend altogether \u2014 enterprises will save money \"first by moving to open source models, then not using them at all\", because in his view even open weights are expensive and of questionable use; he notes AT&T's headline 80-90% savings apply only to unspecified \"certain applications\" out of more than a thousand internal uses. He argues the whole debate about which model is cheapest misses the mechanism: \"the problem is the amount of tokens that get burned\", and labs are incentivised to build models that burn more of them. NVIDIA's Poolside deal, which the Brief reads as buying into the open-model future, he reads as vendor financing \u2014 NVIDIA \"effectively becoming the GE Capital of AI\", propping up customers who would otherwise fail. His sharpest structural point is one the Brief never addresses: \"distillation requires a model to distill from\", so a cheap open tier cannot outlive the frontier training spend it is supposedly replacing."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is whether the reorganisation of work now being described is being driven by capability or by capital. Both accept that agents do useful work today, that headline job losses have not yet appeared in the aggregate statistics, and that the labs are spending far ahead of revenue. The empirical question that will resolve is whether firms restructured around human-agent systems show measured productivity or margin gains that survive audit \u2014 the observable is sectoral productivity and headcount-per-unit-output data, plus whether AI-native firms keep those structures once compute is priced at cost rather than subsidised. The residue is worldview: Whittemore treats the practitioners living it as the best available evidence; Zitron treats first-person accounts from people selling the future as inadmissible. Whittemore is vindicated if the new organisational forms persist and spread beyond the essayists' own companies; Zitron if they turn out to have been a function of cheap tokens and end when the subsidy does. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is where they agree despite opposite priors: neither claims the labour-market data currently shows anything much. Watch what happens to those firms when inference is repriced."
+    "text": "The variable both men orbit is whether the cheap end of the model market is a durable architecture or a symptom of a subsidy. Both accept the same facts: frontier capability has bunched up, most work does not need the top model, enterprises are actively moving volume to open weights, and open inference is not free because a token costs compute whoever produced it. The empirical question that will resolve is what happens to that open tier when frontier training slows \u2014 the observable is whether new open-weight models keep matching last-generation frontier quality once labs cut training budgets, and whether routed enterprise workloads grow or get switched off entirely at renewal. The residue is pure worldview: Whittemore sees firms discovering efficiency; Zitron sees firms beginning to leave. Whittemore is vindicated if routed open-model stacks become standard IT and total useful workload keeps rising as prices fall; Zitron if the migration turns out to be the penultimate step before abandonment and the open tier degrades without frontier models to distil from. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is where they agree despite opposite priors: neither disputes that most people do not need the frontier, and neither thinks open inference is actually cheap. Watch whether the next generation of open weights arrives on schedule, and at what quality."
   },
   "headlines": [
     {
-      "id": "boring-jobs-question",
-      "headline": "\"Will AI take all our jobs\" is a boring conversation",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "00:00",
-      "attribution": null,
-      "summary": "The AI industry has wanted to have the job-apocalypse debate for far too long. The productive conversations are about how AI changes the entire landscape of work \u2014 what individuals and teams can aspire to, how companies should organize, and which skills to prioritize.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#boring-jobs-question"
-    },
-    {
-      "id": "every-thesis-statements",
-      "headline": "Every launches Thesis Statements: 100 essays from the frontier",
+      "id": "hugging-face-shops-13b-exit",
+      "headline": "Hugging Face is shopping a $13B exit",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Alongside its first conference, Thesis, Every announced a project where 100 builders and thinkers write short essays on the future they see coming with AI. Dan Shipper's framing: a small group of humans knows what work after automation looks like because they live it every day \u2014 and their ideas are largely missing from mainstream discourse.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#every-thesis-statements"
+      "summary": "Business Insider reports Hugging Face has engaged an investment bank to field offers at a $13 billion price \u2014 nearly 3x its 2023 round at $4.5 billion, which included Google, Amazon, Nvidia, Intel, and Salesforce. No deal has been reached yet, but the platform now hosts more than two million models, 1.5 million datasets, and 1.5 million AI apps.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#hugging-face-shops-13b-exit"
     },
     {
-      "id": "more-automation-more-expert-work",
-      "headline": "The more we automate, the more expert human work there is to do.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "03:00",
-      "attribution": "Dan Shipper, CEO of Every",
-      "summary": "From his essay \"After Automation, There Will Be More Human Work Than Ever\": Every's nearly thirty-person team hasn't fired employees in favor of agents. Agents take over the stable, repeatable, well-framed layer \u2014 but someone has to point them at the right thing, judge the output, catch what's wrong, and turn results into real decisions.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#more-automation-more-expert-work"
-    },
-    {
-      "id": "ai-commoditizes-the-residue",
-      "headline": "AI commoditizes the residue of expertise \u2014 and creates demand for what's different",
+      "id": "bet-on-model-fragmentation",
+      "headline": "Buying Hugging Face is a bet on permanent model fragmentation",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "02:00",
+      "attribution": null,
+      "summary": "As open models multiply, the coordination layer \u2014 helping developers find a model, judge whether it's safe, and put it into production \u2014 becomes harder to replace. Both Stripe's purchase of OpenRouter and the interest in Hugging Face look like bets that model fragmentation is the future, with commentators immediately floating NVIDIA as the buyer that makes the most sense.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#bet-on-model-fragmentation"
+    },
+    {
+      "id": "nvidia-poolside-deal",
+      "headline": "NVIDIA pays $6B for Poolside's tech \u2014 and most of its engineers",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Shipper's mechanism: AI trains on whatever expertise can be made explicit, which collapses the value of default model output. Demand for what's different is demand for human experts \u2014 even as we approach AGI, making expert work cheaper creates more situations where expert judgment is needed.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#ai-commoditizes-the-residue"
+      "summary": "Per Eric Newcomer, NVIDIA struck a $6 billion non-exclusive licensing deal for Poolside's technology plus a $1 billion equity investment at a $12 billion valuation, hiring over 100 Poolside engineers \u2014 the bulk of the team \u2014 to work on Nemotron. Poolside insists 'this is not an acquisition and it is not an acqui-hire': the founders stay, aiming to keep AGI from being 'a closed technology controlled by a few.'",
+      "link": "https://aidailybrief.ai/e/2026-08-24#nvidia-poolside-deal"
     },
     {
-      "id": "humans-are-alive-to-the-moment",
-      "headline": "Models know work that's been done. Humans know what needs doing now.",
+      "id": "poolside-busted-raise",
+      "headline": "Poolside's deal was born of a busted fundraise",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "04:00",
-      "attribution": null,
-      "summary": "The current generation of models only knows about past work; humans are alive to a specific time, customer, code base, and conversation in a way the training corpus isn't. That aliveness isn't just fresher data \u2014 it's a continuous perspective with running wants, concerns, and a read on what matters.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#humans-are-alive-to-the-moment"
-    },
-    {
-      "id": "job-shaped-reality-distortion-field",
-      "headline": "We're stuck in a \"job-shaped reality distortion field\"",
-      "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Paul Millerd argues we flatten work down to activities with a job description and a paycheck \u2014 while the people declaring \"work is solved\" are drunk on work themselves, with optional jobs that already deliver dignity, challenge, and purpose. There is no \"after automation\" unless we radically expand our conception of work beyond job-shaped form.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#job-shaped-reality-distortion-field"
+      "summary": "The founders told shareholders they had a six-week window at the end of last year to raise $2 billion for a 40,000 GB300 cluster coming online in January. They didn't close in time, lost the cluster, and realized they'd run out of compute and capital as soon as next year \u2014 making NVIDIA the partner of necessity for a frontier open coding model.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#poolside-busted-raise"
     },
     {
-      "id": "someone-threw-the-lights-on",
-      "headline": "AI throws the lights on a much bigger room",
+      "id": "nvidia-open-source-stack",
+      "headline": "NVIDIA is assembling the whole open-model stack",
       "type": "take",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "Poolside for research talent, a stake in data-labeling startup Mercor (used for RL on the last two Nemotron models), and now a reported investment in Perplexity at a $30 billion valuation \u2014 a 50% markup \u2014 after initially floating a licensing-plus-hiring deal. Across all of these moves, NVIDIA is putting serious consideration into research, talent, training data, and the app layer as the open source frontier grows in importance.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#nvidia-open-source-stack"
+    },
+    {
+      "id": "nvidia-price-hike",
+      "headline": "NVIDIA hikes chip prices 17% \u2014 on orders already placed",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "06:00",
+      "attribution": null,
+      "summary": "The Information reports NVIDIA is notifying customers that top-end Grace Black and Vera Rubin chips will cost up to 17% more, applying even to chips ordered for delivery next year. A full 72-chip Vera Rubin rack is expected to hit $8 million, adding $5 billion to the cost of a gigawatt of compute \u2014 and cloud providers will 'almost certainly' pass it on. Blame the memory shortage, which looks set to stretch deep into next year or longer.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#nvidia-price-hike"
+    },
+    {
+      "id": "alibaba-10b-share-sale",
+      "headline": "Alibaba's record $10B share sale signals China's build-out is accelerating",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "NLW's case for the more-work camp goes beyond continued demand for human expertise: we've been playing in one tiny lit quarter of what turns out to be a monumental room. Humanity will race to discover, build, and create more \u2014 a radical expansion of what we can all do is the deeper reason there will be more human work than ever.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#someone-threw-the-lights-on"
+      "summary": "The largest offering of its kind in the Hong Kong market suggests China is pulling capital from every available source for AI \u2014 a departure from Alibaba's tight management of share supply. Michael Burry called Alibaba impressive as a disruptive force in the 'commodity low-cost LLM bloodbath,' but said he 'cannot bless share issuances' and expects return on invested capital to keep falling.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#alibaba-10b-share-sale"
     },
     {
-      "id": "software-company-not-software-factory",
-      "headline": "Warhol's factory, not Ford's: the software factory is the wrong metaphor",
+      "id": "unitree-ipo-pop",
+      "headline": "Unitree's 460% IPO pop kicks off the humanoid hype cycle",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "Noah Brier argues the insidious failure mode of agentic engineering isn't buggy code \u2014 it's agents building fundamentally misaligned features and systems. The hard problem is keeping humans, agents, and humans-with-agents building toward a single vision, which makes the right metaphor a software company, not a software factory.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#software-company-not-software-factory"
+      "summary": "The robotics maker raised $900 million on the Shanghai Stock Exchange, debuted at a $9 billion market cap, and surged more than 460% on day one \u2014 a sign of strong appetite for China's embodied AI sector. Context matters, though: regulatory guardrails mechanically boost day-one performance, and this is the fourth Chinese IPO this year to rise more than 400% on debut.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#unitree-ipo-pop"
     },
     {
-      "id": "tech-without-systems-is-buzzwords",
-      "headline": "Enterprises get what startups miss: technology needs institutions around it",
-      "type": "take",
-      "segment": "main",
+      "id": "dre-drum-machine",
+      "headline": "You sound like the person who would've been against the drum machine. It's a new tool for creativity.",
+      "type": "quote",
+      "segment": "headlines",
       "timestamp": "10:00",
-      "attribution": null,
-      "summary": "NLW's read on Brier's essay: the enterprise world of AI users understands better than the startup world that technology without human and institutional systems around it is just another set of buzzwords. How and to what ends we build those systems is the real question.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#tech-without-systems-is-buzzwords"
+      "attribution": "Dr. Dre, in a New York Times profile",
+      "summary": "In a New York Times profile, the rap legend said he's using AI extensively \u2014 a musical equivalent of brainstorming \u2014 and can't wait to see what happens next. Jimmy Iovine agreed ('when gifted people have AI, they're going to make better records') while noting AI companies have 'the worst public relations in the history of the world.' Both say plenty of producers are already using AI; they just won't admit it.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#dre-drum-machine"
     },
     {
-      "id": "agents-cancel-your-crm-at-2am",
-      "headline": "Your customer churns at 2 AM \u2014 because the customer is an agent",
+      "id": "theos-tier-list",
+      "headline": "Theo's tier list: Fable 5 alone at the top, Gemini in its own tier below F",
       "type": "insight",
       "segment": "main",
-      "timestamp": "10:00",
+      "timestamp": "14:00",
       "attribution": null,
-      "summary": "Tina Ha's scenario: an agent sees a $30,000 CRM contract delivering $12,000 of value and cancels in milliseconds, no meeting, no negotiation. Agents are rational actors, not loyal ones \u2014 they neither see nor care that your software is easy to use and looks good. Winners will build headless, machine-to-machine architecture or own the can't-move-fast layers like banking and compliance.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#agents-cancel-your-crm-at-2am"
+      "summary": "The AI entrepreneur and content creator put Fable 5 alone in S tier, GPT 5.6 Sol in A, and Kimi K3, DeepSeek V4 Flash, and GPT 5.6 Luna in B. Down in D: Anthropic's Opus 5 and Sonnet 5, GPT 5.6 Terra, and Composer 2.5. DeepSeek V4 Pro landed in F \u2014 and below F sat a dedicated 'Google tier' for Gemini 3.7 Flash and 3.1 Pro. Cue a ton of discussion.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#theos-tier-list"
     },
     {
-      "id": "boring-infrastructure-toll-roads",
-      "headline": "As models converge, the connective tissue becomes the moat",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "11:00",
-      "attribution": null,
-      "summary": "Ha's conclusion: companies will compete less on having the best model and more on the systems connecting decisions to real-world outcomes \u2014 task routing, data access, workflow orchestration, rule enforcement. These businesses are toll roads: if you don't want to pay, building your own bridge could take years and hundreds of millions in compliance.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#boring-infrastructure-toll-roads"
-    },
-    {
-      "id": "post-skeuomorphic-apps",
-      "headline": "Founders who AI-ify existing workflows will lose",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "12:00",
-      "attribution": null,
-      "summary": "Former a16z partner Sumeet Singh calls the winners \"post-skeuomorphic apps.\" Early mobile fell into the trap of replicating the physical world; the breakthroughs \u2014 Uber, DoorDash, Instacart \u2014 invented workflows only the phone made possible. AI is at the same inflection point: the winning question is \"what work can we invent that only AI makes possible?\"",
-      "link": "https://aidailybrief.ai/e/2026-08-23#post-skeuomorphic-apps"
-    },
-    {
-      "id": "efficiency-ai-vs-opportunity-ai",
-      "headline": "Efficiency AI is fine. Opportunity AI is the point.",
+      "id": "stacks-not-standings",
+      "headline": "The real story is the diversification of model stacks",
       "type": "take",
       "segment": "main",
-      "timestamp": "17:00",
+      "timestamp": "15:00",
       "attribution": null,
-      "summary": "NLW's framework: doing what you already do faster and cheaper is a reasonable start, but assuming this capability-unlocking technology will be constrained to old workflows fundamentally misimagines what's possible. Opportunity AI takes more iteration and experimentation \u2014 which is why prematurely ROI-ifying enterprise AI efforts biases teams toward the same old things, slightly cheaper.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#efficiency-ai-vs-opportunity-ai"
+      "summary": "The tier list matters not because it's fun to debate (though it is) but because individuals and increasingly businesses aren't picking one model \u2014 they're building infrastructure that moves between models by task. There's even a whole category of router companies built for exactly this, the best known of which, OpenRouter, was just acquired by Stripe for $7 billion.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#stacks-not-standings"
     },
     {
-      "id": "agents-wont-copy-human-work",
-      "headline": "Skepticism for the watch-and-copy agent startups",
+      "id": "ft-fable-chart-misread",
+      "headline": "The 'businesses won't pay for Fable 5' chart misses the real reason",
       "type": "take",
+      "segment": "main",
+      "timestamp": "16:00",
+      "attribution": null,
+      "summary": "The Financial Times chart showing limited enterprise spend on Fable 5 was read as businesses consciously rejecting the price. But Fable 5 carries a 30-day data retention policy \u2014 a provisional safeguard from when the model came back online after being shut down by the government \u2014 and that alone is enough for a huge number of enterprises to say absolutely not. Note how aggressively OpenAI has been pushing zero-data-retention for frontier models this past week.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#ft-fable-chart-misread"
+    },
+    {
+      "id": "ramp-selection-bias",
+      "headline": "The Ramp data has a double selection bias \u2014 and a startup blind spot",
+      "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "NLW is skeptical in aggregate of startups whose only job is to watch what people do and train agents to do the same thing. Agents will almost inevitably work in agent-native ways suited to their strengths \u2014 which then requires another level of organizational integration to sync those new processes back with humans.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#agents-wont-copy-human-work"
+      "summary": "The chart comes from Ramp's token and spend management product, so it samples tech-forward companies whose users are predisposed to cost control \u2014 as Simon Smith put it, 'Fable simply isn't cost-effective for most tasks.' And the shock that enterprises haven't adopted a months-old model misses the glacial pace of enterprise IT: people are still using GPT 5.2 and other nine-month-old models because that's what their companies give them.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#ramp-selection-bias"
     },
     {
-      "id": "best-clock-beats-best-model",
-      "headline": "The company with the best clock will beat the company with the best model",
+      "id": "att-open-model-migration",
+      "headline": "AT&T plans to serve 70% of its AI queries with open models",
       "type": "insight",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "Tom Critchlow's railway analogy: fast trains forced standardized time; fast agents force a new coordination mechanism. Agents operate in seconds, teams meet weekly, finance plans quarterly \u2014 each inhabiting a different present. His proposal is \"standard status\": a continuously updated record of goals, decisions, permissions, and constraints shared by humans and agents alike.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#best-clock-beats-best-model"
+      "summary": "Per The Information, AT&T will hold OpenAI and Anthropic spending flat and slowly supplant it with open models \u2014 already serving 40% of employee queries across its ~100,000 staff, with a target of 60-70%. VP of Data Science Mark Austin says open models are as good or better than previous-generation frontier models, which were already up to the task; frontier models stay for advanced work like code generation.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#att-open-model-migration"
     },
     {
-      "id": "single-player-to-multiplayer-ai",
-      "headline": "The next frontier: from single-player AI to multiplayer AI",
-      "type": "take",
+      "id": "att-router-savings",
+      "headline": "AT&T's router cut coding costs 56% \u2014 quality fell just 2%",
+      "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "NLW flags a theme he'll explore heavily this fall \u2014 the shift from individual agents to team agents, where coordination mechanisms and new systems designed around human-agent alignment become the substance of the conversation.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#single-player-to-multiplayer-ai"
+      "summary": "The company is using NVIDIA's Nemotron plus open models from Meta and Google, routed by task. Switching to open models also let AT&T host part of the service in its own data center stocked with NVIDIA and AMD chips \u2014 often cheaper than renting cloud compute. Chinese models aren't in the mix yet, but the risk analysis is underway.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#att-router-savings"
     },
     {
-      "id": "jobs-ai-cant-do-will-scale",
-      "headline": "The jobs AI can't do will scale",
-      "type": "insight",
+      "id": "fable-genius-sol-robot",
+      "headline": "Fable 5 is a genius that needs to be tamed. 5.6 Sol is a slightly dumber robot that does exactly what you tell it.",
+      "type": "quote",
       "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Obo CEO Nir Zikerman: LLMs excel at concrete, verifiable tasks like coding, so those jobs fade \u2014 but roles built on ambiguity, open-endedness, creativity, management, and human interaction thrive at unprecedented scale. In film, actors and screenwriters aren't going anywhere, while streamlined financing and logistics let artists take more creative risk than was ever economically feasible.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#jobs-ai-cant-do-will-scale"
+      "timestamp": "22:00",
+      "attribution": "Theo, AI entrepreneur and content creator, in his tier-list video",
+      "summary": "Theo's paradox: Fable is the only S-tier model \u2014 'it knows more than any model I've interacted with,' the one whose code he wants to merge and the one he trusts to double-check everything else \u2014 yet if forced to pick, he'd keep Sol, his default. 'Fable is that genius at the company that no one wants to work with, but no one wants to fire because they're the smartest person there.'",
+      "link": "https://aidailybrief.ai/e/2026-08-24#fable-genius-sol-robot"
     },
     {
-      "id": "wisdom-work-replaces-knowledge-work",
-      "headline": "Wisdom work will replace knowledge work \u2014 and the brilliant jerk loses their moat",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": null,
-      "summary": "Joe Hudson argues that when a model can draft the brief or diagnose the anomaly in seconds, politely, there's no reason to keep paying the emotional tax of a difficult genius. Leverage shifts from what you can do to how you show up: emotional clarity, discernment, and connection can't be copy-pasted from a training corpus.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#wisdom-work-replaces-knowledge-work"
-    },
-    {
-      "id": "specifics-over-vague-projections",
-      "headline": "Finally, the future-of-work crowd is getting specific",
+      "id": "nlw-jockeys-both",
+      "headline": "NLW's workflow matches: run both, then commit",
       "type": "take",
       "segment": "main",
-      "timestamp": "23:00",
+      "timestamp": "22:00",
       "attribution": null,
-      "summary": "One of NLW's long-standing beefs with AI-industry future projections has been a historic unwillingness to get into specifics. Agree or not with each essay, this series digs into exactly the question his earlier episode \"The New Jobs AI Will Create\" tried to address \u2014 and that shift from vague pronouncements to nuanced exploration is the real progress.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#specifics-over-vague-projections"
+      "summary": "On any given day, the host is jockeying between Fable 5 and GPT 5.6 Sol \u2014 for many tasks initiating in both, going back and forth a little, then deciding which one to hone in on. That usually, but not always, ends up being Fable.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#nlw-jockeys-both"
     },
     {
-      "id": "weirdness-is-the-human-advantage",
-      "headline": "AI's biggest surprise: it makes you weird again",
+      "id": "luna-beats-terra",
+      "headline": "The 'weakest' GPT 5.6 outranks the balanced middle one",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "23:00",
+      "attribution": null,
+      "summary": "Theo puts Luna \u2014 theoretically the least capable of the three GPT 5.6 models \u2014 two tiers above the middle Terra model. Luna is 'smart, fast, and good at a bunch of random stuff' and his most-called model by volume, for tasks like categorizing code and reading content (nothing irreversible). Terra? 'It makes sense on a pricing chart, but doesn't make sense in reality for me.'",
+      "link": "https://aidailybrief.ai/e/2026-08-24#luna-beats-terra"
+    },
+    {
+      "id": "uncanny-middle",
+      "headline": "Expect a lot of models to fall into an uncanny middle",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "24:00",
+      "attribution": null,
+      "summary": "As labs compete on deliberate performance-efficiency trade-offs rather than just the state of the art, many models will end up neither frontier enough to justify a premium nor efficient enough for high-volume tasks. And price intuitions can mislead: Theo notes Kimi K3, despite being open weight, actually costs slightly more than Sol on extra high, because Sol does more with fewer tokens.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#uncanny-middle"
+    },
+    {
+      "id": "connoisseur-fatigue",
+      "headline": "The backlash: 'they're all fantastic, bro'",
       "type": "insight",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "Bethany Crystal runs a company solo that would have required five humans pre-AI \u2014 but the bigger effect is a return to playful, experimental work: bingo card apps for friends, hyper-personalized playlists, a choose-your-own-adventure blog. In a post-AGI world, the quirky niches that got you pushed around the playground are what keep you human.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#weirdness-is-the-human-advantage"
+      "summary": "A vocal strand of the discourse is tired of model connoisseurship \u2014 comparing it to arguing over favorite colors or Pok\u00e9mon \u2014 and even Theo concedes a tier list isn't the best way to compare models given the many axes: task capability, cost, token efficiency, speed. 'Whether you're using expensive best-in-class stuff like Fable or surprisingly cheap and effective stuff like DeepSeek V4 Flash, it's kind of hard to go wrong.'",
+      "link": "https://aidailybrief.ai/e/2026-08-24#connoisseur-fatigue"
     },
     {
-      "id": "resistance-to-mediocre-ideas",
-      "headline": "AI makes mediocre ideas irresistible \u2014 so be unpredictable",
+      "id": "vercel-token-flip",
+      "headline": "Open models flipped Vercel's gateway in two months",
       "type": "insight",
       "segment": "main",
       "timestamp": "26:00",
       "attribution": null,
-      "summary": "Emily Vernon: now that tasteful-but-forgettable brands can be generated with a few prompts for free, the tyranny of good taste is more oppressive than ever. The brain registers predictable as forgettable, and AI's whole premise is being predictable \u2014 which makes unpredictable thinking, cultivated off-grid and away from recommendation algorithms, the human's place in the loop.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#resistance-to-mediocre-ideas"
+      "summary": "Vercel CEO Guillermo Rauch showed that closed-model tokens went from roughly 72% of AI gateway usage in late June to 38% two months later, with open models rising from 28% to 62%. The data skews toward developers, but for some it shows exactly where the winds are blowing.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#vercel-token-flip"
     },
     {
-      "id": "attention-handed-back-to-you",
-      "headline": "The last stage of work belonged to the brain. The next belongs to the heart.",
+      "id": "gavin-baker-endstate",
+      "headline": "The likely end state: closed labs keep the value, open models take the tokens",
       "type": "insight",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "Investor Gavin Baker reads the Vercel data as open source taking share from OpenAI and Anthropic even as both accelerated in July \u2014 meaning total token demand grew even faster. His prediction: closed frontier tokens end up as 60-90% of economic value but only 15-25% of tokens. And since an open source token costs just as much compute to produce, nothing about open source inference is free \u2014 which is bullish for AI infrastructure.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#gavin-baker-endstate"
+    },
+    {
+      "id": "catalini-three-way-split",
+      "headline": "Or maybe it splits three ways: add the 'state-of-the-art specialist'",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "MIT's Christian Catalini sees three spend categories: cheap generalists (commodity open weights), state-of-the-art generalists (closed-lab tokens), and in the middle, state-of-the-art specialists that combine open weights with enterprise proprietary context. It's the thesis behind Microsoft Foundry, which lets companies post-train on their own data atop MAI models \u2014 though how common that becomes across enterprises is genuinely debatable.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#catalini-three-way-split"
+    },
+    {
+      "id": "best-model-era-over",
+      "headline": "'What's the best model' is no longer the only question that matters",
+      "type": "take",
       "segment": "main",
       "timestamp": "28:00",
       "attribution": null,
-      "summary": "Sari Azout: machines took the heavy lifting and value moved to the mind; as AI amplifies intellectual output, value moves to judgment, intuition, taste, and self-knowledge. AI can tell us what is probable but not what is worth wanting \u2014 so treat every automated task as attention handed back, and reinvest it in the squishy skills rather than manufacturing more work.",
-      "link": "https://aidailybrief.ai/e/2026-08-23#attention-handed-back-to-you"
+      "summary": "Increasingly, the job is understanding where different models fit for different reasons \u2014 and even slow-moving, single-ecosystem enterprises should set up environments where small groups can test approaches and hunt for these new efficiencies. Whether the days of getting excited about state-of-the-art releases are over, we'll find out soon: chatter says Fable 5.1 is coming shortly, while OpenAI's Astra has slipped to September.",
+      "link": "https://aidailybrief.ai/e/2026-08-24#best-model-era-over"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-23.mp3",
-  "generated": "2026-08-24T19:06:42Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-24.mp3",
+  "generated": "2026-08-26T07:25:23Z"
 }

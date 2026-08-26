@@ -1,0 +1,17 @@
+David's AI brief for Monday, the twenty-fourth of August.
+
+The one idea today is that the model war has quietly changed shape. It is no longer a question of whose model is best. It is a question of what belongs in your stack.
+
+The peg is a tier list. Theo, an entrepreneur and content creator, ranked the current models and set the internet arguing. Fable five sat alone at the top; Gemini was put in a tier of its own, below F, which tells you how much of this is sport. But Theo's honest line is the interesting part. Fable, he says, is a genius that needs taming, while G P T five point six Sol is a slightly dumber robot that does exactly what you tell it — and if forced to choose, he would keep the robot. Nathaniel Whittemore admits much the same habit: start a task in both, then commit to one.
+
+Underneath the fun, three pieces of evidence point the same way. A T and T is holding its spending with OpenAI and Anthropic flat and replacing it with open models — around forty per cent of employee queries already, across roughly a hundred thousand staff, with a target of sixty to seventy per cent. Routing coding work by task cut their costs by fifty-six per cent, for a quality drop of about two per cent. On Vercel's gateway, open models went from twenty-eight per cent of tokens to sixty-two per cent in two months. And Stripe has paid seven billion dollars for OpenRouter, a company that exists purely to send the right task to the right model.
+
+Now, the other side. Ed Zitron, writing yesterday, uses the very same A T and T story to argue the opposite. He reads the move to open models not as a smarter stack but as the first stage of cutting AI spending altogether — first you move to open source, he says, then you stop using it, because even open source is expensive and of questionable use. And he makes one structural point the podcast does not answer: distillation requires a model to distil from. If the frontier labs stop spending billions on training, the cheap tier everyone is migrating to has nothing left to inherit.
+
+Where does that leave a surgery? Three thoughts. First, routing by task is exactly how we already think about people — the health care assistant does the blood pressure, the doctor does the undifferentiated chest pain — but we buy AI as single subscriptions, so there is no lever to do it. Worth asking your scribe supplier which model actually sits behind the product, and whether it changes without telling you.
+
+Second, the most useful detail today was not about price. The reason enterprises are apparently shunning Fable is a thirty-day data retention policy. That is our procurement conversation in miniature: capability is not what limits what a practice can adopt — retention, hosting and the data protection assessment are.
+
+And third, whichever man is right, the defensive move is the same. Do not build a working week that only functions with one named product, keep the finished note in a record the practice owns, and treat today's price as an introductory one.
+
+That's the brief — source, The AI Daily Brief.
