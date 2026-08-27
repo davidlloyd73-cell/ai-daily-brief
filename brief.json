@@ -1,26 +1,26 @@
 {
-  "date": "2026-08-25",
-  "title": "What the Top AI Users Are Doing Differently",
-  "dek": "OpenAI's own data says the gap between the most advanced AI users and everyone else has ballooned from 2.6X in January to 8.3X by June \u2014 and the whole difference is agents. Today's episode digs into what frontier firms are actually doing differently, plus Meta's imminent consumer agent, NVIDIA as the central bank of compute, and a peek at Microsoft employees' AI bills.",
-  "source": "https://aidailybrief.ai/e/2026-08-25",
+  "date": "2026-08-26",
+  "title": "5 Rules for Better AI Writing",
+  "dek": "Stanley Druckenmiller published a Wall Street Journal op-ed so full of AI-isms that a detector scored it 100% \u2014 and when the mob came, his answer was 'of course I used AI.' With the Journal backing him up, the question stops being whether AI writing is legitimate and becomes how to do it well. NLW offers five rules, plus a use-case-by-use-case crib sheet for emails, memos, social, marketing copy, and op-eds.",
+  "source": "https://aidailybrief.ai/e/2026-08-26",
   "oneIdea": {
-    "headline": "Agentic use compounds: the top AI users are pulling away from everyone else.",
-    "summary": "In January, the most advanced AI users were using 2.6 times as much AI as average users. By the end of June, per OpenAI's own research, that gap had grown to over eight times. The reason is agents: frontier firms have moved from chat-based assistance to delegation \u2014 giving agents context, tools, plugins, and skills to do systems-level work \u2014 and because agents take on increasingly valuable work, their lead compounds. The average users just haven't made the jump, and the gap is poised to keep growing."
+    "headline": "The purity test for AI writing will die. The quality test won't.",
+    "summary": "Druckenmiller's unapologetic 'of course I used AI' \u2014 and the WSJ's shrug \u2014 signal that AI writing is now simply a fact of life. But acceptance of AI writing is not acceptance of bad writing: the easier the inputs get, the higher the burden on the outputs. Quality reads as effort, effort's absence is glaringly legible, and writing is still thinking. Different types of writing need different rules \u2014 and laziness in work will always come across as laziness in work."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Usage is not outcome \u2014 an old lesson in new clothes",
-        "body": "The whole episode rests on tokens as a proxy for work, and the counter-argument is that nobody has shown the tokens turn into anything. General practice has been here before: appointment counts, QOF points and referral rates all measured activity rather than benefit. If a practice or an ICB starts quoting AI usage figures, the sensible question is the one both sides here failed to settle \u2014 what changed for the patient, or for the clinician's day, that we can actually measure?"
+        "title": "The scribe is summarisation, not composition \u2014 keep the line clear",
+        "body": "Both sides here agree on one boundary even though they agree on nothing else: compressing what was said is a different act from deciding what it means. That maps almost exactly onto a consultation. An AI scribe turning a fifteen-minute consultation into a structured note is doing the safe half; the unsafe half is letting the generated impression, plan or differential stand as your reasoning. The practical habit is the one NLW describes for meeting notes \u2014 let the tool do the summary, then come in over the top and say plainly what actually mattered. If Zitron is right, that human overlay is the only thing of value in the record; if NLW is right, it is still the only bit a reader, or a coroner, will judge you on."
       },
       {
-        "title": "Where the ladder is safe to climb in a surgery",
-        "body": "The 'use case ladder' \u2014 generation, synthesis, execution, maintenance \u2014 is a useful frame for a GP setting, and it also marks where the risk starts. Generation and synthesis are what an AI scribe already does: draft the consultation note, pull together a discharge summary. Execution and maintenance mean software acting inside the clinical record, and that is a different governance question entirely. If Zitron is right that agentic rigs need constant babysitting, the failure mode in a surgery is not lost time but a wrong entry in a live record; if the Brief is right, the gain will come from the boring end \u2014 recalls, coding, documentation \u2014 not from anything clinical."
+        "title": "Letters and reports: where a legible lack of effort costs something real",
+        "body": "Referral letters, insurance reports and Medical Examiner correspondence are closer to the op-ed than to the email. A consultant colleague who spots the house style of a chatbot in a referral will discount the clinical judgement in it, fairly or not \u2014 that is Zitron's point about contempt for the audience, and NLW's rule three in different words. If Zitron's right, the discount is permanent and reputational. If NLW's right, it fades within a couple of years and only genuinely thin letters get punished. Either way, the safe practice today is unchanged: dictate or draft the clinical reasoning yourself, use the model for structure and tightening, and read every number and every drug name before it leaves the surgery."
       },
       {
-        "title": "The legal 108X figure, read from a Medical Examiner's chair",
-        "body": "The fastest growth in agentic use is in legal work: comparing terms, flagging deviations, drafting, monitoring \u2014 with humans keeping the risk judgement and the accountability. That division of labour is precisely the one that would apply to medical examiner scrutiny or significant event work: software can read every note and flag what departs from the expected pattern, but the judgement of whether it mattered, and the signature under it, stays human. Worth watching, because the pattern arrives in medicine through the coroner's and governance side long before it arrives at the consulting room door."
+        "title": "Bereaved families are not an audience for generated prose",
+        "body": "One asymmetry the podcast does not reach. In Medical Examiner work and in condolence correspondence, the reader is looking for evidence that a person attended to their relative. There is no version of that letter where an obvious AI cadence helps, and the cost of getting it wrong is not embarrassment but harm. Whatever the wider purity test does, this is a case for writing it yourself."
       }
     ]
   },
@@ -28,264 +28,244 @@
     "source": "The AI Hater's Manifesto",
     "url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
     "date": "2026-08-25",
-    "same_day": true,
-    "text": "Zitron attacks the same OpenAI research this edition is built on, and goes after its central instrument: the token. He argues token counts measure subsidy rather than work, since customers still \"burn anywhere from $20 to $40 in tokens for every dollar of software spend\", and he notes that when OpenAI and Anthropic moved larger companies onto token-based billing this year, \"enterprises almost immediately started cutting token budgets\" because \"nobody could actually point to anything improving\". He then turns OpenAI's own economists against the headline: buried on page 35 of their 69-page report is the finding that \"revenue per employee is not meaningfully associated with output tokens per employee\" \u2014 so a firm burning eight times the tokens is not demonstrably eight times more productive. On agents he doubts the delegation story itself, describing the typical rig as \"a contrived series of harnesses, prompts, API calls and burned tokens\" that \"requires constant maintenance to do some stuff sometimes\"."
+    "same_day": false,
+    "text": "Zitron's manifesto, published the day before this edition, attacks precisely the ground NLW is standing on. His claim is that the embarrassment people feel about admitting they used AI to write is not a dying purity taboo but accurate self-knowledge \u2014 \"you know what you're doing\". He draws a hard line between outsourcing work and outsourcing thought: using a model to write a thirty-line Python script or search a long document is, in his words, \"inoffensive\"; handing over the composition of an argument is not, because the words are where the thinking is meant to show. On his account the tell is not fixable AI-isms but the absence of a person underneath, and scrubbing the syntax only hides it better: \"If your work is not better than an LLM's, you're bad at your job.\" Where NLW reads Druckenmiller as a craft failure with five remedies, Zitron reads it as the system working exactly as designed \u2014 a tool that lets people who don't do the work resemble people who do."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is whether output tokens are a valid proxy for work done. Both accept the same facts: frontier-firm token use really has grown roughly seventeen-fold, agentic traffic really is most of enterprise output, and adoption really is lopsided between firms. The empirical question that will resolve is whether the token gap ever shows up in outputs \u2014 the specific observable is revenue, margin or headcount per employee for the heavy-agentic cohort against their sector peers over the next few years, which is precisely the correlation OpenAI's own economists could not find. The residue is pure worldview: Whittemore reads high token burn as capability being exercised, Zitron reads it as an inefficient product being subsidised. Whittemore is vindicated if the 8.3X cohort visibly outperforms on ordinary business measures once inference is no longer sold below cost; Zitron if usage stays high while performance stays flat and budgets are cut at renewal. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is where they agree despite opposite priors: neither disputes that adoption is now real, broad and very unevenly distributed. Watch for anyone publishing an outcome measure, rather than a usage measure, for the frontier cohort."
+    "text": "The variable both men orbit is detectability \u2014 whether a reader can tell that no one thought hard behind the prose. Both accept the same facts: the op-ed was AI-drafted, the Journal defended it, executive ghostwriting long predates AI, and this particular piece read as lazy. The empirical question that will actually resolve is whether that legibility decays; the observable is blind reader-preference and detector-accuracy testing on next-generation output against human-drafted equivalents in the same genre. The residue is pure worldview: whether words you did not compose can carry your thinking at all. NLW is vindicated if detectability collapses while the quality bar he describes holds; Zitron is vindicated if the tell persists and carries a reputational cost even when the argument underneath is sound. Both are polemicists with incentives \u2014 NLW bullish and professionally anti-doom, Zitron bubble-certain and professionally anti-hype \u2014 so the signal is where they agree despite opposite priors: visible low effort is contempt, and the thinking is the part that cannot be delegated. Watch whether other mastheads follow the Journal with an explicit contributor AI policy."
   },
   "headlines": [
     {
-      "id": "meta-hatch-agent",
-      "headline": "Meta's consumer agent 'Hatch' is weeks away",
+      "id": "finance-royalty-publishes-ai-oped",
+      "headline": "Finance royalty publishes an AI-written op-ed \u2014 and the discourse eats the substance",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Per roadmap documents viewed by The Information, Meta is finishing a consumer agent known internally as Hatch \u2014 a streamlined, OpenClaw-style agent experience that could anchor a new AI agent subscription justifying a $200-a-month price tag for high-usage accounts. The rollout could begin as soon as this week as a preview to a small group of customers.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#meta-hatch-agent"
+      "summary": "Stanley Druckenmiller \u2014 whose fund famously had zero losing years from 1981 to 2010 \u2014 published \"Let the Bond Market Speak,\" a full-throated WSJ critique of Treasury Secretary Scott Bessent. Within hours, nobody was talking about monetary policy; they were talking about the fact that the piece was very, very clearly written by AI.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#finance-royalty-publishes-ai-oped"
     },
     {
-      "id": "whatsapp-agent-platform",
-      "headline": "WhatsApp becomes a multi-agent platform",
+      "id": "ai-isms-scored-100-percent",
+      "headline": "The AI-isms were unmistakable \u2014 and a detector scored it 100%",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "Meta plans a new platform on WhatsApp for third-party agent integration, letting multiple agents coordinate with each other via WhatsApp messages. It mirrors some GrokBot functionality \u2014 but this isn't cribbing, these are just interaction patterns we're likely to see much more of.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#whatsapp-agent-platform"
+      "summary": "The op-ed was replete with every egregious AI tell, especially \"it's not this, it's that\" constructions (\"that isn't a crisis, it's an invoice\"). AI detector Pangram put the chance it was AI-generated at 100%, and critics piled on \u2014 calling it plagiarism, slop, and demanding mandatory disclosure from the Journal.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#ai-isms-scored-100-percent"
     },
     {
-      "id": "watermelon-october-launch",
-      "headline": "Meta's 'Watermelon' model targets October",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "02:00",
-      "attribution": null,
-      "summary": "Back in July, AI chief Alexandr Wang told staff that Watermelon had already caught up with GPT-55 on internal benchmarks. But the frontier has since moved with GPT-56 and will likely move again by October \u2014 so the question remains whether Meta gets closer to the frontier without actually reaching it.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#watermelon-october-launch"
-    },
-    {
-      "id": "grokbot-pricing-drops",
-      "headline": "GrokBot sheds its $500-a-month confusion",
-      "type": "insight",
-      "segment": "headlines",
+      "id": "druckenmiller-calculator-quote",
+      "headline": "I write everything using AI now for the same reason I use a calculator when I do math problems.",
+      "type": "quote",
+      "segment": "main",
       "timestamp": "03:00",
-      "attribution": null,
-      "summary": "GrokBot's launch pricing was intentionally rate-limiting \u2014 users initially weren't sure whether they needed both Cursor Ultra and SuperGrok Heavy, a $500-a-month combination. As of this week it's included in the $60-a-month Cursor Pro subscription and the $100-a-month SuperGrok subscription.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#grokbot-pricing-drops"
+      "attribution": "Stanley Druckenmiller, responding to the op-ed backlash",
+      "summary": "No sheepish apology. Druckenmiller's full response: \"Bro, of course I used AI... There's a reason I moved from an English major to being an economics major. I'm not embarrassed by it.\"",
+      "link": "https://aidailybrief.ai/e/2026-08-26#druckenmiller-calculator-quote"
     },
     {
-      "id": "sol-price-cut-model-stack",
-      "headline": "OpenAI's Sol price cut isn't about Anthropic \u2014 it's about the model stack",
-      "type": "take",
-      "segment": "headlines",
+      "id": "gigot-original-argument-quote",
+      "headline": "The question for us is whether what we publish from contributors reflects an author's original argument.",
+      "type": "quote",
+      "segment": "main",
       "timestamp": "03:00",
-      "attribution": null,
-      "summary": "GPT-56 Sol drops to $4 per million input tokens and $20 per million output, from $5 and $30, following cuts to Luna and Terra last month. Many read it as pressure on Anthropic ahead of its IPO, but the more likely driver: business customers won't just use the most expensive state-of-the-art model for everything anymore, and to the extent OpenAI has the compute to deliver frontier models cheaper, it makes sense to do so.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#sol-price-cut-model-stack"
+      "attribution": "Paul Gigot, Wall Street Journal opinion editor",
+      "summary": "The WSJ opinion editor backed Druckenmiller completely: \"AI is a fact of modern life... no one can doubt that his op-ed is his genuine opinion.\" The Journal's position, clear as day: what matters is the sincerity of the ideas, not the unique human flavor of the words expressing them.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#gigot-original-argument-quote"
     },
     {
-      "id": "hugging-face-150m",
-      "headline": "Hugging Face's $13B ask comes with real revenue \u2014 and a bigger argument",
+      "id": "ghostwriting-was-always-normal",
+      "headline": "Executives never wrote their own op-eds anyway",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "The company is now generating more than $150 million in annualized revenue, up 50% from two months ago, even though 97% of users access the platform entirely for free. For acquirers this isn't a revenue-multiple conversation: as the backbone of open weights challenging frontier gatekeeping, some argue it should be worth three to four times the $13 billion asking price.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#hugging-face-150m"
+      "summary": "Bloomberg's Joe Weisenthal noted that pre-AI, plenty of high-profile op-eds were entirely written by underlings without controversy. Journalist Sharon Goldman confirmed it from the inside: from 2015 to 2020 she ghostwrote dozens of executive op-eds off one conversation and some notes, never wanting a byline.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#ghostwriting-was-always-normal"
     },
     {
-      "id": "nvidia-central-bank-of-compute",
-      "headline": "What is Jensen building? NVIDIA as the central bank of compute",
+      "id": "disclosure-fight",
+      "headline": "First-sentence disclosure, or 'a dumb new form of virtue signaling'?",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "Jason Calacanis called publishing AI-written pieces without a first-sentence disclosure \"unforgivable for a public figure.\" His All In co-host Chamath Palihapitiya bit back: you don't disclose every article that shaped your opinion \u2014 \"If he puts his name behind it, it's his opinion.\" Others predicted the whole debate is \"boomer coded\" and nobody will care in two years.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#disclosure-fight"
+    },
+    {
+      "id": "is-writing-art-or-a-tool",
+      "headline": "The whole debate hinges on whether writing is art or a functional tool",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "In a single week: a deal to license technology and acquire talent from Poolside, a stake in data-labeling company Mercur, and a potential investment in Perplexity at a $30 billion valuation \u2014 on top of NeoCloud stakes, land and power deals, and data center backstops. Some now conceptualize NVIDIA as the central bank of compute, standing behind the AI economy and setting the price of the key resource; comparisons range from John Malone's 1980s cable empire to Alphabet's Other Bets.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#nvidia-central-bank-of-compute"
+      "summary": "Spectra Markets' Brent Donnelly framed it best: is writing art, or functional communication like code? \"There's no right answer.\" The pro-AI camp says the value is in the thinking, not the words; the nuanced camp says AI-assisted writing is fine when it reflects real thinking \u2014 and deserves mockery when it substitutes for it.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#is-writing-art-or-a-tool"
     },
     {
-      "id": "nvidia-tapped-out-at-home",
-      "headline": "Before you scream 'circular deals' \u2014 NVIDIA is tapped out at home",
-      "type": "take",
-      "segment": "headlines",
+      "id": "contempt-for-the-format",
+      "headline": "The problem isn't that Druckenmiller is wrong \u2014 it's the contempt",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "NVIDIA doesn't operate its own fabs, so growing chip revenue is limited by supplier constraints it can't control. Turning investment outward \u2014 $42.3 billion in private companies as of March, with a higher number certain this week \u2014 supports the entire AI economy and, in turn, keeps NVIDIA's revenues strong for years to come.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#nvidia-tapped-out-at-home"
+      "summary": "The sharpest critique conceded that Druckenmiller and Gigot are \"100% true descriptively.\" The real issue: publishing a visibly low-effort AI draft expresses contempt for the op-ed format itself and for its audience. If you couldn't be bothered to make your argument convincingly, why should readers care about your argument?",
+      "link": "https://aidailybrief.ai/e/2026-08-26#contempt-for-the-format"
     },
     {
-      "id": "taiwan-chip-smuggling-charges",
-      "headline": "Taiwan charges nine in Blackwell smuggling scheme \u2014 including an NVIDIA manager",
+      "id": "ai-does-middle-to-middle",
+      "headline": "AI is great for the middle \u2014 the beginning and end need a human",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "CNBC's Deirdre Bosa revived Balaji's framing: the beginning (what's the idea, what are you actually trying to say?) needs a human; the middle (research, organize, draft, tighten, poke holes) is AI territory; the end (is this any good? true? do I buy it?) needs a human again. As Balaji put it: \"AI doesn't do end-to-end. It does middle-to-middle. The new bottlenecks are prompting and verifying.\"",
+      "link": "https://aidailybrief.ai/e/2026-08-26#ai-does-middle-to-middle"
+    },
+    {
+      "id": "writing-is-the-top-enterprise-use",
+      "headline": "Writing is already the dominant enterprise AI use case",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "Taiwanese prosecutors indicted nine people over a scheme to smuggle Blackwell 300 systems into China, including a manager in NVIDIA's distribution business and two Supermicro employees. The group allegedly ordered 130 Supermicro servers, with 74 delivered to China and 56 stopped \u2014 under 10,000 chips total, not nothing, but not enough to build a frontier training cluster.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#taiwan-chip-smuggling-charges"
+      "summary": "OpenAI's recently released enterprise data shows the preponderance of ChatGPT usage across almost every department is writing \u2014 not just comms, but recruiting, marketing, customer support, legal, sales, and policy. AI writing is here and it's here to stay.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#writing-is-the-top-enterprise-use"
     },
     {
-      "id": "microsoft-jagged-ai-spend",
-      "headline": "Inside Microsoft, AI spend runs from $1 to $28,000 a month",
-      "type": "insight",
-      "segment": "headlines",
+      "id": "rule-1-different-writing-different-rules",
+      "headline": "Rule 1: Different types of writing, different types of rules",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "08:00",
+      "attribution": null,
+      "summary": "An email is not a strategy memo, a strategy memo is not a LinkedIn post, and a LinkedIn post is not an op-ed. They're trying to achieve different things, so how you engage AI around each will differ \u2014 which makes \"can or should AI write this\" mostly the wrong question.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#rule-1-different-writing-different-rules"
+    },
+    {
+      "id": "rule-2-purity-test-dies-quality-doesnt",
+      "headline": "Rule 2: The purity test will die. The quality test won't.",
+      "type": "take",
+      "segment": "main",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "A voluntary internal spreadsheet obtained by Business Insider shows extremely jagged AI usage: Azure ranged from $1 to $7,500 monthly, Cloud and AI topped out at $15,000, and one person in Customer and Partner Solutions ran up $28,000. Medians clustered around $150\u2013$500 (Core AI the outlier at $975) \u2014 and notably, BI found no correlation between token burn and compensation or promotions.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#microsoft-jagged-ai-spend"
+      "summary": "The people saying this whole conversation will feel quaint in a couple of years are probably right. But the increased easiness of the inputs of writing will increase the burden on the outputs even more \u2014 accepting that people use AI to write doesn't mean accepting bad writing.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#rule-2-purity-test-dies-quality-doesnt"
     },
     {
-      "id": "jobs-apocalypse-narrative-fades",
-      "headline": "The jobs apocalypse narrative is finally losing its grip",
+      "id": "rule-3-effort-is-legible",
+      "headline": "Rule 3: Quality reads as effort \u2014 and lack of effort is obvious",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "09:00",
+      "attribution": null,
+      "summary": "The backlash to Druckenmiller wasn't really about prose quality. The AI-isms were so glaring and so fixable that it seemed like he didn't care enough to change the syntax on a couple of sentences \u2014 and if he didn't care to do that, how much thought went into the argument underneath?",
+      "link": "https://aidailybrief.ai/e/2026-08-26#rule-3-effort-is-legible"
+    },
+    {
+      "id": "rule-4-longer-is-not-better",
+      "headline": "Rule 4: Longer is not better \u2014 usually the opposite",
       "type": "take",
       "segment": "main",
       "timestamp": "13:00",
       "attribution": null,
-      "summary": "One of the best shifts in AI narratives right now is moving away from the accepted-without-question premise that AI is obviously job-destroying. Certain roles will genuinely be obviated and society should be ready to support the people affected \u2014 but the idea of a radical, rapid jobs apocalypse was never accurate.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#jobs-apocalypse-narrative-fades"
+      "summary": "We have the phrase \"work slop\" because models have been better at saying a lot than saying the right thing succinctly. Great writers always knew this \u2014 Pascal in the 17th century: \"I've made this longer than usual because I have not had time to make it shorter.\" The first wave of AI writing was defined by eye-bleeding length; the next generation won't be.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#rule-4-longer-is-not-better"
     },
     {
-      "id": "altman-too-ambitious-on-timelines",
-      "headline": "The economy just has so much inertia... we've all been too ambitious on timelines.",
-      "type": "quote",
+      "id": "rule-5-writing-is-thinking",
+      "headline": "Rule 5: Writing is thinking \u2014 and outsourcing it is the constant risk",
+      "type": "take",
       "segment": "main",
       "timestamp": "14:00",
-      "attribution": "Sam Altman, in a recent podcast interview",
-      "summary": "Altman now says he was wrong about the speed of disruption after GPT-4 \u2014 people keep buying from the same companies and using tools the same way. He calls the inertia a positive that will make the transition 'smoother and slower,' and says he's grateful for it.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#altman-too-ambitious-on-timelines"
+      "attribution": null,
+      "summary": "Deciding your thesis, supporting arguments, and narrative construction is an exercise whose real product is the substance underneath the words. Using AI doesn't automatically mean outsourcing your thinking, but the risk has to hover in your field of view because it's so easy to fall into. NLW's own example: he built this episode's five rules manually in Notion rather than handing the concept to Claude \u2014 slower, but right for this context.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#rule-5-writing-is-thinking"
     },
     {
-      "id": "pause-ai-corporations",
-      "headline": "Who needs a pause AI movement when you've got corporations?",
-      "type": "take",
+      "id": "emails-safe-but-maybe-overkill",
+      "headline": "Emails: safe for AI \u2014 but dictation might beat it",
+      "type": "insight",
       "segment": "main",
       "timestamp": "15:00",
       "attribution": null,
-      "summary": "Institutional inertia is doing the work AI doomers wished regulation would: even with incredible technology, society and the economy adapt slowly, and that slowness is the real governor on the pace of transformation.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#pause-ai-corporations"
+      "summary": "No one has ever judged the vast majority of emails on prose quality, and emails are such small units of thought that the intellectual-outsourcing risk is low. But for interactive, Slack-style email, AI may be overkill \u2014 dictation tools like Whisperflow can speed you up more effectively.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#emails-safe-but-maybe-overkill"
     },
     {
-      "id": "altman-still-does-it-the-old-way",
-      "headline": "I have a better way to do it now, and I still do it the old way.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": "Sam Altman, on his own 'psychologically inconsistent' work habits",
-      "summary": "Altman admits he's been using computers the same way for 20 years despite having 'a magic thing called Codex' \u2014 still clicking around, pasting between messaging apps, scrolling mindlessly through email. Something in his mind encodes that rote computer work is what it means to be productive, even though his stated preference is the opposite.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#altman-still-does-it-the-old-way"
-    },
-    {
-      "id": "mind-muscle-memory",
-      "headline": "It's not secret satisfaction \u2014 it's mind muscle memory",
-      "type": "take",
+      "id": "meeting-notes-are-compression",
+      "headline": "Meeting notes: safe, because it isn't really writing \u2014 but watch the exhaustiveness trap",
+      "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "We all get stuck in the patterns of how we've always done things. Building a new, less comfortable mind muscle feels exhausting when we know exactly how long the old way takes \u2014 which is precisely why studying the people who have broken out of that muscle memory matters so much.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#mind-muscle-memory"
+      "summary": "Summarization is compression, not composition. The failure mode is an AI that's great at summarizing what everyone said but bad at surfacing the one or two things that actually mattered. Outsource the summary, then come in over the top with your own clarification of what's important.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#meeting-notes-are-compression"
     },
     {
-      "id": "openai-buried-its-own-research",
-      "headline": "OpenAI buried its best enterprise research",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "16:00",
-      "attribution": null,
-      "summary": "OpenAI's 'Enterprise Signals: What Frontier Firms Are Doing Differently' puts hard numbers around how leading firms use AI \u2014 and the company barely promoted it. It only surfaced widely when A16Z reposted it in their charts of the week. Great stuff; please promote it more heavily next time.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#openai-buried-its-own-research"
-    },
-    {
-      "id": "legal-codex-108x",
-      "headline": "Codex growth is fastest where the engineers aren't",
+      "id": "strategy-memos-sneakily-bad",
+      "headline": "Strategy memos: sneakily bad for AI",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Since early February, Codex use among engineering practitioners is up 5X \u2014 but finance and accounting is up 20X, marketing and communications 26X, people/recruiting and sales each 41X, and legal a staggering 108X. As one line making the rounds put it: LLMs are for lawyers what spreadsheets were for accountants.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#legal-codex-108x"
+      "summary": "Unless you're hyper-precise about the strategy, AI goes off the rails \u2014 adding its own inventions or generic training-data advice instead of your organization's actual context. The fix is splitting the work: exhaustive personal thinking (with AI supporting the bulleting, outlining, and iteration), then letting AI write the words only once the outline is tight.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#strategy-memos-sneakily-bad"
     },
     {
-      "id": "the-agentic-flippening",
-      "headline": "The flippening: agentic tokens hit 64% of enterprise output",
+      "id": "social-copy-shorter-is-safer",
+      "headline": "Social copy: AI does better the shorter the medium",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "In August 2025, enterprise output tokens were essentially 100% ChatGPT. By February the split was 87/13, by March 73/27, and by late April agentic crossed 53%. When OpenAI's data set ends in June, agentic work represents 64% of enterprise output tokens \u2014 meaning, using tokens as a proxy for volume of work, almost two-thirds of the work is now agentic.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#the-agentic-flippening"
+      "summary": "AI handles an old-school one-line X post better than a full LinkedIn essay, which has more room for AI-isms to shine through. The bigger problem: social media no longer rewards pithy writing \u2014 it demands engagement, commenting, and human signal that automated posting can't provide.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#social-copy-shorter-is-safer"
     },
     {
-      "id": "frontier-gap-explodes-to-8x",
-      "headline": "The frontier-firm gap exploded from 2X to 8.3X",
-      "type": "insight",
+      "id": "social-pipeline-hits-walls",
+      "headline": "NLW's own social pipeline hit its ceiling within weeks",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "19:00",
+      "attribution": null,
+      "summary": "He built a full pipeline from episode disaggregation on aidailybrief.ai to generated X and LinkedIn posts \u2014 and it worked, increasing sharing versus doing zero social before. But within weeks it slammed against the walls of what AI writing can do for social. The lesson: realistic expectations.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#social-pipeline-hits-walls"
+    },
+    {
+      "id": "marketing-copy-annoyingly-bad",
+      "headline": "Marketing copy: annoyingly bad \u2014 corrections become copy",
+      "type": "take",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "Through most of 2025, the average user at a frontier firm (top 10% of enterprises by output tokens per active user) used about twice as many tokens as one at a typical firm. The gap hit 2.6X in January and now stands at 8.3X. Overall, average firms use about twice as many tokens as 18 months ago \u2014 frontier firms use 17 times as many.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#frontier-gap-explodes-to-8x"
+      "summary": "Marketing wants uniqueness and distinction, so the cost of common AI-isms is highest here. The maddening failure mode: tell the model \"stop presuming so much about the reader\" and the next draft includes a headline reading \"We assume nothing about the reader.\" The better use for now is rapid iteration \u2014 ask for 20 taglines to spark your own.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#marketing-copy-annoyingly-bad"
     },
     {
-      "id": "plugins-and-skills-gap",
-      "headline": "Frontier firms aren't just using agents more \u2014 they're using them better",
-      "type": "insight",
+      "id": "opeds-the-effort-sandwich",
+      "headline": "Op-eds: do the effort sandwich",
+      "type": "take",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "At typical firms, about 9% of weekly active users use plugins and only 3% use skills; at frontier firms it's 21% and 19%. And even they haven't topped out: at OpenAI itself, 93% of employees use skills and 95% use plugins.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#plugins-and-skills-gap"
+      "summary": "The whole point of an op-ed is to convince \u2014 and when readers can instantly tell it was low effort, they switch off. Get extremely clear on the thesis and supporting points before turning it over to AI (\"the five-paragraph essay from grade school, baby\"), then go back through and scrub the incredibly obvious AI-isms.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#opeds-the-effort-sandwich"
     },
     {
-      "id": "why-software-moved-first",
-      "headline": "Why coding got agents first \u2014 and why knowledge work is catching up",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "OpenAI's diagnosis: code bases give agents clear context, tests make outputs verifiable, and progress in coding accelerates AI R&D itself. General knowledge work lagged because tasks provide limited context and lack clear verification criteria \u2014 but scaling, reinforcement learning, and evals like GDPVal are bringing real-world tasks within reach, and agentic AI has found product-market fit with general knowledge workers since the start of the year.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#why-software-moved-first"
-    },
-    {
-      "id": "patterns-not-models",
-      "headline": "The unlock wasn't the models \u2014 it was the patterns",
+      "id": "laziness-still-shows",
+      "headline": "AI won't change this: laziness in work reads as laziness in work",
       "type": "take",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "It's great that OpenAI is making models and harnesses work better for knowledge work, but that's not why agentic use has grown among non-engineering knowledge workers. It's grown because we've started figuring out the patterns that actually allow agents to thrive in our own contexts.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#patterns-not-models"
-    },
-    {
-      "id": "the-use-case-ladder",
-      "headline": "The use case ladder: generation, synthesis, execution, maintenance",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "Advanced agentic use climbs a ladder: generation (drafting emails, reports, formulas) at the base, then synthesis of disparate data sources, then execution inside existing systems, and finally maintenance \u2014 agents keeping a system running over time. Agentic use takes individual chat workflows and moves them into systems-level work that impacts more than the individual.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#the-use-case-ladder"
-    },
-    {
-      "id": "legal-division-of-labor",
-      "headline": "In legal, agents own coverage \u2014 humans own risk judgment",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "In chat, legal work is 57% writing and 20.5% knowledge retrieval. In agentic use, coding jumps to 32.9%, system operations to 17.7%, and workflow automation to 7.7% \u2014 agents comparing terms, flagging deviations, drafting red lines, and monitoring commitments, while humans keep negotiating material terms, setting risk tolerance, and owning accountability. The same pattern shows up in basically every department.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#legal-division-of-labor"
-    },
-    {
-      "id": "multiplayer-ai-is-next",
-      "headline": "The next leap is multiplayer AI, not individual AI",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "26:00",
-      "attribution": null,
-      "summary": "Even frontier users climbing into execution and maintenance are mostly running agents in individual silos. The next generation of gains will come at the intersection of different teams \u2014 team AI rather than just individual AI. And with frontier firms racing ahead, the numbers should be a wake-up call for anyone not deploying agents at scale yet.",
-      "link": "https://aidailybrief.ai/e/2026-08-25#multiplayer-ai-is-next"
+      "summary": "AI writing isn't going anywhere, and it will unlock opportunity \u2014 people who never used writing for communication will start to. What it won't change: there are no shortcuts for doing things well, even with tools that help us do things well faster and better.",
+      "link": "https://aidailybrief.ai/e/2026-08-26#laziness-still-shows"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-25.mp3",
-  "generated": "2026-08-26T19:09:47Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-26.mp3",
+  "generated": "2026-08-27T19:06:40Z"
 }

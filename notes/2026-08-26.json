@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The scribe is summarisation, not composition — keep the line clear",
+      "body": "Both sides here agree on one boundary even though they agree on nothing else: compressing what was said is a different act from deciding what it means. That maps almost exactly onto a consultation. An AI scribe turning a fifteen-minute consultation into a structured note is doing the safe half; the unsafe half is letting the generated impression, plan or differential stand as your reasoning. The practical habit is the one NLW describes for meeting notes — let the tool do the summary, then come in over the top and say plainly what actually mattered. If Zitron is right, that human overlay is the only thing of value in the record; if NLW is right, it is still the only bit a reader, or a coroner, will judge you on."
+    },
+    {
+      "title": "Letters and reports: where a legible lack of effort costs something real",
+      "body": "Referral letters, insurance reports and Medical Examiner correspondence are closer to the op-ed than to the email. A consultant colleague who spots the house style of a chatbot in a referral will discount the clinical judgement in it, fairly or not — that is Zitron's point about contempt for the audience, and NLW's rule three in different words. If Zitron's right, the discount is permanent and reputational. If NLW's right, it fades within a couple of years and only genuinely thin letters get punished. Either way, the safe practice today is unchanged: dictate or draft the clinical reasoning yourself, use the model for structure and tightening, and read every number and every drug name before it leaves the surgery."
+    },
+    {
+      "title": "Bereaved families are not an audience for generated prose",
+      "body": "One asymmetry the podcast does not reach. In Medical Examiner work and in condolence correspondence, the reader is looking for evidence that a person attended to their relative. There is no version of that letter where an obvious AI cadence helps, and the cost of getting it wrong is not embarrassment but harm. Whatever the wider purity test does, this is a case for writing it yourself."
+    }
+  ]
+}
