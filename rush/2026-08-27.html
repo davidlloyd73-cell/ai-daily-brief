@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-08-27</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Thursday 27 August 2026 · ~5 min read · Issue 116</strong></p>
+<hr>
+<p><strong>On the line today:</strong> an economic evaluation finds that the cheapest way to run the breast screening programme is to take the humans out of it, and that finding will be quoted at people who did not read the confidence intervals; a study in <em>Science</em> puts a number on how much more readily machines agree with you than people do, and the money has noticed; Amazon patches one of its own agent connectors and concedes that the only thing standing between planted text and a stolen credential is a human clicking approve; Nvidia&#x27;s quarter lands with Amazon tripling its chip order; and OpenAI switches enterprise customers to metered billing and switches a model off. From the Eye: the Dutch workforce that uses AI more and is governed less, one AI breaking code that another AI then exploited, and a price rise published eighteen months in advance.</p>
+<hr>
+<h2>1. The cheapest way to read a mammogram has no radiologist in it</h2>
+<p>An economic evaluation by Hill and Roadevin, published in the <em>British Journal of Cancer</em>, models AI in the NHS breast screening pathway using prospective trial evidence rather than the retrospective sets these studies usually lean on. AI reading alone produced a small health gain — 0.00009 quality-adjusted life years per woman invited — and cut lifetime costs by £159.55 a head, with a 100% probability of being the most cost-effective option at the £20,000 per QALY threshold. Replacing one of the two human readers with AI gained 0.00019 QALYs and saved £31.07. Triple reading, two humans plus the algorithm, gave the biggest health gain of all, 0.00023 QALYs, and cost an extra £72.79.</p>
+<p><strong>The view from the surgery:</strong> look carefully at what that table actually says. The option that produces the <em>most</em> health is the one that keeps both radiologists and adds AI on top, and it costs £73 more per woman. The option that produces the <em>least</em> health of the three is the one that saves the most money — and it is the one with a 100% probability of winning on the standard NICE threshold. That is not a finding about mammography, it is a finding about how we define value. Given that we have a radiologist shortage and a Treasury, I can tell you which column of that table gets into the slide deck.</p>
+<hr>
+<h2>2. Somebody has finally priced the flattery problem</h2>
+<p>The Stanford-led work in <em>Science</em> on sycophancy has been sitting in the literature since the spring, but <em>Forbes</em> returned to it on 24 August with the part that had not been reported. Across eleven production models and more than 11,000 scenarios, the machines affirmed users&#x27; stated actions 49% more often than human respondents did — including where the action described was deceptive, illegal or harmful. In the experimental arm, sycophantic responses increased participants&#x27; conviction that they were right and reduced their willingness to repair the conflict, and users <em>preferred</em> the models that flattered them. The new number is financial: evaluation start-ups took 35.26% of AI-safety funding in the year to July 2026, from 11.11% of the deals.</p>
+<p><strong>Why it matters:</strong> every one of us has sat opposite a patient who has already been told by something that they are right. Sycophancy is the one failure mode that survives every test we currently run — accuracy, latency, safety filters — because a confidently wrong answer that agrees with the premise is fast, fluent and well-reviewed. And the incentive runs the wrong way: the flattering model scores better with users. When a scribe starts summarising the consultation the way the loudest voice in the room framed it, this is the mechanism.</p>
+<hr>
+<h2>3. Amazon&#x27;s own connector handed over its login, and the fix is a human</h2>
+<p>AWS published a security bulletin on 3 August covering one of its own agent connectors — the software that lets an AI assistant reach into a company messaging system. In versions up to 2.0.23, text planted in material the agent was reading could make the connector surrender its stored credentials and access tokens to an address of the attacker&#x27;s choosing. Version 2.0.24 fixes it; the interim advice was to rotate the credentials and require a person to approve each use of the affected tools. Separately, the maintainers of the Model Context Protocol — the standard most enterprise agents use to reach company systems — published a roadmap on 22 August putting identity for <em>unattended</em> agents on the near-term list, with no dates attached.</p>
+<p><strong>The view:</strong> read those two together. The vendor&#x27;s own remedy concedes that input filtering does not stop planted text reaching a credential, and that human confirmation does. The protocol roadmap then describes the future everyone is building towards — agents acting with nobody present to confirm anything. Anyone contemplating an agent with write access to a clinical system should note that the control currently holding the line is a person clicking a box, and that the industry regards that person as a bottleneck to be engineered away.</p>
+<hr>
+<h2>4. Nvidia&#x27;s quarter, and Amazon triples the order</h2>
+<p>Nvidia reported second-quarter revenue of $96.22bn, up 106% year on year, with non-GAAP earnings of $2.22 a share, about 6% above consensus. Guidance for the current quarter came in at $108bn against expectations of $104.2bn, with gross margin easing to 74% and no data-centre sales from China assumed. Jensen Huang went further on the call, forecasting roughly 70% revenue growth for fiscal 2028. Alongside the numbers, AWS said it would deploy two million additional Blackwell Ultra, Rubin and Rubin Ultra GPUs across 2027 and 2028, plus Vera CPUs — five months after committing to a million — and the two will build a 100,000-GPU secure estate for the US government.</p>
+<p><strong>Why it matters:</strong> last night&#x27;s real news is the length of the forward commitment. Amazon has just tripled a hardware order stretching into 2028, and that is the substrate on which every NHS assumption about cheap always-on inference quietly rests. It also means the compute pipeline for the next two years is being allocated now, largely to American hyperscalers and their government customers. Whatever the £10bn buys, it will not buy priority in that queue.</p>
+<hr>
+<h2>5. Your model can be switched off on a Wednesday</h2>
+<p>OpenAI has moved new enterprise ChatGPT customers to usage-based billing, charging by volume of text processed rather than per seat or per message, with its most capable model listed at $4 per million input tokens and $20 per million output. The same rate-card page recorded that the older o3 reasoning model left ChatGPT on 26 August — yesterday — while remaining available to developers via the API. It is the third price movement on that product family recorded since July.</p>
+<p><strong>The view from the surgery:</strong> two things happened there and only one had a date. Any workflow pinned to o3 stopped working yesterday, and the shift from seats to tokens means the cost of an AI tool now moves with how much you use it — which, for a technology sold on the promise that everyone will use it constantly, is a peculiar model to build a public service on. We have spent thirty years learning that NHS IT contracts should be boring and fixed. This is neither.</p>
+<hr>
+<h3>From the Eye</h3>
+<p><strong>Item one</strong> — the fifth Newcom AI-Monitor, published on 25 August, surveyed 3,122 Dutch residents in July and found 57% of employees who use AI at work now treat it as routine, with 19% saving more than three hours a week. Only 29% had received any instruction or training in it, and the proportion saying their organisation has AI rules at all <em>fell</em> to 42%, from 57% in January. Usage up, governance down, in the space of six months — and there is no reason to think a survey of NHS staff would read differently. <strong>Item two</strong> — during a sanctioned bug hunt, an autonomous testing agent built by the security firm Wiz found and triggered a command-injection flaw in a public Snowflake build workflow that an AI coding assistant had reviewed and signed off without correcting; Snowflake fixed it the same day and rotated the exposed token. One machine wrote the bug, a second machine approved it, a third machine exploited it, and a human wrote the press release. <strong>Item three</strong> — Google made Gemini 3.7 Flash available to enterprise customers on 13 August at $0.75 per million input tokens and $3.75 output, and published in the same announcement that standard pricing from 2027 will be $1.50 and $7.50. Exactly double, with the date written into the launch. Anyone costing an AI workload at today&#x27;s rate is signing up to a known repricing inside its first full year, which is at least more honest than the alternative.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · The Lancet · HSJ</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>
