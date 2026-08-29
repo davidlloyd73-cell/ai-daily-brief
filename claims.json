@@ -1107,6 +1107,24 @@
       "resolution": "Vindicated if, by the check date, the root-cause findings of the next serious autonomous-agent security incident are again ordinary engineering and governance failures (misconfiguration, absent monitoring, over-broad credentials) rather than capabilities beyond those already demonstrated, AND no binding external constraint on frontier deployment has been imposed in the US, UK or EU as a result of safety advocacy. Fails if a subsequent incident turns on a capability the current models demonstrably lacked, or if a binding deployment restriction or mandatory audit regime is enacted and attributed to the risk case he says has never substantiated itself.",
       "check_by": "2027-08-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-08-28",
+      "side": "NLW",
+      "claim": "That a threshold has been crossed from AI assistant to AI operator — that shipped features (Claude's built-in browser, ChatGPT Work's cloud computer, Grokbot, real-profile browsing in Hermes) mark AI moving from giving answers to opening the tab and completing the task, and that this quality-of-life feature wave, not a frontier model release, is where the real change in usage is now happening.",
+      "source_url": "https://aidailybrief.ai/e/2026-08-28",
+      "resolution": "Vindicated if, by the check date, agent-style computer-use or browser-control features are in routine paid use — evidenced by a major vendor disclosing that a material share of paid seats actively use them, or by credible third-party survey data showing task completion by agents as a mainstream workflow rather than an enthusiast one. Fails if such features remain demo-grade and low-usage, are withdrawn or heavily restricted, or if vendors stop reporting on them while chat remains the dominant paid mode.",
+      "check_by": "2027-08-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-08-28",
+      "side": "Zitron",
+      "claim": "That NVIDIA's agentic and open-model investments exist to manufacture compute demand rather than to serve it — that its largest customers 'are, for the most part, funded by NVIDIA', and that this circular financing, visible in rising receivables and the paused neocloud revenue-share programme, is a structural weakness rather than ordinary ecosystem investment.",
+      "source_url": "https://www.wheresyoured.at/premium-the-haters-guide-to-circular-financing-part-one/",
+      "resolution": "Vindicated if, by the check date, NVIDIA's days sales outstanding stays materially above the mid-forties or rises further, AND at least one significant NVIDIA-financed or NVIDIA-backed customer (a neocloud, Perplexity, Poolside or comparable) defaults, is written down, or is acquired at a distressed valuation. Fails if days sales outstanding returns to roughly pre-2026 levels while data-centre revenue continues to grow, with no material impairment among NVIDIA-funded customers.",
+      "check_by": "2027-11-30",
+      "status": "open"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The scribe is about to be offered an upgrade from writing to doing — that is the line to hold",
+      "body": "Everything in this edition points the same way: the tools are moving from drafting text to opening the tab and acting. Our scribes today write a consultation note that a clinician reads, edits and signs. The next sales conversation will offer something more — code the encounter, order the bloods, generate the referral, message the patient. That is a different regulatory object entirely, and the practice, not the vendor, carries the clinical risk. The workable rule is the one we already use for locums and students: the machine may prepare, a named clinician authorises, and the authorisation is recorded. If Whittemore is right this becomes genuinely useful and the discipline costs little. If Zitron is right the reliability was never there and the discipline is the only thing standing between us and a significant event. Either way the answer to \"can it just do it for me\" is no, not without a signature."
+    },
+    {
+      "title": "Price is the thing to ask about, not capability",
+      "body": "Zitron's sharpest practical point is about billing rather than intelligence: agentic tools consume vastly more compute than dictation, and nobody yet knows what that costs at an unsubsidised price. Practices are being sold AI scribes at a per-clinician monthly figure that is almost certainly below cost while the market is bought. GP partners have seen this film — the loss-leading first contract, the renewal at a very different number, the switching cost by then baked into everyone's workflow. Before signing anything agentic, ask three things: what happens to the price at renewal, whether the notes are exportable in a usable form if we leave, and whether the contract survives the vendor being acquired. The clinical case may well be sound. The procurement case is where a small practice actually gets hurt."
+    },
+    {
+      "title": "The cyber-defence letter is the one item here with a real NHS reading",
+      "body": "A hundred-odd companies, including Visa, General Motors and the major cloud providers, warning that AI-enabled attacks will become far more widespread \"in the coming months\" and naming hospitals explicitly is not hype — it is the same warning our own ICB cyber briefings have been circulating, from an unusual direction. Nothing about it changes what a surgery should do, and that is rather the point: the defences are still multi-factor authentication that is actually enforced, smartcards not shared, backups tested rather than assumed, and staff who know that a convincing email from the ICB may not be from the ICB. Whittemore treats this as urgent; Zitron would say it is a sales pitch for more AI. The controls it implies are worth doing on either reading, because they were worth doing before anyone mentioned AI."
+    }
+  ]
+}
