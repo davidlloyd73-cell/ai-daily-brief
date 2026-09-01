@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The harness lesson applies to clinical AI too",
+      "body": "The scribe you dictate into is a harness; the model underneath is a vendor relationship you don't control. If NLW is right, the sensible question for any practice or ICB procuring ambient scribes is whether the supplier can swap its underlying model without disrupting service — ask that at renewal. If Zitron is right, the sharper question is whether the supplier's model provider will still exist on current terms in two years. Either way, the answer to both is the same clause in the contract: model portability and a documented fallback."
+    },
+    {
+      "title": "NHS procurement already knows this story",
+      "body": "A GP who lived through fundholding, 111 and successive reorganisations will recognise the pattern: national dependence on a single supplier looks efficient until the supplier's incentives change. The frameworks now being drawn up for AI in the NHS should treat model-layer and harness-layer dependency as separate risks — a trust can own its workflow software and still be exposed if the intelligence inside it is rented from one lab. The unions-as-intermediaries story is worth noting too; the NHS equivalent — clinical staff bodies brokering between suppliers and frontline teams — barely exists yet for AI."
+    },
+    {
+      "title": "Cheaper tokens cut both ways for the NHS",
+      "body": "The Jevons point — that an 80% price cut drove a 13.8-fold usage jump and a third of users stayed at full price — matters for NHS budgeting. If NLW is right, falling token prices make whole categories of admin automation viable for practices that couldn't justify them last year. If Zitron is right, today's prices are subsidised by unsustainable lab losses and will rise when the money runs short — so any business case built on current per-use costs should be stress-tested against a doubling."
+    }
+  ]
+}

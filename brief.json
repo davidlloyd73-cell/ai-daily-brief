@@ -1,281 +1,241 @@
 {
-  "date": "2026-08-28",
-  "title": "The Most Useful New AI Features and Tools to Try",
-  "dek": "A features-and-tools week: Claude gets a browser, ChatGPT learns to move between temporary and permanent, Gemini transcription starts capturing intent instead of just words, and AI video crosses the faster-than-real-time line \u2014 all against a headlines backdrop where NVIDIA confirms its $12.9B Hugging Face buy and nearly posts a $100B quarter.",
-  "source": "https://aidailybrief.ai/e/2026-08-28",
+  "date": "2026-08-31",
+  "title": "How to Navigate the Next Wave of AI Competition",
+  "dek": "OpenAI cutting Cursor off after the SpaceX acquisition looks like lab-war psychodrama \u2014 until you line it up with Windsurf, the xAI blocks, and Satya Nadella's reverse information paradox. The pattern is clear: the sovereignty conversation enterprises have been having about models now has to extend to harnesses too.",
+  "source": "https://aidailybrief.ai/e/2026-08-31",
   "oneIdea": {
-    "headline": "The line between AI assistant and AI operator just got a lot thinner.",
-    "summary": "No single frontier model dropped this week \u2014 instead, a dozen shipped features quietly changed how AI actually gets used. Claude got its own browser, ChatGPT Work got a computer in the cloud, Gemini's new transcription cleans up what you say into what you meant, and video generation now takes less time than watching the result. The quality-of-life upgrades are where AI moves from giving answers to opening the tab and getting the job done \u2014 and it's worth taking inventory."
+    "headline": "The lab wars have come for your harness.",
+    "summary": "OpenAI cutting off Cursor isn't a one-off act of pettiness \u2014 it's the established pattern of frontier-lab competition, from Anthropic's Windsurf cutoff to the xAI blocks. For enterprises, the lesson extends the open-weights conversation from cost to control, and from the model layer to the harness layer: if you don't want to be subject to the whims of the companies that control your models and your harnesses, you can't be reliant on any one company for either."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "The scribe is about to be offered an upgrade from writing to doing \u2014 that is the line to hold",
-        "body": "Everything in this edition points the same way: the tools are moving from drafting text to opening the tab and acting. Our scribes today write a consultation note that a clinician reads, edits and signs. The next sales conversation will offer something more \u2014 code the encounter, order the bloods, generate the referral, message the patient. That is a different regulatory object entirely, and the practice, not the vendor, carries the clinical risk. The workable rule is the one we already use for locums and students: the machine may prepare, a named clinician authorises, and the authorisation is recorded. If Whittemore is right this becomes genuinely useful and the discipline costs little. If Zitron is right the reliability was never there and the discipline is the only thing standing between us and a significant event. Either way the answer to \"can it just do it for me\" is no, not without a signature."
+        "title": "The harness lesson applies to clinical AI too",
+        "body": "The scribe you dictate into is a harness; the model underneath is a vendor relationship you don't control. If NLW is right, the sensible question for any practice or ICB procuring ambient scribes is whether the supplier can swap its underlying model without disrupting service \u2014 ask that at renewal. If Zitron is right, the sharper question is whether the supplier's model provider will still exist on current terms in two years. Either way, the answer to both is the same clause in the contract: model portability and a documented fallback."
       },
       {
-        "title": "Price is the thing to ask about, not capability",
-        "body": "Zitron's sharpest practical point is about billing rather than intelligence: agentic tools consume vastly more compute than dictation, and nobody yet knows what that costs at an unsubsidised price. Practices are being sold AI scribes at a per-clinician monthly figure that is almost certainly below cost while the market is bought. GP partners have seen this film \u2014 the loss-leading first contract, the renewal at a very different number, the switching cost by then baked into everyone's workflow. Before signing anything agentic, ask three things: what happens to the price at renewal, whether the notes are exportable in a usable form if we leave, and whether the contract survives the vendor being acquired. The clinical case may well be sound. The procurement case is where a small practice actually gets hurt."
+        "title": "NHS procurement already knows this story",
+        "body": "A GP who lived through fundholding, 111 and successive reorganisations will recognise the pattern: national dependence on a single supplier looks efficient until the supplier's incentives change. The frameworks now being drawn up for AI in the NHS should treat model-layer and harness-layer dependency as separate risks \u2014 a trust can own its workflow software and still be exposed if the intelligence inside it is rented from one lab. The unions-as-intermediaries story is worth noting too; the NHS equivalent \u2014 clinical staff bodies brokering between suppliers and frontline teams \u2014 barely exists yet for AI."
       },
       {
-        "title": "The cyber-defence letter is the one item here with a real NHS reading",
-        "body": "A hundred-odd companies, including Visa, General Motors and the major cloud providers, warning that AI-enabled attacks will become far more widespread \"in the coming months\" and naming hospitals explicitly is not hype \u2014 it is the same warning our own ICB cyber briefings have been circulating, from an unusual direction. Nothing about it changes what a surgery should do, and that is rather the point: the defences are still multi-factor authentication that is actually enforced, smartcards not shared, backups tested rather than assumed, and staff who know that a convincing email from the ICB may not be from the ICB. Whittemore treats this as urgent; Zitron would say it is a sales pitch for more AI. The controls it implies are worth doing on either reading, because they were worth doing before anyone mentioned AI."
+        "title": "Cheaper tokens cut both ways for the NHS",
+        "body": "The Jevons point \u2014 that an 80% price cut drove a 13.8-fold usage jump and a third of users stayed at full price \u2014 matters for NHS budgeting. If NLW is right, falling token prices make whole categories of admin automation viable for practices that couldn't justify them last year. If Zitron is right, today's prices are subsidised by unsustainable lab losses and will rise when the money runs short \u2014 so any business case built on current per-use costs should be stress-tested against a doubling."
       }
     ]
   },
   "the_other_side": {
-    "source": "Premium: The Hater's Guide To Circular Financing (Part One)",
-    "url": "https://www.wheresyoured.at/premium-the-haters-guide-to-circular-financing-part-one/",
-    "date": "2026-08-28",
-    "same_day": true,
-    "text": "Published the same day, Zitron's argument is that the feature wave Whittemore is admiring sits downstream of a financing loop rather than of demand. On his reading NVIDIA's whole strategy is to \"create demand for AI compute for its customers\" \u2014 which is why, he says, it builds its own agentic platform, spends six billion dollars licensing Poolside and hiring away its staff, and is talking about backing Perplexity at a thirty billion dollar valuation. The quarter Whittemore calls a blowout is, to him, the tell: NVIDIA's largest customers \"are, for the most part, funded by NVIDIA\", and the swelling receivables and the quietly paused neocloud revenue-share programme are what that looks like from the inside. Part one is paywalled beyond the setup, so the readable claim is the structural one \u2014 that agentic products exist to justify GPU purchases, rather than GPU purchases following from agentic products people pay for."
+    "source": "What Happens If OpenAI Dies?",
+    "url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
+    "date": "2026-08-18",
+    "same_day": false,
+    "text": "Zitron would say the harness wars are a sideshow to a much larger dependency problem: it isn't enterprises who are dangerously reliant on OpenAI, it's the entire AI economy. By his arithmetic, OpenAI lost $20.9bn in 2025 on $13.07bn of revenue, carries over $800bn in compute obligations through 2030, and must raise on the order of $100bn or more essentially every year to survive \u2014 sums he argues no combination of SoftBank, private credit or an IPO can supply. Its spending is load-bearing for hyperscaler cloud revenue, neoclouds and chipmakers alike, so the question of which lab cuts off which coding tool matters far less than whether the lab writing the cheques 'runs out of money at some point'. Worrying about your harness vendor's whims, on his view, is planning the deckchairs."
   },
   "the_truth_beneath": {
-    "text": "The single variable both men orbit is whether agentic AI generates genuine end-user demand or manufactured compute demand. Both accept the same facts: NVIDIA booked ninety-six billion dollars, its days sales outstanding moved from forty-five to sixty, it is financing several of its own customers, and a dozen agentic features really did ship this week. The empirical question that will resolve is whether those features convert into revenue customers pay unsubsidised prices for, and the observable that settles it is what happens to usage when token costs are passed through in full. The residue is pure worldview: whether a supplier funding its buyers is ordinary ecosystem investment or a closed loop. Whittemore is vindicated if agentic products retain paying users at real prices; Zitron is vindicated if usage collapses the moment the subsidy is withdrawn. Both are polemicists with incentives \u2014 Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype \u2014 and the signal is where they agree despite opposite priors: the receivables and the paused revenue-share programme matter. Watch the receivables line next quarter."
+    "text": "The single variable both men orbit is concentration risk \u2014 how dangerous it is to depend on one frontier lab. Both accept as fact that the labs cut off partners at will and that enterprises have organised themselves around a handful of providers. The empirical question that will resolve is whether OpenAI can keep funding its obligations: Zitron says it needs tens of billions within roughly three months, so watch whether a major raise or financing event lands by late November, and on what terms. The residue is pure worldview \u2014 whether the value being created ultimately justifies the spend. NLW is vindicated if enterprises that diversify models and harnesses ride out further cutoffs while the labs keep growing; Zitron if a funding crunch, not corporate pettiness, is what finally forces that diversification. Both are polemicists with incentives \u2014 NLW sells strategic urgency, Zitron sells collapse \u2014 but note where they converge despite opposite priors: neither thinks you should depend on any one lab. That agreement is the signal. Next thing to watch: November 12th, when OpenAI's models go dark in Cursor, alongside any OpenAI raise announced before it."
   },
   "headlines": [
     {
-      "id": "nvidia-buys-hugging-face",
-      "headline": "NVIDIA buys Hugging Face for $12.9B \u2014 at 80\u00d7 revenue",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "01:00",
-      "attribution": null,
-      "summary": "The Information broke the story late Wednesday after NVIDIA's earnings call. Hugging Face only has $150M in annualized revenue, so NVIDIA is technically paying around 80\u00d7 \u2014 versus roughly 15\u00d7 for SpaceX's $60B Cursor acquisition. But NVIDIA isn't buying revenue; it's buying the premier distribution channel for open models.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#nvidia-buys-hugging-face"
-    },
-    {
-      "id": "nvidia-full-stack-open",
-      "headline": "NVIDIA is acquiring its way into a full-stack open AI business",
+      "id": "unions-back-data-centers",
+      "headline": "Labor unions become the backlash to the data center backlash",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "The pattern: a $6B Poolside licensing deal that brought in ~100 veteran AI researchers, a strategic Perplexity partnership for harnesses and app-layer exposure, and NeMo-Tron going from tech demo to real open-model contender in six months. It's also defense \u2014 as the biggest chip customers build their own silicon, open models downloaded, fine-tuned, and served on NVIDIA GPUs through CUDA are the counterweight.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#nvidia-full-stack-open"
+      "summary": "Steamfitters UA Local 602, covering Data Center Alley in Virginia and Maryland, drew a \"clear line\" against any politician running on an anti-data center platform, calling it \"an existential moment.\" The Kansas HVAC and Railroad Workers Union backed a Republican gubernatorial candidate for the first time in decades over the issue \u2014 and union support means door-knocking and fundraising, not just votes.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#unions-back-data-centers"
     },
     {
-      "id": "hugging-face-neutrality-question",
-      "headline": "The neutrality question hangs over NVIDIA's Hugging Face",
+      "id": "unions-as-intermediaries",
+      "headline": "Unions are the intermediaries this debate has been missing",
+      "type": "take",
+      "segment": "headlines",
+      "timestamp": "03:00",
+      "attribution": null,
+      "summary": "NLW's read: labor unions are uniquely suited to intercede between communities and the tech companies building data centers \u2014 deeply rooted in those communities while standing to benefit economically from the transformation. An extremely positive development that could bring calm and rationality the discussion has lacked.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#unions-as-intermediaries"
+    },
+    {
+      "id": "data-center-narrative-turn",
+      "headline": "The pro-data-center counter-narrative gets its champions",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Hugging Face is valuable partly because it's perceived as independent \u2014 its users include researchers, enterprises, cloud providers, and NVIDIA's own competitors. Eric Hartford calls the deal a loss for open source and 'an opportunity for a new standard bearer to arise.' Still, there's notably more optimism around this acquisition than usual \u2014 a sign of how much trust NVIDIA has built in the AI community.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#hugging-face-neutrality-question"
+      "summary": "Investor Gavin Baker argued the reasonable concerns of 18 months ago \u2014 water, taxes, jobs, electricity prices \u2014 have largely been addressed by well-structured projects, declaring data centers \"awesome for America in every way.\" Jensen Huang amplified it: AI is re-industrializing the nation after decades of offshoring.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#data-center-narrative-turn"
     },
     {
-      "id": "nvidia-earnings-doors-off",
-      "headline": "NVIDIA blows the doors off: $96.2B quarter, 106% growth",
+      "id": "remote-access-loophole",
+      "headline": "Commerce moves to close the remote-access chip loophole",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "05:00",
+      "timestamp": "04:00",
       "attribution": null,
-      "summary": "Revenue growth accelerated 21 points over Q1, tantalizingly close to the $100B/quarter milestone only five other companies have hit. Guidance cools slightly \u2014 89.5% for Q3 and 70% for fiscal 2027 on supply-chain snarls \u2014 but Amazon's new order for two million additional chips (total annual NVIDIA volume is believed under ten million) keeps demand solid for years. Stock up 4.8% after hours.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#nvidia-earnings-doors-off"
+      "summary": "Chinese firms have been legally accessing cutting-edge NVIDIA chips through data center hubs in Thailand, Malaysia, and Japan \u2014 some reportedly owned by Alibaba and ByteDance \u2014 because export controls only cover physical shipments. The Commerce Department is drafting a slimmed-down version of the scrapped Biden-era diffusion rule to close the gap, though senior officials like Undersecretary Jeffrey Kessler have called the original \"a bad rule\" not worth replacing.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#remote-access-loophole"
     },
     {
-      "id": "nvidia-payment-red-flag",
-      "headline": "The red flag in the blowout: big customers asking for more time to pay",
-      "type": "insight",
+      "id": "national-security-not-a-blank-check",
+      "headline": "The empty invocation of national security is not a blank check to punish and retaliate against government critics.",
+      "type": "quote",
       "segment": "headlines",
       "timestamp": "06:00",
-      "attribution": null,
-      "summary": "Free cash flow fell 50% to $21B while accounts receivable rose 50%, with days sales outstanding jumping from 45 to 60 \u2014 NVIDIA cites 'extended payment terms on large multi-quarter agreements with certain investment-grade customers.' Also disclosed: NVIDIA is officially back in China with H200 sales, though well short of what the administration permits.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#nvidia-payment-red-flag"
+      "attribution": "US District Judge Rita Lynn, ruling in Anthropic's suit against the Pentagon",
+      "summary": "Anthropic won its lawsuit against the Pentagon, with the judge finding the supply-chain-risk designation was retaliation for the company's \"arrogance\" in criticizing the government \u2014 violating the First and Fifth Amendments \u2014 and noting the government kept using Anthropic's models the whole time. The blacklist must be rescinded, though a second suit in the DC appeals court is still pending before a judge more receptive to the Pentagon.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#national-security-not-a-blank-check"
     },
     {
-      "id": "nvidia-pauses-neocloud-backstop",
-      "headline": "NVIDIA pauses its neocloud revenue-share program",
+      "id": "mac-mini-enterprise-boom",
+      "headline": "The Mac Mini boom is an enterprise story, not a hobbyist one",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "Per the Wall Street Journal, the two-month-old program offering credit support in exchange for a cut of customer profits is on hold after employees flagged antitrust risk and sensitivities about how much control NVIDIA would exert over customer businesses. NVIDIA denies the reporting, saying the model 'is still in place and continues to evolve due to high demand.'",
-      "link": "https://aidailybrief.ai/e/2026-08-28#nvidia-pauses-neocloud-backstop"
+      "summary": "Mac sales grew 29% \u2014 Apple's fastest product line \u2014 with the OpenClaw boom driving an estimated $100M+ in Mac Mini sales. The Information reports the surprise: enterprise demand, pitched by Apple as a way to run simple agents locally instead of feeding cloud bills. OpenAI has bought tens of thousands of Mac Minis and Studios for reinforcement learning on computer-use agents and is reportedly desperate for more; Anthropic is renting them from AWS.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#mac-mini-enterprise-boom"
     },
     {
-      "id": "saaspocalypse-shredded",
-      "headline": "Salesforce leads the SaaS comeback \u2014 stock up 22% in a day",
+      "id": "price-cuts-move-the-market",
+      "headline": "OpenAI's price cuts worked \u2014 and the users stayed",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "08:00",
+      "timestamp": "09:00",
       "attribution": null,
-      "summary": "Agentforce is on track for $1.5B in revenue this year, up from a $1.2B forecast, and Salesforce is now just 5% from filling the entire SaaSpocalypse drawdown. Benioff's victory lap: seats grew across sales, service, and Slack, attrition near record lows, bookings more than doubled quarter over quarter, and agentic platform use surged sixfold. David Sacks: the 'SaaS is dead' narrative is 'getting shredded.'",
-      "link": "https://aidailybrief.ai/e/2026-08-28#saaspocalypse-shredded"
+      "summary": "After OpenAI cut GPT-5.6 Luna by 80% and Terra by 20%, OpenRouter reports daily Terra usage up 5.6\u00d7 and Luna up a massive 13.8\u00d7. The kicker: when the discounts expired August 14th, nearly a third of users kept using OpenAI's models at full price. Frontier labs now have to compete on the frontier of efficiency, not just capability.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#price-cuts-move-the-market"
     },
     {
-      "id": "app-layer-revenue-explosion",
-      "headline": "The app layer is tripling across the board",
+      "id": "jevons-in-the-wild",
+      "headline": "Cheaper tokens don't save money \u2014 they unlock work",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "10:00",
       "attribution": null,
-      "summary": "Per The Information: Cognition hit $900M annualized revenue (more than 3\u00d7 since January), Higgsfield tripled to $700M, Perplexity tripled to $750M, OpenEvidence doubled to $300M, and Manus \u2014 even after the messy Meta unwind \u2014 claims $400M, quadrupled from last year. DeepSeek's $70M this year is a 10\u00d7 jump on its full 2025 numbers.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#app-layer-revenue-explosion"
+      "summary": "Box's Aaron Levie: enterprises have an unending stream of tasks that are ROI-positive or not based purely on token cost, so even a 50% price drop can drive a 5\u00d7 increase in consumption. Vercel's Brandon Galing adds that many tasks have a minimum token quantity to be feasible at all \u2014 price drops take entire use cases from zero to one in viability.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#jevons-in-the-wild"
     },
     {
-      "id": "finra-for-ai-stalls",
-      "headline": "The FINRA-for-AI executive order stalls out",
+      "id": "openai-cuts-off-cursor",
+      "headline": "OpenAI pulls its models from Cursor",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "11:00",
+      "segment": "main",
+      "timestamp": "15:00",
       "attribution": null,
-      "summary": "A drafted EO would have created an industry self-regulatory body modeled on FINRA \u2014 the idea Demis Hassabis proposed in July and Treasury Secretary Bessent publicly backed \u2014 requiring labs to share security notes, safety-test new models, and write industry rules. Reported opposition from David Sacks appears to have helped stall it. For now, no FINRA for AI.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#finra-for-ai-stalls"
+      "summary": "The Friday-night announcement effectively said \"we love Cursor, but we hate Elon\": with Cursor now part of SpaceX, OpenAI cited xAI's admitted terms-of-service violations and the broken contract after the Twitter acquisition. The cutoff lands November 12th \u2014 the maximum notice the contract provides \u2014 with OpenAI pledging to \"go above and beyond\" to support affected developers.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#openai-cuts-off-cursor"
     },
     {
-      "id": "sacks-trojan-horse",
-      "headline": "A horrible idea and a Trojan horse for an open source model ban.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "12:00",
-      "attribution": "David Sacks, former White House AI czar, on FINRA for AI (All In podcast)",
-      "summary": "Sacks argues that once the body exists, frontier labs will push for standards that apply equally to all models \u2014 standards open-model developers would find impossible to meet. He also notes FINRA's reputation among fintech startups: regulation that protects incumbents rather than promoting competition.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#sacks-trojan-horse"
-    },
-    {
-      "id": "cyber-defense-open-letter",
-      "headline": "OpenAI, Anthropic, and 100+ companies declare a cyber-defense emergency",
+      "id": "the-five-percent-fight",
+      "headline": "The 5% fight: tokens aren't value",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "12:00",
+      "segment": "main",
+      "timestamp": "17:00",
       "attribution": null,
-      "summary": "An open letter \u2014 signed by Visa, General Motors, and PwC alongside Google, Microsoft, and AWS \u2014 warns that AI-enabled cyberattacks will become far more widespread 'in the coming months,' putting hospitals, water treatment plants, and internet infrastructure at risk. It calls for defenders to get better AI tools and cross-industry coordination during a closing 'defender's window.' Ethan Mollick's warning: your organization isn't spending enough before open-weights frontier-class models and harnesses arrive.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#cyber-defense-open-letter"
+      "summary": "Cursor CEO Michael Truell noted OpenAI models serve about 5% of Cursor traffic, implying limited damage. OpenAI's rebuttal: tokens are not a proxy for revenue or value \u2014 frontier-efficient models need far fewer tokens per task, so that 5% may represent a much larger share of actual value created. Why OpenAI felt the need to emphasize the pain it was causing is less clear.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#the-five-percent-fight"
     },
     {
-      "id": "altman-collective-response",
-      "headline": "We are happy if you want to work with us or any of our competitors or partners, but please take this moment seriously.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "13:00",
-      "attribution": "Sam Altman, on the industry cyber-defense open letter",
-      "summary": "Altman positioned security above competition in his response to the open letter: 'This is a critically important moment for cyber defense with AI. There is not much time to act... Only an urgent and intense collective response will work.'",
-      "link": "https://aidailybrief.ai/e/2026-08-28#altman-collective-response"
+      "id": "corporate-warfare-in-our-computers",
+      "headline": "Developers didn't sign up for corporate warfare",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "17:00",
+      "attribution": null,
+      "summary": "Epic founder Tim Sweeney captured the backlash: \"No developers on earth want you guys waging corporate warfare inside our computers.\" Users pointed out they were losing a paid combination they chose \u2014 OpenAI models inside Cursor's harness \u2014 for reasons that read as pettiness. Others countered that Cursor was acquired precisely to harvest coding data for xAI's training, making the opt-out entirely reasonable.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#corporate-warfare-in-our-computers"
     },
     {
-      "id": "claude-cowork-browser",
-      "headline": "Claude Cowork gets a built-in browser",
+      "id": "anthropic-wont-follow-suit",
+      "headline": "Anthropic pledges loyalty to Cursor \u2014 with an asterisk",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "If a task touches a website \u2014 filling out a form, working a web app, agentic browsing \u2014 a browser window now opens alongside your session for Claude to use. Nothing to install: it's built into the desktop app as Claude's own sandboxed browser, separate from your logins, with Claude-in-Chrome still there for those who prefer their own.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#claude-cowork-browser"
+      "summary": "Co-founder Tom Brown vowed Anthropic will keep increasing compute for Claude in Cursor, calling it \"a trusted partner since Sonnet 3.5,\" while Google's Logan Kilpatrick quipped, \"If your opponent is busy making a mistake, don't interrupt them.\" But as Replit's Amjad Masad noted, everyone remembers what Anthropic did to Windsurf \u2014 and Anthropic now pays SpaceX a reported billion dollars a month for compute integral to training its future models.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#anthropic-wont-follow-suit"
     },
     {
-      "id": "assistant-to-operator",
-      "headline": "In one month, AI went from writing text to browsing the web on your behalf",
+      "id": "this-is-the-pattern",
+      "headline": "This isn't an incident \u2014 it's the operating norm",
       "type": "insight",
       "segment": "main",
-      "timestamp": "19:00",
+      "timestamp": "20:00",
       "attribution": null,
-      "summary": "With Claude's browser, ChatGPT Work, and Grokbot all landing close together, the small updates add up to a meaningful inflection: AI that gives answers is becoming AI that opens the tab and gets the job done. a16z's Martin Casado draws the distinction sharply \u2014 ChatGPT Work is workflow-oriented 'fancy RPA,' while Grokbot, with its own browser and Slack chat, behaves more like a virtual coworker.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#assistant-to-operator"
+      "summary": "The rap sheet: Anthropic cut off Windsurf with under five days' notice when OpenAI moved to acquire it in June 2025, blocked OpenAI's API access in August 2025 over distillation concerns, blocked xAI in January, restructured subscriptions to exclude third-party tools like OpenClaw and Hermes, and launched Claude Design against partner Figma. When xAI got cut off, co-founder Tony Wu's response was telling: it \"really pushes us to develop our own coding models and products.\"",
+      "link": "https://aidailybrief.ai/e/2026-08-31#this-is-the-pattern"
     },
     {
-      "id": "chatgpt-work-life-tasks",
-      "headline": "ChatGPT Work's cloud computer gets pitched with... life tasks",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "OpenAI's own examples for the feature \u2014 booking DMV appointments, setting up apartment utilities, comparing insurance policies, saving apartment listings \u2014 are strikingly consumer for a product called Work, an interesting wrinkle in the ongoing AI-for-life vs. AI-for-work divide. OpenAI's Romain Huet: 'ChatGPT Work now has its own computer in the cloud... the possibilities start to feel almost limitless.'",
-      "link": "https://aidailybrief.ai/e/2026-08-28#chatgpt-work-life-tasks"
-    },
-    {
-      "id": "temporary-chats-can-be-saved",
-      "headline": "Temporary chats grow up",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "ChatGPT temporary chats can now be personalized with your existing memories, custom instructions, and plugins \u2014 and upgraded to saved history when they turn out to be worth keeping. Privacy-conscious users can default to temporary mode without giving up context.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#temporary-chats-can-be-saved"
-    },
-    {
-      "id": "multiple-gmail-connectors",
-      "headline": "Finally: multiple Gmail accounts in plugins",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "A small update that punches way above its weight \u2014 power users juggling half a dozen inboxes have wanted this forever. Claire Vo recently called unconstrained connectors her favorite feature of the new Grok; as NLW puts it, 'I don't care who did it first as long as they all do it.'",
-      "link": "https://aidailybrief.ai/e/2026-08-28#multiple-gmail-connectors"
-    },
-    {
-      "id": "hermes-keeps-pace",
-      "headline": "Hermes: the open-source agent copying every big-lab feature within days",
-      "type": "insight",
+      "id": "pay-for-intelligence-twice",
+      "headline": "You essentially pay for intelligence twice \u2014 once with money, and again with the proprietary knowledge you must reveal to make that intelligence useful.",
+      "type": "quote",
       "segment": "main",
       "timestamp": "23:00",
-      "attribution": null,
-      "summary": "This week: real-profile browsing, where the agent acts with your logins from a managed copy of your Chrome profile. That follows Bot Mode \u2014 named specialist bots with their own roles, models, memories, and skills that can talk to each other \u2014 plus a HUD overlay mode. Open source, any provider or model, a few dollars a month instead of two hundred.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#hermes-keeps-pace"
+      "attribution": "Satya Nadella, \"The Reverse Information Paradox\"",
+      "summary": "Nadella's \"reverse information paradox\": models learn from exhaust \u2014 prompts, tool use, and especially corrections \u2014 and that institutional know-how leaks to the seller trace by trace. The post has set the tone for every subsequent Microsoft move, including new models designed to be customized and owned by the customer rather than fed into a black box only the frontier lab can access.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#pay-for-intelligence-twice"
     },
     {
-      "id": "claude-force",
-      "headline": "Salesforce and Anthropic launch Claude Force",
+      "id": "not-your-weights-not-your-product",
+      "headline": "Not your weights, not your product",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "24:00",
+      "attribution": null,
+      "summary": "The community's synthesis: when Elon acquires Cursor, OpenAI cuts off Cursor; when OpenAI tried to acquire Windsurf, Anthropic cut off Windsurf. Whether the labs' justifications are substantive or petty doesn't functionally matter for enterprises \u2014 the response is the same. Own your tools, keep your vendor relationships direct rather than routed through other layers, and expect more moves like this from every lab.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#not-your-weights-not-your-product"
+    },
+    {
+      "id": "open-weights-shift-to-control",
+      "headline": "Open weights: the cost story is now a control story",
       "type": "insight",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "A new set of plugins and skills lets Claude agents work the CRM directly \u2014 using Salesforce data as context, with agentic actions respecting existing governance guardrails via Salesforce's AI Force harness. Benioff: 'Here the UI is the AI... This is how every business will run.' It even got a new Matthew McConaughey ad.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#claude-force"
+      "summary": "AT&T and Thomson Reuters (building on Alibaba's Qwen) were mostly covered as cost-control stories \u2014 matching task difficulty to model capability. These moves make clear there's now a sovereignty and resilience dimension too, and the questions are moving from strictly the model layer to the harness layer.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#open-weights-shift-to-control"
     },
     {
-      "id": "dont-laugh-at-claude-force",
-      "headline": "The X jokes massively undersell Claude Force",
+      "id": "harness-engineering",
+      "headline": "\"Harness engineering\" is the new enterprise discipline",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "25:00",
+      "attribution": null,
+      "summary": "Moody's David Pan, via the WSJ's CIO Journal, calls building your own software around AI models a way to decouple workflows from the models themselves and reduce reliance on any single provider: \"If you bring that harness in-house and control it, you're baking in a lot more business resilience.\" Advice that looks particularly prescient a week later.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#harness-engineering"
+    },
+    {
+      "id": "get-an-open-weights-policy",
+      "headline": "If you don't have an open weights policy, go figure it out",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "26:00",
+      "attribution": null,
+      "summary": "This isn't about abandoning frontier closed models \u2014 even sophisticated users haven't moved most use cases over. But the ability to integrate and route certain tasks to lighter, cheaper, more controllable open-weights models is a key capability, and like any capability, it takes time to build. Start now.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#get-an-open-weights-policy"
+    },
+    {
+      "id": "open-harnesses-are-coming",
+      "headline": "Prediction: the open-models discourse becomes an open-harnesses discourse",
       "type": "take",
       "segment": "main",
       "timestamp": "27:00",
       "attribution": null,
-      "summary": "Yes, 'our TAM is the US economy' lab announces a CRM integration \u2014 but Thomas Fanning says the deal made him rethink his priors: labs going through software vendors instead of around them signals that data, embedded workflows, and incumbency remain software's moats. The enterprise people NLW actually spoke to were extremely excited; one shelved plans to build a Salesforce alternative to see if this just does what they wanted.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#dont-laugh-at-claude-force"
+      "summary": "DeepSeek's new harness is built around one core idea \u2014 \"everything is a plugin\": models, tools, skills, sessions, sandboxes, and orchestration all mixable and replaceable. The specific product matters less than the category: open harnesses are now a tool enterprises will have access to, and expect a lot more of this conversation.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#open-harnesses-are-coming"
     },
     {
-      "id": "gemini-transcribe-intent",
-      "headline": "Gemini 3.5 Transcribe turns rambles into what you meant to say",
-      "type": "insight",
+      "id": "dont-rely-on-any-one-company",
+      "headline": "Yell at OpenAI \u2014 but don't depend on the outcome",
+      "type": "take",
       "segment": "main",
-      "timestamp": "29:00",
+      "timestamp": "27:00",
       "attribution": null,
-      "summary": "The new speech-to-text model supports 85+ languages and offers verbatim mode or 'smart translate' mode, which strips filler, condenses rambling thoughts, and handles self-corrections \u2014 plus custom vocabulary for jargon, noisy-environment performance, up to three speakers, and an API. As NLW notes from constantly toggling Whisperflow's cleanup settings, that cleanup is the genuinely hard part \u2014 watch whether Google nails it.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#gemini-transcribe-intent"
-    },
-    {
-      "id": "grok-voice-starlink",
-      "headline": "Grok Voice is resolving 15,000 Starlink support calls a day",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "30:00",
-      "attribution": null,
-      "summary": "Grok Voice Think Fast 2.0 now tops the Artificial Analysis speech-to-speech index, which measures whether voice agents can reason over what they hear and complete tasks with tools. At Starlink, it's diagnosing hardware issues, shipping replacements, and fulfilling over 3,000 orders a week via voice calls and chat.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#grok-voice-starlink"
-    },
-    {
-      "id": "omni-flash-controllability",
-      "headline": "Gemini Omni 1.1 Flash is about control, not just prettier video",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "31:00",
-      "attribution": null,
-      "summary": "The update lets you extend scenes, specify starting and ending frames, add video input references, upscale favorite takes to 4K, and test ideas quickly in 360p \u2014 massively more usability for generating video you can use for real things. It hit #1 in the text-to-video arena, though early testers are split on whether it clearly beats Seedance 2.5.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#omni-flash-controllability"
-    },
-    {
-      "id": "h3-max-faster-than-real-time",
-      "headline": "H3 Max crosses the faster-than-real-time line for AI video",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "32:00",
-      "attribution": null,
-      "summary": "Fal's new model claims 3.49 seconds average latency versus 68 for Seedance 2.5 and 26.7 for Gemini Omni Flash \u2014 one tester generated a clip in 1.3 seconds for 20 cents. Ethan Mollick: 'A line in AI video was crossed' \u2014 it can now create reasonably high-quality video in less time than it takes to watch. Investor Steve Jang sees fully generated, massively multiplayer live visual worlds ahead. You can try it on venice.ai.",
-      "link": "https://aidailybrief.ai/e/2026-08-28#h3-max-faster-than-real-time"
+      "summary": "A highly balkanized world of models and harnesses is inherently worse for everyone, so market pressure to change the policy is worth applying. But the enterprise lesson stands regardless: if you don't want to be subject to the whims of the companies that control your models and harnesses, you can't be reliant on any one company for either.",
+      "link": "https://aidailybrief.ai/e/2026-08-31#dont-rely-on-any-one-company"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-28.mp3",
-  "generated": "2026-08-29T19:29:42Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-08-31.mp3",
+  "generated": "2026-09-01T05:28:04Z"
 }
