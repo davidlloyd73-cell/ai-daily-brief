@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Shared agent sessions map onto the duty doctor handover",
+      "body": "The multiplayer idea — a colleague can open the same agent session, see the full context and take over — is exactly what a GP handover needs and rarely gets. Think of the duty doctor passing an unresolved safeguarding query or a pending results chase to the afternoon shift, with the agent's thread as the record rather than a scribbled task note. If NLW is right, ambient scribe and admin-assistant suppliers will start offering shared sessions within a year or two, and the practice that benefits is the one that has already worked out its handover rules. If Zitron is right, adding a second clinician to a brittle tool just doubles the people who have to check its work — and a shared session that silently loses context is worse than a phone call."
+    },
+    {
+      "title": "The 'crime LLM' is a reminder about where the guardrails really sit",
+      "body": "A near-frontier open model with its refusals stripped out was released and nobody could stop it. For the NHS the lesson is not about cyber weapons but about where safety lives: not in the model, but in the harness, the data governance and the contract. When a scribe supplier says 'our model is safe', ask what happens if they swap the model — the DTAC, the DPIA and the clinical safety case (DCB0129/0160) are the guardrails you actually control. Both men would agree on that, from opposite directions."
+    },
+    {
+      "title": "Complexity anxiety is the NHS default, not the exception",
+      "body": "'Do I still need a PhD to install it?' is the question every practice manager asks about every new tool, and a power user reporting that most updates break his setup is the sort of thing that would end a pilot in primary care. Whatever the long-run truth, the practical rule for now is unchanged: buy supported, managed products with a named clinical safety officer, not tinkerer harnesses, and let the enthusiasts on X find the interaction patterns first."
+    }
+  ]
+}
