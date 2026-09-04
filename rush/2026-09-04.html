@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Morning Rush — 2026-09-04</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#1a1a1a;
+  font-family:Georgia,'Times New Roman',serif;line-height:1.62;}
+.wrap{max-width:680px;margin:0 auto;padding:32px 22px 64px;}
+.nav{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;color:#8a7f6a;margin-bottom:24px;}
+.nav a{color:#8a7f6a;text-decoration:none;border-bottom:1px solid #d8cfb8;}
+.nav a:hover{color:#1a1a1a;}
+h1{font-size:30px;letter-spacing:.5px;margin:0 0 4px;line-height:1.15;}
+h2{font-size:21px;margin:30px 0 6px;line-height:1.2;}
+h3{font-size:18px;margin:28px 0 6px;}
+p{font-size:17.5px;margin:0 0 16px;}
+.tagline{font-style:italic;color:#6b6256;font-size:15px;margin:0 0 4px;}
+.meta{font-weight:bold;font-size:14px;color:#3a3530;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:.02em;}
+hr{border:none;border-top:1px solid #d8cfb8;margin:26px 0;}
+a{color:#7a5c1e;}
+.archive{list-style:none;padding:0;margin:8px 0 0;}
+.archive li{padding:9px 0;border-bottom:1px solid #e3dcc9;font-size:17px;}
+.archive a{text-decoration:none;border-bottom:1px solid transparent;}
+.archive a:hover{border-bottom:1px solid #7a5c1e;}
+.archive .d{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;
+  color:#8a7f6a;display:inline-block;min-width:64px;}
+footer{margin-top:42px;font-size:13px;color:#8a7f6a;
+  font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+</style></head>
+<body><div class="wrap"><div class="nav"><a href="/rush/">&larr; The Morning Rush</a> &middot; <a href="/">AI Daily Brief</a></div>
+<h1>THE MORNING RUSH</h1>
+<p><em>A short brief on AI in medicine — and the world it&#x27;s moving through. Read it before the 8am phone lines open.</em></p>
+<p><strong>Friday 4 September 2026 · ~5 min read · Issue 124</strong></p>
+<hr>
+<p><strong>On the line today:</strong> a medical AI company releases three models to clinicians and deliberately holds back its best one; the FDA quietly starts letting generative AI devices reach patients before they are authorised; ChatGPT plugs into the chart of 325 million patients, read-only, for now; OpenAI declares its newest model genuinely dangerous in the cyber domain and ships it anyway; and Meta stops scoring its staff on how much AI they use, two months after being sued over it. From the Eye: the complaints letters nobody wrote, the police report written by machine about a search made by machine, and Uber discovering the virtues of organised labour.</p>
+<hr>
+<h2>1. The model too good to release</h2>
+<p>OpenEvidence, the clinical search tool a great many doctors now use in preference to a textbook, published a family of four models on Wednesday. Three went straight to verified clinicians free: Osler, the fast default at around five seconds an answer; Sackett, a slower search for questions that turn on the weight of evidence; and Snow, which takes about five minutes and produces something closer to a literature review. The fourth, Darwin, is available only by application to researchers. The company&#x27;s stated reason is dual-use risk in virology and genetics — and on its own reported figures Darwin is the strongest medical model yet built, including a perfect score on MedQA.</p>
+<p><strong>The view from the surgery:</strong> the tiering is the interesting part, not the benchmarks. A company has looked at its own best product and concluded that the thing which makes it excellent at answering a clinical question also makes it excellent at answering a question nobody should ask. That is a judgement about capability, made voluntarily, by a vendor. Note also what the three released models really are: not better answers, but a choice of how long you are willing to wait for one. Five seconds in a ten-minute appointment; five minutes for the letter you write at seven in the evening.</p>
+<hr>
+<h2>2. The regulator decides to learn by watching</h2>
+<p>STAT reported yesterday that four products, including Cadence&#x27;s hypertension management software and Limbic&#x27;s AI-delivered CBT, have been accepted into the FDA&#x27;s TEMPO pilot — a route that lets digital health companies put generative AI products in front of patients without marketing authorisation. The stated purpose is partly to stock the Medicare ACCESS model, which pays providers on whether patients improve rather than on activity, and partly to give regulators hands-on experience of these devices in the real world rather than on paper.</p>
+<p><strong>Why it matters:</strong> this is the same instinct behind the MHRA&#x27;s AI Airlock, and it is defensible — you cannot write rules for a technology you have only read about. But &quot;provisional access while we learn&quot; is a phrase with history in this country, and the learning has to actually happen. Limbic&#x27;s product is telephone CBT delivered by a voice agent to Medicare patients with depression or anxiety, supervised by clinicians. Whether that supervision is real or nominal is the whole question, and a pilot is precisely where it gets decided.</p>
+<hr>
+<h2>3. Read-only, for now</h2>
+<p>OpenAI announced on Tuesday that ChatGPT for Healthcare now connects to Epic, the record system covering more than 325 million patients. Authorised clinicians can pull notes, labs, medications and specialist correspondence into a chat, or work with ChatGPT inside supported Epic workflows. Access is gated behind organisational accounts with a business-associate agreement, launch partners include UCSF, Cedars-Sinai and Memorial Sloan Kettering, and — the load-bearing detail — it cannot write back to the record.</p>
+<p><strong>The view:</strong> read-only is doing a lot of work in that sentence, and it will not last. The direction of travel is obvious to anyone who has watched a scribe go from suggesting text to inserting it. What strikes me is the layering: many of these hospitals already have an ambient scribe and Epic&#x27;s own AI in the chart. That is three models with opinions about the same patient, none of which knows what the others said. We spent thirty years trying to get one version of the truth into the record. We may be about to acquire several.</p>
+<hr>
+<h2>4. OpenAI says its model is dangerous, then releases it</h2>
+<p>OpenAI announced on Monday that Astra is the first model to cross the &quot;Critical&quot; cybersecurity threshold in its Preparedness Framework — meaning, on the company&#x27;s own assessment, that it can find novel vulnerabilities and build working exploits against hardened targets without being led by the hand. In testing it discovered and chained two zero-days, now being disclosed to maintainers. The model is going out broadly to paying users; the strongest cyber capabilities are being fenced off to a vetted group under the name Daybreak, with chain-of-thought monitoring and containment-escape testing bolted on.</p>
+<p><strong>The view from the surgery:</strong> every NHS trust reading this should understand what has changed. The capability that took out our pathology services in 2024 required a competent criminal group. It now requires a subscription and a way past someone&#x27;s access controls. The gating may well hold. But the model is out, and the defensive side of that arms race is currently staffed, in most trusts, by about four people and a spreadsheet.</p>
+<hr>
+<h2>5. Meta stops counting tokens</h2>
+<p>Meta has removed &quot;usage of AI&quot; from its performance review criteria, replacing labels such as &quot;AI Native&quot; and &quot;AI First&quot; with the limper formulation that results &quot;may be supported by AI or other means&quot;. This follows a July lawsuit from around two dozen former employees who argue the metric was used in May&#x27;s layoffs and unfairly penalised staff on health or family leave, who consumed fewer tokens for entirely obvious reasons. Meta is simultaneously pushing Hatch, a new internal agent that acts on a computer rather than just chatting, across the company.</p>
+<p><strong>Why it matters:</strong> measuring AI adoption by consumption is exactly the error the NHS has made with every activity metric it has ever loved, and it fails the same way — the number rewards the person with the most time, not the best work. Anyone in an ICB currently drafting a &quot;digital maturity&quot; indicator for AI use in general practice should read this and put the pen down. Meta got there in a year and a lawsuit. We usually take a decade.</p>
+<hr>
+<h3>From the Eye</h3>
+<p><strong>The letters nobody wrote</strong> — HSJ reports that trust complaints teams are being buried in AI-generated complaint letters running to dozens of pages, complete with confident legal argument that is wrong and case references that do not exist. Complaints handling is already the least-resourced corner of most trusts, and the asymmetry is total: thirty seconds to generate, half a day to answer. The patient with a real grievance, writing a page in their own words, now waits behind a stack of machine prose. <strong>The report about the search, written by the searcher&#x27;s software</strong> — 404 Media noted that a Texas sheriff&#x27;s report on trawling more than 80,000 number-plate cameras for a woman who had self-administered an abortion was itself drafted using Axon&#x27;s Draft One, which turns body-camera audio into police reports. One system found her, another wrote the official account of finding her, and the disclosure only exists because the tool leaves a footprint. <strong>Uber discovers the union movement</strong> — the FT reports that Uber, having spent a decade fighting organised labour, is now lobbying alongside driver unions for rules keeping humans in the network, including an 85 per cent human-driver quota in New Jersey. Uber&#x27;s own figure is that one autonomous vehicle displaces roughly four drivers. There is no principle here whatsoever, which is what makes it such a clean illustration of how quickly the automation argument changes sides when it arrives at your own door.</p>
+<hr>
+<p><em>The Morning Rush. Reply with what works, what doesn&#x27;t, and what should be on tomorrow&#x27;s front page.</em></p>
+<p><strong>Sources monitored:</strong> NHS England · Digital Health · BMJ · Pulse · STAT News · <em>Exponential View</em> · <em>The AI Daily Brief</em> · <em>Private Eye</em> (MD column) · <em>The Parnas Perspective</em> · European Commission · Stanford HAI · The Lancet · HSJ</p>
+<footer>The Morning Rush &middot; a daily brief on AI in medicine and the world it's moving through.</footer>
+</div></body></html>
