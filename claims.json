@@ -1161,6 +1161,24 @@
       "resolution": "Vindicated if, by the check date, credible surveys or earnings disclosures show aggregate enterprise AI/LLM spend flat or falling year on year, with reported budget cuts and migration to open models. Fails if OpenAI and Anthropic enterprise revenue keeps growing materially and surveys show rising enterprise AI budgets.",
       "check_by": "2027-06-30",
       "status": "open"
+    },
+    {
+      "edition": "2026-09-02",
+      "side": "NLW",
+      "claim": "That day-one cost complaints about Fable 5.1 are transient: once sub-agent defaults and effort settings are tuned, its real cost per completed task will come in at or below Fable 5's, not above it as Artificial Analysis measured at launch.",
+      "source_url": "https://aidailybrief.ai/e/2026-09-02",
+      "resolution": "Vindicated if by the check date an independent benchmark (e.g. Artificial Analysis) reports Fable 5.1 cost per task at or below Fable 5's $3.14 on a comparable run, or Anthropic materially loosens usage limits without a price rise. Fails if measured cost per task remains above Fable 5's and limits stay as tight or tighter.",
+      "check_by": "2026-12-01",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-02",
+      "side": "Zitron",
+      "claim": "That consumer AI subscriptions are unsustainably subsidised and will be withdrawn or converted to metered, token-based billing, with users facing sharp effective price rises.",
+      "source_url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
+      "resolution": "Vindicated if by the check date OpenAI or Anthropic ends or restructures flat-rate consumer/pro subscriptions into usage-based billing for most users, or cuts included usage by half or more without a price cut. Fails if flat-rate plans remain available at broadly current prices and limits.",
+      "check_by": "2027-03-01",
+      "status": "open"
     }
   ]
 }

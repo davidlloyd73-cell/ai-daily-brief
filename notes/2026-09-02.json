@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Model choice is a procurement question, not a loyalty question",
+      "body": "Fable 5.1 scored well on science and medicine tasks and its safeguards now refuse far fewer basic medical questions. If NLW is right, the sensible GP habit is a small standing slate of your own tests — a discharge summary to reconcile, a guideline to check, a dictation to tidy — and to run each new model against them rather than trusting benchmarks. If Zitron is right, the same slate matters for the opposite reason: it shows you when a 'better' model quietly costs more per finished task, which is what an AI scribe vendor will eventually pass on to the practice."
+    },
+    {
+      "title": "Zero data retention is the bit that matters for the NHS",
+      "body": "The most useful line in this edition for UK practice is Anthropic offering zero data retention to eligible customers. That is precisely the condition a DPIA, Caldicott review or ICB information governance lead asks about before any patient-facing use. If NLW is right, this removes the biggest blocker to NHS adoption; if Zitron is right, terms and pricing can change at the vendor's whim, so any contract should pin retention terms down in writing rather than rely on a launch blog post."
+    },
+    {
+      "title": "Watch the token bill, not the licence fee",
+      "body": "Users report the new model exhausting generous subscription limits in an hour. For a practice or PCN buying AI tools by the seat, the risk is the same either way: the licence looks fixed but the underlying cost is metered. Ask any supplier what happens to price and rate limits when the model underneath changes — both men agree subscriptions are likely to give way to usage-based billing."
+    }
+  ]
+}
