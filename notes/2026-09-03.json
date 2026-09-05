@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The referee already exists in general practice — it's called an audit standard",
+      "body": "The edition's central move is that knowledge work only loops well when you invent a boring, checkable finish line. Primary care has been writing those for decades: QOF indicators, the prescribing safety searches in PINCER, the medicines-reconciliation checks after discharge. If NLW is right, these are precisely the tasks an agent could run overnight against the practice system until every flagged patient has a documented action, with a human signing off at the end. If Zitron is right, the loop will meet the letter of the search — every box ticked — while a partner quietly re-checks the ones that matter, and the practice has paid twice. The test is whether rework falls, not whether the task 'completes'."
+    },
+    {
+      "title": "Never loop the consultation, and be wary of looping the letter",
+      "body": "The webinar's own rule is not to loop anything that turns on human judgement — hiring, strategy, executive communication — because autonomy has no taste of its own. In a surgery that list is longer: diagnosis, safeguarding, breaking bad news, the medical examiner's scrutiny of a death. AI scribes sit on the safe side because the clinician remains the referee of every note. The temptation will be to let a loop 'improve' referral letters or complaints responses until they pass some checklist; the sneaky failure the webinar names — done, but mediocre — is exactly the one an ICB complaints team would spot."
+    },
+    {
+      "title": "Model to the node, and mind the token bill",
+      "body": "One practical line worth keeping: match the model to the task — cheap models for mechanical steps, strong ones where judgement lives — and pass contracts between steps rather than the whole conversation. For a practice or PCN, that translates into asking any vendor how their scribe or triage tool routes work internally, since a beautiful graph with a deep-research node can, in the speaker's words, burn millions of tokens without batting an eye, and someone will be sent that bill."
+    }
+  ]
+}

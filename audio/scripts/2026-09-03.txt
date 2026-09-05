@@ -1,0 +1,17 @@
+David's AI brief for Thursday, the third of September.
+
+A holiday-week special today. Nathaniel Whittemore hands the microphone to Nufar Gaspar for a webinar on the buzziest skill of the summer: loop and graph engineering, and how to drag it out of software engineering and into ordinary knowledge work.
+
+The one idea: if you cannot design a verifiable finish line, don't loop it. But you usually can.
+
+Every agentic tool you already use runs a loop under the hood. Plan, act, check, adjust. The trouble is that the vendor's loop is generic, which is why these tools stop after one polite pass and need nudging. The new skill is taking control of that cycle yourself. Coders found this easy because verification comes free: the code compiles or it doesn't, the tests pass or they fail. Knowledge work has no compiler. Nobody's machine can answer whether a report is good enough for management. So the central move is that you have to manufacture the referee. Invent a boring, checkable finish line: two hundred verified data points, every claim cited, a summary under one hundred and fifty words. "Make it insightful" is not checkable, and an agent cannot converge on it.
+
+Loop a task only when it is long-running, checkable, and cheap to get wrong. Never loop anything that turns on human judgement: hiring, strategy, an important letter. Always add a fail-safe, such as a cap of thirty turns, because in the demonstration a research loop meant to stop at two hundred data points sailed through to three hundred. And beware the sneakiest failure of all: the loop finishes, meets your criteria to the letter, and the result is still bland. That is not the loop's fault. It is your definition of done.
+
+When one worker isn't enough, you compose loops into a graph: a picture of how the work actually flows, rather than who reports to whom. Subject-matter experts, not coders, are best placed to draw it.
+
+Now, the other side. Ed Zitron's latest long piece argues that commentators rationalise models producing a mediocre but plausible attempt at something quickly as impressive, without asking whether impressive means useful, and that these systems are very good at making you feel productive as you endlessly tinker with an ever-growing apparatus. He concedes that some people's automations help them, but says that is nowhere near enough to justify the money involved. The honest observation is that both men agree on one thing: a loop hitting its finish line and the work being good are not the same, and nobody has yet published figures on rework rather than tokens.
+
+For general practice, the interesting point is that our referees already exist. Prescribing safety searches, medicines reconciliation after discharge, the audit standards we have written for decades are exactly the boring, checkable finish lines the webinar describes. If Whittemore is right, an agent could work through those overnight with a clinician signing off in the morning. If Zitron is right, every box gets ticked and a partner quietly re-checks the ones that matter. Either way, the consultation itself, safeguarding, and the medical examiner's scrutiny stay firmly on the never-loop list, and the AI scribe stays safe precisely because the doctor remains the referee of every note.
+
+That's the brief — source, The AI Daily Brief.

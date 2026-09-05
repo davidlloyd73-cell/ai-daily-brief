@@ -1179,6 +1179,24 @@
       "resolution": "Vindicated if by the check date OpenAI or Anthropic ends or restructures flat-rate consumer/pro subscriptions into usage-based billing for most users, or cuts included usage by half or more without a price cut. Fails if flat-rate plans remain available at broadly current prices and limits.",
       "check_by": "2027-03-01",
       "status": "open"
+    },
+    {
+      "edition": "2026-09-03",
+      "side": "NLW",
+      "claim": "That the agentic paradigm has durably overtaken assisted chat use: the April–May 2026 flip in OpenAI's token mix towards agentic use will persist and widen, with agentic tokens still the majority in early 2027.",
+      "source_url": "https://aidailybrief.ai/e/2026-09-03",
+      "resolution": "Vindicated if OpenAI (or an equivalent lab disclosure) reports agentic use as the majority of tokens consumed in a statement or usage report published by the check date. Fails if disclosed figures show assisted/chat use back in the majority, or if no lab is willing to publish the split.",
+      "check_by": "2027-03-01",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-03",
+      "side": "Zitron",
+      "claim": "That a year from now LLMs will still lack a tangible product outside coding that can be described in a sentence — no knowledge-work application will show measured, independently verified productivity gains at scale.",
+      "source_url": "https://www.wheresyoured.at/hyperscale-normalization/",
+      "resolution": "Vindicated if by the check date no peer-reviewed or independent (non-vendor) study of a non-coding, agentic knowledge-work deployment reports net time or cost savings after accounting for rework. Fails if at least one such study appears with clearly positive net results.",
+      "check_by": "2027-09-01",
+      "status": "open"
     }
   ]
 }
