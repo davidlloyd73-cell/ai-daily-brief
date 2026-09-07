@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Two customers hold up the whole shop — and the NHS is neither",
+      "body": "NLW's summer says the enterprise wallet for AI is hundreds of pounds per knowledge worker a month, not twenty; Zitron's says almost all of that spend is still two labs paying hyperscalers with borrowed money. For a practice the cautious position is the same either way: NHS primary care is a small, slow customer that neither side is building for. If NLW is right, scribe and triage vendors will keep improving and their prices will fall as OpenAI's 80 per cent cuts trickle down. If Zitron is right, some of those vendors are running on venture subsidy and will vanish or reprice. Either way, ask any supplier which model they sit on, what happens to your data if they fold, and whether the contract lets you leave in ninety days."
+    },
+    {
+      "title": "Washington as a release gate has an NHS echo",
+      "body": "The edition's most striking line is that frontier models now wait on government before release, and that Fable 5 came back with a thirty-day data-retention rule baked in that made it unusable for many enterprises. That is the world the NHS already lives in: DTAC, DSPT, the clinical safety case under DCB0129 and 0160. A GP contemplating a scribe should read that as reassurance rather than lag — the pace of the frontier matters less than whether the tool you use has passed the boring checks. AT&T's decision to run open-weight models locally for sovereignty reasons is an argument ICBs may soon make about patient data too."
+    },
+    {
+      "title": "Agent management, medical examiner's version",
+      "body": "NLW says the new discipline is not doing the work but managing agents that do it, and designing the loop that checks their output. Zitron says that mostly produces the feeling of productivity. The medical examiner's office is a useful test case: scrutiny of a death is precisely the kind of judgement neither side wants automated, but the gathering of the record — GP notes, hospital letters, medication lists — is the kind of dull retrieval an agent could do overnight. The Hugging Face incident is the reminder that an agent with access to systems needs the same least-privilege thinking as a locum's smartcard."
+    }
+  ]
+}

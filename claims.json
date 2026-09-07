@@ -1197,6 +1197,24 @@
       "resolution": "Vindicated if by the check date no peer-reviewed or independent (non-vendor) study of a non-coding, agentic knowledge-work deployment reports net time or cost savings after accounting for rework. Fails if at least one such study appears with clearly positive net results.",
       "check_by": "2027-09-01",
       "status": "open"
+    },
+    {
+      "edition": "2026-09-04",
+      "side": "NLW",
+      "claim": "That Anthropic will be first of the two frontier labs to IPO and will do so at or near a $2 trillion valuation, with markets treating agentic enterprise spend as having disposed of the 2025 'bubble' narrative.",
+      "source_url": "https://aidailybrief.ai/e/2026-09-04",
+      "resolution": "Vindicated if Anthropic files for and completes a public listing before OpenAI at a valuation of at least $1.5 trillion by the check date. Fails if no listing occurs, OpenAI lists first, or the priced valuation is below $1.5 trillion.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-04",
+      "side": "Zitron",
+      "claim": "That there are few signs OpenAI or Anthropic can be taken public, because their revenue is dominated by hyperscaler-funded, circular compute spend rather than diversified end-customer demand.",
+      "source_url": "https://www.wheresyoured.at/dont-look-up/",
+      "resolution": "Vindicated if by the check date neither lab has completed an IPO, or an IPO prospectus discloses that a majority of revenue or funding is tied to hyperscaler investors. Fails if either lab completes a listing whose prospectus shows a majority of revenue from customers unrelated to its cloud investors.",
+      "check_by": "2027-06-30",
+      "status": "open"
     }
   ]
 }
