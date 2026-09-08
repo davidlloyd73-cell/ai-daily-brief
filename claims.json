@@ -1215,6 +1215,42 @@
       "resolution": "Vindicated if by the check date neither lab has completed an IPO, or an IPO prospectus discloses that a majority of revenue or funding is tied to hyperscaler investors. Fails if either lab completes a listing whose prospectus shows a majority of revenue from customers unrelated to its cloud investors.",
       "check_by": "2027-06-30",
       "status": "open"
+    },
+    {
+      "edition": "2026-09-06",
+      "side": "NLW",
+      "claim": "That 'cost per accepted pull request' (or an equivalent cost-per-completed-task metric) becomes a standard measure of agentic delivery, and that fleets of coding agents writing, testing and shipping code while humans set intent becomes mainstream practice rather than controversial.",
+      "source_url": "https://aidailybrief.ai/e/2026-09-06",
+      "resolution": "Vindicated if by the check date at least two large public companies or major developer surveys (e.g. Stack Overflow, DORA) report a cost-per-merged-change metric or that a majority of surveyed engineering teams run agent-authored PRs by default. Fails if no such metric or majority appears.",
+      "check_by": "2027-03-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-06",
+      "side": "Zitron",
+      "claim": "That enterprises moved onto token-based billing will cut AI token budgets because costs rise while no measurable productivity improvement can be shown, with spend shifting first to open-source models and then falling outright.",
+      "source_url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
+      "resolution": "Vindicated if by the check date credible surveys or disclosures (e.g. Ramp AI index, Gartner, hyperscaler earnings commentary) show enterprise LLM/API spend flat or declining year on year. Fails if enterprise AI spend is reported growing by 20% or more year on year.",
+      "check_by": "2027-03-31",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-07",
+      "side": "NLW",
+      "claim": "That multiplayer/shared agents are the next frontier: within a year, shared team agents (Claude Tag-style, one agent per channel with shared context) will be a standard feature across major work platforms and in wide use beyond the labs.",
+      "source_url": "https://aidailybrief.ai/e/2026-09-07",
+      "resolution": "Vindicated if by the check date at least two of Microsoft, Google, Slack/Salesforce or OpenAI ship a shared-context, shared-session team agent as a general-availability product AND at least one non-AI-lab company publicly reports a majority of some team output (code or otherwise) produced via a shared agent. Fails otherwise.",
+      "check_by": "2027-09-07",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-07",
+      "side": "Zitron",
+      "claim": "That AI's productivity payoff will remain invisible at national scale: aggregate productivity statistics will show no discernible AI-driven acceleration despite hundreds of billions in spend.",
+      "source_url": "https://www.wheresyoured.at/hyperscale-normalization/",
+      "resolution": "Vindicated if by the check date US non-farm labour productivity growth (BLS) and UK ONS output per hour for 2026 remain within their 2015-2024 trend range and no official statistical body attributes an acceleration to AI. Fails if either records growth clearly above trend that official analysis attributes substantially to AI.",
+      "check_by": "2027-06-30",
+      "status": "open"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "'Who owns the result?' is already the NHS rule",
+      "body": "The one feature NLW adds to the list is the one general practice never needed telling: every AI workflow needs a named owner, a measurable goal and someone accountable when it goes wrong. DCB0160 requires a clinical safety officer for exactly that reason. If NLW is right, the practices that get value from scribes, triage tools and coding agents will be the ones that treat them as a governed service with an owner, not a gadget a keen partner installed. If Zitron is right, the ownership question is what stops the spend: once a named person must justify the token bill against a measurable outcome, most of it will not survive the conversation."
+    },
+    {
+      "title": "Throw it away every three months is not an option in a surgery",
+      "body": "NLW's cadence of reimagining workflows quarterly might suit a start-up; a practice with a DSPT return, an IG lead and a clinical system supplier cannot re-plumb its scribe or its triage tool every twelve weeks, and should not try. Zitron's version of the same point is that the constant rebuilding shows nothing is stable enough to buy. The practical reading for a GP is to insist on boring stability from suppliers: a scribe that behaves the same on Monday as it did in June, with model changes notified in advance, is worth more than a clever one that keeps changing."
+    },
+    {
+      "title": "Autonomy earned, not granted, is a medical model",
+      "body": "Both men would probably accept the ladder NLW describes, from observation to suggestion to acting with approval to acting alone, because it is how trainees are supervised. For the medical examiner's office the gathering of records is a plausible 'observation' rung; the scrutiny itself sits several rungs higher and should stay there. Where they part is whether anything ever earns the top rung. If Zitron is right, the measurement needed to justify promotion simply does not exist yet, and the honest answer is that most tools stay at 'suggestion' indefinitely."
+    }
+  ]
+}

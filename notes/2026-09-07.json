@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "A practice is a multiplayer workplace, which cuts both ways",
+      "body": "NLW's figures put most of the working day in coordination rather than solo work, and general practice fits: duty doctor handovers, tasks passed to reception, results workflows, the MDT. A shared agent that sits in the practice's channel, knows this week's rota, the local pathways and what was agreed at last week's meeting is a plausible thing to want. If NLW is right, that is where the next visible gain comes from, not from a faster scribe. If Zitron is right, building that shared 'wiki of the practice' becomes a new hobby for the two keen doctors and nobody else touches it, which is what happened to most intranets."
+    },
+    {
+      "title": "Shared context in the NHS means shared patient data, so score for permission first",
+      "body": "The sprint's four-axis scoring, shared need, staleness cost, permission sensitivity and checkability, is sensible, but in a surgery the permission axis dominates. A team agent with access to the clinical record is a different beast from one that drafts the practice newsletter. Start with candidates that touch no identifiable data at all: rota, protocols, referral criteria, the practice handbook. Zitron's warning about the 'appearance of productivity' is fair for those too; the check is whether staff actually stop asking each other the same questions."
+    },
+    {
+      "title": "The evidence gap both men admit",
+      "body": "The only hard number in this edition is Anthropic's own, that nearly two thirds of its product team's code now comes from a shared agent. Zitron notes that outside coding, and outside the labs, the evidence is anecdote and user counts, and there is no productivity signal in the national figures. For NHS reasoning that is the honest position: shared agents in clinical teams are an experiment, so treat any pilot as one, with a baseline measured before it starts."
+    }
+  ]
+}
