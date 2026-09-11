@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Computer use is the bit that touches a GP surgery",
+      "body": "The 3D games are the spectacle; the capability with NHS consequences is a model that can drive a screen for hours. The clinical system, the pathology portal, the referral platform and the e-consult queue are all clicked through by hand today. If NLW is right, within a year or two an agent will be doing the admin tasks that are about the software rather than about the patient: chasing results, filing letters, reconciling medication lists after discharge. If Zitron is right, the practice will be sold this by a start-up whose subscription price does not cover its token bill, and the tool will vanish or triple in price when the funding does. Either way, do not build a workflow round a supplier that cannot say how it makes money."
+    },
+    {
+      "title": "Old tests for a new thing, which is also the AI scribe problem",
+      "body": "NLW's best point is that the benchmarks measured what previous models did and missed what this one does. The same is true of how practices judge AI scribes: we score them on transcription accuracy when the real change is in the consultation, in whether the doctor looks at the patient, in what gets coded. A model that can use the computer, not just the microphone, will be graded by the same stale criteria unless someone in the practice writes down what they actually want it to do before the demo, not after."
+    },
+    {
+      "title": "The exploit score is a safety fact for information governance",
+      "body": "One number in the edition matters more to a medical examiner or a practice manager than any game: a perfect score on building exploits, and 39 per cent success on recently disclosed vulnerabilities against 5.5 per cent for the previous model. That is why security partners got it first. For the NHS, whose estate runs on old software and slow patching, the practical implication is dull but real: patch cycles that were tolerable last year are not tolerable now, and the people who defend NHS systems will be using these same models. Both NLW and Zitron accept the capability is genuine; they differ only on what it costs to keep running."
+    }
+  ]
+}

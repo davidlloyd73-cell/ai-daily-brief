@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The Navier-Stokes row is the confidentiality question every practice should have asked already",
+      "body": "A mathematician says he worked on an unsolved problem inside OpenAI's coding tool for a year and was then scooped by OpenAI's own model. The company says no human or agent looked at his data but cannot rule out that de-identified usage improved its models. Swap 'trade secret' for 'consultation transcript' and this is the AI scribe question. NLW treats it as a wake-up call for anyone using consumer tools on proprietary work; Zitron would add that the labs' incentives are to train on everything they can. For a UK practice the position is the same under either reading: only use scribes and assistants with a written data-processing agreement, no training on your data, and check whether 'de-identified' is defined."
+    },
+    {
+      "title": "Fast and cheap beats slightly better for most surgery work",
+      "body": "The edition's most useful idea for the NHS is the head-to-head where a top model took twenty-four minutes and a small fast model did nearly as well in thirty-seven seconds. Summarising a discharge letter, drafting a referral, coding a consultation: these are thirty-seven-second jobs. If NLW is right, practices should be pricing tools by cost per task and speed, not by which model tops a leaderboard. If Zitron is right, the cheap models are cheap because someone else is paying, and the real per-task cost, which the edition notes rose forty per cent for Flash despite unchanged token prices, is the number to watch on any contract."
+    },
+    {
+      "title": "A personal agent connected to inbox, calendar and finances is coming to patients first",
+      "body": "Meta's Muse is pitched at ordinary people and arrives through Marketplace, not the office. Within a year some patients will ask their agent to book appointments, chase prescriptions and read letters from the surgery. There is little healthcare relevance in the model releases themselves, but there is in this: practice websites, online-access systems and patient-facing letters will be read by software as often as by people, and both NLW's optimism and Zitron's distrust of Meta agree that nobody has yet checked what such an agent does with a medical letter it has been given."
+    }
+  ]
+}

@@ -112,7 +112,7 @@
     {
       "edition": "2026-06-16",
       "side": "NLW",
-      "claim": "Over the next 6-12 months the labs will dramatically increase investment in enablement, training and expanding usage depth — even labs that don't believe everyone should build agents will act as if it's true, to hit quarterly token-growth targets.",
+      "claim": "Over the next 6-12 months the labs will dramatically increase investment in enablement, training and expanding usage depth \u2014 even labs that don't believe everyone should build agents will act as if it's true, to hit quarterly token-growth targets.",
       "source": "https://aidailybrief.ai/e/2026-06-16",
       "resolution": "By the check date, major labs (Anthropic and/or OpenAI) have materially expanded enablement/training programmes, customer-success/forward-deployed capacity or usage-depth initiatives. Fails if no such material expansion in lab-led training/enablement is observable.",
       "check_by": "2027-06-16",
@@ -130,7 +130,7 @@
     {
       "edition": "2026-06-17",
       "side": "NLW",
-      "claim": "OpenAI's 2025 loss is largely a one-time non-cash accounting charge ($41.55bn from the for-profit conversion), and the underlying inference business is already profitable — $13.07bn revenue on $7.5bn cost of revenue — so the company is far healthier than the $38.5bn headline loss implies.",
+      "claim": "OpenAI's 2025 loss is largely a one-time non-cash accounting charge ($41.55bn from the for-profit conversion), and the underlying inference business is already profitable \u2014 $13.07bn revenue on $7.5bn cost of revenue \u2014 so the company is far healthier than the $38.5bn headline loss implies.",
       "source": "https://aidailybrief.ai/e/2026-06-17",
       "resolution": "A future audited disclosure or IPO prospectus shows that, with the one-time fair-value/conversion charge excluded, OpenAI's operating loss narrows year-over-year and inference/gross profit scales. Fails if operating losses (ex one-time items) keep widening with no margin path.",
       "check_by": "2027-06-30",
@@ -148,7 +148,7 @@
     {
       "edition": "2026-06-18",
       "side": "NLW",
-      "claim": "Open-weight and routed model stacks (e.g. GLM 5.2, OpenRouter Fusion, compound APIs) can deliver near-Fable/near-frontier performance on real enterprise tasks at a fraction of the cost — around 6¢ vs 49¢ per task in the landing-page example — making smart routing and inference optimisation a durable competitive advantage.",
+      "claim": "Open-weight and routed model stacks (e.g. GLM 5.2, OpenRouter Fusion, compound APIs) can deliver near-Fable/near-frontier performance on real enterprise tasks at a fraction of the cost \u2014 around 6\u00a2 vs 49\u00a2 per task in the landing-page example \u2014 making smart routing and inference optimisation a durable competitive advantage.",
       "source": "https://aidailybrief.ai/e/2026-06-18",
       "resolution": "Within 12 months, independent benchmarks or large enterprises report production workloads moved to open-weight/routed stacks at materially lower cost with quality within a few points of frontier models. Fails if open/routed stacks consistently underperform on real tasks (as the Kimi K2.7 benchmark-vs-reality gap warns) and enterprises revert to frontier models.",
       "check_by": "2027-06-18",
@@ -157,7 +157,7 @@
     {
       "edition": "2026-06-18",
       "side": "Zitron",
-      "claim": "The shift to cheaper models reflects the bursting of an AI 'tokenomics bubble' — enterprises put on usage-based billing in early 2026 revolted at the true cost, forcing providers into 'drastic' price cuts; most users will refuse to pay AI's actual cost, so the economics still don't work.",
+      "claim": "The shift to cheaper models reflects the bursting of an AI 'tokenomics bubble' \u2014 enterprises put on usage-based billing in early 2026 revolted at the true cost, forcing providers into 'drastic' price cuts; most users will refuse to pay AI's actual cost, so the economics still don't work.",
       "source": "https://www.wheresyoured.at/brokenomics/",
       "resolution": "Within 12 months, major AI providers report shrinking enterprise spend/renewals or further forced price cuts amid persistent operating losses on inference. Fails if enterprise AI spend and renewals grow while providers move inference to sustainable gross margins.",
       "check_by": "2027-06-18",
@@ -166,7 +166,7 @@
     {
       "edition": "2026-06-19",
       "side": "NLW",
-      "claim": "Companies that build a model-agnostic learning loop on top of AI — captured workflows, private evals measuring real business outcomes, RL environments trained on internal traces — will own durable, portable IP (token capital) that survives any single model swap, while those that merely pick a model cede their value to the model providers.",
+      "claim": "Companies that build a model-agnostic learning loop on top of AI \u2014 captured workflows, private evals measuring real business outcomes, RL environments trained on internal traces \u2014 will own durable, portable IP (token capital) that survives any single model swap, while those that merely pick a model cede their value to the model providers.",
       "source": "https://aidailybrief.ai/e/2026-06-19",
       "resolution": "Within 18 months, case studies or audited results show firms that built such owned learning systems demonstrating durable, portable productivity or ROI gains (net of token costs) that persist across a model change and differentiate them from peers who just bought a model. Fails if no measurable, portable advantage from 'token capital' systems emerges and outcomes track model choice and spend rather than owned scaffolding.",
       "check_by": "2027-12-31",
@@ -256,7 +256,7 @@
     {
       "edition": "2026-06-26",
       "side": "NLW",
-      "claim": "The bot-sitting productivity paradox is a transition artefact, not a ceiling: organisations that do the real work of transformation — governance, training, rewarding AI skills, building human infrastructure — will convert individual AI time savings into measurable organisation-level performance gains, and a rerun of this study in the agentic era would amplify rather than nullify the upside.",
+      "claim": "The bot-sitting productivity paradox is a transition artefact, not a ceiling: organisations that do the real work of transformation \u2014 governance, training, rewarding AI skills, building human infrastructure \u2014 will convert individual AI time savings into measurable organisation-level performance gains, and a rerun of this study in the agentic era would amplify rather than nullify the upside.",
       "source": "https://aidailybrief.ai/e/2026-06-26",
       "resolution": "By end-2027, credible evidence (audited outcomes or a repeat large-sample study) shows 'transformative' organisations turning AI use into significant, measured organisation-level gains, and the share of organisations reporting significant improvement rises well above the current 13%. Fails if the org-level gap persists or widens despite transformation efforts.",
       "check_by": "2027-12-31",
@@ -267,14 +267,14 @@
       "side": "Zitron",
       "claim": "The roughly trillion-dollar AI/data-centre buildout is cargo-cult spending driven by a lack of other ideas, not by arriving value; it will not generate organisational returns proportionate to the outlay, and the AI 'transformation' narrative will keep substituting ritual and planted stories for demonstrable results.",
       "source": "https://www.wheresyoured.at/cargo-culture/",
-      "resolution": "By end-2027, the large AI capex shows no proportionate audited return — evidenced by impairments/writedowns, stalled data-centre economics, or continued absence of organisation-level ROI at real cost. Fails if AI investment demonstrably produces returns justifying the spend.",
+      "resolution": "By end-2027, the large AI capex shows no proportionate audited return \u2014 evidenced by impairments/writedowns, stalled data-centre economics, or continued absence of organisation-level ROI at real cost. Fails if AI investment demonstrably produces returns justifying the spend.",
       "check_by": "2027-12-31",
       "status": "open"
     },
     {
       "edition": "2026-06-29",
       "side": "NLW",
-      "claim": "The constraining of frontier models to a small licensed group of partners marks a durable, structural shift: even after Mythos and GPT-5.6 are broadly released, access to top models will remain tiered — nation, then agencies, then chosen firms — producing a measurable intelligence advantage for those at the front of the queue that does not close.",
+      "claim": "The constraining of frontier models to a small licensed group of partners marks a durable, structural shift: even after Mythos and GPT-5.6 are broadly released, access to top models will remain tiered \u2014 nation, then agencies, then chosen firms \u2014 producing a measurable intelligence advantage for those at the front of the queue that does not close.",
       "source": "https://aidailybrief.ai/e/2026-06-29",
       "resolution": "By end-2027, frontier-model access remains structurally tiered (formal or de facto government-gated early access), AND there is credible evidence that front-of-queue access yields a real capability or economic advantage over those on broadly available models. Fails if frontier access reverts to broad simultaneous public availability with no durable advantage to early-access holders.",
       "check_by": "2027-12-31",
@@ -285,16 +285,16 @@
       "side": "Zitron",
       "claim": "The premise that frontier AI access is 'access to the future' is bubble rhetoric: the roughly $1.1 trillion in compute commitments behind these models is not matched by real demand or returns, and the value gap between frontier and cheap/open models will prove economically immaterial rather than world-altering.",
       "source": "https://www.wheresyoured.at/the-ai-industry-is-losing/",
-      "resolution": "By end-2027, the AI capex shows no proportionate audited return — evidenced by writedowns/impairments, a financing pullback, or the continued absence of frontier-only ROI at real (unsubsidised) cost, while cheaper/open models capture most practical value. Fails if rationed frontier access demonstrably produces returns or advantages justifying the spend.",
+      "resolution": "By end-2027, the AI capex shows no proportionate audited return \u2014 evidenced by writedowns/impairments, a financing pullback, or the continued absence of frontier-only ROI at real (unsubsidised) cost, while cheaper/open models capture most practical value. Fails if rationed frontier access demonstrably produces returns or advantages justifying the spend.",
       "check_by": "2027-12-31",
       "status": "open"
     },
     {
       "edition": "2026-06-30",
       "side": "NLW",
-      "claim": "The AI economy is genuinely revenue-validated and self-sustaining, not merely a promise: Exponential View's audit shows demand backed by realised revenue ($110B banked, a $175B run rate), quarterly revenue already exceeds CapEx depreciation, and older GPUs earn yields well past their six-year life — so the return-on-CapEx indicators are far more positive than the bubble discourse suggests.",
+      "claim": "The AI economy is genuinely revenue-validated and self-sustaining, not merely a promise: Exponential View's audit shows demand backed by realised revenue ($110B banked, a $175B run rate), quarterly revenue already exceeds CapEx depreciation, and older GPUs earn yields well past their six-year life \u2014 so the return-on-CapEx indicators are far more positive than the bubble discourse suggests.",
       "source": "https://aidailybrief.ai/e/2026-06-30",
-      "resolution": "By end-2027, hyperscaler and lab AI economics show durable, unsubsidised returns — audited (GAAP) AI revenue growing faster than AI-related CapEx and depreciation, with no large writedowns or financing pullback. Fails if AI revenue remains reliant on hyperscaler subsidy of their own labs, capex persistently outpaces cashflow, or major impairments appear.",
+      "resolution": "By end-2027, hyperscaler and lab AI economics show durable, unsubsidised returns \u2014 audited (GAAP) AI revenue growing faster than AI-related CapEx and depreciation, with no large writedowns or financing pullback. Fails if AI revenue remains reliant on hyperscaler subsidy of their own labs, capex persistently outpaces cashflow, or major impairments appear.",
       "check_by": "2027-12-31",
       "status": "open"
     },
@@ -328,7 +328,7 @@
     {
       "edition": "2026-07-02",
       "side": "NLW",
-      "claim": "High-AI-adoption firms hiring more people — including 12% entry-level growth per Ramp/Revelio — reflects genuine complementarity, and the pattern will persist and broaden rather than reverse.",
+      "claim": "High-AI-adoption firms hiring more people \u2014 including 12% entry-level growth per Ramp/Revelio \u2014 reflects genuine complementarity, and the pattern will persist and broaden rather than reverse.",
       "source": "https://aidailybrief.ai/e/2026-07-02",
       "resolution": "By the check date, follow-up payroll data (Ramp/Revelio or comparable large-sample studies) still shows high-AI-adoption firms growing headcount faster than low-adoption firms, including at entry level. Fails if the gap closes or reverses, or if the effect is credibly shown to be a spending/selection artefact.",
       "check_by": "2027-07-02",
@@ -373,7 +373,7 @@
     {
       "edition": "2026-07-06",
       "side": "Zitron",
-      "claim": "AI demand is artificial: end users get $30-40 of compute per dollar paid, and once subsidised pricing ends and market incentives shift, consumer and small-business AI usage and revenue will collapse rather than persist — no bailout will save the sector because it is systemically irrelevant.",
+      "claim": "AI demand is artificial: end users get $30-40 of compute per dollar paid, and once subsidised pricing ends and market incentives shift, consumer and small-business AI usage and revenue will collapse rather than persist \u2014 no bailout will save the sector because it is systemically irrelevant.",
       "source_url": "https://www.wheresyoured.at/let-ai-burn/",
       "resolution": "Vindicated if by the check date a substantial repricing toward true cost produces a clear contraction in AI usage/subscriptions and small-business AI-driven revenue. Fails if usage and paying demand persist or grow at materially higher effective prices.",
       "check_by": "2027-06-30",
@@ -445,7 +445,7 @@
     {
       "edition": "2026-07-10",
       "side": "Zitron",
-      "claim": "AI capex is driving a structural memory crisis: NVIDIA now takes roughly 65% of the world's high-bandwidth memory, the DRAM triopoly (Samsung, SK Hynix, Micron) is repricing at will, consumer electronics prices will keep rising as long as hyperscaler capex is sustained — and the moment capex slows, the memory industry faces a supply glut and profit collapse worse than any prior cycle.",
+      "claim": "AI capex is driving a structural memory crisis: NVIDIA now takes roughly 65% of the world's high-bandwidth memory, the DRAM triopoly (Samsung, SK Hynix, Micron) is repricing at will, consumer electronics prices will keep rising as long as hyperscaler capex is sustained \u2014 and the moment capex slows, the memory industry faces a supply glut and profit collapse worse than any prior cycle.",
       "source_url": "https://www.wheresyoured.at/premium-the-haters-guide-to-the-memory-crisis/",
       "resolution": "Vindicated if by the check date DRAM/NAND contract prices remain sharply elevated with continued consumer-device price rises while capex persists, or a hyperscaler capex slowdown triggers visible memory-industry distress (cancellations, inventory gluts, collapsing margins at Micron/SK Hynix/Samsung). Fails if memory prices normalise without a capex pullback and device prices stabilise, or if capex slows and memory makers absorb it without severe distress.",
       "check_by": "2027-07-10",
@@ -454,7 +454,7 @@
     {
       "edition": "2026-07-13",
       "side": "NLW",
-      "claim": "The cheaper GPT-5.6 variants (Terra and Luna) are 'basically better than GLM performance for lower than GLM costs' — frontier labs will fully participate in the cheap-model shift rather than ceding it to open-source challengers.",
+      "claim": "The cheaper GPT-5.6 variants (Terra and Luna) are 'basically better than GLM performance for lower than GLM costs' \u2014 frontier labs will fully participate in the cheap-model shift rather than ceding it to open-source challengers.",
       "source": "https://aidailybrief.ai/e/2026-07-13",
       "resolution": "Vindicated if by the check date independent benchmark aggregators (e.g. Artificial Analysis) show GPT-5.6 Terra/Luna matching or beating GLM 5.2 on overall quality at equal or lower per-token price. Fails if GLM 5.2 (or a successor open model) clearly beats them on quality-per-dollar.",
       "check_by": "2026-09-30",
@@ -472,7 +472,7 @@
     {
       "edition": "2026-07-15",
       "side": "NLW",
-      "claim": "The 'software factory' problems that surfaced in coding — runaway cost from over-powered models, security holes from over-permissioned tools, wildly variable human usage — will recur as agents move into non-engineering functions (product, marketing, sales), because what AI engineers argue about today is what every knowledge worker argues about roughly six months later.",
+      "claim": "The 'software factory' problems that surfaced in coding \u2014 runaway cost from over-powered models, security holes from over-permissioned tools, wildly variable human usage \u2014 will recur as agents move into non-engineering functions (product, marketing, sales), because what AI engineers argue about today is what every knowledge worker argues about roughly six months later.",
       "source": "https://aidailybrief.ai/e/2026-07-15",
       "resolution": "Vindicated if by the check date there is documented evidence of enterprises deploying agents in marketing, sales or product hitting the same cluster of cost-control, governance and security problems, and vendors shipping 'factory'-style controls for those functions. Fails if agent adoption outside engineering proceeds without this recognisable pattern, or stalls entirely.",
       "check_by": "2027-01-15",
@@ -481,7 +481,7 @@
     {
       "edition": "2026-07-15",
       "side": "Zitron",
-      "claim": "The 'loops' fashion (agents prompting agents, running continuously) is primarily a device to increase token consumption and revenue rather than a genuine productivity advance, and — like other cargo-cult rituals — will deliver no independently verified output gains before the buzzword recedes.",
+      "claim": "The 'loops' fashion (agents prompting agents, running continuously) is primarily a device to increase token consumption and revenue rather than a genuine productivity advance, and \u2014 like other cargo-cult rituals \u2014 will deliver no independently verified output gains before the buzzword recedes.",
       "source_url": "https://www.wheresyoured.at/cargo-culture/",
       "resolution": "Vindicated if by the check date no credible independent (non-vendor) study shows loop/continuous-agent workflows materially raising developer output, and the 'loops' framing fades as vendors move to the next term. Fails if independent evidence demonstrates loop-based workflows durably raise output per engineer, or the pattern is retained after token subsidies tighten.",
       "check_by": "2027-06-23",
@@ -499,7 +499,7 @@
     {
       "edition": "2026-07-16",
       "side": "Zitron",
-      "claim": "OpenAI's economics are unsustainable and it will effectively run out of money in 2027 — needing an emergency raise, a down-round, a bailout, or folding into Microsoft — because no amount of enterprise AI spending (open weights or otherwise) produces the returns to justify its ~$850bn planned burn.",
+      "claim": "OpenAI's economics are unsustainable and it will effectively run out of money in 2027 \u2014 needing an emergency raise, a down-round, a bailout, or folding into Microsoft \u2014 because no amount of enterprise AI spending (open weights or otherwise) produces the returns to justify its ~$850bn planned burn.",
       "source_url": "https://www.wheresyoured.at/the-openai-bubble/",
       "resolution": "Vindicated if by the check date OpenAI has run an emergency or down-round raise on distressed terms, taken a government/hyperscaler bailout, folded into Microsoft, or breached a major compute contract (e.g. Oracle). Fails if OpenAI completes a healthy up-round or IPO and continues operating independently and solvently through 2027.",
       "check_by": "2027-12-31",
@@ -634,7 +634,7 @@
     {
       "edition": "2026-07-27",
       "side": "NLW",
-      "claim": "That most knowledge workers are not model omnivores but locked into a single company's ecosystem, so Claude Opus 5 should be judged as the daily-driver slot in Anthropic's stack rather than as a Fable replacement — and on that reading it is a significant upgrade that will hold that slot.",
+      "claim": "That most knowledge workers are not model omnivores but locked into a single company's ecosystem, so Claude Opus 5 should be judged as the daily-driver slot in Anthropic's stack rather than as a Fable replacement \u2014 and on that reading it is a significant upgrade that will hold that slot.",
       "source_url": "https://aidailybrief.ai/e/2026-07-27",
       "resolution": "Vindicated if, by the check date, credible usage data or enterprise surveys show most AI-using knowledge workers still working predominantly within one vendor's models, AND Opus 5 (or its direct successor) is Anthropic's routinely-used everyday model rather than one users work around. Fails if multi-model routing and cross-lab switching become the normal enterprise pattern, or if Opus 5 is widely abandoned in favour of Opus 4.8, Sonnet or rival models on reliability grounds.",
       "check_by": "2027-04-27",
@@ -643,16 +643,16 @@
     {
       "edition": "2026-07-27",
       "side": "Zitron",
-      "claim": "That almost nothing will actually be built at the ten-gigawatt SoftBank-affiliate campus behind NVIDIA's reported $250bn financing guarantee — 'somewhere between nothing and very little' — because the deal is a mechanism for booking GPU sales rather than a response to real demand; at prevailing build rates the site would take over a decade to complete.",
+      "claim": "That almost nothing will actually be built at the ten-gigawatt SoftBank-affiliate campus behind NVIDIA's reported $250bn financing guarantee \u2014 'somewhere between nothing and very little' \u2014 because the deal is a mechanism for booking GPU sales rather than a response to real demand; at prevailing build rates the site would take over a decade to complete.",
       "source_url": "https://www.wheresyoured.at/the-more-you-buy-the-more-you-lose/",
-      "resolution": "Vindicated if, by the check date, the campus has no more than token construction — no substantial energised critical IT load, or the financing guarantee is never executed, restructured away, or the project is quietly shelved. Fails if the guarantee is signed and a material share of the site is under active construction with meaningful capacity energised and contracted to OpenAI on the announced schedule.",
+      "resolution": "Vindicated if, by the check date, the campus has no more than token construction \u2014 no substantial energised critical IT load, or the financing guarantee is never executed, restructured away, or the project is quietly shelved. Fails if the guarantee is signed and a material share of the site is under active construction with meaningful capacity energised and contracted to OpenAI on the announced schedule.",
       "check_by": "2028-01-31",
       "status": "open"
     },
     {
       "edition": "2026-07-28",
       "side": "NLW",
-      "claim": "That the open-weight coalition — roughly $8tn of market cap, plus OpenAI added after pushback — is broad enough to defeat the proposed US ban on Chinese open-weight models, with Lutnick's 'compete, don't ban' position prevailing over the Bessent/security camp, leaving Anthropic isolated rather than vindicated.",
+      "claim": "That the open-weight coalition \u2014 roughly $8tn of market cap, plus OpenAI added after pushback \u2014 is broad enough to defeat the proposed US ban on Chinese open-weight models, with Lutnick's 'compete, don't ban' position prevailing over the Bessent/security camp, leaving Anthropic isolated rather than vindicated.",
       "source_url": "https://aidailybrief.ai/e/2026-07-28",
       "resolution": "Vindicated if, by the check date, no US statute, executive order or Commerce rule broadly prohibits US persons or firms from downloading, hosting or building on Chinese open-weight models, and policy instead targets specific unlawful extraction. Fails if a broad ban or effective equivalent (entity-listing the major Chinese open-model labs, or barring their weights from US distribution) is enacted.",
       "check_by": "2027-04-30",
@@ -661,7 +661,7 @@
     {
       "edition": "2026-07-28",
       "side": "Zitron",
-      "claim": "That NVIDIA's investment in Safe Superintelligence is demand manufacture rather than a bet on research — SSI being, in his words, a company with no products or plans other than to rent NVIDIA GPUs — and so will not produce a commercial product or third-party revenue within the window, whatever compute it is given.",
+      "claim": "That NVIDIA's investment in Safe Superintelligence is demand manufacture rather than a bet on research \u2014 SSI being, in his words, a company with no products or plans other than to rent NVIDIA GPUs \u2014 and so will not produce a commercial product or third-party revenue within the window, whatever compute it is given.",
       "source_url": "https://www.wheresyoured.at/the-more-you-buy-the-more-you-lose/",
       "resolution": "Vindicated if, by the check date, SSI has released no generally available commercial product and reports no meaningful external revenue, while having taken NVIDIA capital and Vera Rubin capacity. Fails if SSI ships a product, licenses its technology, or discloses material third-party revenue by then.",
       "check_by": "2027-07-28",
@@ -670,7 +670,7 @@
     {
       "edition": "2026-07-29",
       "side": "NLW",
-      "claim": "That no thoughtful, coalition-building international pacing effort will actually materialise — US AI policy will continue to be made ad hoc by a handful of officials and the president's mood, so the Pacing the Frontier letter will not produce a real international mechanism, and in particular nothing that includes China, which NLW identifies as the letter's true subtext and the only constituency that would make pacing work.",
+      "claim": "That no thoughtful, coalition-building international pacing effort will actually materialise \u2014 US AI policy will continue to be made ad hoc by a handful of officials and the president's mood, so the Pacing the Frontier letter will not produce a real international mechanism, and in particular nothing that includes China, which NLW identifies as the letter's true subtext and the only constituency that would make pacing work.",
       "source_url": "https://aidailybrief.ai/e/2026-07-29",
       "resolution": "Vindicated if, by the check date, no international body, treaty or formal agreement exists with US participation that sets technical or governance mechanisms for pacing frontier AI capability, and no such process includes China as a participant. Fails if such a mechanism is established and China is party to it, or if a US-led multilateral pacing process is formally constituted with Chinese participation.",
       "check_by": "2027-12-31",
@@ -679,7 +679,7 @@
     {
       "edition": "2026-07-29",
       "side": "Zitron",
-      "claim": "That the US government will not rescue the frontier AI labs — no bailout, no sovereign wealth fund stake, no CHIPS-style special treatment — because any such package would have to pass Congress and would be politically intolerable; the industry's safety and importance framing is the groundwork for asking, but the ask will fail.",
+      "claim": "That the US government will not rescue the frontier AI labs \u2014 no bailout, no sovereign wealth fund stake, no CHIPS-style special treatment \u2014 because any such package would have to pass Congress and would be politically intolerable; the industry's safety and importance framing is the groundwork for asking, but the ask will fail.",
       "source_url": "https://www.wheresyoured.at/let-ai-burn/",
       "resolution": "Vindicated if, by the check date, no federal legislation, executive order or Treasury facility provides equity investment, loan guarantee, debt backstop or comparable financial rescue to OpenAI, Anthropic or their data-centre financing. Fails if any such federal support is enacted or executed, including a sovereign-fund equity swap of the kind Altman has floated.",
       "check_by": "2027-12-31",
@@ -688,7 +688,7 @@
     {
       "edition": "2026-07-30",
       "side": "NLW",
-      "claim": "That enterprise AI adoption is now structurally durable rather than experimental — organisations that blew through annual AI budgets in months will raise those budgets rather than cut back, because AI spend behaves like labour priced in tokens rather than software priced in seats, and the capability gap keeps widening.",
+      "claim": "That enterprise AI adoption is now structurally durable rather than experimental \u2014 organisations that blew through annual AI budgets in months will raise those budgets rather than cut back, because AI spend behaves like labour priced in tokens rather than software priced in seats, and the capability gap keeps widening.",
       "source_url": "https://aidailybrief.ai/e/2026-07-30",
       "resolution": "Vindicated if, by the check date, large enterprise AI-spend surveys (KPMG, McKinsey, Bain or equivalent) and hyperscaler AI-segment disclosures show aggregate enterprise AI budgets rising year on year into FY2027 with consumption growing, and consumption or outcome-based pricing displacing per-seat pricing at major vendors. Fails if aggregate enterprise AI budgets are reported flat or falling, or if enforced token caps and pilot cancellations dominate the reporting.",
       "check_by": "2027-07-30",
@@ -697,7 +697,7 @@
     {
       "edition": "2026-07-30",
       "side": "Zitron",
-      "claim": "That the unit economics force a repricing upwards — as infrastructure gets more expensive to build and run, hyperscalers and neoclouds will have to charge materially more for compute, and the only two customers large enough to absorb it, OpenAI and Anthropic, cannot pay for it.",
+      "claim": "That the unit economics force a repricing upwards \u2014 as infrastructure gets more expensive to build and run, hyperscalers and neoclouds will have to charge materially more for compute, and the only two customers large enough to absorb it, OpenAI and Anthropic, cannot pay for it.",
       "source_url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/",
       "resolution": "Vindicated if, by the check date, a major hyperscaler or neocloud materially raises compute or inference list prices, or a large AI compute commitment is publicly renegotiated, deferred or written down. Fails if per-unit inference prices at comparable capability continue to fall and OpenAI and Anthropic meet their disclosed compute commitments without renegotiation or new rescue financing.",
       "check_by": "2027-07-31",
@@ -706,7 +706,7 @@
     {
       "edition": "2026-07-31",
       "side": "NLW",
-      "claim": "That the AI drawdown was mechanical rather than fundamental — leverage, forced liquidation and risk-off macro, not any change in belief about AI — and that underlying demand keeps growing, so lab revenue continues to accelerate and the data-centre debt does not break.",
+      "claim": "That the AI drawdown was mechanical rather than fundamental \u2014 leverage, forced liquidation and risk-off macro, not any change in belief about AI \u2014 and that underlying demand keeps growing, so lab revenue continues to accelerate and the data-centre debt does not break.",
       "source_url": "https://aidailybrief.ai/e/2026-07-31",
       "resolution": "Vindicated if, by the check date, OpenAI and Anthropic revenue run rates are higher than the $50B and $71B cited here, no hyperscaler-linked data-centre financing has defaulted or been restructured, and AI-name equity weakness is attributable to macro rather than to disclosed demand shortfalls. Fails if lab revenue growth stalls or reverses, or if a major data-centre financing defaults, is restructured or requires rescue.",
       "check_by": "2027-07-31",
@@ -715,7 +715,7 @@
     {
       "edition": "2026-07-31",
       "side": "Zitron",
-      "claim": "That data-centre special purpose vehicles are the AI bubble's CDOs — poorly underwritten, effectively uncollateralised debt distributed to private credit, insurers and pension schemes — and that only ten or fifteen deal failures are needed to trigger a panic, with most of the money invested in data-centre debt ultimately lost.",
+      "claim": "That data-centre special purpose vehicles are the AI bubble's CDOs \u2014 poorly underwritten, effectively uncollateralised debt distributed to private credit, insurers and pension schemes \u2014 and that only ten or fifteen deal failures are needed to trigger a panic, with most of the money invested in data-centre debt ultimately lost.",
       "source_url": "https://www.wheresyoured.at/the-subprime-data-center-crisis/",
       "resolution": "Vindicated if, by the check date, multiple data-centre SPV or neocloud financings have breached coverage covenants, defaulted or been written down, with disclosed losses at private credit funds, insurers or pension schemes, and secondary spreads on data-centre securities remain materially wider than at issuance. Fails if data-centre debt performs to schedule, spreads normalise, and no cluster of SPV or neocloud defaults occurs.",
       "check_by": "2028-07-31",
@@ -724,16 +724,16 @@
     {
       "edition": "2026-08-02",
       "side": "NLW",
-      "claim": "That overspending beats underspending on a one-year view — a company that wildly overspends on AI via an internal usage leaderboard will be materially further ahead than a comparable company that underspends out of fear of proving ROI; and that higher-value work inherently consumes more tokens, so the direction of travel is upward consumption, not restraint.",
+      "claim": "That overspending beats underspending on a one-year view \u2014 a company that wildly overspends on AI via an internal usage leaderboard will be materially further ahead than a comparable company that underspends out of fear of proving ROI; and that higher-value work inherently consumes more tokens, so the direction of travel is upward consumption, not restraint.",
       "source_url": "https://aidailybrief.ai/e/2026-08-02",
-      "resolution": "Vindicated if, by the check date, published evidence — company disclosures, a controlled study, or comparable-cohort research — shows heavy-AI-usage organisations outperforming AI-rationing peers on output or productivity measures, and enterprise token consumption per user continues to rise. Fails if the leaderboard-era heavy spenders (Meta, Uber, and similar) show no measurable advantage over constrained peers, or if enterprise consumption per user flattens or falls while outcomes hold.",
+      "resolution": "Vindicated if, by the check date, published evidence \u2014 company disclosures, a controlled study, or comparable-cohort research \u2014 shows heavy-AI-usage organisations outperforming AI-rationing peers on output or productivity measures, and enterprise token consumption per user continues to rise. Fails if the leaderboard-era heavy spenders (Meta, Uber, and similar) show no measurable advantage over constrained peers, or if enterprise consumption per user flattens or falls while outcomes hold.",
       "check_by": "2027-08-02",
       "status": "open"
     },
     {
       "edition": "2026-08-02",
       "side": "Zitron",
-      "claim": "That heavy AI usage is loss-making for the vendor rather than the customer — flat-rate plans let users consume many multiples of what they pay (a $200 plan absorbing $8,000-$14,000 of usage; Copilot subscribers burning over 25 times their fee) — and that this subsidy, not customer discipline, is what makes current AI spend look affordable.",
+      "claim": "That heavy AI usage is loss-making for the vendor rather than the customer \u2014 flat-rate plans let users consume many multiples of what they pay (a $200 plan absorbing $8,000-$14,000 of usage; Copilot subscribers burning over 25 times their fee) \u2014 and that this subsidy, not customer discipline, is what makes current AI spend look affordable.",
       "source_url": "https://www.wheresyoured.at/the-more-you-buy-the-more-you-lose/",
       "resolution": "Vindicated if, by the check date, major flat-rate AI plans are converted to metered or hard-capped billing, effective prices per unit of comparable work rise, or a leading lab discloses negative inference gross margins. Fails if flat-rate heavy-use plans persist at similar effective prices and a leading lab publishes positive, audited inference gross margins.",
       "check_by": "2027-08-02",
@@ -742,7 +742,7 @@
     {
       "edition": "2026-08-03",
       "side": "NLW",
-      "claim": "That the capability overhang is the market opportunity — that models already released can do far more than the systems around them permit, so the bulk of near-term AI value will be created at the applied layer by redesigning workflows, not by the next frontier model; and that verifiable domains (maths, code, cyber) will be automated substantially ahead of unverifiable ones (legal, marketing, sales).",
+      "claim": "That the capability overhang is the market opportunity \u2014 that models already released can do far more than the systems around them permit, so the bulk of near-term AI value will be created at the applied layer by redesigning workflows, not by the next frontier model; and that verifiable domains (maths, code, cyber) will be automated substantially ahead of unverifiable ones (legal, marketing, sales).",
       "source_url": "https://aidailybrief.ai/e/2026-08-03",
       "resolution": "Vindicated if, by the check date, application-layer AI companies (not the frontier labs) account for the majority of new third-party AI revenue growth, and measured automation or benchmark progress in verifiable domains clearly outpaces that in unverifiable professional domains. Fails if value continues to concentrate in the labs and infrastructure, or if unverifiable domains show comparable displacement to maths and code.",
       "check_by": "2027-08-03",
@@ -751,7 +751,7 @@
     {
       "edition": "2026-08-03",
       "side": "Zitron",
-      "claim": "That the economics get worse as the bubble inflates — infrastructure becomes more expensive to build, so hyperscalers and neoclouds must charge materially more for compute to reach profitability, and the only two customers of sufficient scale (OpenAI and Anthropic) cannot pay it; therefore frontier capability demonstrations such as $200-per-proof results do not reflect sustainable prices.",
+      "claim": "That the economics get worse as the bubble inflates \u2014 infrastructure becomes more expensive to build, so hyperscalers and neoclouds must charge materially more for compute to reach profitability, and the only two customers of sufficient scale (OpenAI and Anthropic) cannot pay it; therefore frontier capability demonstrations such as $200-per-proof results do not reflect sustainable prices.",
       "source_url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/",
       "resolution": "Vindicated if, by the check date, published compute or frontier-model list prices for comparable reasoning workloads have risen rather than fallen, or a leading lab discloses negative inference gross margins while renegotiating or defaulting on compute commitments. Fails if the effective price of a comparable frontier reasoning task has fallen materially and a leading lab publishes positive, audited inference gross margins.",
       "check_by": "2027-08-03",
@@ -760,7 +760,7 @@
     {
       "edition": "2026-08-04",
       "side": "NLW",
-      "claim": "That the era of AI washing is ending because enterprise buyers have become too sophisticated to fool — evidenced by the shift from counting first use cases to debating open-weights policies, model routing and cost provisioning — so that PR-driven, cost-cut-framed AI announcements will stop delivering board and market rewards, and organisations treating AI purely as an efficiency play will be outperformed by those redesigning processes and roles around it.",
+      "claim": "That the era of AI washing is ending because enterprise buyers have become too sophisticated to fool \u2014 evidenced by the shift from counting first use cases to debating open-weights policies, model routing and cost provisioning \u2014 so that PR-driven, cost-cut-framed AI announcements will stop delivering board and market rewards, and organisations treating AI purely as an efficiency play will be outperformed by those redesigning processes and roles around it.",
       "source_url": "https://aidailybrief.ai/e/2026-08-04",
       "resolution": "Vindicated if, by the check date, the share of large-employer job-cut announcements attributing cuts to AI has fallen materially from the 40% of May 2026's 97,000 US cuts, AI-attributed layoff announcements no longer produce positive share-price reactions on average, and enterprise adoption surveys show open-weights policies and model-routing governance as mainstream practice. Fails if AI-attributed cost-cutting announcements continue at or above current rates and continue to be rewarded by markets.",
       "check_by": "2027-08-04",
@@ -769,7 +769,7 @@
     {
       "edition": "2026-08-04",
       "side": "Zitron",
-      "claim": "That genuine AI demand outside the frontier labs barely exists — that roughly 55-73% of the big three hyperscalers' AI revenues are OpenAI's and Anthropic's own compute spend (funded substantially by those same hyperscalers), and that embedded AI software has no real pull, evidenced by Microsoft 365 Copilot generating only about $3.9bn in FY2026 across roughly 30 million paid seats.",
+      "claim": "That genuine AI demand outside the frontier labs barely exists \u2014 that roughly 55-73% of the big three hyperscalers' AI revenues are OpenAI's and Anthropic's own compute spend (funded substantially by those same hyperscalers), and that embedded AI software has no real pull, evidenced by Microsoft 365 Copilot generating only about $3.9bn in FY2026 across roughly 30 million paid seats.",
       "source_url": "https://www.wheresyoured.at/the-ai-demand-bubble/",
       "resolution": "Vindicated if, by the check date, a hyperscaler discloses AI revenue net of OpenAI/Anthropic compute spend and that figure is in the low tens of billions or below against reported capex, or if AI-segment growth at Amazon, Microsoft or Google decelerates sharply following any reduction in lab compute commitments. Fails if a hyperscaler breaks out AI revenue showing lab customers below roughly one third of the total, or if Copilot-class embedded AI revenue per paid seat rises materially toward list price.",
       "check_by": "2027-08-04",
@@ -787,7 +787,7 @@
     {
       "edition": "2026-08-05",
       "side": "Zitron",
-      "claim": "That AI data centre construction is a debt-funded asset bubble: over $500bn of outstanding AI data centre debt, much of it held in special purpose vehicles and variable interest entities kept off hyperscaler balance sheets, is underwritten by compute demand of roughly $100bn a year against the roughly $435bn a year needed to justify planned capacity — so the majority of that debt will go unpaid and much announced capacity will never be built or occupied.",
+      "claim": "That AI data centre construction is a debt-funded asset bubble: over $500bn of outstanding AI data centre debt, much of it held in special purpose vehicles and variable interest entities kept off hyperscaler balance sheets, is underwritten by compute demand of roughly $100bn a year against the roughly $435bn a year needed to justify planned capacity \u2014 so the majority of that debt will go unpaid and much announced capacity will never be built or occupied.",
       "source_url": "https://www.wheresyoured.at/the-subprime-data-center-crisis/",
       "resolution": "Vindicated if, by the check date, at least one substantial AI data centre special purpose vehicle has defaulted, been restructured, or had its debt written down, or a hyperscaler or neocloud takes a material impairment on data centre assets, or interconnection queues such as ERCOT's publish withdrawal rates showing the great majority of requested capacity abandoned. Fails if announced capacity converts to energised, revenue-generating data centres at a high rate with no material data centre debt impairments, and non-lab compute revenue grows into the hundreds of billions annually.",
       "check_by": "2027-08-05",
@@ -805,7 +805,7 @@
     {
       "edition": "2026-08-06",
       "side": "Zitron",
-      "claim": "That Google's AI weakness is demand, not leadership: on UBS estimates Anthropic and OpenAI account for roughly 28% of 2026 and more than 48% of 2027 Google Cloud revenues, and Google will have spent roughly $408.5bn in capital expenditure by 2028 to produce an AI business of about $80bn a year, most of it selling Anthropic's compute or reselling Anthropic's models through Vertex — so returning to the frontier would not fix the economics.",
+      "claim": "That Google's AI weakness is demand, not leadership: on UBS estimates Anthropic and OpenAI account for roughly 28% of 2026 and more than 48% of 2027 Google Cloud revenues, and Google will have spent roughly $408.5bn in capital expenditure by 2028 to produce an AI business of about $80bn a year, most of it selling Anthropic's compute or reselling Anthropic's models through Vertex \u2014 so returning to the frontier would not fix the economics.",
       "source_url": "https://www.wheresyoured.at/the-ai-demand-bubble/",
       "resolution": "Vindicated if, by the check date, Alphabet discloses (or credible analyst work establishes) that AI revenue net of Anthropic and OpenAI compute spend remains in the low tens of billions against capex of well over $100bn a year, or if Google Cloud growth decelerates sharply in step with any reduction in lab compute commitments. Fails if Alphabet breaks out AI revenue showing lab customers below roughly one third of the total, or if non-lab Vertex and Workspace AI revenue grows materially into the high tens of billions.",
       "check_by": "2027-08-06",
@@ -814,25 +814,25 @@
     {
       "edition": "2026-08-07",
       "side": "NLW",
-      "claim": "That the AI risk problem is being handled in the open rather than in the dark: the doomsday scenarios all require powerful capabilities emerging while nobody is watching, and what is actually happening — OpenAI voluntarily disclosing the Black Hat agent-coordination incident, saying it is consciously slowing research to upgrade security and scale agent monitoring, and a broad public argument among researchers, media and policymakers — means the technical, institutional and societal guardrails are being built in step with the capabilities. Neither the doomer nor the accelerationist extreme describes the real trajectory.",
+      "claim": "That the AI risk problem is being handled in the open rather than in the dark: the doomsday scenarios all require powerful capabilities emerging while nobody is watching, and what is actually happening \u2014 OpenAI voluntarily disclosing the Black Hat agent-coordination incident, saying it is consciously slowing research to upgrade security and scale agent monitoring, and a broad public argument among researchers, media and policymakers \u2014 means the technical, institutional and societal guardrails are being built in step with the capabilities. Neither the doomer nor the accelerationist extreme describes the real trajectory.",
       "source_url": "https://aidailybrief.ai/e/2026-08-07",
-      "resolution": "Vindicated if, by the check date, voluntary frontier disclosure has become routine and load-bearing — further labs publish comparable incident reports of misaligned or self-coordinating agent behaviour before those incidents surface elsewhere, and at least one binding requirement (a licensing regime, a mandatory reporting duty, or enforceable biosecurity screening of genome-model outputs) is in force in a major jurisdiction. Fails if a materially harmful agentic or AI-designed-biology incident becomes public through a leak, a victim, or an enforcement action rather than through the lab's own disclosure; or if disclosure quietly stops — no comparable voluntary incident report from any frontier lab in the period — while capability releases continue at pace.",
+      "resolution": "Vindicated if, by the check date, voluntary frontier disclosure has become routine and load-bearing \u2014 further labs publish comparable incident reports of misaligned or self-coordinating agent behaviour before those incidents surface elsewhere, and at least one binding requirement (a licensing regime, a mandatory reporting duty, or enforceable biosecurity screening of genome-model outputs) is in force in a major jurisdiction. Fails if a materially harmful agentic or AI-designed-biology incident becomes public through a leak, a victim, or an enforcement action rather than through the lab's own disclosure; or if disclosure quietly stops \u2014 no comparable voluntary incident report from any frontier lab in the period \u2014 while capability releases continue at pace.",
       "check_by": "2027-08-07",
       "status": "open"
     },
     {
       "edition": "2026-08-10",
       "side": "NLW",
-      "claim": "That graph engineering — designing multi-agent organisations with defined nodes, permitted handoffs and failure routing — becomes a recognised work primitive beyond software engineering, in the way loop and context engineering did before it, so that non-builders are expected to reason in multi-agent terms about their own work.",
+      "claim": "That graph engineering \u2014 designing multi-agent organisations with defined nodes, permitted handoffs and failure routing \u2014 becomes a recognised work primitive beyond software engineering, in the way loop and context engineering did before it, so that non-builders are expected to reason in multi-agent terms about their own work.",
       "source_url": "https://aidailybrief.ai/e/2026-08-10",
-      "resolution": "Vindicated if, by the check date, multi-agent orchestration is a named, advertised capability in mainstream non-engineering job specifications and enterprise tooling — recruitment ads, standard enterprise software, or professional training curricula asking for it by name — rather than remaining a developer-and-Twitter discourse. Fails if the term has faded like most 2023-24 'blank engineering' coinages and orchestration stays inside developer tooling.",
+      "resolution": "Vindicated if, by the check date, multi-agent orchestration is a named, advertised capability in mainstream non-engineering job specifications and enterprise tooling \u2014 recruitment ads, standard enterprise software, or professional training curricula asking for it by name \u2014 rather than remaining a developer-and-Twitter discourse. Fails if the term has faded like most 2023-24 'blank engineering' coinages and orchestration stays inside developer tooling.",
       "check_by": "2027-08-10",
       "status": "open"
     },
     {
       "edition": "2026-08-10",
       "side": "Zitron",
-      "claim": "That demand for AI-powered software is absent and the buildout rests on the labs themselves: 70% or more of Microsoft's, Google's and Amazon's AI revenue is OpenAI and Anthropic compute spend, and ROI will not appear for end customers fast enough to sustain the capital expenditure — meaning agentic products will not generate revenue independent of the labs' own spending.",
+      "claim": "That demand for AI-powered software is absent and the buildout rests on the labs themselves: 70% or more of Microsoft's, Google's and Amazon's AI revenue is OpenAI and Anthropic compute spend, and ROI will not appear for end customers fast enough to sustain the capital expenditure \u2014 meaning agentic products will not generate revenue independent of the labs' own spending.",
       "source_url": "https://www.wheresyoured.at/dont-look-up/",
       "resolution": "Vindicated if, by the check date, no hyperscaler or major vendor has disclosed AI or agent-product revenue that is both broken out separately and materially independent of OpenAI and Anthropic compute spend, and capital expenditure guidance is cut or performance obligations restated. Fails if a hyperscaler discloses AI revenue net of lab spend that is large and growing, or an agentic product line reaches multi-billion annual revenue from ordinary enterprise customers.",
       "check_by": "2027-02-10",
@@ -841,9 +841,9 @@
     {
       "edition": "2026-08-11",
       "side": "NLW",
-      "claim": "That the extreme poles of the AI debate are losing their grip and a 'sensible middle' is beginning to assert itself in mainstream, non-specialist opinion — evidenced, in NLW's reading, by the unusually wide and thoughtful coverage of Zuckerberg's manifesto and by ordinary commentary that holds both that AI should not replace artists and that reflexive anti-AI positioning has become performative.",
+      "claim": "That the extreme poles of the AI debate are losing their grip and a 'sensible middle' is beginning to assert itself in mainstream, non-specialist opinion \u2014 evidenced, in NLW's reading, by the unusually wide and thoughtful coverage of Zuckerberg's manifesto and by ordinary commentary that holds both that AI should not replace artists and that reflexive anti-AI positioning has become performative.",
       "source_url": "https://aidailybrief.ai/e/2026-08-11",
-      "resolution": "Vindicated if, by the check date, repeated national polling in the US or UK shows the share holding mixed or conditional views on AI rising while the strongly-negative share falls or holds flat. Fails if headline public concern about AI keeps rising and the strongly-negative share grows — the direction polls have shown throughout 2026.",
+      "resolution": "Vindicated if, by the check date, repeated national polling in the US or UK shows the share holding mixed or conditional views on AI rising while the strongly-negative share falls or holds flat. Fails if headline public concern about AI keeps rising and the strongly-negative share grows \u2014 the direction polls have shown throughout 2026.",
       "check_by": "2027-08-11",
       "status": "open"
     },
@@ -852,7 +852,7 @@
       "side": "Zitron",
       "claim": "That the optimist framing is a capital-raising device rather than an argument, because the underlying demand is not there: roughly 190 gigawatts of planned data-centre capacity implies $1.62 trillion to $2.92 trillion of annual compute spending against an industry with, at best, about $110 billion of genuine annual demand, 90% or more of it from OpenAI and Anthropic.",
       "source_url": "https://www.wheresyoured.at/dont-look-up/",
-      "resolution": "Vindicated if, by the check date, planned data-centre capacity is materially cut — announced projects cancelled, deferred or written down, or hyperscaler capex guidance reduced — or a major AI lab fails to close a funding round it needs. Fails if capacity plans hold or expand and paying AI demand from customers other than OpenAI and Anthropic is disclosed at a scale of tens of billions annually.",
+      "resolution": "Vindicated if, by the check date, planned data-centre capacity is materially cut \u2014 announced projects cancelled, deferred or written down, or hyperscaler capex guidance reduced \u2014 or a major AI lab fails to close a funding round it needs. Fails if capacity plans hold or expand and paying AI demand from customers other than OpenAI and Anthropic is disclosed at a scale of tens of billions annually.",
       "check_by": "2027-02-11",
       "status": "open"
     },
@@ -861,14 +861,14 @@
       "side": "NLW",
       "claim": "That mass agent adoption was a packaging problem rather than a capability problem, and that GrokBot's chat-simple assembly of existing components is the launch that gets millions of ordinary, non-technical people using multi-agent systems for the first time.",
       "source_url": "https://aidailybrief.ai/e/2026-08-12",
-      "resolution": "Vindicated if, by the check date, GrokBot or a directly comparable agent product is available at a mainstream consumer price — under roughly $50 a month — and its vendor reports paying or active users in the millions, with usage extending beyond developers and AI-industry early adopters. Fails if the product stays gated behind premium tiers, or reported usage remains in the hundreds of thousands and concentrated among technical users.",
+      "resolution": "Vindicated if, by the check date, GrokBot or a directly comparable agent product is available at a mainstream consumer price \u2014 under roughly $50 a month \u2014 and its vendor reports paying or active users in the millions, with usage extending beyond developers and AI-industry early adopters. Fails if the product stays gated behind premium tiers, or reported usage remains in the hundreds of thousands and concentrated among technical users.",
       "check_by": "2027-08-12",
       "status": "open"
     },
     {
       "edition": "2026-08-12",
       "side": "Zitron",
-      "claim": "That AI software does not sell at a price that reflects claimed value, and ease of use will not change that: Microsoft 365 Copilot is estimated at $3.859 billion of revenue for fiscal 2026 against some thirty million claimed paid seats — roughly $129 per seat per year — which he reads as evidence of deep discounting and demand driven by peer pressure rather than measured benefit.",
+      "claim": "That AI software does not sell at a price that reflects claimed value, and ease of use will not change that: Microsoft 365 Copilot is estimated at $3.859 billion of revenue for fiscal 2026 against some thirty million claimed paid seats \u2014 roughly $129 per seat per year \u2014 which he reads as evidence of deep discounting and demand driven by peer pressure rather than measured benefit.",
       "source_url": "https://www.wheresyoured.at/the-ai-demand-bubble/",
       "resolution": "Vindicated if, by the check date, no major vendor discloses per-seat AI or agent revenue materially above the roughly $129-a-year Copilot benchmark at comparable seat volumes, and agent products remain either premium-gated or heavily discounted. Fails if a vendor breaks out agent-product revenue showing both large seat counts and per-seat revenue several times that benchmark, independent of the labs' own compute spend.",
       "check_by": "2027-02-12",
@@ -877,7 +877,7 @@
     {
       "edition": "2026-08-13",
       "side": "NLW",
-      "claim": "That model choice is genuinely expanding and price is now the axis that matters: Grok 4.6 reaches 61 on the Artificial Analysis index at $2 per million input and $6 per million output tokens — around 60% cheaper per token than GPT-5.6 Soul and 84 cents per task — and that near-frontier models an order of magnitude cheaper are good enough for most work, so where a model sits in the stack matters more than raw capability.",
+      "claim": "That model choice is genuinely expanding and price is now the axis that matters: Grok 4.6 reaches 61 on the Artificial Analysis index at $2 per million input and $6 per million output tokens \u2014 around 60% cheaper per token than GPT-5.6 Soul and 84 cents per task \u2014 and that near-frontier models an order of magnitude cheaper are good enough for most work, so where a model sits in the stack matters more than raw capability.",
       "source_url": "https://aidailybrief.ai/e/2026-08-13",
       "resolution": "Vindicated if, by the check date, at least two labs other than OpenAI and Anthropic are shipping models within a few points of the top Artificial Analysis score at a materially lower published price than today's flagships, and independent spend data (Ramp's AI Index or equivalent) shows cheaper and open-weight models taking a rising share of enterprise tokens. Fails if the frontier narrows back to two labs, or if published prices for near-frontier capability rise rather than fall once current promotional pricing ends.",
       "check_by": "2027-02-13",
@@ -886,34 +886,34 @@
     {
       "edition": "2026-08-13",
       "side": "Zitron",
-      "claim": "That AI cannot actually get cheaper because the industry's economics depend on it not doing so — costs have only ever increased, efficiency runs counter to the narrative since cheaper inference means less compute sold, and buyers respond to real prices by capping spend (Uber exhausting its annual token budget in a quarter then limiting staff to $1,500 a month, T-Mobile $2,000, Brex $500 a week for engineers).",
+      "claim": "That AI cannot actually get cheaper because the industry's economics depend on it not doing so \u2014 costs have only ever increased, efficiency runs counter to the narrative since cheaper inference means less compute sold, and buyers respond to real prices by capping spend (Uber exhausting its annual token budget in a quarter then limiting staff to $1,500 a month, T-Mobile $2,000, Brex $500 a week for engineers).",
       "source_url": "https://www.wheresyoured.at/ai-is-slowing-down/",
-      "resolution": "Vindicated if, by the check date, the effective cost of a comparable real-world task has risen rather than fallen — published prices increased, discounts withdrawn, or usage caps and rate limits tightened at major labs — and more large customers publicly restrict AI spend. Fails if per-task cost for equivalent capability is demonstrably lower than in August 2026 and enterprise AI budgets are reported as growing rather than capped.",
+      "resolution": "Vindicated if, by the check date, the effective cost of a comparable real-world task has risen rather than fallen \u2014 published prices increased, discounts withdrawn, or usage caps and rate limits tightened at major labs \u2014 and more large customers publicly restrict AI spend. Fails if per-task cost for equivalent capability is demonstrably lower than in August 2026 and enterprise AI budgets are reported as growing rather than capped.",
       "check_by": "2027-02-13",
       "status": "open"
     },
     {
       "edition": "2026-08-14",
       "side": "NLW",
-      "claim": "That the binding constraint on AI at work is now context rather than capability, and that demonstration-and-observation tools (GrokBot's teach-a-task, ChatGPT's Computer History) will move recurring processes out of the supervised 'duet' middle into genuine hand-off — illustrated by a plumbing company owner going from zero to automated dispatch in twenty-four hours with no engineers.",
+      "claim": "That the binding constraint on AI at work is now context rather than capability, and that demonstration-and-observation tools (GrokBot's teach-a-task, ChatGPT's Computer History) will move recurring processes out of the supervised 'duet' middle into genuine hand-off \u2014 illustrated by a plumbing company owner going from zero to automated dispatch in twenty-four hours with no engineers.",
       "source_url": "https://aidailybrief.ai/e/2026-08-14",
-      "resolution": "Vindicated if, by the check date, there is documented evidence — vendor case studies with figures, independent surveys, or published audits — of non-technical users running recurring business processes end to end on spot checks alone, with these teach-or-observe features named as the enabler. Fails if such processes still require step-level human review, or if adoption of the features stalls and the reported uses remain drafting and summarising rather than completed hand-off.",
+      "resolution": "Vindicated if, by the check date, there is documented evidence \u2014 vendor case studies with figures, independent surveys, or published audits \u2014 of non-technical users running recurring business processes end to end on spot checks alone, with these teach-or-observe features named as the enabler. Fails if such processes still require step-level human review, or if adoption of the features stalls and the reported uses remain drafting and summarising rather than completed hand-off.",
       "check_by": "2027-02-14",
       "status": "open"
     },
     {
       "edition": "2026-08-14",
       "side": "Zitron",
-      "claim": "That the return on AI cannot be measured because there is no standard measurement of the cost of a task — hallucination-prone outputs and proliferating harnesses make per-task cost unpredictable — and that exposure to real token-based billing therefore produces spending caps and restrictions rather than expanded deployment (GitHub Copilot credit burn, Uber, Walmart's Code Puppy limits, Amazon's guidance).",
+      "claim": "That the return on AI cannot be measured because there is no standard measurement of the cost of a task \u2014 hallucination-prone outputs and proliferating harnesses make per-task cost unpredictable \u2014 and that exposure to real token-based billing therefore produces spending caps and restrictions rather than expanded deployment (GitHub Copilot credit burn, Uber, Walmart's Code Puppy limits, Amazon's guidance).",
       "source_url": "https://www.wheresyoured.at/ai-doesnt-have-roi/",
-      "resolution": "Vindicated if, by the check date, no widely adopted standard for per-task AI cost and error measurement has emerged, and further large employers publicly impose or tighten AI spending caps. Fails if a credible per-task cost-and-accuracy standard is in common enterprise use — published by vendors, auditors or a standards body — and reported cases of caps give way to reported cases of budgets being raised on measured returns.",
+      "resolution": "Vindicated if, by the check date, no widely adopted standard for per-task AI cost and error measurement has emerged, and further large employers publicly impose or tighten AI spending caps. Fails if a credible per-task cost-and-accuracy standard is in common enterprise use \u2014 published by vendors, auditors or a standards body \u2014 and reported cases of caps give way to reported cases of budgets being raised on measured returns.",
       "check_by": "2027-02-14",
       "status": "open"
     },
     {
       "edition": "2026-08-16",
       "side": "NLW",
-      "claim": "That the Clay-style AI writing policy — which bans laziness rather than AI itself: stand behind every sentence, writing is thinking, spend more time writing than readers spend reading, longer is not better — will be adopted at many more organisations soon, and that institutional anti-slop mechanisms such as LinkedIn's 'seems like AI slop' flag will measurably weaken the incentive to publish lazy AI writing.",
+      "claim": "That the Clay-style AI writing policy \u2014 which bans laziness rather than AI itself: stand behind every sentence, writing is thinking, spend more time writing than readers spend reading, longer is not better \u2014 will be adopted at many more organisations soon, and that institutional anti-slop mechanisms such as LinkedIn's 'seems like AI slop' flag will measurably weaken the incentive to publish lazy AI writing.",
       "source_url": "https://aidailybrief.ai/e/2026-08-16",
       "resolution": "Vindicated if, by the check date, several further named organisations have published comparable company-wide AI writing policies framed around effort and ownership rather than prohibition, and platform anti-slop signals are reported to be reducing low-effort AI posting. Fails if policy adoption stalls at a handful of tech firms, or if organisations continue to default to outright bans or to no policy at all, with no measurable change in the volume of low-effort AI writing.",
       "check_by": "2027-02-16",
@@ -922,25 +922,25 @@
     {
       "edition": "2026-08-16",
       "side": "Zitron",
-      "claim": "That genuine enterprise AI demand does not exist at scale outside OpenAI and Anthropic: Microsoft's estimated $34.43bn fiscal-2026 AI revenue collapses to roughly $10.33bn once OpenAI's own compute spend of about $24.1bn is removed, against $261.3bn of capital expenditure since 2022 — and therefore 'if Microsoft doesn't have the demand, nobody has the demand.'",
+      "claim": "That genuine enterprise AI demand does not exist at scale outside OpenAI and Anthropic: Microsoft's estimated $34.43bn fiscal-2026 AI revenue collapses to roughly $10.33bn once OpenAI's own compute spend of about $24.1bn is removed, against $261.3bn of capital expenditure since 2022 \u2014 and therefore 'if Microsoft doesn't have the demand, nobody has the demand.'",
       "source_url": "https://www.wheresyoured.at/dont-look-up/",
-      "resolution": "Vindicated if, by the check date, hyperscaler disclosures or credible analyst reconstructions still show AI revenue dominated by frontier-lab compute purchases, with non-lab enterprise AI revenue at Microsoft flat or growing far slower than capital expenditure. Fails if Microsoft or its peers report AI revenue excluding lab compute growing substantially — roughly doubling or better year on year — or disclose customer concentration materially lower than the seventy per cent he cites.",
+      "resolution": "Vindicated if, by the check date, hyperscaler disclosures or credible analyst reconstructions still show AI revenue dominated by frontier-lab compute purchases, with non-lab enterprise AI revenue at Microsoft flat or growing far slower than capital expenditure. Fails if Microsoft or its peers report AI revenue excluding lab compute growing substantially \u2014 roughly doubling or better year on year \u2014 or disclose customer concentration materially lower than the seventy per cent he cites.",
       "check_by": "2027-02-16",
       "status": "open"
     },
     {
       "edition": "2026-08-17",
       "side": "NLW",
-      "claim": "That AI's trust deficit cannot be closed by messaging and will only be closed by delivered results — and, per Dario Amodei, that Anthropic's ramp-up in biology and medicine will produce 'early glimmers' of real scientific delivery in the coming months.",
+      "claim": "That AI's trust deficit cannot be closed by messaging and will only be closed by delivered results \u2014 and, per Dario Amodei, that Anthropic's ramp-up in biology and medicine will produce 'early glimmers' of real scientific delivery in the coming months.",
       "source_url": "https://aidailybrief.ai/e/2026-08-17",
-      "resolution": "Vindicated if, by the check date, Anthropic (or a named collaborator) has published or announced a concrete, externally verifiable biomedical result attributable to its models — a preprint, a validated target, a trial entry — rather than a capability demo or benchmark score. Fails if the 'early glimmers' remain announcements, internal evaluations or marketing, with no result a working scientist or clinician could inspect.",
+      "resolution": "Vindicated if, by the check date, Anthropic (or a named collaborator) has published or announced a concrete, externally verifiable biomedical result attributable to its models \u2014 a preprint, a validated target, a trial entry \u2014 rather than a capability demo or benchmark score. Fails if the 'early glimmers' remain announcements, internal evaluations or marketing, with no result a working scientist or clinician could inspect.",
       "check_by": "2027-02-17",
       "status": "open"
     },
     {
       "edition": "2026-08-17",
       "side": "Zitron",
-      "claim": "That the $2 trillion Anthropic valuation and the accompanying $100-120bn end-of-2026 and $190-200bn 2028 revenue figures are a pre-IPO marketing campaign rather than reporting — that Anthropic remains heavily unprofitable, that its one 'profitable quarter' depended on temporary discounted compute, and that its economics will not survive the disclosure required by an actual public filing.",
+      "claim": "That the $2 trillion Anthropic valuation and the accompanying $100-120bn end-of-2026 and $190-200bn 2028 revenue figures are a pre-IPO marketing campaign rather than reporting \u2014 that Anthropic remains heavily unprofitable, that its one 'profitable quarter' depended on temporary discounted compute, and that its economics will not survive the disclosure required by an actual public filing.",
       "source_url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
       "resolution": "Vindicated if, by the check date, no Anthropic IPO has priced near $2 trillion, or a filed S-1 or equivalent disclosure shows large continuing operating losses and compute commitments broadly matching his reconstruction, or the valuation talk is publicly walked back. Fails if Anthropic files and prices at or above roughly $2 trillion on audited numbers showing revenue and margins consistent with the reported forecasts, without reliance on one-off compute discounts.",
       "check_by": "2027-02-18",
@@ -949,7 +949,7 @@
     {
       "edition": "2026-08-18",
       "side": "NLW",
-      "claim": "That Stripe's $7 billion purchase of OpenRouter is correctly priced rather than an overpay — that tokens are becoming an essential currency of the internet economy, that users need to move freely between categories of them, and that owning the leading gateway 'pays off for Stripe in big ways.'",
+      "claim": "That Stripe's $7 billion purchase of OpenRouter is correctly priced rather than an overpay \u2014 that tokens are becoming an essential currency of the internet economy, that users need to move freely between categories of them, and that owning the leading gateway 'pays off for Stripe in big ways.'",
       "source_url": "https://aidailybrief.ai/e/2026-08-18",
       "resolution": "Vindicated if, by the check date, OpenRouter under Stripe shows materially higher routed token volume or paying developer accounts than at acquisition, or Stripe discloses AI/token infrastructure as a named growth line, or the gateway is credibly reported as default plumbing for multi-model buying. Fails if routed volume is flat or falling, if major labs successfully route customers around gateways with direct discounted bulk pricing, or if Stripe writes the deal down, folds OpenRouter into a general product line, or sheds its team.",
       "check_by": "2027-02-18",
@@ -958,16 +958,16 @@
     {
       "edition": "2026-08-18",
       "side": "Zitron",
-      "claim": "That current AI usage is an artefact of temporary subsidy rather than durable demand — that inference is sold far below cost, that corporate 'token-maxxing initiatives' will have petered out within the year, and that enterprise customers are becoming cost-conscious exactly when the labs need them to spend more.",
+      "claim": "That current AI usage is an artefact of temporary subsidy rather than durable demand \u2014 that inference is sold far below cost, that corporate 'token-maxxing initiatives' will have petered out within the year, and that enterprise customers are becoming cost-conscious exactly when the labs need them to spend more.",
       "source_url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
-      "resolution": "Vindicated if, by the check date, enterprise AI spend on unsubsidised metered contracts is flat or falling — visible in Ramp-style corporate card data, published seat-and-token renewal figures, or labs reintroducing discounts and bulk token pricing to hold volume. Fails if enterprises renew and expand metered agent spend at or near list price, or if per-token prices fall far enough that current workflows remain economic without vendor subsidy.",
+      "resolution": "Vindicated if, by the check date, enterprise AI spend on unsubsidised metered contracts is flat or falling \u2014 visible in Ramp-style corporate card data, published seat-and-token renewal figures, or labs reintroducing discounts and bulk token pricing to hold volume. Fails if enterprises renew and expand metered agent spend at or near list price, or if per-token prices fall far enough that current workflows remain economic without vendor subsidy.",
       "check_by": "2027-02-18",
       "status": "open"
     },
     {
       "edition": "2026-08-19",
       "side": "NLW",
-      "claim": "That criteria-based data-centre rules of the kind in Shapiro's Pennsylvania executive order — binding transparency and environmental commitments, a ban on state-agency NDAs, bring-your-own-generation, community benefit agreements — will prove more durable and more productive than blanket moratoriums, and that this represents the beginning of a negotiable settlement rather than a staging post to outright bans.",
+      "claim": "That criteria-based data-centre rules of the kind in Shapiro's Pennsylvania executive order \u2014 binding transparency and environmental commitments, a ban on state-agency NDAs, bring-your-own-generation, community benefit agreements \u2014 will prove more durable and more productive than blanket moratoriums, and that this represents the beginning of a negotiable settlement rather than a staging post to outright bans.",
       "source_url": "https://aidailybrief.ai/e/2026-08-19",
       "resolution": "Vindicated if, by the check date, further US states adopt criteria-based orders or statutes rather than moratoriums, and at least some Pennsylvania projects proceed having met the published conditions. Fails if Pennsylvania's order is superseded by a moratorium, if the dominant pattern in new state action is blanket pause or ban, or if developers simply route around the state and the negotiation never happens.",
       "check_by": "2027-02-19",
@@ -976,7 +976,7 @@
     {
       "edition": "2026-08-19",
       "side": "Zitron",
-      "claim": "That the announced data-centre buildout is financed on demand that does not exist — that roughly 190GW of planned capacity would require $1.62–2.92 trillion of annual compute spend against an industry with about $110bn of annual demand, over 90% of it from OpenAI and Anthropic, and that stripping OpenAI out leaves Microsoft roughly $10.33bn of genuine third-party AI revenue.",
+      "claim": "That the announced data-centre buildout is financed on demand that does not exist \u2014 that roughly 190GW of planned capacity would require $1.62\u20132.92 trillion of annual compute spend against an industry with about $110bn of annual demand, over 90% of it from OpenAI and Anthropic, and that stripping OpenAI out leaves Microsoft roughly $10.33bn of genuine third-party AI revenue.",
       "source_url": "https://www.wheresyoured.at/dont-look-up/",
       "resolution": "Vindicated if, by the check date, announced AI data-centre projects are cancelled, deferred or descoped at scale, or hyperscaler disclosure shows non-lab AI revenue remaining an order of magnitude below capex, or private-credit financing for data centres visibly tightens. Fails if third-party AI revenue at Microsoft, Google or Amazon grows into the tens of billions independent of OpenAI and Anthropic, or if announced capacity continues converting to energised, contracted capacity broadly on schedule.",
       "check_by": "2027-02-19",
@@ -985,7 +985,7 @@
     {
       "edition": "2026-08-20",
       "side": "NLW",
-      "claim": "That 'multiplayer AI' — agents that live where teams intersect, with shared channel context and team-level permissions, rather than as one person's private assistant — will be the dominant product trend of autumn 2026, and that lifecycles like the Citizen SDLC will carry individually vibe-coded prototypes into company-wide production.",
+      "claim": "That 'multiplayer AI' \u2014 agents that live where teams intersect, with shared channel context and team-level permissions, rather than as one person's private assistant \u2014 will be the dominant product trend of autumn 2026, and that lifecycles like the Citizen SDLC will carry individually vibe-coded prototypes into company-wide production.",
       "source_url": "https://aidailybrief.ai/e/2026-08-20",
       "resolution": "Vindicated if, by the check date, the major labs and agent vendors have shipped team-scoped agent products with per-channel permissions and shared context as headline releases, and there is published evidence of organisations running them at team rather than individual level. Fails if agent adoption remains predominantly single-user through the period, or if team-scoped deployments stall on permissions, cost or governance and the notable launches are still personal-assistant framed.",
       "check_by": "2027-02-20",
@@ -994,7 +994,7 @@
     {
       "edition": "2026-08-20",
       "side": "Zitron",
-      "claim": "That OpenAI cannot fund its obligations from revenue and must raise again imminently — needing roughly $60bn annualized within three months to stay level with Anthropic, about $75bn annualized by the end of 2026, and $100–200bn of new capital a year against $800bn+ of compute commitments through 2030 — such that 'at some point, OpenAI will simply not be able to pay its bills'.",
+      "claim": "That OpenAI cannot fund its obligations from revenue and must raise again imminently \u2014 needing roughly $60bn annualized within three months to stay level with Anthropic, about $75bn annualized by the end of 2026, and $100\u2013200bn of new capital a year against $800bn+ of compute commitments through 2030 \u2014 such that 'at some point, OpenAI will simply not be able to pay its bills'.",
       "source_url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
       "resolution": "Vindicated if, by the check date, OpenAI has raised at a flat or lower valuation than the $852bn round, has been absorbed or rescued, has missed or renegotiated disclosed compute commitments, or has failed to reach roughly $75bn annualized revenue leaving 2026. Fails if it closes a further raise at or above $852bn on ordinary terms, meets its stated commitments, and reports run-rate revenue near the $75bn mark.",
       "check_by": "2027-01-31",
@@ -1003,7 +1003,7 @@
     {
       "edition": "2026-08-21",
       "side": "NLW",
-      "claim": "That the data centre backlash is a distributive fight that resolves in the builders' favour once they pay communities properly — that voters' stated 57-to-23 preference for clear rules over moratoriums holds, that the checklist template (community veto, banned NDAs, developers covering 100% of grid upgrade costs, union labour) becomes the mainstream settlement, and that the current moratorium wave peaks rather than spreads.",
+      "claim": "That the data centre backlash is a distributive fight that resolves in the builders' favour once they pay communities properly \u2014 that voters' stated 57-to-23 preference for clear rules over moratoriums holds, that the checklist template (community veto, banned NDAs, developers covering 100% of grid upgrade costs, union labour) becomes the mainstream settlement, and that the current moratorium wave peaks rather than spreads.",
       "source_url": "https://aidailybrief.ai/e/2026-08-21",
       "resolution": "Vindicated if, by the check date, the count of local bans has stopped rising or fallen from the roughly 97 county / 93 city / 28 town baseline, New York remains the only or near-only state-level moratorium, and several states or large counties have enacted criteria-based data centre statutes with disclosure and grid-cost-recovery requirements that permit new builds. Fails if further states impose moratoriums, the local ban count keeps climbing through the 2026 midterms and after, or candidates who ran on outright opposition win and legislate bans rather than rules.",
       "check_by": "2027-05-31",
@@ -1012,7 +1012,7 @@
     {
       "edition": "2026-08-21",
       "side": "Zitron",
-      "claim": "That AI data centre capacity is being built roughly fifteen times ahead of real demand — about 190GW planned implying some $1.68 trillion of annual compute revenue against roughly $120bn of genuine annual demand — and that consequently 'the vast majority of AI data centers and their associated SPVs will collapse', with 80% or more of funds invested in AI data centre debt lost, triggered by as few as ten or fifteen project failures.",
+      "claim": "That AI data centre capacity is being built roughly fifteen times ahead of real demand \u2014 about 190GW planned implying some $1.68 trillion of annual compute revenue against roughly $120bn of genuine annual demand \u2014 and that consequently 'the vast majority of AI data centers and their associated SPVs will collapse', with 80% or more of funds invested in AI data centre debt lost, triggered by as few as ten or fifteen project failures.",
       "source_url": "https://www.wheresyoured.at/the-subprime-data-center-crisis/",
       "resolution": "Vindicated if, by the check date, multiple sizeable AI data centre SPVs have defaulted, been restructured, or had their debt marked down materially; or announced capacity is visibly cancelled or shelved at scale; or newly energised 2026-27 sites report significant uncontracted capacity. Fails if the 2026-27 cohort energises broadly contracted, AI data centre debt continues to issue and trade without a default cluster, and planned capacity keeps converting into signed leases.",
       "check_by": "2027-07-31",
@@ -1021,7 +1021,7 @@
     {
       "edition": "2026-08-23",
       "side": "NLW",
-      "claim": "That automation produces more expert human work rather than less — that AI-native firms restructured as human-agent systems (Every's ~30-person team having fired nobody in favour of agents) are the template, and that the shift from 'efficiency AI' to 'opportunity AI' generates net new categories of expert human work rather than displacing it.",
+      "claim": "That automation produces more expert human work rather than less \u2014 that AI-native firms restructured as human-agent systems (Every's ~30-person team having fired nobody in favour of agents) are the template, and that the shift from 'efficiency AI' to 'opportunity AI' generates net new categories of expert human work rather than displacing it.",
       "source_url": "https://aidailybrief.ai/e/2026-08-23",
       "resolution": "Vindicated if, by the check date, employment in knowledge-work occupations most exposed to LLM automation (software, marketing, analysis, professional services) is flat or higher on official US/UK labour statistics, and surveyed AI-adopting firms report headcount growth or redeployment rather than net reduction. Fails if those occupations show sustained absolute employment decline, or if adopting firms report net headcount reduction attributed to agents, over the same period.",
       "check_by": "2027-08-31",
@@ -1030,7 +1030,7 @@
     {
       "edition": "2026-08-23",
       "side": "Zitron",
-      "claim": "That the entire future-of-work discourse is theoretical cover — that no material AI-driven labour market effect exists, that the labs' economic research arms are marketing, and that total AI industry trailing-twelve-month revenue is only around $110bn, far below the sector's committed spending.",
+      "claim": "That the entire future-of-work discourse is theoretical cover \u2014 that no material AI-driven labour market effect exists, that the labs' economic research arms are marketing, and that total AI industry trailing-twelve-month revenue is only around $110bn, far below the sector's committed spending.",
       "source_url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/",
       "resolution": "Vindicated if, by the check date, official unemployment and occupational employment data still show no attributable AI-driven displacement, and credible independent estimates put whole-industry AI revenue at or below roughly $150bn trailing twelve months. Fails if a peer-reviewed or official statistical series identifies material AI-attributable displacement, or if industry-wide AI revenue is credibly measured well above that range.",
       "check_by": "2027-06-30",
@@ -1039,7 +1039,7 @@
     {
       "edition": "2026-08-24",
       "side": "NLW",
-      "claim": "That enterprise AI is shifting durably from 'which model is best' to routed, mixed model stacks — evidenced by AT&T targeting 60-70% of employee AI queries served by open models while holding OpenAI/Anthropic spend flat, open models rising from 28% to 62% of tokens on Vercel's AI gateway in two months, and routing cutting AT&T's AI coding costs 56% for a 2% quality drop; with Gavin Baker's corollary that closed frontier tokens settle at 60-90% of economic value but only 15-25% of tokens.",
+      "claim": "That enterprise AI is shifting durably from 'which model is best' to routed, mixed model stacks \u2014 evidenced by AT&T targeting 60-70% of employee AI queries served by open models while holding OpenAI/Anthropic spend flat, open models rising from 28% to 62% of tokens on Vercel's AI gateway in two months, and routing cutting AT&T's AI coding costs 56% for a 2% quality drop; with Gavin Baker's corollary that closed frontier tokens settle at 60-90% of economic value but only 15-25% of tokens.",
       "source_url": "https://aidailybrief.ai/e/2026-08-24",
       "resolution": "Vindicated if, by the check date, AT&T (or comparable large enterprises) publicly report open-model shares at or above 60% of internal AI queries sustained over months, and independent gateway/telemetry data (Vercel, OpenRouter, cloud providers) still show open-weight tokens at or above roughly half of routed volume. Fails if open-model share reverts materially below 40%, or if the enterprises cited abandon routed multi-model stacks in favour of a single frontier vendor, or wind down internal AI query volume overall.",
       "check_by": "2027-08-31",
@@ -1048,7 +1048,7 @@
     {
       "edition": "2026-08-24",
       "side": "Zitron",
-      "claim": "That the enterprise move to open models is not a durable stack architecture but the penultimate step before abandonment — enterprises will cut AI costs 'first by moving to open source models, then not using them at all' — and that the cheap tier cannot survive a training pullback because 'distillation requires a model to distill from', so without continued frontier training spend there will be neither big frontier models nor models distilled from them.",
+      "claim": "That the enterprise move to open models is not a durable stack architecture but the penultimate step before abandonment \u2014 enterprises will cut AI costs 'first by moving to open source models, then not using them at all' \u2014 and that the cheap tier cannot survive a training pullback because 'distillation requires a model to distill from', so without continued frontier training spend there will be neither big frontier models nor models distilled from them.",
       "source_url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
       "resolution": "Vindicated if, by the check date, a visible cohort of large enterprises that publicised open-model migrations has reduced or discontinued internal LLM deployment rather than expanded it, AND frontier training budgets at OpenAI/Anthropic/Google fall year-on-year with a corresponding gap in new open-weight releases matching prior-generation frontier quality. Fails if new open-weight models continue to ship on roughly the current cadence at or above last-generation frontier quality, and enterprise LLM query volume keeps growing.",
       "check_by": "2027-08-31",
@@ -1057,16 +1057,16 @@
     {
       "edition": "2026-08-25",
       "side": "NLW",
-      "claim": "That the frontier/typical firm usage gap (2.6X in January, 8.3X by June, per OpenAI's 'Enterprise Signals' research) reflects a compounding capability advantage from agentic delegation, and is 'poised to keep growing' — driven by plugins and skills adoption (21% and 19% at frontier firms vs 9% and 3% at typical ones) and by agentic work already accounting for 64% of enterprise output tokens.",
+      "claim": "That the frontier/typical firm usage gap (2.6X in January, 8.3X by June, per OpenAI's 'Enterprise Signals' research) reflects a compounding capability advantage from agentic delegation, and is 'poised to keep growing' \u2014 driven by plugins and skills adoption (21% and 19% at frontier firms vs 9% and 3% at typical ones) and by agentic work already accounting for 64% of enterprise output tokens.",
       "source_url": "https://aidailybrief.ai/e/2026-08-25",
-      "resolution": "Vindicated if, by the check date, follow-on data (OpenAI, a rival lab, or independent enterprise telemetry) shows the frontier-to-typical usage gap at or above 8X and still widening, AND at least one credible outcome measure — revenue or output per employee, headcount-adjusted margin, or a controlled productivity study — shows the heavy-agentic cohort outperforming sector peers. Fails if the gap narrows materially below roughly 4X, or if it persists with no accompanying outcome differential once inference is priced at or above cost.",
+      "resolution": "Vindicated if, by the check date, follow-on data (OpenAI, a rival lab, or independent enterprise telemetry) shows the frontier-to-typical usage gap at or above 8X and still widening, AND at least one credible outcome measure \u2014 revenue or output per employee, headcount-adjusted margin, or a controlled productivity study \u2014 shows the heavy-agentic cohort outperforming sector peers. Fails if the gap narrows materially below roughly 4X, or if it persists with no accompanying outcome differential once inference is priced at or above cost.",
       "check_by": "2027-08-31",
       "status": "open"
     },
     {
       "edition": "2026-08-25",
       "side": "Zitron",
-      "claim": "That output tokens do not measure work or value — that OpenAI's own 69-page report finds on page 35 that 'revenue per employee is not meaningfully associated with output tokens per employee', that heavy usage reflects a subsidy of roughly $20-$40 of tokens burned per dollar of software spend, and that enterprises moved to token-based billing 'almost immediately started cutting token budgets' because nothing measurable improved.",
+      "claim": "That output tokens do not measure work or value \u2014 that OpenAI's own 69-page report finds on page 35 that 'revenue per employee is not meaningfully associated with output tokens per employee', that heavy usage reflects a subsidy of roughly $20-$40 of tokens burned per dollar of software spend, and that enterprises moved to token-based billing 'almost immediately started cutting token budgets' because nothing measurable improved.",
       "source_url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
       "resolution": "Vindicated if, by the check date, enterprise token consumption per seat is flat or falling in aggregate as unsubsidised token billing spreads, AND no published study or vendor disclosure establishes a positive association between usage intensity and a business outcome measure. Fails if a credible independent analysis links high agentic usage to measurable revenue, margin or output gains, or if enterprise token budgets keep expanding after inference is priced at or above cost.",
       "check_by": "2027-08-31",
@@ -1075,7 +1075,7 @@
     {
       "edition": "2026-08-26",
       "side": "NLW",
-      "claim": "That the purity test for AI-assisted writing will die — that objecting to AI authorship as such will feel quaint within roughly two years — while the quality test survives and tightens, because easier inputs raise the burden on outputs.",
+      "claim": "That the purity test for AI-assisted writing will die \u2014 that objecting to AI authorship as such will feel quaint within roughly two years \u2014 while the quality test survives and tightens, because easier inputs raise the burden on outputs.",
       "source_url": "https://aidailybrief.ai/e/2026-08-26",
       "resolution": "Vindicated if, by the check date, disclosure-of-AI-authorship requirements have NOT become standard at major English-language mastheads (no first-sentence or byline disclosure rule at a majority of the WSJ/NYT/FT/Economist/Guardian set), AND at least one credible blind-reading or detector study shows readers can no longer reliably distinguish competent AI-assisted prose from human-drafted prose in the same genre. Fails if formal AI-disclosure policies spread to most major outlets, or if AI-drafted bylined opinion pieces keep drawing the same order of public backlash as the Druckenmiller episode.",
       "check_by": "2028-08-31",
@@ -1084,7 +1084,7 @@
     {
       "edition": "2026-08-26",
       "side": "Zitron",
-      "claim": "That AI-written text is reliably identifiable and will remain so — 'you can immediately read when somebody has used it because the words don't sound right' — and that the embarrassment about disclosing AI use reflects a real quality deficit rather than a passing taboo, so no amount of editing makes an LLM-composed argument worth a reader's respect.",
+      "claim": "That AI-written text is reliably identifiable and will remain so \u2014 'you can immediately read when somebody has used it because the words don't sound right' \u2014 and that the embarrassment about disclosing AI use reflects a real quality deficit rather than a passing taboo, so no amount of editing makes an LLM-composed argument worth a reader's respect.",
       "source_url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
       "resolution": "Vindicated if, by the check date, published blind-evaluation work still finds human readers or detectors identifying AI-drafted long-form prose well above chance in its genre, AND identified AI authorship continues to attract a measurable credibility or engagement penalty. Fails if blind reader tests fall to near chance on current-generation output, or if AI-assisted opinion writing becomes routine at major outlets without a detectable trust cost.",
       "check_by": "2028-08-31",
@@ -1093,16 +1093,16 @@
     {
       "edition": "2026-08-27",
       "side": "NLW",
-      "claim": "That responding to observed incidents beats planning for imagined ones — specifically that the ~130 pages of OpenAI and METR postmortems on the Hugging Face agent-swarm breach are the necessary first step to a real plan, and that the resulting safeguards will centre on the human protocols around technical systems (monitoring actually being switched on, embedded auditors, verification infrastructure) rather than on novel model-level fixes.",
+      "claim": "That responding to observed incidents beats planning for imagined ones \u2014 specifically that the ~130 pages of OpenAI and METR postmortems on the Hugging Face agent-swarm breach are the necessary first step to a real plan, and that the resulting safeguards will centre on the human protocols around technical systems (monitoring actually being switched on, embedded auditors, verification infrastructure) rather than on novel model-level fixes.",
       "source_url": "https://aidailybrief.ai/e/2026-08-27",
-      "resolution": "Vindicated if, by the check date, OpenAI or METR have published concrete deployment-control changes traceable to this incident (mandatory always-on chain-of-thought monitoring, sandbox configuration attestation, or third-party audit access with durable rights), AND at least one of those measures has been adopted beyond the originating lab — by another frontier lab, a standards body or a regulator. Fails if the postmortems produce no published, verifiable control change within the year, or if a comparable agent breach occurs with substantially the same root causes (misconfigured sandbox plus disabled monitoring) and no intervening remediation.",
+      "resolution": "Vindicated if, by the check date, OpenAI or METR have published concrete deployment-control changes traceable to this incident (mandatory always-on chain-of-thought monitoring, sandbox configuration attestation, or third-party audit access with durable rights), AND at least one of those measures has been adopted beyond the originating lab \u2014 by another frontier lab, a standards body or a regulator. Fails if the postmortems produce no published, verifiable control change within the year, or if a comparable agent breach occurs with substantially the same root causes (misconfigured sandbox plus disabled monitoring) and no intervening remediation.",
       "check_by": "2027-08-31",
       "status": "open"
     },
     {
       "edition": "2026-08-27",
       "side": "Zitron",
-      "claim": "That the hazard is operational recklessness rather than emerging model autonomy — that the labs are 'allowing neural networks to run in unsafe network environments', that AI doomers have gained media prominence 'without ever succeeding in stopping a single thing' or substantiating their concerns, and that the labs' cybersecurity push is a benchmark-marketing move following diminishing returns on coding.",
+      "claim": "That the hazard is operational recklessness rather than emerging model autonomy \u2014 that the labs are 'allowing neural networks to run in unsafe network environments', that AI doomers have gained media prominence 'without ever succeeding in stopping a single thing' or substantiating their concerns, and that the labs' cybersecurity push is a benchmark-marketing move following diminishing returns on coding.",
       "source_url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
       "resolution": "Vindicated if, by the check date, the root-cause findings of the next serious autonomous-agent security incident are again ordinary engineering and governance failures (misconfiguration, absent monitoring, over-broad credentials) rather than capabilities beyond those already demonstrated, AND no binding external constraint on frontier deployment has been imposed in the US, UK or EU as a result of safety advocacy. Fails if a subsequent incident turns on a capability the current models demonstrably lacked, or if a binding deployment restriction or mandatory audit regime is enacted and attributed to the risk case he says has never substantiated itself.",
       "check_by": "2027-08-31",
@@ -1111,16 +1111,16 @@
     {
       "edition": "2026-08-28",
       "side": "NLW",
-      "claim": "That a threshold has been crossed from AI assistant to AI operator — that shipped features (Claude's built-in browser, ChatGPT Work's cloud computer, Grokbot, real-profile browsing in Hermes) mark AI moving from giving answers to opening the tab and completing the task, and that this quality-of-life feature wave, not a frontier model release, is where the real change in usage is now happening.",
+      "claim": "That a threshold has been crossed from AI assistant to AI operator \u2014 that shipped features (Claude's built-in browser, ChatGPT Work's cloud computer, Grokbot, real-profile browsing in Hermes) mark AI moving from giving answers to opening the tab and completing the task, and that this quality-of-life feature wave, not a frontier model release, is where the real change in usage is now happening.",
       "source_url": "https://aidailybrief.ai/e/2026-08-28",
-      "resolution": "Vindicated if, by the check date, agent-style computer-use or browser-control features are in routine paid use — evidenced by a major vendor disclosing that a material share of paid seats actively use them, or by credible third-party survey data showing task completion by agents as a mainstream workflow rather than an enthusiast one. Fails if such features remain demo-grade and low-usage, are withdrawn or heavily restricted, or if vendors stop reporting on them while chat remains the dominant paid mode.",
+      "resolution": "Vindicated if, by the check date, agent-style computer-use or browser-control features are in routine paid use \u2014 evidenced by a major vendor disclosing that a material share of paid seats actively use them, or by credible third-party survey data showing task completion by agents as a mainstream workflow rather than an enthusiast one. Fails if such features remain demo-grade and low-usage, are withdrawn or heavily restricted, or if vendors stop reporting on them while chat remains the dominant paid mode.",
       "check_by": "2027-08-31",
       "status": "open"
     },
     {
       "edition": "2026-08-28",
       "side": "Zitron",
-      "claim": "That NVIDIA's agentic and open-model investments exist to manufacture compute demand rather than to serve it — that its largest customers 'are, for the most part, funded by NVIDIA', and that this circular financing, visible in rising receivables and the paused neocloud revenue-share programme, is a structural weakness rather than ordinary ecosystem investment.",
+      "claim": "That NVIDIA's agentic and open-model investments exist to manufacture compute demand rather than to serve it \u2014 that its largest customers 'are, for the most part, funded by NVIDIA', and that this circular financing, visible in rising receivables and the paused neocloud revenue-share programme, is a structural weakness rather than ordinary ecosystem investment.",
       "source_url": "https://www.wheresyoured.at/premium-the-haters-guide-to-circular-financing-part-one/",
       "resolution": "Vindicated if, by the check date, NVIDIA's days sales outstanding stays materially above the mid-forties or rises further, AND at least one significant NVIDIA-financed or NVIDIA-backed customer (a neocloud, Perplexity, Poolside or comparable) defaults, is written down, or is acquired at a distressed valuation. Fails if days sales outstanding returns to roughly pre-2026 levels while data-centre revenue continues to grow, with no material impairment among NVIDIA-funded customers.",
       "check_by": "2027-11-30",
@@ -1129,7 +1129,7 @@
     {
       "edition": "2026-08-31",
       "side": "NLW",
-      "claim": "That the open-models discourse becomes an open-harnesses discourse — that following DeepSeek's 'everything is a plugin' harness, open harnesses become a recognised enterprise category, with more open-harness products launched and enterprises adopting harness-portability as an explicit procurement criterion.",
+      "claim": "That the open-models discourse becomes an open-harnesses discourse \u2014 that following DeepSeek's 'everything is a plugin' harness, open harnesses become a recognised enterprise category, with more open-harness products launched and enterprises adopting harness-portability as an explicit procurement criterion.",
       "source_url": "https://aidailybrief.ai/e/2026-08-31",
       "resolution": "Vindicated if, by the check date, at least two further significant open or model-agnostic harness products have launched or gained material enterprise traction, and mainstream enterprise-tech coverage (WSJ CIO Journal or equivalent) treats harness portability/sovereignty as a standard procurement topic. Fails if the discourse stays confined to model weights and DeepSeek's harness remains a niche curiosity with no comparable follow-on products.",
       "check_by": "2027-02-28",
@@ -1138,7 +1138,7 @@
     {
       "edition": "2026-08-31",
       "side": "Zitron",
-      "claim": "That OpenAI needs tens of billions of dollars in new funding within roughly three months of his August 18th piece — i.e. a major new raise or financing event by around the end of November 2026 — because its obligations cannot be met from revenue.",
+      "claim": "That OpenAI needs tens of billions of dollars in new funding within roughly three months of his August 18th piece \u2014 i.e. a major new raise or financing event by around the end of November 2026 \u2014 because its obligations cannot be met from revenue.",
       "source_url": "https://www.wheresyoured.at/what-happens-if-openai-dies/",
       "resolution": "Vindicated if, by the check date, OpenAI announces or is credibly reported to be closing a new financing (equity, debt or vendor financing) in the tens of billions, or shows public signs of cash strain (missed or renegotiated compute payments, asset sales). Fails if OpenAI passes the period with no new financing and no reported payment difficulties.",
       "check_by": "2026-12-15",
@@ -1147,7 +1147,7 @@
     {
       "edition": "2026-09-01",
       "side": "NLW",
-      "claim": "That shared, multiplayer agent sessions — several trusted people inspecting, steering or taking over one agent's session and context — become a standard feature of mainstream agent products, not just OpenClaw.",
+      "claim": "That shared, multiplayer agent sessions \u2014 several trusted people inspecting, steering or taking over one agent's session and context \u2014 become a standard feature of mainstream agent products, not just OpenClaw.",
       "source_url": "https://aidailybrief.ai/e/2026-09-01",
       "resolution": "Vindicated if, by the check date, at least two major agent products from large labs or platforms (e.g. OpenAI, Anthropic, Google, Microsoft, xAI/GrokBot) ship a shared-session or team-agent feature in general availability. Fails if multiplayer sessions remain confined to OpenClaw, Hermes and similar hobbyist harnesses.",
       "check_by": "2027-03-01",
@@ -1156,7 +1156,7 @@
     {
       "edition": "2026-09-01",
       "side": "Zitron",
-      "claim": "That enterprises will cut AI spend once on token-based billing because costs are volatile and no productivity gain can be demonstrated — first moving to open-source models, then reducing use altogether.",
+      "claim": "That enterprises will cut AI spend once on token-based billing because costs are volatile and no productivity gain can be demonstrated \u2014 first moving to open-source models, then reducing use altogether.",
       "source_url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
       "resolution": "Vindicated if, by the check date, credible surveys or earnings disclosures show aggregate enterprise AI/LLM spend flat or falling year on year, with reported budget cuts and migration to open models. Fails if OpenAI and Anthropic enterprise revenue keeps growing materially and surveys show rising enterprise AI budgets.",
       "check_by": "2027-06-30",
@@ -1183,7 +1183,7 @@
     {
       "edition": "2026-09-03",
       "side": "NLW",
-      "claim": "That the agentic paradigm has durably overtaken assisted chat use: the April–May 2026 flip in OpenAI's token mix towards agentic use will persist and widen, with agentic tokens still the majority in early 2027.",
+      "claim": "That the agentic paradigm has durably overtaken assisted chat use: the April\u2013May 2026 flip in OpenAI's token mix towards agentic use will persist and widen, with agentic tokens still the majority in early 2027.",
       "source_url": "https://aidailybrief.ai/e/2026-09-03",
       "resolution": "Vindicated if OpenAI (or an equivalent lab disclosure) reports agentic use as the majority of tokens consumed in a statement or usage report published by the check date. Fails if disclosed figures show assisted/chat use back in the majority, or if no lab is willing to publish the split.",
       "check_by": "2027-03-01",
@@ -1192,7 +1192,7 @@
     {
       "edition": "2026-09-03",
       "side": "Zitron",
-      "claim": "That a year from now LLMs will still lack a tangible product outside coding that can be described in a sentence — no knowledge-work application will show measured, independently verified productivity gains at scale.",
+      "claim": "That a year from now LLMs will still lack a tangible product outside coding that can be described in a sentence \u2014 no knowledge-work application will show measured, independently verified productivity gains at scale.",
       "source_url": "https://www.wheresyoured.at/hyperscale-normalization/",
       "resolution": "Vindicated if by the check date no peer-reviewed or independent (non-vendor) study of a non-coding, agentic knowledge-work deployment reports net time or cost savings after accounting for rework. Fails if at least one such study appears with clearly positive net results.",
       "check_by": "2027-09-01",
@@ -1250,6 +1250,42 @@
       "source_url": "https://www.wheresyoured.at/hyperscale-normalization/",
       "resolution": "Vindicated if by the check date US non-farm labour productivity growth (BLS) and UK ONS output per hour for 2026 remain within their 2015-2024 trend range and no official statistical body attributes an acceleration to AI. Fails if either records growth clearly above trend that official analysis attributes substantially to AI.",
       "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-08",
+      "side": "NLW",
+      "claim": "That GPT-6 Astra's computer-use capability marks a shift in the default interaction pattern: within a year, hands-free, spoken delegation of multi-step computer tasks to an agent will be a mainstream working habit rather than a power-user novelty.",
+      "source_url": "https://aidailybrief.ai/e/2026-09-08",
+      "resolution": "Vindicated if by the check date at least one major lab or independent survey (e.g. Pew, Gallup, Microsoft Work Trend Index) reports that a majority of regular AI users at work delegate multi-step computer tasks to an agent at least weekly, or if OpenAI/Anthropic report computer-use as a top-three usage category by volume. Fails otherwise.",
+      "check_by": "2027-09-08",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-08",
+      "side": "Zitron",
+      "claim": "That customer concentration at the AI labs will not improve: the share of OpenAI and Anthropic enterprise revenue coming from the top 1 per cent of customers (per Ramp, ~80 per cent) will be materially unchanged a year on, with AI start-ups still the dominant spenders.",
+      "source_url": "https://www.wheresyoured.at/concentration-risk/",
+      "resolution": "Vindicated if Ramp's (or a comparable card-spend dataset's) next published figure for top-1-per-cent share of OpenAI/Anthropic enterprise spend is at or above 70 per cent. Fails if it has fallen below 70 per cent or if either lab discloses that a majority of enterprise revenue comes from non-tech, non-AI companies.",
+      "check_by": "2027-09-08",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-09",
+      "side": "NLW",
+      "claim": "That multi-model stacks are the new normal: the era of a single default model is over, and teams will routinely route work across several models by cost and speed rather than standardising on one.",
+      "source_url": "https://aidailybrief.ai/e/2026-09-09",
+      "resolution": "Vindicated if by the check date a published enterprise survey (Menlo, a16z, Ramp or similar) finds that a majority of companies using AI in production use three or more model providers, or if OpenRouter/OpenCode-style routing data shows no single model family above 40 per cent of enterprise traffic. Fails if a single provider holds a clear majority of enterprise usage.",
+      "check_by": "2027-06-30",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-09",
+      "side": "Zitron",
+      "claim": "That the Cursor cut-off will show up as a hole: OpenAI's loss of Cursor (reported ~$1bn of 2026 revenue) will not be offset by non-AI-startup enterprise growth, and OpenAI will miss its projected ~$30bn 2026 revenue.",
+      "source_url": "https://www.wheresyoured.at/concentration-risk/",
+      "resolution": "Vindicated if credible reporting (The Information, FT, WSJ, Bloomberg) of OpenAI's full-year 2026 revenue puts it below $28bn. Fails if reported 2026 revenue is $30bn or more.",
+      "check_by": "2027-03-31",
       "status": "open"
     }
   ]
