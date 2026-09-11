@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Extinction odds are not a clinical risk; the NHS question is where scarce attention goes",
+      "body": "A ten per cent chance of everyone dying is not a number a GP can act on, and NLW's own point is that it is unfalsifiable. His practical worry, that theoretical futures crowd out present dangers such as cyber defence, is the one that matters for the NHS. Practices run on a handful of suppliers, and the Hugging Face breach the edition cites was agents misbehaving inside real infrastructure. If NLW is right, the useful policy energy goes into reporting requirements and oversight of the systems already in surgeries. If Zitron is right, the same conclusion holds for a different reason: the models are not on the road to superintelligence, but unreliable software wired to a lot of resources is a present hazard, and doom talk is a distraction from that."
+    },
+    {
+      "title": "Read every AI claim through its incentives, including the ones about scribes",
+      "body": "The edition's most transferable idea is to discount both doom and boom by who benefits. The same discipline applies to the AI scribe market: a vendor's claim of minutes saved per consultation deserves the same scepticism as a lab's claim about a coming catastrophe. Ask for specifics: error rates on medication names, what happens to the audio, whether de-identified transcripts are used for training. Neither NLW nor Zitron would object to a practice insisting on receipts."
+    },
+    {
+      "title": "If public fear of AI spreads, patients will bring it into the room",
+      "body": "Two hundred million views and every politician calling for legislation means some patients will now be anxious about AI itself, and a few will ask whether the scribe on the desk is safe. A plain answer works: it transcribes and drafts, the clinician checks and signs, and it has no ability to act on its own. Where Zitron and NLW agree is that the present risks are ordinary ones, data handling and unreliable output, not the science-fiction ones, and that is what to tell a worried patient."
+    }
+  ]
+}

@@ -1287,6 +1287,24 @@
       "resolution": "Vindicated if credible reporting (The Information, FT, WSJ, Bloomberg) of OpenAI's full-year 2026 revenue puts it below $28bn. Fails if reported 2026 revenue is $30bn or more.",
       "check_by": "2027-03-31",
       "status": "open"
+    },
+    {
+      "edition": "2026-09-10",
+      "side": "NLW",
+      "claim": "That loud early debate produces consensus policy from the ground up: within a year the major US labs (at least OpenAI and Anthropic) will jointly propose, or publicly endorse, a concrete pacing or reporting framework rather than leaving it to advocacy groups and Congress.",
+      "source_url": "https://aidailybrief.ai/e/2026-09-10",
+      "resolution": "Vindicated if by the check date OpenAI and Anthropic have jointly published or co-signed a specific proposal on frontier-model pacing, reporting or oversight (a document with named thresholds or obligations, not a letter of principles). Fails if no such joint proposal exists and legislation such as a superintelligence ban has advanced without lab input.",
+      "check_by": "2027-09-10",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-10",
+      "side": "Zitron",
+      "claim": "That recursive self-improvement is an empty slogan: no lab will demonstrate a model materially improving its own successor's capabilities without a comparable increase in human-directed training spend.",
+      "source_url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
+      "resolution": "Fails (Zitron wrong) if by the check date a frontier lab publishes a credible, independently discussed result in which automated research or self-generated training substantially raised a successor model's real-task capability at flat or lower cost. Vindicated if frontier gains through 2027 continue to track training spend and the term remains rhetorical.",
+      "check_by": "2027-12-31",
+      "status": "open"
     }
   ]
 }
