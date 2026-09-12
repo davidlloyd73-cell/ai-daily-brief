@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Voice in the consulting room is already here; the question is who pays list price for it",
+      "body": "NLW's instruction to shift to voice now will sound familiar to any GP running an ambient scribe: the shift from typing to talking happened in general practice before it happened in offices. The new piece is full-duplex voice at five cents a minute in the API, which makes a scribe that can be interrupted and asked questions mid-consultation cheap to build. If NLW is right, the next generation of scribes will be conversational rather than transcribing, and practices should expect vendors to pitch that within a year. If Zitron is right, the vendor pitching it is a venture-funded startup buying tokens at a loss, and the fee a practice pays today is not the fee it will pay when the subsidy stops. Either way, ask a scribe supplier what happens to their price if their model costs double, and whether they can swap to a cheaper good-enough model without the practice noticing."
+    },
+    {
+      "title": "Cheap good-enough models are the right fit for NHS drudgery, and the safer bet",
+      "body": "Much of the AI work a practice could usefully automate is basic and recurring: coding letters, summarising discharge summaries, sorting the workflow inbox, drafting referrals. NLW's point is that this is exactly the work the new cheap models such as DeepSeek's Flash or Cognition's SWE-2 are built for, at a quarter of frontier cost. Zitron would add that the cheaper models are the ones that undermine the labs' revenue, which is an argument for a practice, not against it. The NHS should not be locked to a single frontier supplier for routine tasks; commissioning that specifies the job and allows the model to be swapped is the sensible reading of both men."
+    },
+    {
+      "title": "Compute rationing reaches the front line before the headlines do",
+      "body": "OpenAI pausing new two-hundred-dollar subscriptions is a small thing on its own, but it is the first time a lab has openly rationed access because it ran out of capacity. Any NHS tool wired to a single API is exposed to the same rationing: slower responses on a busy Monday morning, rate limits, or a quiet price rise. Medical Examiner work and scribe drafting both tolerate a delay; a triage tool does not. Neither NLW nor Zitron disputes that supply is tight for at least a year, so contracts for anything clinical should say what the fallback is when the model is unavailable."
+    }
+  ]
+}
