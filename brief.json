@@ -1,271 +1,271 @@
 {
-  "date": "2026-09-11",
-  "title": "What to Use the Latest AI Tools For",
-  "dek": "Two episodes' worth of releases this week, and the second batch is less about individual features than about where everything is headed: voice as the new interface and complex model architectures that optimize for good-enough-and-cheap. NLW walks through eight or nine launches with a simple frame \u2014 who's it for, and what should you actually do with it.",
-  "source": "https://aidailybrief.ai/e/2026-09-11",
+  "date": "2026-09-13",
+  "title": "10 Ways to Think Bigger with Opportunity AI",
+  "dek": "GPT-6 Astra is the smartest and strangest model yet \u2014 coders are retreating to older models while everyone else discovers it can do things that were never part of their job. NLW turns that confounding release into a playbook: a dozen thought starters for opportunity AI, from marketing people can play to proposals clients can reshape to packaging your own judgment as a product.",
+  "source": "https://aidailybrief.ai/e/2026-09-13",
   "oneIdea": {
-    "headline": "Sometimes a launch matters for what you can do with it \u2014 sometimes for what it tells you you'll all be doing soon.",
-    "summary": "This week's second wave of releases points at two clear trends: we're going to manage more of our computer interactions by voice, and model stacks are increasingly optimized for cost and good-enough capability rather than pure frontier performance. NLW's practical read: start shifting your workflows to voice now, and pay attention to verticalized tools that understand how specific kinds of people actually work \u2014 because that's where the industry is pushing everyone anyway."
+    "headline": "The new models' value is in things you've never considered \u2014 which means you need thought starters, not benchmarks.",
+    "summary": "Broad model capability has reached a level where new releases like GPT-6 Astra often won't make your existing AI work noticeably better \u2014 sometimes they'll even feel like a regression. Their real value is unlocking capabilities you've never used: games, video pipelines, 3D, interactive experiences. But by definition, you haven't considered what you've never considered. Nobody walks around with a complete inventory of things they might make. So this episode is a set of thought starters for opportunity AI \u2014 the mindset of asking what you might do now that you never would have before."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Voice in the consulting room is already here; the question is who pays list price for it",
-        "body": "NLW's instruction to shift to voice now will sound familiar to any GP running an ambient scribe: the shift from typing to talking happened in general practice before it happened in offices. The new piece is full-duplex voice at five cents a minute in the API, which makes a scribe that can be interrupted and asked questions mid-consultation cheap to build. If NLW is right, the next generation of scribes will be conversational rather than transcribing, and practices should expect vendors to pitch that within a year. If Zitron is right, the vendor pitching it is a venture-funded startup buying tokens at a loss, and the fee a practice pays today is not the fee it will pay when the subsidy stops. Either way, ask a scribe supplier what happens to their price if their model costs double, and whether they can swap to a cheaper good-enough model without the practice noticing."
+        "title": "Scribes are efficiency AI, and the frontier no longer moves them much",
+        "body": "Ambient scribes are the clearest efficiency use in general practice: the consultation is the same, the letter arrives faster. NLW's point that a new frontier model may make existing work no better, or even worse, is worth remembering when a scribe vendor announces an upgrade to Astra or its rivals. If NLW is right, the gains left in scribing are small and the interesting work lies elsewhere. If Zitron is right, the upgrade may cost the vendor more tokens per consultation for no visible change, and that cost eventually reaches the practice. Either way, judge a scribe on its error rate in your own surgery, not on which model sits underneath it."
       },
       {
-        "title": "Cheap good-enough models are the right fit for NHS drudgery, and the safer bet",
-        "body": "Much of the AI work a practice could usefully automate is basic and recurring: coding letters, summarising discharge summaries, sorting the workflow inbox, drafting referrals. NLW's point is that this is exactly the work the new cheap models such as DeepSeek's Flash or Cognition's SWE-2 are built for, at a quarter of frontier cost. Zitron would add that the cheaper models are the ones that undermine the labs' revenue, which is an argument for a practice, not against it. The NHS should not be locked to a single frontier supplier for routine tasks; commissioning that specifies the job and allows the model to be swapped is the sensible reading of both men."
+        "title": "The what-if machine is the one thought starter that fits a practice",
+        "body": "Most of NLW's dozen ideas, games for marketing, mini documentaries, 3D prototypes, have little to do with a GP surgery. The one that does is the decision simulator. 'We need another salaried session' hides several disagreements about demand, telephone triage capacity and how work is shared, exactly the argument every partnership has. A small model that lets partners change the assumptions and see the consequences is cheap to build now and does not touch patient data. If Zitron is right it will be tinkering that feels like progress; the test is whether a partners' meeting actually changes a decision because of it."
       },
       {
-        "title": "Compute rationing reaches the front line before the headlines do",
-        "body": "OpenAI pausing new two-hundred-dollar subscriptions is a small thing on its own, but it is the first time a lab has openly rationed access because it ran out of capacity. Any NHS tool wired to a single API is exposed to the same rationing: slower responses on a busy Monday morning, rate limits, or a quiet price rise. Medical Examiner work and scribe drafting both tolerate a delay; a triage tool does not. Neither NLW nor Zitron disputes that supply is tight for at least a year, so contracts for anything clinical should say what the fallback is when the model is unavailable."
+        "title": "Simulation for judgement is the old idea in new clothes",
+        "body": "NLW's eighth thought starter, simulated situations that give feedback on judgement mid-conversation, is what GP training has done with actors and video for forty years, at considerable cost. A simulated difficult consultation or a complaint response that a trainee can practise on a laptop is plausible today and the NHS's Medical Examiner and training bodies will be pitched it. The Zitron caution applies: a simulation that 'sort of works' after prodding is worse than a role-play with a colleague, so ask who validated the scenarios and against what."
       }
     ]
   },
   "the_other_side": {
-    "source": "Concentration Risk",
-    "url": "https://www.wheresyoured.at/concentration-risk/",
-    "date": "2026-09-08",
+    "source": "The AI Hater's Manifesto",
+    "url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
+    "date": "2026-08-25",
     "same_day": false,
-    "text": "NLW reads this week's launches as a healthy market finding its shape: voice as the next interface, cheap good-enough models for teams building a sensible stack, and a compute crunch that proves demand is real. Zitron's Concentration Risk, three days earlier, says the money underneath that picture is circular. By his reckoning, using Ramp data, eighty per cent of OpenAI and Anthropic's enterprise revenue comes from one per cent of customers, mostly venture-funded AI startups that buy tokens at list price and then subsidise their own users at a loss; he calls them \"the NINJA borrowers of AI\". Those two labs in turn justify the hyperscalers' capex, and the hyperscalers justify NVIDIA, so a Microsoft 38-gigawatt target or a Huang growth forecast is not evidence of demand but of dependency, with some 200 billion dollars of take-or-pay compute commitments falling due in 2027. Cheaper models are not a comfort in his telling: the tech customers who pay the bills are exactly the ones most likely to defect to good-enough open or self-hosted models, which is more exposure for the labs, not less."
+    "text": "NLW's answer to a model that makes familiar work no better, and sometimes worse, is that you should go looking for work you have never done: games, video pipelines, 3D, simulators. Zitron's Manifesto, written three weeks before Astra, reads that instruction as the tell. He says LLMs have got better in ways that are increasingly hard to define and that do not make economic sense for the user, that constant model churn makes it impossible to know whether the model improved or you merely got better at building harnesses round it, and that newer models often burn more tokens to do the same job, so the price of work rises while the price of intelligence falls. The call to experiment he treats, borrowing Robin Sloan's word, as \"Jarvising\": tinkering that feels like productivity and produces none, sustained by the fact that the only way to find out whether it works is to spend more money. His own experiments \"sort of worked\" after repeated prodding; the tolerable use, in his telling, is small, bounded, verifiable tasks, and the technology is \"not useful enough to be profitable nor reliable enough to be world-changing\"."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is who is actually paying for the tokens, and whether that payer is durable. Both accept as fact that the subsidy era is ending: NLW quotes Schumer's line approvingly and Zitron's whole essay is about what happens when it does. Both accept that demand currently outruns supply, that Microsoft and NVIDIA are staking five more years of capex on it, and that good-enough models are getting sharply cheaper. The empirical question that will resolve is whether spending survives the subsidy: the observable is whether OpenAI's paused Pro tier and the general repricing of tokens move revenue towards non-tech enterprises, or whether the venture-funded startups that Zitron says make up most of it simply raise less and buy less. The worldview residue is whether a compute wall is a growth signal or a warning. NLW is vindicated if hospitals, banks and small firms keep paying at real prices for voice and vertical tools; Zitron if the 2027 take-or-pay bills arrive with the same one per cent still footing them. Both are polemicists with incentives, one bullish and anti-doom, the other bubble-certain and anti-hype; the signal is that both expect the free-token years to end within months. Watch the revenue mix at OpenAI's next disclosure."
+    "text": "The variable both men orbit is whether the value of a new model shows up in work that already exists. Both accept as fact that Astra does not make ordinary tasks noticeably better: NLW says so in his opening, Zitron's whole essay is built on it. Both accept that serious coders have retreated to an older model on cost, and that benchmark gains no longer map onto felt usefulness. The empirical question that will resolve is whether the novel capabilities, games, video pipelines, 3D, interactive proposals, become paid, repeated, non-hobbyist work within a year. The observable is retention: how many of this month's weekend Astra experiments are still running, and being paid for, in a year. The worldview residue is whether tinkering is discovery or displacement activity. NLW is vindicated if a recognisable class of business output, the interactive proposal or the custom video pipeline, becomes routine; Zitron if the experiments stay demos and the bills keep rising. Both are polemicists with incentives, one bullish and anti-doom, the other bubble-certain and anti-hype; the signal is that both concede the efficiency story has stalled at the frontier. Watch whether Astra's coding revenue recovers or whether OpenAI quietly reprices it."
   },
   "headlines": [
     {
-      "id": "anthropic-distillation-attacks",
-      "headline": "Anthropic says it disrupted distillation attacks from Alibaba, DeepSeek, and Xiaomi",
+      "id": "astra-smartest-and-dumbest",
+      "headline": "Astra is unbelievably advanced \u2014 and sometimes a regression",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "01:20",
+      "segment": "main",
+      "timestamp": "00:00",
       "attribution": null,
-      "summary": "A new Anthropic misuse report details networks of fraudulent accounts used to extract reasoning traces from Claude models for use as training data. The report deliberately focused on the most notable and novel threats rather than typical misuse.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#anthropic-distillation-attacks"
+      "summary": "GPT-6 Astra is in some ways far beyond anything before it, yet in familiar use cases the improvements aren't noticeable and can even feel like a step back. That's the marker of where AI development has arrived: new models' value increasingly isn't doing your existing work better, it's unlocking capabilities you've never considered.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#astra-smartest-and-dumbest"
     },
     {
-      "id": "moonshot-relay",
-      "headline": "Moonshot allegedly relayed 300K user queries to Claude",
+      "id": "coders-retreat-to-sol",
+      "headline": "Advanced coders are quietly moving back to older models",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "01:20",
+      "segment": "main",
+      "timestamp": "01:00",
       "attribution": null,
-      "summary": "Anthropic claims DeepSeek and Kimi K3 Meeker (Moonshot) routed requests to Claude and served the responses to their own users \u2014 over a 10-day period Moonshot relayed almost 300,000 requests, mostly to Opus. Anthropic frames it not as spoofing capability but as gathering realistic queries for a distillation pipeline, which exposed sensitive Chinese government and corporate data on multiple occasions.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#moonshot-relay"
+      "summary": "A week in, power users describe Astra as the smartest and dumbest model they've worked with \u2014 mood swings, absurd shortcuts to something technically working. OpenCode's team partially reverted to GPT-56 Sol after effective spend roughly doubled: Astra can do novel things, but for coding it's tough to justify.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#coders-retreat-to-sol"
     },
     {
-      "id": "chikungunya-block",
-      "headline": "Anthropic's classifier blocked gain-of-function grant work",
+      "id": "astra-excitement-is-elsewhere",
+      "headline": "Astra's buzz isn't about your day job",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "In May, a classifier blocked work on a grant application seeking to identify enhancing mutations of the chikungunya virus and select for virulence in live animals. Anthropic flagged it as potentially malicious because the research was intended for a military research institute, though it noted innocent vaccine-development applications.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#chikungunya-block"
+      "summary": "The initial excitement around Astra centers on totally new capabilities \u2014 video editing, 3D design and modeling \u2014 things that aren't currently part of most people's day-to-day work. Whether that's a good business strategy for OpenAI is a separate question.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#astra-excitement-is-elsewhere"
     },
     {
-      "id": "altman-open-to-slowdown",
-      "headline": "Altman tells staff he's open to an AI slowdown",
-      "type": "insight",
-      "segment": "headlines",
+      "id": "efficiency-vs-opportunity-ai",
+      "headline": "Astra is the first model that actually dances inside the efficiency/opportunity divide",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "03:00",
+      "attribution": null,
+      "summary": "Efficiency AI does your existing work better \u2014 faster, cheaper. Opportunity AI unlocks entirely new opportunities. That's usually been a mindset distinction rather than a difference in the models themselves; Astra is one of the first models where the difference is real.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#efficiency-vs-opportunity-ai"
+    },
+    {
+      "id": "efficiency-becomes-table-stakes",
+      "headline": "Efficiency use cases will become table stakes",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "03:00",
+      "attribution": null,
+      "summary": "There's nothing wrong with efficiency AI \u2014 it's the foundation of most AI use and most initial value. But companies that only think of AI as an efficiency technology will miss what the winners see: efficiency gains reset expectations for everyone, while the companies that chase new opportunities \u2014 even ones orthogonal to what they do today \u2014 race out ahead.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#efficiency-becomes-table-stakes"
+    },
+    {
+      "id": "the-blank-page-problem",
+      "headline": "Ask people to 'go find AI opportunities' and you get a blank page",
+      "type": "take",
+      "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "At an all-hands, Sam Altman said OpenAI could pace development of new models, likely in coordination with other labs, while worrying not all rivals would agree. It appears to be the first time Altman has signaled willingness to slow down, following chief scientist Jakub Pachocki's call for voluntary slowdowns and Paul Christiano joining OpenAI's board.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#altman-open-to-slowdown"
+      "summary": "People don't walk around with a complete inventory of things they might make \u2014 we carry a smaller inventory shaped by our job, tools, and what people around us do. NLW's own opportunity use cases, like the pipeline that turns episodes into shareable chunks, came from stumbling, experimenting, and attacking existing problems in new ways.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#the-blank-page-problem"
     },
     {
-      "id": "altman-strongest-evidence",
-      "headline": "For me, this is the strongest evidence yet of the urgency.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "04:30",
-      "attribution": "Sam Altman, OpenAI CEO",
-      "summary": "Altman said this after OpenAI reportedly found a solution to a Millennium Prize problem, adding he did not expect a result of that magnitude so soon and that the world has extremely capable models now.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#altman-strongest-evidence"
-    },
-    {
-      "id": "openai-pauses-pro",
-      "headline": "OpenAI hits a compute wall and pauses $200 Pro subscriptions",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "05:15",
+      "id": "steal-from-other-jobs",
+      "headline": "The shortcut: copy what people with other jobs are doing",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "06:00",
       "attribution": null,
-      "summary": "After GPT-6 Astra's release drove unprecedented demand, OpenAI paused new $200 Pro plan subscriptions \u2014 the smallest step to protect existing users' service. All other plans and the API remain available. As Matt Schumer put it, \"The era of subsidized tokens is ending. Prepare accordingly.\"",
-      "link": "https://aidailybrief.ai/e/2026-09-11#openai-pauses-pro"
+      "summary": "Many of the 'opportunities' of opportunity AI aren't totally novel \u2014 they're things other people can already do that you couldn't. A good shorthand for stretching yourself is to look at what people in different roles are doing that you think is really cool, and bring it into your own work.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#steal-from-other-jobs"
     },
     {
-      "id": "microsoft-triples-capacity",
-      "headline": "Microsoft plans to triple data-center capacity to 38GW by 2032",
+      "id": "marketing-people-can-play",
+      "headline": "Thought starter #1: make marketing people can play",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "07:15",
+      "segment": "main",
+      "timestamp": "06:00",
       "attribution": null,
-      "summary": "After being the most conservative hyperscaler and canceling leases in early 2025, Microsoft now targets 38 gigawatts globally (up from 12), with AI's share growing to a third and CPUs added for agentic workflows. NLW's read: AI infrastructure is nowhere near overbuilt, with at least five more years of elevated CapEx expected.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#microsoft-triples-capacity"
+      "summary": "Marketing content has been visual, print, and video; AI opens up interactivity. Some of the most exciting first Astra experiments were building games \u2014 so why not games inside of work? Instead of telling someone a place rewards curiosity, give them a small mystery that makes them curious. A game implicates the audience's agency rather than treating them as a receiver.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#marketing-people-can-play"
     },
     {
-      "id": "jensen-70-percent",
-      "headline": "Even though our demand is much greater than 70%, our supply allows us to confidently deliver 70%.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "08:20",
-      "attribution": "Jensen Huang, NVIDIA CEO",
-      "summary": "Jensen Huang doubled down on growth forecasts at a Goldman conference, noting it's the first time in a year he's discussed forward estimates. He stressed one GPU system is now $8.5M \u2014 two million parts, NVLink-connected \u2014 and rack-scale orders are growing 27% month over month.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#jensen-70-percent"
-    },
-    {
-      "id": "doj-groq-probe",
-      "headline": "DOJ investigates NVIDIA's $20B Groq deal",
+      "id": "game-rules-carry-the-argument",
+      "headline": "A game's rules can carry your sales argument",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "09:30",
+      "segment": "main",
+      "timestamp": "08:00",
       "attribution": null,
-      "summary": "The DOJ is probing whether NVIDIA's non-exclusive licensing deal with Groq \u2014 which also brought Groq's CEO and COO to NVIDIA \u2014 was structured to circumvent antitrust review. Senators had called the wave of acqui-hire-style deals (Google/Character, Google/Windsurf, Meta/Scale) \"de facto mergers\" designed to bypass scrutiny.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#doj-groq-probe"
+      "summary": "A consultant whose 'cross-team decision-making' pitch sounds abstract could give a prospect a five-minute fictional product launch where sales promises a date, product finds a dependency, and support lacks information \u2014 letting the prospect encounter and get language for the exact problem the service solves. Other games can let customers exercise taste, like an awkward-apartment challenge built around your products.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#game-rules-carry-the-argument"
     },
     {
-      "id": "meta-muse-launch",
-      "headline": "Meta's Muse agent draws Wall Street's approval more than users'",
+      "id": "not-everything-will-hit",
+      "headline": "Most games fail \u2014 the point is you can finally try",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "09:00",
+      "attribution": null,
+      "summary": "Brands have experimented with games before, but they were constrained by development resources; now a solopreneur can experiment this weekend. Game design is still hard \u2014 far more games are released than ever become popular, even from professionals. Opportunity AI doesn't guarantee hits; it lowers the cost of the attempt.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#not-everything-will-hit"
+    },
+    {
+      "id": "custom-video-pipelines",
+      "headline": "Thought starter #2: build your own video production pipeline",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "10:00",
       "attribution": null,
-      "summary": "Muse hit 83,000 iOS downloads on launch day \u2014 modest for Meta (Threads did 4.3M) but enough for second place in the App Store. The bigger signal was on Wall Street: the stock jumped 6% and JP Morgan upgraded to buy, viewing Meta's ~4 billion users as a decisive distribution advantage.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#meta-muse-launch"
+      "summary": "The AI Daily Brief's clips aren't made by a dedicated clipping product like Opus \u2014 they come from a custom-built Claude-run pipeline that ingests the script and raw video and produces the output. These models may democratize video production the way coding agents democratized building software. The question: where could video help in your work \u2014 internal explainers, customer education, marketing?",
+      "link": "https://aidailybrief.ai/e/2026-09-13#custom-video-pipelines"
     },
     {
-      "id": "gpt-live-api",
-      "headline": "OpenAI ships GPT Live 1 to the API",
+      "id": "sixty-second-homework",
+      "headline": "The homework: a 60-second script, an iPhone, and a pipeline request",
       "type": "insight",
       "segment": "main",
-      "timestamp": "14:20",
+      "timestamp": "11:00",
       "attribution": null,
-      "summary": "The full-duplex voice model can talk and listen at once, handles noisy environments and interruptions, and hands off tasks to a backend reasoning model \u2014 demonstrated controlling a robot and display mid-conversation. Priced at five cents per minute for audio plus standard API pricing for the backend model.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#gpt-live-api"
+      "summary": "Write a 60-second educational marketing script with AI, record it on your phone, then hand the video to Codex or Claude Code and ask for a visual motif, transitions, layered graphics, and a full production pipeline \u2014 so all you do is drop in source video. Give it one round of feedback, then ask: does this lower the barrier enough that video becomes a real tool for you?",
+      "link": "https://aidailybrief.ai/e/2026-09-13#sixty-second-homework"
     },
     {
-      "id": "voice-is-the-shift",
-      "headline": "Start shifting to voice now \u2014 the industry is pushing you there anyway",
+      "id": "demos-buyers-can-explore",
+      "headline": "Thought starter #3: product demos organized by the buyer's curiosity",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": null,
+      "summary": "A sales presentation has to choose one order; different buyers arrive with different questions. An exploratory demo organizes itself around actions \u2014 open this, isolate that component, inspect the result \u2014 so the visitor's question determines the path. Ask: what do customers need to inspect for themselves before your product makes sense?",
+      "link": "https://aidailybrief.ai/e/2026-09-13#demos-buyers-can-explore"
+    },
+    {
+      "id": "proposals-clients-can-shape",
+      "headline": "Thought starter #4: proposals clients can shape",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "16:00",
+      "attribution": null,
+      "summary": "Every proposal already contains an invisible model \u2014 assumptions about work, parallelism, resources, and timing. Instead of handing over one selected plan, expose parts of that model: 'we want it sooner' becomes 'we can finish sooner if the team attends more often.' Clients can explore trade-offs without every alternative becoming a new request for you to interpret.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#proposals-clients-can-shape"
+    },
+    {
+      "id": "interactive-proposals-de-rigueur",
+      "headline": "Interactive proposals are efficiency and opportunity AI in one",
       "type": "take",
       "segment": "main",
-      "timestamp": "16:20",
+      "timestamp": "17:00",
       "attribution": null,
-      "summary": "NLW argues the move from typing to talking is a generational shift held back mostly by historically bad native voice recognition like Siri. Beyond obvious wins for contact centers and missed-call service businesses, he sees openings for B2B sales inbound (talk through needs before a demo), language learning, tutoring, and job-interaction simulation.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#voice-is-the-shift"
+      "summary": "Done well, this is a new way of interacting with clients that wasn't possible before \u2014 and it radically cuts the latency of back-and-forth in every negotiation. It has the feel of something that will become completely de rigueur, to the point we'll struggle to remember doing it any other way.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#interactive-proposals-de-rigueur"
     },
     {
-      "id": "devin-voice",
-      "headline": "Cognition ships Devin Voice: \"you say it, Devin ships it\"",
+      "id": "business-decision-simulators",
+      "headline": "Thought starter #5: build simulators for business decisions",
       "type": "insight",
       "segment": "main",
-      "timestamp": "17:20",
+      "timestamp": "18:00",
       "attribution": null,
-      "summary": "Built on GPT Live for the voice layer and Cognition's new SWE-2 model on the back end, Devin Voice makes interruptible, natural voice a first-class way to code. Cognition's Nader Dabit says 90% of his day-to-day work is now done by voice.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#devin-voice"
+      "summary": "'We need another hire' hides several disagreements: process too slow, work unevenly distributed, an expected demand surge. People argue about conclusions while imagining different starting conditions. Building a simulator forces you to specify those conditions \u2014 and makes each assumption's consequences something you can inspect, like whether the decision holds if demand rises more slowly or training takes time.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#business-decision-simulators"
     },
     {
-      "id": "whisper-flow-tip",
-      "headline": "NLW's practical voice tip: set up Whisper Flow and go for a walk",
+      "id": "what-if-machines",
+      "headline": "The pattern underneath: build what-if machines",
       "type": "take",
       "segment": "main",
-      "timestamp": "18:35",
+      "timestamp": "19:00",
       "attribution": null,
-      "summary": "Even outside Devin, NLW implores listeners to intentionally shift to voice \u2014 via ChatGPT's native voice feature or a tool like Whisper Flow on your computer. His claim: you'll gain speed and be able to do more of your work while doing other things, like walking.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#whisper-flow-tip"
+      "summary": "A thread weaves through many of these ideas \u2014 interactive proposals, decision simulators \u2014 they're all what-if machines. What if we did this? What would the implications be? What trade-offs would it implicate? Making that reasoning manipulable is a core opportunity-AI move.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#what-if-machines"
     },
     {
-      "id": "swe-2-good-enough",
-      "headline": "Cognition's SWE-2 shows how far \"good enough\" has climbed",
+      "id": "astra-3d-superpower",
+      "headline": "Ask where three dimensions could be transformative",
       "type": "insight",
       "segment": "main",
-      "timestamp": "19:30",
+      "timestamp": "20:00",
       "attribution": null,
-      "summary": "A post-trained version of Kimi K3 optimized purely for coding, SWE-2 scored 50% on Frontier Code 1.1 \u2014 near-frontier \u2014 at a 64% cost reduction, and is even cheaper than SWE-1.7. Effort levels let users dial down cost further; it's for teams building a model stack that aligns capability with need to keep costs down.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#swe-2-good-enough"
+      "summary": "Some of the first genuine Astra excitement came from people driving 3D software like Blender \u2014 3D walkthroughs of Zillow houses, learning experiences where rotating a digital object changes how you learn. 3D is a big part of what makes Astra unique and one of the best places to spend opportunity-AI experimentation time.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#astra-3d-superpower"
     },
     {
-      "id": "deepseek-flash",
-      "headline": "DeepSeek's V4.1 Flash outperforms its own Pro model at a quarter the cost",
+      "id": "customer-stories-into-films",
+      "headline": "Thought starter #7: turn customer stories into mini documentaries",
       "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "The 552-billion-parameter model is priced at the bottom of the market ($0.30/M input, $1.20/M output) and, per Artificial Analysis, beats DeepSeek's full-size Pro on the intelligence index at a quarter of the cost. NLW pegs it for teams with basic but highly recurring, compute-intensive tasks building a holistic architecture.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#deepseek-flash"
+      "summary": "Organizations already have the raw material \u2014 interviews, project reviews, recordings, screenshots. An interview explains why a situation mattered; a recording shows what changed; a film combines them so the audience can recognize the problem, inspect the invention, and judge the outcome. First pass: dump the raw assets into Claude Code or Codex and let it one-shot the architecture just to feel the capability.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#customer-stories-into-films"
     },
     {
-      "id": "openai-smb-plugins",
-      "headline": "OpenAI bundles a Small Business Plugin Collection",
+      "id": "practice-environments",
+      "headline": "Thought starter #8: simulate the situation before it's real",
       "type": "insight",
       "segment": "main",
-      "timestamp": "22:40",
+      "timestamp": "22:00",
       "attribution": null,
-      "summary": "A pack of common tools \u2014 Dropbox, HubSpot, Canva, Figma, Shopify, DocuSign, PayPal, QuickBooks, Stripe, Gusto, Slack, and more \u2014 collected for SMBs in ChatGPT. As one commenter noted, v1 plugins died as API wrappers behind a chat box; in the agentic era the agent can run the whole workflow, though distribution remains unsolved.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#openai-smb-plugins"
+      "summary": "The hardest part of learning experiences is creating space for learners to exercise and get feedback on judgment \u2014 handling difficult customers, hard conversations with management. Simulation-style environments deliver immediate feedback on judgment midstream, and this will likely become an entire category of professional development experiences.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#practice-environments"
     },
     {
-      "id": "chatgpt-for-finance",
-      "headline": "ChatGPT for finance ships with premium data feeds built in",
+      "id": "prototype-physical-products",
+      "headline": "Thought starter #9: treat physical conditions as something you can design",
       "type": "insight",
       "segment": "main",
-      "timestamp": "24:00",
+      "timestamp": "23:00",
       "attribution": null,
-      "summary": "Updated for GPT-6 and living inside ChatGPT Work, the product bundles data connectors and skills (DeLupa, LSEG News, Crunchbase) so analysts skip MCP setup, with enterprise security and governance. Built with Morgan Stanley and Evercore, it targets financial models, research, and client materials \u2014 VP Nick Turley says it's taught to \"research like an analyst and back up its conclusions like an analyst.\"",
-      "link": "https://aidailybrief.ai/e/2026-09-11#chatgpt-for-finance"
+      "summary": "3D modeling makes physical products prototypable \u2014 an actual product, or something more abstract like a teacher's object with removable pieces that makes a difficult relationship tangible. The companion site's Make It Mine feature exists for exactly this: give it context about your work and let it surface possibilities, like acoustic panels shaped by a studio's own measurements.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#prototype-physical-products"
     },
     {
-      "id": "power-tool-not-replacement",
-      "headline": "Finance AI is a power tool for junior bankers, not a replacement",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "25:30",
-      "attribution": null,
-      "summary": "NLW argues senior bankers won't build their own models and decks just because agents got better \u2014 accountability and iteration still fall to juniors. The real signal: firms like UBS now require prospective junior bankers to demonstrate AI proficiency as a hiring requirement.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#power-tool-not-replacement"
-    },
-    {
-      "id": "chatgpt-data-agent",
-      "headline": "OpenAI's new data agent lets you talk to your proprietary data",
+      "id": "expertise-as-a-product",
+      "headline": "Thought starter #12: your expertise as a product",
       "type": "insight",
       "segment": "main",
-      "timestamp": "26:15",
+      "timestamp": "25:00",
       "attribution": null,
-      "summary": "For ChatGPT Work, the agent connects to Redshift, Datadog, BigQuery, ClickHouse, Databricks, MongoDB, and Snowflake to ingest data and generate insights on metrics like conversions and retention \u2014 no extra tools needed. Tableau integration brings trusted business semantics into where employees already work.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#chatgpt-data-agent"
+      "summary": "Expert help is a conversation, but inside it you're gathering context, recognizing patterns, ruling out attractive-but-wrong options, and deciding what someone is ready for. Give a specific part of that judgment a form people can work through themselves \u2014 the interactive web app published alongside this episode is exactly that. It scales you, works for teammates as much as clients, and doubles as efficiency AI wherever you repeat the same things to different people.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#expertise-as-a-product"
     },
     {
-      "id": "verticalization-trend",
-      "headline": "The real OpenAI trend: verticalization that understands how specific people work",
+      "id": "not-locked-in-mortal-conflict",
+      "headline": "Efficiency and opportunity AI aren't at war",
       "type": "take",
       "segment": "main",
       "timestamp": "27:00",
       "attribution": null,
-      "summary": "Taken together, OpenAI's updates hone in on specific business users, connecting the tools and context they need to make moving workflows into ChatGPT easier and more inviting. It's an industry-wide pattern \u2014 GrokBot also added native Salesforce, HubSpot, Gong, Clay, and Granola integrations for sales teams.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#verticalization-trend"
-    },
-    {
-      "id": "cursor-projects",
-      "headline": "Cursor Projects turns a folder into a persistent project architecture",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "28:00",
-      "attribution": null,
-      "summary": "Beyond accumulating context, Projects houses scheduled tasks, long-running agents, and orchestration \u2014 a persistent coordinator thread that plans and delegates to sub-agents rather than ending each session. Testers merged 6x as many PRs, with merge rates up 30%; the persistent-thread pattern matters for non-developers too.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#cursor-projects"
-    },
-    {
-      "id": "monothreads-compaction",
-      "headline": "The rise of the monothread: compaction has gotten good enough to just keep going",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "29:30",
-      "attribution": null,
-      "summary": "NLW notes that context-window handoffs that plagued 2025 workflows have eased dramatically \u2014 Block's Kensar describes threads that build entire sync protocols and deploy across repos without breaking. NLW keeps everything for the AI Daily Brief website in one long-running thread that's never hit context issues.",
-      "link": "https://aidailybrief.ai/e/2026-09-11#monothreads-compaction"
+      "summary": "The goal of opportunity AI is simply to stretch ourselves and ask what we might do now that we never would have before \u2014 several of these ideas turn out to be both at once. The point of the thought starters is that you don't have to know in advance what your opportunity looks like.",
+      "link": "https://aidailybrief.ai/e/2026-09-13#not-locked-in-mortal-conflict"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-09-11.mp3",
-  "generated": "2026-09-12T15:07:43Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-09-13.mp3",
+  "generated": "2026-09-13T19:37:51Z"
 }

@@ -1323,6 +1323,24 @@
       "resolution": "Fails (Zitron wrong) if by the check date disclosures or credible reporting (Ramp, The Information, filings) show non-tech enterprises providing at least a third of OpenAI's or Anthropic's enterprise and API revenue. Vindicated if the mix remains dominated by tech firms and AI startups, or the labs decline to disclose it.",
       "check_by": "2027-06-30",
       "status": "open"
+    },
+    {
+      "edition": "2026-09-13",
+      "side": "NLW",
+      "claim": "That opportunity-AI use cases become routine business practice: within a year, interactive proposals or client-shaped plans (a model the client can manipulate rather than a fixed document) will be offered as a standard feature by at least one mainstream proposal, consulting or CRM platform (e.g. PandaDoc, HubSpot, Salesforce, Notion, Canva).",
+      "source_url": "https://aidailybrief.ai/e/2026-09-13",
+      "resolution": "Vindicated if by the check date a mainstream platform ships a shipped, documented feature for client-manipulable interactive proposals. Fails if it remains bespoke agent-built demos only.",
+      "check_by": "2027-09-13",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-13",
+      "side": "Zitron",
+      "claim": "That newer models raise the cost of real work rather than lowering it: OpenAI will, within six months, either cut the per-token price of GPT-6 Astra, introduce a cheaper coding-specific tier, or see coding-agent vendors (OpenCode, Cursor, etc.) keep an older or rival model as their default for cost reasons.",
+      "source_url": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
+      "resolution": "Vindicated if by the check date Astra has been repriced downward or major coding tools still default to Sol or a rival on cost. Fails if Astra becomes the default coding model at its launch price.",
+      "check_by": "2027-03-13",
+      "status": "open"
     }
   ]
 }

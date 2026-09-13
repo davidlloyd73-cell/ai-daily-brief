@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Scribes are efficiency AI, and the frontier no longer moves them much",
+      "body": "Ambient scribes are the clearest efficiency use in general practice: the consultation is the same, the letter arrives faster. NLW's point that a new frontier model may make existing work no better, or even worse, is worth remembering when a scribe vendor announces an upgrade to Astra or its rivals. If NLW is right, the gains left in scribing are small and the interesting work lies elsewhere. If Zitron is right, the upgrade may cost the vendor more tokens per consultation for no visible change, and that cost eventually reaches the practice. Either way, judge a scribe on its error rate in your own surgery, not on which model sits underneath it."
+    },
+    {
+      "title": "The what-if machine is the one thought starter that fits a practice",
+      "body": "Most of NLW's dozen ideas, games for marketing, mini documentaries, 3D prototypes, have little to do with a GP surgery. The one that does is the decision simulator. 'We need another salaried session' hides several disagreements about demand, telephone triage capacity and how work is shared, exactly the argument every partnership has. A small model that lets partners change the assumptions and see the consequences is cheap to build now and does not touch patient data. If Zitron is right it will be tinkering that feels like progress; the test is whether a partners' meeting actually changes a decision because of it."
+    },
+    {
+      "title": "Simulation for judgement is the old idea in new clothes",
+      "body": "NLW's eighth thought starter, simulated situations that give feedback on judgement mid-conversation, is what GP training has done with actors and video for forty years, at considerable cost. A simulated difficult consultation or a complaint response that a trainee can practise on a laptop is plausible today and the NHS's Medical Examiner and training bodies will be pitched it. The Zitron caution applies: a simulation that 'sort of works' after prodding is worse than a role-play with a colleague, so ask who validated the scenarios and against what."
+    }
+  ]
+}
