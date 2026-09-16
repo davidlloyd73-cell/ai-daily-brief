@@ -1341,6 +1341,24 @@
       "resolution": "Vindicated if by the check date Astra has been repriced downward or major coding tools still default to Sol or a rival on cost. Fails if Astra becomes the default coding model at its launch price.",
       "check_by": "2027-03-13",
       "status": "open"
+    },
+    {
+      "edition": "2026-09-14",
+      "side": "NLW",
+      "claim": "That the labs' pacing commitments are real: within six months at least two frontier labs (Anthropic plus one of OpenAI, Google DeepMind, xAI or Meta) will have a named independent third-party evaluator embedded with employee-like access, publicly announced, and at least one of them will publish a safety or incident finding about that lab.",
+      "source_url": "https://aidailybrief.ai/e/2026-09-14",
+      "resolution": "Vindicated if by the check date two labs name embedded evaluators and at least one evaluator publishes a finding on that lab. Fails if the evaluators remain announced but unnamed, or publish nothing.",
+      "check_by": "2027-03-14",
+      "status": "open"
+    },
+    {
+      "edition": "2026-09-14",
+      "side": "Zitron",
+      "claim": "That nobody is actually slowing down: within six months no frontier lab will have publicly delayed or withheld a flagship model release citing pacing or evaluator findings, and OpenAI and Anthropic's aggregate announced compute commitments will not have been reduced.",
+      "source_url": "https://www.wheresyoured.at/ai-is-already-in-dangerous-hands/",
+      "resolution": "Vindicated if by the check date no flagship release has been publicly delayed on safety-pacing grounds and compute commitments are flat or higher. Fails if a lab visibly delays a flagship model citing evaluators, or a major compute contract is cancelled or cut on pacing grounds.",
+      "check_by": "2027-03-14",
+      "status": "open"
     }
   ]
 }

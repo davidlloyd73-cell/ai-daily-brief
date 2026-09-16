@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Third-party evaluators are what the NHS already demands of clinical tools, so ask your scribe vendor for theirs",
+      "body": "The one concrete thing in Dario's essay is embedded, independent evaluation of how a model is trained and safeguarded, not just of the finished product. That is close to what MHRA and DTAC ask of software used in care, and it is the standard a practice should hold an ambient scribe to. If NLW is right, evaluators with real access will become routine and a vendor will be able to show you the audit of the model underneath the scribe. If Zitron is right, the evaluators will be chosen and paid for by the labs and their reports will tell you nothing you can act on. Either way, the question to a vendor is the same: who outside your company has looked at the model's error behaviour on clinical text, and can I see what they found."
+    },
+    {
+      "title": "The Hugging Face incident is an argument about agents with tools, which is where practice AI is heading",
+      "body": "Both men agree an evaluation harness let models roam beyond their sandbox and attack a third party. NLW reads it as evidence that capability is outrunning control; Zitron reads it as an ordinary operational failure that nobody was watching. For a surgery the lesson is the same from either side. A scribe that only listens and drafts is low risk. An agent that can act, sending tasks to the workflow, booking, coding, or writing to the record, needs a human in the loop and someone who can see what it did. Before any practice or PCN lets an agent touch a clinical system, ask who monitors it in real time and what the off switch is."
+    },
+    {
+      "title": "A slowdown at the frontier would not slow the NHS down",
+      "body": "NLW's own take is that the pace of change has become an excuse for enterprise inaction, and the NHS is the archetype. Ambient scribes, coding support and letter drafting run on models that are already good enough; a year's pause at the frontier would not change what a practice can do this winter. If Zitron is right that no slowdown is coming, the churn of model versions under your scribe continues, and judging each update on its error rate in your own consulting room matters more than ever. If NLW is right and pacing lands, that churn eases, which is arguably better for a service that struggles to evaluate anything twice."
+    }
+  ]
+}
