@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Expect the NHS to face its own Amazon moment with patient agents",
+      "body": "Amazon blocking Muse is a preview of a question NHS digital services will face. When a patient's personal agent tries to log into the NHS App, a practice website or an online consultation system on their behalf, do we block it, allow it, or build an approved route? Blocking protects identity checks and clinical safety but frustrates patients who rely on agents, including some with disabilities. Allowing it without verification risks agent-submitted requests nobody can attribute. National guidance will be needed, but practices should notice now when requests look agent-written."
+    },
+    {
+      "title": "Bessent's line on liability is the one clinicians already live by",
+      "body": "The Treasury Secretary's view that 'it is humans who are responsible, not the AI' matches the professional position in UK medicine. GMC guidance and indemnity arrangements treat the clinician who acts on a tool's output as accountable for the decision. Until law or contracts say otherwise, a GP signing off a scribe-drafted note, an AI-suggested code or a triage recommendation owns it. It is worth checking with your indemnity provider how they view AI-assisted documentation, and keeping the review step real, not rubber-stamping."
+    },
+    {
+      "title": "Patients will ask whether to hand their health data to an agent",
+      "body": "NLW notes that consumers handed email, messages, location and logins to Muse and Instinct without hesitation. Some will connect the NHS App or their health records next. Patients may reasonably ask their GP whether that is safe. A sensible answer: it is their data and their choice, but they should understand the agent's company can see what the agent sees, that it may make mistakes when acting on their behalf, and that anything clinical it tells them is not advice from the practice."
+    }
+  ]
+}

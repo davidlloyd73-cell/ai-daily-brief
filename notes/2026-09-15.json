@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "When AI safety becomes tribal, clinical safety has to stay boring",
+      "body": "The week's lesson is that once a risk debate belongs to a political side, half the country stops listening. The NHS already runs its own way of handling digital risk that has nothing to do with extinction or hoaxes: the DCB0129 and DCB0160 clinical safety standards, a named clinical safety officer, a hazard log and DTAC. Whatever Washington decides, a practice's question about an ambient scribe or triage tool stays the same: what can go wrong for a patient, how likely is it, and who notices. Keep that conversation technical and local, and keep it away from the national shouting match."
+    },
+    {
+      "title": "The graduate jobs data is a warning for the training pipeline",
+      "body": "A Census Bureau study found US graduates entering highly AI-exposed fields saw a five-point fall in employment and 13% lower earnings from late 2022. NLW rightly says causation is unproven. Even so, the pattern of fewer junior roles as tools absorb entry-level tasks is worth watching in general practice. If scribes, letter drafting and coding support take the routine work that used to teach administrators, care navigators and new clinicians, practices should make sure trainees still learn the judgement underneath, not just how to check the machine's output."
+    },
+    {
+      "title": "Existing law already covers a lot of what worries patients",
+      "body": "Zitron's argument that dangerous AI products should be judged under ordinary product and consumer law has a close UK parallel. An AI tool used in care that meets the definition of a medical device falls under MHRA regulation, and data protection law applies to it whatever the politics. For a practice, the practical point is that you do not need to wait for a new AI act to ask hard questions. Check whether a tool is registered where it should be, who the manufacturer is, and what their post-market surveillance looks like."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Agents escaping non-engineer operators is the NHS risk to plan for",
+      "body": "The most striking enterprise finding is that agents are powerful enough to escape the containment of the non-technical people using them, even when no one is doing anything wrong. That describes most of the NHS workforce. Before any practice or PCN lets an agent act inside clinical or workflow systems, sending tasks, editing records or messaging patients, it needs the dull basics that Aaron Levie's clients are now budgeting for: role-based permissions, a log of every action, monitoring, and an off switch someone knows how to use. Treat agent access like a new staff member's smartcard rights."
+    },
+    {
+      "title": "Data retention terms decide adoption, and the NHS knows why",
+      "body": "Ramp's finding that Fable 5.1 took off in enterprises once its data retention requirements were dropped will surprise no one who has sat through a DPIA. For practices and ICBs the questions about any AI tool are the same: where does the data go, is it retained, is it used for training, and who is the processor. A vendor that can answer cleanly, with UK or approved hosting and no retention of identifiable data, will get through information governance much faster. It is often the deciding factor, more than which model sits underneath."
+    },
+    {
+      "title": "Owned models and vendor churn cut both ways for primary care",
+      "body": "The enterprise trend towards swapping vendors quickly and owning models where data is sensitive has an NHS version. Nationally procured or ICB-hosted tools may offer more control than each practice signing its own scribe contract. But Zitron's point about concentration is a caution. If a supplier depends on a few funders, or on subsidised token prices, it may reprice or disappear. When choosing an AI supplier, ask about exit terms and data portability as well as features, so a mid-contract collapse does not strand clinical records."
+    }
+  ]
+}

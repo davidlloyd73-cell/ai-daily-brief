@@ -1,0 +1,17 @@
+David's AI brief for Wednesday, the sixteenth of September.
+
+Today's One Idea is that a new class of AI, judgment models, could become the cheap decision layer that business software has been missing.
+
+It is not every day the show gets to cover something that is not another large language model. A company called TypeSafe has come out of two years in stealth with a model called Jev. It does not generate text at all. Instead it answers narrow questions with calibrated probabilities. Ask whether a customer sounds angry, and it returns nought point nine, a ninety per cent probability, which software can act on directly. A chatbot's flowery answer would crash the same program, which expected a number, not an essay. TypeSafe claims Jev is twenty to two hundred times faster than frontier language models, and forty to four hundred times cheaper.
+
+The writer Mike Taylor put it to the test. He fed Jev thirty-seven documents and asked twenty-one questions of each, looking for the tell-tale signs of AI writing. He got seven hundred and seventy-seven judgements back in under a second, for about a quarter of a cent. That, he notes, is cheap enough to check everything anyone in a company has ever written.
+
+Nathaniel Whittemore's point is that so much office work is simply reading something and deciding what happens next. Does this need a reply? Which department owns it? Is this a bug or a feature request? Those decisions have been too fuzzy for ordinary code and too slow and costly for language models. The emerging pattern is: a language model proposes, the judgment model decides, and ordinary code carries it out. Because judgement becomes so cheap, you can check every request, every draft and every step an agent takes. He thinks it will really shine at handoffs between teams, flagging when a salesperson's promise quietly commits engineering to something. It is day one and still has to prove itself, but he calls it important and obvious, the kind of thing we will wonder how we lived without.
+
+Also today: Mark Zuckerberg argued that pacing is each lab's own job, not a collective one, pointing to Meta delaying its Muse agent for safety work. And Bernie Sanders and Steve Bannon shared a stage in Washington, both warning against letting a handful of oligarchs decide AI's future.
+
+There is no fresh counter-source from Ed Zitron today.
+
+For general practice, this is the most relevant idea in weeks. So much practice admin is judgement about documents. Does this hospital letter need a GP? Is this a medication change? Does this patient message need a response today? A tool that returns a probability fits those questions far better than a chatbot, and is cheap enough to run on everything. But a probability forces a question prose hides: at what number do we act, and who decided? For clinical triage, that threshold is a safety decision. It belongs in the hazard log with a named owner, and it needs auditing. The most appealing use may be as a second reader: a quick automated check that every letter mentions safety netting, allergy status and the right dose. AI used to check the work, not to write it, is a far easier case to make.
+
+That's the brief. Source, The AI Daily Brief.

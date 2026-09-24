@@ -1,0 +1,17 @@
+David's AI brief for Monday, the twenty-first of September.
+
+Today's One Idea is that every American argument about AI policy now runs through Beijing.
+
+This week Xi Jinping arrives in Washington, meeting President Trump on Thursday. Nathaniel Whittemore argues it is the first real test of the assumption behind every US policy fight. Kill switches, pauses and pacing the frontier all rest on a guess about what China will do. If China does not join in, those policies simply cut America out of the race. Congressman Ro Khanna has written to Alibaba, DeepSeek and Moonshot urging a binding international agreement. Treasury Secretary Bessent has proposed an AI incident hotline between the two countries, a modern red phone. But China's Foreign Ministry has flatly rejected the pause framing, calling it fear-mongering.
+
+The deeper point is that the two powers are not even worried about the same things. America debates existential risk while AI capital spending props up its economy. China worries about espionage and party control. Anthropic's security record is Beijing's real grievance, including a disputed backdoor in Claude Code. And China gets little economic lift from AI, with youth unemployment near nineteen per cent.
+
+At home, Trump announced an AI Force modelled on Space Force, and ran a poll on renaming artificial intelligence. Superior Intelligence narrowly beat Extreme Intelligence. Whittemore says not to laugh off the AI Force too quickly, given the cyber-defence case. Governor Newsom signed an order accelerating kill-switch policy. And Anthropic delayed its stock market listing to November, with leaks suggesting it is only profitable if you strip out large costs.
+
+The first cracks also appeared in data centre debt. Bonds linked to a Jane Street data centre, issued at eight point nine per cent in August, now trade at over eleven. Debt tied to an Oracle site is quoted at eighty-nine cents on the dollar. Whittemore says if the AI trade turns, the bond market will tell you first.
+
+Now, the other side. Ed Zitron, writing on Friday, argues these cracks are structural. He says several of the biggest tech companies have gone cash-flow negative as data centre spending eats almost everything they earn. Over five hundred billion dollars of AI debt has already been raised this year, and far more is needed just as borrowing gets dearer. Both men now point to the bond market, not share prices, as where the truth will show first. What will settle it is whether the next round of data centre financing clears, and whether Oracle keeps its credit rating.
+
+For general practice, the kill-switch idea is already familiar. Every AI tool in a practice needs a stop procedure: who can switch it off, and what the fallback is. If nobody remembers how to do the notes without the scribe, that is a risk worth recording. The debt story matters too. The tools under NHS software rest on businesses under strain, so ask about exit terms, data return, and whether you will be told when the model underneath changes. And the China story is really about data security. Keep identifiable information out of consumer AI tools.
+
+That's the brief. Source, The AI Daily Brief.

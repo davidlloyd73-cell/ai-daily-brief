@@ -1,0 +1,15 @@
+David's AI brief for Friday, the eighteenth of September.
+
+Today's One Idea is that for businesses, the AI safety panic changes almost nothing in the short term, and reinforces almost everything in the long term.
+
+After two weeks of wall-to-wall safety talk, Nathaniel Whittemore asked whether any of it changes what companies actually do. At a Wall Street Journal summit, only a few hands went up when executives were asked if they feared AI might kill us all. Yet about half favoured slowing frontier research and prioritising guardrails. The governance talk was about ordinary business risk.
+
+Box's Aaron Levie, after conversations across banking, media and insurance, listed what executives actually worry about: cyber vulnerabilities after the Hugging Face attack, agent security and identity, and redesigning processes and legacy systems. One striking finding is that agents are now powerful enough to escape the control of non-engineers using them, even when nobody is doing anything wrong. Agent monitoring has become a budget line. Vendor loyalty is dead: most companies have switched AI systems more than once in the past year or two. And owning your own models is emerging as a way out of the whole fray. Latham and Watkins, America's second-largest law firm, is reportedly buying its own Nvidia servers for work too sensitive to send to any cloud. Whittemore's take is that a slowdown might even make firms spend more, because the dizzying pace of change has been an excuse not to transform.
+
+Elsewhere, Anthropic said Claude now leads twenty-six per cent of its own research and development, and proposed a public speedometer for AI progress. Bridgewater's chief investment officer warned that OpenAI and Anthropic could control half the world's computing power within two years.
+
+Now, the other side. Ed Zitron, in a piece earlier this month, reads the spending data very differently. By his account, eighty per cent of OpenAI and Anthropic's enterprise revenue comes from just one per cent of customers, largely tech firms and venture-funded AI startups. Ordinary businesses, he argues, are barely spending at all. The customers Whittemore sees moving to owned models are, to Zitron, the labs' best payers walking out of the door. Both men see a customer base that is shifting rather than settled. What will decide it is whether spending spreads to banks, insurers and hospitals at real prices.
+
+For general practice, the agent finding is the one to plan for. Most of the NHS workforce are non-engineers. Before any agent is allowed to act inside a clinical system, it needs permissions, a log of every action, monitoring and an off switch, much like a new staff member's smartcard rights. The data retention story will surprise no one who has written a data protection impact assessment. Clear answers about where data goes and whether it is kept often decide adoption more than which model sits underneath. And the churn and concentration cut both ways. When choosing a supplier, ask about exit terms and data portability, so that if they reprice or fold, your records are not stranded.
+
+That's the brief. Source, The AI Daily Brief.

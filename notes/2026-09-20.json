@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Monothreads are powerful, and a problem for the medical record",
+      "body": "A single long-running thread that carries context across weeks is how many power users now work, and it is tempting for practice managers and clinical leads handling recurring work such as QOF, rotas or complaints. But anything patient-identifiable that builds up in a personal AI thread sits outside the clinical record, outside the practice's information governance, and possibly in a consumer account. Keep long-running threads for non-identifiable operational work, and make sure anything clinical ends up in the record rather than in a chat history."
+    },
+    {
+      "title": "Loops, not prompts, is a good way to think about practice automation",
+      "body": "The shift from writing prompts to setting goals with measurable success criteria maps neatly onto how general practice already improves things: audit cycles and PDSA. If practices use agents for searches, recall lists or letter backlogs, define the goal and the check up front, for example all patients on this register with an overdue review invited, verified against a search. Then let the tool iterate. The discipline of saying what done looks like is also what makes the output auditable."
+    },
+    {
+      "title": "Shared agents will need practice-level governance, not personal accounts",
+      "body": "The move from personal agents to shared team agents is where general practice actually fits: work is done by teams across reception, dispensary, nursing and GPs, not by individuals. When shared agents reach NHS workflow tools, the questions are organisational. Whose authority does the agent act on? What can it see? Who reviews its output? Where is that written down? Getting that agreed at practice or PCN level before the products arrive will matter more than which product wins."
+    }
+  ]
+}

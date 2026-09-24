@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Patients will arrive with agents before practices are ready for them",
+      "body": "If personal agents like Muse really are breaking out with ordinary consumers, some patients will soon ask them to book appointments, chase prescriptions and fill in online consultation forms for them. The NHS App and practice online forms were designed for a human at the keyboard. Practices should expect agent-completed requests that are unusually fluent, possibly inaccurate about symptoms, and sent at volume. Check how your online consultation supplier would spot and handle them, and think about how identity and consent work when the requester is software acting for a patient."
+    },
+    {
+      "title": "The ADHD and admin-backlog stories are a health story too",
+      "body": "Several of the unprompted Muse testimonials are from people who could not keep up with life admin: bookings, claims, cancellations, forms. For some patients with ADHD, executive-function difficulties or caring responsibilities, that burden is part of the presenting problem. An agent that clears it could be genuinely helpful. It could also create new risks if it holds bank logins and acts on its own. It is worth being aware of when a patient mentions they now let an assistant manage their affairs, especially where capacity or safeguarding is in question."
+    },
+    {
+      "title": "Continuous misalignment disclosure is the model for clinical AI incident reporting",
+      "body": "OpenAI's new framework publishes misalignment reports as soon as they are observed, before they are fully explained, and lets any employee raise one. That is essentially the culture of a good significant event system, and it is what practices should expect from suppliers of AI tools used in care. Ask your scribe or triage vendor how you would hear about a model-level problem found at another site, how fast, and whether you can report back. The Yellow Card scheme covers medical devices, including software; AI incidents need to reach it too."
+    }
+  ]
+}

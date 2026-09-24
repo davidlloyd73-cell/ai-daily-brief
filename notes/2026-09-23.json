@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Clinical diagnostics accuracy rose, but only in one vendor's tests",
+      "body": "Box reported Opus 5.5 improving task accuracy by 15 to 17% on clinical diagnostics, alongside large gains elsewhere. That is an enterprise knowledge-work benchmark on unstructured documents, not a clinical validation, and it says nothing about UK primary care records or patient safety. The useful point for practices is that the model under a scribe or document tool can change quickly and noticeably. Ask your supplier when they switch models, what they tested on, and whether the clinical safety case is updated. A better benchmark is not the same as a validated change."
+    },
+    {
+      "title": "Tighter guardrails can quietly break clinical use cases",
+      "body": "The standout complaint about Opus 5.5 is more refusals, including Fable-class biology guardrails and worse performance for some legal drafting. Clinical text often looks sensitive: overdoses, controlled drugs, self-harm, safeguarding. When suppliers move to a new model, a tool that summarised these consultations yesterday may refuse, water down or omit them today, and an omission in a note is harder to spot than an error. Spot-check scribe output on your most sensitive consultation types after any model change."
+    },
+    {
+      "title": "Falling costs make AI more affordable for the NHS, if the savings are passed on",
+      "body": "Price cuts of 40 to 50% and a cost curve falling roughly 47% a quarter at a fixed level of capability should, in principle, make ambient scribes and document tools cheaper per consultation. NHS buyers should expect that to show up in pricing. When contracts come up for renewal, ask suppliers what share of their cost is the model and whether the recent price drops have reached the per-seat price. The other lesson from the stack debate applies too: the cheapest adequate model for routine letters need not be the one used for complex summaries."
+    }
+  ]
+}

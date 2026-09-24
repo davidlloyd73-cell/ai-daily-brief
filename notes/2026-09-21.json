@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Kill switches are a familiar idea: every clinical tool needs a stop procedure",
+      "body": "Newsom's kill-switch order and the federal bills are about frontier models, but the principle already belongs in every practice using AI. For each tool, whether scribe, triage or document workflow, someone should know how to switch it off, what the fallback process is, and who is told. That is business continuity planning, the same as for a clinical system outage. If the answer to 'what happens if we turn the scribe off tomorrow' is that nobody remembers how to do the notes by hand, that is a risk worth writing down."
+    },
+    {
+      "title": "Supplier finances are now a clinical safety question",
+      "body": "The first cracks in data centre debt and the asterisks on Anthropic's profitability are a reminder that the AI stack beneath NHS tools rests on businesses under financial strain. If borrowing costs rise and cheap compute disappears, suppliers may raise prices, change the model underneath without warning, or fail. Practices and ICBs choosing AI tools should consider supplier viability the way they would for any clinical system. Is there a contract exit route? Are notes and data returned in a usable format? Will you be told when the underlying model changes?"
+    },
+    {
+      "title": "The US-China AI story reaches general practice through cyber and data",
+      "body": "The live US-China issue is not extinction but espionage and data security, including the Claude Code backdoor row and military documents uploaded to a chatbot. For the NHS the practical concern is the same one that runs through DSPT: know where your data is processed, avoid consumer AI tools for anything identifiable, and be alert to staff pasting sensitive material into unapproved services. Geopolitics will shape which models NHS suppliers can use, but the basics of data handling sit with the practice."
+    }
+  ]
+}

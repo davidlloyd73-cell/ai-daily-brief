@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Workflow triage is exactly the kind of judgement these models are built for",
+      "body": "So much practice admin is reading something and deciding what happens next: does this letter need a GP to see it, is this a medication change, does this patient message need a same-day response. A judgement model that returns a calibrated probability rather than prose fits those decisions far better than a chatbot, and it is cheap enough to run on every document rather than a sample. If tools like Jev reach NHS suppliers, expect them inside document management and online consultation triage before anywhere else. Such a tool should only ever flag and route. A clinician still owns the decision."
+    },
+    {
+      "title": "A probability is only useful if someone has set the threshold",
+      "body": "A tool that says 0.9 that this message is urgent forces a question that prose hides: at what number do we act, and who decided? For clinical triage the threshold is a patient safety decision and belongs in the hazard log with a named clinical owner. It should be set to favour sensitivity, then audited against what actually happened. Calibration also drifts as populations and wording change, so the check is not once at go-live but repeated. Ask any vendor for calibration data on UK primary care text, not just a headline accuracy figure."
+    },
+    {
+      "title": "Cheap checking could be the real win: a second reader on everything",
+      "body": "NLW's point that near-free judgement lets you check everything, every time, is the most useful idea here for general practice. Imagine every outgoing letter, repeat prescription note or scribe-drafted consultation record given a quick automated second read against narrow criteria. Is a safety-netting statement present? Is the allergy status mentioned? Does the dose match the record? That uses AI as a linter for clinical admin, not an author, which is a much easier case to make to a clinical safety officer."
+    }
+  ]
+}

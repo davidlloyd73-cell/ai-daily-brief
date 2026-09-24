@@ -1,0 +1,15 @@
+David's AI brief for Sunday, the twentieth of September.
+
+Today's One Idea is that the way we use AI is being rewritten, and this time the changes look like they will stick.
+
+It was a quiet news day, so Nathaniel Whittemore stepped back to look at how we actually use these tools. First we were prompt engineers, then context engineers, then harness engineers, and now loop engineers. It is easy to mock each new buzzword. His argument is that it is really all of us working out, together, how to use a completely new technology. He sees seven shifts arriving at once.
+
+First, interfaces are simplifying. Meta's Muse is praised by the creator of Node dot js and by a nearly seventy-year-old father who used it to draft, update and email a contract entirely by text. Anthropic has merged Claude's separate modes into one experience because people did not know which product to start with. Second, work is consolidating into monothreads: single conversations kept alive for weeks that never reset. One Codex team member's most useful thread is three weeks old and checks his email, Slack and code every hour. Whittemore says the show's own website is run from one continuous Claude Code thread. Third, the chatbot survived by quietly becoming a manager of agent fleets, spinning up teams of sub-agents behind a familiar face. Fourth, voice is now table stakes, because voice only stopped being a gimmick once agents could actually go and do things.
+
+Fifth, we set goals rather than write prompts. The developer Peter Steinberger puts it bluntly: you should be designing loops that prompt your agents. Sixth, a personal stack of several models has gone from enthusiast hack to cost requirement. Some users have found that Fable 5.1 spins up five or ten expensive sub-agents for a routine task and burns through their allowance. And seventh, agents are moving from individual silos to shared team infrastructure, agents your whole team uses, though nobody yet agrees how multiplayer AI should work.
+
+There is no fresh counter-source from Ed Zitron today.
+
+For general practice, the monothread idea is powerful but needs care. A long-running thread that builds up context over weeks is tempting for managing recurring work like recalls, rotas or complaints. But anything patient-identifiable that piles up in a personal AI conversation sits outside the clinical record and outside information governance. Keep those threads for non-identifiable work, and make sure anything clinical lands in the record. The idea of loops, not prompts, fits general practice naturally, because it is really the audit cycle. Define what done looks like, such as every patient on a register with an overdue review invited, and check the result against a search. And shared team agents are where general practice actually lives, because our work is done by teams. When those tools arrive, the hard questions will be organisational: whose authority does the agent act on, what can it see, and who checks its work? Agree those answers now, before the products turn up.
+
+That's the brief. Source, The AI Daily Brief.

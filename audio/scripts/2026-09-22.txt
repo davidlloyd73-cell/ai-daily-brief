@@ -1,0 +1,15 @@
+David's AI brief for Tuesday, the twenty-second of September.
+
+Today's One Idea is that the agent wars have begun, and the aggregators are getting aggregated.
+
+After a string of agents that were either hard-going work tools or toys for early adopters, Meta's Muse has become the first personal agent to break out with ordinary consumers. It has overtaken ChatGPT for the top spot on Apple's free app chart in America, a place ChatGPT has rarely given up in four years. The tech press doubted people would hand their email, calendar and payment details to a Meta product. People did it without blinking. One Microsoft executive spent a day with Muse: it bought socks, ordered groceries, booked a cleaner, and saved him two hundred dollars by cancelling unused subscriptions.
+
+Then Amazon cut it off. Muse agents can no longer shop on Amazon for their users. To many that looked baffling, since a purchase is a purchase. Nathaniel Whittemore's explanation is that agents do not look at adverts. Amazon made seventy-six billion dollars from advertising last year, and as Tom Goodwin put it, retail margins are close to zero while advertising margins are around seventy per cent. Amazon makes money from your browsing, not your convenience. That is the defining tension of the agent economy: every platform that gathered users now risks becoming an interchangeable supplier behind someone else's agent. The choice is to block, to strike a deal, or to be commoditised. Shopify has already picked its side, announcing full Muse support and agent checkout across its stores. Whittemore thinks Shopify's importance is wildly underestimated. He remains sceptical, though, that agentic shopping is the killer use case, because browsing and discovery are part of the point of shopping.
+
+Elsewhere, Grok 4.7 had a rough debut, with one reviewer finding it slower and more than twice as costly in real use as claimed. And Treasury Secretary Bessent, now effectively leading AI policy, rejected the labs' request for a liability shield. It is humans who are responsible, he said, not the AI.
+
+There is no fresh counter-source from Ed Zitron today.
+
+For general practice, Amazon's block is a preview of a choice the NHS will face. When a patient's agent tries to use the NHS App or an online consultation form on their behalf, do we block it, allow it, or build an approved route? Blocking protects identity checks but frustrates patients who rely on help, including some disabled patients. Allowing it unchecked risks requests nobody can attribute. Bessent's line on liability is one clinicians already live by. Under professional guidance, the clinician who acts on a tool's output owns the decision, so reviewing a scribe's note has to be a real review. And patients will start asking whether to connect their health records to an agent. A fair answer is that it is their choice, but the company behind the agent sees what the agent sees, and nothing clinical it tells them is advice from the practice.
+
+That's the brief. Source, The AI Daily Brief.

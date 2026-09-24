@@ -1,0 +1,17 @@
+David's AI brief for Wednesday, the twenty-third of September.
+
+Today's One Idea is that the model war is no longer about one winner. It is about cost per task, and the fight for each slot in your stack.
+
+On Tuesday came a treat Nathaniel Whittemore cannot remember ever getting before: OpenAI and Anthropic released new models on the same day. There were four major releases in two days.
+
+Anthropic's Opus 5.5 won the buzz. It jumped to fifty-eight on the Artificial Analysis intelligence index, five points clear of the previous leaders. Its list price fell from five and twenty-five dollars per million tokens to four and twenty, and Anthropic says real costs fall by around forty per cent. Box found it used sixty-three per cent fewer tokens than Opus 5 on enterprise tasks, with better accuracy. Above all, people like it. The writing is cleaner, and reviewers say the personality has been fixed, after a predecessor many found hard work. The one consistent complaint is more safety refusals, which for some legal and life-science users makes it a non-starter. It is also the first release since Anthropic's pacing-the-frontier proposal, tested beforehand by outside evaluators.
+
+OpenAI answered with GPT-6 Sol and Luna, cutting API prices by half. Tellingly, its announcement dropped the usual benchmark table. It showed only graphs of performance against cost. Sam Altman called per-task pricing the metric that should matter. OpenAI also revealed that its heaviest researchers use around seven thousand dollars of tokens a day. The research group Epoch estimates that at any fixed level of performance, AI costs have fallen about forty-seven per cent every quarter since 2023, far faster than any comparable technology.
+
+Whittemore draws three lessons. Personality is user experience: how pleasant a model is to use shapes how much we get from it. Nobody serious now uses one model for everything, so the contest is for each slot in your stack. And models cannot be separated from the tools around them: if you have built your work around one company's harness, a slightly better rival may not be worth switching for. As for the joke that four releases in two days is hardly pacing, he disagrees. None of these were giant leaps, and steady gains at sharply lower cost are what pacing looks like.
+
+There is no fresh counter-source from Ed Zitron today.
+
+For general practice, one detail stands out: Box reported gains of fifteen to seventeen per cent on clinical diagnostics tasks. That is an enterprise benchmark, not clinical validation, and says nothing about UK primary care records. The real lesson is that the model under a scribe can change quickly. Ask your supplier when they switch, what they tested, and whether the safety case is updated. Tighter guardrails matter too. Clinical text often looks sensitive, with overdoses, controlled drugs and safeguarding, and a new model might quietly soften or leave out what the old one recorded. After any model change, spot-check notes from your hardest consultations. And falling costs should reach the NHS. At contract renewal, ask whether the price cuts have made it into the per-seat price.
+
+That's the brief. Source, The AI Daily Brief.

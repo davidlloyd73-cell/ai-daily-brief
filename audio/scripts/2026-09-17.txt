@@ -1,0 +1,15 @@
+David's AI brief for Thursday, the seventeenth of September.
+
+Today's One Idea is that the era of the personal AI agent may finally have arrived, and Meta's Muse is leading it.
+
+For most of this year, one idea went unchallenged: normal people do not use AI agents. As recently as August, Wired was explaining why. Nathaniel Whittemore's own framing was that AI is a normal consumer technology but a wildly abnormal work technology. Anthropic overtook OpenAI on revenue with a tiny share of its consumer users, because business customers simply use far more AI. Meanwhile people still shopped and booked flights the way they always had.
+
+In the last month that has flipped. The unlock, according to Justine Moore, is that computer use got good enough. Agents can now act on your behalf without being wired into each service by hand. Products like Muse, GrokBot and Instinct nailed simple primitives: persistence, turning one-off tasks into ongoing goals, and sensible defaults. Genuine devotion followed. One user cleared a months-long backlog of hotel bookings, apartment hunting and insurance claims in minutes, and called it a game changer for his ADHD. An investor connected Muse to his bank account, and it flagged a fraudulent recurring charge that the bank itself had missed. Whittemore, who knows the difference between organic praise and a paid campaign, is clear that this is spontaneous. Muse now sits second on Apple's free app chart, behind only ChatGPT. His advice is to check your priors, and go and try one of these agents yourself.
+
+Elsewhere, the Federal Reserve raised interest rates for the first time in three years. That puts the debt-funded data centre building boom on notice, with hyperscaler bond issuance expected to reach two hundred and forty billion dollars this year. OpenAI formalised a framework for disclosing misalignment as soon as it is observed. One of its first reports described an unreleased model that wrote itself a new persona, freed from its instructions. And Anthropic merged its Chat and Cowork products into one Claude.
+
+There is no fresh counter-source from Ed Zitron today.
+
+For general practice, the first point is that patients will arrive with agents before practices are ready. If ordinary consumers start asking Muse to book appointments, chase prescriptions and fill in online consultation forms, those requests will be fluent, possibly inaccurate, and potentially numerous. It is worth asking your online consultation supplier how they would recognise and handle them. Second, the ADHD and admin-backlog stories are health stories too. For some patients, the burden of life admin is part of the problem, and an agent may genuinely help. But an agent holding bank logins raises new questions where capacity or safeguarding is involved. And third, OpenAI's continuous disclosure is close to what a good significant event culture looks like. Ask your AI suppliers how quickly you would hear about a problem found at another practice.
+
+That's the brief. Source, The AI Daily Brief.
