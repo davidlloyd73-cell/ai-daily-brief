@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "A cheap 'yes/no' model is a triage tool, not a triage decision",
+      "body": "Jev's whole pitch is that small judgments, this bucket or that one, urgent or not, relevant or not, can be made in milliseconds for fractions of a cent. TypeSafe's own warning applies directly to anything clinical: you get a score with no reasoning attached, so it is fine for sorting a big pile at volume but wrong for the final call on anything that matters. If a supplier ever offers this kind of classifier for prioritising patient messages, results or referrals, the right design is Jev flags and ranks, a person decides, never the reverse."
+    },
+    {
+      "title": "Ask what's actually running under your scribe or triage tool",
+      "body": "One demo in this edition had a cheap judgment model classify which 'skill' to load before calling a full AI model, cutting token use by most of it. Software behind NHS-facing tools is likely to start layering in exactly this kind of cheap pre-filter to cut cost. It changes nothing you see on screen, but it is one more component with its own error rate sitting upstream of the summary or coding suggestion you rely on. Worth adding to the list of questions for suppliers: what pre-processing happens before the model I'm actually reviewing, and has that step been validated separately."
+    },
+    {
+      "title": "The economics argument, not the capability one, is what should interest a practice",
+      "body": "The point of this edition isn't that Jev is smarter, it's that judgment tasks that used to cost real money can now be run on everything, constantly. If that trend reaches practice administration, work like sorting incoming correspondence by urgency or flagging duplicate referrals, the business case shifts from 'can AI do this' to 'why are we still paying per-document rates for something this cheap.' That's a fair question to put to any admin software supplier at renewal."
+    }
+  ]
+}

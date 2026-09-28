@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "The privacy question ambushing personal agents is the same one facing AI scribes",
+      "body": "The New York Times reviewer who trialled Meta's Muse went in doubting whether personal agents were useful and came out doubting whether people would hand over enough personal data to make them useful. That is exactly the conversation practices are already having about ambient scribes: the tool works, so the live question becomes consent, where the recording and transcript sit, and who else's systems it touches. Worth revisiting your own scribe's data flow and patient information leaflet with that framing, rather than assuming usefulness has settled the privacy question."
+    },
+    {
+      "title": "Claude's 'CRISPR-like' enzyme discovery is a headline, not a finding",
+      "body": "Anthropic ran 1,000 Claude agents for 21 hours and found a gene cluster that resembles CRISPR machinery, but geneticists quoted alongside the story say the hard part, working out what it actually does, hasn't been done, and some see IPO-timed hype in the framing. It is a useful reminder for anything AI-flavoured that reaches patients: a striking early-stage result is not a validated one, and 'AI discovered' is not a substitute for peer review before it changes what you tell someone about their health."
+    },
+    {
+      "title": "Agents that act without being asked need a stop button, same as the scribe",
+      "body": "Meta's pitch for its Ray-Ban glasses and new always-on 'Charm' device is agents working proactively in the background while you talk, not waiting to be prompted. If ambient AI in the consultation room moves the same way, from transcribing what's said to quietly acting on it, the practice needs the same basic safeguard it should already have for the scribe: everyone knows how to switch it off, and what happens to the encounter if it fails mid-consultation."
+    }
+  ]
+}

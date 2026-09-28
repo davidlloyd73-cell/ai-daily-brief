@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-23",
-  "title": "Opus 5.5 vs GPT-6 Sol and Luna",
-  "dek": "A treat we can't remember ever getting before: OpenAI and Anthropic release new models on the same day. Opus 5.5 reclaims the love Anthropic hasn't felt since Opus 4.6 \u2014 topping the intelligence index while cutting prices \u2014 while GPT-6 Sol and Luna halve API costs in OpenAI's relentless march down the cost curve. The real lesson isn't who won; it's that the model war is now about cost per task, personality as UX, and slots in your stack.",
-  "source": "https://aidailybrief.ai/e/2026-09-23",
+  "date": "2026-09-25",
+  "title": "How People Are Actually Using Jev",
+  "dek": "Ten days after launch, Jev \u2014 TypeSafe's blazing-fast 'system one' judgment model \u2014 has gone from viral emoji demos to real production use. Today: six categories of actual use cases, from ad teardowns and live-prioritized inboxes to agent routing, plus where the model breaks down and how to write questions it can actually answer.",
+  "source": "https://aidailybrief.ai/e/2026-09-25",
   "oneIdea": {
-    "headline": "The model war isn't about one winner anymore \u2014 it's cost per task and slots in your stack.",
-    "summary": "Four major releases in two days, including the rarest of treats: OpenAI and Anthropic dropping on the same day. Opus 5.5 won the buzz \u2014 top of the intelligence index by five points, cheaper than its predecessor, and with its personality finally fixed \u2014 while GPT-6 Sol and Luna cut API prices 50% and abandoned benchmark charts for cost-versus-performance graphs. But nobody serious is picking one model for everything anymore. The battle is for each slot in your stack, harnesses lock in behavior more than raw capability, and this \u2014 incremental gains at radical cost drops \u2014 is what the pacing-the-frontier era actually looks like."
+    "headline": "Cheap, instant judgment at scale is a new primitive \u2014 not another chatbot.",
+    "summary": "Jev can't write code or draft contracts. What it can do is make small judgments \u2014 which bucket, how urgent, is it relevant \u2014 in milliseconds, for fractions of a cent, across everything you have. Ten days in, the pattern is clear: when judgment gets 40 to 400 times cheaper, you stop sampling and start asking questions about every ad, every email, every page, every agent step. That's not a difference in scale from LLM review \u2014 it's a difference in kind, and it's going to take a while to figure out how deeply it weaves into everything."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Clinical diagnostics accuracy rose, but only in one vendor's tests",
-        "body": "Box reported Opus 5.5 improving task accuracy by 15 to 17% on clinical diagnostics, alongside large gains elsewhere. That is an enterprise knowledge-work benchmark on unstructured documents, not a clinical validation, and it says nothing about UK primary care records or patient safety. The useful point for practices is that the model under a scribe or document tool can change quickly and noticeably. Ask your supplier when they switch models, what they tested on, and whether the clinical safety case is updated. A better benchmark is not the same as a validated change."
+        "title": "A cheap 'yes/no' model is a triage tool, not a triage decision",
+        "body": "Jev's whole pitch is that small judgments, this bucket or that one, urgent or not, relevant or not, can be made in milliseconds for fractions of a cent. TypeSafe's own warning applies directly to anything clinical: you get a score with no reasoning attached, so it is fine for sorting a big pile at volume but wrong for the final call on anything that matters. If a supplier ever offers this kind of classifier for prioritising patient messages, results or referrals, the right design is Jev flags and ranks, a person decides, never the reverse."
       },
       {
-        "title": "Tighter guardrails can quietly break clinical use cases",
-        "body": "The standout complaint about Opus 5.5 is more refusals, including Fable-class biology guardrails and worse performance for some legal drafting. Clinical text often looks sensitive: overdoses, controlled drugs, self-harm, safeguarding. When suppliers move to a new model, a tool that summarised these consultations yesterday may refuse, water down or omit them today, and an omission in a note is harder to spot than an error. Spot-check scribe output on your most sensitive consultation types after any model change."
+        "title": "Ask what's actually running under your scribe or triage tool",
+        "body": "One demo in this edition had a cheap judgment model classify which 'skill' to load before calling a full AI model, cutting token use by most of it. Software behind NHS-facing tools is likely to start layering in exactly this kind of cheap pre-filter to cut cost. It changes nothing you see on screen, but it is one more component with its own error rate sitting upstream of the summary or coding suggestion you rely on. Worth adding to the list of questions for suppliers: what pre-processing happens before the model I'm actually reviewing, and has that step been validated separately."
       },
       {
-        "title": "Falling costs make AI more affordable for the NHS, if the savings are passed on",
-        "body": "Price cuts of 40 to 50% and a cost curve falling roughly 47% a quarter at a fixed level of capability should, in principle, make ambient scribes and document tools cheaper per consultation. NHS buyers should expect that to show up in pricing. When contracts come up for renewal, ask suppliers what share of their cost is the model and whether the recent price drops have reached the per-seat price. The other lesson from the stack debate applies too: the cheapest adequate model for routine letters need not be the one used for complex summaries."
+        "title": "The economics argument, not the capability one, is what should interest a practice",
+        "body": "The point of this edition isn't that Jev is smarter, it's that judgment tasks that used to cost real money can now be run on everything, constantly. If that trend reaches practice administration, work like sorting incoming correspondence by urgency or flagging duplicate referrals, the business case shifts from 'can AI do this' to 'why are we still paying per-document rates for something this cheap.' That's a fair question to put to any admin software supplier at renewal."
       }
     ]
   },
@@ -28,246 +28,266 @@
   "the_truth_beneath": null,
   "headlines": [
     {
-      "id": "same-day-showdown",
-      "headline": "The rarest of treats: OpenAI and Anthropic drop on the same day",
+      "id": "jev-billion-dollar-buzz",
+      "headline": "Ten days in, Jev is raising at $10 billion",
       "type": "insight",
       "segment": "main",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Four major model releases in the first half of the week, including two on Tuesday from the two most important labs of the moment \u2014 something the host can't remember ever happening before. SpaceX AI followed the usual pattern, releasing a day early to avoid being drowned out. The problem with a same-day release: it forces everyone to ask which lab is winning instead of where each model fits in the rotation.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#same-day-showdown"
+      "summary": "The Information reports TypeSafe is in talks to raise as much as $1 billion at a $10 billion or higher valuation \u2014 a huge jump from its $40 million seed at $200 million. Hundreds of viral posts have translated directly into financial opportunity.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#jev-billion-dollar-buzz"
     },
     {
-      "id": "opus-redemption-arc",
-      "headline": "Opus's redemption arc, told in one horse meme",
+      "id": "system-one-model",
+      "headline": "Jev is a 'system one' model \u2014 snap judgments, not writing",
       "type": "insight",
       "segment": "main",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "It's been a long time since an Opus-class model was the big show: 4.7 and 4.8 were seen as regressions at worst and incremental at best, and people genuinely did not like Opus 5. Peter Yang's meme captures the arc \u2014 a beautifully illustrated horse for Opus 4.6, degrading to near scribbles for Opus 5, and back to the perfect horse for Opus 5.5. The people are really liking this model.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#opus-redemption-arc"
+      "summary": "TypeSafe borrows the term from Kahneman's Thinking Fast and Slow: fast, instinctive pattern matching. The test for a good Jev job: anywhere you repeatedly read something, make a small judgment, and take a predictable next step \u2014 like deciding a downloaded PDF is an invoice, which project it belongs to, and who needs to see it.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#system-one-model"
     },
     {
-      "id": "fable-performance-forty-percent-less",
-      "headline": "Anthropic's pitch: Fable 5.1 performance at 40% less cost",
+      "id": "three-question-types",
+      "headline": "Jev answers exactly three kinds of questions",
       "type": "insight",
       "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Anthropic says Opus 5.5 performs at Claude Fable 5.1's level for most tasks while costing 40% less to run. But on the benchmarks it actually beats Fable too: TerminalBench 4.0 jumped from 55.8% to 66.4%, with gains on Cursor Bench, Frontier Code V1.1, and Humanity's Last Exam. It led GPT-6 Astra everywhere except Automation Bench (business workflows) and Terminal Bench Science.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#fable-performance-forty-percent-less"
+      "summary": "Choice: pick the best fit from up to 255 options, with probabilities for every option. Score: place something on a 2-to-10-level scale you describe in words. Null (short for Bernoulli): a yes/no with a 0-to-1 probability that the statement is true. That's the entire interface.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#three-question-types"
     },
     {
-      "id": "opus-pricing-and-speed",
-      "headline": "$4 in, $20 out \u2014 and faster on top",
+      "id": "emoji-demo-no-labels",
+      "headline": "The emoji demo shows why this isn't traditional ML",
       "type": "insight",
       "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "List pricing drops from Opus 5's $5/$25 per million tokens to $4/$20, but additional efficiencies push real cost gains to about 40%. Because its default effort settings beat other models running at higher settings, output averages 30% faster than Opus 5 \u2014 and Anthropic bumped five-hour usage limits on Pro, Max, and Team plans, plus a rate-limit reset for other subscribers.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#opus-pricing-and-speed"
+      "summary": "Stefan's visualization: type 'things you can wear in winter' and matching emojis race to the top. Every emoji gets the same yes/no question live \u2014 nobody labeled or tagged anything, and there's no rule for 'winter.' Because what Jev does is limited and specific, it can do it incredibly fast.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#emoji-demo-no-labels"
     },
     {
-      "id": "first-pacing-era-model",
-      "headline": "The first model of the pacing-the-frontier era",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "04:00",
-      "attribution": null,
-      "summary": "Opus 5.5 is Anthropic's first release since the Pacing the Frontier note, tested pre-release by external evaluators including Frontier Design and METER. Anthropic argues it's the best-aligned model they've shipped; alignment researcher Sam Bauman says it's \"sufficiently safer than its predecessors that releasing it more likely than not reduces risks related to misalignment.\"",
-      "link": "https://aidailybrief.ai/e/2026-09-23#first-pacing-era-model"
-    },
-    {
-      "id": "sol-luna-half-price",
-      "headline": "OpenAI's answer: Sol and Luna at half price",
+      "id": "speed-cost-profile",
+      "headline": "20\u2013200\u00d7 faster, 40\u2013400\u00d7 cheaper \u2014 and output tokens are free",
       "type": "insight",
       "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "GPT-6 Sol and Luna bring much of Astra's strength into faster, more affordable models \u2014 with 50% lower API prices than GPT-5.6's promotional pricing, cutting from the previous generation, not just from Astra. OpenAI explicitly pitches the savings as room to iterate, building on the pattern of Codex for interactive work versus Claude for hands-off long-running tasks.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#sol-luna-half-price"
+      "summary": "TypeSafe's launch claims versus comparable LLM processes. A million input tokens cost 4.2 cents, output is free, and each call takes 70 to 500 milliseconds. The power isn't just that it's good at judgment \u2014 it's that it's fast and cheap enough to make judgments about everything.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#speed-cost-profile"
     },
     {
-      "id": "openai-kills-benchmark-chart",
-      "headline": "OpenAI has abandoned the benchmark chart",
+      "id": "parallel-questions",
+      "headline": "Batch your questions: the ninth query is basically free",
       "type": "insight",
       "segment": "main",
-      "timestamp": "06:00",
+      "timestamp": "05:00",
       "attribution": null,
-      "summary": "Where Anthropic still shows traditional benchmark tables with percentage scores across models, OpenAI's announcement page only shows graphs mapping performance on the Y-axis versus cost on the X-axis. The entire strategy, expressed in a single design choice.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#openai-kills-benchmark-chart"
+      "summary": "Questions run in parallel, so asking more doesn't cost time, just tokens. TypeSafe found 13 questions in a single call was 12.2\u00d7 cheaper and 10\u00d7 faster than asking one at a time \u2014 with identical answers.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#parallel-questions"
     },
     {
-      "id": "altman-per-task-pricing",
-      "headline": "Compared by per-task pricing, I don't think there is anything competitive anywhere in the market.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "07:00",
-      "attribution": "Sam Altman, on GPT-6 Sol and Luna",
-      "summary": "Altman calls per-task pricing \"the metric that should matter\" and frames cheap intelligence as the whole point: \"We want people to be able to use tons of AI. It's important to being able to explore this new renaissance in front of us.\"",
-      "link": "https://aidailybrief.ai/e/2026-09-23#altman-per-task-pricing"
-    },
-    {
-      "id": "researcher-token-burn",
-      "headline": "$7,000 a day in tokens",
+      "id": "berman-ad-teardown",
+      "headline": "724 live ads, fully dissected, in 40 seconds for 9 cents",
       "type": "insight",
       "segment": "main",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "Valued at API prices, the 90th percentile of OpenAI researchers uses $7,000 of tokens per day. OpenAI almost understates the implication: \"As coding agents take on longer and more demanding tasks, the cost of sustained use matters more.\"",
-      "link": "https://aidailybrief.ai/e/2026-09-23#researcher-token-burn"
+      "summary": "Matthew Berman ran 12 questions per ad \u2014 hook archetype, format, offer, CTA intent, awareness \u2014 across 724 live ads from 37 brands; each 12-question call took just 173 milliseconds. Compare that structural data to actual performance and you get fine-grained advertising insight that was previously impractical to produce.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#berman-ad-teardown"
     },
     {
-      "id": "independent-verdicts-sol-luna",
-      "headline": "Independent verdict on Sol: cheaper and better, a rare combo",
+      "id": "synthetic-scroll-test",
+      "headline": "22 cents bought 21,690 synthetic stop-or-scroll decisions",
       "type": "insight",
       "segment": "main",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "On Artificial Analysis's new V3 index, Sol and Luna score roughly level with their 5.6 predecessors but at lower cost per intelligence \u2014 with a significant reduction in hallucination. Zapier's real-workflow tests: GPT-6 Sol scored 33.2% versus 5.6 Sol's 28.77% at roughly half the price. Their summation: upgrade any workflow still on 5.6.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#independent-verdicts-sol-luna"
+      "summary": "Berman then had Jev evaluate 723 ads as 30 buyer archetypes \u2014 gym owner, dental office manager, toddler mom \u2014 asking for every pair: would this person stop scrolling? These aren't real buyers, so treat it as a hypothesis generator. But it's hard not to think marketing will use this to pressure-test ad and landing-page angles before paying for real tests.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#synthetic-scroll-test"
     },
     {
-      "id": "opus-tops-intelligence-index",
-      "headline": "Opus 5.5 thwomps the intelligence index",
+      "id": "run-it-over-the-archive",
+      "headline": "Category one: ask the same questions about everything you already have",
       "type": "insight",
       "segment": "main",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "Opus 5.5 jumped to 58 on Artificial Analysis's index \u2014 five full points clear of previous co-leaders Fable 5.1 and GPT-6 Astra at 53 \u2014 with a 20% price cut on top. Matthew Berman spoke for the discourse: the best model on the planet also being cheaper than Astra and Fable \"was not on my bingo card.\"",
-      "link": "https://aidailybrief.ai/e/2026-09-23#opus-tops-intelligence-index"
+      "summary": "Ian Nuttall ran eight questions \u2014 topic, hook, tone \u2014 across nearly 3,300 of his past X posts for about 13 cents, then compared against engagement to see what actually worked. Any big pile you have \u2014 a year of customer emails, CRM notes, a folder of transcripts \u2014 is a potential Jev job if you can write a few simple questions.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#run-it-over-the-archive"
     },
     {
-      "id": "box-enterprise-numbers",
-      "headline": "Box's enterprise tests: fewer tokens, more accuracy",
+      "id": "search-by-meaning",
+      "headline": "Category two: search for what you mean, not what the words say",
       "type": "insight",
       "segment": "main",
       "timestamp": "10:00",
       "attribution": null,
-      "summary": "On complex enterprise knowledge-work tasks with unstructured data, Aaron Levie's team at Box found Opus 5.5 used 63% fewer tokens than Opus 5, was 42% less verbose, and ran 30% faster \u2014 while task accuracy rose 39% on financial services, 65% on cloud cost analysis, and 15-17% on clinical diagnostics and consumer products.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#box-enterprise-numbers"
+      "summary": "Justine Moore of a16z described scanning thousands of Zillow listings for things you can't filter for \u2014 architectural style, renovation status, freeway proximity. Burhan clipped a 90-minute video by natural-language themes like 'their predictions for when AI will automate AI research' \u2014 in under two seconds, for under two cents.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#search-by-meaning"
     },
     {
-      "id": "code-generated-worlds",
-      "headline": "3D worlds from pure code \u2014 no image model required",
+      "id": "seo-audit-frontier-prices",
+      "headline": "A 586-page SEO audit: Jev did in 45 seconds what Opus barely started",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "10:00",
+      "attribution": null,
+      "summary": "Borja had Jev read all 586 pages of a website and rebuild the internal link map \u2014 8,790 yes/no calls \u2014 in 45.1 seconds for 21 cents. Claude Opus 5 got through 21 pages and spent $1.43. As Borja put it, internal linking is a classification problem 'and we have been paying frontier prices to do it one page at a time.'",
+      "link": "https://aidailybrief.ai/e/2026-09-25#seo-audit-frontier-prices"
+    },
+    {
+      "id": "filter-your-feed",
+      "headline": "Real-time filters: slop detectors and brand-relevant news triage",
       "type": "insight",
       "segment": "main",
       "timestamp": "11:00",
       "attribution": null,
-      "summary": "Demos show Opus 5.5 one-shotting Blender claymations, an interactive coral reef wallpaper, a \"video\" of the Golden Gate Bridge generated entirely from code, and a historically accurate 1906 Market Street \u2014 mogging GPT-6 Astra on exactly the visual use cases that defined Astra's launch just weeks ago. Dan Wood calls it \"an astounding leap in spatial awareness.\"",
-      "link": "https://aidailybrief.ai/e/2026-09-23#code-generated-worlds"
+      "summary": "Robin built a live AI-slop detector that confidence-scores every X post as you scroll and blocks past a threshold. Elvis had Jev read 384 morning news stories and flag which ones 15 different brands should care about \u2014 24.9 seconds, 19 cents. In the same window, Opus 5 got through four articles.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#filter-your-feed"
     },
     {
-      "id": "painting-pixel-by-pixel",
-      "headline": "7,500 lines of code, painting pixel by pixel",
+      "id": "live-prioritized-inbox",
+      "headline": "The live-prioritized inbox is the use case NLW wants yesterday",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "12:00",
+      "attribution": null,
+      "summary": "Jonathan Yunikowski asked: what if your inbox was live-prioritized by importance instead of reverse chronological? Jev rated 100 emails in 453 milliseconds for about a tenth of a cent \u2014 and matched his own ratings on every single one. 'This is a use case that I want right now, not tomorrow. In fact, I wanted it yesterday.'",
+      "link": "https://aidailybrief.ai/e/2026-09-25#live-prioritized-inbox"
+    },
+    {
+      "id": "invisible-triage",
+      "headline": "Category three: one quick question per item, forever",
       "type": "insight",
       "segment": "main",
       "timestamp": "12:00",
       "attribution": null,
-      "summary": "Anthropic's Jake Eaton went viral showing Opus 5.5 emulating painters' styles via Python programs that generate every image pixel by pixel \u2014 no image model, no art software, no reference pictures, working only from what the model knows about each painter. Pair that with Tack's one-shot 30-second marketing animation and the party trick starts looking like a business capability.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#painting-pixel-by-pixel"
+      "summary": "Marcel Pochulu built a macOS app that watches his downloads folder \u2014 is this an invoice? file it correctly \u2014 with no other LLM calls. DevEd runs live chat moderation. Stephen Tey of Dub fed Jev 10,000 previously caught malicious domains to flag bad links: 'something we've been wrestling with since day one. With Jev, we solved it in two hours.'",
+      "link": "https://aidailybrief.ai/e/2026-09-25#invisible-triage"
     },
     {
-      "id": "they-fixed-the-writing",
-      "headline": "\"We fixed the writing\" \u2014 and removed the em dashes",
-      "type": "insight",
+      "id": "triage-becomes-integral",
+      "headline": "Triage and routing is where Jev becomes absolutely integral",
+      "type": "take",
       "segment": "main",
-      "timestamp": "14:00",
+      "timestamp": "13:00",
       "attribution": null,
-      "summary": "The one area of near-universal agreement that Opus 5.5 is strictly better. Anthropic's Sholto Douglas: \"Also important news, we fixed the writing.\" Every, with one of the best AI-writing benchmarks around, calls it \"the most readable prose we've seen from an Anthropic or OpenAI model\" \u2014 one that puts key information up front, follows your writing rules, and builds on your material instead of handing it back tidier.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#they-fixed-the-writing"
+      "summary": "Most workflows eventually hit the same question: what should happen next? Box has experimented with incident triage \u2014 customer impact, severity, escalation routes \u2014 and Odoo CRM has a proposed module asking three things about every lead: priority, buying readiness, spam or not. If you're in a company with multiple people touching the same leads or tickets, this is the one area to explore first.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#triage-becomes-integral"
     },
     {
-      "id": "obstinate-turd-no-more",
-      "headline": "\"It's not an obstinate little turd anymore\"",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": null,
-      "summary": "Every says the biggest upgrade isn't the writing \u2014 it's that Anthropic fixed Opus's personality, enough to \"want Claude back in the room.\" McKay Wrigley: it's Opus 4.6's personality plus Fable 5.1's intelligence and taste. Anthropic knew it, too \u2014 Nat McCallis posted: \"Opus 5.5 is way, way, way better than Opus 5. Sorry about that model. Please try this one.\"",
-      "link": "https://aidailybrief.ai/e/2026-09-23#obstinate-turd-no-more"
-    },
-    {
-      "id": "guardrails-kill-use-cases",
-      "headline": "Where the guardrails make the model null and void",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "16:00",
-      "attribution": null,
-      "summary": "The standout complaint: increased safety rejections. One legal user found Opus 5.5 \"much worse\" than Fable 5.1 for court-ready drafting and contract redlining; life-science companies note Opus now ships with Fable-class biology guardrails, closing the workaround they'd used when Fable refused requests. It's not everywhere \u2014 but if it hits your use case, it's a non-starter.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#guardrails-kill-use-cases"
-    },
-    {
-      "id": "jevons-paradox-for-agents",
-      "headline": "Jevons' paradox applied to agents",
+      "id": "jev-for-evals",
+      "headline": "Cheap grading at scale could become core agent infrastructure",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Aaron Levie: every drop in AI cost dramatically expands the use cases you can deploy agents against \u2014 \"the rate at which the cost per task drops in AI is unlike any other type of technology in history.\" Epoch's research backs it: at a given performance level, cost has fallen roughly 47% per quarter since 2023 \u2014 4\u00d7 faster than DNA sequencing, 6\u00d7 faster than compute, 18\u00d7 faster than lithium batteries.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#jevons-paradox-for-agents"
+      "summary": "Harrison Chase of LangChain called Jev 'great for evals, especially online evals where you want to grade lots of traces.' That sounds dev-only, but as everyone starts putting support bots and research agents into production, a cheap tool for continuously judging agent work looks like core infrastructure, not a niche.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#jev-for-evals"
     },
     {
-      "id": "personality-is-ux",
-      "headline": "When it comes to LLMs, personality is UX",
+      "id": "rerun-the-check-580x",
+      "headline": "Category four: turn 'please review this' into questions you can rerun forever",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "18:00",
+      "attribution": null,
+      "summary": "Every planted mistakes in 12 passages: Jev caught six of seven versus Claude Fable 5.1's seven \u2014 but in 0.35 seconds versus 8.83, at roughly 580\u00d7 cheaper. At that price you can rerun the same check enormously many times and still beat a single frontier pass. Practical version: turn your style guide into yes/no questions and run them on every paragraph.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#rerun-the-check-580x"
+    },
+    {
+      "id": "difference-in-kind",
+      "headline": "At this scale, it's a difference in kind, not degree",
       "type": "take",
+      "segment": "main",
+      "timestamp": "18:00",
+      "attribution": null,
+      "summary": "The biggest rewiring Jev demands: its value isn't just doing a thing, it's doing it at such scale that the capability changes category. Checking every single sentence in minute detail for AI-isms is categorically different from running one generic LLM review across a whole document.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#difference-in-kind"
+    },
+    {
+      "id": "micro-judgments-for-agents",
+      "headline": "Category five: micro-judgments make agents cheaper and faster",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "19:00",
+      "attribution": null,
+      "summary": "People are using Jev to route agents to the right model, reasoning level, and tools. Vi Chen had Jev adjust GPT-6's reasoning effort inside Codex mid-task \u2014 more thinking when stuck, less for routine steps \u2014 cutting cost about 50% while runs got faster.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#micro-judgments-for-agents"
+    },
+    {
+      "id": "skill-injection-88-percent",
+      "headline": "Classify the skill first, inject only what's needed: 88% fewer tokens",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "20:00",
+      "attribution": null,
+      "summary": "Daniel Son's Jev Skill Suggestion for Claude Code classifies which skill best matches each request and injects only that skill into context \u2014 an 88% decrease in tokens and cost. If you've built up a big skills library in Codex or Claude Code, this is how you stop shipping the whole thing with every request.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#skill-injection-88-percent"
+    },
+    {
+      "id": "harness-that-learns",
+      "headline": "A harness that learns the job: $2.95 per alert down to 25 cents",
+      "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "Even ruthless early adopters who profess to only care about performance have personality preferences \u2014 the Opus excitement is about the pleasure of use, not new capabilities. The ChatGPT-4o deprecation dust-up wasn't just crazy normies: how enjoyable a model's personality is to use has real implications for how much we get out of it, and we should treat it that way.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#personality-is-ux"
+      "summary": "AJ Asver's team built a Jev-based harness that cuts repetitive-work costs by 90%, learning as it runs and moving steps from LLM calls to code. On compliance alerts, cost per alert fell from about $2.95 at the start to 25 cents by alert 1,000. Expect judgment models to be built natively into the tools and harnesses we use.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#harness-that-learns"
     },
     {
-      "id": "battle-for-stack-slots",
-      "headline": "The LLM war is now a battle for slots in your stack",
-      "type": "take",
+      "id": "smart-copy-paste",
+      "headline": "Category six: what if copy/paste was smart?",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "21:00",
+      "attribution": null,
+      "summary": "Marcus Lowe's demo: copy a resume, paste into an application, and the fields fill themselves. Norman's version splits pasted text, works out what each field is, and pastes only confident matches. Given how much work is moving details from emails, PDFs, and notes into CRMs and forms, this category feels very, very relevant.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#smart-copy-paste"
+    },
+    {
+      "id": "where-to-be-careful",
+      "headline": "Be careful with hiring, money, and security \u2014 the score has no reasoning attached",
+      "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "Opus 5.5 won the buzz, but even its biggest fans aren't saying use it for everything. The real contest is figuring out what your stack of options needs to be, then battling for each slot \u2014 matching tasks to models on performance, capability, cost, and speed. Sol and Opus look like direct competitors at first glance, but their builders are thinking about them differently.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#battle-for-stack-slots"
+      "summary": "Ranking job applications with Jev is tempting, but even with good criteria you get a number and no rationale. The better pattern is hybrid systems: let Jev rank at volume, then automatically send bubble candidates to a fuller LLM review for a second look.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#where-to-be-careful"
     },
     {
-      "id": "models-vs-harnesses",
-      "headline": "You can't separate models from harnesses anymore",
-      "type": "take",
+      "id": "what-jev-is-bad-at",
+      "headline": "TypeSafe's own list of what Jev is bad at",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "22:00",
+      "attribution": null,
+      "summary": "Multi-step questions, where accuracy drops with each hop. Counting, math, and dates \u2014 it can extract the facts, but do the arithmetic elsewhere. Plus known issues with consistency and reading intent. Refreshingly, the vendor is explicit about the limits.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#what-jev-is-bad-at"
+    },
+    {
+      "id": "four-fit-criteria",
+      "headline": "The four-question fit test for a Jev job",
+      "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "For anyone fully invested in the Codex ecosystem, Opus 5.5 being better doesn't matter as long as OpenAI is close enough \u2014 the harness holds your context, tools, and rules. Will Brown captures the churn: \"I keep switching desktop agents every week, and it's getting out of control.\" The real proof comes in a week: did anyone actually change behavior, or did everyone test and go home?",
-      "link": "https://aidailybrief.ai/e/2026-09-23#models-vs-harnesses"
+      "summary": "One: you can write the possible answers in advance \u2014 categories, a yes/no, a scale. Two: there's a pile or a stream, hundreds of tickets or emails. Three: a wrong answer is cheap or easy to catch \u2014 don't leave high-stakes calls to its judgment alone. Four: you can hand it the evidence as text in under 32,000 tokens.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#four-fit-criteria"
     },
     {
-      "id": "muse-and-the-product-era",
-      "headline": "Muse hints at the product era of AI",
+      "id": "one-judgment-per-question",
+      "headline": "'Is this a good lead?' is a bad question \u2014 it's five judgments in a trench coat",
       "type": "insight",
       "segment": "main",
-      "timestamp": "24:00",
+      "timestamp": "23:00",
       "attribution": null,
-      "summary": "While the model wars raged, the other buzzy story was Meta's Muse \u2014 arguably the first AI product with serious traction where users genuinely don't know or care which model is underneath. Model abstraction has been talked about forever without playing out in practice; if it finally does, the entire new-model conversation changes.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#muse-and-the-product-era"
-    },
-    {
-      "id": "this-is-what-pacing-looks-like",
-      "headline": "Four releases in two days IS what pacing the frontier looks like",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "The easy joke \u2014 \"this is pacing?\" \u2014 misses the point. As Theo put it, none of these releases were Astra or Fable tier, and that's intentional: pacing isn't stopping iteration, it's preventing bigger-model development from spiraling. Models that fix specific problems and deliver incremental gains at significant cost efficiencies are a pretty good place to spend some time.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#this-is-what-pacing-looks-like"
-    },
-    {
-      "id": "labs-must-think-product",
-      "headline": "The labs have never had to think in product terms \u2014 until now",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "26:00",
-      "attribution": null,
-      "summary": "Capability jumps post-ChatGPT have been so pronounced that labs could splatter the latest thing at us and we'd eat it up. But that market saturates. As Anthropic's Tariq put it, the right way to use new capabilities isn't shipping 10\u00d7 more features \u2014 it's understanding users, running experiments, and shipping things that actually work. The endless pursuit of bigger models isn't the only be-all and end-all anymore.",
-      "link": "https://aidailybrief.ai/e/2026-09-23#labs-must-think-product"
+      "summary": "Break questions into constituent parts: industry fit, company size, buying intent, and so on, each as its own question. Describe every scale level in words, ask more questions than you think you need, and test before you trust \u2014 label 50 emails yourself and compare before letting the classifier run your inbox.",
+      "link": "https://aidailybrief.ai/e/2026-09-25#one-judgment-per-question"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-09-23.mp3",
-  "generated": "2026-09-24T20:16:44Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-09-25.mp3",
+  "generated": "2026-09-28T05:33:55Z"
 }
