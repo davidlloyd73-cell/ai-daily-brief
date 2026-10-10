@@ -1,293 +1,261 @@
 {
-  "date": "2026-09-25",
-  "title": "How People Are Actually Using Jev",
-  "dek": "Ten days after launch, Jev \u2014 TypeSafe's blazing-fast 'system one' judgment model \u2014 has gone from viral emoji demos to real production use. Today: six categories of actual use cases, from ad teardowns and live-prioritized inboxes to agent routing, plus where the model breaks down and how to write questions it can actually answer.",
-  "source": "https://aidailybrief.ai/e/2026-09-25",
+  "date": "2026-10-08",
+  "title": "The Most Important Trends Showing Up in New AI Products",
+  "dek": "A product-barrage week \u2014 GrokBot going multi-model, Claude Haiku 5.5 attacking the cheap end, ChatGPT generating its own interfaces \u2014 and the argument that each release is really a trend in disguise: model choice as table stakes, US labs owning the Pareto frontier, and the foundation labs finally forced to compete on product.",
+  "source": "https://aidailybrief.ai/e/2026-10-08",
   "oneIdea": {
-    "headline": "Cheap, instant judgment at scale is a new primitive \u2014 not another chatbot.",
-    "summary": "Jev can't write code or draft contracts. What it can do is make small judgments \u2014 which bucket, how urgent, is it relevant \u2014 in milliseconds, for fractions of a cent, across everything you have. Ten days in, the pattern is clear: when judgment gets 40 to 400 times cheaper, you stop sampling and start asking questions about every ad, every email, every page, every agent step. That's not a difference in scale from LLM review \u2014 it's a difference in kind, and it's going to take a while to figure out how deeply it weaves into everything."
+    "headline": "This week's products aren't just features \u2014 they're the trends shaping AI, shipped.",
+    "summary": "Read the releases as a map: Elon declaring GrokBot will use whatever model is best confirms multi-modelness is the demand and the harness is the lock-in. Haiku 5.5 shows Anthropic competing at the bottom of the market \u2014 and US labs reclaiming the entire cost-intelligence Pareto frontier. And ChatGPT's intelligent UI marks the moment the frontier labs, with intelligence now on tap everywhere, actually have to care about product experience. The same patterns show up in Ramp's spend data before they show up in the keynotes."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "A cheap 'yes/no' model is a triage tool, not a triage decision",
-        "body": "Jev's whole pitch is that small judgments, this bucket or that one, urgent or not, relevant or not, can be made in milliseconds for fractions of a cent. TypeSafe's own warning applies directly to anything clinical: you get a score with no reasoning attached, so it is fine for sorting a big pile at volume but wrong for the final call on anything that matters. If a supplier ever offers this kind of classifier for prioritising patient messages, results or referrals, the right design is Jev flags and ranks, a person decides, never the reverse."
+        "title": "If Whittemore is right: products keep improving and prices fall",
+        "body": "Cheaper models like Haiku 5.5 and ChatGPT's generated interfaces would make AI tools cheaper and simpler to use in a surgery. Meta's Muse adding connectors for business tools suggests more small-business automation within a year."
       },
       {
-        "title": "Ask what's actually running under your scribe or triage tool",
-        "body": "One demo in this edition had a cheap judgment model classify which 'skill' to load before calling a full AI model, cutting token use by most of it. Software behind NHS-facing tools is likely to start layering in exactly this kind of cheap pre-filter to cut cost. It changes nothing you see on screen, but it is one more component with its own error rate sitting upstream of the summary or coding suggestion you rely on. Worth adding to the list of questions for suppliers: what pre-processing happens before the model I'm actually reviewing, and has that step been validated separately."
+        "title": "If Zitron is right: financing stress reaches suppliers",
+        "body": "If credit tightens, AI companies could raise prices, cut free tiers or merge. A practice should avoid being dependent on a single AI supplier and keep its records in portable formats."
       },
       {
-        "title": "The economics argument, not the capability one, is what should interest a practice",
-        "body": "The point of this edition isn't that Jev is smarter, it's that judgment tasks that used to cost real money can now be run on everything, constantly. If that trend reaches practice administration, work like sorting incoming correspondence by urgency or flagging duplicate referrals, the business case shifts from 'can AI do this' to 'why are we still paying per-document rates for something this cheap.' That's a fair question to put to any admin software supplier at renewal."
+        "title": "Cyber risk is the immediate, shared concern",
+        "body": "Dimon says cyber risk is up tenfold after Mythos. NHS general practice is a plausible target, so basic hygiene, patching, multi-factor authentication and backups matter more than any AI tool."
       }
     ]
   },
-  "the_other_side": null,
-  "the_truth_beneath": null,
+  "the_other_side": {
+    "source": "Credit Crunch",
+    "url": "https://www.wheresyoured.at/credit-crunch/",
+    "date": "2026-10-06",
+    "same_day": false,
+    "text": "Zitron argues the AI build-out depends on debt that is getting more expensive: ten-year US Treasury yields above 5.3 per cent raise the floor for every data-centre borrower. He says the labs and builders will need at least $50 billion in new debt every year, probably at junk credit ratings, and he cites Oracle data-centre debt trading at 84 cents on the dollar. His point is that nobody can say who will pay for all this, and that the best-case assumption the market is making is dangerous."
+  },
+  "the_truth_beneath": {
+    "text": "The variable both men orbit is the cost and availability of capital against real AI revenue. They accept the facts: the build-out is huge, it is increasingly financed by private credit and lower-rated debt, and some lenders are asking for little detail. The empirical question is whether AI revenue grows into the debt service, and the observables that settle it are the pricing and take-up of Oracle's and SpaceX's financings, Treasury yields, and any downgrade. The worldview residue is whether revenue growth of the labs extrapolates. For Whittemore to be vindicated, lenders keep lending at tolerable rates and revenue arrives. For Zitron, funding tightens or a borrower is downgraded before revenue catches up. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron is bubble-certain and anti-hype. The signal is where they agree despite opposite priors, that the financing is increasingly aggressive. Watch the outcome of the SpaceX chip loan."
+  },
   "headlines": [
     {
-      "id": "jev-billion-dollar-buzz",
-      "headline": "Ten days in, Jev is raising at $10 billion",
+      "id": "nous-hermes-1-5b",
+      "headline": "The open-source agent hits a $1.5B valuation",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "01:00",
+      "segment": "headlines",
+      "timestamp": "00:00",
       "attribution": null,
-      "summary": "The Information reports TypeSafe is in talks to raise as much as $1 billion at a $10 billion or higher valuation \u2014 a huge jump from its $40 million seed at $200 million. Hundreds of viral posts have translated directly into financial opportunity.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#jev-billion-dollar-buzz"
+      "summary": "Nous Research \u2014 the OpenClaw-inspired group whose early work felt like half AI research, half performance art \u2014 raised at a $1.5 billion valuation. The Hermes agent has been installed 22 million times and now accounts for roughly 2.5% of global token usage, and the fresh capital will fund Hermes for Business.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#nous-hermes-1-5b"
     },
     {
-      "id": "system-one-model",
-      "headline": "Jev is a 'system one' model \u2014 snap judgments, not writing",
+      "id": "open-source-has-a-business-model",
+      "headline": "Open source has a viable business case in AI",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "TypeSafe borrows the term from Kahneman's Thinking Fast and Slow: fast, instinctive pattern matching. The test for a good Jev job: anywhere you repeatedly read something, make a small judgment, and take a predictable next step \u2014 like deciding a downloaded PDF is an invoice, which project it belongs to, and who needs to see it.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#system-one-model"
+      "summary": "Hermes is free with bring-your-own models, but subscriptions bundling frontier model usage and hosted instances have grown Nous to $36 million in annualized revenue, with a target of $100 million by year-end. CEO Dylan Rolnick's framing: the marginal cost to reproduce software has plummeted, so there are few benefits to keeping a technology like Hermes locked down \u2014 and many to proliferating it.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#open-source-has-a-business-model"
     },
     {
-      "id": "three-question-types",
-      "headline": "Jev answers exactly three kinds of questions",
+      "id": "your-agent-should-be-yours",
+      "headline": "Your agent should be yours.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "03:00",
+      "attribution": "Nous Research, posting its non-negotiables for AI on X",
+      "summary": "The closing line of Nous Research's posted list of non-negotiables for AI: you should be able to use smarter, cheaper, or local models in your agent, switch models mid-conversation, choose what it remembers and forgets, run it on a machine that never touches the internet, read the prompt it runs on, and read and change the code.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#your-agent-should-be-yours"
+    },
+    {
+      "id": "chip-financing-mega-deals",
+      "headline": "Tens of billions in chip financing moves to private credit",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Choice: pick the best fit from up to 255 options, with probabilities for every option. Score: place something on a 2-to-10-level scale you describe in words. Null (short for Bernoulli): a yes/no with a 0-to-1 probability that the statement is true. That's the entire interface.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#three-question-types"
+      "summary": "Per The Wall Street Journal, Oracle is seeking Apollo and Goldman funding for a big chip purchase \u2014 possibly sidestepping the investment-grade bond market with a downgrade looming \u2014 while Broadcom is in talks with Apollo and Blackstone on a $50 billion deal to finance OpenAI's custom chips. That one looks like Broadcom lending its credit rating to OpenAI, a hint the frontier labs could struggle to borrow at investment grade once public.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#chip-financing-mega-deals"
     },
     {
-      "id": "emoji-demo-no-labels",
-      "headline": "The emoji demo shows why this isn't traditional ML",
+      "id": "spacex-two-page-memo",
+      "headline": "SpaceX wants $40B on a two-page memo with pictures of space",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Stefan's visualization: type 'things you can wear in winter' and matching emojis race to the top. Every emoji gets the same yes/no question live \u2014 nobody labeled or tagged anything, and there's no rule for 'winter.' Because what Jev does is limited and specific, it can do it incredibly fast.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#emoji-demo-no-labels"
+      "summary": "SpaceX is seeking $40 billion for NVIDIA chips in one of the largest private credit deals in history \u2014 and some lenders passed after receiving only a short memo with pictures of outer space and an arrow noting data centers would be built \"somewhere in the universe.\" PIMCO is reportedly still looking, while credit default swaps spiked to price a 15% chance of default by end of 2031. As Citrini quipped, you either want to give Elon $40 billion for space data centers or you don't \u2014 a folio of materials won't change your mind.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#spacex-two-page-memo"
     },
     {
-      "id": "speed-cost-profile",
-      "headline": "20\u2013200\u00d7 faster, 40\u2013400\u00d7 cheaper \u2014 and output tokens are free",
+      "id": "biohub-data-initiative",
+      "headline": "Zuckerberg's Biohub attacks biology AI's data bottleneck",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "TypeSafe's launch claims versus comparable LLM processes. A million input tokens cost 4.2 cents, output is free, and each call takes 70 to 500 milliseconds. The power isn't just that it's good at judgment \u2014 it's that it's fast and cheap enough to make judgments about everything.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#speed-cost-profile"
+      "summary": "A new $1.8 billion initiative with Google and the US government aims to build the largest open biological dataset ever assembled \u2014 moving beyond AlphaFold's protein mapping toward whole cells. The goal, per Biohub's Alex Rives: let scientists run virtual experiments so only the most promising ones hit a physical lab. Less bigger models, more infrastructure build-out for AI biology.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#biohub-data-initiative"
     },
     {
-      "id": "parallel-questions",
-      "headline": "Batch your questions: the ninth query is basically free",
+      "id": "mythos-cyber-verification",
+      "headline": "Anthropic cracks open Mythos for cyber professionals",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "05:00",
+      "segment": "headlines",
+      "timestamp": "06:00",
       "attribution": null,
-      "summary": "Questions run in parallel, so asking more doesn't cost time, just tokens. TypeSafe found 13 questions in a single call was 12.2\u00d7 cheaper and 10\u00d7 faster than asking one at a time \u2014 with identical answers.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#parallel-questions"
+      "summary": "A new cyber verification program is the first major expansion of Mythos access since its locked-down April launch: a defense tier for incident response and malware reverse engineering, a red-team tier for limited offensive work with enhanced vetting, and a government-approved specialized tier \u2014 the only one with mandatory data retention \u2014 for testing high-risk systems like power grids and financial plumbing. That last tier replaces and expands Project Glasswing.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#mythos-cyber-verification"
     },
     {
-      "id": "berman-ad-teardown",
-      "headline": "724 live ads, fully dissected, in 40 seconds for 9 cents",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "07:00",
-      "attribution": null,
-      "summary": "Matthew Berman ran 12 questions per ad \u2014 hook archetype, format, offer, CTA intent, awareness \u2014 across 724 live ads from 37 brands; each 12-question call took just 173 milliseconds. Compare that structural data to actual performance and you get fine-grained advertising insight that was previously impractical to produce.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#berman-ad-teardown"
-    },
-    {
-      "id": "synthetic-scroll-test",
-      "headline": "22 cents bought 21,690 synthetic stop-or-scroll decisions",
-      "type": "insight",
-      "segment": "main",
+      "id": "dimon-vulnerabilities-we-didnt-know",
+      "headline": "AI created vulnerabilities that we didn't know about.",
+      "type": "quote",
+      "segment": "headlines",
       "timestamp": "08:00",
-      "attribution": null,
-      "summary": "Berman then had Jev evaluate 723 ads as 30 buyer archetypes \u2014 gym owner, dental office manager, toddler mom \u2014 asking for every pair: would this person stop scrolling? These aren't real buyers, so treat it as a hypothesis generator. But it's hard not to think marketing will use this to pressure-test ad and landing-page angles before paying for real tests.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#synthetic-scroll-test"
+      "attribution": "Jamie Dimon, JPMorgan CEO, in a Tuesday interview",
+      "summary": "Dimon claims cybersecurity risks went up \"tenfold\" after Mythos \u2014 notably framing AI as creating new risks rather than exposing existing ones. He's not calling for drastic measures, though: \"I'm not gonna get hysterical over is it existential or not... roll up our sleeves and go into work to fix it.\" Open model researcher Nathan Lambert takes the other side, arguing an accidental open-weight Mythos release would have been an acceleration, not a step change, in risk.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#dimon-vulnerabilities-we-didnt-know"
     },
     {
-      "id": "run-it-over-the-archive",
-      "headline": "Category one: ask the same questions about everything you already have",
+      "id": "muse-ipad-small-business",
+      "headline": "Meta's Muse completes the Apple trifecta \u2014 and targets small business",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "Ian Nuttall ran eight questions \u2014 topic, hook, tone \u2014 across nearly 3,300 of his past X posts for about 13 cents, then compared against engagement to see what actually worked. Any big pile you have \u2014 a year of customer emails, CRM notes, a folder of transcripts \u2014 is a potential Jev job if you can write a few simple questions.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#run-it-over-the-archive"
+      "summary": "Muse arrives on iPad with more screen real estate and multitasking, plus connectors for GitHub, Asana, QuickBooks, and Canva. The headline capability: give Muse a high-level business goal and let it work autonomously toward it. Muse for Windows is next on the roadmap.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#muse-ipad-small-business"
     },
     {
-      "id": "search-by-meaning",
-      "headline": "Category two: search for what you mean, not what the words say",
+      "id": "jev-shows-up-in-spend-data",
+      "headline": "Jev isn't just mind share anymore \u2014 it's market share",
       "type": "insight",
       "segment": "main",
-      "timestamp": "10:00",
+      "timestamp": "15:00",
       "attribution": null,
-      "summary": "Justine Moore of a16z described scanning thousands of Zillow listings for things you can't filter for \u2014 architectural style, renovation status, freeway proximity. Burhan clipped a 90-minute video by natural-language themes like 'their predictions for when AI will automate AI research' \u2014 in under two seconds, for under two cents.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#search-by-meaning"
+      "summary": "In Ramp's October data, Typesafe AI \u2014 creators of the Jev decision model \u2014 ranked first in growth relative to size and second in market share growth, gaining a full point of market share in a month within the foundation LLM category. That means it's gaining share faster than every frontier lab besides Anthropic.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#jev-shows-up-in-spend-data"
     },
     {
-      "id": "seo-audit-frontier-prices",
-      "headline": "A 586-page SEO audit: Jev did in 45 seconds what Opus barely started",
+      "id": "ramp-frontier-shakeup",
+      "headline": "The model market is structurally realigning, not just rotating",
       "type": "insight",
       "segment": "main",
-      "timestamp": "10:00",
+      "timestamp": "16:00",
       "attribution": null,
-      "summary": "Borja had Jev read all 586 pages of a website and rebuild the internal link map \u2014 8,790 yes/no calls \u2014 in 45.1 seconds for 21 cents. Claude Opus 5 got through 21 pages and spent $1.43. As Borja put it, internal linking is a classification problem 'and we have been paying frontier prices to do it one page at a time.'",
-      "link": "https://aidailybrief.ai/e/2026-09-25#seo-audit-frontier-prices"
+      "summary": "Anthropic, SpaceX AI, and OpenAI all ranked top five for market share capture \u2014 a rare showing for SpaceX AI, suggesting GrokBot is driving real new business \u2014 while DeepSeek and model routers like OpenRouter and Featherless also charted. Ramp economist Eric Karazian warns that performant light models and token-efficient specialist models like Jev \"will threaten OpenAI and Anthropic's revenue growth among businesses.\"",
+      "link": "https://aidailybrief.ai/e/2026-10-08#ramp-frontier-shakeup"
     },
     {
-      "id": "filter-your-feed",
-      "headline": "Real-time filters: slop detectors and brand-relevant news triage",
+      "id": "ramp-tea-leaves",
+      "headline": "Ramp's tea leaves: RL data heats up, video spend pushes costs up",
       "type": "insight",
       "segment": "main",
-      "timestamp": "11:00",
+      "timestamp": "16:00",
       "attribution": null,
-      "summary": "Robin built a live AI-slop detector that confidence-scores every X post as you scroll and blocks past a threshold. Elvis had Jev read 384 morning news stories and flag which ones 15 different brands should care about \u2014 24.9 seconds, 19 cents. In the same window, Opus 5 got through four articles.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#filter-your-feed"
+      "summary": "Scale AI returned to the growth charts for the first time in months \u2014 either reflecting the labs' recently completed training runs or a hint that fine-tuning of open models is picking up. Runway and Higgs Field also ranked, with Karazian noting expensive image and video models will push AI spend up; today that's mostly social marketing, with a bull case in construction and manufacturing automation that isn't here yet.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#ramp-tea-leaves"
     },
     {
-      "id": "live-prioritized-inbox",
-      "headline": "The live-prioritized inbox is the use case NLW wants yesterday",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "12:00",
-      "attribution": null,
-      "summary": "Jonathan Yunikowski asked: what if your inbox was live-prioritized by importance instead of reverse chronological? Jev rated 100 emails in 453 milliseconds for about a tenth of a cent \u2014 and matched his own ratings on every single one. 'This is a use case that I want right now, not tomorrow. In fact, I wanted it yesterday.'",
-      "link": "https://aidailybrief.ai/e/2026-09-25#live-prioritized-inbox"
-    },
-    {
-      "id": "invisible-triage",
-      "headline": "Category three: one quick question per item, forever",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "12:00",
-      "attribution": null,
-      "summary": "Marcel Pochulu built a macOS app that watches his downloads folder \u2014 is this an invoice? file it correctly \u2014 with no other LLM calls. DevEd runs live chat moderation. Stephen Tey of Dub fed Jev 10,000 previously caught malicious domains to flag bad links: 'something we've been wrestling with since day one. With Jev, we solved it in two hours.'",
-      "link": "https://aidailybrief.ai/e/2026-09-25#invisible-triage"
-    },
-    {
-      "id": "triage-becomes-integral",
-      "headline": "Triage and routing is where Jev becomes absolutely integral",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "13:00",
-      "attribution": null,
-      "summary": "Most workflows eventually hit the same question: what should happen next? Box has experimented with incident triage \u2014 customer impact, severity, escalation routes \u2014 and Odoo CRM has a proposed module asking three things about every lead: priority, buying readiness, spam or not. If you're in a company with multiple people touching the same leads or tickets, this is the one area to explore first.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#triage-becomes-integral"
-    },
-    {
-      "id": "jev-for-evals",
-      "headline": "Cheap grading at scale could become core agent infrastructure",
+      "id": "grokbot-best-model-for-the-task",
+      "headline": "GrokBot will use whatever model wins \u2014 including Claude",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Harrison Chase of LangChain called Jev 'great for evals, especially online evals where you want to grade lots of traces.' That sounds dev-only, but as everyone starts putting support bots and research agents into production, a cheap tool for continuously judging agent work looks like core infrastructure, not a niche.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#jev-for-evals"
+      "summary": "Musk announced that going forward, SpaceX will route GrokBot to \"the best backend model for any given task,\" including Claude Opus 5.5, Midjourney, Suno, and other leading APIs \u2014 while most simple requests get handled by a lightning-fast Grok 4.8 when it ships. It's a flag planted on the year's biggest open question: Grok is willing to compete in both the harness and the model domain.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#grokbot-best-model-for-the-task"
     },
     {
-      "id": "rerun-the-check-580x",
-      "headline": "Category four: turn 'please review this' into questions you can rerun forever",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "18:00",
-      "attribution": null,
-      "summary": "Every planted mistakes in 12 passages: Jev caught six of seven versus Claude Fable 5.1's seven \u2014 but in 0.35 seconds versus 8.83, at roughly 580\u00d7 cheaper. At that price you can rerun the same check enormously many times and still beat a single frontier pass. Practical version: turn your style guide into yes/no questions and run them on every paragraph.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#rerun-the-check-580x"
-    },
-    {
-      "id": "difference-in-kind",
-      "headline": "At this scale, it's a difference in kind, not degree",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "18:00",
-      "attribution": null,
-      "summary": "The biggest rewiring Jev demands: its value isn't just doing a thing, it's doing it at such scale that the capability changes category. Checking every single sentence in minute detail for AI-isms is categorically different from running one generic LLM review across a whole document.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#difference-in-kind"
-    },
-    {
-      "id": "micro-judgments-for-agents",
-      "headline": "Category five: micro-judgments make agents cheaper and faster",
+      "id": "spacex-eats-its-cake",
+      "headline": "The lab-plus-router position: the house always wins",
       "type": "insight",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "People are using Jev to route agents to the right model, reasoning level, and tools. Vi Chen had Jev adjust GPT-6's reasoning effort inside Codex mid-task \u2014 more thinking when stuck, less for routine steps \u2014 cutting cost about 50% while runs got faster.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#micro-judgments-for-agents"
+      "summary": "The competitive read, per investor Anish Acharya: SpaceX gets the benefits of being a lab, vertical integration into inference, and a Cursor-style router all at once \u2014 a state-of-the-art model so labs can't bully them, margin captured on third-party models, and the ability to offer the overall best or the best for a tail modality. The pushback came from Grok subscribers wary of passed-through API costs and some users requesting an opt-out to stay Grok-only on principle.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#spacex-eats-its-cake"
     },
     {
-      "id": "skill-injection-88-percent",
-      "headline": "Classify the skill first, inject only what's needed: 88% fewer tokens",
-      "type": "insight",
+      "id": "multi-model-is-the-demand",
+      "headline": "The harness is the lock-in; the models should be mobile",
+      "type": "take",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "Daniel Son's Jev Skill Suggestion for Claude Code classifies which skill best matches each request and injects only that skill into context \u2014 an 88% decrease in tokens and cost. If you've built up a big skills library in Codex or Claude Code, this is how you stop shipping the whole thing with every request.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#skill-injection-88-percent"
+      "summary": "The whole trajectory of the industry is companies wanting more model choice, not less \u2014 use the product, harness, and context as the lock-in, and make the models transportable. As Thomas Tunguz put it, no company can provide the best model for every use case. And it's not just Elon: OpenAI now sells open model inference through its B2B marketplace, meaning enterprise spend commitments can go to non-OpenAI models.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#multi-model-is-the-demand"
     },
     {
-      "id": "harness-that-learns",
-      "headline": "A harness that learns the job: $2.95 per alert down to 25 cents",
+      "id": "grokbot-native-x-access",
+      "headline": "GrokBot gets native eyes on X",
       "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "AJ Asver's team built a Jev-based harness that cuts repetitive-work costs by 90%, learning as it runs and moving steps from LLM calls to code. On compliance alerts, cost per alert fell from about $2.95 at the start to 25 cents by alert 1,000. Expect judgment models to be built natively into the tools and harnesses we use.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#harness-that-learns"
+      "summary": "GrokBot now has direct access to search, read, and monitor X \u2014 opening up a raft of social media monitoring use cases and reflecting the push for agentic offerings to compete on UX streamlining.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#grokbot-native-x-access"
     },
     {
-      "id": "smart-copy-paste",
-      "headline": "Category six: what if copy/paste was smart?",
+      "id": "haiku-5-5-competes-at-the-bottom",
+      "headline": "Haiku 5.5 is Anthropic's statement: we'll fight at the cheap end too",
       "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "Marcus Lowe's demo: copy a resume, paste into an application, and the fields fill themselves. Norman's version splits pasted text, works out what each field is, and pastes only confident matches. Given how much work is moving details from emails, PDFs, and notes into CRMs and forms, this category feels very, very relevant.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#smart-copy-paste"
+      "summary": "Anthropic calls it the cheapest, fastest, most capable small model it's ever released \u2014 light years beyond Haiku 4.5, and beating GPT-6 Luna across the board: more than double on TerminalBench 4.0 for agentic coding, 72.4% vs 48.9% on OSWorld computer use, and wins on GDPVal and AA Briefcase. Artificial Analysis scores it at 43 on the intelligence index, between Kimi K3 and GLM 5.3 Flash.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#haiku-5-5-competes-at-the-bottom"
     },
     {
-      "id": "where-to-be-careful",
-      "headline": "Be careful with hiring, money, and security \u2014 the score has no reasoning attached",
+      "id": "haiku-pricing-is-the-story",
+      "headline": "The big Haiku story is cost: pennies per task",
       "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "Ranking job applications with Jev is tempting, but even with good criteria you get a number and no rationale. The better pattern is hybrid systems: let Jev rank at volume, then automatically send bubble candidates to a fuller LLM review for a second look.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#where-to-be-careful"
+      "summary": "Haiku 5.5 is priced at a quarter the cost of Sonnet 5.5 per token, with an 80% discount on prompts under 100,000 tokens to encourage quick queries and sub-agent use. Artificial Analysis pegs it at 21 cents per task on max inference and 12 cents on extra high \u2014 in line with GPT-6 Luna and one-sixth the price of GPT-6.1 Sol. It's one of the most token-hungry models they've tested, but so cheap it doesn't matter.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#haiku-pricing-is-the-story"
     },
     {
-      "id": "what-jev-is-bad-at",
-      "headline": "TypeSafe's own list of what Jev is bad at",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "Multi-step questions, where accuracy drops with each hop. Counting, math, and dates \u2014 it can extract the facts, but do the arithmetic elsewhere. Plus known issues with consistency and reading intent. Refreshingly, the vendor is explicit about the limits.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#what-jev-is-bad-at"
-    },
-    {
-      "id": "four-fit-criteria",
-      "headline": "The four-question fit test for a Jev job",
+      "id": "cheapest-llms-are-american",
+      "headline": "Narrative violation: the cheapest LLMs are now American",
       "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "One: you can write the possible answers in advance \u2014 categories, a yes/no, a scale. Two: there's a pile or a stream, hundreds of tickets or emails. Three: a wrong answer is cheap or easy to catch \u2014 don't leave high-stakes calls to its judgment alone. Four: you can hand it the evidence as text in under 32,000 tokens.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#four-fit-criteria"
+      "summary": "In June, GLM and DeepSeek owned the cost-intelligence Pareto frontier; after months of aggressive US price cuts and efficiency gains, investor Haseeb Qureshi notes the entire frontier now belongs to Anthropic, OpenAI, and TypeSafe's Jev. The open question: how much of enterprise interest in Chinese open models was ever about cost \u2014 versus sovereignty, self-hosting, and data guarantees the American labs still haven't addressed?",
+      "link": "https://aidailybrief.ai/e/2026-10-08#cheapest-llms-are-american"
     },
     {
-      "id": "one-judgment-per-question",
-      "headline": "'Is this a good lead?' is a bad question \u2014 it's five judgments in a trench coat",
+      "id": "gpt6-goes-free",
+      "headline": "GPT-6 comes to the free tier",
       "type": "insight",
       "segment": "main",
-      "timestamp": "23:00",
+      "timestamp": "24:00",
       "attribution": null,
-      "summary": "Break questions into constituent parts: industry fit, company size, buying intent, and so on, each as its own question. Describe every scale level in words, ask more questions than you think you need, and test before you trust \u2014 label 50 emails yourself and compare before letting the classifier run your inbox.",
-      "link": "https://aidailybrief.ai/e/2026-09-25#one-judgment-per-question"
+      "summary": "A month after GPT-6 models launched for paid customers, OpenAI is bringing a new GPT-6 model to the 1.2 billion people who use ChatGPT weekly. Given how much public perception of AI is still set by the core free experience, that's a non-trivial upgrade \u2014 even if it was clearly the second announcement of the day.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#gpt6-goes-free"
+    },
+    {
+      "id": "chatgpt-intelligent-ui",
+      "headline": "ChatGPT learns to build its own interface",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "25:00",
+      "attribution": null,
+      "summary": "OpenAI's \"intelligent UI\" renders interactive visualizations, charts, and images instead of walls of text \u2014 built on a library of native streamable components and a compiler that renders the interface as the model generates it, with GPT-6 post-trained to judge when an interface actually helps and when plain text still wins. Ethan Mollick's read: increasingly, interfaces will be built on demand for the problem you have.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#chatgpt-intelligent-ui"
+    },
+    {
+      "id": "labs-finally-care-about-product",
+      "headline": "The labs can no longer get away with bad products",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "Until now, the foundation labs shipped fairly unintuitive products because the intelligence behind them more than made up for it. With that level of intelligence on tap everywhere, product differentiation is going to really matter \u2014 and intelligent UI is the first clear sign the labs know it.",
+      "link": "https://aidailybrief.ai/e/2026-10-08#labs-finally-care-about-product"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-09-25.mp3",
-  "generated": "2026-09-28T05:33:55Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-10-08.mp3",
+  "generated": "2026-10-10T08:58:01Z"
 }

@@ -1,0 +1,15 @@
+David's AI brief for Friday, the second of October.
+
+Today's One Idea is that the best business users of AI are not buying better models. They are building better management layers.
+
+Nathaniel Whittemore draws on KPMG's third-quarter survey of twenty-one hundred senior leaders across twenty countries. The organisations with established returns look different from the experimenters. Eighty-six per cent of the mature ones run a formal harness layer around their AI, more than half have enterprise-wide strategies for sovereignty, and there is clear executive accountability for decisions informed by AI. The distance between the two groups shows where everyone else is heading.
+
+The rest of the edition is a news round-up. Meta had its best month since late twenty twenty-two, up twenty-seven per cent in September on its Muse personal agent, though the bear case is whether it can turn the win into money. Anthropic is reportedly racing to an IPO before Thanksgiving. Its leaked filing shows an eight billion dollar operating loss on four point six billion of revenue for twenty twenty-five, and Whittemore argues that judging the company on those numbers is a pre-AI reflex, given growth of more than ten times. Google's chips have been launched into orbit, the first step towards data centres in space. And OpenAI fired three safety team members over leaked information, which Whittemore says nobody outside can properly judge, adding that formal channels for such disputes cannot come fast enough.
+
+Now, the other side. Ed Zitron wrote on the twenty-ninth of September, in a piece called Dead Money, that the revenue is largely circular. He says OpenAI and Anthropic account for seventy to eighty per cent of AI compute demand, and that eighty per cent of their enterprise revenue comes from one per cent of customers, many of them venture-funded start-ups.
+
+Both men are asking whether Anthropic's revenue is durable and broad. They accept the same facts: big losses, rapid growth, heavy reliance on a few customers. The audited customer breadth in the IPO filing will settle much of it. Both are polemicists with incentives, so watch where they agree, which is that concentration is the thing to check.
+
+For the surgery, the KPMG pattern is worth copying at small scale: a named owner, an approved list of tools, and a log of how AI was used. If Zitron is right, today's cheap scribe could cost more later, so a business case should survive a price rise, with a manual fallback ready. And the firings are a reminder that for clinical tools you want independent evaluation, not the supplier's own.
+
+That's the brief — source, The AI Daily Brief.

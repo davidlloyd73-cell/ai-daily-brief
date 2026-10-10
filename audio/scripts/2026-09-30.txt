@@ -1,0 +1,15 @@
+David's AI brief for Wednesday, the thirtieth of September.
+
+Today's One Idea is that OpenAI's DevDay did not reveal a new direction. It confirmed the one we are already on.
+
+Nathaniel Whittemore calls it OpenAI's biggest DevDay ever, with more than twenty launches. Four themes run through it. First, models that are cheap and good enough to be used for everything. GPT-6.1 Sol scores seventy-five per cent on one coding benchmark, edging the previous leader, at about thirteen per cent of the cost. Second, a Decisions API, which is OpenAI's answer to the Jev judgment model, a fast, cheap way to classify, route or score things. He calls judgment models a new fundamental building block.
+
+Third come Dots, persistent, always-on agents that can work across tens of thousands of apps on their own cloud computer. They are OpenAI's answer to Meta's Muse and Tesla's GrokBot, though limited to paying customers. Early users report flashes of excellence and plenty of bugs, including lost work sessions. They feel more like a coworker than a companion. Fourth, Space, a shared workspace where human teams and agents work side by side. OpenAI also said its latest model sped up internal development so much that its 2027 roadmap arrived in 2026.
+
+Now, the other side. Ed Zitron published a piece the day before, called Dead Money. He cites a Fidelity strategist who says the AI trade has been flat for three months, with token spend and GPU rental rates flat to down. He argues many chips sold are sitting uninstalled, waiting for power, and that most apparent demand is just OpenAI and Anthropic, funded by the hyperscalers that sell them compute.
+
+Beneath the quarrel, both men are watching one thing, which is real, paid, broad demand. They agree models are getting cheaper and that a few labs take a large share of capacity. What will settle it is whether enterprise token spend and rental rates turn up, and whether many different customers appear in cloud revenue. Both are polemicists with incentives, and the signal is where they agree despite opposite priors: concentration is real. Watch the next cloud earnings for customer breadth.
+
+For the surgery, if Whittemore is right, cheap judgment models will quietly sit behind inbox sorting and referral triage, and the rule stays that the tool flags and a clinician decides. If Zitron is right, the risk is supplier stability, so ask about contract exit and getting your data out. Either way, short contracts and pilots beat long commitments.
+
+That's the brief — source, The AI Daily Brief.

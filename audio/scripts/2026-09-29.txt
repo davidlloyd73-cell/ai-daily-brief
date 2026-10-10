@@ -1,0 +1,19 @@
+David's AI brief for Tuesday, the twenty-ninth of September.
+
+Today's One Idea is that agents are going multiplayer, but team agents only work when the decisions behind them are made on purpose.
+
+Nathaniel Whittemore starts from the point that 2026 made agents normal. Personal agents, from OpenClaw at the start of the year to Muse, GrokBot and Instinct, now do large parts of individual people's work. The gap is that most work happens between people, and so far agents have been solo affairs.
+
+He describes two familiar failures. The first is the person who cannot take a holiday, because only they know how pricing exceptions work or how the biggest customer was set up three years ago. The second is work that nobody fully owns, such as a customer who passes from sales to marketing to customer success, with each stage making different promises.
+
+The most AI-forward companies, he says, follow a three-step pattern. Everyone builds personal agents. Then comes sprawl, with overlapping work, agents that one person maintains, and agents that die when their owner leaves. Then the companies consolidate into fewer, broader team agents.
+
+His working definition is one agent that many people talk to, with shared knowledge, shared memory, one configuration and a named owner. A library of skills is an ingredient, not a team agent. And not everything should be shared. He offers a dial with three settings: fully private agents, shared knowledge with private agents, and fully shared team agents.
+
+He lays out four archetypes. The expert agent makes the holiday possible by making one person's know-how available to everyone who depends on it. The common work agent covers recurring jobs like meeting prep and team research, and the tell is that three people have built the same private version. The bridge agent lives where handoffs between teams break, and the chief of staff agent runs a team's day-to-day decisions, commitments and onboarding. Getting any of them right comes down to five deliberate decisions: what it does, where it lives, what it knows, what it can touch, and who owns it. He also lists three signs you should not build one yet, including when individual voice is the point, when nobody will own the knowledge, and when sharing complicates more than it simplifies. He adds a don'ts list: never make commitments on someone's behalf, and never carry information from a private space into a shared one.
+
+I found no fresh counter-source from Ed Zitron on this theme, so there is no opposing view today. His recent writing is about chips and finance rather than how teams organise their agents.
+
+For the surgery, the named owner is the idea I would take away. If a practice ever uses a shared AI tool for correspondence or protocols, someone should be accountable for what it knows, what it can touch, and when it is reviewed. The holiday problem is general practice itself, since every surgery has the colleague who alone understands a local pathway. An expert agent could hold that, but only if the content is kept current, because a confident wrong answer about a referral route is worse than none. And what a shared agent can access is a data protection and clinical safety question, not a convenience.
+
+That's the brief — source, The AI Daily Brief.

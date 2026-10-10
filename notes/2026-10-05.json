@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Owning the model matters most for patient data",
+      "body": "The enterprise case for open-weight AI, running it where you control the data, is the version most relevant to the NHS. A model hosted within NHS infrastructure, rather than data passing to a US vendor, is the shape of answer that information governance teams prefer."
+    },
+    {
+      "title": "Be cautious about the community pushback on data centres",
+      "body": "A hundred proposed moratoriums and tone-deaf messaging show how local opposition grows. In the UK, the equivalent debate is about energy and water. NHS bodies buying AI should expect questions about it."
+    },
+    {
+      "title": "Altman's 'accept some bad things' line",
+      "body": "The fuller argument, that locking AI up has its own risks, is fair, but the NHS context is different: clinical tools have an existing safety framework, and 'some bad things' is not an acceptable standard in a consulting room."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+David's AI brief for Sunday, the twenty-seventh of September.
+
+Today's One Idea is that the people in the middle of the AI argument are finally finding their voice, and that they may well be the silent majority.
+
+The host, Nathaniel Whittemore, opens with a grim observation. American sentiment about AI has fallen sharply over the last couple of months. In a recent Gallup poll, only thirty-six per cent of Americans said AI would mostly help, which put them fourth from the bottom worldwide. China topped the same poll at ninety-three per cent. Part of the slide reflects real evidence, notably the Hugging Face incident, and part reflects a flood of mainstream coverage about AI killing us all. He tells a nice story about a poker game in New York, where bankers, doctors and insurance executives were happily using Meta's new Muse agent while also being convinced that AI would eventually kill everyone.
+
+His contention is that most people hold moderate, still-soft opinions, and that the loudest voices are the accelerationists and the doomers at either end. So he spotlights three attempts at a thoughtful middle.
+
+The first is Francis Fukuyama, who has published an essay on why he changed his mind about AI risk. He now thinks some regulation and a negotiated slowdown are increasingly necessary. But he is sharply sceptical of the claim that AI will deliver ten to twenty per cent annual economic growth, because intelligence will not dig the mines or build the power stations. He also argues that universal basic income cannot replace the dignity of work, and he expects educated, white-collar people to mobilise politically when their jobs are devalued first. His main danger is not superintelligence, but delegating everything to agents, from email to military targeting.
+
+The second is a long essay by Arvind Narayanan and Sayash Kapoor, the authors who describe AI as a normal technology. They treat the Hugging Face incident as a serious but fixable governance failure rather than proof of doom or proof of nothing.
+
+The third is Jeffrey Katzenberg, who tells Hollywood to negotiate terms rather than wish AI away, pointing back to the long history of industries adapting to new technology.
+
+Their shared disposition is to reject false binaries, solve specific problems, and bring more people to the table.
+
+Now, a note for the surgery. I could find no fresh counter-source from Ed Zitron on this theme, so there is no contrast today. This edition is about attitudes rather than economics, and the sceptical view of the boom will return when the subject does.
+
+On the GP's side, the Fukuyama point about delegation is the one I would keep. An AI scribe, a triage tool and a coding assistant each take a small piece of work, and each sign-off can become a little quicker than the last. The safeguard is a named clinician who actually reads the output. Second, if white-collar tasks such as letters, summaries and form-filling go first, use the time that frees up for the consultation itself. And third, with public opinion this cautious, tell patients plainly when a scribe is in the room, what it does, and that a doctor checks the record.
+
+That's the brief — source, The AI Daily Brief.

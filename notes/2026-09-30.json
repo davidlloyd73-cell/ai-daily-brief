@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "If Whittemore is right: cheap judgment models become routine infrastructure",
+      "body": "OpenAI's Decisions API, a fast and cheap classifier, is the kind of tool a supplier could put behind inbox sorting, referral triage or coding. The practical rule from earlier editions holds: it can rank and flag, a clinician decides. Ask suppliers whether such a step sits upstream of the summary you are reviewing and whether it was validated separately."
+    },
+    {
+      "title": "If Zitron is right: supplier risk is the issue, not capability",
+      "body": "If demand is concentrated and funding tightens, the tools a practice depends on could change price, terms or vanish. NHS procurement should assume an AI scribe or triage product might be repriced or withdrawn, so ask about data export, contract exit and how clinical records stay usable if a supplier fails."
+    },
+    {
+      "title": "What both positions share",
+      "body": "Both accept the tools are getting cheaper. For a practice, that argues for short contracts and pilots rather than long commitments, whichever of them turns out to be right."
+    }
+  ]
+}

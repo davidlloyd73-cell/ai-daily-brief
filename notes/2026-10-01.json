@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Benchmarks are not evidence for clinical use",
+      "body": "Gemini 4 posts state-of-the-art scores, but you cannot use it yet and the edition itself says the race is no longer about benchmarks. For a surgery, a model's coding score says nothing about how it handles a consultation in a Harrow accent. Evaluate on your own cases."
+    },
+    {
+      "title": "Safety accords without outside checks",
+      "body": "The one-page superintelligence accord has labs committing to internal controls and external auditors, but no public input. The FTC probe into rogue agents is the more concrete signal. For NHS purposes, regulation of medical devices already exists, so ask suppliers how their product sits within it."
+    },
+    {
+      "title": "The government agent portal is worth watching",
+      "body": "America.gov, one agent completing forms across departments, is a model that the NHS App could one day copy. The security question, raised by the jailbreak attempts, is the key one: any agent that holds a patient's identity and records is a target."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Shared agents need a named owner, which is a clinical governance idea",
+      "body": "The edition's central rule is that a team agent should have one configuration, shared knowledge and a named owner. That maps neatly onto a practice: if a surgery uses a shared AI tool for correspondence, summaries or protocols, someone should be accountable for what it knows, what it can touch and when it is reviewed. Agents that die when their creator leaves are the digital version of a protocol only one partner understood."
+    },
+    {
+      "title": "The 'person who can't take a holiday' problem is general practice",
+      "body": "Every surgery has the colleague who alone knows how a particular referral route or local pathway works. An expert agent that holds that know-how is a plausible use, but only if the content is kept current and checked, because a confident wrong answer about a pathway is worse than none."
+    },
+    {
+      "title": "Be careful what a shared agent can touch",
+      "body": "The five decisions include what the agent can access. In the NHS that question is data protection and clinical safety, not convenience. Nothing here has an obvious sceptic's counterpart this week, so the honest position is simply to ask suppliers what is shared, what is stored and who signs it off."
+    }
+  ]
+}

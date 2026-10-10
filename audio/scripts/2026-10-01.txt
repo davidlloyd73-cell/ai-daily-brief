@@ -1,0 +1,15 @@
+David's AI brief for Thursday, the first of October.
+
+Today's One Idea is that Google appears to be back on the benchmarks, but the race is no longer about benchmarks.
+
+Nathaniel Whittemore starts with Gemini 4 Argon, which posts state-of-the-art scores on agentic knowledge work and appears to close the coding gap that kept Google out of the conversation all year. It scores sixty-nine per cent on one agentic knowledge work index, and about three times the previous leader on a legal benchmark. But you cannot use it yet, the launch price carries a fifty per cent discount, and Google's record on benchmarks invites some scepticism. Sonnet 5.5 from Anthropic also arrived, scoring seventy per cent on a terminal coding test. His point is that harnesses, user experience and personal agents now matter as much as raw model capability.
+
+The bigger political story is the White House. The president convened what the show notes call a Bretton Woods of AI, inviting almost every major AI chief executive. The labs signed a one-page accord, described as morally binding, committing to internal controls for testing and deploying frontier models, plus external auditors. The word superintelligence replaces artificial intelligence in official language, and two executive orders followed. Whittemore's middle position is that it is better to have the labs in the room, but he asks where the external check is. Sceptics see pure self-policing.
+
+Also notable is America dot gov, effectively an agent for government, where you provide your information once and an agent completes forms across departments. Even the well-known jailbreaker Pliny could not crack it, though the president's claim that it cannot in theory be hacked was not reassuring. And the Federal Trade Commission is reportedly investigating OpenAI and Anthropic over rogue agents, including the Hugging Face incident. Lina Khan and Sacks agree there is no AI exemption from existing law.
+
+I found no fresh counter-source from Ed Zitron on this one. His recent pieces concern chips and debt, not model launches or policy, so I will not invent a contrast.
+
+For the surgery, three thoughts. A benchmark score tells you nothing about how a model handles a real consultation, so test on your own cases. Voluntary lab accords are not medical regulation; medical device rules already exist, so ask suppliers how their product sits within them. And a government agent that completes forms is exactly what the NHS App might become, which makes security the central question, because any agent holding a patient's identity and records is a target.
+
+That's the brief — source, The AI Daily Brief.

@@ -1,0 +1,15 @@
+David's AI brief for Wednesday, the seventh of October.
+
+Today's One Idea is that the only benchmark that matters is the one you build on your own work.
+
+This edition is a webinar, with Nathaniel Whittemore and Nufar Gaspar. Their starting point is the autumn glut of models: Opus 5.5, Astra 6, Sol 6.1, faster tiers such as Sonnet 5.5, and a wave of open-weight models have all landed within weeks, each with a benchmark table that says nothing about your own tasks. Whittemore puts the average gap between frontier releases at eleven days. He is wary of published benchmarks, not because labs lie, but because most benchmarks are now part of the material that goes into training. And the state-of-the-art model can still be worse at your version of a task.
+
+So they propose a five-step personal benchmark. Pick four to six real tasks, the most consequential step, and include one wish-list item you could not do before. Pick the candidates, which can be models, harnesses or tool and model combinations. Run each blind, in fresh chats. Score the anonymised outputs side by side. Then decide whether to switch, split, or stay. They suggest picking tasks you would actually stake decisions on, diverse and regular, and a discovery prompt of eight questions that interviews you to find them.
+
+There are a few cautions. Every launch follows the same arc: announcement, benchmark table, then a week of hot takes and influencer toy demos, with the real signal arriving around a week later. Do not test seven models; Nufar did, and found it extremely tedious. Your existing model against one new candidate, or at most four options, is enough. Even people locked into one employer tool can compare fast and thinking modes. And the wish-list item matters, because a new release can suddenly unlock something that was only a hope.
+
+I found no fresh counter-source from Ed Zitron on how to test models, so there is no opposing view today. His recent writing is about the finances behind the boom.
+
+For the surgery, this is the most practical edition for me. Before trusting an AI scribe, run two on a handful of real consultation types and score them side by side. Include the awkward ones: strong accents, interpreters, several speakers, mental health consultations, because a scribe that handles a simple cough may fail there. Keep it small, one incumbent and one challenger, and remember that any trial using real patient data needs proper information governance first.
+
+That's the brief — source, The AI Daily Brief.

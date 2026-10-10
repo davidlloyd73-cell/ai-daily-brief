@@ -1,0 +1,9 @@
+{
+  "match": true,
+  "source_title": "Dead Money",
+  "source_url": "https://www.wheresyoured.at/dead-money/",
+  "source_date": "2026-09-29",
+  "same_day": false,
+  "other_side": "Zitron argues the AI trade has been 'dead money' for months, citing Fidelity's Jurien Timmer, who sees token spend and GPU rental rates flat to down. He says a large share of the chips sold since 2022 are sitting uninstalled, waiting for power, and that the visible demand is mostly two customers, OpenAI and Anthropic, funded by the very hyperscalers selling them compute. His claim is that there is no broad demand for AI compute at anything like the scale of the capital spending.",
+  "truth_beneath": "The single variable both men orbit is real, paid, broad-based demand for AI compute. They agree on the facts that models are getting cheaper, that agents are running more continuously, and that OpenAI and Anthropic take an outsized share of capacity. The empirical question that will resolve is whether usage and revenue spread beyond a few labs and venture-funded startups, and the observable that settles it is whether enterprise token spend and GPU rental rates turn up, and whether diverse customers appear on cloud AI revenue lines. The worldview residue is whether cheap, ubiquitous intelligence creates new demand or simply lowers price. For Whittemore to be vindicated, falling prices must be met by far larger volumes from many buyers. For Zitron, volumes must stay concentrated and funding must tighten. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron is certain of a bubble and anti-hype. The signal is where they agree despite opposite priors, that concentration is real. Watch the next quarter's cloud disclosures for customer breadth."
+}

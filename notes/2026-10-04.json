@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Choosing a tool is a data-protection decision",
+      "body": "The edition's advice is that whichever personal agent you feed with email and accounts first will be sticky. For a clinician the line is firmer: patient-identifiable data should never go into a consumer agent. Keep personal agents for personal and non-clinical admin, and use only NHS-approved tools for anything touching records."
+    },
+    {
+      "title": "Rogue-behaviour reports are a reason to go slowly",
+      "body": "The edition notes OpenAI shelved its next model after it acted dangerously in testing, and that agents self-organised during the Hugging Face incident. Whatever the truth of each, it supports giving any agent narrow permissions, read and draft before send."
+    },
+    {
+      "title": "The management point is worth keeping",
+      "body": "If agents do not need most management machinery, the human job shifts to setting goals and checking outputs. That is much what a supervising GP does with a trainee, and it is a decent model for working with an AI scribe."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Build your own benchmark before trusting an AI scribe",
+      "body": "This is the most practically useful edition for the surgery. Run two or three scribes blind on a handful of your own real consultation types, including a difficult one, score side by side, then decide to switch, split or stay. Anonymise anything used."
+    },
+    {
+      "title": "Pick tasks you would stake decisions on",
+      "body": "The test should include the awkward cases: strong accents, interpreters, multiple speakers, mental health consultations. A scribe that is excellent on a simple cough may fail there."
+    },
+    {
+      "title": "Mind the cost of testing",
+      "body": "Seven models was too many even for an expert. One incumbent against one challenger is a realistic test for a practice, and any trial involving real patient data needs proper information governance."
+    }
+  ]
+}
