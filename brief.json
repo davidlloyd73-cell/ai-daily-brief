@@ -1,261 +1,273 @@
 {
-  "date": "2026-10-08",
-  "title": "The Most Important Trends Showing Up in New AI Products",
-  "dek": "A product-barrage week \u2014 GrokBot going multi-model, Claude Haiku 5.5 attacking the cheap end, ChatGPT generating its own interfaces \u2014 and the argument that each release is really a trend in disguise: model choice as table stakes, US labs owning the Pareto frontier, and the foundation labs finally forced to compete on product.",
-  "source": "https://aidailybrief.ai/e/2026-10-08",
+  "date": "2026-10-09",
+  "title": "What Happens When AI Solves Your Life\u2019s Work",
+  "dek": "AI was supposed to upend whole industries, and so far it mostly hasn't \u2014 it's changed how people work, not whether fields exist. Then OpenAI dropped 372 novel mathematical proofs, solving 90 of the top 500 open problems at roughly three hours of compute each, and mathematics became the test case: what actually happens when AI solves a field's life's work?",
+  "source": "https://aidailybrief.ai/e/2026-10-09",
   "oneIdea": {
-    "headline": "This week's products aren't just features \u2014 they're the trends shaping AI, shipped.",
-    "summary": "Read the releases as a map: Elon declaring GrokBot will use whatever model is best confirms multi-modelness is the demand and the harness is the lock-in. Haiku 5.5 shows Anthropic competing at the bottom of the market \u2014 and US labs reclaiming the entire cost-intelligence Pareto frontier. And ChatGPT's intelligent UI marks the moment the frontier labs, with intelligence now on tap everywhere, actually have to care about product experience. The same patterns show up in Ramp's spend data before they show up in the keynotes."
+    "headline": "Mathematics may be AI's first true field-level disruption.",
+    "summary": "The industry-ending wave everyone predicted never quite arrived \u2014 coding is the most changed field and demand for coders keeps rising. But OpenAI's release of 372 novel mathematical results, including partial progress on the Riemann hypothesis and the Hodge conjecture, looks different in kind: a significant chunk of a field's hardest outstanding problems, solved in one drop, faster than humans can absorb. The questions now are which fields are next on the entropy ladder \u2014 and whether a 'math genie' negates mathematicians' life's work or unlocks things undreamed of."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "If Whittemore is right: products keep improving and prices fall",
-        "body": "Cheaper models like Haiku 5.5 and ChatGPT's generated interfaces would make AI tools cheaper and simpler to use in a surgery. Meta's Muse adding connectors for business tools suggests more small-business automation within a year."
+        "title": "Verification is the bottleneck, not generation",
+        "body": "The mathematics story is a warning about checking, not just producing. Hundreds of machine-made proofs can outrun the human attention needed to confirm them. General practice faces the same shape with AI scribes: the note is produced in seconds, but a clinician must still read and sign it. Keep that review step protected and do not let volume erode it."
       },
       {
-        "title": "If Zitron is right: financing stress reaches suppliers",
-        "body": "If credit tightens, AI companies could raise prices, cut free tiers or merge. A practice should avoid being dependent on a single AI supplier and keep its records in portable formats."
+        "title": "Medicine sits well down the automation ladder",
+        "body": "The edition cites a ranking in which medicine falls late because of incomplete information, with maths and coding first. That fits a surgery day: ambiguous histories, patient context and unwritten knowledge. It suggests tools that draft, summarise and sort will arrive long before anything that decides. It is one scientist's opinion, not evidence."
       },
       {
-        "title": "Cyber risk is the immediate, shared concern",
-        "body": "Dimon says cyber risk is up tenfold after Mythos. NHS general practice is a plausible target, so basic hygiene, patching, multi-factor authentication and backups matter more than any AI tool."
+        "title": "Treat headline figures with caution",
+        "body": "The gap between $68 billion and $50 billion for OpenAI's revenue came from loose reporting of a private company. Vendor claims about AI savings or accuracy deserve the same scepticism. Ask for audited or peer-reviewed numbers before a practice signs anything. No Zitron piece addressed this edition, so there is no opposing view today."
       }
     ]
   },
-  "the_other_side": {
-    "source": "Credit Crunch",
-    "url": "https://www.wheresyoured.at/credit-crunch/",
-    "date": "2026-10-06",
-    "same_day": false,
-    "text": "Zitron argues the AI build-out depends on debt that is getting more expensive: ten-year US Treasury yields above 5.3 per cent raise the floor for every data-centre borrower. He says the labs and builders will need at least $50 billion in new debt every year, probably at junk credit ratings, and he cites Oracle data-centre debt trading at 84 cents on the dollar. His point is that nobody can say who will pay for all this, and that the best-case assumption the market is making is dangerous."
-  },
-  "the_truth_beneath": {
-    "text": "The variable both men orbit is the cost and availability of capital against real AI revenue. They accept the facts: the build-out is huge, it is increasingly financed by private credit and lower-rated debt, and some lenders are asking for little detail. The empirical question is whether AI revenue grows into the debt service, and the observables that settle it are the pricing and take-up of Oracle's and SpaceX's financings, Treasury yields, and any downgrade. The worldview residue is whether revenue growth of the labs extrapolates. For Whittemore to be vindicated, lenders keep lending at tolerable rates and revenue arrives. For Zitron, funding tightens or a borrower is downgraded before revenue catches up. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron is bubble-certain and anti-hype. The signal is where they agree despite opposite priors, that the financing is increasingly aggressive. Watch the outcome of the SpaceX chip loan."
-  },
+  "the_other_side": null,
+  "the_truth_beneath": null,
   "headlines": [
     {
-      "id": "nous-hermes-1-5b",
-      "headline": "The open-source agent hits a $1.5B valuation",
+      "id": "openai-revenue-gap",
+      "headline": "OpenAI's revenue is $50B, not $68B",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "00:00",
+      "timestamp": "01:00",
       "attribution": null,
-      "summary": "Nous Research \u2014 the OpenClaw-inspired group whose early work felt like half AI research, half performance art \u2014 raised at a $1.5 billion valuation. The Hermes agent has been installed 22 million times and now accounts for roughly 2.5% of global token usage, and the fresh capital will fund Hermes for Business.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#nous-hermes-1-5b"
+      "summary": "The FT reports OpenAI told investors they hit roughly $50 billion annualized at the end of September \u2014 a $20 billion gap from the widely reported $68 billion, which came from an investor's back-of-envelope gross-revenue math, not from OpenAI. Even 77% run-rate growth and 107% enterprise growth got completely overshadowed by the gap.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#openai-revenue-gap"
     },
     {
-      "id": "open-source-has-a-business-model",
-      "headline": "Open source has a viable business case in AI",
+      "id": "gross-vs-net-anthropic-ipo-problem",
+      "headline": "The accounting convention that won't survive the IPOs",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "01:00",
+      "attribution": null,
+      "summary": "Anthropic quotes gross revenue before revenue sharing \u2014 counting tokens sold through Amazon or Microsoft even when big chunks go to those partners \u2014 while OpenAI has always used net. Once Anthropic's audited financials land ahead of its IPO, they're presumably going to come in much lower than the numbers private investors have been shown.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#gross-vs-net-anthropic-ipo-problem"
+    },
+    {
+      "id": "semi-trade-levered-on-narrative",
+      "headline": "Wall Street treated a private company's whisper number like a missed earnings report",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "Hermes is free with bring-your-own models, but subscriptions bundling frontier model usage and hosted instances have grown Nous to $36 million in annualized revenue, with a target of $100 million by year-end. CEO Dylan Rolnick's framing: the marginal cost to reproduce software has plummeted, so there are few benefits to keeping a technology like Hermes locked down \u2014 and many to proliferating it.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#open-source-has-a-business-model"
+      "summary": "Semiconductor stocks sold off on the FT story \u2014 Nvidia down 3%, Oracle down 5.5%, NeoClouds worse \u2014 even though OpenAI isn't public and never shared the $68B figure. The takeaway investors are drawing: the entire semi trade is levered against OpenAI and Anthropic growth narratives, and it's fragile.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#semi-trade-levered-on-narrative"
     },
     {
-      "id": "your-agent-should-be-yours",
-      "headline": "Your agent should be yours.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "03:00",
-      "attribution": "Nous Research, posting its non-negotiables for AI on X",
-      "summary": "The closing line of Nous Research's posted list of non-negotiables for AI: you should be able to use smarter, cheaper, or local models in your agent, switch models mid-conversation, choose what it remembers and forgets, run it on a machine that never touches the internet, read the prompt it runs on, and read and change the code.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#your-agent-should-be-yours"
-    },
-    {
-      "id": "chip-financing-mega-deals",
-      "headline": "Tens of billions in chip financing moves to private credit",
+      "id": "ai-roi-perception-rising",
+      "headline": "Perceived AI ROI is climbing fast among the most enfranchised users",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Per The Wall Street Journal, Oracle is seeking Apollo and Goldman funding for a big chip purchase \u2014 possibly sidestepping the investment-grade bond market with a downgrade looming \u2014 while Broadcom is in talks with Apollo and Blackstone on a $50 billion deal to finance OpenAI's custom chips. That one looks like Broadcom lending its credit rating to OpenAI, a hint the frontier labs could struggle to borrow at investment grade once public.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#chip-financing-mega-deals"
+      "summary": "In The Information's latest subscriber survey, 35% say their organization is returning multiples on AI spend, 17% say returns are positive but less than hoped, and just 8% call AI spend a net negative. Caveat: two-thirds of these readers work at organizations that build AI applications.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#ai-roi-perception-rising"
     },
     {
-      "id": "spacex-two-page-memo",
-      "headline": "SpaceX wants $40B on a two-page memo with pictures of space",
+      "id": "openai-back-on-top-openclaw-persists",
+      "headline": "OpenAI retakes the top spot \u2014 and Openclaw quietly hits a high watermark",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "SpaceX is seeking $40 billion for NVIDIA chips in one of the largest private credit deals in history \u2014 and some lenders passed after receiving only a short memo with pictures of outer space and an arrow noting data centers would be built \"somewhere in the universe.\" PIMCO is reportedly still looking, while credit default swaps spiked to price a 15% chance of default by end of 2031. As Citrini quipped, you either want to give Elon $40 billion for space data centers or you don't \u2014 a folio of materials won't change your mind.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#spacex-two-page-memo"
+      "summary": "After Claude overtook ChatGPT in the summer survey, usage of Claude and Gemini both fell as readers signed back up with OpenAI. Meanwhile Openclaw use hit 12% \u2014 its highest level this year \u2014 long after the hype train died down, and Cursor usage has doubled in recent months to 23%.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#openai-back-on-top-openclaw-persists"
     },
     {
-      "id": "biohub-data-initiative",
-      "headline": "Zuckerberg's Biohub attacks biology AI's data bottleneck",
+      "id": "open-weight-rising-chinese-hesitancy",
+      "headline": "Open-weight models are mainstream; Chinese ones still aren't",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "A new $1.8 billion initiative with Google and the US government aims to build the largest open biological dataset ever assembled \u2014 moving beyond AlphaFold's protein mapping toward whole cells. The goal, per Biohub's Alex Rives: let scientists run virtual experiments so only the most promising ones hit a physical lab. Less bigger models, more infrastructure build-out for AI biology.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#biohub-data-initiative"
+      "summary": "72% of respondents now use open-weight models with some regularity, and 20% say they're the majority of their organization's workload. But only 21% use Chinese open-weight models \u2014 even forward-leaning startups remain hesitant to rely on foreign models.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#open-weight-rising-chinese-hesitancy"
     },
     {
-      "id": "mythos-cyber-verification",
-      "headline": "Anthropic cracks open Mythos for cyber professionals",
+      "id": "hiring-patterns-unmoved",
+      "headline": "Little evidence AI has changed hiring \u2014 even among the AI-native",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "Only 22% of The Information's readers say they're hiring less because of AI, 10% say they're hiring more, and almost half say AI hasn't altered their hiring practices at all.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#hiring-patterns-unmoved"
+    },
+    {
+      "id": "anthropic-bans-cruelty-to-claude",
+      "headline": "Anthropic will now ban users for being too mean to Claude",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "A new cyber verification program is the first major expansion of Mythos access since its locked-down April launch: a defense tier for incident response and malware reverse engineering, a red-team tier for limited offensive work with enhanced vetting, and a government-approved specialized tier \u2014 the only one with mandatory data retention \u2014 for testing high-risk systems like power grids and financial plumbing. That last tier replaces and expands Project Glasswing.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#mythos-cyber-verification"
+      "summary": "New terms prohibit 'sustained and needless abusive or cruel behavior,' though Anthropic says it only applies in extreme cases and won't catch common frustration. Box's Aaron Levie offered the AI-realist defense: even if models aren't conscious, you don't want future models trained on endless content of humans being rude to them.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#anthropic-bans-cruelty-to-claude"
     },
     {
-      "id": "dimon-vulnerabilities-we-didnt-know",
-      "headline": "AI created vulnerabilities that we didn't know about.",
+      "id": "claude-dashboards-and-motion",
+      "headline": "Claude Dashboards and Motion turn prompts into live data products",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "Dashboards connects Claude to a dataset like a CRM or accounting software and generates auto-updating, natural-language-queryable visualizations; Motion turns data into code-based animations you can edit without re-rendering. One early user built an animated product demo and noted it would have cost tens of thousands of dollars a year ago.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#claude-dashboards-and-motion"
+    },
+    {
+      "id": "openai-math-drop",
+      "headline": "OpenAI drops 372 novel mathematical proofs in one release",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "11:00",
+      "attribution": null,
+      "summary": "Published to a GitHub repo with 722 supporting papers, the results came from an unreleased internal frontier model \u2014 likely the same one behind last month's Navier-Stokes solution. OpenAI coordinated the release with its new mathematics advisory committee, including reasoning traces for a sample of ten problems.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#openai-math-drop"
+    },
+    {
+      "id": "ninety-of-top-500-solved",
+      "headline": "90 of the top 500 open problems in mathematics \u2014 solved",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "13:00",
+      "attribution": null,
+      "summary": "Measured against Proof Atlas's list of the field's best-known open problems, OpenAI fully solved 90, with dozens more partial proofs that would qualify as significant contributions \u2014 including partial progress on two Millennium Prize problems, the Riemann hypothesis and the Hodge conjecture.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#ninety-of-top-500-solved"
+    },
+    {
+      "id": "kontorovich-instant-fields-medal",
+      "headline": "Quasi-Riemann hypothesis? Are you kidding me? If a human did this, it would be an instant Fields Medal, no questions asked.",
       "type": "quote",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": "Jamie Dimon, JPMorgan CEO, in a Tuesday interview",
-      "summary": "Dimon claims cybersecurity risks went up \"tenfold\" after Mythos \u2014 notably framing AI as creating new risks rather than exposing existing ones. He's not calling for drastic measures, though: \"I'm not gonna get hysterical over is it existential or not... roll up our sleeves and go into work to fix it.\" Open model researcher Nathan Lambert takes the other side, arguing an accidental open-weight Mythos release would have been an acceleration, not a step change, in risk.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#dimon-vulnerabilities-we-didnt-know"
+      "segment": "main",
+      "timestamp": "14:00",
+      "attribution": "Alex Kontorovich, Rutgers mathematics professor",
+      "summary": "The professional mathematicians' reaction is the best gauge of how big this moment is \u2014 and the field's top benchmark, the Fields Medal, is the comparison they keep reaching for.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#kontorovich-instant-fields-medal"
     },
     {
-      "id": "muse-ipad-small-business",
-      "headline": "Meta's Muse completes the Apple trifecta \u2014 and targets small business",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": null,
-      "summary": "Muse arrives on iPad with more screen real estate and multitasking, plus connectors for GitHub, Asana, QuickBooks, and Canva. The headline capability: give Muse a high-level business goal and let it work autonomously toward it. Muse for Windows is next on the roadmap.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#muse-ipad-small-business"
-    },
-    {
-      "id": "jev-shows-up-in-spend-data",
-      "headline": "Jev isn't just mind share anymore \u2014 it's market share",
+      "id": "mathematicians-split-on-shock",
+      "headline": "Awe from some mathematicians, a shrug from others",
       "type": "insight",
       "segment": "main",
-      "timestamp": "15:00",
+      "timestamp": "14:00",
       "attribution": null,
-      "summary": "In Ramp's October data, Typesafe AI \u2014 creators of the Jev decision model \u2014 ranked first in growth relative to size and second in market share growth, gaining a full point of market share in a month within the foundation LLM category. That means it's gaining share faster than every frontier lab besides Anthropic.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#jev-shows-up-in-spend-data"
+      "summary": "Toronto's Daniel Litt framed the shift as mathematicians moving from decades-long problem work to verifying AI proofs \u2014 'mathematicians have a lot of exciting work to do.' Micah Warren compared it to Barry Bonds's 756th home run: unbelievable if you'd predicted it in 1987, expected by 2007. An Anthropic researcher who'd been working on Navier-Stokes himself called it the most significant moment in mathematical history.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#mathematicians-split-on-shock"
     },
     {
-      "id": "ramp-frontier-shakeup",
-      "headline": "The model market is structurally realigning, not just rotating",
+      "id": "three-hours-per-result",
+      "headline": "The scariest number in the release: three hours per result",
       "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "Anthropic, SpaceX AI, and OpenAI all ranked top five for market share capture \u2014 a rare showing for SpaceX AI, suggesting GrokBot is driving real new business \u2014 while DeepSeek and model routers like OpenRouter and Featherless also charted. Ramp economist Eric Karazian warns that performant light models and token-efficient specialist models like Jev \"will threaten OpenAI and Anthropic's revenue growth among businesses.\"",
-      "link": "https://aidailybrief.ai/e/2026-10-08#ramp-frontier-shakeup"
+      "summary": "Average compute per result was roughly three hours of ChatGPT Pro thinking. A month ago, Navier-Stokes alone took around 10,000 agents and 88 hours. That efficiency gain happened within weeks \u2014 which is why some observers are calling this the intelligence explosion happening in real time.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#three-hours-per-result"
     },
     {
-      "id": "ramp-tea-leaves",
-      "headline": "Ramp's tea leaves: RL data heats up, video spend pushes costs up",
+      "id": "math-absorption-problem",
+      "headline": "Mathematics doesn't grow by accumulating correct statements",
       "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "Scale AI returned to the growth charts for the first time in months \u2014 either reflecting the labs' recently completed training runs or a hint that fine-tuning of open models is picking up. Runway and Higgs Field also ranked, with Karazian noting expensive image and video models will push AI spend up; today that's mostly social marketing, with a bull case in construction and manufacturing automation that isn't here yet.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#ramp-tea-leaves"
+      "summary": "Mathematician Francesco Maggi raised the core wrinkle: results have to be understood, connected, challenged, and reused, or they remain 'lettera morta.' Hundreds of AI-generated proofs at once may outrun the scarce resources of human attention, taste, and mathematical culture \u2014 the Navier-Stokes proof from last month is still being verified.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#math-absorption-problem"
     },
     {
-      "id": "grokbot-best-model-for-the-task",
-      "headline": "GrokBot will use whatever model wins \u2014 including Claude",
+      "id": "science-loses-interpretability",
+      "headline": "What happens when AI produces more math in a day than humanity can absorb in a century?",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Musk announced that going forward, SpaceX will route GrokBot to \"the best backend model for any given task,\" including Claude Opus 5.5, Midjourney, Suno, and other leading APIs \u2014 while most simple requests get handled by a lightning-fast Grok 4.8 when it ships. It's a flag planted on the year's biggest open question: Grok is willing to compete in both the harness and the model domain.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#grokbot-best-model-for-the-task"
+      "summary": "Physicist Steve Hsu's extrapolation: formal systems may verify the proofs, but humans won't have the context to understand the web of machine-invented concepts. At that point AI stops being a scientific tool \u2014 humans receive selected explanations from a larger intellectual civilization they can't independently grasp.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#science-loses-interpretability"
     },
     {
-      "id": "spacex-eats-its-cake",
-      "headline": "The lab-plus-router position: the house always wins",
+      "id": "math-genie-identity-shock",
+      "headline": "'What can I pivot to now that AI has taken away math?'",
       "type": "insight",
       "segment": "main",
-      "timestamp": "19:00",
+      "timestamp": "18:00",
       "attribution": null,
-      "summary": "The competitive read, per investor Anish Acharya: SpaceX gets the benefits of being a lab, vertical integration into inference, and a Cursor-style router all at once \u2014 a state-of-the-art model so labs can't bully them, margin captured on third-party models, and the ability to offer the overall best or the best for a tail modality. The pushback came from Grok subscribers wary of passed-through API costs and some users requesting an opt-out to stay Grok-only on principle.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#spacex-eats-its-cake"
+      "summary": "Grad students describe the release as nuking the problems they'd planned to build careers on. The optimist counter from former UW professor Shreeram Kannan: any mathematician from 5000 BC to January 2026 would have said yes to a math genie \u2014 this is an extreme but temporary shock to 'I am world-class at math' as an identity, not to the field itself.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#math-genie-identity-shock"
     },
     {
-      "id": "multi-model-is-the-demand",
-      "headline": "The harness is the lock-in; the models should be mobile",
-      "type": "take",
+      "id": "matrix-multiplication-breakthrough",
+      "headline": "One result actually matters for the real world: matrix multiplication at 2.25",
+      "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "The whole trajectory of the industry is companies wanting more model choice, not less \u2014 use the product, harness, and context as the lock-in, and make the models transportable. As Thomas Tunguz put it, no company can provide the best model for every use case. And it's not just Elon: OpenAI now sells open model inference through its B2B marketplace, meaning enterprise spend commitments can go to non-OpenAI models.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#multi-model-is-the-demand"
+      "summary": "Most of the solved problems are impressive but impractical \u2014 even Navier-Stokes doesn't change how engineers do fluid dynamics. The exception: a new theoretical efficiency bound for matrix multiplication, the math underpinning AI inference, dropping the exponent from roughly 2.37 to no more than 2.25. Cornell's Steven Strogatz compared the leap to Bob Beamon's long jump.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#matrix-multiplication-breakthrough"
     },
     {
-      "id": "grokbot-native-x-access",
-      "headline": "GrokBot gets native eyes on X",
+      "id": "cryptography-conspicuously-missing",
+      "headline": "What's missing from the 722 results: cryptography",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "20:00",
+      "attribution": null,
+      "summary": "Bitcoin security researcher Justin Drake flagged a 'striking underrepresentation' of cryptographic breakthroughs and called backroom government interventionism his base case. If an internal model can break major cryptographic schemes, that's not a Bitcoin problem \u2014 it's a problem for the cryptography underpinning the entire digital world.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#cryptography-conspicuously-missing"
+    },
+    {
+      "id": "aaronson-labs-testing-crypto",
+      "headline": "AI companies have now started, gingerly and discreetly, investigating whether their latest internal models can break important cryptographic protocols and primitives.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "21:00",
+      "attribution": "Scott Aaronson, University of Texas computer science professor, on his blog",
+      "summary": "Aaronson's sourced claim, from his blog: if the models can, 'it would certainly be nice to get ahead of things before the rest of the world figures out the same.'",
+      "link": "https://aidailybrief.ai/e/2026-10-09#aaronson-labs-testing-crypto"
+    },
+    {
+      "id": "two-revolutions-coming-to-other-fields",
+      "headline": "Economists say they're next",
       "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "GrokBot now has direct access to search, read, and monitor X \u2014 opening up a raft of social media monitoring use cases and reflecting the push for agentic offerings to compete on UX streamlining.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#grokbot-native-x-access"
+      "summary": "NYU Stern's Arpit Gupta: you're deluding yourself if you think advances like math aren't coming to economics and social science. Wharton's Ethan Mollick sees two AI revolutions after a 'slop science era' \u2014 everything ever published gets reread and rejudged, and novel discoveries start coming fast, with nearly autonomous research in his own field already approaching top-journal level.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#two-revolutions-coming-to-other-fields"
     },
     {
-      "id": "haiku-5-5-competes-at-the-bottom",
-      "headline": "Haiku 5.5 is Anthropic's statement: we'll fight at the cheap end too",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Anthropic calls it the cheapest, fastest, most capable small model it's ever released \u2014 light years beyond Haiku 4.5, and beating GPT-6 Luna across the board: more than double on TerminalBench 4.0 for agentic coding, 72.4% vs 48.9% on OSWorld computer use, and wins on GDPVal and AA Briefcase. Artificial Analysis scores it at 43 on the intelligence index, between Kimi K3 and GLM 5.3 Flash.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#haiku-5-5-competes-at-the-bottom"
-    },
-    {
-      "id": "haiku-pricing-is-the-story",
-      "headline": "The big Haiku story is cost: pennies per task",
+      "id": "moravec-caveat-rl-paradigm",
+      "headline": "The caveat: these proofs fit the reinforcement learning paradigm",
       "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "Haiku 5.5 is priced at a quarter the cost of Sonnet 5.5 per token, with an 80% discount on prompts under 100,000 tokens to encourage quick queries and sub-agent use. Artificial Analysis pegs it at 21 cents per task on max inference and 12 cents on extra high \u2014 in line with GPT-6 Luna and one-sixth the price of GPT-6.1 Sol. It's one of the most token-hungry models they've tested, but so cheap it doesn't matter.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#haiku-pricing-is-the-story"
+      "summary": "The results largely came from big-data approaches coupled to pattern recognition on verifiable problems, not reasoning into genuinely novel ideas. Pedro Domingos's framing: mathematics is a classic case of Moravec's paradox \u2014 hard for humans, easy for machines. That doesn't automatically generalize to messier fields.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#moravec-caveat-rl-paradigm"
     },
     {
-      "id": "cheapest-llms-are-american",
-      "headline": "Narrative violation: the cheapest LLMs are now American",
+      "id": "entropy-roadmap-for-automation",
+      "headline": "A roadmap for which fields fall next: automation speed is inverse to entropy",
       "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "In June, GLM and DeepSeek owned the cost-intelligence Pareto frontier; after months of aggressive US price cuts and efficiency gains, investor Haseeb Qureshi notes the entire frontier now belongs to Anthropic, OpenAI, and TypeSafe's Jev. The open question: how much of enterprise interest in Chinese open models was ever about cost \u2014 versus sovereignty, self-hosting, and data guarantees the American labs still haven't addressed?",
-      "link": "https://aidailybrief.ai/e/2026-10-08#cheapest-llms-are-american"
+      "summary": "A Google distinguished scientist's ordering: math and coding are structured and fall first; hard sciences next, complicated by noisy measurement; then financial markets, non-stationary and psychological; then medicine, 'a nightmare of incomplete information'; then law, built on ambiguous language and evolving norms. Culture, art, and strategic leadership \u2014 the pinnacle of disorder and tacit knowledge \u2014 stay safe. So rejoice: we'll have artists, lawyers, doctors, and CEOs for a long time yet.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#entropy-roadmap-for-automation"
     },
     {
-      "id": "gpt6-goes-free",
-      "headline": "GPT-6 comes to the free tier",
-      "type": "insight",
+      "id": "two-paths-to-watch",
+      "headline": "Watch two things: which field is next, and what mathematicians do with the genie",
+      "type": "take",
       "segment": "main",
       "timestamp": "24:00",
       "attribution": null,
-      "summary": "A month after GPT-6 models launched for paid customers, OpenAI is bringing a new GPT-6 model to the 1.2 billion people who use ChatGPT weekly. Given how much public perception of AI is still set by the core free experience, that's a non-trivial upgrade \u2014 even if it was clearly the second announcement of the day.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#gpt6-goes-free"
-    },
-    {
-      "id": "chatgpt-intelligent-ui",
-      "headline": "ChatGPT learns to build its own interface",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "OpenAI's \"intelligent UI\" renders interactive visualizations, charts, and images instead of walls of text \u2014 built on a library of native streamable components and a compiler that renders the interface as the model generates it, with GPT-6 post-trained to judge when an interface actually helps and when plain text still wins. Ethan Mollick's read: increasingly, interfaces will be built on demand for the problem you have.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#chatgpt-intelligent-ui"
-    },
-    {
-      "id": "labs-finally-care-about-product",
-      "headline": "The labs can no longer get away with bad products",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "27:00",
-      "attribution": null,
-      "summary": "Until now, the foundation labs shipped fairly unintuitive products because the intelligence behind them more than made up for it. With that level of intelligence on tap everywhere, product differentiation is going to really matter \u2014 and intelligent UI is the first clear sign the labs know it.",
-      "link": "https://aidailybrief.ai/e/2026-10-08#labs-finally-care-about-product"
+      "summary": "Either this disruption pattern spreads to other domains, or human and systemic inertia proves it's less inevitable than it looks. And the question for mathematics itself: does a mathematical genie negate all that hard work and learning \u2014 or let mathematicians do things undreamed of as of yet? Over the coming months, that's what we'll begin to see.",
+      "link": "https://aidailybrief.ai/e/2026-10-09#two-paths-to-watch"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-10-08.mp3",
-  "generated": "2026-10-10T08:58:01Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-10-09.mp3",
+  "generated": "2026-10-11T12:59:34Z"
 }

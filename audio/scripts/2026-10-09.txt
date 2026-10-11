@@ -1,0 +1,17 @@
+David's AI brief for Friday, the ninth of October.
+
+Today's One Idea is that mathematics may be the first true field-level disruption caused by AI.
+
+Nathaniel Whittemore begins with a puzzle. For years AI was predicted to upend whole industries, and so far it mostly has not. It has changed how people work, not whether their fields exist. Even coding, the most changed field of all, still sees rising demand for coders. Then OpenAI released three hundred and seventy-two new mathematical results, together with seven hundred and twenty-two supporting papers. Measured against a list of the five hundred best-known open problems, ninety were fully solved, with partial progress on the Riemann hypothesis and the Hodge conjecture. The average cost was about three hours of compute per result. A month ago, a single problem, Navier-Stokes, took ten thousand agents eighty-eight hours.
+
+Professional reaction was divided. Alex Kontorovich of Rutgers said that if a human had done this, it would be an instant Fields Medal. Others shrugged, comparing it to a home run record that looked impossible in one decade and ordinary in the next. The real difficulty is absorption. Mathematics does not grow by piling up correct statements. Results must be understood, connected and challenged, and human attention is scarce. Last month's Navier-Stokes proof is still being verified. One result does matter outside the seminar room: a new bound for matrix multiplication, the arithmetic underneath AI itself, lowering the exponent from about two point three seven to no more than two point two five.
+
+There is a caveat. These proofs suit reinforcement learning, which thrives where answers can be checked. Mathematics is a classic case of things being hard for people and easy for machines, and that may not carry over to messier fields. One scientist ranked fields by disorder, with maths and coding first, then hard sciences, markets, medicine, and law, and left art and leadership last.
+
+The headlines had a sobering side. The Financial Times reported that OpenAI's annualised revenue is around fifty billion dollars, not the sixty-eight billion widely repeated. Chip shares fell anyway, which shows how much of the market rests on a few growth stories. Anthropic quotes revenue before sharing with partners, while OpenAI quotes it after, so its audited figures may look lower.
+
+I looked for a counter-voice from Ed Zitron, but he has published nothing on this subject, so there is no opposing view today.
+
+Now, thoughts from the surgery. The lesson from mathematics is that producing is cheap and checking is costly. That is exactly the position with AI scribes. The note arrives in seconds, but a clinician must still read it and take responsibility. Protect that step. Medicine also sits far down the ranking, because histories are incomplete and context is unwritten, so expect tools that draft and summarise long before anything that decides. And treat headline numbers cautiously. If a figure for a private company can be wrong by twenty billion dollars, a vendor's claim about savings deserves proof before a practice signs.
+
+That's the brief — source, The AI Daily Brief.
