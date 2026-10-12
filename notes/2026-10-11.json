@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Cost, not capability, is becoming the question",
+   "body": "The edition says spending limits are replacing token leaderboards, and that cheap models have narrowed the price gap. For a practice choosing scribe or triage tools, that favours asking what a tool costs per clinician per month and what happens when the price changes, rather than chasing the newest model. Zitron's side warns that suppliers under financial strain may raise prices, so contracts with exit terms are sensible on either view."
+  },
+  {
+   "title": "Sovereignty is a data-protection question",
+   "body": "Chinese open-weight models pushed firms towards hosting their own, to protect their data. The practice equivalent is knowing where patient data goes, who is the processor, and whether the supplier can switch the underlying model without telling you. Ask for that in writing, and keep the DPIA current. Both commentators agree lock-in is a real risk; they differ on how soon it bites."
+  },
+  {
+   "title": "Few paying users, many users: adoption is uneven",
+   "body": "Only a small share of households pay for AI, and a small share of users drive most usage. In surgery terms, expect a few enthusiastic clinicians to carry most scribe use. The useful measure is whether notes are reviewed and signed properly, not how many people have logged in. Little else in this edition touches the NHS directly."
+  }
+ ]
+}

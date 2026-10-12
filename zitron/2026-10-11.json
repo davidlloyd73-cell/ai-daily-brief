@@ -1,0 +1,9 @@
+{
+ "match": true,
+ "source_title": "Credit Crunch",
+ "source_url": "https://www.wheresyoured.at/credit-crunch/",
+ "source_date": "2026-10-06",
+ "same_day": false,
+ "other_side": "Zitron argues the money math does not close. He says hyperscalers would need roughly $308 billion a year of AI revenue to justify their 2026 and 2027 capital spending and are well short, while OpenAI and Anthropic carry about $1.3 trillion of compute commitments against heavy losses. On demand, he says those two firms account for most AI revenue and that much of their enterprise income comes from venture-funded startups. His line: you can't pay $1.3 trillion in commitments with hope.",
+ "truth_beneath": "The single variable both men orbit is whether AI revenue grows fast enough to service the capital being poured in. Both accept the facts: capital spending is heading towards a trillion dollars, revenue is concentrated in two labs, and a small share of customers supplies most of the spend. The empirical question that will resolve is whether demand broadens beyond that core; the observable is whether non-lab, non-startup enterprise revenue and paid consumer adoption rise materially, alongside whether the Anthropic IPO prices and holds. The worldview residue is whether today's power-user spending extrapolates to a mass market. For Whittemore to be vindicated, the long tail of ninety-nine per cent of customers must convert and financing stay open. For Zitron, concentration must prove to be dependence, with funding tightening before revenue broadens. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron is bubble-certain and anti-hype. The signal is where they agree despite opposite priors: concentration is the live risk. Watch the Anthropic IPO book and first quarterly results."
+}

@@ -1496,6 +1496,24 @@
    "resolution": "Vindicated if, by the check date, an AI lab releases a batch of significant results in a non-maths field (e.g. physics or economics) that domain experts publicly credit as solving long-standing problems. Fails if no such release occurs or experts dismiss it.",
    "check_by": "2027-04-09",
    "status": "open"
+  },
+  {
+   "edition": "2026-10-11",
+   "side": "NLW",
+   "claim": "That the AI bubble debate has matured from 'is it real' to a demand question, and that the untapped ninety-nine per cent of enterprise customers represent upside rather than risk.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-11",
+   "resolution": "Vindicated if, by the check date, reported enterprise AI revenue from outside the top 1% of customers (e.g. Ramp or lab disclosures) grows materially and Anthropic's IPO prices near its reported ~$2T target. Fails if concentration worsens or the IPO is pulled or priced well below.",
+   "check_by": "2027-04-11",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-11",
+   "side": "Zitron",
+   "claim": "That AI revenue cannot cover the build-out: hyperscalers are $125-243bn a year short of break-even and OpenAI and Anthropic cannot fund about $1.3tn of commitments.",
+   "source_url": "https://www.wheresyoured.at/credit-crunch/",
+   "resolution": "Vindicated if by the check date either lab misses a major compute payment, renegotiates or cancels large commitments, or a hyperscaler cuts capex guidance citing weak demand. Fails if both labs meet obligations and capex guidance keeps rising with revenue growth.",
+   "check_by": "2027-04-11",
+   "status": "open"
   }
  ]
 }
