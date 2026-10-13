@@ -1514,6 +1514,15 @@
    "resolution": "Vindicated if by the check date either lab misses a major compute payment, renegotiates or cancels large commitments, or a hyperscaler cuts capex guidance citing weak demand. Fails if both labs meet obligations and capex guidance keeps rising with revenue growth.",
    "check_by": "2027-04-11",
    "status": "open"
+  },
+  {
+   "edition": "2026-10-12",
+   "side": "NLW",
+   "claim": "That a well-structured internal champions programme is the single highest-ROI enterprise AI transformation activity, and that its success depends chiefly on someone owning the continuation after certification.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-12",
+   "resolution": "Vindicated if published enterprise case studies or surveys by the check date show organisations with formal champion networks reporting markedly higher sustained AI adoption or measured returns than those without. Fails if such programmes are reported to fade or show no advantage over other adoption methods.",
+   "check_by": "2027-04-12",
+   "status": "open"
   }
  ]
 }

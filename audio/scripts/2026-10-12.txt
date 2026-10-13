@@ -1,0 +1,19 @@
+David's AI brief for Monday, the twelfth of October.
+
+Today's One Idea comes from an Operators Cut edition of The AI Daily Brief, and it makes a bold claim at the outset. Across every enterprise that Nathaniel Whittemore and his guest Nufar have worked with, the single highest-return move in putting AI to work is a well-structured internal champions programme. The condition is that it is treated as a real role, not as a reward.
+
+The argument starts from something most of us will recognise. In every team, someone finds a clever way of doing a task with AI, shows colleagues, and it never becomes how the whole team works. The champion is the person whose job is to fix that. The definition offered is peer plus one: someone who does the same work as their colleagues, sits within the team, and is simply a step ahead with AI, showing what it can do on real tasks rather than in theory.
+
+On choosing people, there are three signals of a true champion. They use AI without being told. Their colleagues already come to them. And their manager gives them time, which is where nominations most often fall short. Protect one to two days a week, or the network quietly dies.
+
+Training should use the champion's own work. The pass mark is simple: each champion takes one real use case from their team and shows how they built or promoted it.
+
+The most important point comes after that. The biggest predictor of success is what happens the day after certification. Training ends with pride and a certificate, and then nobody owns the continuation, so people drift back to old habits. The remedy is two sponsors: one from people and learning, who keeps the human side alive, and one with real AI knowledge, who sets priorities and clears approvals and access.
+
+The final third turns to judgement. Champions should ask whether to build at all, choose the simplest tool that works, and write down what a solution must never do, and above all they must be able to sign off: to say when something is good enough to put in front of users, and what its mistakes cost.
+
+I did not find a relevant piece from Ed Zitron this time, so there is no opposing view to set against this, and it is worth remembering that this is a practitioner's playbook rather than independent evidence.
+
+For general practice, the lesson is practical. Most surgeries already have an informal scribe champion. Give that person protected time, name a clinician and a manager who own what happens after go-live, keep the data protection and clinical safety paperwork current, and write down what the tool must never do, such as filing or sending without a clinician reading and signing. Count checking time as well as time saved. And beyond workforce and governance, there is little here touching patient care directly.
+
+That's the brief — source, The AI Daily Brief.
