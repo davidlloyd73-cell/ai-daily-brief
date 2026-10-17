@@ -1,0 +1,15 @@
+David's AI brief for Tuesday, the thirteenth of October.
+
+Today's One Idea from The AI Daily Brief is that Meta is back at the frontier, and is playing a different game from everyone else.
+
+Meta has released two models, Muse Wonder and a larger one called Wonder Full. On the published benchmarks they look excellent. The top version scored seventy-nine per cent on one agentic test, nearly five points ahead of the leading models from OpenAI and Anthropic, and an independent analyst placed it joint second overall. It arrived just thirty-four days after Meta's previous Muse launch, and Meta's share price rose four per cent.
+
+But on real engineering work, reviewers split sharply. One senior-engineer test, rebuilding a messy database from scratch, gave Wonder fifty-two per cent, well behind a rival at seventy-one. Some users found the smaller Wonder disappointing, and because the two models share a name, that dragged down opinion of the better one. Others found the full model excellent on agentic tasks. Usage allowances also seemed to drain far too quickly, which Meta put down to a possible counting bug. The price is now frontier-level, about four pounds fifty a task.
+
+The host's deeper point is about philosophy. OpenAI and Anthropic are building what he calls machine gods, systems that inspire awe. Meta says it is building a normal technology, with ordinary guardrails, and Mark Zuckerberg expects progress to feel faster from here.
+
+Now, the other side. Ed Zitron, in a piece from mid-September, argues against exactly this awe. He says talk of mysterious, unstoppable AI lets the labs dodge responsibility, and that these are simply software that should be regulated and held accountable like any other. He does not write about Meta's launch specifically. Both men are polemicists with incentives: one bullish, one certain of a bubble. Where they agree, despite opposite priors, is that these are tools needing ordinary accountability. The question that will settle things is whether benchmark scores and real work results converge while prices fall.
+
+For general practice, the lesson is simple. A tool that tops a vendor's benchmark may still stumble in a Harrow consultation, so ask for evidence from real UK primary care, and trial any new model on your own notes before relying on it. Watch contract terms too, because usage caps and price rises matter more than the introductory subscription. And treating AI as normal technology fits how the NHS already works: a named clinical safety officer, a hazard log, a data protection assessment, and the clinician remaining responsible for the record.
+
+That's the brief — source, The AI Daily Brief.

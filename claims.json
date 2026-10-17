@@ -1523,6 +1523,60 @@
    "resolution": "Vindicated if published enterprise case studies or surveys by the check date show organisations with formal champion networks reporting markedly higher sustained AI adoption or measured returns than those without. Fails if such programmes are reported to fade or show no advantage over other adoption methods.",
    "check_by": "2027-04-12",
    "status": "open"
+  },
+  {
+   "edition": "2026-10-13",
+   "side": "NLW",
+   "claim": "That Meta's Muse Wonder puts it back among five or so frontier labs, and that model development will feel noticeably faster from here, as Zuckerberg says.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-13",
+   "resolution": "Vindicated if by the check date Meta ships a further Muse model that independent evaluations place at or near the top tier, and at least four other labs also remain at the frontier. Fails if Meta's next release lags clearly or the field narrows back to two labs.",
+   "check_by": "2027-04-13",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-13",
+   "side": "Zitron",
+   "claim": "That frontier labs gain from portraying AI as unknowable and unstoppable, and that calls to pace the frontier cannot work given their compute commitments and IPO plans.",
+   "source_url": "https://www.wheresyoured.at/ai-is-already-in-dangerous-hands/",
+   "resolution": "Vindicated if by the check date the major labs release larger models on or ahead of their previous cadence despite pacing pledges. Fails if they demonstrably hold back flagship releases for safety reasons over several months.",
+   "check_by": "2027-04-13",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-14",
+   "side": "NLW",
+   "claim": "That the useful question for any new frontier model is where it fits in a stack, and that Gemini 4 Argon earns a slot for writing and multimodal work even though it trails on real-world agentic coding.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-14",
+   "resolution": "Vindicated if by the check date independent usage or review data show Argon in regular use for writing or multimodal work alongside other frontier models, and its coding results improve in Google's top harness. Fails if usage stays negligible or Google fails to close the coding gap.",
+   "check_by": "2027-04-14",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-14",
+   "side": "Zitron",
+   "claim": "That many AI startups resell lab tokens at a loss, sustained only by venture funding, so lab and startup revenue is weaker than headline run rates suggest.",
+   "source_url": "https://www.wheresyoured.at/annualized-enron-rate/",
+   "resolution": "Vindicated if by the check date a prominent AI startup or reseller reports negative gross margins, a down round or a funding failure tied to token costs. Fails if leading startups disclose positive gross margins at scale without fresh subsidy.",
+   "check_by": "2027-04-14",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-15",
+   "side": "NLW",
+   "claim": "That the Astra and Opus 5.5 jump has made decompiling and rebuilding software a mass capability, forcing legacy firms such as Epic, Xbox and Adobe to change their business models rather than defend them.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-15",
+   "resolution": "Vindicated if by the check date at least one major software or games company has publicly changed its pricing, licensing or product strategy explicitly because of AI-driven rebuilds or clones. Fails if such rebuilds remain marginal and no major firm changes course.",
+   "check_by": "2027-04-15",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-15",
+   "side": "Zitron",
+   "claim": "That AI 'annualized revenue' figures overstate real revenue, and that lab growth depends on venture-funded startups reselling tokens at a loss.",
+   "source_url": "https://www.wheresyoured.at/annualized-enron-rate/",
+   "resolution": "Vindicated if by the check date audited or filed figures for Anthropic or OpenAI come in materially below their stated run rates, or startup resellers report negative gross margins. Fails if audited results broadly confirm the headline growth with healthy margins.",
+   "check_by": "2027-04-15",
+   "status": "open"
   }
  ]
 }

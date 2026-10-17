@@ -1,89 +1,95 @@
 ---
-title: David's AI Daily Brief — 2026-10-12
-date: 2026-10-12
-source: https://aidailybrief.ai/e/2026-10-12
+title: David's AI Daily Brief — 2026-10-15
+date: 2026-10-15
+source: https://aidailybrief.ai/e/2026-10-15
 note: Personal, non-commercial distillation of The AI Daily Brief podcast. GP's Corner is AI commentary, not from the podcast.
 ---
 
 # David's AI Daily Brief
 
-**Monday 12 October 2026 · 39 min listen**
+**Thursday 15 October 2026 · 31 min listen**
 
-## How to Go from AI Power User to AI Leader
+## How the Latest AI Leap Is Disrupting Business Models
 
-_It's a federal holiday Operators Cut, and this one makes a bold claim up front: across every enterprise NLW and returning guest Nufar have worked with, the single highest-ROI AI transformation move is a well-structured internal champions program. This episode is the full playbook — what the role actually is, how to nominate and train for it, why most networks die the day after certification, and the checklist that separates a power user from a champion._
+_A developer one-shots Photoshop with a Claude subscription, AI-accelerated crackers jailbreak the PS5, and mashed-up AAA games are suddenly a one-day project. The Astra and Opus 5.5 jump has turned decompiling and reconstituting software from a legal curiosity into a mass capability — and today's episode is about how Adobe, Epic, Xbox, Bumble's new owners, and even David's Bridal are responding to business models being torn up in real time._
 
-Source: https://aidailybrief.ai/e/2026-10-12
+Source: https://aidailybrief.ai/e/2026-10-15
 
-Audio: https://davids-ai-brief.netlify.app/audio/2026-10-12.mp3
+Audio: https://davids-ai-brief.netlify.app/audio/2026-10-15.mp3
 
 ## The One Idea
 
-### AI champions are the highest-ROI move in enterprise AI — if you treat it as a real role, not a reward.
+### When models can decompile anything, business models have to evolve or die.
 
-Every team already has the person everyone calls when they want to get something done with AI. The companies that win are the ones that formalize that person — deciding where they sit on the spectrum from ambassador to internal forward-deployed engineer, nominating for the right signals instead of seniority or reward, training them on their own team's real work, and above all owning the day after certification. The tools will change every quarter; the playbook — right people, written-down scope, the whole road from idea to production, and someone who owns the continuation — doesn't.
+Late 2025's model jump looked incremental until it birthed the agent era. Astra and Opus 5.5 feel like the same kind of moment: clean-room rebuilds of Photoshop, jailbroken consoles, and playable game mashups delivered in a day. The lesson emerging from Epic's handwritten-code ban, Xbox's new lab, and the PE firms rebuilding Bumble and Bending Spoons' brands around AI isn't that software is over — it's that legacy players now believe change is the name of the game, and they have to evolve to survive.
+
+## The Other Side
+
+Zitron's piece from two days before argues that 'annualized' revenue is marketing rather than accounting, and compares it with reported quarters: he puts Anthropic's first-half 2026 revenue at about 15.5 billion dollars, far below its headline run rates. He says labs' growth leans on venture-funded startups buying tokens at a loss, and that GPU contract prices may not cover depreciation. He does not write about decompiling software or Photoshop, so this addresses the edition's earnings and compute items rather than its lead.
+
+Source: Ed Zitron, "Annualized Enron Rate", 13 October 2026 — https://www.wheresyoured.at/annualized-enron-rate/
+
+## The Truth Beneath
+
+The variable both men orbit is whether AI revenue is real, durable and profitable, or partly a product of subsidy and accounting choices. Both accept as fact that Anthropic told investors of 16.8 billion dollars in unaudited Q3 revenue, that CoreWeave's bonds trade near distressed levels, and that compute commitments run to hundreds of billions. The empirical question is whether audited figures confirm that growth, margins and cash flow; the observable is Anthropic's IPO filing and whether Q4 reaches the roughly 57 per cent growth needed for 110 billion dollars annualised. The residue is worldview: whether disruption of old business models justifies the spending. For Whittemore to be vindicated, Q4 and audited numbers must hold up and legacy firms must adapt profitably. For Zitron, filings must show weak margins or revenue propped by subsidised resale. Both are polemicists with incentives, Whittemore bullish and anti-doom, Zitron certain of a bubble and anti-hype. The signal is that both distrust unaudited figures. Watch what Anthropic's IPO filing actually discloses.
 
 ## GP's Corner
 
 _Claude's notes on what today means for UK general practice and the NHS - commentary, not from the podcast itself._
 
-### Every practice already has a scribe champion
+### Software you can rebuild is software you must govern
 
-The edition's core idea is that each team has the person colleagues ask when they want something done with AI. In a surgery that is usually the GP or practice manager who got the scribe working first. Formalising that role, with protected time rather than goodwill, is a sensible way to spread safe use across partners, locums and salaried staff. The three signals are useful: uses it unprompted, colleagues already ask them, and the practice actually gives them time.
+The developer who rebuilt Photoshop with an AI model, and Chamath's claim that software IP is worthless, are mostly about commercial products. Whittemore thinks this is overstated, because most customers pay for support and maintenance. For practices the practical point is that clinical systems are bought for assurance, updates and accountability, not code. A home-built tool still needs DCB0129 or DCB0160 safety cases, a data protection assessment and an owner. Zitron would add that cheap building has not made cheap running.
 
-### Own the day after the go-live
+### Banks hiring people to patch what AI finds
 
-The episode says most programmes fail once the training ends and nobody owns what follows. For a practice adopting a scribe or an inbox tool, that means naming one clinician and one manager who review how it is used, check notes are read and signed before filing, keep the DPIA and clinical safety documentation current, and handle supplier changes. Write down what the tool must never do, as the episode suggests, for example never auto-code or auto-send without a clinician check.
+Bank of America hired a thousand contractors to patch vulnerabilities found by an AI security model, and Jamie Dimon says cyber risk has risen tenfold. NHS practices run ageing systems and shared accounts, and the same tools can be used to scan them. Keep software patched, use multi-factor sign-in, check backups, and ask suppliers how they respond to newly found vulnerabilities.
 
-### Be conservative about the savings
+### Anthropic's figures and procurement
 
-The advice to assume costs are higher and day-one value lower than you hope suits NHS budgets well. Count the time spent checking output as well as the time saved writing. No sceptical counter-source was found for this edition, so this rests on the programme's own account; it is a management playbook, not evidence of clinical benefit. Beyond workforce and governance, little here touches patient care directly.
+Both positions agree that the headline numbers are unaudited and uncertain. A scribe or triage tool built on a lab that may be loss-making or may be extremely profitable carries supplier risk. In contracts, look for data export, exit terms and price caps, so a practice can switch if prices or ownership change. Little else here bears directly on the NHS.
 
 ## NLW's Takes
 
-### The single highest-ROI transformation activity in enterprise AI
+### Call Jensen an AI realist
 
-Across all of NLW's experience with enterprises, nothing beats a well-structured internal champions program — and of all the adoption strategies he and Nufar have seen companies try, it's one of the only ones that consistently works. In his words: it never fails.
+NLW's coinage for Huang's position: safety risks are real but tractable, an engineering problem to be engaged with engineering rather than politics — not a world of neatly opposed pro-safety and anti-safety camps. Demonstrating the point, NVIDIA announced $250 million in compute over five years for UK safety research.
 
-### Past intermediate, you'll be thrust into the champion role whether you asked or not
+### Maybe a little podcast hyperbolic: SaaS sells support, not software
 
-Once you're an advanced AI user, the champion role finds you — with friends and family, and definitely on any team. And it's a different muscle than using AI well: communicating how to use it, thinking in process terms rather than just implementation.
+People have pirated Adobe for decades without denting the business. Most SaaS companies sell the ability for IT procurement to offload maintenance for a reasonable monthly fee — and this feels like a rerun of the vibe-coding narrative, nine months after which most companies that experimented with prompting their own CRM quietly returned to their Salesforce contracts.
 
-### If you haven't invested in formal AI training, start here
+### The pattern repeats: another model jump, another unlock
 
-AI upskilling doesn't fit old corporate training models — it's too all-encompassing, with no agreed standards — which makes 'how much to invest in whom' genuinely hard. But training the group that then disseminates the most contextually relevant pieces to everyone else is an extremely high-ROI category even relative to other training: a relatively small number of people with huge impact on the company.
-
-### The citizen coder is making champions mission-critical, not just nice-to-have
-
-A growing version of the internal FDE is the non-technical person who's figured out agentic coding tools — the best current example of AI's power and challenge at once. It's not just an under-optimized opportunity anymore: agents are powerful and tenacious enough to escape containment and weave into systems, so champions become the role that lets companies move forward safely as jobs fundamentally change.
+Opus 4.5 at the end of last year brought agents to the fore; Astra and Opus 5.5 are unlocking the decompilation era. Be cautious about prognostications of rapid change — but the legacy players themselves clearly believe change is now the name of the game, with inevitable pain and a lot of interesting new opportunities along the way.
 
 ## All Headlines, Briefly
 
-- [The single highest-ROI transformation activity in enterprise AI](https://aidailybrief.ai/e/2026-10-12#highest-roi-transformation-activity) (00:00)
-- [The problem champions exist to solve: great use cases that never spread](https://aidailybrief.ai/e/2026-10-12#the-spread-problem) (02:00)
-- [Past intermediate, you'll be thrust into the champion role whether you asked or not](https://aidailybrief.ai/e/2026-10-12#champion-is-a-different-muscle) (04:00)
-- [The definition: peer plus one](https://aidailybrief.ai/e/2026-10-12#peer-plus-one) (05:00)
-- [The role runs a spectrum: ambassador, ambassador-builder, internal FDE](https://aidailybrief.ai/e/2026-10-12#ambassador-to-fde-spectrum) (07:00)
-- [Champions force four questions every company must answer anyway](https://aidailybrief.ai/e/2026-10-12#the-four-questions) (09:00)
-- [Stage one: decide what the network is actually for — most companies can't answer](https://aidailybrief.ai/e/2026-10-12#start-with-the-goal) (11:00)
-- [Three signals of a real champion — and the one where nominations fall apart](https://aidailybrief.ai/e/2026-10-12#three-nomination-signals) (12:00)
-- [The nomination mistakes companies make endlessly](https://aidailybrief.ai/e/2026-10-12#four-nomination-mistakes) (13:00)
-- [The training test: one real use case from their own team](https://aidailybrief.ai/e/2026-10-12#one-real-use-case-test) (15:00)
-- [The biggest predictor of success is what happens the day after certification](https://aidailybrief.ai/e/2026-10-12#the-day-after-certification) (16:00)
-- [Every champion network needs two sponsors](https://aidailybrief.ai/e/2026-10-12#two-sponsors-rule) (16:00)
-- [If you haven't invested in formal AI training, start here](https://aidailybrief.ai/e/2026-10-12#champion-training-is-the-intersection) (18:00)
-- [The underrated move: brief the champions' managers](https://aidailybrief.ai/e/2026-10-12#train-the-managers-too) (23:00)
-- [How to revive a tired champion network](https://aidailybrief.ai/e/2026-10-12#a-living-breathing-network) (24:00)
-- [A champion must know the whole road an AI use case travels](https://aidailybrief.ai/e/2026-10-12#the-whole-road-to-production) (25:00)
-- [Use case math: assume the cost is higher and day-one value lower than you think](https://aidailybrief.ai/e/2026-10-12#be-the-realistic-one) (26:00)
-- [The most important champion skill: being able to sign off](https://aidailybrief.ai/e/2026-10-12#the-sign-off-skill) (28:00)
-- [The question almost nobody stops to ask: should we build this at all?](https://aidailybrief.ai/e/2026-10-12#should-we-even-build-it) (29:00)
-- [Not everything needs to be an agent](https://aidailybrief.ai/e/2026-10-12#simplest-thing-that-solves-it) (30:00)
-- [Write the spec before you build — starting with what it must never do](https://aidailybrief.ai/e/2026-10-12#spec-the-never-do-first) (31:00)
-- [The tools change every quarter; this playbook doesn't](https://aidailybrief.ai/e/2026-10-12#playbooks-outlast-the-tools) (33:00)
-- [The citizen coder is making champions mission-critical, not just nice-to-have](https://aidailybrief.ai/e/2026-10-12#agentic-coding-makes-champions-mission-critical) (35:00)
-- [Don't shut down the less-professional builders — enable them](https://aidailybrief.ai/e/2026-10-12#enable-dont-shut-down) (37:00)
-- [Building is the easy part — the differentiating skills can't be learned from a YouTube video](https://aidailybrief.ai/e/2026-10-12#evaluation-cant-be-youtubed) (37:00)
+- [Anthropic's $16.8B quarter gets the full earnings-day treatment](https://aidailybrief.ai/e/2026-10-15#anthropic-q3-earnings-day) (01:00)
+- [The $110B target is a bet on Fable 5.5](https://aidailybrief.ai/e/2026-10-15#fable-55-is-the-bet) (03:00)
+- [Anthropic's IPO window has an accounting quirk](https://aidailybrief.ai/e/2026-10-15#anthropic-ipo-accounting-window) (03:00)
+- [CoreWeave bonds hit distressed levels as insiders keep selling](https://aidailybrief.ai/e/2026-10-15#coreweave-bonds-distressed) (04:00)
+- [ASML can't meet AI chip-tool demand for years](https://aidailybrief.ai/e/2026-10-15#asml-cant-meet-demand) (06:00)
+- [“Advancing capability and advancing safety are not in conflict. They are, in fact, one.”](https://aidailybrief.ai/e/2026-10-15#capability-and-safety-are-one) — Jensen Huang, Nvidia CEO, during UK press appearances (08:00)
+- [Call Jensen an AI realist](https://aidailybrief.ai/e/2026-10-15#jensen-the-ai-realist) (09:00)
+- [AI is causing a banking hiring boom — to patch the bugs it exposes](https://aidailybrief.ai/e/2026-10-15#banks-hire-to-patch-mythos) (09:00)
+- [The OpenAI bugging suspect was one day from fleeing](https://aidailybrief.ai/e/2026-10-15#openai-spy-nearly-fled) (10:00)
+- [Russia fines its first AI bear](https://aidailybrief.ai/e/2026-10-15#russia-fines-ai-bear) (11:00)
+- ['Software is over': a developer one-shots Photoshop](https://aidailybrief.ai/e/2026-10-15#photoshop-one-shotted) (15:00)
+- [Chamath declares software IP 'effectively rendered worthless'](https://aidailybrief.ai/e/2026-10-15#chamath-ip-worthless) (16:00)
+- [Maybe a little podcast hyperbolic: SaaS sells support, not software](https://aidailybrief.ai/e/2026-10-15#saas-sells-support-not-software) (17:00)
+- [Decompiling hit gaming like a freight train](https://aidailybrief.ai/e/2026-10-15#gaming-hit-like-a-freight-train) (18:00)
+- [Bloomberg Intelligence: consoles are becoming record players](https://aidailybrief.ai/e/2026-10-15#consoles-become-record-players) (19:00)
+- [The one-person AAA studio is one to two years away — or less](https://aidailybrief.ai/e/2026-10-15#solo-dev-inflection-point) (20:00)
+- [The end game isn't competing with studios — it's not needing them](https://aidailybrief.ai/e/2026-10-15#not-competition-destruction) (20:00)
+- [Epic bans handwritten code](https://aidailybrief.ai/e/2026-10-15#epic-bans-handwritten-code) (21:00)
+- [“Much of the room wants it to be 2016 again, but it's not.”](https://aidailybrief.ai/e/2026-10-15#sweeney-2016-again) — Tim Sweeney, Epic Games CEO, replying to indie dev Andre Apancsek (22:00)
+- [Epic's proudly vibe-coded launcher ships fast — and glitchy](https://aidailybrief.ai/e/2026-10-15#vibe-coded-launcher-bugs) (23:00)
+- [Xbox starts a lab instead of calling the lawyers](https://aidailybrief.ai/e/2026-10-15#xbox-labs-over-lawyers) (23:00)
+- [Bumble goes private on an AI-rebuild thesis](https://aidailybrief.ai/e/2026-10-15#bumble-goes-private-ai-pilled) (25:00)
+- [Berkshire doubles down on the AI-refurbish playbook](https://aidailybrief.ai/e/2026-10-15#berkshire-backs-bending-spoons) (27:00)
+- [David's Bridal built a wedding-planning agent with tens, not hundreds](https://aidailybrief.ai/e/2026-10-15#davids-bridal-aisle-to-algorithm) (28:00)
+- [The pattern repeats: another model jump, another unlock](https://aidailybrief.ai/e/2026-10-15#change-is-the-name-of-the-game) (30:00)
 
 ---
 

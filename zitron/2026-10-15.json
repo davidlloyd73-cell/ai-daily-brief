@@ -1,0 +1,9 @@
+{
+ "match": true,
+ "source_title": "Annualized Enron Rate",
+ "source_url": "https://www.wheresyoured.at/annualized-enron-rate/",
+ "source_date": "2026-10-13",
+ "same_day": false,
+ "other_side": "Zitron's piece from two days before argues that 'annualized' revenue is marketing rather than accounting, and compares it with reported quarters: he puts Anthropic's first-half 2026 revenue at about 15.5 billion dollars, far below its headline run rates. He says labs' growth leans on venture-funded startups buying tokens at a loss, and that GPU contract prices may not cover depreciation. He does not write about decompiling software or Photoshop, so this addresses the edition's earnings and compute items rather than its lead.",
+ "truth_beneath": "The variable both men orbit is whether AI revenue is real, durable and profitable, or partly a product of subsidy and accounting choices. Both accept as fact that Anthropic told investors of 16.8 billion dollars in unaudited Q3 revenue, that CoreWeave's bonds trade near distressed levels, and that compute commitments run to hundreds of billions. The empirical question is whether audited figures confirm that growth, margins and cash flow; the observable is Anthropic's IPO filing and whether Q4 reaches the roughly 57 per cent growth needed for 110 billion dollars annualised. The residue is worldview: whether disruption of old business models justifies the spending. For Whittemore to be vindicated, Q4 and audited numbers must hold up and legacy firms must adapt profitably. For Zitron, filings must show weak margins or revenue propped by subsidised resale. Both are polemicists with incentives, Whittemore bullish and anti-doom, Zitron certain of a bubble and anti-hype. The signal is that both distrust unaudited figures. Watch what Anthropic's IPO filing actually discloses."
+}

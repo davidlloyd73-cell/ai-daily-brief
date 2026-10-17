@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Benchmarks versus real work",
+   "body": "Wonder scores well on published tests but split reviewers on genuine engineering tasks. The same gap matters for clinical AI: a scribe or triage tool that tops a vendor benchmark may still miss things in a Harrow consultation. Ask suppliers for evidence from real UK primary care use, and trial any new model on your own notes before relying on it. Zitron's scepticism about hype and the host's optimism both point to the same practical test."
+  },
+  {
+   "title": "Cost per task and plan limits",
+   "body": "Users reported usage allowances vanishing fast, and per-task prices are now frontier-level. Practices and ICBs buying AI tools should look at the contract terms for usage caps and price rises, not just the headline subscription. Cheap introductory pricing is not a guide to what a scribe will cost once demand grows."
+  },
+  {
+   "title": "Normal technology, ordinary governance",
+   "body": "Both the host and Zitron, from opposite directions, describe AI as technology needing ordinary accountability rather than something exceptional. That fits how general practice already handles it: a named clinical safety officer, DCB0160 hazard logs, a data protection impact assessment, and the clinician remaining responsible for the record. Little else in this edition bears directly on the NHS."
+  }
+ ]
+}

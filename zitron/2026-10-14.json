@@ -1,0 +1,9 @@
+{
+ "match": true,
+ "source_title": "Annualized Enron Rate",
+ "source_url": "https://www.wheresyoured.at/annualized-enron-rate/",
+ "source_date": "2026-10-13",
+ "same_day": false,
+ "other_side": "Zitron's piece from the day before argues that AI companies' headline numbers are built on undefined 'annualized' figures, and that many AI startups resell lab tokens at a loss, kept alive by venture funding. He cites Harvey, whose gross margin reportedly fell from about 50 per cent to minus 50 as usage rose. That is the opposite reading to the host's take that one failed role-play app, Character AI, does not condemn consumer AI economics. He does not write about Gemini 4 Argon or Character AI by name.",
+ "truth_beneath": "The variable both men orbit is whether anyone can sell AI at a price that covers what it costs to run. Both accept as fact that Argon's price is currently halved until 30 November, that Character AI spent about ten million dollars a month on compute against under three million in peak subscription revenue, and that Harvey, whose legal benchmark Argon tops, is a heavily funded startup. The empirical question is whether per-task costs and willingness to pay converge without subsidy; the observable is Argon's real price and uptake after the discount ends, alongside startup gross margins when disclosed. The residue is worldview: whether Character AI is one badly chosen product or a symptom. For Whittemore to be vindicated, a niche of consumers and firms must pay profitable prices for specific uses such as writing. For Zitron, subsidised usage must prove the demand, not the economics. Both are polemicists with incentives, Whittemore bullish and anti-doom, Zitron certain of a bubble and anti-hype. The signal is that both treat price discipline as the test. Watch Argon's pricing after 30 November."
+}

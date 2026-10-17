@@ -1,0 +1,17 @@
+David's AI brief for Wednesday, the fourteenth of October.
+
+Today's One Idea from The AI Daily Brief is that the question to ask of a new frontier model has changed. It is no longer "how good is it?" It is "where does it fit?"
+
+The occasion is Google's Gemini 4 Argon, now in testers' hands. There are six to eight models from four American labs that count as frontier, so the benchmark ranking matters less than the slot a model earns in your own set of tools. On knowledge work, Argon leads. It beat the nearest rival by thirteen points on a legal agent benchmark, and scored sixty-nine per cent on computer use. On real-world coding, early testers are mostly disappointed. One senior-engineer test gave it twenty-one per cent. Yet the same model, run inside Google's own, more expensive coding harness, jumped to close to the best. So some of the gap is packaging, and Google has put its best packaging behind a tier that is hard to buy.
+
+The surprise is writing. A team at Every found it may be the first genuinely good AI writing partner, because Google paid professional writers to strip out the slop. There is also a half-price offer on the programming interface until the thirtieth of November, after which it costs more.
+
+Also in the news: an OpenAI engineer was arrested over a hidden recording device in an executive meeting room; JPMorgan will not let outside agents act on customer accounts, and will not refund losses they cause; and Character AI has filed for bankruptcy, spending about ten million dollars a month on computing against under three million in peak revenue.
+
+Now, the other side. Ed Zitron, writing the day before, argues that headline AI numbers are built on loose "annualised" figures, and that many startups resell tokens at a loss, kept going by venture funding. He cites Harvey, whose margin reportedly went from about fifty per cent to minus fifty as usage grew. He does not discuss Argon. Both men are polemicists with incentives, one bullish, one certain of a bubble. Where they agree is that price discipline is the real test, and the thing to watch is what Argon costs after the discount ends.
+
+For general practice, the practical point is to ask a supplier which model sits underneath a scribe or summarising tool, whether it can change, and what evidence exists from real UK primary care notes. A strong demonstration says little about reliability or cost.
+
+Two more thoughts. Patients already ask chatbots about symptoms, and Character AI faces lawsuits over bots posing as doctors, so expect consultations that begin with what a bot said. Ask what they were told, check it, and record it. And JPMorgan's refusal to refund agent mistakes is a reminder: before a practice lets any agent act on records or bookings, settle who is liable, and keep a named clinical safety officer and a hazard log.
+
+That's the brief — source, The AI Daily Brief.

@@ -1,0 +1,17 @@
+David's AI brief for Thursday, the fifteenth of October.
+
+Today's One Idea from The AI Daily Brief is that when models can take software apart and rebuild it, business models have to evolve or die.
+
+The trigger is the latest jump in model ability, from the Astra and Opus 5.5 generation. A developer used Claude to decompile Photoshop and rebuild it from scratch, a job that once needed two teams of engineers, and now offers a buggy but free version of software Adobe charges a hundred dollars a month for. Hackers have used AI to jailbreak the PlayStation 5, and mashups of big games are now a one-day project. Chamath Palihapitiya says the value of software intellectual property has effectively vanished.
+
+The host is cautious. People have pirated Adobe for decades without hurting it, and most business software sells support and maintenance, not code. Gaming is different, with console sales at a thirteen-year low and the base PlayStation now costing six hundred and fifty dollars. Epic has banned handwritten code. Xbox, rather than calling lawyers, has started a lab. Bumble's new owners and Berkshire Hathaway, through Bending Spoons, are betting on rebuilding old brands with small teams and AI. Even David's Bridal has built a wedding-planning agent with tens of people instead of hundreds.
+
+The host's lesson is that every model jump unlocks something new, so be wary of confident predictions, but notice that the old players themselves now act as if change is the only constant.
+
+Elsewhere, Anthropic told investors it made sixteen point eight billion dollars last quarter, unaudited, while CoreWeave's bonds trade near distressed levels and Bank of America hired a thousand contractors to patch vulnerabilities an AI security model exposed.
+
+Now, the other side. Ed Zitron, in a piece from the thirteenth, argues that "annualised" revenue is marketing, not accounting. He puts Anthropic's first-half revenue at about fifteen and a half billion dollars, well below its headline run rates, and says lab growth leans on venture-funded startups buying tokens at a loss. He does not discuss decompiling, so he answers the money, not the lead. Both men are polemicists with incentives, one bullish, one certain of a bubble. Where they agree is in distrusting unaudited figures. Watch what Anthropic's public share offer filing actually discloses.
+
+For general practice, three thoughts. First, clinical software is bought for assurance, updates and accountability, not for its code. A home-built tool still needs a clinical safety case, a data protection assessment and a named owner. Second, the same models that find software bugs can scan surgery systems, so keep software patched, use multi-factor sign-in, and ask suppliers how they respond to newly found vulnerabilities. Third, whether a lab proves hugely profitable or loss-making, a practice carries supplier risk, so look for data export rights, exit terms and price caps in any contract.
+
+That's the brief — source, The AI Daily Brief.

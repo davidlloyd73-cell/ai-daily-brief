@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Software you can rebuild is software you must govern",
+   "body": "The developer who rebuilt Photoshop with an AI model, and Chamath's claim that software IP is worthless, are mostly about commercial products. Whittemore thinks this is overstated, because most customers pay for support and maintenance. For practices the practical point is that clinical systems are bought for assurance, updates and accountability, not code. A home-built tool still needs DCB0129 or DCB0160 safety cases, a data protection assessment and an owner. Zitron would add that cheap building has not made cheap running."
+  },
+  {
+   "title": "Banks hiring people to patch what AI finds",
+   "body": "Bank of America hired a thousand contractors to patch vulnerabilities found by an AI security model, and Jamie Dimon says cyber risk has risen tenfold. NHS practices run ageing systems and shared accounts, and the same tools can be used to scan them. Keep software patched, use multi-factor sign-in, check backups, and ask suppliers how they respond to newly found vulnerabilities."
+  },
+  {
+   "title": "Anthropic's figures and procurement",
+   "body": "Both positions agree that the headline numbers are unaudited and uncertain. A scribe or triage tool built on a lab that may be loss-making or may be extremely profitable carries supplier risk. In contracts, look for data export, exit terms and price caps, so a practice can switch if prices or ownership change. Little else here bears directly on the NHS."
+  }
+ ]
+}
