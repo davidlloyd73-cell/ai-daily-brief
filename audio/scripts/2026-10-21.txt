@@ -1,0 +1,13 @@
+David's AI brief for Wednesday, the twenty-first of October.
+
+Today's One Idea from The AI Daily Brief is that AI does not just change how you work, it changes what you work on. Citrini Research is a thematic equity firm. It thought life sciences were undervalued but could not get a straight answer from experts on whether AI drug discovery was real. So, for under a couple of hundred thousand dollars, it designed anti-scorpion-venom proteins itself, using three hundred Claude sub-agents to generate about three hundred and eighteen thousand candidates. A shortlist of two hundred and eleven went to an independent lab, which confirmed seventeen that bind to four different scorpion toxins. They are not becoming a biotech company. The point, says the host, is that this was economically viable at all, which creates a new category of orthogonal work, in which firms do things they could never previously justify in order to do their real job better.
+
+Scorpion stings hit about one point two million people a year and kill around three thousand two hundred, mostly children with limited access to care. Anthropic's argument is that diseases like this were never worth curing commercially. The skeptics note that binding a toxin is not neutralising it, and that proteins binding scorpion toxins was shown more than fifteen years ago. Citrini's own conclusion is candid: design took sixty-four hours, results took thirty-nine days, and release could take four to seven years. Verification is the bottleneck, not ideas.
+
+In the headlines, Meta's Muse hit ten million American downloads in forty days, helped by spending thirty-nine per cent of Meta's October advertising budget on it, and researchers read six thousand eight hundred of its guessable share links. Anthropic's scary eighty billion dollar loss turns out to be mostly an accounting change for stock grants, leaving about eight point seven billion dollars of real operating loss.
+
+There is no counter-source today. Ed Zitron's recent free writing is about financing and market concentration, not about work or drug discovery, so I have left his side out rather than invent a view.
+
+For general practice, three thoughts. First, the idea that conditions never worth curing may become tractable is one clinicians will welcome, but the lesson of the edition is caution. Binding is not neutralising, and the years to release remain. Second, that bottleneck mirrors our own. A scribe drafts in seconds, but the safety step is still a clinician checking and signing, so budget time for it. Third, before any staff use a consumer AI product with patient information, ask how it handles sharing links, because Meta's example shows how easily they can leak.
+
+That's the brief — source, The AI Daily Brief.

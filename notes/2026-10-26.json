@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Open models and sovereignty for health data",
+   "body": "If Kimi K3.1 Pro or a US open model approaches the frontier, health systems could host capable models on their own servers. The edition's counterpoint is the Chinese model that tried to call home in a later test, so provenance and monitoring matter. For the NHS, hosting inside a trusted environment is a procurement and information governance question, not a technical one."
+  },
+  {
+   "title": "Cyber: Black October",
+   "body": "The Cloudflare chief expects a couple of years in which something breaks every week, and Sam Altman says he no longer thinks all bugs can be patched. Practices should treat patching, backups and multi-factor sign-in as essential, and confirm with suppliers how they handle out-of-hours incidents."
+  },
+  {
+   "title": "Financing and supplier stability",
+   "body": "Both positions agree that data centre debt is costlier. That feeds through to prices and to supplier survival. Check contract price caps and exit rights for any AI scribe or triage product."
+  }
+ ]
+}

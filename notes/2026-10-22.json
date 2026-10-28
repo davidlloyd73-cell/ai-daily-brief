@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Patch velocity is now a clinical safety issue",
+   "body": "The PHP2Shell flaw, which could affect as much as seventy per cent of websites, was exploited millions of times within hours of disclosure. Practice and supplier websites, booking portals and patient-facing forms built on common web software are exposed. Ask your IT supplier and clinical system vendors how fast they patch, and who is responsible out of hours. Under the NHS Data Security and Protection Toolkit this is now a live test, not a paper exercise."
+  },
+  {
+   "title": "Agent keys and shared credentials",
+   "body": "The Railway breach exposed encrypted environment variables such as API keys and database credentials. The practical lesson is to keep a list of every service connected to patient data, rotate keys when a supplier reports an incident, and avoid shared logins."
+  },
+  {
+   "title": "Personal agents and mail",
+   "body": "Anthropic's Duet and Meta's Muse connect to email and files. Do not link a personal agent to a work mailbox containing patient identifiable information without a data protection assessment and your practice's approval."
+  }
+ ]
+}

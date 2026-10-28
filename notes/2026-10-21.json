@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Neglected conditions and AI-assisted design",
+   "body": "Citrini's scorpion venom experiment is a small illustration of an argument clinicians will recognise: diseases that were never worth the cost of developing treatments may become tractable. The caveat from the edition is important. Binding a toxin is not neutralising it, and the four to seven years to release remains. Nothing here changes practice."
+  },
+  {
+   "title": "Verification is the bottleneck",
+   "body": "Hypothesis generation has sped up enormously, while testing has not. That mirrors clinical AI: a scribe drafts in seconds, but the safety step is still a clinician checking the note. Budget time for that step."
+  },
+  {
+   "title": "Retention and personal agents",
+   "body": "The point that personal agents sit in a retention no-man's-land is relevant to NHS digital tools. Products people must use, like a booking system, retain through dependency; those they merely might like do not. Meta's Muse also exposed shared links that researchers could read, a reminder to ask any consumer AI product how it handles sharing before staff use it with patient information."
+  }
+ ]
+}

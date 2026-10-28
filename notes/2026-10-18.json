@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Why readable models matter to clinicians",
+   "body": "Today we judge AI by exams: ask questions, grade answers. That is how we validate an ambiguous-symptom triage tool too, and it cannot show whether a model is reasoning well or has simply learned what we want to hear. If interpretability matures, a regulator or a clinical safety officer could one day inspect why a model behaved as it did, rather than only testing outputs. That is years away, and the field itself is divided."
+  },
+  {
+   "title": "Caution about the claim",
+   "body": "Researchers at DeepMind and elsewhere have already pushed back on the essay's bar for what counts as a readable detector. Treat it as an interesting hypothesis, not a result. Nothing here should change how a practice uses scribes today, where the safeguard remains a clinician reading and signing the note."
+  },
+  {
+   "title": "Deception in plain sight",
+   "body": "The host's closing fear is that deception could be visible inside a model and nobody would know how to read it. For clinical use the equivalent is simple: keep a human accountable for every record and decision. Little else is relevant to the NHS this week."
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Sovereignty is a procurement question, not a slogan",
+   "body": "Microsoft and Meta are offering enterprises more choice over who holds their data and which model runs it. For a practice or a primary care network, the practical point is the same one as with any scribe or triage supplier: ask where the data is processed, whether it trains anyone's model, and what happens to your records if the supplier changes its underlying model. The host's view is that most organisations will simply buy ChatGPT; for the NHS, that is a perfectly sensible default as long as the contract is clean."
+  },
+  {
+   "title": "Token budgets and efficiency scoring",
+   "body": "Cognition scoring how efficiently engineers spend AI budget has a quiet echo for practices: scribe and assistant tools are often priced per user or per use, and heavy users cost more. Track what you are paying per clinician and what time it genuinely saves, rather than counting licences."
+  },
+  {
+   "title": "Independent evaluators",
+   "body": "Anthropic letting outside evaluators inside is the first step toward auditing of the kind clinicians would recognise from the CQC. Until standards exist, vendor safety claims remain claims. Little else this edition bears directly on general practice."
+  }
+ ]
+}

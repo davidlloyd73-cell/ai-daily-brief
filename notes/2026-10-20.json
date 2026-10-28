@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Personality matters most in the consulting room",
+   "body": "The finding that different traits suit different work applies to clinical AI. A scribe should be accurate and plain; a patient-facing assistant needs warmth without sycophancy. The GPT-4o episode, where users grieved a retired model and one said it did more than any therapy, is a reminder that people form attachments to chatbots, and that a patient-facing tool can feel supportive while being wrong."
+  },
+  {
+   "title": "Sycophancy is a safety issue",
+   "body": "The host notes that a flattering model is of dubious value for work that needs pushback. In clinical reasoning, a tool that agrees with the user's first impression is dangerous. Test any decision-support tool by presenting it with a wrong assumption and seeing whether it corrects you."
+  },
+  {
+   "title": "Chinese models in government",
+   "body": "DHS has banned DeepSeek from federal systems, which the host calls a signal and not a security finding. For the NHS, supplier due diligence should look at where a tool is hosted and who can access the data, whatever the model's origin."
+  }
+ ]
+}

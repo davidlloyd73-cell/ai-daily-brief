@@ -1,0 +1,13 @@
+David's AI brief for Friday, the sixteenth of October.
+
+Today's One Idea from The AI Daily Brief is that the quietest announcements of the week are the most important for business. Microsoft released a base model called MAI Base 2, and Meta released Muse Spark Open, the most capable American open-weight model to date. Neither will top the benchmark tables, but together they answer the two questions companies are really asking, which are cost and control.
+
+Microsoft's model is very large, about two point eight trillion parameters, trained from scratch without copying anyone else's work. Its chief of AI, Mustafa Suleyman, told staff it is a stronger starting point than the model behind the current GPT, and that it used about a quarter of the compute. That claim rests on information Microsoft gets through its OpenAI deal, so it cannot be checked. The real product, says the host, is what Microsoft calls frontier tuning, which lets a company shape a model on its own data and keep it. Meta's model can run privately on a pair of high-end Mac computers costing around forty thousand dollars, which puts private near-frontier inference within reach of small firms. The host's caution is that most companies will still simply buy ChatGPT, but a growing number of technical organisations will move between models as prices change, and the United States could soon have six companies at the frontier instead of two.
+
+Elsewhere, Anthropic has placed the first outside safety evaluators inside its offices, though critics point out they share funders with the company, and the evaluators themselves say they are assessors, not auditors. The White House AI task force has asked for a safety report within one hundred and twenty days, with export controls as the possible enforcement tool.
+
+There is no counter-source today. Ed Zitron has not published anything in the last few days that addresses enterprise model choice, so rather than stretch one of his pieces to fit, I have left his side out.
+
+For general practice, three thoughts. First, sovereignty is a procurement question. When you assess a scribe or triage supplier, ask where the data is processed, whether it trains anyone's model, and what happens to your records if the supplier swaps the model underneath. Second, many tools are priced per user or per use, so measure what you pay per clinician against the time it genuinely saves, rather than counting licences. Third, independent evaluation of AI is still voluntary, and until proper standards exist, a vendor's safety claim is only a claim. Little else here bears directly on the NHS.
+
+That's the brief — source, The AI Daily Brief.

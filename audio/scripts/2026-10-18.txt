@@ -1,0 +1,15 @@
+David's AI brief for Sunday, the eighteenth of October.
+
+Today's One Idea from The AI Daily Brief is that the scrambling was never in the AI, it was in our microscopes. For years researchers in interpretability, the field that tries to read what goes on inside a neural network, believed that models cram many unrelated ideas into the same artificial neurons, which would make them unreadable by design. Nick Cammarata, who helped build that theory, now argues that most of the tangle came from blurry tools, a messy 2014 image model, and a theory nobody rechecked.
+
+The host walks through the evidence. The famous neuron that seemed to fire for both cat faces and car fronts turns out, when examined properly, to respond to a simple shape in both. A key drawing tool used to visualise neurons was taking shortcuts, producing misleading pictures. Fix the tools and the old Google model goes from about five per cent readable to about fifty. Retrain it with modern settings and it reaches about seventy, and in a modern OpenAI model roughly nine in ten detectors turn out to have one main job, compared with two per cent explained in 2023. In a large Chinese open model you can reportedly watch honesty detectors light up as it decides to return a lost wallet.
+
+Why does this matter? Today we judge AI with exams, asking questions and grading answers, because we cannot read the model. If it becomes readable, safety checking becomes ordinary science. The host's hope is that deception, which might hide from someone reading the output, has no reason to hide from the model's own circuitry.
+
+The host is careful to give the critics their say. DeepMind's Neel Nanda thinks the essay's standard for a detector doing one job is too generous, and others argue it attacks a narrower idea than researchers hold. Even if every part is readable, you still need to know how the parts combine into decisions. Reactions range from hype until further notice to a paper on the scale of Attention Is All You Need.
+
+There is no counter-source today. Ed Zitron writes about finance and the economics of the industry, and has published nothing recently on interpretability, so I have left his side out rather than invent a view.
+
+For general practice, three thoughts. First, we currently validate clinical AI like an exam, by checking outputs, and that cannot show whether a tool reasoned well or simply learned what we want to hear. If interpretability matures, a clinical safety officer might one day inspect why a tool behaved as it did. That is years away. Second, treat this as an interesting hypothesis, not a result, because specialists have already disputed the standard it uses. Third, nothing here changes how a practice uses a scribe today, where the real safeguard is a clinician reading and signing the note.
+
+That's the brief — source, The AI Daily Brief.

@@ -1,0 +1,13 @@
+David's AI brief for Tuesday, the twentieth of October.
+
+Today's One Idea from The AI Daily Brief is that once intelligence is commoditised, personality becomes the product. Even power users who say they care only about capability keep a mental tally of which model is creative, which is direct and which is insufferable, and that shapes what they use for what. Now the instinct is becoming a discipline. The benchmark firm Artificial Analysis has launched a personality test measuring thirty traits across nine hundred questions, rolled into eight indices such as warmth, conviction and imagination, and one negative index for filler and generic language.
+
+The host reads the results as a rubric, not a ranking. Claude's Opus 5.5 scored well ahead on imagination, which matches his own experience of using it for strategy. Google's comeback model, Gemini 4 Argon, scored highest for slop. The history, he argues, supports the point. DeepSeek broke out in part because its visible reasoning felt endearing. When OpenAI retired GPT-4o, users grieved, and one said it had done more than three hundred hours of therapy. Anthropic apologised for the attitude of Opus 5, which one user called a socially inept genius. Meta's Muse spread partly on the strength of a mascot, and OpenAI's new Dots give all the capability and none of the charm.
+
+In the headlines, Elon Musk pledged one SpaceX share to each of America's seventy-two million children. A Pentagon official said the government could use export controls against labs that do not comply with the White House agreement, and the Department of Homeland Security banned DeepSeek from federal systems, which the host calls a signal and not a security finding.
+
+There is no counter-source today. Ed Zitron's most recent free piece, from today, is about market concentration and debt, not model character, so I have left his side out rather than stretch it.
+
+For general practice, three thoughts. First, personality is a clinical question. A scribe should be accurate and plain, while anything patient-facing needs warmth without flattery. The attachment people formed to GPT-4o is a reminder that a chatbot can feel supportive while being wrong. Second, sycophancy is a safety issue. A tool that agrees with your first impression is dangerous in clinical reasoning, so test any decision-support product by feeding it a wrong assumption and seeing whether it pushes back. Third, when reviewing suppliers, look at where a tool is hosted and who can access the data, whatever the origin of the model beneath it.
+
+That's the brief — source, The AI Daily Brief.

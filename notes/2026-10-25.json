@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Pushback that is based on something",
+   "body": "The host's hardest model test is whether it disagrees for a reason. For clinical reasoning that is the right test: ask a tool to critique a differential, not confirm it. A tool that agrees with everything is a liability in medicine."
+  },
+  {
+   "title": "Two models checking each other",
+   "body": "For high-stakes research he has two different models grade each other's work. The same idea suits clinical documents: where an error would matter, a second independent check, whether a second model or a second clinician, catches mistakes a single pass misses. It does not replace the clinician."
+  },
+  {
+   "title": "Personal agents and the starred-email problem",
+   "body": "Duet's best use was drafting replies to emails he would otherwise return to days later. In practice, similar tools could help with routine administrative correspondence, but only after a data protection assessment, because they read the mailbox. Patient information should not go through a personal agent."
+  }
+ ]
+}

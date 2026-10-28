@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Pensions are the exposure that reaches the NHS",
+   "body": "New York's pension custodian asking Anthropic to delay its listing, and reports of pension funds gaining from AI, are a reminder that AI valuations reach ordinary savers through pension funds. The NHS Pension Scheme is not invested this way, but many doctors' private pensions are, so a correction would matter personally, whichever of the two commentators is right."
+  },
+  {
+   "title": "Public benefit funds and health",
+   "body": "Anthropic's fund may support labour-market and other public causes, and critics see a slush fund. Neither side has said anything specific about health. The relevant NHS point is only that large private philanthropy is not a substitute for public service funding."
+  },
+  {
+   "title": "Cyber attack on a coding tool",
+   "body": "The OpenCode breach, with stolen keys used to run up bills, is a reminder to rotate and restrict API keys on any tool a practice or its suppliers use. Cheap agents are now attacking continuously, so multi-factor sign-in and prompt patching matter."
+  }
+ ]
+}

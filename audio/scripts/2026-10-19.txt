@@ -1,0 +1,13 @@
+David's AI brief for Monday, the nineteenth of October.
+
+Today's One Idea from The AI Daily Brief is that AI wealth is going to be redistributed, and the only question is by whom. Anthropic has committed roughly twenty per cent of its shares to a new Public Benefit Fund, starting with five per cent and adding more as the company's value rises. Instead of applause, it got a fight. Accelerationists worry the fund will bankroll doom-and-gloom campaigners for ever. Right-leaning critics read the pledge that it will not be political as a vehicle for influence, and one defence executive called it a foreign-aid programme in disguise. Elon Musk said the better answer is to give shares directly to the public.
+
+The host links this to a second row. Over the same weekend, a confidential draft of an Anthropic-backed safety bill leaked. It would let the government block a model that poses foreseeable imminent risk of a billion dollars of damage or fifty deaths, and it would stop other agencies from suspending a model, which looks aimed at the Pentagon's earlier move against the company. David Sacks and the safety camp both said it was already out of date. The host's reading is that the wealth problem and the power problem are the same problem. Owning these models may simply be too much power for any one private institution.
+
+In the headlines, an agentic swarm breached the coding tool OpenCode, and the hackers stole compute, using other people's keys to generate tokens. And the cry that the AI bubble is about to burst grew louder, though the host reads the recent turmoil as a repricing of data centre debt, not a dot-com style bust.
+
+Now, the other side. Ed Zitron, in a piece from the sixteenth, of which only the opening is free, argues that private markets have let companies stay private so long that the public buys only after the growth is priced in. He says Anthropic's valuation rests on projected revenue and an enormous market, and calls AI "the largest valuation bubble in the history of technology". Both men are polemicists with incentives, one bullish, one certain of a bubble. Where they agree is that ownership is badly concentrated. The thing to watch is how the shares trade after the listing.
+
+For general practice, three thoughts. First, AI valuations reach ordinary savers through pension funds. The NHS scheme is not invested this way, but many doctors' private pensions are. Second, philanthropy from AI companies is no substitute for public funding of health services. Third, the OpenCode breach is a prompt to rotate and restrict any access keys your suppliers use, and to insist on multi-factor sign-in.
+
+That's the brief — source, The AI Daily Brief.

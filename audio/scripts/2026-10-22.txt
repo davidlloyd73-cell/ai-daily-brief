@@ -1,0 +1,13 @@
+David's AI brief for Thursday, the twenty-second of October.
+
+Today's One Idea from The AI Daily Brief is that cybersecurity's new era is AI versus AI, and whoever coordinates faster wins. A flaw called PHP2Shell, found by OpenAI's model GPT 5.6 Sol, could affect as much as seventy per cent of websites and web applications. OpenAI spent two months coordinating with the maintainers, the security firm Wiz and Cloudflare so that defenders would have a head start. The details leaked ten hours early. Cloudflare saw thousands of exploit attempts before the announcement, tens of thousands in the forty-five minutes after, and millions since. Old sites have gone read-only or offline as owners brace for the patch.
+
+The host's usual stance is skepticism about sky-is-falling cyber stories, but he says even the reflexive skeptics are rattled this time. Add the breach at the hosting service Railway and the attack on the coding tool OpenCode, and the shape of the new normal is clear. Swarms of cheap, relentless agents are on offence, and governed fleets of agents are on defence. As one founder put it, the only reason we are surviving is that we have agents running twenty-four hours a day. The most optimistic view, from Martin Casado, is that AI eventually makes software far more secure, but that before then, things are going to get much worse. Everyone, the host says, now lives and dies by patch speed.
+
+In the headlines, Anthropic launched a personal agent called Claude Duet, aimed at professionals and small businesses, joining Meta's Muse, OpenAI's Dots and others. A quarter of Muse's active users already shop through it. And Meta will fund its data centre build-out partly with a new class of non-voting shares, which some read as a sign that the debt market is tiring.
+
+There is no counter-source today. Ed Zitron has written about finance and the AI bubble, but nothing recently on cybersecurity, so I have left his side out rather than guess.
+
+For general practice, three thoughts. First, patching is now a clinical safety matter. Practice websites, booking portals and patient forms built on common web software are exposed. Ask your IT supplier and clinical system vendors how quickly they patch, and who is responsible out of hours. Second, keep a list of every service connected to patient data, rotate keys whenever a supplier reports an incident, and avoid shared logins. The Railway breach exposed exactly this kind of credential. Third, do not link a personal agent such as Duet or Muse to a work mailbox containing patient information without a data protection assessment and the practice's agreement.
+
+That's the brief — source, The AI Daily Brief.

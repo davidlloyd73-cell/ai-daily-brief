@@ -1577,6 +1577,132 @@
    "resolution": "Vindicated if by the check date audited or filed figures for Anthropic or OpenAI come in materially below their stated run rates, or startup resellers report negative gross margins. Fails if audited results broadly confirm the headline growth with healthy margins.",
    "check_by": "2027-04-15",
    "status": "open"
+  },
+  {
+   "edition": "2026-10-16",
+   "side": "NLW",
+   "claim": "That Microsoft's MAI Base 2 and Meta's Muse Spark Open will broaden enterprise choice enough that the US has six companies competing at the AI frontier, up from two.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-16",
+   "resolution": "Vindicated if by the check date an independent leaderboard such as Artificial Analysis shows at least five US labs within a few points of the top model. Fails if only two or three US labs remain near the frontier.",
+   "check_by": "2027-04-16",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-18",
+   "side": "NLW",
+   "claim": "That Nick Cammarata's argument holds: most detectors in AI models, including very large ones, are readable rather than scrambled, so interpretability could become checkable science.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-18",
+   "resolution": "Vindicated if by the check date at least one independent lab such as DeepMind or Anthropic publishes a replication showing a majority of detectors in a frontier-scale model are readable. Fails if replications show the readability does not hold at scale.",
+   "check_by": "2027-04-18",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-19",
+   "side": "NLW",
+   "claim": "That AI wealth will be redistributed one way or another, either voluntarily by the labs or by someone else, and that the wealth problem and the power problem are the same problem.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-19",
+   "resolution": "Vindicated if by the check date a US federal or state measure to share AI-derived wealth is enacted, or a major lab or founder fund begins actual direct distributions to the public. Fails if neither has happened.",
+   "check_by": "2027-10-19",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-19",
+   "side": "Zitron",
+   "claim": "That AI company listings, led by Anthropic, will mainly serve as exits for early investors, and that AI valuations form the largest bubble in tech history.",
+   "source_url": "https://www.wheresyoured.at/premium-venture-capital-is-killing-itself/",
+   "resolution": "Vindicated if within twelve months of the Anthropic listing its shares trade more than 30 per cent below the issue price. Fails if they trade above the issue price at that point.",
+   "check_by": "2027-10-19",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-20",
+   "side": "NLW",
+   "claim": "That once model capability is commoditised, personality becomes the product, and labs will compete on character as much as on intelligence.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-20",
+   "resolution": "Vindicated if by the check date at least two major labs launch or market a model or agent primarily on personality or character, or personality indices become standard in leaderboards. Fails if capability and price remain the only headline competition.",
+   "check_by": "2027-04-20",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-21",
+   "side": "NLW",
+   "claim": "That AI makes a new category of orthogonal work viable, in which firms run experiments they could never previously justify, as with Citrini's AI-designed proteins confirmed to bind scorpion toxins.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-21",
+   "resolution": "Vindicated if by the check date Citrini or Anthropic publishes lab data showing at least one of the 17 binding proteins neutralises scorpion venom. Fails if tests show binding without neutralisation.",
+   "check_by": "2027-04-21",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-22",
+   "side": "NLW",
+   "claim": "That cybersecurity has entered an AI-versus-AI era in which defenders who coordinate agent fleets faster win, and that long-term software security improves only after a painful transition.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-22",
+   "resolution": "Vindicated if by the check date at least one more AI-found vulnerability affecting millions of sites is exploited at scale within 48 hours of disclosure. Fails if no comparable mass exploitation event occurs.",
+   "check_by": "2027-04-22",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-23",
+   "side": "NLW",
+   "claim": "That the main AI bubble signals are proxies for one question, demand, and that warehoused GPUs reflect a power shortage, not weak demand, and the neocloud stress is not a credit crisis.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-23",
+   "resolution": "Vindicated if by the check date no neocloud fails without a rescue and GPU rental prices remain at or above their October 2026 levels. Fails if a neocloud defaults unrescued or distress spreads to data centre project debt leased to hyperscalers.",
+   "check_by": "2027-04-23",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-23",
+   "side": "Zitron",
+   "claim": "That a roughly 20 per cent fall in the nine AI-linked stocks he names would match the Nasdaq's worst dot-com day, and that the AI boom is fragile because it needs revenue, debt and venture money to keep growing together.",
+   "source_url": "https://www.wheresyoured.at/ai-had-better-work-out/",
+   "resolution": "Vindicated if at any close before the check date the nine named stocks (NVIDIA, Google, Amazon, Meta, Microsoft, Broadcom, Micron, AMD, CoreWeave) have fallen 20 per cent or more from their 23 October 2026 combined value. Fails if they do not.",
+   "check_by": "2027-04-23",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-25",
+   "side": "NLW",
+   "claim": "That personal agents are an easy-to-set-up proxy version of the user rather than a new way of working, and that any feature that works in one personal-agent product spreads to all of them within weeks.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-25",
+   "resolution": "Vindicated if by the check date OpenAI's Dots has gained proactive behaviour comparable to Claude Duet and the main personal agents are broadly feature-matched. Fails if the products remain clearly differentiated on proactivity.",
+   "check_by": "2026-12-25",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-26",
+   "side": "NLW",
+   "claim": "That Kimi K3.1 Pro is the closest an open model has come to the US frontier and will hold a near-frontier position once the weights ship and real-world use tests it.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-26",
+   "resolution": "Vindicated if by the check date independent testing keeps K3.1 Pro within about five index points of the best proprietary model on Artificial Analysis after weights release. Fails if real-world use shows a clear gap.",
+   "check_by": "2027-01-26",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-26",
+   "side": "Zitron",
+   "claim": "That AI compute supply exceeds demand, with over 200 billion dollars of GPUs in storage and most neoclouds unable to survive independently, and that debt financing will not hold.",
+   "source_url": "https://www.wheresyoured.at/ai-had-better-work-out/",
+   "resolution": "Vindicated if by the check date a major neocloud defaults or restructures unrescued, or a hyperscaler publicly cuts data centre plans citing weak demand. Fails if GPU rental prices stay high and no neocloud fails.",
+   "check_by": "2027-10-26",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-27",
+   "side": "NLW",
+   "claim": "That Anthropic's S1 changes little because the investment case is one equation, future growth versus very real compute commitments, and that growth can outrun the bill.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-27",
+   "resolution": "Vindicated if Anthropic's audited quarterly revenue keeps growing quarter on quarter through the four quarters after the listing with no missed compute payment. Fails if growth stalls or a major commitment is renegotiated under stress.",
+   "check_by": "2027-10-27",
+   "status": "open"
+  },
+  {
+   "edition": "2026-10-27",
+   "side": "Zitron",
+   "claim": "That the AI boom depends on perpetual, accelerating revenue plus continued debt and venture funding, and that Anthropic's over 400 billion dollars of non-cancellable compute contracts make it fragile.",
+   "source_url": "https://www.wheresyoured.at/ai-had-better-work-out/",
+   "resolution": "Vindicated if before the check date Anthropic's audited quarterly revenue is flat or falling quarter on quarter, or a major AI lab fails to meet a debt or compute payment. Fails if growth continues each quarter with no missed obligations.",
+   "check_by": "2027-10-27",
+   "status": "open"
   }
  ]
 }
