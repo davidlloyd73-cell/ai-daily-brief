@@ -1703,6 +1703,15 @@
    "resolution": "Vindicated if before the check date Anthropic's audited quarterly revenue is flat or falling quarter on quarter, or a major AI lab fails to meet a debt or compute payment. Fails if growth continues each quarter with no missed obligations.",
    "check_by": "2027-10-27",
    "status": "open"
+  },
+  {
+   "edition": "2026-10-28",
+   "side": "NLW",
+   "claim": "That world models such as Google's Genie 4 are close to the jump from tech demo to real application, in simulated training environments for robots and in generative games.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-28",
+   "resolution": "Vindicated if within twelve months a robotics or game company publicly reports using a Genie-class world model for training or a shipped product beyond a demo. Fails if Genie 4 stays limited to short capped demos with no named real-world deployment.",
+   "check_by": "2027-10-28",
+   "status": "open"
   }
  ]
 }

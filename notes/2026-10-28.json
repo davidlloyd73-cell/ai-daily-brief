@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "A drug from a one-person company",
+   "body": "Anthropic's purchase of Mythril Medicine, which took a muscular dystrophy treatment to promising mouse results in under eighteen months, is a company announcement, not a trial result. Mouse data rarely survives contact with people, and the stated aim of a clinical-trial-ready drug by the end of 2028 is still only an aim. For general practice the sensible reading is that AI is speeding up early discovery, while the slow, expensive human phases that decide what reaches our patients remain untouched. No Zitron piece addressed this edition's lead, so there is no opposing view to set against it here."
+  },
+  {
+   "title": "Simulated worlds and clinical training",
+   "body": "Genie 4 is a two-minute demonstration for top-tier subscribers and still glitchy, so it has no clinical use today. The plausible long-term relevance is training simulation, for example rehearsing a difficult consultation or an emergency before facing a real one. That is speculation about direction, not something to plan around, and any such tool would need validation before use with NHS staff."
+  },
+  {
+   "title": "Verification before release",
+   "body": "The row over OpenAI holding back a physics result for expert checking is a useful parallel for AI scribes and decision-support tools. Releasing everything at once overwhelms the people who must check it, while releasing to a chosen few invites accusations of gatekeeping. When a practice adopts a tool, ask who verified the claims, on what data, and whether you can see the evidence yourself."
+  }
+ ]
+}

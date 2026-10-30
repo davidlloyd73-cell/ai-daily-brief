@@ -1,0 +1,15 @@
+David's AI brief for Wednesday, the twenty-eighth of October.
+
+Today's One Idea from The AI Daily Brief is that world models are getting close to the jump from tech demonstration to real-world application. The occasion is Google's Genie 4, and the host's point is that it is not a standalone model. It is Google's whole stack pointed at one problem. Gemini Omni keeps the simulation looking like the real world, a fast Gemini model reasons about physics and cause and effect inside the loop, and Google's audio models add sound to a generated world for the first time.
+
+The headline change is that you can now alter the world while you are standing in it. Earlier versions let you describe a place once and then explore. Genie 4 accepts new prompts mid-simulation, so you can change the weather, move the camera, or introduce a new character, and the model keeps going. Ethan Mollick built a gothic city of robots and horses, then added dragons and an otter, all in real time.
+
+There are limits. Each simulation lasts two minutes, double the previous version, and it is available only to the most expensive subscription tier. The speech sounds hollow, and the physics still glitches. The host calls it a tech toy, but one with glimmers of real usefulness. The strongest case is robotics. Google showed a robot playing chess inside a Genie simulation, with a planning model feeding it instructions as the scene rendered. If that works, robots could be trained at software speed rather than at the speed of physical hardware. The second case is games, though fully generated games are not here yet.
+
+Other items in the edition. Anthropic bought Mythril Medicine, a one-person biotech whose founder used Claude to coordinate eleven outside laboratories and reach promising mouse results in under eighteen months. Anthropic hopes to have a drug ready for human trials by the end of twenty twenty-eight. Markets rebounded this week after Anthropic's share offer filing. And OpenAI is being criticised both for releasing results too freely and for holding a physics result back for expert checking.
+
+I looked for a counter-view from Ed Zitron on this subject, and he has published nothing on world models or Genie, so I will not put words in his mouth. His latest piece concerns Anthropic's share offer, not this idea.
+
+Now, the notes for general practice. The drug story is a company announcement and mouse data, not a trial result. It suggests AI is speeding up early discovery, while the slow human phases that decide what reaches our patients are unchanged. Genie 4 has no clinical use today, but a long way off it might support training simulations, such as rehearsing a difficult consultation. That is a direction, not a plan, and any such tool would need validation. Finally, the argument over verifying OpenAI's physics result is a useful reminder when choosing any scribe or decision-support tool. Ask who checked the claims, on what data, and whether you can see the evidence yourself.
+
+That's the brief — source, The AI Daily Brief.
