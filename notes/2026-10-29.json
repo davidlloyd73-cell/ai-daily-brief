@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Reading a league table sensibly",
+   "body": "The new index puts Google's latest model first at fifty-nine, narrowly ahead of Anthropic's, but the scores are close and the weightings are a judgement call. Vendors of AI scribes will quote rankings like this. A single headline number says little about whether a tool writes a safe consultation note in a British accent, so ask for evidence on clinical note accuracy, error rates and omissions in real surgeries."
+  },
+  {
+   "title": "Open-weight models and NHS data",
+   "body": "The gap between the best open-weight model and the leaders has widened from three points to twelve. Models you can run on your own servers are attractive for keeping patient data in-house, but this suggests they currently trail on demanding agentic work. For routine tasks like summarising letters they may still be adequate; test them on your own cases before deciding."
+  },
+  {
+   "title": "No opposing view today",
+   "body": "Ed Zitron has published nothing on benchmarks, so there is no contrast to set against this edition. Healthcare relevance is modest: this is mainly about how to judge tools, not about a new clinical capability."
+  }
+ ]
+}

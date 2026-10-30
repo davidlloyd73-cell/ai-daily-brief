@@ -1712,6 +1712,15 @@
    "resolution": "Vindicated if within twelve months a robotics or game company publicly reports using a Genie-class world model for training or a shipped product beyond a demo. Fails if Genie 4 stays limited to short capped demos with no named real-world deployment.",
    "check_by": "2027-10-28",
    "status": "open"
+  },
+  {
+   "edition": "2026-10-29",
+   "side": "NLW",
+   "claim": "That the new Artificial Analysis Intelligence Index V5, with mostly private benchmarks, better matches real-world experience of model quality than earlier versions, and that Google's Gemini 4 Carbon is genuinely back at the frontier.",
+   "source_url": "https://aidailybrief.ai/e/2026-10-29",
+   "resolution": "Vindicated if, once Carbon is generally available, independent user and developer reports over the following three months broadly confirm it as a top-tier model, and V5's top ranks stay stable on later updates. Fails if Carbon underperforms its ranking in general use or V5 needs another major revision to track reality.",
+   "check_by": "2027-01-29",
+   "status": "open"
   }
  ]
 }

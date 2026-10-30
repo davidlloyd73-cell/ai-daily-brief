@@ -1,99 +1,97 @@
 ---
-title: David's AI Daily Brief — 2026-10-28
-date: 2026-10-28
-source: https://aidailybrief.ai/e/2026-10-28
+title: David's AI Daily Brief — 2026-10-29
+date: 2026-10-29
+source: https://aidailybrief.ai/e/2026-10-29
 note: Personal, non-commercial distillation of The AI Daily Brief podcast. GP's Corner is AI commentary, not from the podcast.
 ---
 
 # David's AI Daily Brief
 
-**Wednesday 28 October 2026 · 29 min listen**
+**Thursday 29 October 2026 · 27 min listen**
 
-## AI Can Now Create Worlds You Can Change in Real Time
+## The AI Rankings Just Got Reshuffled
 
-_Google's Genie 4 stitches Gemini reasoning, Omni video, and native audio into a world model you can steer live — still a two-minute tech demo, but one that points at robots trained at software speed and generative games. Plus: Anthropic buys a one-person biotech, Wall Street swaps P(doom) for P(boom), and OpenAI can't win on science disclosure._
+_Artificial Analysis overhauls the benchmark everyone uses to judge AI models, and the reshuffle shows a clearer frontier, a wider open-weights gap, and Google suddenly back on top with Gemini 4 Carbon. Plus: blowout cloud quarters, a CapEx plateau the bears didn't predict, and a much bigger DOJ probe of Nvidia._
 
-Source: https://aidailybrief.ai/e/2026-10-28
+Source: https://aidailybrief.ai/e/2026-10-29
 
-Audio: https://davids-ai-brief.netlify.app/audio/2026-10-28.mp3
+Audio: https://davids-ai-brief.netlify.app/audio/2026-10-29.mp3
 
 ## The One Idea
 
-### World models are getting tantalizingly close to the jump from tech demo to real-world application.
+### Benchmarks are a cat-and-mouse game with reality, and the new scoreboard finally matches the vibes.
 
-Genie 4 isn't a standalone model. It's Google's whole AI stack pointed at one problem: Omni anchors realism, Gemini 3.8 Flash runs in the loop as a reasoning agent, and audio models add sound for the first time. The result is a world you can change in real time with prompts. It's still capped at two minutes and still glitchy, so it remains a toy for now. But the path is visible: simulated training grounds for robots, personalized generative games, and a reminder that DeepMind's jagged frontier is unrivaled on multimodal even while it trails on LLMs.
+Benchmarks are inherently limited but important. Without them we only have vibes. Artificial Analysis's Intelligence Index V5 is the latest move in a constant chase to match how people actually use AI. It shifts to mostly private datasets to blunt benchmark-maxing, drops long-context tests that compaction made routine, and goes all-in on agentic coding, agentic science, and granular white-collar work. The result reshuffles the leaderboard. A handful of US labs pull clear of everyone else, the open-weights gap jumps from 3 points to 12, and Google's Gemini 4 Carbon takes first place. Most people say the new rankings finally match their own experience. The open questions are weighting, effort settings, and whether we should stare at one headline number at all.
 
 ## GP's Corner
 
 _Claude's notes on what today means for UK general practice and the NHS - commentary, not from the podcast itself._
 
-### A drug from a one-person company
+### Reading a league table sensibly
 
-Anthropic's purchase of Mythril Medicine, which took a muscular dystrophy treatment to promising mouse results in under eighteen months, is a company announcement, not a trial result. Mouse data rarely survives contact with people, and the stated aim of a clinical-trial-ready drug by the end of 2028 is still only an aim. For general practice the sensible reading is that AI is speeding up early discovery, while the slow, expensive human phases that decide what reaches our patients remain untouched. No Zitron piece addressed this edition's lead, so there is no opposing view to set against it here.
+The new index puts Google's latest model first at fifty-nine, narrowly ahead of Anthropic's, but the scores are close and the weightings are a judgement call. Vendors of AI scribes will quote rankings like this. A single headline number says little about whether a tool writes a safe consultation note in a British accent, so ask for evidence on clinical note accuracy, error rates and omissions in real surgeries.
 
-### Simulated worlds and clinical training
+### Open-weight models and NHS data
 
-Genie 4 is a two-minute demonstration for top-tier subscribers and still glitchy, so it has no clinical use today. The plausible long-term relevance is training simulation, for example rehearsing a difficult consultation or an emergency before facing a real one. That is speculation about direction, not something to plan around, and any such tool would need validation before use with NHS staff.
+The gap between the best open-weight model and the leaders has widened from three points to twelve. Models you can run on your own servers are attractive for keeping patient data in-house, but this suggests they currently trail on demanding agentic work. For routine tasks like summarising letters they may still be adequate; test them on your own cases before deciding.
 
-### Verification before release
+### No opposing view today
 
-The row over OpenAI holding back a physics result for expert checking is a useful parallel for AI scribes and decision-support tools. Releasing everything at once overwhelms the people who must check it, while releasing to a chosen few invites accusations of gatekeeping. When a practice adopts a tool, ask who verified the claims, on what data, and whether you can see the evidence yourself.
+Ed Zitron has published nothing on benchmarks, so there is no contrast to set against this edition. Healthcare relevance is modest: this is mainly about how to judge tools, not about a new clinical capability.
 
 ## NLW's Takes
 
-### Everyone in AI needs this IPO to go well
+### Don't judge LLMs on 3D renders
 
-The Wall Street Journal echoed Monday's argument that a successful Anthropic raise of $100B, the largest IPO ever, would signal access to capital for smaller companies with more pressing fundraising needs. That's also a reason OpenAI might hold its next release and let Anthropic have the limelight for a couple of weeks.
+Arena's render and game-design review of Carbon was slammed for looking less polished than Opus 5.5. NLW isn't convinced 3D design is the right yardstick for LLMs, however much social media fixates on it. Arena's Peter Gastev still said Carbon feels "a lot better than Argon."
 
-### Wall Street stops pricing P(doom) and starts pricing P(boom)
+### Google still has the benefit of the doubt, but suspend judgment
 
-A Journal column ran the logic half-seriously: an AI smart enough to kill us all but which prefers to help us is supremely useful and should generate healthy gains. Tongue in cheek or not, this week the market is betting on the boom.
+Google has been out of the early-adopter AI conversation for about 10 months. Even so, builders are already reopening Antigravity and calling it "comeback season." NLW's stance is to hold judgment until people get their hands on the model, though it looks promising.
 
-### On science disclosure, OpenAI is damned if it does and damned if it doesn't
+### The build-out may have hit peak velocity, but not for the reason bears predicted
 
-If OpenAI releases everything at once, it creates a giant verification burden. If it holds results back for vetting, it's accused of gatekeeping. The underlying discomfort is understandable, but it comes from where labs sit relative to this new intelligence, not from any single decision.
+Google, Microsoft, Oracle, and Meta are all spending below plan this quarter, even as Google guides CapEx up 50% to $300B next year. Bears expected faltering demand to prick the bubble. Instead, hyperscalers appear to want to keep accelerating and are running into components, power, labor, and community support.
 
-### This time, judging by the 3D renders is fair
+### Benchmarks are inherently limited and still essential
 
-Usually the rush to share flashy renders at a model launch is a distraction from what the model is actually for. Genie 4 is different, because building and sharing visual, interactive worlds is the entire purpose of the model.
+Without benchmarks, there's nothing but vibes to tell models apart. Yet almost never should one score, or even the aggregate, be taken as gospel. Done well, they're a guide to where different models fit into your stack.
 
-### DeepMind may have the most jagged frontier of all
+### The next fight is over weighting
 
-After six disappointing months on LLMs, with Gemini 4 Argon earning only a passing grade, Google's multimodal work remains unrivaled. Anthropic's S-1 still named Google as one of just two major competitors. Genie 4 shows that combining disparate model architectures can produce entirely new kinds of AI systems.
+OpenAI and Anthropic are clearly emphasizing scientific discovery. For the average user, though, does science matter as much as agentic coding? That argues either for a different weighting or for skipping the headline number and focusing on the benchmarks for your own use cases.
 
-### Don't underrate distribution
+### Leaderboards run on max settings, but nobody uses max
 
-AI insiders may overweight raw capability. Logan Kilpatrick reported Google processed around 25 trillion tokens in Gemini 4 Argon's first 72 hours. For Google, existing reach can matter as much as leaderboard position.
+AA does factor effort into its cost analysis. On a practical level, though, NLW thinks people would be better served by sorting the index by effort setting as well as by model.
 
 ## All Headlines, Briefly
 
-- [Anthropic lays out its drug-discovery playbook](https://aidailybrief.ai/e/2026-10-28#anthropic-drug-discovery-strategy) (01:00)
-- [Anthropic acquires a one-person biotech](https://aidailybrief.ai/e/2026-10-28#anthropic-buys-one-person-biotech) (02:00)
-- [The one-person company becomes a Rorschach test](https://aidailybrief.ai/e/2026-10-28#one-person-company-rorschach) (03:00)
-- [Labs want to own what intelligence discovers, not just sell tokens](https://aidailybrief.ai/e/2026-10-28#own-the-outcome) (05:00)
-- [The market greenlights Anthropic's S-1](https://aidailybrief.ai/e/2026-10-28#market-greenlights-s1) (06:00)
-- [Everyone in AI needs this IPO to go well](https://aidailybrief.ai/e/2026-10-28#ipo-bellwether-for-capital) (07:00)
-- [Wall Street stops pricing P(doom) and starts pricing P(boom)](https://aidailybrief.ai/e/2026-10-28#p-doom-to-p-boom) (08:00)
-- [OpenAI tries a different disclosure path for each breakthrough](https://aidailybrief.ai/e/2026-10-28#openai-staggered-disclosure) (08:00)
-- [“Understanding should develop in the open with everyone given the same access.”](https://aidailybrief.ai/e/2026-10-28#advisory-group-open-understanding) — OpenAI's advisory group on mathematics and artificial intelligence (09:00)
-- [Physics faculty push back on the handpicked verifiers](https://aidailybrief.ai/e/2026-10-28#handpicked-group-backlash) (10:00)
-- [On science disclosure, OpenAI is damned if it does and damned if it doesn't](https://aidailybrief.ai/e/2026-10-28#openai-damned-either-way) (10:00)
-- [From breathtaking demo to Genie 3's emergent persistence](https://aidailybrief.ai/e/2026-10-28#world-models-recap) (15:00)
-- [Genie 4 is Google's whole AI stack pointed at one problem](https://aidailybrief.ai/e/2026-10-28#genie-4-full-stack) (17:00)
-- [You can now change the world while you're in it](https://aidailybrief.ai/e/2026-10-28#live-prompting-worlds) (18:00)
-- [World models get sound, though the speech still lags](https://aidailybrief.ai/e/2026-10-28#native-audio-worlds) (19:00)
-- [Gemini watches the world and plans inside it](https://aidailybrief.ai/e/2026-10-28#gemini-agent-in-loop) (20:00)
-- [Robots could now train at software speed](https://aidailybrief.ai/e/2026-10-28#robots-training-software-speed) (20:00)
-- [This time, judging by the 3D renders is fair](https://aidailybrief.ai/e/2026-10-28#renders-are-the-point) (21:00)
-- [Reaction: glitchy, but impossibly advanced](https://aidailybrief.ai/e/2026-10-28#jaws-on-floor) (22:00)
-- [World models as mental rehearsal for AI agents](https://aidailybrief.ai/e/2026-10-28#world-models-mental-rehearsal) (22:00)
-- [Fully generative games aren't here yet, but gaming is already changing](https://aidailybrief.ai/e/2026-10-28#gaming-already-transforming) (24:00)
-- [“Truly a new age of gaming and software ahead.”](https://aidailybrief.ai/e/2026-10-28#sweeney-new-age) — Tim Sweeney, Epic Games CEO (24:00)
-- [Two minutes at a time, and only for Ultra subscribers](https://aidailybrief.ai/e/2026-10-28#still-a-tech-toy) (25:00)
-- [DeepMind may have the most jagged frontier of all](https://aidailybrief.ai/e/2026-10-28#deepmind-jagged-frontier) (26:00)
-- [Google's TPU bet adds OpenAI and Oracle](https://aidailybrief.ai/e/2026-10-28#tpu-new-customers) (27:00)
-- [Argon gives Google a shortcut to faster model iteration](https://aidailybrief.ai/e/2026-10-28#argon-fast-iteration) (27:00)
-- [Don't underrate distribution](https://aidailybrief.ai/e/2026-10-28#distribution-over-capability) (28:00)
+- [Gemini 4 Carbon lands just two weeks after Argon](https://aidailybrief.ai/e/2026-10-29#gemini-4-carbon-two-weeks) (01:00)
+- [“I would expect the next 12 months to see continued acceleration because of RSI.”](https://aidailybrief.ai/e/2026-10-29#pichai-acceleration-rsi) — Sundar Pichai, Google CEO, on the earnings call (02:00)
+- [Carbon tops six of eight key benchmarks](https://aidailybrief.ai/e/2026-10-29#carbon-tops-benchmarks) (02:00)
+- [From second tier to back in the race](https://aidailybrief.ai/e/2026-10-29#google-back-in-frontier-race) (03:00)
+- [Carbon goes to cyber defenders first](https://aidailybrief.ai/e/2026-10-29#carbon-deliberate-rollout) (03:00)
+- [Don't judge LLMs on 3D renders](https://aidailybrief.ai/e/2026-10-29#3d-design-wrong-yardstick) (04:00)
+- [Inside Google, launches now feel like periodic checkpoints](https://aidailybrief.ai/e/2026-10-29#launches-periodic-checkpoints) (05:00)
+- [Google still has the benefit of the doubt, but suspend judgment](https://aidailybrief.ai/e/2026-10-29#google-benefit-of-doubt) (06:00)
+- [Azure grows 48%, and OpenAI is a third of it](https://aidailybrief.ai/e/2026-10-29#azure-breakout-openai-third) (06:00)
+- [Google Cloud doubles while Search slows](https://aidailybrief.ai/e/2026-10-29#google-cloud-doubles-search-slows) (07:00)
+- [The build-out may have hit peak velocity, but not for the reason bears predicted](https://aidailybrief.ai/e/2026-10-29#capex-peak-velocity-physical) (08:00)
+- [The DOJ's Nvidia probe is far bigger than anyone thought](https://aidailybrief.ai/e/2026-10-29#doj-nvidia-top-to-bottom) (09:00)
+- [Benchmarks are inherently limited and still essential](https://aidailybrief.ai/e/2026-10-29#benchmarks-limited-but-important) (15:00)
+- [From Chatbot Arena vibes to a cat-and-mouse game](https://aidailybrief.ai/e/2026-10-29#from-chatbot-arena-to-agentic) (16:00)
+- [V5 goes majority-private to fight benchmark-maxing](https://aidailybrief.ai/e/2026-10-29#v5-private-datasets) (18:00)
+- [Long context got solved enough to leave the index](https://aidailybrief.ai/e/2026-10-29#long-context-dropped) (19:00)
+- [A 25% weighting on science is a forward-looking bet](https://aidailybrief.ai/e/2026-10-29#science-25-percent-bet) (20:00)
+- [The leaderboard reshuffle: agentic models rise, Wonder and Kimi fall](https://aidailybrief.ai/e/2026-10-29#leaderboard-reshuffle) (20:00)
+- [The open-weights gap widens from 3 points to 12](https://aidailybrief.ai/e/2026-10-29#open-weights-gap-frontier-tier) (21:00)
+- [Frontier costs range from 96 cents to $13 per task](https://aidailybrief.ai/e/2026-10-29#frontier-cost-spread) (22:00)
+- [Most people say the new rankings finally match the vibes](https://aidailybrief.ai/e/2026-10-29#v5-matches-vibes) (23:00)
+- [The case for open weights: strong at agents, weak at science](https://aidailybrief.ai/e/2026-10-29#kyle-chan-kimi-defense) (24:00)
+- [The next fight is over weighting](https://aidailybrief.ai/e/2026-10-29#weighting-debate) (24:00)
+- [Leaderboards run on max settings, but nobody uses max](https://aidailybrief.ai/e/2026-10-29#leaderboard-by-effort) (25:00)
+- [A new Progress Index charts every model since November 2022](https://aidailybrief.ai/e/2026-10-29#progress-index-us-china) (26:00)
 
 ---
 

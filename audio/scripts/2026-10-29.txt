@@ -1,0 +1,17 @@
+David's AI brief for Thursday, the twenty-ninth of October.
+
+Today's One Idea from The AI Daily Brief is that benchmarks are a cat-and-mouse game with reality, and that the latest scoreboard finally matches what people feel when they use these models. The occasion is a big overhaul of the Artificial Analysis Intelligence Index, version five. The host's starting point is that benchmarks are limited but essential, because without them all we have is impressions.
+
+Three changes matter. First, most of the tests are now built on private data. That makes it harder for developers to train a model on the test questions, which would make a score reflect memory rather than ability. Second, long-context tests have been dropped, because that problem is now largely solved. Third, the index leans heavily on agentic work, where a model carries out multi-step tasks, in coding, science and office-style knowledge work, with each of four categories given an equal quarter of the weight.
+
+The leaderboard reshuffled. Google's Gemini Four Carbon, released only two weeks after its predecessor, now leads at fifty-nine, narrowly ahead of Anthropic's Opus. OpenAI's models rose sharply, while some rivals fell. The gap between the best open-weight model, which anyone can download and run, and the leaders widened from three points to twelve. Costs per task range from under one dollar to about thirteen dollars. Most commentators said the new rankings match their own experience far better than before.
+
+The host adds cautions. The weighting, with a quarter on science, is a bet on where the leading labs are heading, and may not suit an ordinary user. Leaderboards also tend to use maximum effort settings, which hardly anyone uses day to day. And Carbon is so far available only to a small group of cyber defenders and partners, so he suggests suspending judgement until people have used it.
+
+Elsewhere in the edition, Microsoft and Google reported very strong cloud quarters, with Google Cloud doubling. Their spending on data centres came in below plan, because of shortages of components, power and labour, not weak demand. And the United States Department of Justice is running a far wider investigation of Nvidia than was known.
+
+I checked for a counter-view from Ed Zitron, and he has published nothing on benchmarks, so I will not invent one. His recent writing concerns finance and the Anthropic share offer.
+
+Now, the notes for general practice. A league table is a poor guide to whether an AI scribe writes a safe consultation note. Vendors will quote rankings, so ask instead for evidence on accuracy, omissions and error rates in real surgeries. The widening gap for open-weight models matters if you want to keep patient data on your own servers. They may suit routine tasks, but test them on your own cases first. Overall, the healthcare relevance today is modest. It is mainly a lesson in how to judge the tools you are sold.
+
+That's the brief — source, The AI Daily Brief.

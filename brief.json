@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-28",
-  "title": "AI Can Now Create Worlds You Can Change in Real Time",
-  "dek": "Google's Genie 4 stitches Gemini reasoning, Omni video, and native audio into a world model you can steer live \u2014 still a two-minute tech demo, but one that points at robots trained at software speed and generative games. Plus: Anthropic buys a one-person biotech, Wall Street swaps P(doom) for P(boom), and OpenAI can't win on science disclosure.",
-  "source": "https://aidailybrief.ai/e/2026-10-28",
+  "date": "2026-10-29",
+  "title": "The AI Rankings Just Got Reshuffled",
+  "dek": "Artificial Analysis overhauls the benchmark everyone uses to judge AI models, and the reshuffle shows a clearer frontier, a wider open-weights gap, and Google suddenly back on top with Gemini 4 Carbon. Plus: blowout cloud quarters, a CapEx plateau the bears didn't predict, and a much bigger DOJ probe of Nvidia.",
+  "source": "https://aidailybrief.ai/e/2026-10-29",
   "oneIdea": {
-    "headline": "World models are getting tantalizingly close to the jump from tech demo to real-world application.",
-    "summary": "Genie 4 isn't a standalone model. It's Google's whole AI stack pointed at one problem: Omni anchors realism, Gemini 3.8 Flash runs in the loop as a reasoning agent, and audio models add sound for the first time. The result is a world you can change in real time with prompts. It's still capped at two minutes and still glitchy, so it remains a toy for now. But the path is visible: simulated training grounds for robots, personalized generative games, and a reminder that DeepMind's jagged frontier is unrivaled on multimodal even while it trails on LLMs."
+    "headline": "Benchmarks are a cat-and-mouse game with reality, and the new scoreboard finally matches the vibes.",
+    "summary": "Benchmarks are inherently limited but important. Without them we only have vibes. Artificial Analysis's Intelligence Index V5 is the latest move in a constant chase to match how people actually use AI. It shifts to mostly private datasets to blunt benchmark-maxing, drops long-context tests that compaction made routine, and goes all-in on agentic coding, agentic science, and granular white-collar work. The result reshuffles the leaderboard. A handful of US labs pull clear of everyone else, the open-weights gap jumps from 3 points to 12, and Google's Gemini 4 Carbon takes first place. Most people say the new rankings finally match their own experience. The open questions are weighting, effort settings, and whether we should stare at one headline number at all."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "A drug from a one-person company",
-        "body": "Anthropic's purchase of Mythril Medicine, which took a muscular dystrophy treatment to promising mouse results in under eighteen months, is a company announcement, not a trial result. Mouse data rarely survives contact with people, and the stated aim of a clinical-trial-ready drug by the end of 2028 is still only an aim. For general practice the sensible reading is that AI is speeding up early discovery, while the slow, expensive human phases that decide what reaches our patients remain untouched. No Zitron piece addressed this edition's lead, so there is no opposing view to set against it here."
+        "title": "Reading a league table sensibly",
+        "body": "The new index puts Google's latest model first at fifty-nine, narrowly ahead of Anthropic's, but the scores are close and the weightings are a judgement call. Vendors of AI scribes will quote rankings like this. A single headline number says little about whether a tool writes a safe consultation note in a British accent, so ask for evidence on clinical note accuracy, error rates and omissions in real surgeries."
       },
       {
-        "title": "Simulated worlds and clinical training",
-        "body": "Genie 4 is a two-minute demonstration for top-tier subscribers and still glitchy, so it has no clinical use today. The plausible long-term relevance is training simulation, for example rehearsing a difficult consultation or an emergency before facing a real one. That is speculation about direction, not something to plan around, and any such tool would need validation before use with NHS staff."
+        "title": "Open-weight models and NHS data",
+        "body": "The gap between the best open-weight model and the leaders has widened from three points to twelve. Models you can run on your own servers are attractive for keeping patient data in-house, but this suggests they currently trail on demanding agentic work. For routine tasks like summarising letters they may still be adequate; test them on your own cases before deciding."
       },
       {
-        "title": "Verification before release",
-        "body": "The row over OpenAI holding back a physics result for expert checking is a useful parallel for AI scribes and decision-support tools. Releasing everything at once overwhelms the people who must check it, while releasing to a chosen few invites accusations of gatekeeping. When a practice adopts a tool, ask who verified the claims, on what data, and whether you can see the evidence yourself."
+        "title": "No opposing view today",
+        "body": "Ed Zitron has published nothing on benchmarks, so there is no contrast to set against this edition. Healthcare relevance is modest: this is mainly about how to judge tools, not about a new clinical capability."
       }
     ]
   },
@@ -28,276 +28,256 @@
   "the_truth_beneath": null,
   "headlines": [
     {
-      "id": "anthropic-drug-discovery-strategy",
-      "headline": "Anthropic lays out its drug-discovery playbook",
+      "id": "gemini-4-carbon-two-weeks",
+      "headline": "Gemini 4 Carbon lands just two weeks after Argon",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Anthropic's view is that there's no single problem to solve, because the bottlenecks are spread across the whole drug development process, from target identification to regulatory filings to trials. Its answer is to get involved in real programs. That means six partner organizations, its own discovery efforts, and a new Bristol Myers Squibb partnership on early-stage clinical trials.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#anthropic-drug-discovery-strategy"
+      "summary": "It's one of the shortest gaps yet between versions of ultra-large models. With a new base model in hand, Google can iterate quickly through reinforcement learning instead of waiting on a lengthy pre-training run.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#gemini-4-carbon-two-weeks"
     },
     {
-      "id": "anthropic-buys-one-person-biotech",
-      "headline": "Anthropic acquires a one-person biotech",
+      "id": "pichai-acceleration-rsi",
+      "headline": "I would expect the next 12 months to see continued acceleration because of RSI.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "02:00",
+      "attribution": "Sundar Pichai, Google CEO, on the earnings call",
+      "summary": "On Wednesday's earnings call, Pichai said Google is at the point where AI is helping increase its training and launch velocity. He framed Carbon's quick arrival as evidence of \"incredible model momentum.\"",
+      "link": "https://aidailybrief.ai/e/2026-10-29#pichai-acceleration-rsi"
+    },
+    {
+      "id": "carbon-tops-benchmarks",
+      "headline": "Carbon tops six of eight key benchmarks",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "Mythril Medicine's founder, Cody Tranberger, used Claude to run contracts, logistics, and experiments across 11 external labs. He took a muscular dystrophy treatment from idea to promising mouse results in under 18 months. Anthropic hopes to have a drug ready for clinical trials by the end of 2028, against a typical four-to-seven-year runway.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#anthropic-buys-one-person-biotech"
+      "summary": "In coding, Carbon gained 8 points on TerminalBench 4.0 and 6 on Frontier Suite. In cybersecurity, it added 12 on Exploit Gym. In computer use, it picked up 7 on OSWorld and 8 on Agent's Last Exam. It leads the new AA Index V5 at 59, ahead of Opus 5.5, and ties Sonnet 5.5 for second on the AA Coding Index.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#carbon-tops-benchmarks"
     },
     {
-      "id": "one-person-company-rorschach",
-      "headline": "The one-person company becomes a Rorschach test",
+      "id": "google-back-in-frontier-race",
+      "headline": "From second tier to back in the race",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Fans called it Sam Altman's one-person-company prediction coming true. Skeptics pointed out that the founder is a Harvard MBA and ex-Goldman analyst, though he also holds a master's in biotech. Others, including Lenny Rachitsky, doubt any solo company can reach massive scale, if only because of support load. Whether you see the death of expertise or democratization depends on where you started.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#one-person-company-rorschach"
+      "summary": "When Argon shipped, some felt Google had missed its window, leaving it in a second tier alongside Meta. If real-world use matches the benchmarks, Carbon puts Google genuinely back at the frontier. It does so at a middle-of-the-road $7.76 per task.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#google-back-in-frontier-race"
     },
     {
-      "id": "own-the-outcome",
-      "headline": "Labs want to own what intelligence discovers, not just sell tokens",
+      "id": "carbon-deliberate-rollout",
+      "headline": "Carbon goes to cyber defenders first",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "03:00",
+      "attribution": null,
+      "summary": "Google says it is following the administration's pre-release model testing guidelines and taking a \"deliberate approach.\" A subset of cyber defenders and trusted partners get access first. Developers, businesses, and consumers wait while Google iterates on guardrails, so there are few first-hand testimonials yet.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#carbon-deliberate-rollout"
+    },
+    {
+      "id": "3d-design-wrong-yardstick",
+      "headline": "Don't judge LLMs on 3D renders",
+      "type": "take",
+      "segment": "headlines",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "Arena's render and game-design review of Carbon was slammed for looking less polished than Opus 5.5. NLW isn't convinced 3D design is the right yardstick for LLMs, however much social media fixates on it. Arena's Peter Gastev still said Carbon feels \"a lot better than Argon.\"",
+      "link": "https://aidailybrief.ai/e/2026-10-29#3d-design-wrong-yardstick"
+    },
+    {
+      "id": "launches-periodic-checkpoints",
+      "headline": "Inside Google, launches now feel like periodic checkpoints",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Many read the deal as shrewd pre-IPO signaling that AI goes beyond writing code. It also fits a broader diversification trend. One argument holds that selling intelligence is becoming a commodity business, and that labs paid for value will have to discover the drug, run the trial, and hold the patent, much like Alphabet's Isomorphic Labs.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#own-the-outcome"
+      "summary": "Gemini post-training researcher Xiao Zhang contrasted Carbon with the big-bang celebration around Gemini 3 Pro. The team has been dogfooding for weeks: overnight loops running dozens of experiments, root-causing bugs, and swarms inspecting RL data. DeepMind researchers also hinted that an even stronger unreleased Gemini is waiting.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#launches-periodic-checkpoints"
     },
     {
-      "id": "market-greenlights-s1",
-      "headline": "The market greenlights Anthropic's S-1",
+      "id": "google-benefit-of-doubt",
+      "headline": "Google still has the benefit of the doubt, but suspend judgment",
+      "type": "take",
+      "segment": "headlines",
+      "timestamp": "06:00",
+      "attribution": null,
+      "summary": "Google has been out of the early-adopter AI conversation for about 10 months. Even so, builders are already reopening Antigravity and calling it \"comeback season.\" NLW's stance is to hold judgment until people get their hands on the model, though it looks promising.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#google-benefit-of-doubt"
+    },
+    {
+      "id": "azure-breakout-openai-third",
+      "headline": "Azure grows 48%, and OpenAI is a third of it",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "The filing landed after a three-week tech drawdown and a four-month semiconductor bear market. This week the Nasdaq is up 2% and the SOX has rebounded almost 6%. Investors who feared the filing would show no path to returns on AI capex instead saw a booming business, and strategists pointed to Anthropic's $112B cash pile.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#market-greenlights-s1"
+      "summary": "Microsoft broke out Azure for the first time: $33B, up 48%, driving 19% overall growth to $92.3B. OpenAI contributed $10B of Azure revenue. The stock hit a new all-time high after hours, up as much as 4.8%.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#azure-breakout-openai-third"
     },
     {
-      "id": "ipo-bellwether-for-capital",
-      "headline": "Everyone in AI needs this IPO to go well",
-      "type": "take",
+      "id": "google-cloud-doubles-search-slows",
+      "headline": "Google Cloud doubles while Search slows",
+      "type": "insight",
       "segment": "headlines",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "The Wall Street Journal echoed Monday's argument that a successful Anthropic raise of $100B, the largest IPO ever, would signal access to capital for smaller companies with more pressing fundraising needs. That's also a reason OpenAI might hold its next release and let Anthropic have the limelight for a couple of weeks.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#ipo-bellwether-for-capital"
+      "summary": "Google Cloud doubled to $30.7B, nearly closing the gap with Microsoft. Search growth slowed to 12% from 17%, though, and YouTube to 9.2%. Pichai acknowledged that AI Mode's lower monetization is weighing on results. Some analysts see Google forced to cannibalize Search, and the stock fell as much as 10% after hours.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#google-cloud-doubles-search-slows"
     },
     {
-      "id": "p-doom-to-p-boom",
-      "headline": "Wall Street stops pricing P(doom) and starts pricing P(boom)",
+      "id": "capex-peak-velocity-physical",
+      "headline": "The build-out may have hit peak velocity, but not for the reason bears predicted",
       "type": "take",
       "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "A Journal column ran the logic half-seriously: an AI smart enough to kill us all but which prefers to help us is supremely useful and should generate healthy gains. Tongue in cheek or not, this week the market is betting on the boom.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#p-doom-to-p-boom"
+      "summary": "Google, Microsoft, Oracle, and Meta are all spending below plan this quarter, even as Google guides CapEx up 50% to $300B next year. Bears expected faltering demand to prick the bubble. Instead, hyperscalers appear to want to keep accelerating and are running into components, power, labor, and community support.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#capex-peak-velocity-physical"
     },
     {
-      "id": "openai-staggered-disclosure",
-      "headline": "OpenAI tries a different disclosure path for each breakthrough",
+      "id": "doj-nvidia-top-to-bottom",
+      "headline": "The DOJ's Nvidia probe is far bigger than anyone thought",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "After criticism that its earlier math-proof dump wasn't verified, OpenAI appointed expert groups to shepherd each result. The math proof went out as a paper. The computer science result disproving the exponential time hypothesis shipped with its proofs and AI sessions. The physics result, said to include a Yang-Mills existence proof, is being held privately for verification.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#openai-staggered-disclosure"
-    },
-    {
-      "id": "advisory-group-open-understanding",
-      "headline": "Understanding should develop in the open with everyone given the same access.",
-      "type": "quote",
       "segment": "headlines",
       "timestamp": "09:00",
-      "attribution": "OpenAI's advisory group on mathematics and artificial intelligence",
-      "summary": "OpenAI's own mathematics advisory group publicly broke with the decision to keep the physics result private. The physicists replied that the manuscripts are formidable and they want to be convinced the result is correct before release, calling it an experiment in how academia handles AI-generated knowledge.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#advisory-group-open-understanding"
-    },
-    {
-      "id": "handpicked-group-backlash",
-      "headline": "Physics faculty push back on the handpicked verifiers",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "10:00",
       "attribution": null,
-      "summary": "Professors interviewed by The Verge called for immediate release. One said it makes no sense that only a few distinguished scientists can look at the results. UT Austin's Andreas Kark called the handpicked group \"a disaster,\" arguing that labs already have enough power and shouldn't be picking winners and losers.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#handpicked-group-backlash"
+      "summary": "Reuters reports DOJ questions about whether owning Hugging Face, a $13B deal, would let Nvidia control a key AI model distribution point. The multi-year probe predates the Groq acqui-hire. It also covers the traditional Run:ai acquisition and another data-center deal, plus venture investments, sales practices, and customer pressure. No charges have been filed.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#doj-nvidia-top-to-bottom"
     },
     {
-      "id": "openai-damned-either-way",
-      "headline": "On science disclosure, OpenAI is damned if it does and damned if it doesn't",
+      "id": "benchmarks-limited-but-important",
+      "headline": "Benchmarks are inherently limited and still essential",
       "type": "take",
-      "segment": "headlines",
-      "timestamp": "10:00",
-      "attribution": null,
-      "summary": "If OpenAI releases everything at once, it creates a giant verification burden. If it holds results back for vetting, it's accused of gatekeeping. The underlying discomfort is understandable, but it comes from where labs sit relative to this new intelligence, not from any single decision.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#openai-damned-either-way"
-    },
-    {
-      "id": "world-models-recap",
-      "headline": "From breathtaking demo to Genie 3's emergent persistence",
-      "type": "insight",
       "segment": "main",
       "timestamp": "15:00",
       "attribution": null,
-      "summary": "World models drew attention because figures like Yann LeCun and Fei-Fei Li saw them as a more viable path to AGI than LLMs. Genie 3 let users prompt worlds and navigate them with keyboard and mouse. Its standout trick was emergent persistence: paint a symbol on a wall, look away, and it's still there when you look back. Compute limits capped it at 60 seconds.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#world-models-recap"
+      "summary": "Without benchmarks, there's nothing but vibes to tell models apart. Yet almost never should one score, or even the aggregate, be taken as gospel. Done well, they're a guide to where different models fit into your stack.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#benchmarks-limited-but-important"
     },
     {
-      "id": "genie-4-full-stack",
-      "headline": "Genie 4 is Google's whole AI stack pointed at one problem",
+      "id": "from-chatbot-arena-to-agentic",
+      "headline": "From Chatbot Arena vibes to a cat-and-mouse game",
       "type": "insight",
       "segment": "main",
-      "timestamp": "17:00",
+      "timestamp": "16:00",
       "attribution": null,
-      "summary": "DeepMind dropped the standalone design. Gemini Omni anchors simulations in real-world appearance, Gemini 3.8 Flash supplies reasoning for physical interactions and causality, and Google's audio models bring sound to generated worlds for the first time.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#genie-4-full-stack"
+      "summary": "When LLMs were glorified search and writing assistants, the Chatbot Arena ranking was the pinnacle test. Coding and research brought objective benchmarks, then harder versions as each one saturated. The index has repeatedly lagged reality. The early V4.2 update came because GPT-6 Astra's computer-use gains weren't showing up in its score.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#from-chatbot-arena-to-agentic"
     },
     {
-      "id": "live-prompting-worlds",
-      "headline": "You can now change the world while you're in it",
+      "id": "v5-private-datasets",
+      "headline": "V5 goes majority-private to fight benchmark-maxing",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "Earlier Genie versions let you prompt once and then explore. Genie 4 takes live prompts mid-simulation to steer the camera, change the weather, or introduce new objects and characters. Google also highlights a jump in physics realism, covering aerodynamics and collisions, and in simulating people who move naturally and can be steered in real time.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#live-prompting-worlds"
+      "summary": "For the first time, most benchmarks in the Intelligence Index are built on private datasets. Benchmark-maxing means getting test questions and answers into training data, so a score reflects memory rather than capability. Private data makes it harder to train to the test.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#v5-private-datasets"
     },
     {
-      "id": "native-audio-worlds",
-      "headline": "World models get sound, though the speech still lags",
+      "id": "long-context-dropped",
+      "headline": "Long context got solved enough to leave the index",
       "type": "insight",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "Generated worlds now carry music, speech, and sound effects, a new level of tooling for creators. The dialogue still has the hollow, echoey quality that marked generative video until a few months ago.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#native-audio-worlds"
+      "summary": "V5 adds Cognition's Frontier Code 2.0, which scores on whether a maintainer would merge the code, plus Terminal Bench Science. It swaps GDPVal for granular white-collar tests and drops the long-context reasoning test. In January long context was critical, but compaction and memory gains mean it's now taken for granted.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#long-context-dropped"
     },
     {
-      "id": "gemini-agent-in-loop",
-      "headline": "Gemini watches the world and plans inside it",
+      "id": "science-25-percent-bet",
+      "headline": "A 25% weighting on science is a forward-looking bet",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "Gemini 3.8 Flash acts as a guiding agent in the loop. It observes the scene, breaks goals into steps, checks incoming frames to verify that each step succeeded, and adapts when the user intervenes. That unlocks multi-step actions with reliable causality.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#gemini-agent-in-loop"
+      "summary": "The index now weights four categories equally: knowledge work, coding, science, and general. Coding benchmarks measure only agentic performance, and science tests real agentic research rather than stored knowledge. Science's quarter share seems to bet on the science and math race Anthropic and OpenAI have been trading headlines over.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#science-25-percent-bet"
     },
     {
-      "id": "robots-training-software-speed",
-      "headline": "Robots could now train at software speed",
+      "id": "leaderboard-reshuffle",
+      "headline": "The leaderboard reshuffle: agentic models rise, Wonder and Kimi fall",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "Using Gemini 4 Argon as the backend, Google showed a robot playing chess inside a Genie simulation. Argon breaks tasks into steps fed to Genie as text captions while the scene renders. The upshot is fully simulated training environments, untethered from real-world limits.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#robots-training-software-speed"
+      "summary": "Before Carbon, Opus 5.5 led at 58 and GPT-6 Astra jumped from sixth to second at 57. OpenAI's Sol rose from ninth to third and GPT-6.1 Terra from tenth to fifth. Sonnet 5.5 slipped to fourth, Meta Wonder fell from third to sixth, and Kimi K3.1 Pro dropped from fourth to ninth.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#leaderboard-reshuffle"
     },
     {
-      "id": "renders-are-the-point",
-      "headline": "This time, judging by the 3D renders is fair",
-      "type": "take",
+      "id": "open-weights-gap-frontier-tier",
+      "headline": "The open-weights gap widens from 3 points to 12",
+      "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "Usually the rush to share flashy renders at a model launch is a distraction from what the model is actually for. Genie 4 is different, because building and sharing visual, interactive worlds is the entire purpose of the model.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#renders-are-the-point"
+      "summary": "Kimi K3.1 Pro is the top open-weights model at 46. DeepSeek V4.1 Flash and GLM 5.3 sit at 32, below Claude Haiku 5.5's 36. Anthropic, OpenAI, Google, and Meta all have models at 50 or above, followed by a 10-point cliff. Adding more agentic tasks drew a clear line between the frontier and everyone else.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#open-weights-gap-frontier-tier"
     },
     {
-      "id": "jaws-on-floor",
-      "headline": "Reaction: glitchy, but impossibly advanced",
+      "id": "frontier-cost-spread",
+      "headline": "Frontier costs range from 96 cents to $13 per task",
       "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "Ethan Mollick typed in a neo-gothic brutalist city of robots and horses, then added dragons and a friendly otter NPC, all in real time. Justine Moore built a Lovecraftian world and a GTA riff, quipping \"we got GTA Waymo before GTA VI.\"",
-      "link": "https://aidailybrief.ai/e/2026-10-28#jaws-on-floor"
+      "summary": "GPT-6.1 Terra is the cheapest top-10 model at $0.96 per task, and Fable 5.1 the priciest at $13.04. Among comparably sized models, Opus and Sonnet run around $10 and GPT-6 Astra $6.24. Gemini 4 Carbon, Grok 4.7, Wonder, and Muse land in the high-$7 range.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#frontier-cost-spread"
     },
     {
-      "id": "world-models-mental-rehearsal",
-      "headline": "World models as mental rehearsal for AI agents",
+      "id": "v5-matches-vibes",
+      "headline": "Most people say the new rankings finally match the vibes",
       "type": "insight",
       "segment": "main",
-      "timestamp": "22:00",
+      "timestamp": "23:00",
       "attribution": null,
-      "summary": "The AGI case: pair an LLM's reasoning with a world model's learned physics, and agents can test actions and learn from simulated outcomes before acting in the real world, much as humans imagine a scenario before trying it. That could help with spatial and physical reasoning, provided the simulations are accurate enough.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#world-models-mental-rehearsal"
+      "summary": "The dominant reaction was that V5 tracks subjective experience far better. OpenAI's Dean Ball said it's the first AA ranking to roughly approximate his own. Others noted it confirms a deeper Anthropic/OpenAI lead and that no \"Fable-class\" open model has appeared yet.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#v5-matches-vibes"
     },
     {
-      "id": "gaming-already-transforming",
-      "headline": "Fully generative games aren't here yet, but gaming is already changing",
+      "id": "kyle-chan-kimi-defense",
+      "headline": "The case for open weights: strong at agents, weak at science",
       "type": "insight",
       "segment": "main",
       "timestamp": "24:00",
       "attribution": null,
-      "summary": "Genie 3 sent gaming stocks plummeting, while Genie 4 hit them less hard as investors came to understand how far off the disruption is. Meanwhile, Opus 5.5's ability to decompile and repackage games has produced mashups, ports to almost any hardware, and a mixed-reality Mario 64 you can pull out onto your kitchen table.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#gaming-already-transforming"
+      "summary": "Brookings' Kyle Chan noted private benchmarks only rose from 45% to 60% of the index. Kimi leads all models on Terminal Bench 4.0 at 67% and beats Claude on private AutomationBench, but scores 34% on Terminal Bench Science versus Astra's 63%. His read: this isn't necessarily benchmark gaming, but a real gap in advanced scientific reasoning.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#kyle-chan-kimi-defense"
     },
     {
-      "id": "sweeney-new-age",
-      "headline": "Truly a new age of gaming and software ahead.",
-      "type": "quote",
+      "id": "weighting-debate",
+      "headline": "The next fight is over weighting",
+      "type": "take",
       "segment": "main",
       "timestamp": "24:00",
-      "attribution": "Tim Sweeney, Epic Games CEO",
-      "summary": "The Epic Games CEO was reacting to a tech reporter porting his first game from PC to the NES. What once took vast manual effort can now be a hobby project.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#sweeney-new-age"
+      "attribution": null,
+      "summary": "OpenAI and Anthropic are clearly emphasizing scientific discovery. For the average user, though, does science matter as much as agentic coding? That argues either for a different weighting or for skipping the headline number and focusing on the benchmarks for your own use cases.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#weighting-debate"
     },
     {
-      "id": "still-a-tech-toy",
-      "headline": "Two minutes at a time, and only for Ultra subscribers",
-      "type": "insight",
+      "id": "leaderboard-by-effort",
+      "headline": "Leaderboards run on max settings, but nobody uses max",
+      "type": "take",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "Genie 4 is available to Gemini Ultra subscribers. Simulations are capped at two minutes, double Genie 3's limit but well short of a fully generative game. It's still a tech toy, though one showing glimmers of real usefulness.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#still-a-tech-toy"
+      "summary": "AA does factor effort into its cost analysis. On a practical level, though, NLW thinks people would be better served by sorting the index by effort setting as well as by model.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#leaderboard-by-effort"
     },
     {
-      "id": "deepmind-jagged-frontier",
-      "headline": "DeepMind may have the most jagged frontier of all",
-      "type": "take",
+      "id": "progress-index-us-china",
+      "headline": "A new Progress Index charts every model since November 2022",
+      "type": "insight",
       "segment": "main",
       "timestamp": "26:00",
       "attribution": null,
-      "summary": "After six disappointing months on LLMs, with Gemini 4 Argon earning only a passing grade, Google's multimodal work remains unrivaled. Anthropic's S-1 still named Google as one of just two major competitors. Genie 4 shows that combining disparate model architectures can produce entirely new kinds of AI systems.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#deepmind-jagged-frontier"
-    },
-    {
-      "id": "tpu-new-customers",
-      "headline": "Google's TPU bet adds OpenAI and Oracle",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "27:00",
-      "attribution": null,
-      "summary": "Analysts scoffed when Google moved to sell TPUs externally. Sales are now a significant revenue line, though almost entirely from Anthropic. The Information reports two new customers: OpenAI, with terms undisclosed, and Oracle, which would become the first large cloud provider other than Google to rent the chips to outside customers.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#tpu-new-customers"
-    },
-    {
-      "id": "argon-fast-iteration",
-      "headline": "Argon gives Google a shortcut to faster model iteration",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "27:00",
-      "attribution": null,
-      "summary": "Follow-up model Gemini 4 Carbon is already getting positive internal reviews. Because Argon is also a new ultra-large base model, Google can skip another long pre-training run and iterate through post-training. Meta used a similar path to bootstrap Mu Spark into a competitive model across three versions in five months.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#argon-fast-iteration"
-    },
-    {
-      "id": "distribution-over-capability",
-      "headline": "Don't underrate distribution",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "28:00",
-      "attribution": null,
-      "summary": "AI insiders may overweight raw capability. Logan Kilpatrick reported Google processed around 25 trillion tokens in Gemini 4 Argon's first 72 hours. For Google, existing reach can matter as much as leaderboard position.",
-      "link": "https://aidailybrief.ai/e/2026-10-28#distribution-over-capability"
+      "summary": "AA's new long-term index tracks how each lab's leading model improves over time. People were quick to mine it. One analysis said OpenAI's models lean hardest on reasoning, and another estimated the US\u2013China gap at 3.3 months and closing.",
+      "link": "https://aidailybrief.ai/e/2026-10-29#progress-index-us-china"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-10-28.mp3",
-  "generated": "2026-10-30T06:26:16Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-10-29.mp3",
+  "generated": "2026-10-30T11:39:41Z"
 }
