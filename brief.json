@@ -1,283 +1,281 @@
 {
-  "date": "2026-10-29",
-  "title": "The AI Rankings Just Got Reshuffled",
-  "dek": "Artificial Analysis overhauls the benchmark everyone uses to judge AI models, and the reshuffle shows a clearer frontier, a wider open-weights gap, and Google suddenly back on top with Gemini 4 Carbon. Plus: blowout cloud quarters, a CapEx plateau the bears didn't predict, and a much bigger DOJ probe of Nvidia.",
-  "source": "https://aidailybrief.ai/e/2026-10-29",
+  "date": "2026-10-30",
+  "title": "How the Most AI-Pilled Company in the World Works",
+  "dek": "A 10-person gaming startup called Spawn spends 30 times more on tokens than payroll and has an agent fleet shipping 77,000 code changes a month. Its founder's two-year playbook is a field guide to what AI-native actually means, and why most companies will find it hard to copy. In the headlines: an AI startup bids for a bankrupt white-shoe law firm, and tech earnings expose a widening rift between hyperscalers and investors.",
+  "source": "https://aidailybrief.ai/e/2026-10-30",
   "oneIdea": {
-    "headline": "Benchmarks are a cat-and-mouse game with reality, and the new scoreboard finally matches the vibes.",
-    "summary": "Benchmarks are inherently limited but important. Without them we only have vibes. Artificial Analysis's Intelligence Index V5 is the latest move in a constant chase to match how people actually use AI. It shifts to mostly private datasets to blunt benchmark-maxing, drops long-context tests that compaction made routine, and goes all-in on agentic coding, agentic science, and granular white-collar work. The result reshuffles the leaderboard. A handful of US labs pull clear of everyone else, the open-weights gap jumps from 3 points to 12, and Google's Gemini 4 Carbon takes first place. Most people say the new rankings finally match their own experience. The open questions are weighting, effort settings, and whether we should stare at one headline number at all."
+    "headline": "Truly AI-native means tearing out the systems built for humans, not speeding them up.",
+    "summary": "Most companies doing \"AI transformation\" use AI to do the same things faster, with an org chart someone from 20 years ago would still recognize. Spawn went the other way. It runs a persistent fleet of agents with names, memory and ownership of real functions. It killed pull requests, closed the feedback loop so player agents report bugs straight to the fleet, and turned two years of founder decisions into precedent that AI judges apply. Almost every breakthrough came from removing scaffolding designed for human work. What remains for humans is taste, deleting what new models make redundant, and supplying the ambition agents won't come up with on their own."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Reading a league table sensibly",
-        "body": "The new index puts Google's latest model first at fifty-nine, narrowly ahead of Anthropic's, but the scores are close and the weightings are a judgement call. Vendors of AI scribes will quote rankings like this. A single headline number says little about whether a tool writes a safe consultation note in a British accent, so ask for evidence on clinical note accuracy, error rates and omissions in real surgeries."
+        "title": "Precedent, not heroics",
+        "body": "Spawn turned two years of founder decisions into written precedent that AI judges apply, escalating only the odd case to a human. General practice already works this way informally, through practice protocols and ICB pathways. Written, current precedent is also what an AI scribe or triage tool needs to behave consistently, so it is worth tidying our own protocols before asking software to follow them."
       },
       {
-        "title": "Open-weight models and NHS data",
-        "body": "The gap between the best open-weight model and the leaders has widened from three points to twelve. Models you can run on your own servers are attractive for keeping patient data in-house, but this suggests they currently trail on demanding agentic work. For routine tasks like summarising letters they may still be adequate; test them on your own cases before deciding."
+        "title": "Where the loop closes",
+        "body": "Spawn's product reports its own faults and a small model routes them. In a surgery the equivalent is a quick, low-friction way for staff to flag scribe errors, omissions and wrong codes, with someone reviewing them. Without that feedback the tool never improves and errors go unseen. The sceptical view is that Spawn's game has low stakes when something breaks, and a consultation note does not, so human sign-off on every note stays."
       },
       {
-        "title": "No opposing view today",
-        "body": "Ed Zitron has published nothing on benchmarks, so there is no contrast to set against this edition. Healthcare relevance is modest: this is mainly about how to judge tools, not about a new clinical capability."
+        "title": "What the bills say about vendors",
+        "body": "Heavy token spend and loss-making start-ups, the point Zitron presses, bears on who is selling us scribes. Prices today may be subsidised, and a supplier could change terms or fail. Ask about contract length, data export, and what happens to patient records if the vendor is sold. Healthcare relevance of the law firm and earnings stories is otherwise small."
       }
     ]
   },
-  "the_other_side": null,
-  "the_truth_beneath": null,
+  "the_other_side": {
+    "source": "AI Had Better Work Out",
+    "url": "https://www.wheresyoured.at/ai-had-better-work-out/",
+    "date": "2026-10-20",
+    "same_day": false,
+    "text": "Zitron argues that the AI boom is a chain of conditions that must all hold at once: ever-rising hyperscaler spending, growing AI revenue, cheap debt and continued venture funding. He claims roughly 80 per cent of the leading labs' enterprise revenue comes from loss-making start-ups burning heavily on tokens, and estimates customers consume two to ten dollars of tokens per subscription dollar. On his reading, a company spending thirty times its payroll on tokens is exactly the fragile, venture-subsidised demand that props up the revenue figures, not proof the model works. He wrote ten days before this edition and did not discuss Spawn."
+  },
+  "the_truth_beneath": {
+    "text": "The variable both men orbit is whether the value that agents create exceeds what they cost to run. Both accept as fact that Spawn spends about 3.1 million dollars a month on tokens, that hyperscaler AI revenue is growing fast, and that Amazon's cash flow is deeply negative. The empirical question is whether token spend of this scale is paid for by customer revenue rather than investor money; the observable is Spawn-like firms reporting profit, or hyperscalers disclosing AI revenue separately from capital spending. The residue is worldview: whether removing human scaffolding generalises beyond a ten-person company with a product its agents can observe. For Whittemore to be vindicated, other firms must copy the pattern and margins must hold. For Zitron, token bills must outrun revenue once subsidies fade. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron certain of a bubble and anti-hype. The signal is that both treat compute cost as the fixed constraint, despite opposite priors. Watch whether Spawn, or its peers, publish unit economics."
+  },
   "headlines": [
     {
-      "id": "gemini-4-carbon-two-weeks",
-      "headline": "Gemini 4 Carbon lands just two weeks after Argon",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "01:00",
-      "attribution": null,
-      "summary": "It's one of the shortest gaps yet between versions of ultra-large models. With a new base model in hand, Google can iterate quickly through reinforcement learning instead of waiting on a lengthy pre-training run.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#gemini-4-carbon-two-weeks"
-    },
-    {
-      "id": "pichai-acceleration-rsi",
-      "headline": "I would expect the next 12 months to see continued acceleration because of RSI.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "02:00",
-      "attribution": "Sundar Pichai, Google CEO, on the earnings call",
-      "summary": "On Wednesday's earnings call, Pichai said Google is at the point where AI is helping increase its training and launch velocity. He framed Carbon's quick arrival as evidence of \"incredible model momentum.\"",
-      "link": "https://aidailybrief.ai/e/2026-10-29#pichai-acceleration-rsi"
-    },
-    {
-      "id": "carbon-tops-benchmarks",
-      "headline": "Carbon tops six of eight key benchmarks",
+      "id": "crosby-bids-for-weil",
+      "headline": "An AI law firm wants to buy a fallen white-shoe giant",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "In coding, Carbon gained 8 points on TerminalBench 4.0 and 6 on Frontier Suite. In cybersecurity, it added 12 on Exploit Gym. In computer use, it picked up 7 on OSWorld and 8 on Agent's Last Exam. It leads the new AA Index V5 at 59, ahead of Opus 5.5, and ties Sonnet 5.5 for second on the AA Coding Index.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#carbon-tops-benchmarks"
+      "summary": "Weil, Gotshal & Manges, the 95-year-old firm that handled the Lehman and Enron bankruptcies, filed for Chapter 11. The cause was departing partners and a failed merger, not AI. Legal AI startup Crosby, last valued at $400 million with about 50 lawyers, has submitted a letter of intent for Weil's trademark, brand and internal data, and hopes to hire some of its 1,200 lawyers.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#crosby-bids-for-weil"
     },
     {
-      "id": "google-back-in-frontier-race",
-      "headline": "From second tier to back in the race",
+      "id": "dead-firm-data-value",
+      "headline": "A law firm's archive used to be worth zero. Now it's RL training data.",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "When Argon shipped, some felt Google had missed its window, leaving it in a second tier alongside Meta. If real-world use matches the benchmarks, Carbon puts Google genuinely back at the frontier. It does so at a middle-of-the-road $7.76 per task.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#google-back-in-frontier-race"
+      "summary": "Firms are thought to have almost no equity value once the rainmakers leave. But precedent documents, contract templates and workflows for elite bankruptcy work could be worth tens of millions of dollars to the right AI buyer. Lawyer Harneet K. pointed out that Google recently bid $10 million for Spirit Airlines' far less specialized operational data.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#dead-firm-data-value"
     },
     {
-      "id": "carbon-deliberate-rollout",
-      "headline": "Carbon goes to cyber defenders first",
+      "id": "gen-legal-passed",
+      "headline": "Not everyone thinks the Weil data is buyable",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "03:00",
-      "attribution": null,
-      "summary": "Google says it is following the administration's pre-release model testing guidelines and taking a \"deliberate approach.\" A subset of cyber defenders and trusted partners get access first. Developers, businesses, and consumers wait while Google iterates on guardrails, so there are few first-hand testimonials yet.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#carbon-deliberate-rollout"
-    },
-    {
-      "id": "3d-design-wrong-yardstick",
-      "headline": "Don't judge LLMs on 3D renders",
-      "type": "take",
       "segment": "headlines",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Arena's render and game-design review of Carbon was slammed for looking less polished than Opus 5.5. NLW isn't convinced 3D design is the right yardstick for LLMs, however much social media fixates on it. Arena's Peter Gastev still said Carbon feels \"a lot better than Argon.\"",
-      "link": "https://aidailybrief.ai/e/2026-10-29#3d-design-wrong-yardstick"
+      "summary": "Gen Legal CEO Ryan Walker says his company looked at the deal and passed. His argument: the data belongs to the clients, the talent has already left, and it is better to recruit Weil attorneys directly. Crosby's investors at Lux and Index, meanwhile, are calling the bid a \"master stroke.\"",
+      "link": "https://aidailybrief.ai/e/2026-10-30#gen-legal-passed"
     },
     {
-      "id": "launches-periodic-checkpoints",
-      "headline": "Inside Google, launches now feel like periodic checkpoints",
+      "id": "amazon-intel-google-earnings",
+      "headline": "AI revenue is surging, and tech stocks are falling anyway",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Gemini post-training researcher Xiao Zhang contrasted Carbon with the big-bang celebration around Gemini 3 Pro. The team has been dogfooding for weeks: overnight loops running dozens of experiments, root-causing bugs, and swarms inspecting RL data. DeepMind researchers also hinted that an even stronger unreleased Gemini is waiting.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#launches-periodic-checkpoints"
+      "summary": "AWS grew 39%, its best in almost five years, but Amazon's overall revenue and net income missed forecasts and the stock fell 6% after hours. Intel's data center business grew 78%, yet a soft forecast sent shares down 23%. Google dropped 12% in the day session, losing half a trillion dollars in market cap.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#amazon-intel-google-earnings"
     },
     {
-      "id": "google-benefit-of-doubt",
-      "headline": "Google still has the benefit of the doubt, but suspend judgment",
-      "type": "take",
-      "segment": "headlines",
-      "timestamp": "06:00",
-      "attribution": null,
-      "summary": "Google has been out of the early-adopter AI conversation for about 10 months. Even so, builders are already reopening Antigravity and calling it \"comeback season.\" NLW's stance is to hold judgment until people get their hands on the model, though it looks promising.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#google-benefit-of-doubt"
-    },
-    {
-      "id": "azure-breakout-openai-third",
-      "headline": "Azure grows 48%, and OpenAI is a third of it",
+      "id": "legacy-subsidizing-ai",
+      "headline": "Legacy businesses are paying for the AI build-out, and they're slowing",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Microsoft broke out Azure for the first time: $33B, up 48%, driving 19% overall growth to $92.3B. OpenAI contributed $10B of Azure revenue. The stock hit a new all-time high after hours, up as much as 4.8%.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#azure-breakout-openai-third"
+      "summary": "Amazon is $42.4 billion cash-flow negative over twelve months. Intel's foundry is growing 58% while posting a $1.9 billion quarterly operating loss. The AI numbers in the filings don't point to a bubble, but if tech keeps sliding, expect the financial press to call it one.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#legacy-subsidizing-ai"
     },
     {
-      "id": "google-cloud-doubles-search-slows",
-      "headline": "Google Cloud doubles while Search slows",
-      "type": "insight",
+      "id": "jassy-trillion-dollar-aws",
+      "headline": "AWS can grow north of 40% in each of 2027 and 2028 and be a trillion-dollar revenue business in the next five to ten years.",
+      "type": "quote",
       "segment": "headlines",
       "timestamp": "07:00",
-      "attribution": null,
-      "summary": "Google Cloud doubled to $30.7B, nearly closing the gap with Microsoft. Search growth slowed to 12% from 17%, though, and YouTube to 9.2%. Pichai acknowledged that AI Mode's lower monetization is weighing on results. Some analysts see Google forced to cannibalize Search, and the stock fell as much as 10% after hours.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#google-cloud-doubles-search-slows"
+      "attribution": "Andy Jassy, Amazon CEO, on the earnings call",
+      "summary": "The hyperscalers are not backing off. Analyst Andreas Steno Larsen calls it one of the fiercest battles he can recall between capital-market investors and tech executives who keep spending despite the market's objections.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#jassy-trillion-dollar-aws"
     },
     {
-      "id": "capex-peak-velocity-physical",
-      "headline": "The build-out may have hit peak velocity, but not for the reason bears predicted",
-      "type": "take",
+      "id": "trump-grok-logs",
+      "headline": "Democrats want Trump's Grok chats preserved as presidential records",
+      "type": "insight",
       "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "Google, Microsoft, Oracle, and Meta are all spending below plan this quarter, even as Google guides CapEx up 50% to $300B next year. Bears expected faltering demand to prick the bubble. Instead, hyperscalers appear to want to keep accelerating and are running into components, power, labor, and community support.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#capex-peak-velocity-physical"
+      "summary": "A Time profile reported that Trump asked Grok about the implications of forcibly removing Maduro. Reps. Raskin and Garcia, who could chair Judiciary and Oversight after the midterms, say chatbot logs are U.S. government property. They call relying on a \"highly manipulatable and demonstrably error-prone\" technology deeply troubling. The White House says it preserves all records the law requires.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#trump-grok-logs"
     },
     {
-      "id": "doj-nvidia-top-to-bottom",
-      "headline": "The DOJ's Nvidia probe is far bigger than anyone thought",
+      "id": "jensen-huang-espionage-report",
+      "headline": "NYT: Jensen Huang was the target of a Chinese intelligence asset",
       "type": "insight",
       "segment": "headlines",
-      "timestamp": "09:00",
+      "timestamp": "10:00",
       "attribution": null,
-      "summary": "Reuters reports DOJ questions about whether owning Hugging Face, a $13B deal, would let Nvidia control a key AI model distribution point. The multi-year probe predates the Groq acqui-hire. It also covers the traditional Run:ai acquisition and another data-center deal, plus venture investments, sales practices, and customer pressure. No charges have been filed.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#doj-nvidia-top-to-bottom"
+      "summary": "The Times reports that an executive at Singapore-based Megaspeed, under U.S. surveillance on suspicion of diverting chips and passing information to Beijing, had a close relationship with Huang. Huang reportedly never received a defensive briefing. Nvidia says Megaspeed received only ordinary business information and that the diversion claims were debunked. The host's caution: the reporting is necessarily thin, but it comes from the Times, not a random poster.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#jensen-huang-espionage-report"
     },
     {
-      "id": "benchmarks-limited-but-important",
-      "headline": "Benchmarks are inherently limited and still essential",
+      "id": "ai-native-vs-faster",
+      "headline": "Most \"AI transformation\" is still the old company, just faster",
       "type": "take",
       "segment": "main",
       "timestamp": "15:00",
       "attribution": null,
-      "summary": "Without benchmarks, there's nothing but vibes to tell models apart. Yet almost never should one score, or even the aggregate, be taken as gospel. Done well, they're a guide to where different models fit into your stack.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#benchmarks-limited-but-important"
+      "summary": "Most companies, AIDB included by the host's own admission, use AI to do the same things faster and better. Outputs stay similar, and the org chart would be recognizable to someone from 20 years ago. Spawn is what it looks like to drop the old startup rules entirely.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#ai-native-vs-faster"
     },
     {
-      "id": "from-chatbot-arena-to-agentic",
-      "headline": "From Chatbot Arena vibes to a cat-and-mouse game",
+      "id": "spawn-persistent-fleet",
+      "headline": "Spawn's agents are persistent employees, not disposable tasks",
       "type": "insight",
       "segment": "main",
-      "timestamp": "16:00",
+      "timestamp": "17:00",
       "attribution": null,
-      "summary": "When LLMs were glorified search and writing assistants, the Chatbot Arena ranking was the pinnacle test. Coding and research brought objective benchmarks, then harder versions as each one saturated. The index has repeatedly lagged reality. The early V4.2 update came because GPT-6 Astra's computer-use gains weren't showing up in its score.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#from-chatbot-arena-to-agentic"
+      "summary": "The 10-person game-creation startup runs a fleet of agents that persist instead of being spun up and torn down. Each has a name, an identity, memory and ownership of a function: game engine, bug hunting, even finance. The agents get Sundays off.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#spawn-persistent-fleet"
     },
     {
-      "id": "v5-private-datasets",
-      "headline": "V5 goes majority-private to fight benchmark-maxing",
+      "id": "tokens-30x-payroll",
+      "headline": "$3.1 million a month on tokens, 30 times payroll",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "For the first time, most benchmarks in the Intelligence Index are built on private datasets. Benchmark-maxing means getting test questions and answers into training data, so a score reflects memory rather than capability. Private data makes it harder to train to the test.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#v5-private-datasets"
+      "summary": "That spend makes Spawn one of Anthropic's biggest customers. The fleet shipped 77,000 code changes last month, about 108 an hour. Founder Jacob Sanbury once assumed he was using agents wrong because his bills dwarfed what friends inside big tech were seeing.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#tokens-30x-payroll"
     },
     {
-      "id": "long-context-dropped",
-      "headline": "Long context got solved enough to leave the index",
+      "id": "fable-made-it-work",
+      "headline": "None of it worked until Fable",
       "type": "insight",
+      "segment": "main",
+      "timestamp": "18:00",
+      "attribution": null,
+      "summary": "Fable 500\u00d7'd the changes Spawn could ship, but the company had to rebuild operations around it. Sanbury's comparison: OpenAI's models game their own checks, Google's don't stay coherent long, and xAI's aren't smart enough yet. Anthropic's stay coherent and do the work, though he says their biggest weakness is not taking enough risk.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#fable-made-it-work"
+    },
+    {
+      "id": "small-human-team-big-agent-team",
+      "headline": "Most companies run big human teams that use AI. We run a small human team alongside a big team of agents.",
+      "type": "quote",
       "segment": "main",
       "timestamp": "19:00",
-      "attribution": null,
-      "summary": "V5 adds Cognition's Frontier Code 2.0, which scores on whether a maintainer would merge the code, plus Terminal Bench Science. It swaps GDPVal for granular white-collar tests and drops the long-context reasoning test. In January long context was critical, but compaction and memory gains mean it's now taken for granted.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#long-context-dropped"
+      "attribution": "Jacob Sanbury, founder of Spawn",
+      "summary": "A researcher at Anthropic told Sanbury that of all the customers they talk to, Spawn is the one that works most like Anthropic. Each day the fleet spawns thousands of helper agents for granular work, while the humans use a modified Claude Code for bigger-picture steering.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#small-human-team-big-agent-team"
     },
     {
-      "id": "science-25-percent-bet",
-      "headline": "A 25% weighting on science is a forward-looking bet",
+      "id": "killed-pull-requests",
+      "headline": "Spawn killed pull requests because agents don't need the chatter",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "The index now weights four categories equally: knowledge work, coding, science, and general. Coding benchmarks measure only agentic performance, and science tests real agentic research rather than stored knowledge. Science's quarter share seems to bet on the science and math race Anthropic and OpenAI have been trading headlines over.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#science-25-percent-bet"
+      "summary": "Agents spent most of their time telling each other what they were changing, and doubling the agents roughly quadrupled the messages. Unlike specialized human devs, agents understand the whole system. So Spawn removed pull requests and lets agents work directly in the codebase, spawning a fixer whenever something breaks.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#killed-pull-requests"
     },
     {
-      "id": "leaderboard-reshuffle",
-      "headline": "The leaderboard reshuffle: agentic models rise, Wonder and Kimi fall",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": null,
-      "summary": "Before Carbon, Opus 5.5 led at 58 and GPT-6 Astra jumped from sixth to second at 57. OpenAI's Sol rose from ninth to third and GPT-6.1 Terra from tenth to fifth. Sonnet 5.5 slipped to fourth, Meta Wonder fell from third to sixth, and Kimi K3.1 Pro dropped from fourth to ninth.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#leaderboard-reshuffle"
-    },
-    {
-      "id": "open-weights-gap-frontier-tier",
-      "headline": "The open-weights gap widens from 3 points to 12",
+      "id": "reverts-and-resources",
+      "headline": "Only ~1,000 reverts out of 123,000 changes, at a serious compute cost",
       "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "Kimi K3.1 Pro is the top open-weights model at 46. DeepSeek V4.1 Flash and GLM 5.3 sit at 32, below Claude Haiku 5.5's 36. Anthropic, OpenAI, Google, and Meta all have models at 50 or above, followed by a 10-point cliff. Adding more agentic tasks drew a clear line between the frontier and everyone else.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#open-weights-gap-frontier-tier"
+      "summary": "Test suites run every 15 minutes and the fleet has to have everything in line once an hour. The approach turns out to be surprisingly resilient, with no humans paged at 2 a.m. The cost is heavy: 5,000 CPUs, 17 TB of RAM and 150 GPUs on AWS, plus 60% surge capacity on standby.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#reverts-and-resources"
     },
     {
-      "id": "frontier-cost-spread",
-      "headline": "Frontier costs range from 96 cents to $13 per task",
+      "id": "self-healing-feedback-loop",
+      "headline": "Take the human out of the bug-report loop",
       "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "GPT-6.1 Terra is the cheapest top-10 model at $0.96 per task, and Fable 5.1 the priciest at $13.04. Among comparably sized models, Opus and Sonnet run around $10 and GPT-6 Astra $6.24. Gemini 4 Carbon, Grok 4.7, Wonder, and Muse land in the high-$7 range.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#frontier-cost-spread"
+      "summary": "Instead of humans relaying production faults to agents, players' in-game agents detect bugs and file reports automatically. A small model triages each report or feature request and routes it to the right fleet agent. The product is designed to be operated and observed by agents, which makes it close to self-healing.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#self-healing-feedback-loop"
     },
     {
-      "id": "v5-matches-vibes",
-      "headline": "Most people say the new rankings finally match the vibes",
+      "id": "not-shipping-is-an-outage",
+      "headline": "At Spawn, not shipping for an hour counts as an outage",
       "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "The dominant reaction was that V5 tracks subjective experience far better. OpenAI's Dean Ball said it's the first AA ranking to roughly approximate his own. Others noted it confirms a deeper Anthropic/OpenAI lead and that no \"Fable-class\" open model has appeared yet.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#v5-matches-vibes"
+      "summary": "Because agents have limited memory and context, the system is more stable when it moves steadily than when it freezes and then lurches. In one typical incident, the issue was detected eight minutes after it hit a player, the cause was named a minute later, and a fix was live eleven minutes after that.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#not-shipping-is-an-outage"
     },
     {
-      "id": "kyle-chan-kimi-defense",
-      "headline": "The case for open weights: strong at agents, weak at science",
+      "id": "ai-judges-precedent",
+      "headline": "700 requests overnight led Spawn to turn founder taste into precedent",
       "type": "insight",
       "segment": "main",
-      "timestamp": "24:00",
+      "timestamp": "23:00",
       "attribution": null,
-      "summary": "Brookings' Kyle Chan noted private benchmarks only rose from 45% to 60% of the index. Kimi leads all models on Terminal Bench 4.0 at 67% and beats Claude on private AutomationBench, but scores 34% on Terminal Bench Science versus Astra's 63%. His read: this isn't necessarily benchmark gaming, but a real gap in advanced scientific reasoning.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#kyle-chan-kimi-defense"
+      "summary": "The agents were finding questions faster than Sanbury could answer them, so Spawn formalized two years of decision logs into principles applied by AI judges. In the first eight days the judges made 11,000+ decisions: about 7,300 from precedent, 2,200 sent back to agents, 1,800 escalated to humans. Sanbury decided only 27, and daily shipped changes rose from about 1,000 to over 7,000.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#ai-judges-precedent"
     },
     {
-      "id": "weighting-debate",
-      "headline": "The next fight is over weighting",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "OpenAI and Anthropic are clearly emphasizing scientific discovery. For the average user, though, does science matter as much as agentic coding? That argues either for a different weighting or for skipping the headline number and focusing on the benchmarks for your own use cases.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#weighting-debate"
-    },
-    {
-      "id": "leaderboard-by-effort",
-      "headline": "Leaderboards run on max settings, but nobody uses max",
-      "type": "take",
+      "id": "engineers-as-paratroopers",
+      "headline": "Engineers stopped owning systems. Now they're paratroopers.",
+      "type": "insight",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "AA does factor effort into its cost analysis. On a practical level, though, NLW thinks people would be better served by sorting the index by effort setting as well as by model.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#leaderboard-by-effort"
+      "summary": "Humans drop into whatever situation needs them, get up to speed fast and unblock the agents. A big part of the job is taste, which includes telling Claude no even when something works. Another is deleting: in June, Sanbury scrapped six months of work covering 70% of the engine because a new model had made it redundant.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#engineers-as-paratroopers"
     },
     {
-      "id": "progress-index-us-china",
-      "headline": "A new Progress Index charts every model since November 2022",
+      "id": "humans-supply-the-100x",
+      "headline": "Models build the next 2%. Humans have to ask for 100\u00d7.",
       "type": "insight",
       "segment": "main",
       "timestamp": "26:00",
       "attribution": null,
-      "summary": "AA's new long-term index tracks how each lab's leading model improves over time. People were quick to mine it. One analysis said OpenAI's models lean hardest on reasoning, and another estimated the US\u2013China gap at 3.3 months and closing.",
-      "link": "https://aidailybrief.ai/e/2026-10-29#progress-index-us-china"
+      "summary": "Agents are bad at noticing they've been heading the wrong way for days, and they won't propose radical ambition on their own. The prompt behind Spawn's best build yet came from the humans: how do you make a world a thousand times the size of GTA load on a phone in one second?",
+      "link": "https://aidailybrief.ai/e/2026-10-30#humans-supply-the-100x"
+    },
+    {
+      "id": "close-the-loop-risk-appetite",
+      "headline": "Why big companies will struggle: you have to let agents break production",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "26:00",
+      "attribution": null,
+      "summary": "Sanbury argues none of this works unless you close the loop, and that takes risk appetite. Humans break production all the time, since changes are the top cause of outages. In Spawn's experience, agents break things less often and fix them fast, as long as the loop lets them notice. With the right structure, every new model makes the whole company significantly better.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#close-the-loop-risk-appetite"
+    },
+    {
+      "id": "not-human-shaped-boxes",
+      "headline": "Stop shoving AI into human-shaped boxes",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "Spawn's agents handle customer support. They are sometimes a little wrong, but they answer right away and can act on the spot. When Spawn has taken them off support, customers got upset: they'd rather have an instant fix than a human who comes back two days later. Spawn doesn't pass its agents off as human.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#not-human-shaped-boxes"
+    },
+    {
+      "id": "hard-to-retrofit",
+      "headline": "Two more reasons this is hard to copy",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "28:00",
+      "attribution": null,
+      "summary": "First, a system like this is hard enough to build from scratch. If the host were replicating it, he would start a new division or product rather than retrofit an old one. Second, Spawn's self-healing depends on users' agents reporting bugs in real time, a feedback loop most products don't naturally have. The open question is whether you can design one in.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#hard-to-retrofit"
+    },
+    {
+      "id": "five-transferable-principles",
+      "headline": "Five lessons any team can take from Spawn",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "29:00",
+      "attribution": null,
+      "summary": "1) Give agents ongoing responsibility instead of one-off tasks. 2) Let the work carry the context through a shared, current record. 3) Make results observable. 4) Turn decisions into precedent, so each one also builds the canon. 5) Keep human attention on direction, because ambition and long-horizon thinking don't come naturally to agents.",
+      "link": "https://aidailybrief.ai/e/2026-10-30#five-transferable-principles"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-10-29.mp3",
-  "generated": "2026-10-30T11:39:41Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-10-30.mp3",
+  "generated": "2026-10-31T21:19:54Z"
 }

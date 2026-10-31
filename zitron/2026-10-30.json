@@ -1,0 +1,9 @@
+{
+ "match": true,
+ "source_title": "AI Had Better Work Out",
+ "source_url": "https://www.wheresyoured.at/ai-had-better-work-out/",
+ "source_date": "2026-10-20",
+ "same_day": false,
+ "other_side": "Zitron argues that the AI boom is a chain of conditions that must all hold at once: ever-rising hyperscaler spending, growing AI revenue, cheap debt and continued venture funding. He claims roughly 80 per cent of the leading labs' enterprise revenue comes from loss-making start-ups burning heavily on tokens, and estimates customers consume two to ten dollars of tokens per subscription dollar. On his reading, a company spending thirty times its payroll on tokens is exactly the fragile, venture-subsidised demand that props up the revenue figures, not proof the model works. He wrote ten days before this edition and did not discuss Spawn.",
+ "truth_beneath": "The variable both men orbit is whether the value that agents create exceeds what they cost to run. Both accept as fact that Spawn spends about 3.1 million dollars a month on tokens, that hyperscaler AI revenue is growing fast, and that Amazon's cash flow is deeply negative. The empirical question is whether token spend of this scale is paid for by customer revenue rather than investor money; the observable is Spawn-like firms reporting profit, or hyperscalers disclosing AI revenue separately from capital spending. The residue is worldview: whether removing human scaffolding generalises beyond a ten-person company with a product its agents can observe. For Whittemore to be vindicated, other firms must copy the pattern and margins must hold. For Zitron, token bills must outrun revenue once subsidies fade. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron certain of a bubble and anti-hype. The signal is that both treat compute cost as the fixed constraint, despite opposite priors. Watch whether Spawn, or its peers, publish unit economics."
+}

@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Precedent, not heroics",
+   "body": "Spawn turned two years of founder decisions into written precedent that AI judges apply, escalating only the odd case to a human. General practice already works this way informally, through practice protocols and ICB pathways. Written, current precedent is also what an AI scribe or triage tool needs to behave consistently, so it is worth tidying our own protocols before asking software to follow them."
+  },
+  {
+   "title": "Where the loop closes",
+   "body": "Spawn's product reports its own faults and a small model routes them. In a surgery the equivalent is a quick, low-friction way for staff to flag scribe errors, omissions and wrong codes, with someone reviewing them. Without that feedback the tool never improves and errors go unseen. The sceptical view is that Spawn's game has low stakes when something breaks, and a consultation note does not, so human sign-off on every note stays."
+  },
+  {
+   "title": "What the bills say about vendors",
+   "body": "Heavy token spend and loss-making start-ups, the point Zitron presses, bears on who is selling us scribes. Prices today may be subsidised, and a supplier could change terms or fail. Ask about contract length, data export, and what happens to patient records if the vendor is sold. Healthcare relevance of the law firm and earnings stories is otherwise small."
+  }
+ ]
+}
