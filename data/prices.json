@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T12:26:41Z",
+ "generated": "2026-11-01T06:53:15Z",
  "source": "Alpha Vantage TIME_SERIES_DAILY (unadjusted closes)",
  "market_date": "2026-10-30",
  "expected_asof": "2026-10-30",
@@ -902,5 +902,7 @@
    "stale": false
   }
  ],
- "errors": {}
+ "errors": {
+  "LLY": "We have detected your API key as 9XFWAIGIFGXGTC8I and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https:"
+ }
 }
