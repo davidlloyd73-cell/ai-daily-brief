@@ -1,94 +1,106 @@
 ---
-title: David's AI Daily Brief — 2026-10-30
-date: 2026-10-30
-source: https://aidailybrief.ai/e/2026-10-30
+title: David's AI Daily Brief — 2026-11-03
+date: 2026-11-03
+source: https://aidailybrief.ai/e/2026-11-03
 note: Personal, non-commercial distillation of The AI Daily Brief podcast. GP's Corner is AI commentary, not from the podcast.
 ---
 
 # David's AI Daily Brief
 
-**Friday 30 October 2026 · 31 min listen**
+**Tuesday 03 November 2026 · 27 min listen**
 
-## How the Most AI-Pilled Company in the World Works
+## AI Lurches Toward Recursive Self-Improvement
 
-_A 10-person gaming startup called Spawn spends 30 times more on tokens than payroll and has an agent fleet shipping 77,000 code changes a month. Its founder's two-year playbook is a field guide to what AI-native actually means, and why most companies will find it hard to copy. In the headlines: an AI startup bids for a bankrupt white-shoe law firm, and tech earnings expose a widening rift between hyperscalers and investors._
+_Elon Musk calls GrokBot's serving costs unsustainable and reignites the subsidy-era debate. Meanwhile, an MIT paper shows a frontier model editing a smaller model's weights directly, and Anthropic's updated S-1 says it may imminently hit its RSI danger threshold. The three-letter acronym is everywhere. The harder question is what it means when it arrives._
 
-Source: https://aidailybrief.ai/e/2026-10-30
+Source: https://aidailybrief.ai/e/2026-11-03
 
-Audio: https://davids-ai-brief.netlify.app/audio/2026-10-30.mp3
+Audio: https://davids-ai-brief.netlify.app/audio/2026-11-03.mp3
 
 ## The One Idea
 
-### Truly AI-native means tearing out the systems built for humans, not speeding them up.
+### We're so busy asking whether RSI is here that we're not asking what it means.
 
-Most companies doing "AI transformation" use AI to do the same things faster, with an org chart someone from 20 years ago would still recognize. Spawn went the other way. It runs a persistent fleet of agents with names, memory and ownership of real functions. It killed pull requests, closed the feedback loop so player agents report bugs straight to the fleet, and turned two years of founder decisions into precedent that AI judges apply. Almost every breakthrough came from removing scaffolding designed for human work. What remains for humans is taste, deleting what new models make redundant, and supplying the ambition agents won't come up with on their own.
+Sundar Pichai expects RSI to drive acceleration over the next 12 months. MIT researchers show GPT-6 Astra rewriting a smaller model's weights. Anthropic's S-1 warns it may imminently cross its RSI danger threshold, and Wall Street is reading the charts. Yet better models aren't a straight line to revenue: enterprises still consume a vanishingly small share of available intelligence because adoption is hard. Like AGI before it, RSI risks becoming a definitional sideshow. The more useful question is what the world looks like once it arrives.
 
 ## The Other Side
 
-Zitron argues that the AI boom is a chain of conditions that must all hold at once: ever-rising hyperscaler spending, growing AI revenue, cheap debt and continued venture funding. He claims roughly 80 per cent of the leading labs' enterprise revenue comes from loss-making start-ups burning heavily on tokens, and estimates customers consume two to ten dollars of tokens per subscription dollar. On his reading, a company spending thirty times its payroll on tokens is exactly the fragile, venture-subsidised demand that props up the revenue figures, not proof the model works. He wrote ten days before this edition and did not discuss Spawn.
+Zitron argues the boom ends when the money runs out, because venture capital and debt fund labs whose economics do not support the spending. He says most AI subscriptions are heavily subsidised, with users consuming several dollars of compute for each dollar paid, and that providers will eventually raise prices or cut limits. He points to Musk throttling Grok Bot and OpenAI moving to token-measured limits as early signs, and says roughly 80 per cent of the two leading labs' revenue comes from venture-backed start-ups. He did not discuss recursive self-improvement.
 
-Source: Ed Zitron, "AI Had Better Work Out", 20 October 2026 — https://www.wheresyoured.at/ai-had-better-work-out/
+Source: Ed Zitron, "Running Dry", 3 November 2026 — https://www.wheresyoured.at/running-dry/
 
 ## The Truth Beneath
 
-The variable both men orbit is whether the value that agents create exceeds what they cost to run. Both accept as fact that Spawn spends about 3.1 million dollars a month on tokens, that hyperscaler AI revenue is growing fast, and that Amazon's cash flow is deeply negative. The empirical question is whether token spend of this scale is paid for by customer revenue rather than investor money; the observable is Spawn-like firms reporting profit, or hyperscalers disclosing AI revenue separately from capital spending. The residue is worldview: whether removing human scaffolding generalises beyond a ten-person company with a product its agents can observe. For Whittemore to be vindicated, other firms must copy the pattern and margins must hold. For Zitron, token bills must outrun revenue once subsidies fade. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron certain of a bubble and anti-hype. The signal is that both treat compute cost as the fixed constraint, despite opposite priors. Watch whether Spawn, or its peers, publish unit economics.
+The variable both men orbit is whether what users pay covers what intelligence costs to deliver. Both accept as fact that Grok Bot was throttled over cost, that usage limits are tightening, and that power users generate much of the revenue. The empirical question is how much of that spending is subsidised by investors rather than earned from customers; the observable is repricing: if users stay at honest, unsubsidised prices, Whittemore's reading holds, and if they churn, Zitron's does. The residue is worldview: whether capability gains such as recursive self-improvement will arrive fast enough to outrun the bills. For Whittemore to be vindicated, power users must keep paying API-level rates and enterprise adoption must catch up. For Zitron, repricing must trigger churn and start-up funding must tighten. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron certain of a bubble and anti-hype. The signal is that each treats the subsidy era ending as real, despite opposite priors. Watch OpenAI's December token-based limits and how users respond.
 
 ## GP's Corner
 
 _Claude's notes on what today means for UK general practice and the NHS - commentary, not from the podcast itself._
 
-### Precedent, not heroics
+### Subsidised pricing and our scribe vendors
 
-Spawn turned two years of founder decisions into written precedent that AI judges apply, escalating only the odd case to a human. General practice already works this way informally, through practice protocols and ICB pathways. Written, current precedent is also what an AI scribe or triage tool needs to behave consistently, so it is worth tidying our own protocols before asking software to follow them.
+Both sides agree usage limits are tightening and some pricing is subsidised. For a practice, that means today's scribe or AI tool price may not last. Before signing, ask about price caps, contract length, data export and what happens to patient records if the supplier is sold or fails.
 
-### Where the loop closes
+### Adoption, not capability, is the bottleneck
 
-Spawn's product reports its own faults and a small model routes them. In a surgery the equivalent is a quick, low-friction way for staff to flag scribe errors, omissions and wrong codes, with someone reviewing them. Without that feedback the tool never improves and errors go unseen. The sceptical view is that Spawn's game has low stakes when something breaks, and a consultation note does not, so human sign-off on every note stays.
+NLW says enterprises use only a sliver of available intelligence because adoption is hard. That matches primary care: the limiting factors are governance, DPIA sign-off, training and workflow, not model quality. Zitron would add that revenue built on venture money is fragile, which is a supplier-risk point rather than a clinical one.
 
-### What the bills say about vendors
+### Recursive self-improvement is not a surgery issue yet
 
-Heavy token spend and loss-making start-ups, the point Zitron presses, bears on who is selling us scribes. Prices today may be subsidised, and a supplier could change terms or fail. Ask about contract length, data export, and what happens to patient records if the vendor is sold. Healthcare relevance of the law firm and earnings stories is otherwise small.
+Nothing here changes clinical practice. The sceptical reading is that the headline results came from tiny models and a bug fix. Treat claims of runaway progress with caution and judge tools on supervised, local performance.
 
 ## NLW's Takes
 
-### Most "AI transformation" is still the old company, just faster
+### Loud bears make a bubble less likely, not more
 
-Most companies, AIDB included by the host's own admission, use AI to do the same things faster and better. Outputs stay similar, and the org chart would be recognizable to someone from 20 years ago. Spawn is what it looks like to drop the old startup rules entirely.
+NLW is no AI bear, but he welcomes the skeptics. It would be far more dangerous if everyone were too enamored of Anthropic and OpenAI to ask critical questions. He also notes that bearish analysis varies widely in quality, and permabears who keep moving the goalposts may not be the best guide.
 
-### Two more reasons this is hard to copy
+### Ending subsidies sorts users into two buckets, not off a cliff
 
-First, a system like this is hard enough to build from scratch. If the host were replicating it, he would start a new division or product rather than retrofit an old one. Second, Spawn's self-healing depends on users' agents reporting bugs in real time, a feedback loop most products don't naturally have. The open question is whether you can design one in.
+Some users find more efficient models good enough and stay on $20–30 plans. Others get enough value to pay for the intelligence they consume as a cost of doing business. For NLW, API spend is net new money, still far below the cost of equivalent human labor and the time to recruit and manage it.
 
-### Five lessons any team can take from Spawn
+### The bear case argues against itself
 
-1) Give agents ongoing responsibility instead of one-off tasks. 2) Let the work carry the context through a shared, current record. 3) Make results observable. 4) Turn decisions into precedent, so each one also builds the canon. 5) Keep human attention on direction, because ambition and long-horizon thinking don't come naturally to agents.
+Will users abandon AI once they pay API rates, or is revenue already too concentrated among power users who pay via the API? The two claims sit awkwardly together. The more interesting middle ground, argued by Chamath Palihapitiya, is that too many power users are still subsidized by VC dollars.
+
+### Better models aren't a straight line to more revenue
+
+The unspoken assumption is that improved models drive adoption. That held for true step changes like the Opus 4.5 jump that kicked off the agentic coding era. Without an entirely new capability coming online, NLW doesn't think the evidence says capability alone drives adoption.
+
+### Enterprises use a sliver of available intelligence, and models aren't why
+
+Whether these business models work comes down to how much intelligence enterprises consume, and today that is a vanishingly small share of what they could. The reason is inertia, lumbering corporate systems and hard adoption, not insufficient models. The bear reading is that we aren't using it; the bull reading is that we aren't using it yet.
+
+### Stop defining RSI and start imagining it
+
+The debate is stuck on whether RSI is here yet. The only group offering a vision of the world after RSI is the AI safety camp that wants it banned. Like AGI before it, the acronym may be absorbing attention that should go to understanding what it will mean when it arrives.
 
 ## All Headlines, Briefly
 
-- [An AI law firm wants to buy a fallen white-shoe giant](https://aidailybrief.ai/e/2026-10-30#crosby-bids-for-weil) (02:00)
-- [A law firm's archive used to be worth zero. Now it's RL training data.](https://aidailybrief.ai/e/2026-10-30#dead-firm-data-value) (03:00)
-- [Not everyone thinks the Weil data is buyable](https://aidailybrief.ai/e/2026-10-30#gen-legal-passed) (04:00)
-- [AI revenue is surging, and tech stocks are falling anyway](https://aidailybrief.ai/e/2026-10-30#amazon-intel-google-earnings) (05:00)
-- [Legacy businesses are paying for the AI build-out, and they're slowing](https://aidailybrief.ai/e/2026-10-30#legacy-subsidizing-ai) (06:00)
-- [“AWS can grow north of 40% in each of 2027 and 2028 and be a trillion-dollar revenue business in the next five to ten years.”](https://aidailybrief.ai/e/2026-10-30#jassy-trillion-dollar-aws) — Andy Jassy, Amazon CEO, on the earnings call (07:00)
-- [Democrats want Trump's Grok chats preserved as presidential records](https://aidailybrief.ai/e/2026-10-30#trump-grok-logs) (08:00)
-- [NYT: Jensen Huang was the target of a Chinese intelligence asset](https://aidailybrief.ai/e/2026-10-30#jensen-huang-espionage-report) (10:00)
-- [Most "AI transformation" is still the old company, just faster](https://aidailybrief.ai/e/2026-10-30#ai-native-vs-faster) (15:00)
-- [Spawn's agents are persistent employees, not disposable tasks](https://aidailybrief.ai/e/2026-10-30#spawn-persistent-fleet) (17:00)
-- [$3.1 million a month on tokens, 30 times payroll](https://aidailybrief.ai/e/2026-10-30#tokens-30x-payroll) (18:00)
-- [None of it worked until Fable](https://aidailybrief.ai/e/2026-10-30#fable-made-it-work) (18:00)
-- [“Most companies run big human teams that use AI. We run a small human team alongside a big team of agents.”](https://aidailybrief.ai/e/2026-10-30#small-human-team-big-agent-team) — Jacob Sanbury, founder of Spawn (19:00)
-- [Spawn killed pull requests because agents don't need the chatter](https://aidailybrief.ai/e/2026-10-30#killed-pull-requests) (20:00)
-- [Only ~1,000 reverts out of 123,000 changes, at a serious compute cost](https://aidailybrief.ai/e/2026-10-30#reverts-and-resources) (21:00)
-- [Take the human out of the bug-report loop](https://aidailybrief.ai/e/2026-10-30#self-healing-feedback-loop) (22:00)
-- [At Spawn, not shipping for an hour counts as an outage](https://aidailybrief.ai/e/2026-10-30#not-shipping-is-an-outage) (23:00)
-- [700 requests overnight led Spawn to turn founder taste into precedent](https://aidailybrief.ai/e/2026-10-30#ai-judges-precedent) (23:00)
-- [Engineers stopped owning systems. Now they're paratroopers.](https://aidailybrief.ai/e/2026-10-30#engineers-as-paratroopers) (25:00)
-- [Models build the next 2%. Humans have to ask for 100×.](https://aidailybrief.ai/e/2026-10-30#humans-supply-the-100x) (26:00)
-- [Why big companies will struggle: you have to let agents break production](https://aidailybrief.ai/e/2026-10-30#close-the-loop-risk-appetite) (26:00)
-- [Stop shoving AI into human-shaped boxes](https://aidailybrief.ai/e/2026-10-30#not-human-shaped-boxes) (27:00)
-- [Two more reasons this is hard to copy](https://aidailybrief.ai/e/2026-10-30#hard-to-retrofit) (28:00)
-- [Five lessons any team can take from Spawn](https://aidailybrief.ai/e/2026-10-30#five-transferable-principles) (29:00)
+- [“I would expect the next 12 months to see continued acceleration because of RSI.”](https://aidailybrief.ai/e/2026-11-03#pichai-rsi-acceleration) — Sundar Pichai, Alphabet CEO, on the company's earnings call (02:00)
+- [Musk says GrokBot costs too much to serve](https://aidailybrief.ai/e/2026-11-03#grokbot-costs-unsustainable) (03:00)
+- [From fastest-growing ever to unsustainable in two weeks](https://aidailybrief.ai/e/2026-11-03#musk-mixed-messages) (03:00)
+- [The real anger was the unannounced change, not the limit](https://aidailybrief.ai/e/2026-11-03#usage-limit-shrinkflation-backlash) (04:00)
+- [Rival personal agents move to poach GrokBot users](https://aidailybrief.ai/e/2026-11-03#rivals-pounce-on-grokbot) (05:00)
+- [Is the problem GrokBot, or the whole personal-agent category?](https://aidailybrief.ai/e/2026-11-03#personal-agent-category-question) (05:00)
+- [Bears read it as the end of the subsidy era](https://aidailybrief.ai/e/2026-11-03#bears-declare-subsidy-end) (06:00)
+- [Loud bears make a bubble less likely, not more](https://aidailybrief.ai/e/2026-11-03#bears-are-healthy) (08:00)
+- [Ending subsidies sorts users into two buckets, not off a cliff](https://aidailybrief.ai/e/2026-11-03#api-pricing-two-buckets) (09:00)
+- [The bear case argues against itself](https://aidailybrief.ai/e/2026-11-03#two-bear-arguments-collide) (10:00)
+- [Musk has a history of stoking AI market jitters](https://aidailybrief.ai/e/2026-11-03#musk-fanning-flames) (14:00)
+- [Meta's real personal-agent play may be small businesses](https://aidailybrief.ai/e/2026-11-03#muse-for-smbs) (15:00)
+- [On economically valuable tasks, Gemini 4 wins on price](https://aidailybrief.ai/e/2026-11-03#gdpx-cost-performance) (16:00)
+- [OpenAI starts hill-climbing on everyday life](https://aidailybrief.ai/e/2026-11-03#lifeval-everyday-agents) (17:00)
+- [A frontier model edits a smaller model's weights directly](https://aidailybrief.ai/e/2026-11-03#mit-weight-editing) (18:00)
+- [No gradients, no training: just 50 forward passes](https://aidailybrief.ai/e/2026-11-03#no-gradients-no-training) (19:00)
+- [Replicated fast, with big caveats](https://aidailybrief.ai/e/2026-11-03#weight-editing-replicated) (20:00)
+- [Bug fix or the mechanism of RSI?](https://aidailybrief.ai/e/2026-11-03#overhyped-or-undersold) (22:00)
+- [Anthropic's S-1 says the RSI danger threshold may be imminent](https://aidailybrief.ai/e/2026-11-03#anthropic-rsi-threshold) (22:00)
+- [“We do not anticipate being able to safely use Claude to fully autonomously design and build successive generations of frontier models.”](https://aidailybrief.ai/e/2026-11-03#anthropic-human-supervision) — Anthropic, updated S-1 filing (23:00)
+- [Wall Street discovers "the world's most important chart"](https://aidailybrief.ai/e/2026-11-03#wsj-most-important-chart) (23:00)
+- [Better models aren't a straight line to more revenue](https://aidailybrief.ai/e/2026-11-03#capability-not-adoption) (24:00)
+- [Enterprises use a sliver of available intelligence, and models aren't why](https://aidailybrief.ai/e/2026-11-03#enterprises-underconsume) (25:00)
+- [Stop defining RSI and start imagining it](https://aidailybrief.ai/e/2026-11-03#rsi-like-agi) (25:00)
 
 ---
 

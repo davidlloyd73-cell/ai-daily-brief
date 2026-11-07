@@ -1,0 +1,9 @@
+{
+ "match": true,
+ "source_title": "Running Dry",
+ "source_url": "https://www.wheresyoured.at/running-dry/",
+ "source_date": "2026-11-03",
+ "same_day": true,
+ "other_side": "Zitron argues the boom ends when the money runs out, because venture capital and debt fund labs whose economics do not support the spending. He says most AI subscriptions are heavily subsidised, with users consuming several dollars of compute for each dollar paid, and that providers will eventually raise prices or cut limits. He points to Musk throttling Grok Bot and OpenAI moving to token-measured limits as early signs, and says roughly 80 per cent of the two leading labs' revenue comes from venture-backed start-ups. He did not discuss recursive self-improvement.",
+ "truth_beneath": "The variable both men orbit is whether what users pay covers what intelligence costs to deliver. Both accept as fact that Grok Bot was throttled over cost, that usage limits are tightening, and that power users generate much of the revenue. The empirical question is how much of that spending is subsidised by investors rather than earned from customers; the observable is repricing: if users stay at honest, unsubsidised prices, Whittemore's reading holds, and if they churn, Zitron's does. The residue is worldview: whether capability gains such as recursive self-improvement will arrive fast enough to outrun the bills. For Whittemore to be vindicated, power users must keep paying API-level rates and enterprise adoption must catch up. For Zitron, repricing must trigger churn and start-up funding must tighten. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron certain of a bubble and anti-hype. The signal is that each treats the subsidy era ending as real, despite opposite priors. Watch OpenAI's December token-based limits and how users respond."
+}

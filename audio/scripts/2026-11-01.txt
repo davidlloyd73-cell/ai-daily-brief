@@ -1,0 +1,17 @@
+David's AI brief for Sunday, the first of November.
+
+The One Idea today: the deepest fear about artificial intelligence is not hacking or even job loss, it is relevance. Nathaniel Whittemore reads an essay by Venkatesh Rao that calls AI panic a form of cognitive mercantilism. The old mercantilists believed wealth was finite, that ordinary people could not be trusted with freedom, that economics was about supply, and that most people were fit only for farm labour. Rao argues that today's worriers make the same mistake about intelligence. They treat it as a fixed stock to be hoarded, and ordinary people as passive consumers of it.
+
+History, he says, points the other way. When farming productivity rose, most people stopped farming, and they were not idle. New goods created new desires, and people in pre-industrial Britain actually chose to work more, around two hundred and fifty to three hundred days a year, to get them. Economists call the usual error the lump of labour fallacy, and Rao adds a second one: assuming demand is fixed. He sketches six ways AI could unlock latent demand, through price, access, complexity, continuity, personalisation, and relationships. Agents, Whittemore adds, have broken the idea of ever being done, because a backlog of work that was never worth doing by hand can now be tackled.
+
+If that is right, the politics change. The fight is less about saving cognitive jobs and more about securing a fair share of an expanding surplus of intelligence. Whittemore is careful to add that optimism about the destination does not erase the cost of the journey. Managing the transition is not the same as stopping it.
+
+Now, I should be straightforward about the other side. Ed Zitron did not publish anything this week that addresses this argument directly, so there is no opposing view to report. The nearest thing is his general doubt that there is fundamental demand for AI at the scale being financed, but that is a different claim, and I would not put words in his mouth. What I can say is that the essay is a bet on demand that has not yet been demonstrated. The observable that would settle it is whether usage and spending keep rising as prices fall, while employment in thinking jobs holds up.
+
+Turning to general practice. Cheaper, faster access has historically increased demand in the NHS rather than reduced it. If AI makes advice and summaries cheap, we should expect more questions, and more information patients bring in, not fewer. Planning as if AI simply saves time is optimistic.
+
+Second, the question of who shares the surplus is a commissioning decision, not a technical one. A scribe may free a few minutes per consultation, but whether those minutes go back to patients, into longer lists, or into savings is something to watch in how contracts are written.
+
+And third, there is no direct clinical guidance here. It is a philosophical essay, and the transition costs that Whittemore concedes would fall on real staff.
+
+That's the brief — source, The AI Daily Brief.

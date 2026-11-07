@@ -1,0 +1,19 @@
+David's AI brief for Monday, the second of November.
+
+The One Idea today: slop is skipped thinking, whose cost lands on the person receiving the work. Nathaniel Whittemore and his guest Nufar argue that the answer is not to abandon AI but to use it well. The first phase was about volume. The second is about taste and intention.
+
+The evidence they cite is striking. Over half of the music uploaded to Deezer each day is now fully AI generated, yet it accounts for only one to three per cent of listening. About forty per cent of American desk workers received so-called workslop in the past month, costing roughly two hours each time. And in one survey of six thousand workers, nearly seventy per cent admitted sending work to someone without reading it. Agents have made this worse in 2026, simply by producing more of it.
+
+Why does it happen? Models drift to the average. Post-training favours familiar, list-like output, and different vendors' models converge on similar answers, so switching supplier will not fix it. People tolerate it because of automation complacency: the more they trust the tool, the less critically they check it.
+
+The practical advice is simple. Form your own view before you open the tool. Decide in advance where you will review, perhaps at the outline, the first section and the draft. Scale effort to the stakes, so a short functional email is fine but anything customer-facing deserves real attention. Ask the model to push back, because it tends to agree with strong opinions. And ask one test question of any document: can the sender defend every sentence? Humanising tools and AI detectors, they note, measure surface features and still get flagged about three quarters of the time, so they are not the answer. Disclose AI use rather than hiding it, and expect human fingerprints to become a premium.
+
+Now, the other side. Ed Zitron published nothing this week on slop or output quality, so I will not invent a view for him. His recent writing is about the finances of the industry rather than the quality of its output. What can be said is that the two camps may agree more than they admit: both treat unreflective, mass-produced AI output as a weak foundation for a business.
+
+Turning to general practice. The reader of a clinical note is the next clinician, so a long, generic, unread scribe note is a patient-safety issue, not just an irritation. Reading and trimming every note before filing is the discipline that applies directly.
+
+Second, the finding that trust in AI goes with less critical checking is a known risk for scribe users. It helps to decide in advance what you always verify: medication and doses, allergies, safety-netting, and any examination findings the tool could not have heard.
+
+And third, disclosure matters for letters, referrals and medical examiner documents as much as for notes. Detectors are unreliable, so the real control is a named human who can stand behind every sentence.
+
+That's the brief — source, The AI Daily Brief.

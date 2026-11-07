@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Subsidised pricing and our scribe vendors",
+   "body": "Both sides agree usage limits are tightening and some pricing is subsidised. For a practice, that means today's scribe or AI tool price may not last. Before signing, ask about price caps, contract length, data export and what happens to patient records if the supplier is sold or fails."
+  },
+  {
+   "title": "Adoption, not capability, is the bottleneck",
+   "body": "NLW says enterprises use only a sliver of available intelligence because adoption is hard. That matches primary care: the limiting factors are governance, DPIA sign-off, training and workflow, not model quality. Zitron would add that revenue built on venture money is fragile, which is a supplier-risk point rather than a clinical one."
+  },
+  {
+   "title": "Recursive self-improvement is not a surgery issue yet",
+   "body": "Nothing here changes clinical practice. The sceptical reading is that the headline results came from tiny models and a bug fix. Treat claims of runaway progress with caution and judge tools on supervised, local performance."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+David's AI brief for Tuesday, the third of November.
+
+The One Idea today: everyone is arguing about whether recursive self-improvement has arrived, but Nathaniel Whittemore says the better question is what the world looks like once it does. His point is that better models do not translate directly into revenue, because enterprises use only a tiny share of the intelligence already available. The obstacle is organisational inertia and the difficulty of adoption, not weak models.
+
+The news flow shows why the argument is live. Sundar Pichai expects acceleration over the next twelve months because of self-improvement. Anthropic's updated filing says it may soon reach a threshold where a year of progress equals two years at the pace of 2018 to 2024, though it does not expect to safely have Claude design successive frontier models without meaningful human supervision. MIT researchers found a new OpenAI model could edit a tiny fraction of a small model's weights and improve its maths scores sixfold. A Google researcher replicated it, but on a model with only about twenty thousand parameters, and critics say the gain came from a bug fix, not general capability.
+
+On business, Elon Musk said the cost of his personal agent was unsustainable against its revenue, and users objected less to the limits than to the unannounced change. Whittemore calls the bear case self-contradictory: critics say users will leave at API prices, yet much revenue already comes from power users paying exactly that. He says healthy bears make a bubble less likely, but permabears who keep moving the goalposts are a weaker guide.
+
+Now, the other side. Ed Zitron published a piece today called Running Dry. He argues the boom ends when the money runs out, because venture capital and debt fund labs whose economics do not support the spending. He says most subscriptions are heavily subsidised, and that providers will have to raise prices or cut limits, pointing to the same Musk episode and to OpenAI moving to token-based limits in December. He did not discuss self-improvement.
+
+So both men are circling one question: does what users pay cover what intelligence costs to deliver? They agree the limits are tightening and that power users matter. They differ on whether repricing will keep those users or lose them. Both are polemicists with incentives, one bullish and one certain of a bubble, and the signal is that each accepts the subsidy era is ending. The thing to watch is how users react when OpenAI's token-based limits begin in December.
+
+Turning to general practice. If prices are subsidised today, the price of a scribe or triage tool may not last. Before signing, ask about price caps, contract length, data export, and what happens to patient records if the supplier is sold or fails.
+
+Second, adoption rather than capability is the bottleneck, which matches primary care, where governance, data protection sign-off and workflow are the limits.
+
+And third, nothing here changes clinical practice. Judge tools on supervised, local performance, not on headlines about runaway progress.
+
+That's the brief — source, The AI Daily Brief.

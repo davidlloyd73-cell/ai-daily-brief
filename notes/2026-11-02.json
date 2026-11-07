@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Slop in clinical notes",
+   "body": "The edition defines slop as skipped thinking whose cost lands on the reader. In general practice the reader is the next clinician, so a long, generic, unread scribe note is a patient-safety issue. Reading and editing every AI-drafted note before filing, and keeping notes short and specific, applies directly."
+  },
+  {
+   "title": "Automation complacency",
+   "body": "The cited finding that more trust in AI goes with less critical checking is a known risk for scribe users. A practical safeguard is deciding in advance what you always verify: medication, doses, allergies, safety-netting and any examination findings the tool could not have heard."
+  },
+  {
+   "title": "Disclosure and detection",
+   "body": "Labelling AI-assisted work is sensible for letters and reports as well as notes, including medical examiner and referral documents. Detectors are unreliable, so the control is a named human who can defend every sentence, not software. No Zitron counterpoint was published on this topic."
+  }
+ ]
+}
