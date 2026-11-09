@@ -50,10 +50,12 @@ def elevenlabs_tts(text, out):
 
 
 def edge(script_path, out):
-    subprocess.run(
-        [sys.executable, "-m", "edge_tts", "--voice", EDGE_VOICE, f"--rate={EDGE_RATE}",
-         "--file", str(script_path), "--write-media", str(out)],
-        check=True, timeout=300)
+    cmd = [sys.executable, "-m", "edge_tts", "--voice", EDGE_VOICE, f"--rate={EDGE_RATE}",
+           "--file", str(script_path), "--write-media", str(out)]
+    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
+    if proxy:  # cloud runs reach the speech service only through the session proxy
+        cmd += ["--proxy", proxy]
+    subprocess.run(cmd, check=True, timeout=300)
 
 
 def main():
