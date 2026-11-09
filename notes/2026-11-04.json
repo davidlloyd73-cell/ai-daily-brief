@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Consent first, not afterwards",
+   "body": "Both sides agree the industry built first and consulted later, and was punished for it. The same applies on a small scale in a surgery. Bring patients and staff along before a scribe or triage tool goes live, explain what is recorded and why, and make opting out easy."
+  },
+  {
+   "title": "American rules still shape our suppliers",
+   "body": "NLW expects modest US rules on pre-release testing, incident reporting and liability. They do not bind the NHS, but most of our vendors build on American models. Clearer liability for model builders would help when a scribe gets something wrong; until then the clinician who signs the note carries it."
+  },
+  {
+   "title": "Little direct clinical relevance, some price risk",
+   "body": "This was an edition about US politics. The practical point is cost: if tougher local terms make data centres dearer, as NLW expects, or financing falters, as Zitron expects, AI service prices could move. Prefer shorter contracts with a clear exit and data export."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+David's AI brief for Friday, the sixth of November.
+
+The One Idea today: agents have turned business AI from a purchase of seats into a bill for tokens, and spending growth is speeding up. Nathaniel Whittemore draws on a survey of about four hundred enterprise decision-makers by the investment firm Menlo. It estimates business AI spending at almost one hundred and seventy-seven billion dollars this year, up from thirty-three billion last year.
+
+The striking detail is where the growth came from. The share of large companies using AI barely moved, from fifty-five to sixty-five per cent, so a third still report not using it at all. But those that do spent nearly five times as much as last year, and about two and a half times what they had budgeted. They planned for a world where you pay per member of staff, and found themselves paying for work done, because agents run in parallel and carry on after people have gone home.
+
+Buyers also chose the dearest models. Anthropic now takes fifty-five per cent of this spending, and the coding tools from the two leading labs grew from one billion dollars to twenty-four billion in a year. Most of the money is new budget and has not been taken from existing software.
+
+All this came on a bad day for markets. Shares had their worst fall since March 2020, with Nvidia down more than nine per cent, and investors are pressing Anthropic to lower the price of its planned flotation. Whittemore thinks it looks like forced selling, not a change in the story.
+
+Now, the other side. Three days earlier, before the Menlo report, Ed Zitron published a piece called Running Dry. He argues the surge was an anomaly, when firms let staff spend freely on tokens and then pulled back, and that about eighty per cent of the labs' business revenue comes from start-ups living on venture capital. He notes one forecaster expects Anthropic's growth to slow markedly this quarter.
+
+So both men are circling one question: is spending by the token lasting demand, or a one-off overshoot? They agree the money is concentrated in a few heavy users who blew through their plans. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is Anthropic's fourth-quarter revenue.
+
+Turning to general practice. First, read the scribe contract. Most GP scribes are still sold per clinician, which is predictable. If a supplier moves to usage pricing, or adds agent features that run unattended, ask for a cap and monthly reporting first.
+
+Second, heavy users are not the whole market. Whittemore reads the concentration as a sign of where everyone is heading. Zitron reads it as excess now being reined in. For the NHS the sensible course is to pilot, measure time saved and safety, and assume neither story.
+
+Third, a small item is worth noting. Claude can now read a bank account but cannot move money, and it defers to regulated advisers on investment. That is a reasonable pattern for clinical tools: let the system read and summarise the record, and keep the decision with a registered clinician.
+
+That's the brief. Source, The AI Daily Brief.

@@ -1,0 +1,9 @@
+{
+ "match": true,
+ "source_title": "Running Dry",
+ "source_url": "https://www.wheresyoured.at/running-dry/",
+ "source_date": "2026-11-03",
+ "same_day": false,
+ "other_side": "Zitron, writing three days before this edition and before the Menlo report, argues the surge in business AI spending was an anomaly of what he calls token-maxxing, when companies let staff spend freely and then pulled back once costs soared; he cites Uber burning its annual token budget in a quarter. He says about 80 per cent of the two leading labs' enterprise revenue comes from venture-backed start-ups, so growth depends on venture capital continuing to flow. He notes Anthropic's third-quarter compute costs rose faster than its revenue, and that Ramp expects fourth-quarter growth of only 15 to 25 per cent.",
+ "truth_beneath": "The variable both men orbit is whether per-token spending is durable demand or a one-off overshoot. Both accept as fact that spending ran far ahead of budgets, that billing moved from seats to tokens, and that companies are now capping usage. The empirical question is whether spending keeps growing once the caps bite; the observable is Anthropic's fourth-quarter revenue growth against Ramp's estimate of 15 to 25 per cent, and then next year's Menlo figure. The residue is worldview: whether a blown budget shows value being discovered or waste going unchecked. For Whittemore to be vindicated, budgets must reset upwards and the long tail of lighter users must follow the heavy spenders. For Zitron, growth must slow sharply as caps tighten and venture-funded customers run short of money. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both say spending is concentrated in a few heavy users who overshot their plans. Watch Anthropic's fourth-quarter numbers."
+}

@@ -1,0 +1,19 @@
+David's AI brief for Sunday, the eighth of November.
+
+The One Idea today: agentic video is the new agentic coding. Nathaniel Whittemore's argument is that a year ago one model release made it possible for people who could not program to build real software, and working out what that meant took up most of this year. He thinks the latest models are now doing the same for video.
+
+He lists what has changed. Editing has become a conversation: you ask for the good takes, the silences trimmed and a first cut, and it is done. The models can now watch footage, which was always the slowest part of editing, so you can ask one to find three particular complaints across twenty hours of recorded calls. Connectors bring in meeting recordings and documents without special plumbing. Agents can record their own software demonstrations, and build animations to explain dense information. Generated footage is better, though he finds animation still works more reliably. He is cool on AI avatars in public, but says dubbing and translation inside an international organisation already earn their keep.
+
+The point, he stresses, is not replacing video editors. It is that video can now be used for everyday communication where the effort never used to be worth it. His test for when video beats a document has six parts, among them that showing beats telling, that the audience will not read the document, that you keep giving the same explanation, and that it must work in several languages.
+
+His examples are practical. A ninety-second cut of a sixty-minute meeting that shows the actual disagreement. A briefing video for senior people who will not read the paper beforehand. A handover video recorded by someone who is leaving. And videos that update themselves, where a scheduled process refreshes the script and pictures when the underlying procedure changes. He suggests starting by having AI edit something you have already recorded. He is candid about the limits: generated clips last seconds, edits take several passes, and costs climb quickly.
+
+Ed Zitron has published nothing on this subject, so there is no opposing source today. I would only add that this is an enthusiast's account, and the claim that many more people will be making video within a year is one to check, not assume.
+
+Turning to general practice. First, the strongest use for us is language. A short video on inhaler technique, or on how the booking system works, could be made once and issued in Gujarati, Tamil, Romanian and Arabic. A clinician who speaks the language should check each version, because a confident mistranslation is worse than none.
+
+Second, training and handover. Practice procedures and induction for new staff are rarely filmed because they date so quickly. A video that is refreshed when the procedure changes could help, though somebody still has to own the content.
+
+Third, a caution. Recordings are patient data. Tools that watch hours of footage should not be pointed at consultations or clinical meetings without a lawful basis, a data protection assessment, and a clear answer on where the footage is processed. Voice copies of staff need explicit consent.
+
+That's the brief. Source, The AI Daily Brief.

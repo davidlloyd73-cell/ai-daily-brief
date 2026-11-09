@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Per seat or per token: read the scribe contract",
+   "body": "Companies budgeted per seat and were billed per token, spending about two and a half times their plan. Most GP scribes are still sold per clinician, which is predictable. If a supplier moves to usage pricing, or adds agent features that run unattended, ask for a cap and monthly reporting before agreeing."
+  },
+  {
+   "title": "Heavy users are not the whole market",
+   "body": "A third of large companies still report no AI use, and spending is concentrated in a few heavy users. NLW reads that as a sign of where everyone is heading; Zitron reads it as an overshoot now being reined in. For the NHS the sensible position is to pilot, measure time saved and safety, and not assume either story."
+  },
+  {
+   "title": "Read-only access is a useful pattern",
+   "body": "Claude's new banking link is read-only and stops short of investment advice, deferring to regulated professionals. That is a reasonable model for clinical tools: let the system read and summarise the record, and keep the decision and the entry with a registered clinician."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+David's AI brief for Thursday, the fifth of November.
+
+The One Idea today: a politically driven slowdown in data centre building may be the exit ramp the big technology companies wanted. Nathaniel Whittemore starts from the obvious reading of the American election, which is that it was bad for data centres. Forty-three of forty-four local votes to restrict them passed, Texas changed hands, and chip makers and the smaller cloud companies fell sharply, with CoreWeave down ten per cent.
+
+Yet the seven largest technology companies added about a trillion dollars in value in a single day. His explanation is that the build-out was already straining against shortages of power, labour and equipment. Google, Meta, Amazon and Microsoft all spent less than planned in the third quarter because of construction delays. New political constraints give them cover to trim their spending plans quietly, improve their cash flow, and sign up to community-friendly rules that look like a concession. He quotes one research note suggesting the bottlenecks become the excuse some people need. In his view data centres will not stop. They will become dearer and better behaved, and the bubble may deflate instead of popping.
+
+He also notes that calls for a pause on advanced AI are entering mainstream Democratic politics. He thinks a legislated pause cannot pass this Congress, but he welcomes the argument as democracy doing its job.
+
+Among the headlines, OpenAI says ChatGPT now handles a fifth as many searches as Google, and that most users do not seem to mind adverts. Apple has cut its engineers' daily AI allowance from three hundred dollars to two hundred. And Isomorphic Labs, the drug discovery company spun out of Google, is reported to be raising five billion dollars.
+
+Now, the other side. Ed Zitron's piece Fault Lines, published the next day and only partly free to read, cites the same market reaction but draws the opposite conclusion. He argues that Nvidia's growth depends entirely on unimpeded building, and that without more capacity the AI labs cannot sell a story of endless growth. Once that narrative sets in, he says, everything begins to implode.
+
+So both men are circling one question: can spending be trimmed without breaking what depends on it? They agree a slowdown is coming and that it helps the largest companies' cash flow. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is the spending guidance the big four give in January.
+
+Turning to general practice, where this edition has limited relevance. First, patients who look up symptoms in ChatGPT will increasingly see adverts beside the answer. It is worth asking where advice came from, as we already do with search results.
+
+Second, Apple's cuts are a reminder that usage-priced AI needs a budget holder. Whittemore sees ordinary cost discipline. Zitron would say the product costs more than its price. Either way, a practice should ask suppliers for a fixed price or a cap.
+
+Third, the Isomorphic money shows investor confidence in AI-assisted drug discovery, not evidence of benefit. Nothing reaches a formulary without trials, so prescribing is unchanged.
+
+That's the brief. Source, The AI Daily Brief.

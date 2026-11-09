@@ -1,281 +1,283 @@
 {
-  "date": "2026-11-03",
-  "title": "AI Lurches Toward Recursive Self-Improvement",
-  "dek": "Elon Musk calls GrokBot's serving costs unsustainable and reignites the subsidy-era debate. Meanwhile, an MIT paper shows a frontier model editing a smaller model's weights directly, and Anthropic's updated S-1 says it may imminently hit its RSI danger threshold. The three-letter acronym is everywhere. The harder question is what it means when it arrives.",
-  "source": "https://aidailybrief.ai/e/2026-11-03",
+  "date": "2026-11-08",
+  "title": "Agentic Video Is Real and Here\u2019s What You Should Try",
+  "dek": "Opus 4.5 quietly turned agentic coding into the defining story of 2026. A month after Opus 5.5, a similar realization is spreading about video editing. This operator's cut covers what changed, when video beats a doc, and the internal and external video use cases that knowledge workers who've never made a video should try now.",
+  "source": "https://aidailybrief.ai/e/2026-11-08",
   "oneIdea": {
-    "headline": "We're so busy asking whether RSI is here that we're not asking what it means.",
-    "summary": "Sundar Pichai expects RSI to drive acceleration over the next 12 months. MIT researchers show GPT-6 Astra rewriting a smaller model's weights. Anthropic's S-1 warns it may imminently cross its RSI danger threshold, and Wall Street is reading the charts. Yet better models aren't a straight line to revenue: enterprises still consume a vanishingly small share of available intelligence because adoption is hard. Like AGI before it, RSI risks becoming a definitional sideshow. The more useful question is what the world looks like once it arrives."
+    "headline": "Agentic video is the new agentic coding.",
+    "summary": "Opus 4.5 made non-coders capable of building real software, and figuring out what that meant consumed 2026. Opus 5.5 and its peers are doing the same thing for video. Editing is now a conversation, AI can watch footage, connectors supply the raw material, agents can record and animate, and the whole thing can run end to end inside Claude Code or Codex. The point isn't replacing video editors. It's that video can now be used for countless work communications where the cost-benefit never made sense before: meeting highlights, exec pre-reads, handoffs, and videos that update themselves."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Subsidised pricing and our scribe vendors",
-        "body": "Both sides agree usage limits are tightening and some pricing is subsidised. For a practice, that means today's scribe or AI tool price may not last. Before signing, ask about price caps, contract length, data export and what happens to patient records if the supplier is sold or fails."
+        "title": "Patient information in the languages we actually need",
+        "body": "The strongest use here is dubbing and translation. A short video on inhaler technique, a new booking system or what a health check involves could be made once and issued in Gujarati, Tamil, Romanian and Arabic. A clinician who speaks the language should check each version before it goes out, because a confident mistranslation is worse than none."
       },
       {
-        "title": "Adoption, not capability, is the bottleneck",
-        "body": "NLW says enterprises use only a sliver of available intelligence because adoption is hard. That matches primary care: the limiting factors are governance, DPIA sign-off, training and workflow, not model quality. Zitron would add that revenue built on venture money is fragile, which is a supplier-risk point rather than a clinical one."
+        "title": "Training and handover videos that stay current",
+        "body": "Practice procedures, new starter induction and handovers when staff leave are rarely filmed because they date quickly. Pipelines that refresh a video when the procedure changes could help. It is a convenience, not a clinical tool, and somebody still has to own the content."
       },
       {
-        "title": "Recursive self-improvement is not a surgery issue yet",
-        "body": "Nothing here changes clinical practice. The sceptical reading is that the headline results came from tiny models and a bug fix. Treat claims of runaway progress with caution and judge tools on supervised, local performance."
+        "title": "Recordings are patient data",
+        "body": "Tools that watch hours of footage should not be pointed at consultations or clinical meetings without a lawful basis, a completed DPIA and a clear answer on where the footage is processed and stored. Voice copies and avatars of staff need explicit consent. There was no opposing source for this edition."
       }
     ]
   },
-  "the_other_side": {
-    "source": "Running Dry",
-    "url": "https://www.wheresyoured.at/running-dry/",
-    "date": "2026-11-03",
-    "same_day": true,
-    "text": "Zitron argues the boom ends when the money runs out, because venture capital and debt fund labs whose economics do not support the spending. He says most AI subscriptions are heavily subsidised, with users consuming several dollars of compute for each dollar paid, and that providers will eventually raise prices or cut limits. He points to Musk throttling Grok Bot and OpenAI moving to token-measured limits as early signs, and says roughly 80 per cent of the two leading labs' revenue comes from venture-backed start-ups. He did not discuss recursive self-improvement."
-  },
-  "the_truth_beneath": {
-    "text": "The variable both men orbit is whether what users pay covers what intelligence costs to deliver. Both accept as fact that Grok Bot was throttled over cost, that usage limits are tightening, and that power users generate much of the revenue. The empirical question is how much of that spending is subsidised by investors rather than earned from customers; the observable is repricing: if users stay at honest, unsubsidised prices, Whittemore's reading holds, and if they churn, Zitron's does. The residue is worldview: whether capability gains such as recursive self-improvement will arrive fast enough to outrun the bills. For Whittemore to be vindicated, power users must keep paying API-level rates and enterprise adoption must catch up. For Zitron, repricing must trigger churn and start-up funding must tighten. Both are polemicists with incentives: Whittemore is bullish and anti-doom, Zitron certain of a bubble and anti-hype. The signal is that each treats the subsidy era ending as real, despite opposite priors. Watch OpenAI's December token-based limits and how users respond."
-  },
+  "the_other_side": null,
+  "the_truth_beneath": null,
   "headlines": [
     {
-      "id": "pichai-rsi-acceleration",
-      "headline": "I would expect the next 12 months to see continued acceleration because of RSI.",
-      "type": "quote",
+      "id": "opus-55-video-step-change",
+      "headline": "Opus 5.5 is to video what Opus 4.5 was to code",
+      "type": "take",
       "segment": "main",
-      "timestamp": "02:00",
-      "attribution": "Sundar Pichai, Alphabet CEO, on the company's earnings call",
-      "summary": "On Alphabet's earnings call, Pichai said AI is already helping Google increase its training and launch velocity. Recursive self-improvement is no longer a fringe idea. It is showing up in CEO earnings commentary.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#pichai-rsi-acceleration"
+      "timestamp": "00:00",
+      "attribution": null,
+      "summary": "It took about a month for people to see that Opus 4.5 was a step change in agentic coding, and that realization set up all of 2026. Opus 5.5 has been out a similar amount of time, and people are discovering a subtler but significant step change, this time in video editing.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#opus-55-video-step-change"
     },
     {
-      "id": "grokbot-costs-unsustainable",
-      "headline": "Musk says GrokBot costs too much to serve",
-      "type": "insight",
+      "id": "knowledge-workers-quality-video",
+      "headline": "Knowledge workers can now make edited, graphic-rich video",
+      "type": "take",
       "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "After GrokBot users hit usage limits they had never run into before, Elon Musk replied that the cost of serving the product was unsustainably high relative to revenue. He gave no further details, but for market bears the post landed with the force of a bomb.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#grokbot-costs-unsustainable"
+      "summary": "TikTok and YouTube already turned more people into creators, but with real limits. Those limits are disappearing. People who never learned video can now produce quality, edited, graphic-enriched work, not just iPhone-and-CapCut verticals. NLW expects more people using video for more things than ever over the next six to twelve months.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#knowledge-workers-quality-video"
     },
     {
-      "id": "musk-mixed-messages",
-      "headline": "From fastest-growing ever to unsustainable in two weeks",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "03:00",
-      "attribution": null,
-      "summary": "Weeks earlier, Musk had said he'd never seen anything grow as fast as GrokBot and that the lack of a free tier proved people derived real value. Days earlier, he had posted that saving money is pointless given superintelligent abundance. Critics struggled to square either message with the new cost warning.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#musk-mixed-messages"
-    },
-    {
-      "id": "usage-limit-shrinkflation-backlash",
-      "headline": "The real anger was the unannounced change, not the limit",
+      "id": "editing-became-a-conversation",
+      "headline": "Change one: editing became a conversation",
       "type": "insight",
       "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Many users framed it as shrinkflation: they kept paying for the same plan and got less with zero notice, then were told they had picked the wrong tier. The lesson for any AI vendor tightening limits is to announce changes ahead of time so customers can adjust.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#usage-limit-shrinkflation-backlash"
+      "summary": "Descript already let you edit video by editing the transcript. Now you can just say \"find the good takes, trim silences and filler, place B-roll, lay a first cut,\" and it happens. That's true in dedicated tools like Underlord, Firefly's assistant and Premiere's Paper Edit, but also natively in Codex and Claude Code.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#editing-became-a-conversation"
     },
     {
-      "id": "rivals-pounce-on-grokbot",
-      "headline": "Rival personal agents move to poach GrokBot users",
+      "id": "ai-can-watch-footage",
+      "headline": "The underrated change: AI can now watch footage",
       "type": "insight",
       "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Observers called it a win for Dots and Duet. The makers of Hermes jumped in with step-by-step instructions for migrating from GrokBot to their agent.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#rivals-pounce-on-grokbot"
+      "summary": "Watching was always the slowest part of editing. Now you can ask a model to find the three onboarding complaints across twenty hours of calls. Some models approximate this from transcripts and timestamps, but Google's agentic video understanding claims to be up to 88% more token efficient and about 7% more accurate, with the biggest gains on long files.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#ai-can-watch-footage"
     },
     {
-      "id": "personal-agent-category-question",
-      "headline": "Is the problem GrokBot, or the whole personal-agent category?",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "05:00",
-      "attribution": null,
-      "summary": "Dax from OpenCode argued people don't want to pay for personal agents, so they have to be top-of-funnel for something else that nobody has identified yet. This echoes the fall 2025 bubble debate over ChatGPT's costly free users, and skeptics quickly extended it to Meta, whose position in the AI race rests heavily on Muse.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#personal-agent-category-question"
-    },
-    {
-      "id": "bears-declare-subsidy-end",
-      "headline": "Bears read it as the end of the subsidy era",
+      "id": "connectors-bring-raw-material",
+      "headline": "Connectors put the raw material within reach",
       "type": "insight",
       "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Skeptics called it the moment the music stops: VC money runs out, prices rise, users drop off, valuations plummet. One newsletter cited an analysis estimating that a full month on a $200 ChatGPT Pro plan would cost about $14,000 at regular API prices.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#bears-declare-subsidy-end"
+      "summary": "Especially for internal video, existing connectors pipe in meeting recordings, call recordings, demos, docs and dashboards straight to the model doing the watching and editing. There's no need to build a complicated system to gather footage.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#connectors-bring-raw-material"
     },
     {
-      "id": "bears-are-healthy",
-      "headline": "Loud bears make a bubble less likely, not more",
+      "id": "agents-record-demos",
+      "headline": "Agents can now record their own demos",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "06:00",
+      "attribution": null,
+      "summary": "Thanks to computer use, an agent can plan a demo, open the page in its own browser on its virtual computer, and record the walkthrough with an animated cursor. The capability is nascent, but it exists and will only get better.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#agents-record-demos"
+    },
+    {
+      "id": "remotion-animations",
+      "headline": "Claude Code animates in React and renders with Remotion",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "That native integration has transformed Claude's ability to put animations into video. The value goes beyond keeping attention: animation is a powerful way to explain dense information. Claude Code lacks native image generation, but APIs such as OpenAI's can fill the gap while Opus 5.5 orchestrates.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#remotion-animations"
+    },
+    {
+      "id": "generated-footage-improves",
+      "headline": "Generated B-roll is better, but animation still wins",
       "type": "take",
       "segment": "main",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "NLW is no AI bear, but he welcomes the skeptics. It would be far more dangerous if everyone were too enamored of Anthropic and OpenAI to ask critical questions. He also notes that bearish analysis varies widely in quality, and permabears who keep moving the goalposts may not be the best guide.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#bears-are-healthy"
+      "summary": "Kling 4.0 and Gemini Omni 1.1 produce longer, higher-quality, more controllable clips. Native audio has been standard since Veo 3.1, Runway Gen 4.5 and Kling 3.0. Some footage still falls into the uncanny valley, though. On NLW's How We Got There project, animations have worked far better than generated B-roll.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#generated-footage-improves"
     },
     {
-      "id": "api-pricing-two-buckets",
-      "headline": "Ending subsidies sorts users into two buckets, not off a cliff",
+      "id": "avatars-dubbing-work",
+      "headline": "Avatars may be weird on social, but dubbing earns its keep at work",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "09:00",
+      "attribution": null,
+      "summary": "It's unclear whether audiences will accept creators' AI-twin channels. Inside companies, though, avatars and voice copies already pay off. AI dubbing and translation across an international company delivers enough value to outweigh any weirdness.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#avatars-dubbing-work"
+    },
+    {
+      "id": "harnesses-democratize-video",
+      "headline": "Video's democratization will come from Claude Code and Codex, not video apps",
       "type": "take",
       "segment": "main",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "Some users find more efficient models good enough and stay on $20\u201330 plans. Others get enough value to pay for the intelligence they consume as a cost of doing business. For NLW, API spend is net new money, still far below the cost of equivalent human labor and the time to recruit and manage it.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#api-pricing-two-buckets"
+      "summary": "Loom, Premiere and Firefly are all adding AI features. The bigger shift is managing video end to end inside OpenAI's and Anthropic's harnesses. Limits remain: generated clips last seconds, timeline edits take multiple passes, and costs climb fast. Still, an inflection point has been reached, and every knowledge worker should consider where video could help.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#harnesses-democratize-video"
     },
     {
-      "id": "two-bear-arguments-collide",
-      "headline": "The bear case argues against itself",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "10:00",
-      "attribution": null,
-      "summary": "Will users abandon AI once they pay API rates, or is revenue already too concentrated among power users who pay via the API? The two claims sit awkwardly together. The more interesting middle ground, argued by Chamath Palihapitiya, is that too many power users are still subsidized by VC dollars.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#two-bear-arguments-collide"
-    },
-    {
-      "id": "musk-fanning-flames",
-      "headline": "Musk has a history of stoking AI market jitters",
+      "id": "when-video-beats-text",
+      "headline": "Six signs video beats the doc",
       "type": "insight",
       "segment": "main",
-      "timestamp": "14:00",
+      "timestamp": "11:00",
       "attribution": null,
-      "summary": "He posted \"Yikes\" after CoreWeave's bonds had a bad day, and later claimed debt markets had almost entirely shut off for companies without substantial non-AI-data-center revenue. Some suspect 4D chess aimed at cheap acquisitions or hurting rivals, but no one knows.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#musk-fanning-flames"
+      "summary": "1. Showing beats telling: UI, multi-step workflows, numbers changing between quarters. 2. The audience won't read the doc. 3. You give the same explanation repeatedly. 4. The asset must work in multiple languages. 5. The raw recordings already exist. 6. Conviction matters and you want the emotion to land without you there.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#when-video-beats-text"
     },
     {
-      "id": "muse-for-smbs",
-      "headline": "Meta's real personal-agent play may be small businesses",
+      "id": "who-wont-read-the-doc",
+      "headline": "Ask who needs this but won't read it",
       "type": "insight",
       "segment": "main",
-      "timestamp": "15:00",
+      "timestamp": "11:00",
       "attribution": null,
-      "summary": "a16z's Olivia Moore points to Meta's 3.64 billion daily users and more than 500 million SMBs already marketing on its platforms. Meta plans to connect Muse to ad analytics plus tools like QuickBooks and Stripe, which could make Muse a nervous system for SMBs.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#muse-for-smbs"
+      "summary": "Time-constrained executives, frontline teams and customers who don't want a wall of text all have natural limits on attention. Anything made for them is a strong video candidate. That's a realistic read of the audience, not a judgment about the best format.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#who-wont-read-the-doc"
     },
     {
-      "id": "gdpx-cost-performance",
-      "headline": "On economically valuable tasks, Gemini 4 wins on price",
+      "id": "concept-video",
+      "headline": "Concept videos show what doesn't exist yet",
       "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "SemiAnalysis's new GDPX benchmark covers tasks like chip design, finance and biology. Opus 5.5 scored highest at 12% for $51 per task, while Gemini 4 Carbon hit 10.9% for $16, roughly 4\u00d7 cheaper. The labs are now focused on using efficient models to cut personal-agent costs, as they did with coding agents.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#gdpx-cost-performance"
+      "summary": "Candidates include product features, store layouts, reorgs, customer journeys and new processes. Start with a vibe-coded prototype, a floor plan or a clearly articulated concept. Then work with your AI build partner to pick or generate the anchor visuals, script it, record it and edit it into a finished package.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#concept-video"
     },
     {
-      "id": "lifeval-everyday-agents",
-      "headline": "OpenAI starts hill-climbing on everyday life",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": null,
-      "summary": "OpenAI's LifeVal measures tasks like finding childcare, budgeting and ordering groceries. Scores rose from 49.3% for GPT-5.2 to 80.6% for GPT-6 Astra. As with coding, once a capability becomes a measured RL target it tends to improve fast and get cheaper, and some read the benchmark as a prelude to a public personal-agent launch.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#lifeval-everyday-agents"
-    },
-    {
-      "id": "mit-weight-editing",
-      "headline": "A frontier model edits a smaller model's weights directly",
-      "type": "insight",
+      "id": "meeting-highlight-video",
+      "headline": "The meeting video: show the actual debate, not just the summary",
+      "type": "take",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "MIT researchers found GPT-6 Astra could read and adjust the weights of Qwen 3.5 0.8B. By changing just 0.016% of them, it improved math benchmark scores 6\u00d7 and instruction following 3\u00d7. The researchers say frontier LLMs are surprisingly good at natively reading and writing neural network weights.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#mit-weight-editing"
+      "summary": "For a routine standup, a written AI summary is enough. When you missed a meeting with a real, intense debate over a decision, a cut showing the exchanges as they happened is far more valuable. NLW's aside: if a meeting isn't video-worthy, maybe it should have been text in the first place.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#meeting-highlight-video"
     },
     {
-      "id": "no-gradients-no-training",
-      "headline": "No gradients, no training: just 50 forward passes",
+      "id": "voice-of-customer-video",
+      "headline": "Bring customers' voices to the decision-makers",
       "type": "insight",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "Asked to make Qwen better at math, Astra spotted the model's known reasoning-loop problem, located the cause within a budget of 50 forward passes, and edited it out. That boosted other capabilities too. Astra also wrote small game-playing networks from scratch that outplayed networks trained with PPO for 100 million steps.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#no-gradients-no-training"
+      "summary": "Sales calls, support recordings and customer research can be aggregated and curated into themes. That analysis is useful even as text. Video is how those insights actually reach the people making decisions.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#voice-of-customer-video"
     },
     {
-      "id": "weight-editing-replicated",
-      "headline": "Replicated fast, with big caveats",
-      "type": "insight",
+      "id": "exec-pre-read",
+      "headline": "The exec pre-read assumes nobody reads the pre-read",
+      "type": "take",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "A senior Google researcher quickly reproduced the results and called it a step-change capability that appeared only in the latest models. The edited models are tiny, though: 20,486 parameters in his experiment, versus more than a trillion for frontier models. He frames it as 2010s-style interpretability work now done by models at a scale beyond humans.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#weight-editing-replicated"
+      "summary": "Any time leaders need to get up to speed fast and be conversant in a strategy doc or business case before a big meeting, a video can carry it. If you think it's cynical to rank this so high, NLW says he's very impressed with your company.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#exec-pre-read"
     },
     {
-      "id": "overhyped-or-undersold",
-      "headline": "Bug fix or the mechanism of RSI?",
+      "id": "self-updating-video",
+      "headline": "The video that updates itself",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "21:00",
+      "attribution": null,
+      "summary": "How-tos, SOPs and UI overviews rarely got videos because the footage would be stale in three to six months. Agentic pipelines can now re-source material, update the script and visuals, and re-edit on a schedule, which turns a one-off asset into a living one. You can set this up in Claude Code right now.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#self-updating-video"
+    },
+    {
+      "id": "numbers-in-motion",
+      "headline": "Dashboards show where things stand; narrated charts show what changed",
       "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "The main critique is that the 6\u00d7 math gain came from fixing a loop bug, not from improving general capability. Others say the approach is undersold, reporting that Claude models can write functioning neural net weights from scratch. RSI believers argue interpretability is dual-use: models good at optimization are good at optimizing themselves.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#overhyped-or-undersold"
+      "summary": "Animated, narrated charts are something AI can do very well today. They're also a natural fit for a self-updating video tied to a live data source.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#numbers-in-motion"
     },
     {
-      "id": "anthropic-rsi-threshold",
-      "headline": "Anthropic's S-1 says the RSI danger threshold may be imminent",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "New language in Anthropic's updated S-1 says internal estimates indicate it may soon hit its threshold of dramatically accelerated progress attributable to AI: as much progress in one year as two years at the 2018\u20132024 pace. The company is considering responsible scaling policy updates aimed at keeping humans in control of frontier development.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#anthropic-rsi-threshold"
-    },
-    {
-      "id": "anthropic-human-supervision",
-      "headline": "We do not anticipate being able to safely use Claude to fully autonomously design and build successive generations of frontier models.",
-      "type": "quote",
+      "id": "ramble-explainer-challenge",
+      "headline": "Skeptical? Ramble at Claude about your hardest explainer",
+      "type": "take",
       "segment": "main",
       "timestamp": "23:00",
-      "attribution": "Anthropic, updated S-1 filing",
-      "summary": "The full line adds \"without meaningful human supervision or understanding.\" It is a frontier lab, in an IPO filing, describing the limits it plans to put on AI building its own successors.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#anthropic-human-supervision"
+      "attribution": null,
+      "summary": "Pick something you're responsible for explaining, such as a comp plan, data architecture, pricing model or new policy. Talk it through with ChatGPT or Claude and ask for a better way to communicate it. Restructuring raw input into a simple form is what AI does best, and now that simple form can be animated.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#ramble-explainer-challenge"
     },
     {
-      "id": "wsj-most-important-chart",
-      "headline": "Wall Street discovers \"the world's most important chart\"",
+      "id": "handoff-video",
+      "headline": "Handoff videos cut the cost of personnel transitions",
       "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "The Wall Street Journal ran Anthropic's chart showing AI now leading 26% of research, echoing Jack Clark's view that RSI might be the most important technical trend in the world. The data is from August and was boosted by David Sacks, who wondered where the number stands now. With the AI narrative souring, investors are watching RSI as a source of the next leg of growth.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#wsj-most-important-chart"
+      "summary": "Departures, leaves, role switches and even vacations lose knowledge, often because the person leaving is slammed until the last minute. Talking is faster and more comprehensive than writing, so let them ramble and have AI turn it into a handoff video for their successor.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#handoff-video"
     },
     {
-      "id": "capability-not-adoption",
-      "headline": "Better models aren't a straight line to more revenue",
+      "id": "external-clips-and-thought-leadership",
+      "headline": "Experiment with long-form thought leadership",
       "type": "take",
       "segment": "main",
       "timestamp": "24:00",
       "attribution": null,
-      "summary": "The unspoken assumption is that improved models drive adoption. That held for true step changes like the Opus 4.5 jump that kicked off the agentic coding era. Without an entirely new capability coming online, NLW doesn't think the evidence says capability alone drives adoption.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#capability-not-adoption"
+      "summary": "Repurposing existing talks, webinars and podcast appearances into short-form clips requires no new footage. NLW also pushes for long-form thought leadership. Ramble to camera and let AI handle the cuts and graphics, or work with AI on a tighter script in your own voice. More of us should be doing it, and the world would be better for it.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#external-clips-and-thought-leadership"
     },
     {
-      "id": "enterprises-underconsume",
-      "headline": "Enterprises use a sliver of available intelligence, and models aren't why",
-      "type": "take",
+      "id": "personalized-account-videos",
+      "headline": "One base video, 30 personalized sales versions",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "25:00",
+      "timestamp": "26:00",
       "attribution": null,
-      "summary": "Whether these business models work comes down to how much intelligence enterprises consume, and today that is a vanishingly small share of what they could. The reason is inertia, lumbering corporate systems and hard adoption, not insufficient models. The bear reading is that we aren't using it; the bull reading is that we aren't using it yet.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#enterprises-underconsume"
+      "summary": "Personalized account videos are now genuinely viable. A video agent can turn one base video into 20 or 30 versions with each prospect's name, numbers and use case. Proposals, whether PDFs or websites, have no excuse not to ship with a video making the most compelling version of the argument.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#personalized-account-videos"
     },
     {
-      "id": "rsi-like-agi",
-      "headline": "Stop defining RSI and start imagining it",
+      "id": "video-vs-pipeline",
+      "headline": "A video is a video. A pipeline is an application that makes videos.",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "To make a single video, you brief Claude Code, point it at assets, give specs and let it run. A pipeline wraps the same steps in code with process logic and triggers, such as monthly or on demand. An agent then searches for updates, refreshes the script and renders the newest version.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#video-vs-pipeline"
+    },
+    {
+      "id": "three-levels-to-start",
+      "headline": "Three levels to get started",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "28:00",
+      "attribution": null,
+      "summary": "Level one: AI edits what you've already recorded, such as a meeting highlight reel. Level two: AI makes something net new, such as quarter-over-quarter results turned into an animated chart. Level three: AI runs a pipeline, such as a Friday video that pulls metrics, tickets or shipped features into a two-minute update. Build one pipeline and the ideas start multiplying.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#three-levels-to-start"
+    },
+    {
+      "id": "not-replacing-editors",
+      "headline": "This isn't about replacing video editors",
       "type": "take",
       "segment": "main",
-      "timestamp": "25:00",
+      "timestamp": "29:00",
       "attribution": null,
-      "summary": "The debate is stuck on whether RSI is here yet. The only group offering a vision of the world after RSI is the AI safety camp that wants it banned. Like AGI before it, the acronym may be absorbing attention that should go to understanding what it will mean when it arrives.",
-      "link": "https://aidailybrief.ai/e/2026-11-03#rsi-like-agi"
+      "summary": "Agentic coding never meant non-coders replacing developers, and agentic video won't mean amateurs matching professional editors and directors. The point is all the work those professionals' skills were never applied to, because the cost-benefit wasn't there. These are new opportunities to make work work better.",
+      "link": "https://aidailybrief.ai/e/2026-11-08#not-replacing-editors"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-03.mp3",
-  "generated": "2026-11-07T01:12:40Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-08.mp3",
+  "generated": "2026-11-09T23:15:07Z"
 }

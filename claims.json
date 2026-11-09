@@ -1775,6 +1775,69 @@
    "resolution": "Vindicated if within twelve months OpenAI, Anthropic or a major agent product materially cuts limits or raises effective prices and reports or is credibly shown to lose users or revenue growth. Fails if repricing happens with no meaningful churn.",
    "check_by": "2027-11-03",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-04",
+   "side": "NLW",
+   "claim": "That the Democratic sweep brings hurdles, not a crackdown: no comprehensive federal AI law or top-down moratorium on data centres or frontier training, only incremental rules, with building continuing on tougher local terms.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-04",
+   "resolution": "Vindicated if by the end of 2027 no federal moratorium on data centres or frontier model training has become law and Texas is approving new data centres under revised rules. Fails if a federal moratorium is enacted or Texas keeps a blanket pause in force throughout 2027.",
+   "check_by": "2027-12-31",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-04",
+   "side": "Zitron",
+   "claim": "That voters' rejection of data centres exposes a real vulnerability in the AI bubble, and that the blue wave could lead to it bursting by blocking the build-out.",
+   "source_url": "https://www.wheresyoured.at/premium-fault-lines/",
+   "resolution": "Vindicated if within twelve months at least one large state such as Texas or Ohio halts new data centre approvals for a sustained period and announced projects are cancelled at scale. Fails if approvals resume under new conditions and construction starts recover.",
+   "check_by": "2027-11-06",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-05",
+   "side": "NLW",
+   "claim": "That a policy-driven slowdown gives the hyperscalers cover to trim capital spending and raise free cash flow, so the AI bubble deflates instead of popping.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-05",
+   "resolution": "Vindicated if within twelve months at least two of Microsoft, Google, Amazon and Meta guide 2027 capital spending flat or below prior expectations while reporting higher free cash flow, with no large neocloud or lab failing. Fails if a spending pullback coincides with major defaults or a sustained collapse in AI-related shares.",
+   "check_by": "2027-11-05",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-05",
+   "side": "Zitron",
+   "claim": "That Nvidia's growth depends entirely on an unimpeded data centre build-out, so a slowdown removes the reason to keep buying chips and the labs' growth story with it.",
+   "source_url": "https://www.wheresyoured.at/premium-fault-lines/",
+   "resolution": "Vindicated if within twelve months Nvidia reports a quarter-on-quarter fall in data centre revenue following reduced hyperscaler or neocloud spending. Fails if Nvidia's data centre revenue keeps growing through a period of slower construction.",
+   "check_by": "2027-11-06",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-06",
+   "side": "NLW",
+   "claim": "That enterprise AI spending growth is durable because agents moved billing from seats to tokens, and the heaviest spenders show where the rest of the market is heading.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-06",
+   "resolution": "Vindicated if Menlo's 2027 report or a comparable survey shows enterprise AI spend at least doubling again from about 177 billion dollars, with the share of enterprises using AI rising. Fails if spend growth falls below fifty per cent or total spend shrinks.",
+   "check_by": "2027-11-30",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-06",
+   "side": "Zitron",
+   "claim": "That the 2026 surge in business AI spending was a token-maxxing anomaly that ended in mid-2026, so lab revenue growth will slow sharply, with Anthropic's fourth-quarter growth in the 15 to 25 per cent range Ramp expects.",
+   "source_url": "https://www.wheresyoured.at/running-dry/",
+   "resolution": "Vindicated if Anthropic's reported fourth-quarter 2026 revenue grows 25 per cent or less on the third quarter. Fails if growth is clearly above 25 per cent.",
+   "check_by": "2027-03-31",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-08",
+   "side": "NLW",
+   "claim": "That agentic video has reached an inflection point, and within six to twelve months more people will be using video for more kinds of work communication than ever before.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-08",
+   "resolution": "Vindicated if by November 2027 vendor or survey data show a marked rise in video made by non-specialist knowledge workers for internal use, such as meeting highlights and explainers. Fails if use stays confined to marketing and specialist teams.",
+   "check_by": "2027-11-08",
+   "status": "open"
   }
  ]
 }

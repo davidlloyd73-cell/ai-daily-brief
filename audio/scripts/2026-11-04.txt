@@ -1,0 +1,19 @@
+David's AI brief for Wednesday, the fourth of November.
+
+The One Idea today: the American midterms produced a blue wave, and Nathaniel Whittemore argues it did not change the direction of AI policy so much as confirm it. Democrats took both the House and the Senate, and now run nine of the ten largest states, including Texas, where much of the data centre build-out has been centred.
+
+His first point is that AI in the abstract was not on the ballot. Data centres were. Only forty-four per cent of voters called AI a very important issue, against eighty-four per cent for the economy. But sixty-one per cent said they disliked candidates who back building data centres locally, and that held in both parties. In Ohio, Sherrod Brown won a Senate seat after running an advert that was nothing but the hum of a data centre. All forty-one local ballot measures on data centres looked set to pass.
+
+What follows, he thinks, is hurdles and not a crackdown. He expects local pauses on building, and modest federal rules on whistleblowers, pre-release testing, incident reporting and liability. A sweeping federal law is unlikely, because the President has promised to become, in his words, Mister Veto. Whittemore says developers already knew the era of ignoring communities was over, and are dropping secrecy agreements and offering to pay their own way on power. He calls the build-out the most winnable political issue he has seen, unless candidates for 2028 decide that being fiercely anti-AI pays. His disaster scenario is that moratoria frighten Wall Street into pulling the funding.
+
+Now, the other side. Two days later Ed Zitron published a piece called Fault Lines, of which only the opening is free to read. He welcomes the result and argues the bubble rested on the assumption that the rich always get what they want. Voters said no, and he thinks that exposes a real weakness, because Nvidia's growth depends on an unimpeded build-out.
+
+So both men circle one question: does local consent merely raise the price of building, or does it stop the building and break the financing? They agree the industry lost the public. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is what the new governor of Texas does on taking office in January.
+
+Turning to general practice. First, there is a familiar lesson here about consent. An industry that built first and consulted later has been punished at the ballot box. Anyone introducing AI into a surgery, whether a scribe or a triage tool, should bring patients and staff along early, and make opting out easy.
+
+Second, the modest rules Whittemore expects are American. They do not bind the NHS, but they shape the suppliers we buy from. Clearer liability for model builders would be welcome when a scribe gets something wrong. Until then, the clinician who signs the note carries it.
+
+Third, this was an edition about politics, with little direct clinical relevance. The practical point is price. If building becomes dearer, or financing falters as Zitron expects, the cost of AI services could move. That favours shorter contracts and a clear exit.
+
+That's the brief. Source, The AI Daily Brief.
