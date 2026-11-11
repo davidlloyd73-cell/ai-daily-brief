@@ -1,283 +1,301 @@
 {
-  "date": "2026-11-08",
-  "title": "Agentic Video Is Real and Here\u2019s What You Should Try",
-  "dek": "Opus 4.5 quietly turned agentic coding into the defining story of 2026. A month after Opus 5.5, a similar realization is spreading about video editing. This operator's cut covers what changed, when video beats a doc, and the internal and external video use cases that knowledge workers who've never made a video should try now.",
-  "source": "https://aidailybrief.ai/e/2026-11-08",
+  "date": "2026-11-09",
+  "title": "Nvidia CEO Admits Affair With Suspected Chinese Spy",
+  "dek": "Nvidia CEO Jensen Huang admits an affair with a woman US intelligence believes is a Chinese spy \u2014 an executive at a Megaspeed, a Singaporean cloud provider and major Nvidia customer. Because Nvidia anchors the AI build-out and Jensen has been the industry's strongest advocate for normalized AI trade with China, this is a geopolitical and market story. Plus: Anthropic heads to roadshow at a shrinking valuation, OpenAI's round closes light, and the labs hint at a scientific-discovery phase transition.",
+  "source": "https://aidailybrief.ai/e/2026-11-09",
   "oneIdea": {
-    "headline": "Agentic video is the new agentic coding.",
-    "summary": "Opus 4.5 made non-coders capable of building real software, and figuring out what that meant consumed 2026. Opus 5.5 and its peers are doing the same thing for video. Editing is now a conversation, AI can watch footage, connectors supply the raw material, agents can record and animate, and the whole thing can run end to end inside Claude Code or Codex. The point isn't replacing video editors. It's that video can now be used for countless work communications where the cost-benefit never made sense before: meeting highlights, exec pre-reads, handoffs, and videos that update themselves."
+    "headline": "Jensen's affair isn't a tabloid story \u2014 it's a China policy story.",
+    "summary": "If this were only about Jensen Huang's personal failings, the show would stay away. But Nvidia is the biggest company in the world and the anchor of the AI build-out, and Jensen has been Washington's most effective voice against a total ban on chip exports to China. An affair with a suspected MSS agent who works at a customer accused of funneling compute to Chinese labs puts every one of his China decisions under question. Congress is circling, Nvidia's board has opened an independent investigation, and some argue the leaks themselves are a strategic move to put Nvidia on a national-security leash. The markets are buying the dip for now. The bigger risk is to the dovish case on China and AI."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Patient information in the languages we actually need",
-        "body": "The strongest use here is dubbing and translation. A short video on inhaler technique, a new booking system or what a health check involves could be made once and issued in Gujarati, Tamil, Romanian and Arabic. A clinician who speaks the language should check each version before it goes out, because a confident mistranslation is worse than none."
+        "title": "Little clinical relevance, but a supply-chain point",
+        "body": "This is a story about one company's chief executive and American export policy, and nothing in it changes clinical practice. The practical link is that almost every AI tool the NHS buys runs on Nvidia hardware. NLW sees a policy risk; Zitron alleges a revenue and legal one. Either would reach us only indirectly, through price or availability of cloud services."
       },
       {
-        "title": "Training and handover videos that stay current",
-        "body": "Practice procedures, new starter induction and handovers when staff leave are rarely filmed because they date quickly. Pipelines that refresh a video when the procedure changes could help. It is a convenience, not a clinical tool, and somebody still has to own the content."
+        "title": "Conflicts of interest are judged by appearance",
+        "body": "The sharpest point made is that intent is beside the question: once a personal relationship overlaps a commercial one, every decision is suspect. The same standard applies to us in procurement. Anyone advising a practice, PCN or ICB on an AI supplier should declare ties early, however innocent."
       },
       {
-        "title": "Recordings are patient data",
-        "body": "Tools that watch hours of footage should not be pointed at consultations or clinical meetings without a lawful basis, a completed DPIA and a clear answer on where the footage is processed and stored. Voice copies and avatars of staff need explicit consent. There was no opposing source for this edition."
+        "title": "Key-person risk in suppliers",
+        "body": "Markets are asking whether one man is replaceable. Smaller health technology suppliers often depend on a founder or one clinical lead. It is reasonable to ask a scribe vendor who holds clinical safety responsibility, and what happens to the service if that person leaves."
       }
     ]
   },
-  "the_other_side": null,
-  "the_truth_beneath": null,
+  "the_other_side": {
+    "source": "Jensen's Bizarre Adventure",
+    "url": "https://www.wheresyoured.at/jensens-bizarre-adventure/",
+    "date": "2026-11-10",
+    "same_day": false,
+    "text": "Zitron, writing a day later, argues the affair distracts from the real story, which he says is revenue: that Nvidia has inflated its sales through intermediaries passing restricted chips to China, a matter reported in detail for over a year and largely ignored. He cites a short seller's allegation, which he says he trusts, that about a fifth of Nvidia's last fiscal-year revenue came from China, and press reports that Nvidia's general counsel contacted officials about a Commerce Department probe of Megaspeed. He calls for Huang and the general counsel to go, and says Megaspeed is \"the tip of the iceberg\", quoting the short seller's source. These are his allegations; Nvidia denies wrongdoing."
+  },
+  "the_truth_beneath": {
+    "text": "The variable both men orbit is how much of Nvidia's business, and its China advocacy, rests on chips reaching China through intermediaries. Both accept as fact that Huang admitted the affair, that Megaspeed was a large customer already under Commerce Department scrutiny, and that the board has opened an inquiry. The empirical question is the size of the diverted sales; the observable is what the board, Congress and the Justice Department find, and whether Nvidia restates or loses revenue booked through South-East Asia. The residue is worldview: whether this is one man's lapse inside a sound company, or typical of an industry that bends rules for growth. For Whittemore to be vindicated, the inquiries must find no compromise and the damage must fall on China policy, not the accounts. For Zitron, investigators must show material illicit revenue and bring charges. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both think the dovish case on chip exports is badly damaged. Watch Huang's closed-door session with Congress later this month."
+  },
   "headlines": [
     {
-      "id": "opus-55-video-step-change",
-      "headline": "Opus 5.5 is to video what Opus 4.5 was to code",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "00:00",
+      "id": "anthropic-ipo-roadshow-lower-valuation",
+      "headline": "Anthropic heads to roadshow as its valuation keeps sliding",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "02:00",
       "attribution": null,
-      "summary": "It took about a month for people to see that Opus 4.5 was a step change in agentic coding, and that realization set up all of 2026. Opus 5.5 has been out a similar amount of time, and people are discovering a subtler but significant step change, this time in video editing.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#opus-55-video-step-change"
+      "summary": "Investor talk of a $2 trillion valuation has fallen to $1.5\u20131.6T, and Bloomberg reports some institutional buyers now want $1.1T, close to the $965B Anthropic raised at in May. Anthropic is reportedly starting its roadshow this week, aiming to list before Thanksgiving and still targeting $80B at $1.5T, per the FT.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#anthropic-ipo-roadshow-lower-valuation"
     },
     {
-      "id": "knowledge-workers-quality-video",
-      "headline": "Knowledge workers can now make edited, graphic-rich video",
-      "type": "take",
-      "segment": "main",
+      "id": "first-major-correction",
+      "headline": "Is this the boom's first real correction?",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "TikTok and YouTube already turned more people into creators, but with real limits. Those limits are disappearing. People who never learned video can now produce quality, edited, graphic-enriched work, not just iPhone-and-CapCut verticals. NLW expects more people using video for more things than ever over the next six to twelve months.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#knowledge-workers-quality-video"
+      "summary": "Open-model researcher Nathan Lambert says that if tech keeps sliding on the Jensen news, this could be remembered as the first major correction: debt went too far, then the election and Jensen hit in quick succession, with Anthropic possibly IPOing at the bottom. Andrew Curran's other view is that believers can now get in at about half price.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#first-major-correction"
     },
     {
-      "id": "editing-became-a-conversation",
-      "headline": "Change one: editing became a conversation",
-      "type": "insight",
-      "segment": "main",
+      "id": "lower-valuation-better-for-retail",
+      "headline": "A lower Anthropic price is good news for retail",
+      "type": "take",
+      "segment": "headlines",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Descript already let you edit video by editing the transcript. Now you can just say \"find the good takes, trim silences and filler, place B-roll, lay a first cut,\" and it happens. That's true in dedicated tools like Underlord, Firefly's assistant and Premiere's Paper Edit, but also natively in Codex and Claude Code.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#editing-became-a-conversation"
+      "summary": "NLW doubts the IPO lands all the way at $1.1T. But retail investors are providing a lot of exit liquidity for early investors who had access to Anthropic deals, so the lower the valuation, the better for them.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#lower-valuation-better-for-retail"
     },
     {
-      "id": "ai-can-watch-footage",
-      "headline": "The underrated change: AI can now watch footage",
+      "id": "openai-round-closes-short",
+      "headline": "OpenAI's round closes well short of target",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "OpenAI closed $11B at a $1.25T valuation, down from a $30B, $1.4T target in September. It will keep raising at that valuation toward $20B, working with banks to reach high-net-worth individuals and retail investors.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#openai-round-closes-short"
+    },
+    {
+      "id": "softbank-defensive-check",
+      "headline": "SoftBank goes from $60B to hundreds of millions",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Watching was always the slowest part of editing. Now you can ask a model to find the three onboarding complaints across twenty hours of calls. Some models approximate this from transcripts and timestamps, but Google's agentic video understanding claims to be up to 88% more token efficient and about 7% more accurate, with the biggest gains on long files.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#ai-can-watch-footage"
+      "summary": "SoftBank put $60B into OpenAI's past two rounds but only hundreds of millions this time, a defensive move as its stock sits 60% below its June high. A mystery seller dumping $500M of data center debt turned out to be ING, not SoftBank. Elon Musk added to the confusion by claiming SoftBank is \"defaulting on their turbine orders.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-09#softbank-defensive-check"
     },
     {
-      "id": "connectors-bring-raw-material",
-      "headline": "Connectors put the raw material within reach",
+      "id": "friar-demand-is-real",
+      "headline": "OpenAI sends its CFO to shore up the narrative",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Especially for internal video, existing connectors pipe in meeting recordings, call recordings, demos, docs and dashboards straight to the model doing the watching and editing. There's no need to build a complicated system to gather footage.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#connectors-bring-raw-material"
+      "summary": "On CNBC, Sarah Friar said \"a good CFO always raises money when she can,\" cited 70% Q3 business growth with enterprise revenue doubling, and argued \"the demand for AI is real\" and that anyone disputing it is making \"a losing argument.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-09#friar-demand-is-real"
     },
     {
-      "id": "agents-record-demos",
-      "headline": "Agents can now record their own demos",
+      "id": "microsoft-drops-oracle-compute",
+      "headline": "Microsoft lets an aging Oracle compute deal lapse",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Thanks to computer use, an agent can plan a demo, open the page in its own browser on its virtual computer, and record the walkthrough with an animated cursor. The capability is nascent, but it exists and will only get better.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#agents-record-demos"
+      "summary": "Microsoft declined to renew a 2023 GPU rental arrangement with Oracle that was an early sign of the ChatGPT-era chip crunch. Sources say the aging chips, reportedly A100s three generations old, no longer suited its needs.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#microsoft-drops-oracle-compute"
     },
     {
-      "id": "remotion-animations",
-      "headline": "Claude Code animates in React and renders with Remotion",
-      "type": "insight",
-      "segment": "main",
+      "id": "depreciation-cycle-evidence",
+      "headline": "First real evidence of old chips aging out",
+      "type": "take",
+      "segment": "headlines",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "That native integration has transformed Claude's ability to put animations into video. The value goes beyond keeping attention: animation is a powerful way to explain dense information. Claude Code lacks native image generation, but APIs such as OpenAI's can fill the gap while Opus 5.5 orchestrates.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#remotion-animations"
+      "summary": "The headlines overstate it, but NLW notes this may be the first real evidence of older chips reaching the end of their depreciation cycle. That has been a key bear case from people like Michael Burry, so investors will pay attention.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#depreciation-cycle-evidence"
     },
     {
-      "id": "generated-footage-improves",
-      "headline": "Generated B-roll is better, but animation still wins",
-      "type": "take",
-      "segment": "main",
+      "id": "powered-capacity-premium",
+      "headline": "Powered, current-gen data centers are the real prize",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "Microsoft, the most conservative hyperscaler, exited a UK data center deal with Nscale over power delays and is reportedly rethinking all its neocloud agreements. There is no clear evidence this reflects weaker AI demand. Instead, data centers with power connections and the latest GPUs are worth far more than ones still under construction or only promised.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#powered-capacity-premium"
+    },
+    {
+      "id": "google-takes-crusoe-site",
+      "headline": "Google buys out Crusoe's troubled Wyoming project",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "Kling 4.0 and Gemini Omni 1.1 produce longer, higher-quality, more controllable clips. Native audio has been standard since Veo 3.1, Runway Gen 4.5 and Kling 3.0. Some footage still falls into the uncanny valley, though. On NLW's How We Got There project, animations have worked far better than generated B-roll.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#generated-footage-improves"
+      "summary": "The unfinished site, announced with plans to scale to 10 gigawatts, struggled with energy and construction delays, rising costs, and a lack of tenants. Google had reportedly pressured Crusoe to leave since the summer, and now plans to invest $17B in it. It shows how hyperscalers can benefit when neoclouds wobble.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#google-takes-crusoe-site"
     },
     {
-      "id": "avatars-dubbing-work",
-      "headline": "Avatars may be weird on social, but dubbing earns its keep at work",
+      "id": "deepmind-phase-transition",
+      "headline": "We are witnessing a genuine phase transition in the pace of scientific discovery.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "08:00",
+      "attribution": "Pushmeet Kohli, VP at Google DeepMind",
+      "summary": "Kohli promised a glimpse in releases over the next few weeks. Meta's Tom Mann and OpenAI's Greg Brockman echoed him, with Brockman saying frontier models with lots of test-time compute are \"becoming the engine of scientific discovery.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-09#deepmind-phase-transition"
+    },
+    {
+      "id": "autonomous-research-speculation",
+      "headline": "Speculation grows that the labs have autonomous research",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "It's unclear whether audiences will accept creators' AI-twin channels. Inside companies, though, avatars and voice copies already pay off. AI dubbing and translation across an international company delivers enough value to outweigh any weirdness.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#avatars-dubbing-work"
+      "summary": "Aggregator Andrew Curran thinks all three big labs have internal models that choose their own research directions, with results arriving this month. Riley Brown says it feels like nothing has happened since Opus 5.5, \"but that is about to change.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-09#autonomous-research-speculation"
     },
     {
-      "id": "harnesses-democratize-video",
-      "headline": "Video's democratization will come from Claude Code and Codex, not video apps",
+      "id": "why-cover-the-affair",
+      "headline": "Why the show is covering a sex scandal",
       "type": "take",
       "segment": "main",
-      "timestamp": "09:00",
+      "timestamp": "12:00",
       "attribution": null,
-      "summary": "Loom, Premiere and Firefly are all adding AI features. The bigger shift is managing video end to end inside OpenAI's and Anthropic's harnesses. Limits remain: generated clips last seconds, timeline edits take multiple passes, and costs climb fast. Still, an inflection point has been reached, and every knowledge worker should consider where video could help.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#harnesses-democratize-video"
+      "summary": "If this were only about Jensen's moral failings, the show would steer clear. But Nvidia is the biggest company in the world, Jensen has been tech's strongest advocate for normalized AI trade with China, and the story carries major geopolitical and market implications.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#why-cover-the-affair"
     },
     {
-      "id": "when-video-beats-text",
-      "headline": "Six signs video beats the doc",
+      "id": "megaspeed-loophole",
+      "headline": "Who Alice Huang is, and why Megaspeed matters",
       "type": "insight",
       "segment": "main",
-      "timestamp": "11:00",
+      "timestamp": "13:00",
       "attribution": null,
-      "summary": "1. Showing beats telling: UI, multi-step workflows, numbers changing between quarters. 2. The audience won't read the doc. 3. You give the same explanation repeatedly. 4. The asset must work in multiple languages. 5. The raw recordings already exist. 6. Conviction matters and you want the emotion to land without you there.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#when-video-beats-text"
+      "summary": "Alice Huang (no relation to Jensen) is an executive at Megaspeed, a Singaporean cloud provider and large Nvidia customer. Megaspeed gave Chinese AI labs remote access to export-banned Nvidia GPUs, which China hawks have called a loophole for over a year. US officials also suspect it smuggled chips, though that is unproven.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#megaspeed-loophole"
     },
     {
-      "id": "who-wont-read-the-doc",
-      "headline": "Ask who needs this but won't read it",
+      "id": "rubio-memo",
+      "headline": "A White House memo flagged her as an MSS spy last spring",
       "type": "insight",
       "segment": "main",
-      "timestamp": "11:00",
+      "timestamp": "14:00",
       "attribution": null,
-      "summary": "Time-constrained executives, frontline teams and customers who don't want a wall of text all have natural limits on attention. Anything made for them is a strong video candidate. That's a realistic read of the audience, not a judgment about the best format.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#who-wont-read-the-doc"
+      "summary": "The New York Times reports a classified memo, drafted under Marco Rubio's oversight, identified Alice as a spy for China's Ministry of State Security and called the relationship romantic. It was circulated ahead of Trump's May trip to Beijing. The FT says officials were privately frustrated with Jensen, who was almost left off that trip.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#rubio-memo"
     },
     {
-      "id": "concept-video",
-      "headline": "Concept videos show what doesn't exist yet",
+      "id": "jensen-confession",
+      "headline": "I was unfaithful to my wife. There is no excuse for what I did.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": "Jensen Huang, in a company-wide email",
+      "summary": "Jensen's Sunday-night company-wide email was a lengthy apology to his family, employees, board, and partners. It did not address the geopolitical side of the scandal.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#jensen-confession"
+    },
+    {
+      "id": "nvidia-board-investigation",
+      "headline": "Nvidia's board opens an independent investigation but backs Jensen",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": null,
+      "summary": "Assisted by outside counsel, the board cast Jensen as the target of a foreign intelligence effort. It says it has no reason to believe national security or Nvidia secrets were compromised, but will examine all available information, while expressing confidence in Jensen and the leadership team. China's foreign ministry calls the spy allegations \"groundless speculation and slander.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-09#nvidia-board-investigation"
+    },
+    {
+      "id": "intention-isnt-the-point",
+      "headline": "Defenders say no bad intent; critics say intent isn't the issue",
       "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "Candidates include product features, store layouts, reorgs, customer journeys and new processes. Start with a vibe-coded prototype, a floor plan or a clearly articulated concept. Then work with your AI build partner to pick or generate the anchor visuals, script it, record it and edit it into a finished package.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#concept-video"
+      "summary": "Shaun Maguire and Bill Ackman defended Jensen as a great but human founder, irreplaceable for America's AI leadership. Critics answered that nobody gets seduced by a spy intending to harm national security. The real problem is that every China decision Jensen made is now suspect, and if removing him upends US AI policy, that is a key-man risk problem.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#intention-isnt-the-point"
     },
     {
-      "id": "meeting-highlight-video",
-      "headline": "The meeting video: show the actual debate, not just the summary",
-      "type": "take",
+      "id": "conflict-of-interest-export",
+      "headline": "The core question is the conflict of interest, not secrets",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "18:00",
+      "timestamp": "17:00",
       "attribution": null,
-      "summary": "For a routine standup, a written AI summary is enough. When you missed a meeting with a real, intense debate over a decision, a cut showing the exchanges as they happened is far more valuable. NLW's aside: if a meeting isn't video-worthy, maybe it should have been text in the first place.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#meeting-highlight-video"
+      "summary": "Commentators like Ryan Fedasiuk and Dmitri Alperovitch argue the bigger issue is whether the relationship shaped decisions to export to Megaspeed and defend it, even after Commerce began investigating it for diverting chips to China. Others suggest she may not have been after state secrets at all, just restricted GPUs.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#conflict-of-interest-export"
     },
     {
-      "id": "voice-of-customer-video",
-      "headline": "Bring customers' voices to the decision-makers",
+      "id": "leak-as-strategy",
+      "headline": "Is the leak itself a move in the chip war?",
       "type": "insight",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "Sales calls, support recordings and customer research can be aggregated and curated into themes. That analysis is useful even as text. Video is how those insights actually reach the people making decisions.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#voice-of-customer-video"
+      "summary": "Taiwanese analyst Andrew Lu argues the scandal's purpose is to discredit Jensen's lobbying against sanctions, reverse H200 export approvals to China, and put Nvidia on a national-security leash. Under the third goal, three congressional committees now examine its security, and an independent board probe effectively plants a Washington watchdog inside Nvidia.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#leak-as-strategy"
     },
     {
-      "id": "exec-pre-read",
-      "headline": "The exec pre-read assumes nobody reads the pre-read",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": null,
-      "summary": "Any time leaders need to get up to speed fast and be conversant in a strategy doc or business case before a big meeting, a video can carry it. If you think it's cynical to rank this so high, NLW says he's very impressed with your company.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#exec-pre-read"
-    },
-    {
-      "id": "self-updating-video",
-      "headline": "The video that updates itself",
+      "id": "h200-shell-companies",
+      "headline": "Commerce approved H200 buyers that may not exist",
       "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "How-tos, SOPs and UI overviews rarely got videos because the footage would be stale in three to six months. Agentic pipelines can now re-source material, update the script and visuals, and re-edit on a schedule, which turns a one-off asset into a living one. You can set this up in Claude Code right now.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#self-updating-video"
+      "summary": "The Times reports Commerce approved dozens of Chinese companies to handle H200s, some tied to sanctioned firms or military contractors. One, New Matrix, lists a Beijing headquarters with no light fixtures, let alone desks. Days earlier, Nvidia began requiring Southeast Asian data centers to enroll in its GPU-tracking fleet intelligence system.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#h200-shell-companies"
     },
     {
-      "id": "numbers-in-motion",
-      "headline": "Dashboards show where things stand; narrated charts show what changed",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "Animated, narrated charts are something AI can do very well today. They're also a natural fit for a self-updating video tied to a live data source.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#numbers-in-motion"
-    },
-    {
-      "id": "ramble-explainer-challenge",
-      "headline": "Skeptical? Ramble at Claude about your hardest explainer",
-      "type": "take",
+      "id": "trump-stands-by-jensen",
+      "headline": "I haven't heard he's done anything wrong.",
+      "type": "quote",
       "segment": "main",
       "timestamp": "23:00",
-      "attribution": null,
-      "summary": "Pick something you're responsible for explaining, such as a comp plan, data architecture, pricing model or new policy. Talk it through with ChatGPT or Claude and ask for a better way to communicate it. Restructuring raw input into a simple form is what AI does best, and now that simple form can be animated.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#ramble-explainer-challenge"
+      "attribution": "President Donald Trump",
+      "summary": "Trump says Jensen should remain CEO and that he would happily bring him on his Asia trip later this month, while admitting \"you never know what is going on.\" Whether that position holds as the story evolves is an open question.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#trump-stands-by-jensen"
     },
     {
-      "id": "handoff-video",
-      "headline": "Handoff videos cut the cost of personnel transitions",
+      "id": "bipartisan-congress-pressure",
+      "headline": "Congress is coming from both sides",
       "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "Departures, leaves, role switches and even vacations lose knowledge, often because the person leaving is slammed until the last minute. Talking is faster and more comprehensive than writing, so let them ramble and have AI turn it into a handoff video for their successor.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#handoff-video"
+      "summary": "Senator Chris Coons, incoming chair of Senate Foreign Relations, promised investigations into what he called an administration that \"isn't corrupt\"-free. Before the story broke, the Republican chairs of House Foreign Affairs, the China Select Committee, and Intelligence had already summoned Jensen to a closed-door meeting later in November.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#bipartisan-congress-pressure"
     },
     {
-      "id": "external-clips-and-thought-leadership",
-      "headline": "Experiment with long-form thought leadership",
-      "type": "take",
+      "id": "market-buys-the-dip",
+      "headline": "Markets flinch, then buy the Nvidia dip",
+      "type": "insight",
       "segment": "main",
       "timestamp": "24:00",
       "attribution": null,
-      "summary": "Repurposing existing talks, webinars and podcast appearances into short-form clips requires no new footage. NLW also pushes for long-form thought leadership. Ramble to camera and let AI handle the cuts and graphics, or work with AI on a tighter script in your own voice. More of us should be doing it, and the world would be better for it.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#external-clips-and-thought-leadership"
+      "summary": "S&P futures shed around $300B when they opened Sunday night and erased the loss within about five minutes, a $650B swing the Kobeissi Letter called the strangest record in stock market history. Monday, Nvidia fell as much as 8.8% before buyers clawed back roughly half the dollar loss, with little spillover into broader tech so far.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#market-buys-the-dip"
     },
     {
-      "id": "personalized-account-videos",
-      "headline": "One base video, 30 personalized sales versions",
+      "id": "how-indispensable-is-jensen",
+      "headline": "How indispensable is Jensen Huang?",
       "type": "insight",
       "segment": "main",
-      "timestamp": "26:00",
+      "timestamp": "25:00",
       "attribution": null,
-      "summary": "Personalized account videos are now genuinely viable. A video agent can turn one base video into 20 or 30 versions with each prospect's name, numbers and use case. Proposals, whether PDFs or websites, have no excuse not to ship with a video making the most compelling version of the argument.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#personalized-account-videos"
+      "summary": "Investor Jim Osman asks how markets price a CEO they can no longer fully trust. Dan Ives says Jensen \"is not replaceable, and that is worry for The Street.\" Others aren't so sure, and DealBook made the question its headline.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#how-indispensable-is-jensen"
     },
     {
-      "id": "video-vs-pipeline",
-      "headline": "A video is a video. A pipeline is an application that makes videos.",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "27:00",
-      "attribution": null,
-      "summary": "To make a single video, you brief Claude Code, point it at assets, give specs and let it run. A pipeline wraps the same steps in code with process logic and triggers, such as monthly or on demand. An agent then searches for updates, refreshes the script and renders the newest version.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#video-vs-pipeline"
-    },
-    {
-      "id": "three-levels-to-start",
-      "headline": "Three levels to get started",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "28:00",
-      "attribution": null,
-      "summary": "Level one: AI edits what you've already recorded, such as a meeting highlight reel. Level two: AI makes something net new, such as quarter-over-quarter results turned into an animated chart. Level three: AI runs a pipeline, such as a Friday video that pulls metrics, tickets or shipped features into a two-minute update. Build one pipeline and the ideas start multiplying.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#three-levels-to-start"
-    },
-    {
-      "id": "not-replacing-editors",
-      "headline": "This isn't about replacing video editors",
+      "id": "what-to-watch",
+      "headline": "Three things to watch from here",
       "type": "take",
       "segment": "main",
-      "timestamp": "29:00",
+      "timestamp": "25:00",
       "attribution": null,
-      "summary": "Agentic coding never meant non-coders replacing developers, and agentic video won't mean amateurs matching professional editors and directors. The point is all the work those professionals' skills were never applied to, because the cost-benefit wasn't there. These are new opportunities to make work work better.",
-      "link": "https://aidailybrief.ai/e/2026-11-08#not-replacing-editors"
+      "summary": "Setting aside the personal elements, NLW points to three things: the market implications, further investigations by Nvidia or the US government, and whether Jensen and Nvidia can still argue for more dovish policy on China and AI.",
+      "link": "https://aidailybrief.ai/e/2026-11-09#what-to-watch"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-08.mp3",
-  "generated": "2026-11-09T23:15:07Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-09.mp3",
+  "generated": "2026-11-11T06:26:18Z"
 }

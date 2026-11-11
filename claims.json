@@ -1838,6 +1838,24 @@
    "resolution": "Vindicated if by November 2027 vendor or survey data show a marked rise in video made by non-specialist knowledge workers for internal use, such as meeting highlights and explainers. Fails if use stays confined to marketing and specialist teams.",
    "check_by": "2027-11-08",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-09",
+   "side": "NLW",
+   "claim": "That the lasting damage from the Jensen Huang affair falls on the dovish case for AI chip trade with China, not on markets, which bought the dip, or on Nvidia's position as anchor of the build-out.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-09",
+   "resolution": "Vindicated if within six months US export policy on Nvidia chips to China tightens, for example H200 approvals are reversed or new controls on South-East Asian intermediaries are imposed, while Nvidia's share price recovers its pre-scandal level. Fails if export policy is unchanged or loosened, or if Nvidia's shares stay well below that level because of findings about its revenue.",
+   "check_by": "2027-05-09",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-09",
+   "side": "Zitron",
+   "claim": "That Nvidia has materially inflated its revenue through intermediaries passing restricted chips to China, that Megaspeed is the tip of the iceberg, and that the affair should cost Huang and the general counsel their jobs.",
+   "source_url": "https://www.wheresyoured.at/jensens-bizarre-adventure/",
+   "resolution": "Vindicated if within twelve months US authorities bring charges or a settlement over chip diversion involving Nvidia or its staff, or Nvidia discloses material revenue tied to diverted sales, or Huang leaves as chief executive. Fails if the board and government inquiries close with no finding of material illicit sales and Huang remains in post.",
+   "check_by": "2027-11-10",
+   "status": "open"
   }
  ]
 }

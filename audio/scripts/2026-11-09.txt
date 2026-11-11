@@ -1,0 +1,21 @@
+David's AI brief for Monday, the ninth of November.
+
+The One Idea today: the scandal around Nvidia's chief executive is not a tabloid story but a China policy story. Jensen Huang has admitted an affair with Alice Huang, no relation, an executive at Megaspeed, a Singapore cloud company and a large Nvidia customer. American intelligence believes she works for China's security ministry. China calls that slander.
+
+Nathaniel Whittemore says he would have left a purely personal failing alone. He covers it because Nvidia is the largest company in the world and the anchor of the AI build-out, and because Huang has been the most effective voice in Washington against a total ban on selling advanced chips to China. Megaspeed is accused of giving Chinese AI labs remote access to chips they are barred from buying, and it was already under investigation. So the question critics ask is not whether secrets were stolen. It is whether the relationship shaped decisions to keep supplying and defending that customer. Every China decision he has made is now open to doubt.
+
+Nvidia's board has opened an independent inquiry while backing him, and says it has no reason to think security was compromised. Congressional committees from both parties want to question him, and the President says he should stay. Some analysts think the leak itself is a move to put Nvidia on a tighter national security lead. Markets wobbled and then bought the dip.
+
+Elsewhere, investors are pressing Anthropic to float at a lower price, and OpenAI closed its funding round at eleven billion dollars against a target of thirty.
+
+Now, the other side. Ed Zitron published a long piece the next day. He argues the affair distracts from the real story, which he says is revenue. He alleges Nvidia has inflated its sales through intermediaries passing restricted chips to China, something reported for over a year, and he cites a short seller's claim that about a fifth of last year's revenue came that way. He wants Huang removed. These are allegations, and Nvidia denies wrongdoing.
+
+So both men circle one question: how much of Nvidia's business, and its case for trading with China, rests on chips arriving there by the back door? They agree the argument for looser exports is badly damaged. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is Huang's closed session with Congress later this month.
+
+Turning to general practice, where this has little clinical relevance. First, almost every AI tool the NHS buys runs on Nvidia hardware. Any effect would reach us indirectly, through the price or availability of cloud services.
+
+Second, the sharpest point is that intent is beside the question. Once a personal relationship overlaps a commercial one, every decision looks suspect. The same holds in procurement. Anyone advising a practice or an integrated care board on an AI supplier should declare ties early, however innocent.
+
+Third, key-person risk. Markets are asking whether one man is replaceable. Small health technology firms often depend on a founder or a single clinical lead. It is fair to ask a scribe supplier who holds clinical safety responsibility, and what happens if that person leaves.
+
+That's the brief. Source, The AI Daily Brief.
