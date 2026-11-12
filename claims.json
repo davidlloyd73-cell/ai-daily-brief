@@ -1856,6 +1856,15 @@
    "resolution": "Vindicated if within twelve months US authorities bring charges or a settlement over chip diversion involving Nvidia or its staff, or Nvidia discloses material revenue tied to diverted sales, or Huang leaves as chief executive. Fails if the board and government inquiries close with no finding of material illicit sales and Huang remains in post.",
    "check_by": "2027-11-10",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-10",
+   "side": "NLW",
+   "claim": "That Fable 5.2 is opportunity AI not efficiency AI: for most everyday work users will stay on Opus 5.5, and its distinctive value, in whole projects such as complete software, video and games, will take weeks of experimentation to become clear.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-10",
+   "resolution": "Vindicated if within three months usage data or credible reviews show Opus 5.5 remaining the default for routine work while Fable 5.2 is adopted mainly for long-running whole-project tasks, with widely cited examples of such projects shipping. Fails if Fable 5.2 either replaces Opus 5.5 for everyday work or sees little distinct use.",
+   "check_by": "2027-02-10",
+   "status": "open"
   }
  ]
 }

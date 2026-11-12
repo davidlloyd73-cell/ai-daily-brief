@@ -1,301 +1,273 @@
 {
-  "date": "2026-11-09",
-  "title": "Nvidia CEO Admits Affair With Suspected Chinese Spy",
-  "dek": "Nvidia CEO Jensen Huang admits an affair with a woman US intelligence believes is a Chinese spy \u2014 an executive at a Megaspeed, a Singaporean cloud provider and major Nvidia customer. Because Nvidia anchors the AI build-out and Jensen has been the industry's strongest advocate for normalized AI trade with China, this is a geopolitical and market story. Plus: Anthropic heads to roadshow at a shrinking valuation, OpenAI's round closes light, and the labs hint at a scientific-discovery phase transition.",
-  "source": "https://aidailybrief.ai/e/2026-11-09",
+  "date": "2026-11-10",
+  "title": "Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet?",
+  "dek": "Anthropic's Fable 5.2 and Mythos 5.2 top nearly every benchmark ever run, solve open science problems and build an operating system from scratch. Yet the most common early reaction is uncertainty about when to reach for it over Opus 5.5, which raises a bigger question about what frontier capability is now actually for.",
+  "source": "https://aidailybrief.ai/e/2026-11-10",
   "oneIdea": {
-    "headline": "Jensen's affair isn't a tabloid story \u2014 it's a China policy story.",
-    "summary": "If this were only about Jensen Huang's personal failings, the show would stay away. But Nvidia is the biggest company in the world and the anchor of the AI build-out, and Jensen has been Washington's most effective voice against a total ban on chip exports to China. An affair with a suspected MSS agent who works at a customer accused of funneling compute to Chinese labs puts every one of his China decisions under question. Congress is circling, Nvidia's board has opened an independent investigation, and some argue the leaks themselves are a strategic move to put Nvidia on a national-security leash. The markets are buying the dip for now. The bigger risk is to the dovish case on China and AI."
+    "headline": "The best model ever is a spiky one, and it only pays off if you get more ambitious.",
+    "summary": "Fable 5.2 is easy to call the most powerful model that has ever existed. It leads in coding, science, cyber and robotics, and it nearly doubles the best score on real-world contractor tasks. It is also expensive, token-hungry and, for most everyday work, no better than Opus 5.5. Its failures are subtle ones of taste and judgment: it doesn't know what humans find interesting, and it doesn't notice when its own work is a slog. The upshot is that this is opportunity AI, not efficiency AI. It is a model for whole projects and for things that weren't possible before, like complete software, live agentic video and playable games. And at this capability level, figuring out what a new model is really for takes weeks, not hours."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Little clinical relevance, but a supply-chain point",
-        "body": "This is a story about one company's chief executive and American export policy, and nothing in it changes clinical practice. The practical link is that almost every AI tool the NHS buys runs on Nvidia hardware. NLW sees a policy risk; Zitron alleges a revenue and legal one. Either would reach us only indirectly, through price or availability of cloud services."
+        "title": "A better model will not make a better scribe overnight",
+        "body": "By the host's own account the new model is no better than its cheaper sibling for most everyday work, and costs more per task. Summarising a consultation is everyday work. If a scribe supplier announces an upgrade to the newest model, ask what measurably improved in their own testing, and whether the price changes."
       },
       {
-        "title": "Conflicts of interest are judged by appearance",
-        "body": "The sharpest point made is that intent is beside the question: once a personal relationship overlaps a commercial one, every decision is suspect. The same standard applies to us in procurement. Anyone advising a practice, PCN or ICB on an AI supplier should declare ties early, however innocent."
+        "title": "The failure to watch for has changed",
+        "body": "Ethan Mollick's observation is that the errors are no longer invented facts but poor judgement: work that is too long, and no sense of when it is not good enough. In a clinical note that means plausible, accurate and bloated, with the important line buried. Reading the note critically matters more, not less, and brevity is worth specifying."
       },
       {
-        "title": "Key-person risk in suppliers",
-        "body": "Markets are asking whether one man is replaceable. Smaller health technology suppliers often depend on a founder or one clinical lead. It is reasonable to ask a scribe vendor who holds clinical safety responsibility, and what happens to the service if that person leaves."
+        "title": "Science claims are the vendor's, and early",
+        "body": "The gene therapy and protein design results come from Anthropic's own launch material and have not been independently replicated or peer reviewed. They are interesting for research, and irrelevant to prescribing for now. Ed Zitron has published nothing on this release, so there is no opposing source; the scepticism here is mine."
       }
     ]
   },
-  "the_other_side": {
-    "source": "Jensen's Bizarre Adventure",
-    "url": "https://www.wheresyoured.at/jensens-bizarre-adventure/",
-    "date": "2026-11-10",
-    "same_day": false,
-    "text": "Zitron, writing a day later, argues the affair distracts from the real story, which he says is revenue: that Nvidia has inflated its sales through intermediaries passing restricted chips to China, a matter reported in detail for over a year and largely ignored. He cites a short seller's allegation, which he says he trusts, that about a fifth of Nvidia's last fiscal-year revenue came from China, and press reports that Nvidia's general counsel contacted officials about a Commerce Department probe of Megaspeed. He calls for Huang and the general counsel to go, and says Megaspeed is \"the tip of the iceberg\", quoting the short seller's source. These are his allegations; Nvidia denies wrongdoing."
-  },
-  "the_truth_beneath": {
-    "text": "The variable both men orbit is how much of Nvidia's business, and its China advocacy, rests on chips reaching China through intermediaries. Both accept as fact that Huang admitted the affair, that Megaspeed was a large customer already under Commerce Department scrutiny, and that the board has opened an inquiry. The empirical question is the size of the diverted sales; the observable is what the board, Congress and the Justice Department find, and whether Nvidia restates or loses revenue booked through South-East Asia. The residue is worldview: whether this is one man's lapse inside a sound company, or typical of an industry that bends rules for growth. For Whittemore to be vindicated, the inquiries must find no compromise and the damage must fall on China policy, not the accounts. For Zitron, investigators must show material illicit revenue and bring charges. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both think the dovish case on chip exports is badly damaged. Watch Huang's closed-door session with Congress later this month."
-  },
+  "the_other_side": null,
+  "the_truth_beneath": null,
   "headlines": [
     {
-      "id": "anthropic-ipo-roadshow-lower-valuation",
-      "headline": "Anthropic heads to roadshow as its valuation keeps sliding",
+      "id": "fable-52-tops-benchmarks",
+      "headline": "Fable 5.2 lifts the bar across nearly every category",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "Investor talk of a $2 trillion valuation has fallen to $1.5\u20131.6T, and Bloomberg reports some institutional buyers now want $1.1T, close to the $965B Anthropic raised at in May. Anthropic is reportedly starting its roadshow this week, aiming to list before Thanksgiving and still targeting $80B at $1.5T, per the FT.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#anthropic-ipo-roadshow-lower-valuation"
+      "summary": "Fable 5.2 leads the field on the main benchmarks. On Frontier Code it is four points ahead of GPT-6 Astra and three and a half ahead of Opus 5.5. On Terminal Bench Science it is a full six points ahead of GPT-6 Astra. On cybersecurity, Mythos 5.2 beats the previous leader by about 10 percentage points in each case.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#fable-52-tops-benchmarks"
     },
     {
-      "id": "first-major-correction",
-      "headline": "Is this the boom's first real correction?",
+      "id": "robotics-protein-benchmarks",
+      "headline": "Anthropic adds robotics and protein design to the scorecard",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Open-model researcher Nathan Lambert says that if tech keeps sliding on the Jensen news, this could be remembered as the first major correction: debt went too far, then the election and Jensen hit in quick succession, with Anthropic possibly IPOing at the bottom. Andrew Curran's other view is that believers can now get in at about half price.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#first-major-correction"
+      "summary": "Anthropic published non-standard benchmarks for emerging capabilities. Fable 5.2 scored 64.9% on RoboDojo Sim, 25 points above Opus 5.5, whose own score was already a breakout result. Mythos 5.2 hit 85.1% on protein design, six points above Mythos 5.1.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#robotics-protein-benchmarks"
     },
     {
-      "id": "lower-valuation-better-for-retail",
-      "headline": "A lower Anthropic price is good news for retail",
-      "type": "take",
-      "segment": "headlines",
+      "id": "knowledge-work-complication",
+      "headline": "Agentic knowledge work is the one complicated result",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "03:00",
+      "attribution": null,
+      "summary": "On one agentic knowledge-work benchmark, Fable 5.2 completed about five points more tasks than Fable 5.1, Opus 5.5 and Gemini 4 Carbon. But its ELO score was lower than Opus 5.5's. It finishes more work without necessarily doing that work better than its smaller stablemate.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#knowledge-work-complication"
+    },
+    {
+      "id": "remote-labor-index-doubles",
+      "headline": "One model generation doubled the real-world labor score",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "NLW doubts the IPO lands all the way at $1.1T. But retail investors are providing a lot of exit liquidity for early investors who had access to Anthropic deals, so the lower the valuation, the better for them.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#lower-valuation-better-for-retail"
+      "summary": "On the Remote Labor Index, which uses real contractor projects, Fable 5.2 scored 41.3%. That nearly doubles Opus 5.5's 21%, and a year ago the best agent managed 2.5%. Obsolete author Garrison Lovely called it by far the most alarming score: still only a leading indicator, but a reminder of how fast change comes under exponential growth.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#remote-labor-index-doubles"
     },
     {
-      "id": "openai-round-closes-short",
-      "headline": "OpenAI's round closes well short of target",
+      "id": "artificial-analysis-leader",
+      "headline": "Fable 5.2 takes the top three spots on Artificial Analysis",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "OpenAI closed $11B at a $1.25T valuation, down from a $30B, $1.4T target in September. It will keep raising at that valuation toward $20B, working with banks to reach high-net-worth individuals and retail investors.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#openai-round-closes-short"
+      "summary": "At max effort it scored 65, five points ahead of Gemini Carbon, six ahead of Opus 5.5 and eight ahead of GPT-6 Astra. The extra-high and high settings both scored 62, filling the next two spots. Gains came mostly from science, knowledge and coding; agentic knowledge work and terminal coding sometimes only reached Opus 5.5 levels.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#artificial-analysis-leader"
     },
     {
-      "id": "softbank-defensive-check",
-      "headline": "SoftBank goes from $60B to hundreds of millions",
+      "id": "cheaper-tokens-pricier-tasks",
+      "headline": "Cheaper per token, still very expensive per task",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "SoftBank put $60B into OpenAI's past two rounds but only hundreds of millions this time, a defensive move as its stock sits 60% below its June high. A mystery seller dumping $500M of data center debt turned out to be ING, not SoftBank. Elon Musk added to the confusion by claiming SoftBank is \"defaulting on their turbine orders.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-09#softbank-defensive-check"
+      "summary": "Anthropic cut Fable's per-token prices by 20%, to $8 input and $40 output per million. But at max effort it costs $26.54 per task across the AA suite: more than double Fable 5.1, 2.6\u00d7 Opus 5.5 and over 4\u00d7 GPT-6 Astra. Dropping to high effort brings that to $9.08, 10% cheaper than Opus 5.5 on max.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#cheaper-tokens-pricier-tasks"
     },
     {
-      "id": "friar-demand-is-real",
-      "headline": "OpenAI sends its CFO to shore up the narrative",
+      "id": "effort-settings-guidance",
+      "headline": "Anthropic says max effort is not for everyday use",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "On CNBC, Sarah Friar said \"a good CFO always raises money when she can,\" cited 70% Q3 business growth with enterprise revenue doubling, and argued \"the demand for AI is real\" and that anyone disputing it is making \"a losing argument.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-09#friar-demand-is-real"
+      "summary": "Anthropic's guidance: medium is the default, high is enough for everyday coding, and extra high is for long-running agentic work with measurable outcomes. Max is for finding the ceiling. Early tester Matt Schumer argues even low covers most tasks, so real-world costs may look better than the headline numbers.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#effort-settings-guidance"
     },
     {
-      "id": "microsoft-drops-oracle-compute",
-      "headline": "Microsoft lets an aging Oracle compute deal lapse",
+      "id": "fable-for-ambitious-tasks",
+      "headline": "Anthropic reserves Fable for the jobs other models can't do",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "06:00",
-      "attribution": null,
-      "summary": "Microsoft declined to renew a 2023 GPU rental arrangement with Oracle that was an early sign of the ChatGPT-era chip crunch. Sources say the aging chips, reportedly A100s three generations old, no longer suited its needs.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#microsoft-drops-oracle-compute"
-    },
-    {
-      "id": "depreciation-cycle-evidence",
-      "headline": "First real evidence of old chips aging out",
-      "type": "take",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "The headlines overstate it, but NLW notes this may be the first real evidence of older chips reaching the end of their depreciation cycle. That has been a key bear case from people like Michael Burry, so investors will pay attention.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#depreciation-cycle-evidence"
+      "summary": "Claude writes 90% of Anthropic's code changes under human supervision. Fable 5.2 is brought in for stubborn bugs, performance work and high-value projects that would otherwise be too slow or costly, such as migrating a critical production service from Python to Rust. That may be good guidance for everyone else too.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#fable-for-ambitious-tasks"
     },
     {
-      "id": "powered-capacity-premium",
-      "headline": "Powered, current-gen data centers are the real prize",
+      "id": "operating-system-from-scratch",
+      "headline": "Fable 5.2 built a bootable operating system from an empty folder",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "Microsoft, the most conservative hyperscaler, exited a UK data center deal with Nscale over power delays and is reportedly rethinking all its neocloud agreements. There is no clear evidence this reflects weaker AI demand. Instead, data centers with power connections and the latest GPUs are worth far more than ones still under construction or only promised.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#powered-capacity-premium"
+      "summary": "Over eight days, the model coordinated more than 1,000 sub-agents to write, test and review an OS. It boots on a laptop and has its own core, drivers, file storage, windows, a login screen, an installer and built-in Claude. Theo's reaction, \"Yeah, and?\", shows how quickly we're getting desensitized.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#operating-system-from-scratch"
     },
     {
-      "id": "google-takes-crusoe-site",
-      "headline": "Google buys out Crusoe's troubled Wyoming project",
+      "id": "science-breakthroughs",
+      "headline": "Black holes, gene therapy and Fermat's Last Theorem",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "The unfinished site, announced with plans to scale to 10 gigawatts, struggled with energy and construction delays, rising costs, and a lack of tenants. Google had reportedly pressured Crusoe to leave since the summer, and now plans to invest $17B in it. It shows how hyperscalers can benefit when neoclouds wobble.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#google-takes-crusoe-site"
+      "summary": "Fable 5.2 solved two open theoretical-physics problems about black holes and accurately modeled 28 of 34 gene-therapy capsids. It also fully formalized Fermat's Last Theorem into a machine-readable proof in 30 hours with 1,000 agents; Opus 5.5 stalled 26% of the way through after 18 hours. NLW doesn't think the heavy science emphasis is accidental.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#science-breakthroughs"
     },
     {
-      "id": "deepmind-phase-transition",
-      "headline": "We are witnessing a genuine phase transition in the pace of scientific discovery.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": "Pushmeet Kohli, VP at Google DeepMind",
-      "summary": "Kohli promised a glimpse in releases over the next few weeks. Meta's Tom Mann and OpenAI's Greg Brockman echoed him, with Brockman saying frontier models with lots of test-time compute are \"becoming the engine of scientific discovery.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-09#deepmind-phase-transition"
-    },
-    {
-      "id": "autonomous-research-speculation",
-      "headline": "Speculation grows that the labs have autonomous research",
+      "id": "robotics-bitter-lesson",
+      "headline": "A general model is beating purpose-built robot drivers",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "Aggregator Andrew Curran thinks all three big labs have internal models that choose their own research directions, with results arriving this month. Riley Brown says it feels like nothing has happened since Opus 5.5, \"but that is about to change.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-09#autonomous-research-speculation"
+      "summary": "In Anthropic's demo, Fable 5.2 piloted a pair of robotic arms, including on tasks it was never explicitly trained for. It outperformed most models designed specifically to drive robotic arms, which suggests the bitter lesson applies to advanced robotics too.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#robotics-bitter-lesson"
     },
     {
-      "id": "why-cover-the-affair",
-      "headline": "Why the show is covering a sex scandal",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "12:00",
-      "attribution": null,
-      "summary": "If this were only about Jensen's moral failings, the show would steer clear. But Nvidia is the biggest company in the world, Jensen has been tech's strongest advocate for normalized AI trade with China, and the story carries major geopolitical and market implications.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#why-cover-the-affair"
-    },
-    {
-      "id": "megaspeed-loophole",
-      "headline": "Who Alice Huang is, and why Megaspeed matters",
+      "id": "security-audit-bug-hunt",
+      "headline": "Testers say: run a security audit with Fable 5.2",
       "type": "insight",
       "segment": "main",
       "timestamp": "13:00",
       "attribution": null,
-      "summary": "Alice Huang (no relation to Jensen) is an executive at Megaspeed, a Singaporean cloud provider and large Nvidia customer. Megaspeed gave Chinese AI labs remote access to export-banned Nvidia GPUs, which China hawks have called a loophole for over a year. US officials also suspect it smuggled chips, though that is unproven.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#megaspeed-loophole"
+      "summary": "Fitting Mythos's origin story, testers found the commercial model very strong on security. One found 10+ severe vulnerabilities, created earlier by Opus 5.5, without even asking. On Pavel Hurin's bug hunt bench, Fable found 58 of 105 planted bugs. Most top models find 40\u201345, and Sonnet 5.5 Max found 51 using twice as many turns at higher cost.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#security-audit-bug-hunt"
     },
     {
-      "id": "rubio-memo",
-      "headline": "A White House memo flagged her as an MSS spy last spring",
+      "id": "agentic-video-single-shot",
+      "headline": "A full 60-second ad, live, in a single shot",
       "type": "insight",
       "segment": "main",
       "timestamp": "14:00",
       "attribution": null,
-      "summary": "The New York Times reports a classified memo, drafted under Marco Rubio's oversight, identified Alice as a spy for China's Ministry of State Security and called the relationship romantic. It was circulated ahead of Trump's May trip to Beijing. The FT says officials were privately frustrated with Jensen, who was almost left off that trip.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#rubio-memo"
+      "summary": "Riley Brown had Fable 5.2 create a 60-second ad for itself live on stream, in one shot, with zoomed-in visuals, artistic shots and realistic lighting and physics. Even Claude Code creator Boris Cherny said \"Whoa.\" NLW sees it as more evidence that agentic video is real.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#agentic-video-single-shot"
     },
     {
-      "id": "jensen-confession",
-      "headline": "I was unfaithful to my wife. There is no excuse for what I did.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": "Jensen Huang, in a company-wide email",
-      "summary": "Jensen's Sunday-night company-wide email was a lengthy apology to his family, employees, board, and partners. It did not address the geopolitical side of the scandal.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#jensen-confession"
-    },
-    {
-      "id": "nvidia-board-investigation",
-      "headline": "Nvidia's board opens an independent investigation but backs Jensen",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": null,
-      "summary": "Assisted by outside counsel, the board cast Jensen as the target of a foreign intelligence effort. It says it has no reason to believe national security or Nvidia secrets were compromised, but will examine all available information, while expressing confidence in Jensen and the leadership team. China's foreign ministry calls the spy allegations \"groundless speculation and slander.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-09#nvidia-board-investigation"
-    },
-    {
-      "id": "intention-isnt-the-point",
-      "headline": "Defenders say no bad intent; critics say intent isn't the issue",
+      "id": "every-build-your-own-software",
+      "headline": "Every says professionals can now build production tools without reading code",
       "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "Shaun Maguire and Bill Ackman defended Jensen as a great but human founder, irreplaceable for America's AI leadership. Critics answered that nobody gets seduced by a spy intending to harm national security. The real problem is that every China decision Jensen made is now suspect, and if removing him upends US AI policy, that is a key-man risk problem.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#intention-isnt-the-point"
+      "summary": "Every's review, \"Fable 5.2 is a paradigm shift if you know what to do with it,\" describes a teammate building a working video editor that combines Premiere, After Effects and Ableton-style mixing with an AI agent. Their claim: Opus 5.5 keeps you in the loop, but Fable 5.2 \"can take the whole product.\" That reopens the SaaSpocalypse question many had settled in favor of buying over building.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#every-build-your-own-software"
     },
     {
-      "id": "conflict-of-interest-export",
-      "headline": "The core question is the conflict of interest, not secrets",
-      "type": "insight",
+      "id": "nlw-gets-it-done",
+      "headline": "Earlier models started projects; Fable finishes them",
+      "type": "take",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Commentators like Ryan Fedasiuk and Dmitri Alperovitch argue the bigger issue is whether the relationship shaped decisions to export to Megaspeed and defend it, even after Commerce began investigating it for diverting chips to China. Others suggest she may not have been after state secrets at all, just restricted GPUs.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#conflict-of-interest-export"
+      "summary": "NLW had the same experience with the original Fable 5. Earlier models let him start lots of projects, but Fable actually completed them. He rebuilt the AI Daily Brief website and extraction pipeline in the 48 hours he had access, and barely touched it during the shutdown.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#nlw-gets-it-done"
     },
     {
-      "id": "leak-as-strategy",
-      "headline": "Is the leak itself a move in the chip war?",
+      "id": "spiky-kind-of-nuts",
+      "headline": "For most tasks, even fans say to use Opus 5.5",
       "type": "insight",
       "segment": "main",
-      "timestamp": "19:00",
+      "timestamp": "18:00",
       "attribution": null,
-      "summary": "Taiwanese analyst Andrew Lu argues the scandal's purpose is to discredit Jensen's lobbying against sanctions, reverse H200 export approvals to China, and put Nvidia on a national-security leash. Under the third goal, three congressional committees now examine its security, and an independent board probe effectively plants a Washington watchdog inside Nvidia.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#leak-as-strategy"
+      "summary": "Every's Dan Shipper called it \"a spiky kind of nuts.\" Some tasks will blow your mind like nothing before. For everything else it's sort of normal, and Opus 5.5 is the better choice.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#spiky-kind-of-nuts"
     },
     {
-      "id": "h200-shell-companies",
-      "headline": "Commerce approved H200 buyers that may not exist",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "The Times reports Commerce approved dozens of Chinese companies to handle H200s, some tied to sanctioned firms or military contractors. One, New Matrix, lists a Beijing headquarters with no light fixtures, let alone desks. Days earlier, Nvidia began requiring Southeast Asian data centers to enroll in its GPU-tracking fleet intelligence system.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#h200-shell-companies"
-    },
-    {
-      "id": "trump-stands-by-jensen",
-      "headline": "I haven't heard he's done anything wrong.",
+      "id": "mollick-expertise-gap",
+      "headline": "Knowing when your own work is not good enough is a large part of what makes someone an expert, and it's the part Fable does least reliably.",
       "type": "quote",
       "segment": "main",
-      "timestamp": "23:00",
-      "attribution": "President Donald Trump",
-      "summary": "Trump says Jensen should remain CEO and that he would happily bring him on his Asia trip later this month, while admitting \"you never know what is going on.\" Whether that position holds as the story evolves is an open question.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#trump-stands-by-jensen"
+      "timestamp": "20:00",
+      "attribution": "Ethan Mollick, \"Fable 5.2 and Jagged AGI\"",
+      "summary": "In \"Fable 5.2 and Jagged AGI,\" Mollick calls the model almost AGI. Its failures have changed: no longer made-up facts but a joyless course, a 182-page paper and creative work buried in rules. Its critics and fact-checkers caught errors but never asked whether the work was too long or no fun.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#mollick-expertise-gap"
     },
     {
-      "id": "bipartisan-congress-pressure",
-      "headline": "Congress is coming from both sides",
+      "id": "no-sense-of-human-appeal",
+      "headline": "Fable doesn't know what humans find impressive",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "20:00",
+      "attribution": null,
+      "summary": "Asked in the regular Claude interface to show off its capabilities, Fable made things that are hard to make but easy to check. These included a sentence that counts its own letters, music that harmonizes when played backwards, and a hand-built QR code. NLW found them underwhelming, since most people can't tell why they're hard. In Claude Code, it produced a far more interesting three-minute film generated entirely in the browser.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#no-sense-of-human-appeal"
+    },
+    {
+      "id": "same-prompt-same-trick",
+      "headline": "Same prompt, eerily similar output, down to a hidden acrostic",
       "type": "insight",
       "segment": "main",
-      "timestamp": "23:00",
+      "timestamp": "22:00",
       "attribution": null,
-      "summary": "Senator Chris Coons, incoming chair of Senate Foreign Relations, promised investigations into what he called an administration that \"isn't corrupt\"-free. Before the story broke, the Republican chairs of House Foreign Affairs, the China Select Committee, and Intelligence had already summoned Jensen to a closed-door meeting later in November.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#bipartisan-congress-pressure"
+      "summary": "NLW's coding-harness result closely matched what Ethan Mollick got from nearly the same prompt, right down to the twist ending. In both, the first letters of the script's sentences spelled a hidden message. Mollick's spelled his blog name; NLW's spelled the prompt's last line, \"Be amazingly clever about this.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-10#same-prompt-same-trick"
     },
     {
-      "id": "market-buys-the-dip",
-      "headline": "Markets flinch, then buy the Nvidia dip",
-      "type": "insight",
+      "id": "announced-is-not-available",
+      "headline": "Its first episode pitch was \"unfathomably boring\"",
+      "type": "take",
       "segment": "main",
-      "timestamp": "24:00",
+      "timestamp": "22:00",
       "attribution": null,
-      "summary": "S&P futures shed around $300B when they opened Sunday night and erased the loss within about five minutes, a $650B swing the Kobeissi Letter called the strangest record in stock market history. Monday, Nvidia fell as much as 8.8% before buyers clawed back roughly half the dollar loss, with little spillover into broader tech so far.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#market-buys-the-dip"
+      "summary": "Asked for an impressive, data-driven AI Daily Brief episode, Fable proposed timing every AI launch from announcement to availability. It found a real gap in the coverage but couldn't tell that nobody cares. Its backup idea, grading AI predictions that have come due, worked better, but NLW thinks Opus 5.5 would have done roughly as well.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#announced-is-not-available"
     },
     {
-      "id": "how-indispensable-is-jensen",
-      "headline": "How indispensable is Jensen Huang?",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "Investor Jim Osman asks how markets price a CEO they can no longer fully trust. Dan Ives says Jensen \"is not replaceable, and that is worry for The Street.\" Others aren't so sure, and DealBook made the question its headline.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#how-indispensable-is-jensen"
-    },
-    {
-      "id": "what-to-watch",
-      "headline": "Three things to watch from here",
+      "id": "opportunity-ai-games",
+      "headline": "Opportunity AI: should you make a game instead of a deck?",
       "type": "take",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "Setting aside the personal elements, NLW points to three things: the market implications, further investigations by Nvidia or the US government, and whether Jensen and Nvidia can still argue for more dovish policy on China and AI.",
-      "link": "https://aidailybrief.ai/e/2026-11-09#what-to-watch"
+      "summary": "Fable 5.2 asks users to do things that weren't possible before, not just to improve existing work. Its game-building looks like a real step: testers say it handles actual game mechanics, not just good-looking shells. Anthropic's Sholto Douglas called it the first model to pass his bar for \"seriously fun and beautiful games.\" NLW wonders whether games become a new medium for personal and professional work.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#opportunity-ai-games"
+    },
+    {
+      "id": "more-annoying-than-opus",
+      "headline": "The top critique: for most work it's just more annoying than Opus 5.5",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "Skeptics call Fable models stubborn, heavy on guardrails, short on taste, expensive and token-hungry. Some argue that's why this is 5.2 and not 5.5: no Opus-5-to-5.5-style leap. Within an hour, Theo was already struggling to decide which model to use.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#more-annoying-than-opus"
+    },
+    {
+      "id": "how-to-use-fable",
+      "headline": "Give it the whole project, and tell it the code is its own",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "28:00",
+      "attribution": null,
+      "summary": "Anthropic's Alex Albert advises:\n- Ask what's wrong with your idea before it builds anything.\n- Set approval points up front, such as before deleting things, and make clear the rest is its call.\n- Start on medium or high effort.\n- Hand it a whole project and let it run for hours.\nAnthropic's updated prompting guide adds that when told the codebase is its own, the model merges duplicate code and fixes nearby problems instead of just reporting them.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#how-to-use-fable"
+    },
+    {
+      "id": "weeks-to-digest",
+      "headline": "New models now take weeks, not hours, to understand",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "29:00",
+      "attribution": null,
+      "summary": "Even with Opus 5.5, it took three or four weeks for people to start understanding what made it different. NLW suspects Fable 5.2 has something similar in it, but finding it will take experimentation.",
+      "link": "https://aidailybrief.ai/e/2026-11-10#weeks-to-digest"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-09.mp3",
-  "generated": "2026-11-11T06:26:18Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-10.mp3",
+  "generated": "2026-11-12T06:22:23Z"
 }

@@ -1,0 +1,21 @@
+David's AI brief for Tuesday, the tenth of November.
+
+The One Idea today: the best AI model yet released is a spiky one, and it only pays off if you become more ambitious in what you ask of it. Anthropic has released a model called Fable five point two, with a restricted sibling called Mythos. Nathaniel Whittemore says it is easy to call it the most capable model that has ever existed, and yet the commonest early reaction is uncertainty about when to use it.
+
+The headline numbers are strong. It leads the main tests in coding, science, security and robotics. On a measure built from real freelance projects it completed forty-one per cent, nearly double the previous best, where a year ago the leading system managed two and a half per cent. In Anthropic's own demonstrations it coordinated more than a thousand helper agents over eight days to build a working computer operating system from an empty folder, and it turned a famous mathematical proof into a form a machine can check in thirty hours.
+
+But it is expensive. The price per unit of text was cut by a fifth, yet at its highest setting a task costs about twenty-six dollars, more than two and a half times its cheaper sibling, Opus. And for most ordinary work it is no better. Even enthusiasts say to use Opus for everyday tasks. Anthropic itself reserves the new model for stubborn bugs and large projects.
+
+The more interesting finding is how it fails. Ethan Mollick, who calls it almost general intelligence, says the mistakes are no longer invented facts. They are failures of taste and judgement: a joyless course, a paper running to a hundred and eighty-two pages. In his words, knowing when your own work is not good enough is a large part of being an expert, and it is the part this model does least reliably. Whittemore found the same. Asked for an impressive episode idea, it proposed something accurate that nobody would want to hear.
+
+So his conclusion is that this is a tool for opportunity and not for efficiency. It suits whole projects and things that were not possible before, and working out what it is really for will take weeks.
+
+Ed Zitron has published nothing on this release, so there is no opposing source today. I would add my own caution: most of these results come from the company's launch material and from testers given early access.
+
+Turning to general practice. First, a better model will not make a better scribe overnight. Summarising a consultation is everyday work, where the host himself says the cheaper model does as well. If a supplier announces an upgrade, ask what measurably improved in their own testing, and whether the price changes.
+
+Second, the failure to watch for has changed. In a clinical note, poor judgement means text that is plausible, accurate and bloated, with the important line buried. Reading the note critically matters more, not less.
+
+Third, the gene therapy and protein results are the vendor's own, and have not been independently replicated or peer reviewed. They are of interest to researchers, and irrelevant to prescribing for now.
+
+That's the brief. Source, The AI Daily Brief.
