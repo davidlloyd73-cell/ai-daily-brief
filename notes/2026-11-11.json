@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Supplier durability is the practical question",
+   "body": "Most of this edition is about share prices, which do not touch clinical work. The link to us is that scribes and other NHS tools are built on models from a handful of labs. NLW reads the flotation as a company raising cash it needs and investors unsure how to value it. Zitron reads the same filing as a firm whose fixed bills demand flawless growth. Neither view changes what we do tomorrow, but both support the same habit: ask a supplier which model it depends on, whether it could switch, and what the contract says about price rises."
+  },
+  {
+   "title": "Cheaper models, seen from both sides",
+   "body": "Google's new model came within one bug of the leader on a coding test at under a quarter of the cost. For a buyer that is good news, and it should feed through to what scribe vendors charge. Zitron's point is the mirror image: Anthropic's own filing shows discounts and price cuts took about $600 million off one quarter's revenue. Falling prices help the NHS now and strain the suppliers. Short contracts and fixed prices suit that position better than long commitments."
+  },
+  {
+   "title": "Staff building their own tools",
+   "body": "Anthropic says its lawyers, who do not write code, built a review tool that cut a three-day turnaround to a day. A practice manager could do something similar for rotas or recall lists. The NHS runs on Microsoft and that will not change soon. The caution is governance: anything touching patient data needs a data protection impact assessment and, if it informs care, clinical safety sign-off."
+  }
+ ]
+}

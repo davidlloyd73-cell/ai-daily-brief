@@ -1865,6 +1865,24 @@
    "resolution": "Vindicated if within three months usage data or credible reviews show Opus 5.5 remaining the default for routine work while Fable 5.2 is adopted mainly for long-running whole-project tasks, with widely cited examples of such projects shipping. Fails if Fable 5.2 either replaces Opus 5.5 for everyday work or sees little distinct use.",
    "check_by": "2027-02-10",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-11",
+   "side": "NLW",
+   "claim": "That the drift down from the $2 trillion chatter is not a missed target, and that demand for Anthropic's shares is strong enough that the $70 to $78 range already looks too low, with bankers planning to lift the top end to about $1.5 trillion.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-11",
+   "resolution": "Vindicated if Anthropic lists by the check date, prices its shares at or above $78, and the shares close above the offer price at the end of their first week of trading. Fails if it prices within or below the original range, delays the listing, or the shares end their first week below the offer price.",
+   "check_by": "2026-12-11",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-11",
+   "side": "Zitron",
+   "claim": "That Anthropic's obligations are priced for perfection: revenue growth will slow to roughly 15 to 25 per cent in the fourth quarter of 2026, and the company will have to borrow at junk rates of eight to eleven per cent to meet its compute commitments.",
+   "source_url": "https://www.wheresyoured.at/running-dry/",
+   "resolution": "Vindicated if Anthropic's reported fourth-quarter 2026 revenue grows 25 per cent or less on the third quarter, and within twelve months it raises debt rated below investment grade or priced at eight per cent or more. Fails if fourth-quarter growth is clearly above 25 per cent and it raises no such debt, or borrows at investment-grade rates.",
+   "check_by": "2027-11-03",
+   "status": "open"
   }
  ]
 }

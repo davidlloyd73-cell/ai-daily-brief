@@ -1,0 +1,21 @@
+David's AI brief for Wednesday, the eleventh of November.
+
+The One Idea today: heading into Anthropic's flotation, we know a great many numbers and almost nothing at all. The company has set a price range of seventy to seventy-eight dollars a share, which values it at between one and a quarter and one point four trillion dollars. It aims to list next week.
+
+Bears point out that the talk a month ago was of two trillion, and read the fall as a warning for the whole AI trade. Nathaniel Whittemore answers that the two trillion figure never came from Anthropic. It came from an anonymous investor, it was eye-catching, and it stuck. Within a day the Financial Times reported that the bankers plan to raise the top of the range to one and a half trillion on strong demand. The optimists cite revenue running at eighty-one billion dollars a year, up ten billion in October alone. His conclusion is that nobody knows, and everyone is flailing until the shares trade.
+
+There was a second story. Anthropic launched spreadsheet, whiteboard and data tools aimed squarely at Microsoft's territory, and Microsoft's shares fell about two per cent.
+
+Elsewhere, Google's new model, Gemini Four Carbon, shipped and nearly matched the leader on a coding test at under a quarter of the cost. And OpenAI reported a record quarter of over ten billion dollars.
+
+Now, the other side. Ed Zitron, writing eight days earlier on the same filing, treats the falling valuation as one sign among several that the money is running out. He argues Anthropic has committed to roughly four hundred and fifty billion dollars of computing costs before the end of the decade, and will have to borrow at junk rates to meet them. He calls those obligations priced for perfection.
+
+So both men circle one question: can revenue keep growing faster than the fixed bills already signed? Both are polemicists with incentives, one bullish and one certain of a bubble. Where they agree is that today's figures cannot tell you what the company is worth. The thing to watch is the first day of trading next week.
+
+Turning to general practice. Most of this is about share prices and does not touch clinical work. The practical link is supplier durability. Scribes and other tools are built on models from a handful of laboratories. It is reasonable to ask a supplier which model it depends on, whether it could switch, and what the contract says about price rises.
+
+Second, cheaper models. Competition is pushing prices down, which helps the NHS as a buyer. Mister Zitron notes the mirror image: Anthropic's own filing shows discounts took about six hundred million dollars off one quarter's revenue. Falling prices help us now and strain the suppliers, so short contracts with fixed prices suit us better than long commitments.
+
+Third, Anthropic says its lawyers, who do not write code, built a tool that cut a three-day review to one day. A practice manager could do the same for rotas or recall lists. The caution is governance. Anything touching patient data needs a data protection impact assessment, and clinical safety sign-off if it informs care.
+
+That's the brief — source, The AI Daily Brief.

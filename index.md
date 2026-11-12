@@ -1,92 +1,107 @@
 ---
-title: David's AI Daily Brief — 2026-11-10
-date: 2026-11-10
-source: https://aidailybrief.ai/e/2026-11-10
+title: David's AI Daily Brief — 2026-11-11
+date: 2026-11-11
+source: https://aidailybrief.ai/e/2026-11-11
 note: Personal, non-commercial distillation of The AI Daily Brief podcast. GP's Corner is AI commentary, not from the podcast.
 ---
 
 # David's AI Daily Brief
 
-**Tuesday 10 November 2026 · 30 min listen**
+**Wednesday 11 November 2026 · 25 min listen**
 
-## Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet?
+## Wall Street Has No Idea What Anthropic Is Worth
 
-_Anthropic's Fable 5.2 and Mythos 5.2 top nearly every benchmark ever run, solve open science problems and build an operating system from scratch. Yet the most common early reaction is uncertainty about when to reach for it over Opus 5.5, which raises a bigger question about what frontier capability is now actually for._
+_Anthropic sets its IPO range and Wall Street promptly argues about whether it's too high, too low, or a referendum on the whole AI trade, while a new Claude productivity suite knocks Microsoft's stock. Meanwhile Google's Gemini 4 Carbon finally ships, Nvidia's spy scandal deepens, and OpenAI posts a record quarter. The honest takeaway from all the IPO numbers: nobody actually knows yet._
 
-Source: https://aidailybrief.ai/e/2026-11-10
+Source: https://aidailybrief.ai/e/2026-11-11
 
-Audio: https://davids-ai-brief.netlify.app/audio/2026-11-10.mp3
+Audio: https://davids-ai-brief.netlify.app/audio/2026-11-11.mp3
 
 ## The One Idea
 
-### The best model ever is a spiky one, and it only pays off if you get more ambitious.
+### Heading into Anthropic's IPO, we know a lot of numbers and almost nothing at all.
 
-Fable 5.2 is easy to call the most powerful model that has ever existed. It leads in coding, science, cyber and robotics, and it nearly doubles the best score on real-world contractor tasks. It is also expensive, token-hungry and, for most everyday work, no better than Opus 5.5. Its failures are subtle ones of taste and judgment: it doesn't know what humans find interesting, and it doesn't notice when its own work is a slog. The upshot is that this is opportunity AI, not efficiency AI. It is a model for whole projects and for things that weren't possible before, like complete software, live agentic video and playable games. And at this capability level, figuring out what a new model is really for takes weeks, not hours.
+Anthropic is pricing at $70–78 a share, implying $1.25–1.4 trillion, and its banks are already mulling a bump to $1.5 trillion on strong demand. Bears read the drift down from the splashy $2 trillion chatter as a warning for the AI trade. Contrarians point to $81 billion in run-rate revenue and retail desperate for frontier-lab exposure. The valuation targets were never Anthropic's own; they came from anonymous investors and stuck. Microsoft dipping on a Claude spreadsheet launch is more evidence of a market flailing until the stock actually trades. Buckle up: the next phase starts next week.
+
+## The Other Side
+
+Zitron, writing eight days earlier on the amended filing, treats the falling valuation not as noise but as one sign among several that the money is running out. He argues Anthropic has committed to about $447.5 billion of compute spending before the end of 2030, expects a junk credit rating, and will have to borrow at eight to eleven per cent to cover the gap. He says its obligations are "priced for perfection", requiring it to double in a year, while Ramp expects fourth-quarter growth of only 15 to 25 per cent. He also claims around four fifths of its revenue comes from venture-backed startups, so growth depends on venture capital continuing to flow.
+
+Source: Ed Zitron, "Running Dry", 3 November 2026 — https://www.wheresyoured.at/running-dry/
+
+## The Truth Beneath
+
+The variable both men orbit is whether Anthropic's revenue can keep growing faster than the fixed compute bills it has signed. Both accept the filed numbers: a price range implying about $1.25 to $1.4 trillion, run-rate revenue in the tens of billions, and several hundred billion dollars of commitments falling due by 2030. The empirical question is whether growth holds once those payments start. The observables are the first public quarterly results, fourth-quarter growth against Ramp's forecast of 15 to 25 per cent, and the interest rate on any debt Anthropic raises. The residue is worldview: whether demand for AI labour is durable, or on loan from venture capital. For Whittemore to be vindicated, revenue must broaden beyond coding into finance, law and life sciences, and the shares must hold. For Zitron, growth must stall while costs rise and lenders balk. Both are polemicists with incentives, Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both say today's figures cannot tell you what this company is worth. Watch the first day of trading next week.
 
 ## GP's Corner
 
 _Claude's notes on what today means for UK general practice and the NHS - commentary, not from the podcast itself._
 
-### A better model will not make a better scribe overnight
+### Supplier durability is the practical question
 
-By the host's own account the new model is no better than its cheaper sibling for most everyday work, and costs more per task. Summarising a consultation is everyday work. If a scribe supplier announces an upgrade to the newest model, ask what measurably improved in their own testing, and whether the price changes.
+Most of this edition is about share prices, which do not touch clinical work. The link to us is that scribes and other NHS tools are built on models from a handful of labs. NLW reads the flotation as a company raising cash it needs and investors unsure how to value it. Zitron reads the same filing as a firm whose fixed bills demand flawless growth. Neither view changes what we do tomorrow, but both support the same habit: ask a supplier which model it depends on, whether it could switch, and what the contract says about price rises.
 
-### The failure to watch for has changed
+### Cheaper models, seen from both sides
 
-Ethan Mollick's observation is that the errors are no longer invented facts but poor judgement: work that is too long, and no sense of when it is not good enough. In a clinical note that means plausible, accurate and bloated, with the important line buried. Reading the note critically matters more, not less, and brevity is worth specifying.
+Google's new model came within one bug of the leader on a coding test at under a quarter of the cost. For a buyer that is good news, and it should feed through to what scribe vendors charge. Zitron's point is the mirror image: Anthropic's own filing shows discounts and price cuts took about $600 million off one quarter's revenue. Falling prices help the NHS now and strain the suppliers. Short contracts and fixed prices suit that position better than long commitments.
 
-### Science claims are the vendor's, and early
+### Staff building their own tools
 
-The gene therapy and protein design results come from Anthropic's own launch material and have not been independently replicated or peer reviewed. They are interesting for research, and irrelevant to prescribing for now. Ed Zitron has published nothing on this release, so there is no opposing source; the scepticism here is mine.
+Anthropic says its lawyers, who do not write code, built a review tool that cut a three-day turnaround to a day. A practice manager could do something similar for rotas or recall lists. The NHS runs on Microsoft and that will not change soon. The caution is governance: anything touching patient data needs a data protection impact assessment and, if it informs care, clinical safety sign-off.
 
 ## NLW's Takes
 
-### Earlier models started projects; Fable finishes them
+### The whole country now carries Nvidia's keyman risk
 
-NLW had the same experience with the original Fable 5. Earlier models let him start lots of projects, but Fable actually completed them. He rebuilt the AI Daily Brief website and extraction pipeline in the 48 hours he had access, and barely touched it during the shutdown.
+Nvidia is down 11% since the story broke and makes up about 7% of the S&P 500 and 8% of the Nasdaq, so most US investors are heavily exposed. Its success is also now a national-security matter because of the AI race. There is no simple fix. NLW: the entire nation is experiencing "the mother of all keyman risks."
 
-### Fable doesn't know what humans find impressive
+### ChatGPT's business agents turn ads into conversations
 
-Asked in the regular Claude interface to show off its capabilities, Fable made things that are hard to make but easy to check. These included a sentence that counts its own letters, music that harmonizes when played backwards, and a hand-built QR code. NLW found them underwhelming, since most people can't tell why they're hard. In Claude Code, it produced a far more interesting three-minute film generated entirely in the browser.
+OpenAI's new business hub gives advertisers an analytics-style dashboard and lets brands deploy "business agents" that consumers can talk to after clicking an ad. NLW reads this as the start of ChatGPT competing more directly with Meta. Expect much more treatment of ChatGPT as a commerce platform, since so many of its answers already touch shopping.
 
-### Its first episode pitch was "unfathomably boring"
+### Anthropic's messaging finally clicks: miracles first, risks second
 
-Asked for an impressive, data-driven AI Daily Brief episode, Fable proposed timing every AI launch from announcement to availability. It found a real gap in the coverage but couldn't tell that nobody cares. Its backup idea, grading AI predictions that have come due, worked better, but NLW thinks Opus 5.5 would have done roughly as well.
+Nothing in Dario's roadshow pitch, an "age of miracles" with risks carefully addressed, is new. What's new is the balance. The miracles are the point, and the risks are what must be overcome to get there. That ordering has eluded the company in the past.
 
-### Opportunity AI: should you make a game instead of a deck?
+### Anthropic never "settled" for less than $2 trillion
 
-Fable 5.2 asks users to do things that weren't possible before, not just to improve existing work. Its game-building looks like a real step: testers say it handles actual game mechanics, not just good-looking shells. Anthropic's Sholto Douglas called it the first model to pass his bar for "seriously fun and beautiful games." NLW wonders whether games become a new medium for personal and professional work.
+The $2 trillion figure came from an anonymous investor source of unknown proximity to the company, and it was splashy enough to stick. Anthropic couldn't respond during its quiet period. The slide from $2T to $1.6T to $1.5T to talk of $1.1T says something about shifting investor mood, but it isn't a goal Anthropic set and missed.
 
-### New models now take weeks, not hours, to understand
+### The real lesson of the price debate: nobody knows
 
-Even with Opus 5.5, it took three or four weeks for people to start understanding what made it different. NLW suspects Fable 5.2 has something similar in it, but finding it will take experimentation.
+Investors have no clear idea what to expect, what's reasonable, or what other investors think is reasonable. Bears say the lower valuation is bearish and that a weak debut will trigger another leg down in the AI trade. Until the stock trades, everyone is flailing.
+
+### The fight over where work happens started in November 2022
+
+Once Claude becomes the shared work surface, it needs this kind of infrastructure around it. The place where work happens is increasingly inside the LLM harness or app, and this suite is a natural extension of that. Matthew Berman: "If you build software, the labs will compete with you." Microsoft fell 2.2% on the news.
 
 ## All Headlines, Briefly
 
-- [Fable 5.2 lifts the bar across nearly every category](https://aidailybrief.ai/e/2026-11-10#fable-52-tops-benchmarks) (02:00)
-- [Anthropic adds robotics and protein design to the scorecard](https://aidailybrief.ai/e/2026-11-10#robotics-protein-benchmarks) (03:00)
-- [Agentic knowledge work is the one complicated result](https://aidailybrief.ai/e/2026-11-10#knowledge-work-complication) (03:00)
-- [One model generation doubled the real-world labor score](https://aidailybrief.ai/e/2026-11-10#remote-labor-index-doubles) (04:00)
-- [Fable 5.2 takes the top three spots on Artificial Analysis](https://aidailybrief.ai/e/2026-11-10#artificial-analysis-leader) (04:00)
-- [Cheaper per token, still very expensive per task](https://aidailybrief.ai/e/2026-11-10#cheaper-tokens-pricier-tasks) (05:00)
-- [Anthropic says max effort is not for everyday use](https://aidailybrief.ai/e/2026-11-10#effort-settings-guidance) (06:00)
-- [Anthropic reserves Fable for the jobs other models can't do](https://aidailybrief.ai/e/2026-11-10#fable-for-ambitious-tasks) (07:00)
-- [Fable 5.2 built a bootable operating system from an empty folder](https://aidailybrief.ai/e/2026-11-10#operating-system-from-scratch) (07:00)
-- [Black holes, gene therapy and Fermat's Last Theorem](https://aidailybrief.ai/e/2026-11-10#science-breakthroughs) (08:00)
-- [A general model is beating purpose-built robot drivers](https://aidailybrief.ai/e/2026-11-10#robotics-bitter-lesson) (09:00)
-- [Testers say: run a security audit with Fable 5.2](https://aidailybrief.ai/e/2026-11-10#security-audit-bug-hunt) (13:00)
-- [A full 60-second ad, live, in a single shot](https://aidailybrief.ai/e/2026-11-10#agentic-video-single-shot) (14:00)
-- [Every says professionals can now build production tools without reading code](https://aidailybrief.ai/e/2026-11-10#every-build-your-own-software) (16:00)
-- [Earlier models started projects; Fable finishes them](https://aidailybrief.ai/e/2026-11-10#nlw-gets-it-done) (17:00)
-- [For most tasks, even fans say to use Opus 5.5](https://aidailybrief.ai/e/2026-11-10#spiky-kind-of-nuts) (18:00)
-- [“Knowing when your own work is not good enough is a large part of what makes someone an expert, and it's the part Fable does least reliably.”](https://aidailybrief.ai/e/2026-11-10#mollick-expertise-gap) — Ethan Mollick, "Fable 5.2 and Jagged AGI" (20:00)
-- [Fable doesn't know what humans find impressive](https://aidailybrief.ai/e/2026-11-10#no-sense-of-human-appeal) (20:00)
-- [Same prompt, eerily similar output, down to a hidden acrostic](https://aidailybrief.ai/e/2026-11-10#same-prompt-same-trick) (22:00)
-- [Its first episode pitch was "unfathomably boring"](https://aidailybrief.ai/e/2026-11-10#announced-is-not-available) (22:00)
-- [Opportunity AI: should you make a game instead of a deck?](https://aidailybrief.ai/e/2026-11-10#opportunity-ai-games) (25:00)
-- [The top critique: for most work it's just more annoying than Opus 5.5](https://aidailybrief.ai/e/2026-11-10#more-annoying-than-opus) (27:00)
-- [Give it the whole project, and tell it the code is its own](https://aidailybrief.ai/e/2026-11-10#how-to-use-fable) (28:00)
-- [New models now take weeks, not hours, to understand](https://aidailybrief.ai/e/2026-11-10#weeks-to-digest) (29:00)
+- [Gemini 4 Carbon finally ships, and it lives up to the preview](https://aidailybrief.ai/e/2026-11-11#gemini-4-carbon-ships) (01:00)
+- [Carbon nearly matches the leader on coding at under a quarter of the cost](https://aidailybrief.ai/e/2026-11-11#carbon-near-top-at-fraction-of-cost) (02:00)
+- [“Similar efforts could take teams decades of combined effort. We did it in a month's time.”](https://aidailybrief.ai/e/2026-11-11#kohli-decades-in-a-month) — Pushmeet Kohli, VP at DeepMind, on Carbon's formal verification of Signal (02:00)
+- [Trump defends Jensen as the Nvidia spy scandal spreads](https://aidailybrief.ai/e/2026-11-11#trump-defends-jensen) (04:00)
+- [Up to $7.5 billion in Nvidia chips may have flowed to China via Megaspeed](https://aidailybrief.ai/e/2026-11-11#megaspeed-smuggling-network) (04:00)
+- [A Commerce probe into Megaspeed reportedly stalled after Nvidia got in touch](https://aidailybrief.ai/e/2026-11-11#commerce-probe-halted) (05:00)
+- [Nvidia has no succession plan, and that boxes in its own board](https://aidailybrief.ai/e/2026-11-11#nvidia-no-succession-plan) (06:00)
+- [The whole country now carries Nvidia's keyman risk](https://aidailybrief.ai/e/2026-11-11#national-keyman-risk) (07:00)
+- [OpenAI posts a record $10B+ quarter and finally gets a growth story back](https://aidailybrief.ai/e/2026-11-11#openai-record-q3) (07:00)
+- [OpenAI acquires an AI travel agent built the AI-first way](https://aidailybrief.ai/e/2026-11-11#openai-buys-travel-agent) (08:00)
+- [ChatGPT's business agents turn ads into conversations](https://aidailybrief.ai/e/2026-11-11#chatgpt-business-agents) (09:00)
+- [The blue wave didn't stop it: Anthropic goes public before Thanksgiving](https://aidailybrief.ai/e/2026-11-11#anthropic-ipo-next-week) (13:00)
+- [Anthropic's messaging finally clicks: miracles first, risks second](https://aidailybrief.ai/e/2026-11-11#miracles-first-messaging) (14:00)
+- [“Of course I do. I'm a patriot.”](https://aidailybrief.ai/e/2026-11-11#dario-patriot) — Dario Amodei, Anthropic CEO, to Bloomberg's Emily Chang (15:00)
+- [The numbers: $70–78 a share, $1.25–1.4 trillion, about $100 billion floated](https://aidailybrief.ai/e/2026-11-11#anthropic-price-range) (15:00)
+- [Anthropic never "settled" for less than $2 trillion](https://aidailybrief.ai/e/2026-11-11#two-trillion-never-a-target) (16:00)
+- [Within a day, the range already looked too low](https://aidailybrief.ai/e/2026-11-11#price-already-too-low) (18:00)
+- [The real lesson of the price debate: nobody knows](https://aidailybrief.ai/e/2026-11-11#investors-are-flailing) (18:00)
+- [The contrarian case: $81B run rate and retail starving for exposure](https://aidailybrief.ai/e/2026-11-11#contrarian-bull-case) (19:00)
+- [At $1.4 trillion, Anthropic is priced like CrowdStrike, not Palantir](https://aidailybrief.ai/e/2026-11-11#forty-times-revenue) (20:00)
+- [The bigger compute risk may sit with the Neoclouds](https://aidailybrief.ai/e/2026-11-11#lambda-default-neocloud-risk) (20:00)
+- [Claude Sheets, Whiteboards, and Data take aim at Microsoft's turf](https://aidailybrief.ai/e/2026-11-11#claude-productivity-suite) (21:00)
+- [Anthropic's lawyers cut marketing reviews from three days to 24 hours](https://aidailybrief.ai/e/2026-11-11#non-technical-teams-build-tools) (22:00)
+- [The fight over where work happens started in November 2022](https://aidailybrief.ai/e/2026-11-11#where-work-happens) (23:00)
+- [Microsoft is investor, landlord, reseller, and now competitor](https://aidailybrief.ai/e/2026-11-11#microsoft-every-side) (23:00)
 
 ---
 
