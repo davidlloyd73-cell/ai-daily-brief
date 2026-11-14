@@ -1,0 +1,19 @@
+David's AI brief for Thursday, the twelfth of November.
+
+The One Idea today: Jensen Huang was not only the chief executive of Nvidia. He was load-bearing for the whole AI industry, and everything he held up is now in play. Nvidia announced that he is leaving both the top job and the board. The finance chief, Colette Kress, becomes interim chief executive, and the company has appointed its first chairman.
+
+It followed a week of revelations. First came the affair with a woman American intelligence suspects of working for China, an executive at a large customer accused of diverting chips. Then reports that Nvidia's general counsel had leaned on a Commerce Department investigation into that customer. Then the New York Times reported a second affair, with a senior colleague who reported to him directly. On Sunday the board expressed confidence in him. By Wednesday it had met to remove him. The announcement carried no comment from him.
+
+Nathaniel Whittemore sets aside the speculation about who leaked what, and notes that once a powerful figure starts to fall, sources come forward without any need for a conspiracy. His interest is in what changes. America has lost its main personal link to China and to the Taiwanese chip maker TSMC. Open models have lost their loudest advocate in Washington, and those who want tighter export controls gain ground. Above all, he says, the industry has lost something like its central banker. Nvidia guaranteed financing for smaller companies and AI labs, and new leadership is likely to be more cautious. He expects Nvidia to steady, but with a diminished future. Beneath it all he sees a growing feeling, on left and right, that the largest companies have become too powerful.
+
+Now, the other side. Ed Zitron published a paid piece the following day, of which only the opening is free. He says the press is treating this as gossip and missing the larger matter, which is his allegation that Nvidia misled people about where its money comes from. He repeats a short seller's claim that more than a fifth of last year's revenue may have come through diverted sales to China. These remain allegations.
+
+So both men circle one question: was Huang holding the industry up, or propping it up? They agree that Nvidia's financial backstops are the thing most at risk. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is Nvidia's results later this month.
+
+Turning to general practice, where the clinical relevance is limited. First, the supply chain. Some suppliers of NHS tools rent their computing from firms that leaned on Nvidia's support. It is fair to ask a vendor where the service is hosted and what the continuity plan is.
+
+Second, open models. They are what allow a tool to run inside a trust's own systems, so that patient data never leaves. If American policy turns against them, that option could narrow. Nothing has changed yet.
+
+Third, governance. This turned on a board with no succession plan and a leader nobody challenged. The lesson is ordinary, and it applies to a practice as much as to a company. No one should be beyond challenge, and succession is best planned before it is needed.
+
+That's the brief. Source, The AI Daily Brief.

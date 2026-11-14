@@ -1883,6 +1883,24 @@
    "resolution": "Vindicated if Anthropic's reported fourth-quarter 2026 revenue grows 25 per cent or less on the third quarter, and within twelve months it raises debt rated below investment grade or priced at eight per cent or more. Fails if fourth-quarter growth is clearly above 25 per cent and it raises no such debt, or borrows at investment-grade rates.",
    "check_by": "2027-11-03",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-12",
+   "side": "NLW",
+   "claim": "That with Jensen Huang gone Nvidia will find a near-term bottom and stabilise, but its new leadership will reset expectations and pull back from backstopping financing for labs and neoclouds, while China hawks win tighter export controls.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-12",
+   "resolution": "Vindicated if within six months Nvidia's share price is above its level on the day of the resignation, the company announces fewer or smaller financing guarantees and investments in customers than in the prior six months, and US export controls on AI chips are tightened. Fails if Nvidia's shares keep falling, or its customer financing continues at the same pace, or export controls are unchanged.",
+   "check_by": "2027-05-12",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-12",
+   "side": "Zitron",
+   "claim": "That Megaspeed is one part of a wider network diverting Nvidia chips to China, which may account for more than a fifth of Nvidia's fiscal 2026 revenue, and that Nvidia's statements about where its money comes from cannot be trusted.",
+   "source_url": "https://www.wheresyoured.at/hg-megaspeed/",
+   "resolution": "Vindicated if within twelve months Nvidia restates or newly discloses a material share of revenue as tied to diverted or China-bound sales, or US authorities bring enforcement action against Nvidia itself over export violations or disclosures. Fails if inquiries close with no finding against the company and no material change to reported revenue.",
+   "check_by": "2027-11-13",
+   "status": "open"
   }
  ]
 }

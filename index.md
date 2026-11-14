@@ -1,107 +1,115 @@
 ---
-title: David's AI Daily Brief — 2026-11-11
-date: 2026-11-11
-source: https://aidailybrief.ai/e/2026-11-11
+title: David's AI Daily Brief — 2026-11-12
+date: 2026-11-12
+source: https://aidailybrief.ai/e/2026-11-12
 note: Personal, non-commercial distillation of The AI Daily Brief podcast. GP's Corner is AI commentary, not from the podcast.
 ---
 
 # David's AI Daily Brief
 
-**Wednesday 11 November 2026 · 25 min listen**
+**Thursday 12 November 2026 · 30 min listen**
 
-## Wall Street Has No Idea What Anthropic Is Worth
+## Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.
 
-_Anthropic sets its IPO range and Wall Street promptly argues about whether it's too high, too low, or a referendum on the whole AI trade, while a new Claude productivity suite knocks Microsoft's stock. Meanwhile Google's Gemini 4 Carbon finally ships, Nvidia's spy scandal deepens, and OpenAI posts a record quarter. The honest takeaway from all the IPO numbers: nobody actually knows yet._
+_After a week of escalating revelations — a second affair, a suspected Chinese intelligence asset, and Nvidia's intervention in a Commerce probe — Jensen Huang is out as Nvidia's CEO. Forget the who-did-it speculation for a moment: the bigger story is what changes when the AI industry's linchpin, China bridge, open-source champion and de facto financial backstop is suddenly gone._
 
-Source: https://aidailybrief.ai/e/2026-11-11
+Source: https://aidailybrief.ai/e/2026-11-12
 
-Audio: https://davids-ai-brief.netlify.app/audio/2026-11-11.mp3
+Audio: https://davids-ai-brief.netlify.app/audio/2026-11-12.mp3
 
 ## The One Idea
 
-### Heading into Anthropic's IPO, we know a lot of numbers and almost nothing at all.
+### Jensen Huang wasn't just Nvidia's CEO. He was load-bearing for the whole AI industry, and now everything he held up is in play.
 
-Anthropic is pricing at $70–78 a share, implying $1.25–1.4 trillion, and its banks are already mulling a bump to $1.5 trillion on strong demand. Bears read the drift down from the splashy $2 trillion chatter as a warning for the AI trade. Contrarians point to $81 billion in run-rate revenue and retail desperate for frontier-lab exposure. The valuation targets were never Anthropic's own; they came from anonymous investors and stuck. Microsoft dipping on a Claude spreadsheet launch is more evidence of a market flailing until the stock actually trades. Buckle up: the next phase starts next week.
+Whether or not anyone coordinated his fall, Jensen Huang is gone, and the more useful question is what shifts now. He was the US's key bridge to China and TSMC, the loudest champion of open source, Anthropic's chief philosophical opponent in Washington, and the adult in the room backstopping financing for labs and neoclouds. Nvidia will probably find a bottom and stabilize, but its long-term destiny looks diminished. China hawks gain leverage, open source loses its best advocate, and the build-out may lose the closest thing it had to a Federal Reserve chair. Under all of it sits a growing, bipartisan sense that the biggest private companies have simply grown too powerful.
 
 ## The Other Side
 
-Zitron, writing eight days earlier on the amended filing, treats the falling valuation not as noise but as one sign among several that the money is running out. He argues Anthropic has committed to about $447.5 billion of compute spending before the end of 2030, expects a junk credit rating, and will have to borrow at eight to eleven per cent to cover the gap. He says its obligations are "priced for perfection", requiring it to double in a year, while Ramp expects fourth-quarter growth of only 15 to 25 per cent. He also claims around four fifths of its revenue comes from venture-backed startups, so growth depends on venture capital continuing to flow.
+Zitron, in a paid piece published the day after of which only the opening is free to read, says the press is treating Huang's fall as tabloid material and missing the larger matter: his allegation that Nvidia misled people about how and where it makes its money. He repeats a short seller's claim that more than a fifth of last fiscal year's revenue may have come through diverted sales to China, and points to two earlier SEC actions against Nvidia over its disclosures. Where Whittemore mourns a load-bearing figure, Zitron concludes "we can't trust a damn word" Huang or Nvidia says. These are his allegations.
 
-Source: Ed Zitron, "Running Dry", 3 November 2026 — https://www.wheresyoured.at/running-dry/
+Source: Ed Zitron, "Premium: The Hater's Guide To Megaspeed", 13 November 2026 — https://www.wheresyoured.at/hg-megaspeed/
 
 ## The Truth Beneath
 
-The variable both men orbit is whether Anthropic's revenue can keep growing faster than the fixed compute bills it has signed. Both accept the filed numbers: a price range implying about $1.25 to $1.4 trillion, run-rate revenue in the tens of billions, and several hundred billion dollars of commitments falling due by 2030. The empirical question is whether growth holds once those payments start. The observables are the first public quarterly results, fourth-quarter growth against Ramp's forecast of 15 to 25 per cent, and the interest rate on any debt Anthropic raises. The residue is worldview: whether demand for AI labour is durable, or on loan from venture capital. For Whittemore to be vindicated, revenue must broaden beyond coding into finance, law and life sciences, and the shares must hold. For Zitron, growth must stall while costs rise and lenders balk. Both are polemicists with incentives, Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both say today's figures cannot tell you what this company is worth. Watch the first day of trading next week.
+The variable both men orbit is whether Huang was holding the AI industry up or propping it up. Both accept as fact that he is out, that Nvidia's general counsel reportedly intervened in a Commerce Department probe, and that Nvidia's guarantees and investments underpin labs and neoclouds. The empirical question is whether that support, and Nvidia's reported revenue, survive scrutiny under new management; the observable is Nvidia's next results and guidance under its interim chief executive, and whether it keeps backstopping customers. The residue is worldview: whether one man's judgement built an industry or disguised its weakness. For Whittemore to be vindicated, Nvidia must stabilise while the losses fall on China ties, open models and the pace of building. For Zitron, investigators must show material diverted revenue and the financing web must contract. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both think Nvidia's backstops are the thing most at risk. Watch Nvidia's results later this month.
 
 ## GP's Corner
 
 _Claude's notes on what today means for UK general practice and the NHS - commentary, not from the podcast itself._
 
-### Supplier durability is the practical question
+### Limited clinical relevance; watch the supply chain
 
-Most of this edition is about share prices, which do not touch clinical work. The link to us is that scribes and other NHS tools are built on models from a handful of labs. NLW reads the flotation as a company raising cash it needs and investors unsure how to value it. Zitron reads the same filing as a firm whose fixed bills demand flawless growth. Neither view changes what we do tomorrow, but both support the same habit: ask a supplier which model it depends on, whether it could switch, and what the contract says about price rises.
+A change of chief executive at a chip maker does not alter anything in the consulting room. The indirect link is financing. NLW says Nvidia's guarantees held up smaller AI companies; Zitron says that support hid weak businesses. Either way, some suppliers of NHS tools rent their computing from firms that depended on it, so ask vendors where their service is hosted and what their continuity plan is.
 
-### Cheaper models, seen from both sides
+### Open models matter for data kept on site
 
-Google's new model came within one bug of the leader on a coding test at under a quarter of the cost. For a buyer that is good news, and it should feed through to what scribe vendors charge. Zitron's point is the mirror image: Anthropic's own filing shows discounts and price cuts took about $600 million off one quarter's revenue. Falling prices help the NHS now and strain the suppliers. Short contracts and fixed prices suit that position better than long commitments.
+NLW notes that open models have lost their most prominent advocate in Washington. For the NHS, open models are what make it possible to run a tool inside a trust's own systems, so patient data never leaves. If American policy turns against them, that option could narrow. It is worth following, though nothing has changed yet.
 
-### Staff building their own tools
+### Governance, not genius
 
-Anthropic says its lawyers, who do not write code, built a review tool that cut a three-day turnaround to a day. A practice manager could do something similar for rotas or recall lists. The NHS runs on Microsoft and that will not change soon. The caution is governance: anything touching patient data needs a data protection impact assessment and, if it informs care, clinical safety sign-off.
+The episode turned on a board with no succession plan and a senior lawyer reportedly leaning on a regulator. The lesson is ordinary and applies to any organisation, a practice or an out-of-hours provider included: no individual should be beyond challenge, relationships with direct reports are a governance matter, and succession should be planned before it is needed.
 
 ## NLW's Takes
 
-### The whole country now carries Nvidia's keyman risk
+### The US just lost its key human bridge to China and TSMC
 
-Nvidia is down 11% since the story broke and makes up about 7% of the S&P 500 and 8% of the Nasdaq, so most US investors are heavily exposed. Its success is also now a national-security matter because of the AI race. There is no simple fix. NLW: the entire nation is experiencing "the mother of all keyman risks."
+Beyond the policies he pushed, Jensen personally connected US and Chinese political and business communities, and he was major connective tissue with TSMC in Taiwan. Losing him from those conversations matters regardless of what Nvidia's policy positions become.
 
-### ChatGPT's business agents turn ads into conversations
+### The architect of US chip leadership is out of play
 
-OpenAI's new business hub gives advertisers an analytics-style dashboard and lets brands deploy "business agents" that consumers can talk to after clicking an ad. NLW reads this as the start of ChatGPT competing more directly with Meta. Expect much more treatment of ChatGPT as a commerce platform, since so many of its answers already touch shopping.
+Jensen made early, contrarian bets that put Nvidia and the US in front. In the long run, reducing key-man risk could leave the sector healthier five or ten years out, as companies like AMD and Google benefit from a less dominant Nvidia.
 
-### Anthropic's messaging finally clicks: miracles first, risks second
+### Open source just lost its biggest advocate in Washington
 
-Nothing in Dario's roadshow pitch, an "age of miracles" with risks carefully addressed, is new. What's new is the balance. The miracles are the point, and the risks are what must be overcome to get there. That ordering has eluded the company in the past.
+Powerful forces in Washington see open source as a safety risk and an obstacle to control. Nvidia's Nemotron models were gaining enterprise traction, and even if Nvidia keeps building them, the uncertainty could slow corporate adoption of open models. Meta and Thinking Machines Lab gain ground as open-source leaders.
 
-### Anthropic never "settled" for less than $2 trillion
+### Anthropic, x-risk advocates and China hawks all gain in Washington
 
-The $2 trillion figure came from an anonymous investor source of unknown proximity to the company, and it was splashy enough to stick. Anthropic couldn't respond during its quiet period. The slide from $2T to $1.6T to $1.5T to talk of $1.1T says something about shifting investor mood, but it isn't a goal Anthropic set and missed.
+With its chief philosophical opponent neutered, Anthropic's influence in Washington likely grows. Sam Altman has historically sat between the two poles. Existential-risk advocates lose their strongest denier, and China hawks gain momentum for tighter export controls, which puts the screws on regions like the Gulf to choose sides.
 
-### The real lesson of the price debate: nobody knows
+### Nvidia likely finds a bottom, but its destiny looks diminished
 
-Investors have no clear idea what to expect, what's reasonable, or what other investors think is reasonable. Bears say the lower valuation is bearish and that a weak debut will trigger another leg down in the AI trade. Until the stock trades, everyone is flailing.
+There is no greater capitulation than the CEO of the world's largest company resigning, so a near-term bottom and eventual stabilization, perhaps at a repriced level, seem likely. Jensen's real value, though, was the momentum behind long-term bets that replacement leadership rarely provides. As Naval put it, one does not simply replace the founder.
 
-### The fight over where work happens started in November 2022
+### The AI industry just lost its Federal Reserve chair
 
-Once Claude becomes the shared work surface, it needs this kind of infrastructure around it. The place where work happens is increasingly inside the LLM harness or app, and this suite is a natural extension of that. Matthew Berman: "If you build software, the labs will compete with you." Microsoft fell 2.2% on the news.
+Nvidia has been the adult in the room guaranteeing financing for smaller companies and model labs, the same web of backstops the AI bears worry about. New leadership will likely use this moment to reset expectations toward Wall Street's wishes rather than build out as fast as humanly possible. That is an underappreciated shift with implications that are hard to overstate.
+
+### Everything coming out at once doesn't require a conspiracy
+
+Once a previously unimpeachable CEO falls, journalists hammer every source they have, and sources realize there will never be a more resonant moment to talk. The more that comes out, the more likely it is that more comes out. Don't assume we're done.
+
+### The real story: a growing sense that big tech has too much power
+
+Pieces like The Atlantic's "The Scandal Is Bigger Than Jensen Huang" and a TikTok from journalist Jacob Ward are livid less about Jensen than about corporate power itself. Ward goes so far as to argue the public should have a democratic say in whether a CEO stays, which is far outside recent American norms. NLW expects this push, from both sides of the spectrum, to rebalance power toward government to grow in importance.
 
 ## All Headlines, Briefly
 
-- [Gemini 4 Carbon finally ships, and it lives up to the preview](https://aidailybrief.ai/e/2026-11-11#gemini-4-carbon-ships) (01:00)
-- [Carbon nearly matches the leader on coding at under a quarter of the cost](https://aidailybrief.ai/e/2026-11-11#carbon-near-top-at-fraction-of-cost) (02:00)
-- [“Similar efforts could take teams decades of combined effort. We did it in a month's time.”](https://aidailybrief.ai/e/2026-11-11#kohli-decades-in-a-month) — Pushmeet Kohli, VP at DeepMind, on Carbon's formal verification of Signal (02:00)
-- [Trump defends Jensen as the Nvidia spy scandal spreads](https://aidailybrief.ai/e/2026-11-11#trump-defends-jensen) (04:00)
-- [Up to $7.5 billion in Nvidia chips may have flowed to China via Megaspeed](https://aidailybrief.ai/e/2026-11-11#megaspeed-smuggling-network) (04:00)
-- [A Commerce probe into Megaspeed reportedly stalled after Nvidia got in touch](https://aidailybrief.ai/e/2026-11-11#commerce-probe-halted) (05:00)
-- [Nvidia has no succession plan, and that boxes in its own board](https://aidailybrief.ai/e/2026-11-11#nvidia-no-succession-plan) (06:00)
-- [The whole country now carries Nvidia's keyman risk](https://aidailybrief.ai/e/2026-11-11#national-keyman-risk) (07:00)
-- [OpenAI posts a record $10B+ quarter and finally gets a growth story back](https://aidailybrief.ai/e/2026-11-11#openai-record-q3) (07:00)
-- [OpenAI acquires an AI travel agent built the AI-first way](https://aidailybrief.ai/e/2026-11-11#openai-buys-travel-agent) (08:00)
-- [ChatGPT's business agents turn ads into conversations](https://aidailybrief.ai/e/2026-11-11#chatgpt-business-agents) (09:00)
-- [The blue wave didn't stop it: Anthropic goes public before Thanksgiving](https://aidailybrief.ai/e/2026-11-11#anthropic-ipo-next-week) (13:00)
-- [Anthropic's messaging finally clicks: miracles first, risks second](https://aidailybrief.ai/e/2026-11-11#miracles-first-messaging) (14:00)
-- [“Of course I do. I'm a patriot.”](https://aidailybrief.ai/e/2026-11-11#dario-patriot) — Dario Amodei, Anthropic CEO, to Bloomberg's Emily Chang (15:00)
-- [The numbers: $70–78 a share, $1.25–1.4 trillion, about $100 billion floated](https://aidailybrief.ai/e/2026-11-11#anthropic-price-range) (15:00)
-- [Anthropic never "settled" for less than $2 trillion](https://aidailybrief.ai/e/2026-11-11#two-trillion-never-a-target) (16:00)
-- [Within a day, the range already looked too low](https://aidailybrief.ai/e/2026-11-11#price-already-too-low) (18:00)
-- [The real lesson of the price debate: nobody knows](https://aidailybrief.ai/e/2026-11-11#investors-are-flailing) (18:00)
-- [The contrarian case: $81B run rate and retail starving for exposure](https://aidailybrief.ai/e/2026-11-11#contrarian-bull-case) (19:00)
-- [At $1.4 trillion, Anthropic is priced like CrowdStrike, not Palantir](https://aidailybrief.ai/e/2026-11-11#forty-times-revenue) (20:00)
-- [The bigger compute risk may sit with the Neoclouds](https://aidailybrief.ai/e/2026-11-11#lambda-default-neocloud-risk) (20:00)
-- [Claude Sheets, Whiteboards, and Data take aim at Microsoft's turf](https://aidailybrief.ai/e/2026-11-11#claude-productivity-suite) (21:00)
-- [Anthropic's lawyers cut marketing reviews from three days to 24 hours](https://aidailybrief.ai/e/2026-11-11#non-technical-teams-build-tools) (22:00)
-- [The fight over where work happens started in November 2022](https://aidailybrief.ai/e/2026-11-11#where-work-happens) (23:00)
-- [Microsoft is investor, landlord, reseller, and now competitor](https://aidailybrief.ai/e/2026-11-11#microsoft-every-side) (23:00)
+- [Jensen Huang is out as Nvidia's CEO, and off the board too](https://aidailybrief.ai/e/2026-11-12#jensen-huang-out-as-nvidia-ceo) (01:00)
+- [A second affair, this time with a direct report](https://aidailybrief.ai/e/2026-11-12#second-affair-with-direct-report) (02:00)
+- [The board went from "confidence" to ouster in four days](https://aidailybrief.ai/e/2026-11-12#board-reversal-in-four-days) (03:00)
+- [The spark: a State Department memo about a Singaporean neocloud executive](https://aidailybrief.ai/e/2026-11-12#megaspeed-spy-allegation) (03:00)
+- [Nvidia's general counsel reportedly leaned on a Commerce investigation](https://aidailybrief.ai/e/2026-11-12#nvidia-general-counsel-commerce-probe) (04:00)
+- [Megaspeed was one of Nvidia's biggest Southeast Asian customers](https://aidailybrief.ai/e/2026-11-12#megaspeed-not-from-nowhere) (05:00)
+- [The debate was never really about the affair](https://aidailybrief.ai/e/2026-11-12#affair-vs-national-security) (05:00)
+- [“Jensen Huang is a brilliant man and a fool.”](https://aidailybrief.ai/e/2026-11-12#economist-brilliant-man-and-a-fool) — The Economist, "Jensen Huang Must Resign" (06:00)
+- [“The potential for extortion is so tremendous with something as sensitive as Nvidia chips.”](https://aidailybrief.ai/e/2026-11-12#cramer-potential-for-extortion) — Senator Kevin Cramer (R), to Politico (06:00)
+- [The board's bind, and a telling silence](https://aidailybrief.ai/e/2026-11-12#boards-impossible-bind) (06:00)
+- [To many observers, the timing felt coordinated](https://aidailybrief.ai/e/2026-11-12#coordination-narrative) (10:00)
+- [Is Jensen's fall a win for China or a loss?](https://aidailybrief.ai/e/2026-11-12#does-china-win-either-way) (13:00)
+- [The steelman for why Democrats might welcome this](https://aidailybrief.ai/e/2026-11-12#democrats-show-trial-steelman) (14:00)
+- [Lutnick is cast as obstructer-in-chief on chip exports](https://aidailybrief.ai/e/2026-11-12#lutnick-obstructer-in-chief) (16:00)
+- [The Occam's razor explanation: China hawks seizing their moment](https://aidailybrief.ai/e/2026-11-12#occams-razor-china-hawks) (17:00)
+- [The most speculative thread points at Anthropic](https://aidailybrief.ai/e/2026-11-12#anthropic-speculation) (18:00)
+- [Anyone inside AI who did this is playing with fire](https://aidailybrief.ai/e/2026-11-12#playing-with-fire-interconnected) (19:00)
+- [The US just lost its key human bridge to China and TSMC](https://aidailybrief.ai/e/2026-11-12#lost-china-and-tsmc-bridge) (20:00)
+- [The architect of US chip leadership is out of play](https://aidailybrief.ai/e/2026-11-12#architect-of-us-chip-leadership) (21:00)
+- [Open source just lost its biggest advocate in Washington](https://aidailybrief.ai/e/2026-11-12#open-source-loses-best-advocate) (21:00)
+- [Anthropic, x-risk advocates and China hawks all gain in Washington](https://aidailybrief.ai/e/2026-11-12#washington-power-shift) (22:00)
+- [Nvidia likely finds a bottom, but its destiny looks diminished](https://aidailybrief.ai/e/2026-11-12#nvidia-bottom-but-diminished) (23:00)
+- [The AI industry just lost its Federal Reserve chair](https://aidailybrief.ai/e/2026-11-12#ai-lost-its-fed-chair) (24:00)
+- [Everything coming out at once doesn't require a conspiracy](https://aidailybrief.ai/e/2026-11-12#self-reinforcing-revelations) (26:00)
+- [The real story: a growing sense that big tech has too much power](https://aidailybrief.ai/e/2026-11-12#companies-too-powerful) (27:00)
 
 ---
 

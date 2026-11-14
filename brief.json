@@ -1,291 +1,291 @@
 {
-  "date": "2026-11-11",
-  "title": "Wall Street Has No Idea What Anthropic Is Worth",
-  "dek": "Anthropic sets its IPO range and Wall Street promptly argues about whether it's too high, too low, or a referendum on the whole AI trade, while a new Claude productivity suite knocks Microsoft's stock. Meanwhile Google's Gemini 4 Carbon finally ships, Nvidia's spy scandal deepens, and OpenAI posts a record quarter. The honest takeaway from all the IPO numbers: nobody actually knows yet.",
-  "source": "https://aidailybrief.ai/e/2026-11-11",
+  "date": "2026-11-12",
+  "title": "Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.",
+  "dek": "After a week of escalating revelations \u2014 a second affair, a suspected Chinese intelligence asset, and Nvidia's intervention in a Commerce probe \u2014 Jensen Huang is out as Nvidia's CEO. Forget the who-did-it speculation for a moment: the bigger story is what changes when the AI industry's linchpin, China bridge, open-source champion and de facto financial backstop is suddenly gone.",
+  "source": "https://aidailybrief.ai/e/2026-11-12",
   "oneIdea": {
-    "headline": "Heading into Anthropic's IPO, we know a lot of numbers and almost nothing at all.",
-    "summary": "Anthropic is pricing at $70\u201378 a share, implying $1.25\u20131.4 trillion, and its banks are already mulling a bump to $1.5 trillion on strong demand. Bears read the drift down from the splashy $2 trillion chatter as a warning for the AI trade. Contrarians point to $81 billion in run-rate revenue and retail desperate for frontier-lab exposure. The valuation targets were never Anthropic's own; they came from anonymous investors and stuck. Microsoft dipping on a Claude spreadsheet launch is more evidence of a market flailing until the stock actually trades. Buckle up: the next phase starts next week."
+    "headline": "Jensen Huang wasn't just Nvidia's CEO. He was load-bearing for the whole AI industry, and now everything he held up is in play.",
+    "summary": "Whether or not anyone coordinated his fall, Jensen Huang is gone, and the more useful question is what shifts now. He was the US's key bridge to China and TSMC, the loudest champion of open source, Anthropic's chief philosophical opponent in Washington, and the adult in the room backstopping financing for labs and neoclouds. Nvidia will probably find a bottom and stabilize, but its long-term destiny looks diminished. China hawks gain leverage, open source loses its best advocate, and the build-out may lose the closest thing it had to a Federal Reserve chair. Under all of it sits a growing, bipartisan sense that the biggest private companies have simply grown too powerful."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Supplier durability is the practical question",
-        "body": "Most of this edition is about share prices, which do not touch clinical work. The link to us is that scribes and other NHS tools are built on models from a handful of labs. NLW reads the flotation as a company raising cash it needs and investors unsure how to value it. Zitron reads the same filing as a firm whose fixed bills demand flawless growth. Neither view changes what we do tomorrow, but both support the same habit: ask a supplier which model it depends on, whether it could switch, and what the contract says about price rises."
+        "title": "Limited clinical relevance; watch the supply chain",
+        "body": "A change of chief executive at a chip maker does not alter anything in the consulting room. The indirect link is financing. NLW says Nvidia's guarantees held up smaller AI companies; Zitron says that support hid weak businesses. Either way, some suppliers of NHS tools rent their computing from firms that depended on it, so ask vendors where their service is hosted and what their continuity plan is."
       },
       {
-        "title": "Cheaper models, seen from both sides",
-        "body": "Google's new model came within one bug of the leader on a coding test at under a quarter of the cost. For a buyer that is good news, and it should feed through to what scribe vendors charge. Zitron's point is the mirror image: Anthropic's own filing shows discounts and price cuts took about $600 million off one quarter's revenue. Falling prices help the NHS now and strain the suppliers. Short contracts and fixed prices suit that position better than long commitments."
+        "title": "Open models matter for data kept on site",
+        "body": "NLW notes that open models have lost their most prominent advocate in Washington. For the NHS, open models are what make it possible to run a tool inside a trust's own systems, so patient data never leaves. If American policy turns against them, that option could narrow. It is worth following, though nothing has changed yet."
       },
       {
-        "title": "Staff building their own tools",
-        "body": "Anthropic says its lawyers, who do not write code, built a review tool that cut a three-day turnaround to a day. A practice manager could do something similar for rotas or recall lists. The NHS runs on Microsoft and that will not change soon. The caution is governance: anything touching patient data needs a data protection impact assessment and, if it informs care, clinical safety sign-off."
+        "title": "Governance, not genius",
+        "body": "The episode turned on a board with no succession plan and a senior lawyer reportedly leaning on a regulator. The lesson is ordinary and applies to any organisation, a practice or an out-of-hours provider included: no individual should be beyond challenge, relationships with direct reports are a governance matter, and succession should be planned before it is needed."
       }
     ]
   },
   "the_other_side": {
-    "source": "Running Dry",
-    "url": "https://www.wheresyoured.at/running-dry/",
-    "date": "2026-11-03",
+    "source": "Premium: The Hater's Guide To Megaspeed",
+    "url": "https://www.wheresyoured.at/hg-megaspeed/",
+    "date": "2026-11-13",
     "same_day": false,
-    "text": "Zitron, writing eight days earlier on the amended filing, treats the falling valuation not as noise but as one sign among several that the money is running out. He argues Anthropic has committed to about $447.5 billion of compute spending before the end of 2030, expects a junk credit rating, and will have to borrow at eight to eleven per cent to cover the gap. He says its obligations are \"priced for perfection\", requiring it to double in a year, while Ramp expects fourth-quarter growth of only 15 to 25 per cent. He also claims around four fifths of its revenue comes from venture-backed startups, so growth depends on venture capital continuing to flow."
+    "text": "Zitron, in a paid piece published the day after of which only the opening is free to read, says the press is treating Huang's fall as tabloid material and missing the larger matter: his allegation that Nvidia misled people about how and where it makes its money. He repeats a short seller's claim that more than a fifth of last fiscal year's revenue may have come through diverted sales to China, and points to two earlier SEC actions against Nvidia over its disclosures. Where Whittemore mourns a load-bearing figure, Zitron concludes \"we can't trust a damn word\" Huang or Nvidia says. These are his allegations."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is whether Anthropic's revenue can keep growing faster than the fixed compute bills it has signed. Both accept the filed numbers: a price range implying about $1.25 to $1.4 trillion, run-rate revenue in the tens of billions, and several hundred billion dollars of commitments falling due by 2030. The empirical question is whether growth holds once those payments start. The observables are the first public quarterly results, fourth-quarter growth against Ramp's forecast of 15 to 25 per cent, and the interest rate on any debt Anthropic raises. The residue is worldview: whether demand for AI labour is durable, or on loan from venture capital. For Whittemore to be vindicated, revenue must broaden beyond coding into finance, law and life sciences, and the shares must hold. For Zitron, growth must stall while costs rise and lenders balk. Both are polemicists with incentives, Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both say today's figures cannot tell you what this company is worth. Watch the first day of trading next week."
+    "text": "The variable both men orbit is whether Huang was holding the AI industry up or propping it up. Both accept as fact that he is out, that Nvidia's general counsel reportedly intervened in a Commerce Department probe, and that Nvidia's guarantees and investments underpin labs and neoclouds. The empirical question is whether that support, and Nvidia's reported revenue, survive scrutiny under new management; the observable is Nvidia's next results and guidance under its interim chief executive, and whether it keeps backstopping customers. The residue is worldview: whether one man's judgement built an industry or disguised its weakness. For Whittemore to be vindicated, Nvidia must stabilise while the losses fall on China ties, open models and the pace of building. For Zitron, investigators must show material diverted revenue and the financing web must contract. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both think Nvidia's backstops are the thing most at risk. Watch Nvidia's results later this month."
   },
   "headlines": [
     {
-      "id": "gemini-4-carbon-ships",
-      "headline": "Gemini 4 Carbon finally ships, and it lives up to the preview",
+      "id": "jensen-huang-out-as-nvidia-ceo",
+      "headline": "Jensen Huang is out as Nvidia's CEO, and off the board too",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Google previewed Carbon at the end of October as the top model on the Artificial Analysis Index but held it back for the government's voluntary safety testing. Two weeks later, Fable 5.2 has taken the top spot, but early testers are finding lots to like. Ethan Mollick: it shows \"Google is back in the race of frontier models, rapid releases, and rapid improvement.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-11#gemini-4-carbon-ships"
+      "summary": "Nvidia announced Thursday morning that Huang is leaving both the CEO role and his board seat. Former Synopsys CEO Harvey C. Jones becomes the company's first-ever chairman, and CFO Colette Kress adds the role of interim CEO until the board finds a permanent replacement.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#jensen-huang-out-as-nvidia-ceo"
     },
     {
-      "id": "carbon-near-top-at-fraction-of-cost",
-      "headline": "Carbon nearly matches the leader on coding at under a quarter of the cost",
+      "id": "second-affair-with-direct-report",
+      "headline": "A second affair, this time with a direct report",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "On Pavel Hurin's bug-hunt test, Carbon found 57 of 105 bugs, one behind Fable 5.2's 58, and completed the run for $31 versus almost $140. The cost savings held across other use cases: one render test matched Fable 5.2 at a third of the cost. One tester: \"Nobody should be laughing at Google anymore.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-11#carbon-near-top-at-fraction-of-cost"
+      "summary": "Citing five sources, the New York Times reported that Huang also had an affair with Kimberly Powell, Nvidia's VP of healthcare, who reports to him directly. His security team allegedly pressured a bystander who filmed them at GTC to sign an NDA. The episode has none of the geopolitical intrigue of the first affair, but it turned what looked like a one-off slip into a pattern of poor judgment.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#second-affair-with-direct-report"
     },
     {
-      "id": "kohli-decades-in-a-month",
-      "headline": "Similar efforts could take teams decades of combined effort. We did it in a month's time.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "02:00",
-      "attribution": "Pushmeet Kohli, VP at DeepMind, on Carbon's formal verification of Signal",
-      "summary": "DeepMind showcased Carbon formally verifying Signal's security properties, which required analyzing the underlying machine code. Formal verification is usually dismissed as too complex and time-consuming to be practical. Kohli pitched the result as frontier AI acting as a force multiplier against modern cyber threats.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#kohli-decades-in-a-month"
-    },
-    {
-      "id": "trump-defends-jensen",
-      "headline": "Trump defends Jensen as the Nvidia spy scandal spreads",
+      "id": "board-reversal-in-four-days",
+      "headline": "The board went from \"confidence\" to ouster in four days",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
+      "timestamp": "03:00",
+      "attribution": null,
+      "summary": "On Sunday, Nvidia's board expressed \"confidence in Jensen and his leadership team.\" Days of reporting followed noting the company had no succession plan, and the president called Huang \"a very honorable guy.\" By Wednesday the board had convened an emergency meeting to remove him.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#board-reversal-in-four-days"
+    },
+    {
+      "id": "megaspeed-spy-allegation",
+      "headline": "The spark: a State Department memo about a Singaporean neocloud executive",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "03:00",
+      "attribution": null,
+      "summary": "The Times obtained a State Department memo claiming that Alice Huang (no relation), an executive at the Singaporean neocloud Megaspeed, was a Chinese intelligence agent who had grown close to Jensen. The Financial Times added that US intelligence believed the relationship was romantic. Jensen admitted infidelity but did not address the spy allegations.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#megaspeed-spy-allegation"
+    },
+    {
+      "id": "nvidia-general-counsel-commerce-probe",
+      "headline": "Nvidia's general counsel reportedly leaned on a Commerce investigation",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "At a Monday press conference, President Trump said the FBI is looking into the matter but called Jensen Huang \"a very honorable man.\" He acknowledged knowing about the affair before it was reported but was vague on timing. The New York Times reported he was fully briefed last April and chose to do nothing.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#trump-defends-jensen"
+      "summary": "Reporting suggested Nvidia's general counsel intervened in the Commerce Department's investigation into Megaspeed, apparently name-dropping a senior Commerce official, after which the probe went away. Commerce staff called it, at minimum, a breach of procedure.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#nvidia-general-counsel-commerce-probe"
     },
     {
-      "id": "megaspeed-smuggling-network",
-      "headline": "Up to $7.5 billion in Nvidia chips may have flowed to China via Megaspeed",
+      "id": "megaspeed-not-from-nowhere",
+      "headline": "Megaspeed was one of Nvidia's biggest Southeast Asian customers",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "04:00",
-      "attribution": null,
-      "summary": "Sources who claim to know the alleged spy, Alice Huang, told The Information that a vast smuggling network sat behind Megaspeed, the Neocloud that employed her. They gave a full recap of how the chips flowed through it.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#megaspeed-smuggling-network"
-    },
-    {
-      "id": "commerce-probe-halted",
-      "headline": "A Commerce probe into Megaspeed reportedly stalled after Nvidia got in touch",
-      "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "Per The New York Times, Nvidia's general counsel discussed the case directly with investigators, saying their superior had approved the contact. Agents worried that was \"potentially tainting the case.\" Commerce is now working on new export controls, including closing the remote-access loophole, but is delaying an entity-list decision on Megaspeed. House Foreign Affairs Chair Brian Mast says he'll subpoena Jensen if he won't come in.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#commerce-probe-halted"
+      "summary": "Commerce opened its Megaspeed investigation in late 2024 over allegations that the company was diverting physical chips into China, not just offering remote access. According to The Information, Megaspeed bought at least $7.5 billion in advanced AI chips after its 2023 founding.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#megaspeed-not-from-nowhere"
     },
     {
-      "id": "nvidia-no-succession-plan",
-      "headline": "Nvidia has no succession plan, and that boxes in its own board",
+      "id": "affair-vs-national-security",
+      "headline": "The debate was never really about the affair",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "Early in the week, defenders made two arguments: an affair is a human failing, and Jensen is irreplaceable. The core question, though, was national security. As the week went on, more people concluded that losing Jensen would be a huge blow, but keeping him on could be worse.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#affair-vs-national-security"
+    },
+    {
+      "id": "economist-brilliant-man-and-a-fool",
+      "headline": "Jensen Huang is a brilliant man and a fool.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "06:00",
+      "attribution": "The Economist, \"Jensen Huang Must Resign\"",
+      "summary": "The Economist's editorial argued that, like many powerful leaders, Huang came to believe he was too important for the normal rules to apply to him, and that his should not be the only head to roll.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#economist-brilliant-man-and-a-fool"
+    },
+    {
+      "id": "cramer-potential-for-extortion",
+      "headline": "The potential for extortion is so tremendous with something as sensitive as Nvidia chips.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "06:00",
+      "attribution": "Senator Kevin Cramer (R), to Politico",
+      "summary": "Calls to resign came from both sides of the aisle. Cramer's conclusion: \"I just think he's got to go.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-12#cramer-potential-for-extortion"
+    },
+    {
+      "id": "boards-impossible-bind",
+      "headline": "The board's bind, and a telling silence",
+      "type": "insight",
+      "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Jensen runs a famously flat company with 60 direct reports. The Wall Street Journal reports there is no succession plan and a board treated more as a governance formality than a check on the CEO. With an outside law firm investigating, removing a charismatic CEO with no successor looks risky even if the findings are damning. The Journal suggests a \"reined-in\" Jensen is the best option.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#nvidia-no-succession-plan"
+      "summary": "Axios's Dan Primack asked what else a board could do after confirming its CEO lied about one affair with national security implications while sleeping with a direct report. His read on the final announcement: \"Zero comment from Jensen in the press release. That's very telling about how not voluntary this was.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-12#boards-impossible-bind"
     },
     {
-      "id": "national-keyman-risk",
-      "headline": "The whole country now carries Nvidia's keyman risk",
-      "type": "take",
-      "segment": "headlines",
-      "timestamp": "07:00",
-      "attribution": null,
-      "summary": "Nvidia is down 11% since the story broke and makes up about 7% of the S&P 500 and 8% of the Nasdaq, so most US investors are heavily exposed. Its success is also now a national-security matter because of the AI race. There is no simple fix. NLW: the entire nation is experiencing \"the mother of all keyman risks.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-11#national-keyman-risk"
-    },
-    {
-      "id": "openai-record-q3",
-      "headline": "OpenAI posts a record $10B+ quarter and finally gets a growth story back",
+      "id": "coordination-narrative",
+      "headline": "To many observers, the timing felt coordinated",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "07:00",
+      "segment": "main",
+      "timestamp": "10:00",
       "attribution": null,
-      "summary": "Q3 revenue rose 50% from Q2, after Q2 growth of only 17% compared with Anthropic's 144%. The drivers were API demand for recent models, including GPT-6 Astra, quietly strong image-model demand, and ads running at a $1 billion annualized pace. Operating losses grew to an estimated $10.1\u201310.9 billion, though operating margin improved from \u2212150% to \u2212109%.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#openai-record-q3"
+      "summary": "As the second story landed, a wide swath of tech and media voices began asking who benefits and why now. Replit's Amjad Masad suggested that anyone who wants AI \"closed, centralized, and controlled\" gains from removing open source's premier champion. Glenn Greenwald questioned whether there was any tangible evidence beyond anonymous intelligence suspicions.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#coordination-narrative"
     },
     {
-      "id": "openai-buys-travel-agent",
-      "headline": "OpenAI acquires an AI travel agent built the AI-first way",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "The startup, founded less than a year ago by Sonder founder Francis Davidson, booked $60 million in travel across tens of thousands of users last summer. Davidson says he threw out the old playbook for a lean, AI-first process, including dictating about 1.2 million words a month. The service has shut down, and OpenAI is quiet about its travel plans.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#openai-buys-travel-agent"
-    },
-    {
-      "id": "chatgpt-business-agents",
-      "headline": "ChatGPT's business agents turn ads into conversations",
-      "type": "take",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": null,
-      "summary": "OpenAI's new business hub gives advertisers an analytics-style dashboard and lets brands deploy \"business agents\" that consumers can talk to after clicking an ad. NLW reads this as the start of ChatGPT competing more directly with Meta. Expect much more treatment of ChatGPT as a commerce platform, since so many of its answers already touch shopping.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#chatgpt-business-agents"
-    },
-    {
-      "id": "anthropic-ipo-next-week",
-      "headline": "The blue wave didn't stop it: Anthropic goes public before Thanksgiving",
+      "id": "does-china-win-either-way",
+      "headline": "Is Jensen's fall a win for China or a loss?",
       "type": "insight",
       "segment": "main",
       "timestamp": "13:00",
       "attribution": null,
-      "summary": "Some speculated that the midterm wave bringing data-center opponents to power might deter Anthropic. Instead it has kicked off its roadshow and is aiming to list next week.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#anthropic-ipo-next-week"
+      "summary": "The sourcing has openly come from US intelligence. The harder question is whether China gains more from Nvidia funneling it chips or from disrupting a US company with 90% market share now that Huawei is catching up. China may have planned this over decades, or it may simply be a happy accident.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#does-china-win-either-way"
     },
     {
-      "id": "miracles-first-messaging",
-      "headline": "Anthropic's messaging finally clicks: miracles first, risks second",
-      "type": "take",
+      "id": "democrats-show-trial-steelman",
+      "headline": "The steelman for why Democrats might welcome this",
+      "type": "insight",
       "segment": "main",
       "timestamp": "14:00",
       "attribution": null,
-      "summary": "Nothing in Dario's roadshow pitch, an \"age of miracles\" with risks carefully addressed, is new. What's new is the balance. The miracles are the point, and the risks are what must be overcome to get there. That ordering has eluded the company in the past.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#miracles-first-messaging"
+      "summary": "With anti-AI populism surging after the midterms, a high-profile Jensen scandal lets new leaders placate voters, tie the story to a Trump national security scandal, and schedule a year of hearings. It does all that without the truly disruptive moves: a data center moratorium, a ban on recursive self-improvement, or a breakup. NLW is explicit that this is a steelman, not his own view.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#democrats-show-trial-steelman"
     },
     {
-      "id": "dario-patriot",
-      "headline": "Of course I do. I'm a patriot.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": "Dario Amodei, Anthropic CEO, to Bloomberg's Emily Chang",
-      "summary": "Emily Chang asked whether he was comfortable with Claude helping the military kill more people more quickly. Dario reframed it as whether he wants a stronger country, then said decisions about military use aren't the technology provider's to make beyond some very high-level boundaries. After the clashes with the Department of Defense/War, NLW notes he has never been quite this crisp.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#dario-patriot"
-    },
-    {
-      "id": "anthropic-price-range",
-      "headline": "The numbers: $70\u201378 a share, $1.25\u20131.4 trillion, about $100 billion floated",
+      "id": "lutnick-obstructer-in-chief",
+      "headline": "Lutnick is cast as obstructer-in-chief on chip exports",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "15:00",
-      "attribution": null,
-      "summary": "Anthropic seeks to raise $57\u201364 billion in the IPO, plus $26 billion from industry partners Nvidia, Microsoft, Google, and Broadcom, with Nvidia and Google in for up to $10 billion each. With the greenshoe option, the total float comes to around $100 billion.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#anthropic-price-range"
-    },
-    {
-      "id": "two-trillion-never-a-target",
-      "headline": "Anthropic never \"settled\" for less than $2 trillion",
-      "type": "take",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "The $2 trillion figure came from an anonymous investor source of unknown proximity to the company, and it was splashy enough to stick. Anthropic couldn't respond during its quiet period. The slide from $2T to $1.6T to $1.5T to talk of $1.1T says something about shifting investor mood, but it isn't a goal Anthropic set and missed.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#two-trillion-never-a-target"
+      "summary": "Axios reports that Treasury Secretary Bessent confronted Lutnick in the Situation Room over Commerce's failure to enforce export controls on Megaspeed. Trump called Elon Musk for advice, Musk sided with the hawks, and the president said \"Let's get it done.\" Trump approved action on at least three occasions (May, August and November 5), and it still hasn't happened.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#lutnick-obstructer-in-chief"
     },
     {
-      "id": "price-already-too-low",
-      "headline": "Within a day, the range already looked too low",
+      "id": "occams-razor-china-hawks",
+      "headline": "The Occam's razor explanation: China hawks seizing their moment",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "17:00",
+      "attribution": null,
+      "summary": "Chinese firms are reportedly rushing to rent capacity at Southeast Asian data centers before the remote-access loophole in export controls closes. The hawks aren't satisfied even with that fix, and this scandal gives them leverage to force through action they've never been able to get.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#occams-razor-china-hawks"
+    },
+    {
+      "id": "anthropic-speculation",
+      "headline": "The most speculative thread points at Anthropic",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "The Financial Times reports Anthropic's bankers plan to raise the share price to a top-end valuation of $1.5 trillion after \"strong indications of demand.\" The FT adds that Anthropic cares far more about raising cash than about valuation, given its large compute commitments.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#price-already-too-low"
+      "summary": "A viral post argued that the Times reporter who broke the spy story had relied on Anthropic co-founder Jack Clark as a source in past AI coverage. The backdrop: Dario Amodei and Jensen famously don't get along and sit at opposite poles on AI risk, China policy and open source. NLW lays out the basics without endorsing the theory.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#anthropic-speculation"
     },
     {
-      "id": "investors-are-flailing",
-      "headline": "The real lesson of the price debate: nobody knows",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "18:00",
-      "attribution": null,
-      "summary": "Investors have no clear idea what to expect, what's reasonable, or what other investors think is reasonable. Bears say the lower valuation is bearish and that a weak debut will trigger another leg down in the AI trade. Until the stock trades, everyone is flailing.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#investors-are-flailing"
-    },
-    {
-      "id": "contrarian-bull-case",
-      "headline": "The contrarian case: $81B run rate and retail starving for exposure",
+      "id": "playing-with-fire-interconnected",
+      "headline": "Anyone inside AI who did this is playing with fire",
       "type": "insight",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "Artemis's John Ma says the consensus view is now bearish: overvalued, revenue flattening, tokens commoditizing. The counter: run-rate revenue rose $10 billion in October alone to $81 billion, still driven mainly by coding agents. Finance, legal, and life sciences are barely tapped, and retail investors may pile in regardless and push it toward $3 trillion.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#contrarian-bull-case"
+      "summary": "Publisher Sam Koppelman's reminder: Nvidia is anchoring the Anthropic IPO, investing in OpenAI, backstopping neoclouds like CoreWeave and guaranteeing Stargate data centers, all through deals Jensen negotiated personally. In an industry this interconnected, taking him out hurts everyone.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#playing-with-fire-interconnected"
     },
     {
-      "id": "forty-times-revenue",
-      "headline": "At $1.4 trillion, Anthropic is priced like CrowdStrike, not Palantir",
-      "type": "insight",
+      "id": "lost-china-and-tsmc-bridge",
+      "headline": "The US just lost its key human bridge to China and TSMC",
+      "type": "take",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "iCapital's Sonali Basak notes that $1.4 trillion is around 40\u00d7 trailing 12-month revenue. Palantir trades at roughly 55\u00d7, which puts Anthropic closer to the multiples of CrowdStrike and Cloudflare.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#forty-times-revenue"
+      "summary": "Beyond the policies he pushed, Jensen personally connected US and Chinese political and business communities, and he was major connective tissue with TSMC in Taiwan. Losing him from those conversations matters regardless of what Nvidia's policy positions become.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#lost-china-and-tsmc-bridge"
     },
     {
-      "id": "lambda-default-neocloud-risk",
-      "headline": "The bigger compute risk may sit with the Neoclouds",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": null,
-      "summary": "Anthropic disclosed $10 billion in new seven-year commitments with Microsoft and Google. It also said its $35 billion Lambda deal is cancelable after Lambda missed a deadline, though it doesn't currently intend to cancel. That reframes the worry about hundreds of billions in non-cancellable commitments: which fails first, AI demand or Neoclouds' ability to finance and deliver data centers on time?",
-      "link": "https://aidailybrief.ai/e/2026-11-11#lambda-default-neocloud-risk"
-    },
-    {
-      "id": "claude-productivity-suite",
-      "headline": "Claude Sheets, Whiteboards, and Data take aim at Microsoft's turf",
-      "type": "insight",
+      "id": "architect-of-us-chip-leadership",
+      "headline": "The architect of US chip leadership is out of play",
+      "type": "take",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "Claude Sheets is an Excel competitor built for collaboration between humans and agents. Whiteboards is a team planning surface. Claude Data, which evolved from Dashboards, pulls live CRM and database feeds and competes with Power BI, with model-generated visual data stories and narrated videos added on top.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#claude-productivity-suite"
+      "summary": "Jensen made early, contrarian bets that put Nvidia and the US in front. In the long run, reducing key-man risk could leave the sector healthier five or ten years out, as companies like AMD and Google benefit from a less dominant Nvidia.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#architect-of-us-chip-leadership"
     },
     {
-      "id": "non-technical-teams-build-tools",
-      "headline": "Anthropic's lawyers cut marketing reviews from three days to 24 hours",
-      "type": "insight",
+      "id": "open-source-loses-best-advocate",
+      "headline": "Open source just lost its biggest advocate in Washington",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "21:00",
+      "attribution": null,
+      "summary": "Powerful forces in Washington see open source as a safety risk and an obstacle to control. Nvidia's Nemotron models were gaining enterprise traction, and even if Nvidia keeps building them, the uncertainty could slow corporate adoption of open models. Meta and Thinking Machines Lab gain ground as open-source leaders.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#open-source-loses-best-advocate"
+    },
+    {
+      "id": "washington-power-shift",
+      "headline": "Anthropic, x-risk advocates and China hawks all gain in Washington",
+      "type": "take",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "Anthropic framed the suite as where work is heading, not a declaration of war. Its legal team built a Slack-based review tool that drafts redlines from its own playbook. Its finance team turned an executive update into an interactive page the team maintains with Claude. Neither team writes code.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#non-technical-teams-build-tools"
+      "summary": "With its chief philosophical opponent neutered, Anthropic's influence in Washington likely grows. Sam Altman has historically sat between the two poles. Existential-risk advocates lose their strongest denier, and China hawks gain momentum for tighter export controls, which puts the screws on regions like the Gulf to choose sides.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#washington-power-shift"
     },
     {
-      "id": "where-work-happens",
-      "headline": "The fight over where work happens started in November 2022",
+      "id": "nvidia-bottom-but-diminished",
+      "headline": "Nvidia likely finds a bottom, but its destiny looks diminished",
       "type": "take",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "Once Claude becomes the shared work surface, it needs this kind of infrastructure around it. The place where work happens is increasingly inside the LLM harness or app, and this suite is a natural extension of that. Matthew Berman: \"If you build software, the labs will compete with you.\" Microsoft fell 2.2% on the news.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#where-work-happens"
+      "summary": "There is no greater capitulation than the CEO of the world's largest company resigning, so a near-term bottom and eventual stabilization, perhaps at a repriced level, seem likely. Jensen's real value, though, was the momentum behind long-term bets that replacement leadership rarely provides. As Naval put it, one does not simply replace the founder.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#nvidia-bottom-but-diminished"
     },
     {
-      "id": "microsoft-every-side",
-      "headline": "Microsoft is investor, landlord, reseller, and now competitor",
-      "type": "insight",
+      "id": "ai-lost-its-fed-chair",
+      "headline": "The AI industry just lost its Federal Reserve chair",
+      "type": "take",
       "segment": "main",
-      "timestamp": "23:00",
+      "timestamp": "24:00",
       "attribution": null,
-      "summary": "The counterpoint: no enterprise is ditching Excel, and Claude Sheets even exports to it. Microsoft is buying into the IPO, is owed $45 billion in cloud spend, and resells Claude through Copilot. NLW sees the dip as more evidence of a market still working out what this all means.",
-      "link": "https://aidailybrief.ai/e/2026-11-11#microsoft-every-side"
+      "summary": "Nvidia has been the adult in the room guaranteeing financing for smaller companies and model labs, the same web of backstops the AI bears worry about. New leadership will likely use this moment to reset expectations toward Wall Street's wishes rather than build out as fast as humanly possible. That is an underappreciated shift with implications that are hard to overstate.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#ai-lost-its-fed-chair"
+    },
+    {
+      "id": "self-reinforcing-revelations",
+      "headline": "Everything coming out at once doesn't require a conspiracy",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "26:00",
+      "attribution": null,
+      "summary": "Once a previously unimpeachable CEO falls, journalists hammer every source they have, and sources realize there will never be a more resonant moment to talk. The more that comes out, the more likely it is that more comes out. Don't assume we're done.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#self-reinforcing-revelations"
+    },
+    {
+      "id": "companies-too-powerful",
+      "headline": "The real story: a growing sense that big tech has too much power",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "27:00",
+      "attribution": null,
+      "summary": "Pieces like The Atlantic's \"The Scandal Is Bigger Than Jensen Huang\" and a TikTok from journalist Jacob Ward are livid less about Jensen than about corporate power itself. Ward goes so far as to argue the public should have a democratic say in whether a CEO stays, which is far outside recent American norms. NLW expects this push, from both sides of the spectrum, to rebalance power toward government to grow in importance.",
+      "link": "https://aidailybrief.ai/e/2026-11-12#companies-too-powerful"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-11.mp3",
-  "generated": "2026-11-12T23:32:57Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-12.mp3",
+  "generated": "2026-11-14T06:22:50Z"
 }
