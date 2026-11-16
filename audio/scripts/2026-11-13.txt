@@ -1,0 +1,21 @@
+David's AI brief for Friday, the thirteenth of November.
+
+The One Idea today: Washington fired Jensen Huang, and that is the opening move in a new era of AI politics. Nathaniel Whittemore argues that calling the Nvidia chief's departure a resignation undersells it. A congressional committee itself used the word firing, and its chairman said Nvidia must now appoint leaders who make national security their top priority. Whittemore notes what that implies: a private company being told to put the state ahead of its shareholders.
+
+The practical result is legislation. Three bills to tighten controls on chip exports to China were already in play, and the chairman of the House foreign affairs committee says their chances are, in his words, one hundred per cent boosted. OpenAI has quietly told Congress it supports all three. Whittemore expects hearings to run well into next year.
+
+There is a real argument underneath. One side says selling China chips a few generations old keeps it dependent and behind. The hawks reply that this approach left Chinese models less than nine months behind, so it is time to try giving them nothing. Whittemore thinks the simpler argument will win, whoever is right.
+
+Meanwhile the spy story is wobbling. Intelligence officials have called the description of the woman involved overdone. Whittemore says that will matter less and less, because the real question is whether Nvidia knew its chips were reaching China. A former OpenAI researcher claims that six leading Chinese models carry traces showing they were trained on Nvidia's newest hardware. And the interim chief executive is known for resisting the large financial guarantees Nvidia gave to others, so credit across the industry may tighten. Markets, for their part, have already moved on.
+
+Now, the other side. Ed Zitron published a paid piece the same day, of which only the opening is free. He does not see the state seizing a company. He sees overdue attention to conduct that he says was reported for over a year and ignored, and he alleges that Nvidia repeatedly profited from breaking the law. Those are his allegations.
+
+So both men circle one question: did Nvidia know? They agree that smuggling, not espionage, is now the real issue. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is Huang's sworn testimony, due before the end of the month.
+
+Turning to general practice, where the clinical relevance is slight. First, a pricing point. One economist argues that if America builds data centres more slowly, AI services there stay expensive. Most NHS tools run on American models, so that feeds through to what suppliers charge.
+
+Second, Chinese models. If they were trained on the best hardware after all, they are more capable and cheaper than their official story suggested, and some vendors will be tempted. For anything touching patient data the questions are unchanged: where is it processed, under whose law, and does the data protection assessment cover it.
+
+Third, who a company answers to. The NHS has long relied on contracts and regulators to align commercial suppliers with patients. That is worth remembering when reading those contracts.
+
+That's the brief. Source, The AI Daily Brief.

@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Little clinical relevance; a pricing point",
+   "body": "This edition is American trade politics and changes nothing in the consulting room. One economist's point is worth noting: if the United States builds data centres more slowly, the price of AI services there stays high. NHS tools mostly run on American models, so that feeds through to what suppliers charge us. Zitron's allegations concern Nvidia's accounts, not service prices."
+  },
+  {
+   "title": "Chinese models and patient data",
+   "body": "If the reports are right that leading Chinese models were trained on smuggled hardware, they are more capable and cheaper than their official story suggested, and some vendors will be tempted to use them. For anything touching patient data the questions are unchanged: where is it processed, under whose law, and has the DPIA covered it. Cheap is not a reason."
+  },
+  {
+   "title": "Who the company answers to",
+   "body": "A congressman said Nvidia should put national security first. NLW reads that as the state taking control; Zitron as the law catching up. The NHS has lived with this tension for decades: suppliers of clinical systems answer to shareholders, and we rely on contracts and regulators to align them with patients. It is worth reading those contracts with that in mind."
+  }
+ ]
+}

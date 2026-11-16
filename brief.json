@@ -1,26 +1,26 @@
 {
-  "date": "2026-11-12",
-  "title": "Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.",
-  "dek": "After a week of escalating revelations \u2014 a second affair, a suspected Chinese intelligence asset, and Nvidia's intervention in a Commerce probe \u2014 Jensen Huang is out as Nvidia's CEO. Forget the who-did-it speculation for a moment: the bigger story is what changes when the AI industry's linchpin, China bridge, open-source champion and de facto financial backstop is suddenly gone.",
-  "source": "https://aidailybrief.ai/e/2026-11-12",
+  "date": "2026-11-13",
+  "title": "Washington Is Taking Control of AI",
+  "dek": "Jensen Huang's exit from Nvidia is looking less like a resignation and more like Washington firing him. As the lame-duck Congress returns, China hawks and newly empowered Democrats are using the scandal to push export controls, haul executives in to testify, and rebalance power between Washington and the most important company in AI.",
+  "source": "https://aidailybrief.ai/e/2026-11-13",
   "oneIdea": {
-    "headline": "Jensen Huang wasn't just Nvidia's CEO. He was load-bearing for the whole AI industry, and now everything he held up is in play.",
-    "summary": "Whether or not anyone coordinated his fall, Jensen Huang is gone, and the more useful question is what shifts now. He was the US's key bridge to China and TSMC, the loudest champion of open source, Anthropic's chief philosophical opponent in Washington, and the adult in the room backstopping financing for labs and neoclouds. Nvidia will probably find a bottom and stabilize, but its long-term destiny looks diminished. China hawks gain leverage, open source loses its best advocate, and the build-out may lose the closest thing it had to a Federal Reserve chair. Under all of it sits a growing, bipartisan sense that the biggest private companies have simply grown too powerful."
+    "headline": "Washington fired Jensen, and that's the opening salvo of a new era of AI politics.",
+    "summary": "Set aside the conspiracy theories. Even without any coordinated campaign, the Jensen affair marks a shift: Democrats are asserting power over foreign policy and over powerful private-market actors, and China hawks are ascendant. Three chip-control bills now look likely to pass, the hearings will stretch into 2027, and the real question is no longer whether Alice Huang was a spy. It's whether Nvidia knowingly let its chips reach China. Markets may move on quickly. The political consequences are only beginning."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Limited clinical relevance; watch the supply chain",
-        "body": "A change of chief executive at a chip maker does not alter anything in the consulting room. The indirect link is financing. NLW says Nvidia's guarantees held up smaller AI companies; Zitron says that support hid weak businesses. Either way, some suppliers of NHS tools rent their computing from firms that depended on it, so ask vendors where their service is hosted and what their continuity plan is."
+        "title": "Little clinical relevance; a pricing point",
+        "body": "This edition is American trade politics and changes nothing in the consulting room. One economist's point is worth noting: if the United States builds data centres more slowly, the price of AI services there stays high. NHS tools mostly run on American models, so that feeds through to what suppliers charge us. Zitron's allegations concern Nvidia's accounts, not service prices."
       },
       {
-        "title": "Open models matter for data kept on site",
-        "body": "NLW notes that open models have lost their most prominent advocate in Washington. For the NHS, open models are what make it possible to run a tool inside a trust's own systems, so patient data never leaves. If American policy turns against them, that option could narrow. It is worth following, though nothing has changed yet."
+        "title": "Chinese models and patient data",
+        "body": "If the reports are right that leading Chinese models were trained on smuggled hardware, they are more capable and cheaper than their official story suggested, and some vendors will be tempted to use them. For anything touching patient data the questions are unchanged: where is it processed, under whose law, and has the DPIA covered it. Cheap is not a reason."
       },
       {
-        "title": "Governance, not genius",
-        "body": "The episode turned on a board with no succession plan and a senior lawyer reportedly leaning on a regulator. The lesson is ordinary and applies to any organisation, a practice or an out-of-hours provider included: no individual should be beyond challenge, relationships with direct reports are a governance matter, and succession should be planned before it is needed."
+        "title": "Who the company answers to",
+        "body": "A congressman said Nvidia should put national security first. NLW reads that as the state taking control; Zitron as the law catching up. The NHS has lived with this tension for decades: suppliers of clinical systems answer to shareholders, and we rely on contracts and regulators to align them with patients. It is worth reading those contracts with that in mind."
       }
     ]
   },
@@ -28,264 +28,264 @@
     "source": "Premium: The Hater's Guide To Megaspeed",
     "url": "https://www.wheresyoured.at/hg-megaspeed/",
     "date": "2026-11-13",
-    "same_day": false,
-    "text": "Zitron, in a paid piece published the day after of which only the opening is free to read, says the press is treating Huang's fall as tabloid material and missing the larger matter: his allegation that Nvidia misled people about how and where it makes its money. He repeats a short seller's claim that more than a fifth of last fiscal year's revenue may have come through diverted sales to China, and points to two earlier SEC actions against Nvidia over its disclosures. Where Whittemore mourns a load-bearing figure, Zitron concludes \"we can't trust a damn word\" Huang or Nvidia says. These are his allegations."
+    "same_day": true,
+    "text": "Zitron, in a paid piece published the same day of which only the opening is free to read, does not see Washington seizing control of a private company. He sees overdue attention to conduct he says was reported for more than a year and ignored. He alleges Megaspeed is one part of a sprawling smuggling operation, and writes that Nvidia has \"repeatedly and unashamedly profited from breaking the law\". He repeats a short seller's claim that over a fifth of last fiscal year's revenue may have come from China-bound sales. These are his allegations; the free section does not discuss the chip-control bills."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is whether Huang was holding the AI industry up or propping it up. Both accept as fact that he is out, that Nvidia's general counsel reportedly intervened in a Commerce Department probe, and that Nvidia's guarantees and investments underpin labs and neoclouds. The empirical question is whether that support, and Nvidia's reported revenue, survive scrutiny under new management; the observable is Nvidia's next results and guidance under its interim chief executive, and whether it keeps backstopping customers. The residue is worldview: whether one man's judgement built an industry or disguised its weakness. For Whittemore to be vindicated, Nvidia must stabilise while the losses fall on China ties, open models and the pace of building. For Zitron, investigators must show material diverted revenue and the financing web must contract. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both think Nvidia's backstops are the thing most at risk. Watch Nvidia's results later this month."
+    "text": "The variable both men orbit is whether Nvidia knew its chips were reaching China. Both accept as fact that restricted chips got there in quantity, that Megaspeed was a large customer under investigation, and that Huang will be questioned under oath. The empirical question is what Nvidia's leadership knew and how much revenue was involved; the observable is the testimony, the documents Congress has asked to be preserved, and any Justice Department charges. The residue is worldview: whether this is the state asserting itself over a powerful company, or a company finally being held to existing law. For Whittemore to be vindicated, the lasting result must be political, with new chip laws and long hearings while markets move on. For Zitron, investigators must show knowing diversion on a scale that changes Nvidia's accounts. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both now say smuggling, not espionage, is the real issue. Watch Huang's testimony before Thanksgiving."
   },
   "headlines": [
     {
-      "id": "jensen-huang-out-as-nvidia-ceo",
-      "headline": "Jensen Huang is out as Nvidia's CEO, and off the board too",
-      "type": "insight",
+      "id": "washington-fired-jensen",
+      "headline": "Washington fired Jensen",
+      "type": "take",
       "segment": "main",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Nvidia announced Thursday morning that Huang is leaving both the CEO role and his board seat. Former Synopsys CEO Harvey C. Jones becomes the company's first-ever chairman, and CFO Colette Kress adds the role of interim CEO until the board finds a permanent replacement.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#jensen-huang-out-as-nvidia-ceo"
+      "summary": "Calling it a resignation undersells what happened. Even without any coordinated campaign, this looks like the opening salvo of a new period: Democrats asserting power over foreign policy and over powerful private-market actors, with China hawks increasingly ascendant.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#washington-fired-jensen"
     },
     {
-      "id": "second-affair-with-direct-report",
-      "headline": "A second affair, this time with a direct report",
-      "type": "insight",
+      "id": "moolenaar-national-security-priority",
+      "headline": "Nvidia must now change its corporate practices and appoint leadership that makes national security its top priority.",
+      "type": "quote",
       "segment": "main",
       "timestamp": "02:00",
-      "attribution": null,
-      "summary": "Citing five sources, the New York Times reported that Huang also had an affair with Kimberly Powell, Nvidia's VP of healthcare, who reports to him directly. His security team allegedly pressured a bystander who filmed them at GTC to sign an NDA. The episode has none of the geopolitical intrigue of the first affair, but it turned what looked like a one-off slip into a pattern of poor judgment.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#second-affair-with-direct-report"
+      "attribution": "Rep. John Moolenaar, Chairman of the House Select Committee on China",
+      "summary": "The House Select Committee on China's statement called Huang's exit a \"firing.\" NLW points to the subtext: the idea that a private company's top priority should be national security rather than its fiduciary duty to shareholders shows the power struggle that has now opened up.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#moolenaar-national-security-priority"
     },
     {
-      "id": "board-reversal-in-four-days",
-      "headline": "The board went from \"confidence\" to ouster in four days",
+      "id": "chip-controls-top-of-agenda",
+      "headline": "The scandal vaults chip controls to the top of the lame-duck agenda",
       "type": "insight",
       "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "On Sunday, Nvidia's board expressed \"confidence in Jensen and his leadership team.\" Days of reporting followed noting the company had no succession plan, and the president called Huang \"a very honorable guy.\" By Wednesday the board had convened an emergency meeting to remove him.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#board-reversal-in-four-days"
+      "summary": "Export controls were already expected to ride on the must-pass NDAA. Now Democrats plan to push for even tougher restrictions. One aide's message to Republicans who were nervous about crossing the White House: if they don't deal now, Democrats write the next version.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#chip-controls-top-of-agenda"
     },
     {
-      "id": "megaspeed-spy-allegation",
-      "headline": "The spark: a State Department memo about a Singaporean neocloud executive",
+      "id": "consensus-forming-three-bills",
+      "headline": "A hawkish consensus forms, with White House help",
       "type": "insight",
       "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "The Times obtained a State Department memo claiming that Alice Huang (no relation), an executive at the Singaporean neocloud Megaspeed, was a Chinese intelligence agent who had grown close to Jensen. The Financial Times added that US intelligence believed the relationship was romantic. Jensen admitted infidelity but did not address the spy allegations.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#megaspeed-spy-allegation"
+      "summary": "Speaker Mike Johnson sees a \"developing consensus.\" Leader Thune calls passage a high probability. House Foreign Affairs Chair Brian Mast says the week has \"one hundred percent boosted\" the chances of all three chip bills, adding that they're getting \"direct assistance from the White House.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-13#consensus-forming-three-bills"
     },
     {
-      "id": "nvidia-general-counsel-commerce-probe",
-      "headline": "Nvidia's general counsel reportedly leaned on a Commerce investigation",
+      "id": "machine-guns-vs-muskets",
+      "headline": "The case for selling China older chips: machine guns vs. muskets",
       "type": "insight",
       "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Reporting suggested Nvidia's general counsel intervened in the Commerce Department's investigation into Megaspeed, apparently name-dropping a senior Commerce official, after which the probe went away. Commerce staff called it, at minimum, a breach of procedure.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#nvidia-general-counsel-commerce-probe"
+      "summary": "Gavin Baker argues that selling China a few generations behind (H100s while the US runs Vera Rubin) meant scaling laws would keep American labs structurally ahead. In this view, a full ban pushes China down its own hardware path and gives it a real chance to catch up.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#machine-guns-vs-muskets"
     },
     {
-      "id": "megaspeed-not-from-nowhere",
-      "headline": "Megaspeed was one of Nvidia's biggest Southeast Asian customers",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "05:00",
-      "attribution": null,
-      "summary": "Commerce opened its Megaspeed investigation in late 2024 over allegations that the company was diverting physical chips into China, not just offering remote access. According to The Information, Megaspeed bought at least $7.5 billion in advanced AI chips after its 2023 founding.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#megaspeed-not-from-nowhere"
-    },
-    {
-      "id": "affair-vs-national-security",
-      "headline": "The debate was never really about the affair",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "05:00",
-      "attribution": null,
-      "summary": "Early in the week, defenders made two arguments: an affair is a human failing, and Jensen is irreplaceable. The core question, though, was national security. As the week went on, more people concluded that losing Jensen would be a huge blow, but keeping him on could be worse.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#affair-vs-national-security"
-    },
-    {
-      "id": "economist-brilliant-man-and-a-fool",
-      "headline": "Jensen Huang is a brilliant man and a fool.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "06:00",
-      "attribution": "The Economist, \"Jensen Huang Must Resign\"",
-      "summary": "The Economist's editorial argued that, like many powerful leaders, Huang came to believe he was too important for the normal rules to apply to him, and that his should not be the only head to roll.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#economist-brilliant-man-and-a-fool"
-    },
-    {
-      "id": "cramer-potential-for-extortion",
-      "headline": "The potential for extortion is so tremendous with something as sensitive as Nvidia chips.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "06:00",
-      "attribution": "Senator Kevin Cramer (R), to Politico",
-      "summary": "Calls to resign came from both sides of the aisle. Cramer's conclusion: \"I just think he's got to go.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-12#cramer-potential-for-extortion"
-    },
-    {
-      "id": "boards-impossible-bind",
-      "headline": "The board's bind, and a telling silence",
-      "type": "insight",
+      "id": "advocates-never-made-the-case",
+      "headline": "The pro-sales camp never made its best argument",
+      "type": "take",
       "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Axios's Dan Primack asked what else a board could do after confirming its CEO lied about one affair with national security implications while sleeping with a direct report. His read on the final announcement: \"Zero comment from Jensen in the press release. That's very telling about how not voluntary this was.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-12#boards-impossible-bind"
+      "summary": "Jensen and other advocates almost never publicly framed selling worse chips as a way to keep China dependent on an inferior supply. Their pitch was about whether we should be competing with China at all, which was a much weaker argument.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#advocates-never-made-the-case"
     },
     {
-      "id": "coordination-narrative",
-      "headline": "To many observers, the timing felt coordinated",
+      "id": "falsifiable-other-way",
+      "headline": "The hawks' answer: we tried arming them, let's try the other way",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "Dmitri Alperovitch replies that the current approach produced Chinese models less than nine months behind the US frontier, so now we can test denying all compute. He concedes it won't be a clean experiment, since so much Nvidia hardware has already been smuggled in.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#falsifiable-other-way"
+    },
+    {
+      "id": "simplicity-wins-politically",
+      "headline": "The simpler argument is going to win",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "08:00",
+      "attribution": null,
+      "summary": "Whoever is right on strategy, \"it's been a leaky sieve, so let's give them nothing\" needs no knowledge of scaling laws. It will resonate far more than the technical case. Meanwhile Beijing has been steering its companies toward domestic chips like Huawei's either way.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#simplicity-wins-politically"
+    },
+    {
+      "id": "cold-war-mentality",
+      "headline": "The Jensen affair is reviving a Cold War mentality",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "08:00",
+      "attribution": null,
+      "summary": "The Telegraph compared it to the Klaus Fuchs scandal of the 1940s, which broke the Western nuclear monopoly. CSIS's Scott Kennedy expects Democrats to nudge China policy in a more hawkish direction, constrained by executive-branch latitude and China's growing leverage.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#cold-war-mentality"
+    },
+    {
+      "id": "chip-denial-and-data-center-slowdown",
+      "headline": "Why slowing US data centers makes chip denial more urgent",
       "type": "insight",
       "segment": "main",
       "timestamp": "10:00",
       "attribution": null,
-      "summary": "As the second story landed, a wide swath of tech and media voices began asking who benefits and why now. Replit's Amjad Masad suggested that anyone who wants AI \"closed, centralized, and controlled\" gains from removing open source's premier champion. Glenn Greenwald questioned whether there was any tangible evidence beyond anonymous intelligence suspicions.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#coordination-narrative"
+      "summary": "Natixis economist Gary Ng warns that a slower US build-out keeps American token prices high, which opens the door for China to export cheap inference backed by abundant electricity. If Democrats slow data center construction, cutting off China's chips becomes the way to do it without surrendering the lead.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#chip-denial-and-data-center-slowdown"
     },
     {
-      "id": "does-china-win-either-way",
-      "headline": "Is Jensen's fall a win for China or a loss?",
+      "id": "jensen-to-testify",
+      "headline": "Jensen heads to Congress under oath",
       "type": "insight",
       "segment": "main",
-      "timestamp": "13:00",
+      "timestamp": "10:00",
       "attribution": null,
-      "summary": "The sourcing has openly come from US intelligence. The harder question is whether China gains more from Nvidia funneling it chips or from disrupting a US company with 90% market share now that Huawei is catching up. China may have planned this over decades, or it may simply be a happy accident.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#does-china-win-either-way"
+      "summary": "Bloomberg reports Huang agreed to a closed-door, transcribed House hearing before Thanksgiving. The China Select Committee is still threatening a subpoena, and Senate Banking Chair Tim Scott wants a separate hearing on export controls.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#jensen-to-testify"
     },
     {
-      "id": "democrats-show-trial-steelman",
-      "headline": "The steelman for why Democrats might welcome this",
+      "id": "warren-still-owe-answers",
+      "headline": "Jensen Huang's decision to resign from NVIDIA does not absolve him\u2026 They still owe Congress answers.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "11:00",
+      "attribution": "Sen. Elizabeth Warren, Senate Banking Committee ranking member",
+      "summary": "NLW reads the subtext: this isn't about the affairs (a second one was reported, and it's now a footnote), or even mainly about Alice Huang. It's about whether Nvidia knowingly contravened export controls, and what Jensen knew about Megaspeed giving Chinese companies access to its chips.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#warren-still-owe-answers"
+    },
+    {
+      "id": "lutnick-in-the-line-of-fire",
+      "headline": "Lutnick is the official most in the line of fire",
       "type": "insight",
       "segment": "main",
-      "timestamp": "14:00",
+      "timestamp": "15:00",
       "attribution": null,
-      "summary": "With anti-AI populism surging after the midterms, a high-profile Jensen scandal lets new leaders placate voters, tie the story to a Trump national security scandal, and schedule a year of hearings. It does all that without the truly disruptive moves: a data center moratorium, a ban on recursive self-improvement, or a breakup. NLW is explicit that this is a steelman, not his own view.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#democrats-show-trial-steelman"
+      "summary": "Reports say Commerce Secretary Howard Lutnick slow-rolled export-control enforcement all year, which rivals frame as defying presidential orders. Insiders are split on whether he'll be fired, since the President was too directly involved for an easy scapegoat. One official called it \"a complete and utter disaster.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-13#lutnick-in-the-line-of-fire"
     },
     {
-      "id": "lutnick-obstructer-in-chief",
-      "headline": "Lutnick is cast as obstructer-in-chief on chip exports",
+      "id": "hearings-into-2027",
+      "headline": "Expect this to stretch well into 2027",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": null,
+      "summary": "Senators Warren and Coons, the incoming chairs of Banking and Foreign Affairs once Democrats take Congress in January, asked the administration to preserve all documents on Nvidia's chip exports, Jensen's relationship with Alice Huang, and what intelligence suspected about her.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#hearings-into-2027"
+    },
+    {
+      "id": "spy-narrative-questioned",
+      "headline": "The spy narrative starts to wobble",
       "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "Axios reports that Treasury Secretary Bessent confronted Lutnick in the Situation Room over Commerce's failure to enforce export controls on Megaspeed. Trump called Elon Musk for advice, Musk sided with the hawks, and the president said \"Let's get it done.\" Trump approved action on at least three occasions (May, August and November 5), and it still hasn't happened.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#lutnick-obstructer-in-chief"
+      "summary": "CNN reports the intelligence on Alice Huang doesn't yet prove she was spying. ODNI officials called the characterization \"over-torqued,\" and the AG says no conclusions have been reached. Former AI czar David Sacks declared the narrative \"collapsing\" and called for an investigation into the leak of the classified memo.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#spy-narrative-questioned"
     },
     {
-      "id": "occams-razor-china-hawks",
-      "headline": "The Occam's razor explanation: China hawks seizing their moment",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": null,
-      "summary": "Chinese firms are reportedly rushing to rent capacity at Southeast Asian data centers before the remote-access loophole in export controls closes. The hawks aren't satisfied even with that fix, and this scandal gives them leverage to force through action they've never been able to get.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#occams-razor-china-hawks"
-    },
-    {
-      "id": "anthropic-speculation",
-      "headline": "The most speculative thread points at Anthropic",
-      "type": "insight",
+      "id": "smuggling-not-spying",
+      "headline": "Whether she was a spy will matter less and less",
+      "type": "take",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "A viral post argued that the Times reporter who broke the spy story had relied on Anthropic co-founder Jack Clark as a source in past AI coverage. The backdrop: Dario Amodei and Jensen famously don't get along and sit at opposite poles on AI risk, China policy and open source. NLW lays out the basics without endorsing the theory.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#anthropic-speculation"
+      "summary": "Some will read the whole affair as a China-fearing hatchet job on a powerful private company. NLW expects the hearings and investigations to center on a different question: did Jensen know about, or help facilitate, chip smuggling into China?",
+      "link": "https://aidailybrief.ai/e/2026-11-13#smuggling-not-spying"
     },
     {
-      "id": "playing-with-fire-interconnected",
-      "headline": "Anyone inside AI who did this is playing with fire",
+      "id": "smuggling-network-expands",
+      "headline": "The smuggling story keeps getting bigger",
       "type": "insight",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "Publisher Sam Koppelman's reminder: Nvidia is anchoring the Anthropic IPO, investing in OpenAI, backstopping neoclouds like CoreWeave and guaranteeing Stargate data centers, all through deals Jensen negotiated personally. In an industry this interconnected, taking him out hurts everyone.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#playing-with-fire-interconnected"
+      "summary": "Bloomberg saw documentation of chips moving from Singapore to a data center in China. The Information reports that companies linked to Alice Huang invested in DeepSeek and promised it a steady stream of Blackwells. The DOJ is probing her ties to Super Micro, whose co-founder was charged with smuggling in March.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#smuggling-network-expands"
     },
     {
-      "id": "lost-china-and-tsmc-bridge",
-      "headline": "The US just lost its key human bridge to China and TSMC",
-      "type": "take",
+      "id": "gpu-fingerprint-forensics",
+      "headline": "Model weights carry a fingerprint of the GPU that trained them",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "20:00",
+      "timestamp": "19:00",
       "attribution": null,
-      "summary": "Beyond the policies he pushed, Jensen personally connected US and Chinese political and business communities, and he was major connective tissue with TSMC in Taiwan. Losing him from those conversations matters regardless of what Nvidia's policy positions become.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#lost-china-and-tsmc-bridge"
+      "summary": "Former OpenAI researcher Will DePue says initial weight layouts depend on the exact GPU and seed, and traces survive training. After searching 6 trillion combinations, he says six Chinese models, including DeepSeek V4 Pro, Kimi K3 and MiniMax-M3, were initialized on Blackwell systems. He says senior OpenAI and Anthropic researchers independently verified the result.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#gpu-fingerprint-forensics"
     },
     {
-      "id": "architect-of-us-chip-leadership",
-      "headline": "The architect of US chip leadership is out of play",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Jensen made early, contrarian bets that put Nvidia and the US in front. In the long run, reducing key-man risk could leave the sector healthier five or ten years out, as companies like AMD and Google benefit from a less dominant Nvidia.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#architect-of-us-chip-leadership"
-    },
-    {
-      "id": "open-source-loses-best-advocate",
-      "headline": "Open source just lost its biggest advocate in Washington",
-      "type": "take",
+      "id": "fraction-of-compute-myth",
+      "headline": "If true, the \"fraction of the compute\" story falls apart",
+      "type": "insight",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "Powerful forces in Washington see open source as a safety risk and an obstacle to control. Nvidia's Nemotron models were gaining enterprise traction, and even if Nvidia keeps building them, the uncertainty could slow corporate adoption of open models. Meta and Thinking Machines Lab gain ground as open-source leaders.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#open-source-loses-best-advocate"
+      "summary": "Stephen Lubka's read: Chinese labs weren't building competitive models on scraps. They used latest-gen hardware plus distillation of top models to run about six months behind at lower cost.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#fraction-of-compute-myth"
     },
     {
-      "id": "washington-power-shift",
-      "headline": "Anthropic, x-risk advocates and China hawks all gain in Washington",
-      "type": "take",
+      "id": "kress-interim-ceo",
+      "headline": "Nvidia staff rally for Jensen as Colette Kress takes the reins",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "21:00",
+      "attribution": null,
+      "summary": "A memorial sits outside Nvidia's entrance, and an internal post urging the board to reconsider has 1,600 comments, most backing Jensen's return. CFO Colette Kress, at Nvidia since 2013, is interim CEO. Reports say Jensen tended to \"steamroll her\" and dismissed her as a reporting CFO.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#kress-interim-ceo"
+    },
+    {
+      "id": "kress-pushed-back-on-backstops",
+      "headline": "The CFO who pushed back on the $250B guarantee",
+      "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "With its chief philosophical opponent neutered, Anthropic's influence in Washington likely grows. Sam Altman has historically sat between the two poles. Existential-risk advocates lose their strongest denier, and China hawks gain momentum for tighter export controls, which puts the screws on regions like the Gulf to choose sides.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#washington-power-shift"
+      "summary": "The Information says Kress resisted Nvidia's more extravagant underwriting, including a proposed $250 billion guarantee backstopping 8 gigawatts of compute for OpenAI. It was pared back to $100 billion for the first half of the build-out. She's not ultra-conservative, but she's unlikely to stick her neck out like Jensen did.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#kress-pushed-back-on-backstops"
     },
     {
-      "id": "nvidia-bottom-but-diminished",
-      "headline": "Nvidia likely finds a bottom, but its destiny looks diminished",
-      "type": "take",
+      "id": "nvidia-central-bank-of-ai",
+      "headline": "Nvidia is the central bank of AI, and it might tighten credit",
+      "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "There is no greater capitulation than the CEO of the world's largest company resigning, so a near-term bottom and eventual stabilization, perhaps at a repriced level, seem likely. Jensen's real value, though, was the momentum behind long-term bets that replacement leadership rarely provides. As Naval put it, one does not simply replace the founder.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#nvidia-bottom-but-diminished"
+      "summary": "Nvidia has invested in dozens of startups and co-signs NeoCloud leases. A pullback could hit like banks pulling credit in a downturn. Its $500 billion financing vehicle with six PE giants, which guarantees GPU residual value on up to 25% of deal size, has signed no deals, and partners want a bigger backstop.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#nvidia-central-bank-of-ai"
     },
     {
-      "id": "ai-lost-its-fed-chair",
-      "headline": "The AI industry just lost its Federal Reserve chair",
-      "type": "take",
+      "id": "markets-hate-uncertainty",
+      "headline": "Markets move on: \"If Nvidia is out of the way, who wins?\"",
+      "type": "insight",
       "segment": "main",
       "timestamp": "24:00",
       "attribution": null,
-      "summary": "Nvidia has been the adult in the room guaranteeing financing for smaller companies and model labs, the same web of backstops the AI bears worry about. New leadership will likely use this moment to reset expectations toward Wall Street's wishes rather than build out as fast as humanly possible. That is an underappreciated shift with implications that are hard to overstate.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#ai-lost-its-fed-chair"
+      "summary": "After falling 20% in three days, Nvidia found a bottom on the resignation and traded slightly higher Thursday, a reminder that investors hate uncertainty most. The Nasdaq is up 4.8% on the week, and analysts see Broadcom, Intel and startups filling the cracks Nvidia leaves.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#markets-hate-uncertainty"
     },
     {
-      "id": "self-reinforcing-revelations",
-      "headline": "Everything coming out at once doesn't require a conspiracy",
-      "type": "take",
+      "id": "openai-backs-chip-bills",
+      "headline": "OpenAI quietly backs all three chip-control bills",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "26:00",
+      "timestamp": "25:00",
       "attribution": null,
-      "summary": "Once a previously unimpeachable CEO falls, journalists hammer every source they have, and sources realize there will never be a more resonant moment to talk. The more that comes out, the more likely it is that more comes out. Don't assume we're done.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#self-reinforcing-revelations"
+      "summary": "Anthropic has long supported export controls, but OpenAI stayed noncommittal until this week. Politico reports it privately told congressional offices it supports all three bills. Sen. Jim Banks calls it a \"generational opportunity\" to close every pathway China uses to get chips.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#openai-backs-chip-bills"
     },
     {
-      "id": "companies-too-powerful",
-      "headline": "The real story: a growing sense that big tech has too much power",
+      "id": "implications-barely-begun",
+      "headline": "The story will turn forward fast, but the implications have barely begun",
       "type": "take",
       "segment": "main",
-      "timestamp": "27:00",
+      "timestamp": "25:00",
       "attribution": null,
-      "summary": "Pieces like The Atlantic's \"The Scandal Is Bigger Than Jensen Huang\" and a TikTok from journalist Jacob Ward are livid less about Jensen than about corporate power itself. Ward goes so far as to argue the public should have a democratic say in whether a CEO stays, which is far outside recent American norms. NLW expects this push, from both sides of the spectrum, to rebalance power toward government to grow in importance.",
-      "link": "https://aidailybrief.ai/e/2026-11-12#companies-too-powerful"
+      "summary": "Markets want to know who benefits, politicians want to pass legislation, and the Anthropic IPO next week will pull attention forward. Still, NLW expects the consequences of this moment to keep unfolding long after the news cycle moves on.",
+      "link": "https://aidailybrief.ai/e/2026-11-13#implications-barely-begun"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-12.mp3",
-  "generated": "2026-11-14T06:22:50Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-13.mp3",
+  "generated": "2026-11-16T06:23:33Z"
 }

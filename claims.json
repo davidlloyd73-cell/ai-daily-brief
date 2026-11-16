@@ -1901,6 +1901,24 @@
    "resolution": "Vindicated if within twelve months Nvidia restates or newly discloses a material share of revenue as tied to diverted or China-bound sales, or US authorities bring enforcement action against Nvidia itself over export violations or disclosures. Fails if inquiries close with no finding against the company and no material change to reported revenue.",
    "check_by": "2027-11-13",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-13",
+   "side": "NLW",
+   "claim": "That the Jensen Huang affair opens a new era of Washington asserting control over AI: the three chip-control bills are now likely to pass, hearings will run well into 2027, and the question will shift from espionage to whether Nvidia knowingly let chips reach China, while markets move on quickly.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-13",
+   "resolution": "Vindicated if by the end of March 2027 at least two of the three chip export-control bills have become law, whether alone or within the defence authorisation act, and congressional hearings on Nvidia's exports are continuing. Fails if none of the bills is enacted by then or the hearings are dropped.",
+   "check_by": "2027-03-31",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-13",
+   "side": "Zitron",
+   "claim": "That Nvidia has repeatedly and knowingly profited from breaking export law, with Megaspeed one part of a sprawling smuggling operation extending well beyond a single customer.",
+   "source_url": "https://www.wheresyoured.at/hg-megaspeed/",
+   "resolution": "Vindicated if within twelve months sworn testimony, released documents or a charging document show that Nvidia executives knew restricted chips were being diverted to China through more than one intermediary. Fails if the inquiries find diversion by customers without Nvidia's knowledge.",
+   "check_by": "2027-11-13",
+   "status": "open"
   }
  ]
 }
