@@ -1,0 +1,17 @@
+David's AI brief for Sunday, the fifteenth of November.
+
+The One Idea today: the companies furthest ahead with AI do not hire agent teammates. They turn the company into a system. This was one of Nathaniel Whittemore's Sunday long reads, drawing on what Stripe, Shopify, Uber, Ramp, Cloudflare and a number of young start-ups have published about running agents in real work.
+
+He finds seven shared practices. They give agents everything an employee can see. They put agents in every function, not only engineering. Work is started by a signal, such as an invoice or a customer message, with nobody typing a prompt. A lead agent plans the job and spins up disposable helpers, anything from one for a simple fact check to more than ten for a hard problem. Agents check each other and must show proof. Human review is scaled to risk, with a named person accountable. And there is one shared system that improves itself. Uber's library of skills runs more than thirty thousand times a day.
+
+What did not make the list is the idea many expected: a fixed roster of named agent colleagues. Whittemore says his own set-up has changed. He keeps the context permanent and the agents temporary. His analogy is a consulting firm on demand. You bring a goal, a lead staffs it, evidence comes back, and you own the result. He adds that checking the work, not producing it, is now the constraint.
+
+Now, the other side. Ed Zitron has not written about these practices, but twelve days earlier he argued that this heavy use of agents was an anomaly. Companies let staff spend freely, then pulled back when the bills arrived, and he cites Uber using its annual budget in one quarter. Both men are polemicists with opposite incentives, and both now treat cost and verification, not the ability of the models, as the limit. The thing to watch is whether these companies keep expanding once prices reflect the true cost.
+
+Turning to general practice, three thoughts. First, a scribe is a tool, not a colleague. A study in the Harvard Business Review found that managers checked identical documents less carefully when they were labelled as coming from an AI teammate. At firms that already treat AI as staff, scrutiny fell by about sixteen per cent. It is one early study, but it fits what we know of automation bias. The note is a draft, and whoever signs it owns it.
+
+Second, review scaled to risk with a named owner is ordinary clinical governance. A routine summary needs a read-through. A referral, a medication change or anything bound for the coroner needs proper checking. If a tool is ever allowed to act on incoming results or letters without a prompt, decide beforehand who is responsible.
+
+Third, upkeep and cost. Ramp found its agent got worse when its information went stale, and the same holds for practice protocols and templates. And if Zitron is right that agents cost more to run than they are priced at, suppliers may move to charging by use. Fix the price in the contract.
+
+That's the brief — source, The AI Daily Brief.

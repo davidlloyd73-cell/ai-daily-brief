@@ -1,291 +1,291 @@
 {
-  "date": "2026-11-13",
-  "title": "Washington Is Taking Control of AI",
-  "dek": "Jensen Huang's exit from Nvidia is looking less like a resignation and more like Washington firing him. As the lame-duck Congress returns, China hawks and newly empowered Democrats are using the scandal to push export controls, haul executives in to testify, and rebalance power between Washington and the most important company in AI.",
-  "source": "https://aidailybrief.ai/e/2026-11-13",
+  "date": "2026-11-15",
+  "title": "7 Things AI-Native Companies Do Differently",
+  "dek": "On this Long Read Sunday, NLW pulls together what Stripe, Shopify, Uber, Ramp, Cloudflare and a wave of AI-native startups have published about running agents in production. Seven shared practices emerge, and most come back to context. The idea that didn't make the list: agents as teammates.",
+  "source": "https://aidailybrief.ai/e/2026-11-15",
   "oneIdea": {
-    "headline": "Washington fired Jensen, and that's the opening salvo of a new era of AI politics.",
-    "summary": "Set aside the conspiracy theories. Even without any coordinated campaign, the Jensen affair marks a shift: Democrats are asserting power over foreign policy and over powerful private-market actors, and China hawks are ascendant. Three chip-control bills now look likely to pass, the hearings will stretch into 2027, and the real question is no longer whether Alice Huang was a spy. It's whether Nvidia knowingly let its chips reach China. Markets may move on quickly. The political consequences are only beginning."
+    "headline": "AI-native companies don't hire agent teammates. They turn the company into a system.",
+    "summary": "The most aggressive adopters share seven practices. They give agents the whole picture, put agents in every function, let signals rather than prompts start the work, run orchestrators that spin up sub-agents, make agents check each other and show proof, scale human review to risk while keeping a person accountable, and run one shared system that improves itself. What's missing is the fixed roster of named, persistent agent coworkers many expected. In practice, work looks less like managing teammates and more like engaging an on-demand consulting firm: you bring a goal, a lead staffs it, evidence comes back, and you own the result. The durable asset is context, not the agents."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Little clinical relevance; a pricing point",
-        "body": "This edition is American trade politics and changes nothing in the consulting room. One economist's point is worth noting: if the United States builds data centres more slowly, the price of AI services there stays high. NHS tools mostly run on American models, so that feeds through to what suppliers charge us. Zitron's allegations concern Nvidia's accounts, not service prices."
+        "title": "A scribe is a tool, not a colleague",
+        "body": "The most useful finding here for general practice is a small study in the Harvard Business Review: managers checked identical documents less carefully when they were labelled as coming from an AI teammate, with scrutiny about 16 per cent lower at firms that already treat AI as staff. NLW notes it is one early study. It fits what we know of automation bias. An AI scribe's note should be read as a draft from a tool, and the clinician who signs it owns it."
       },
       {
-        "title": "Chinese models and patient data",
-        "body": "If the reports are right that leading Chinese models were trained on smuggled hardware, they are more capable and cheaper than their official story suggested, and some vendors will be tempted to use them. For anything touching patient data the questions are unchanged: where is it processed, under whose law, and has the DPIA covered it. Cheap is not a reason."
+        "title": "Review scaled to risk, with a named owner",
+        "body": "The companies described match human checking to risk and keep one person accountable through every handoff. That is ordinary clinical governance. A scribe's summary of a routine consultation needs a read-through; a generated referral, a medication change or anything going to a coroner needs proper checking. If a practice adopts tools that act on incoming results or letters without a prompt, decide beforehand who is responsible for each stream."
       },
       {
-        "title": "Who the company answers to",
-        "body": "A congressman said Nvidia should put national security first. NLW reads that as the state taking control; Zitron as the law catching up. The NHS has lived with this tension for decades: suppliers of clinical systems answer to shareholders, and we rely on contracts and regulators to align them with patients. It is worth reading those contracts with that in mind."
+        "title": "Stale context, and who pays for the tokens",
+        "body": "Ramp found its agent got worse when the information it relied on went out of date. The same applies to practice protocols, templates and formularies fed into any tool: someone has to maintain them. On cost the two sides differ. NLW describes agents checking agents at great volume; Zitron says that volume costs more to serve than it is priced at. A supplier adding agentic features may move to usage-based charging, so fix prices in the contract."
       }
     ]
   },
   "the_other_side": {
-    "source": "Premium: The Hater's Guide To Megaspeed",
-    "url": "https://www.wheresyoured.at/hg-megaspeed/",
-    "date": "2026-11-13",
-    "same_day": true,
-    "text": "Zitron, in a paid piece published the same day of which only the opening is free to read, does not see Washington seizing control of a private company. He sees overdue attention to conduct he says was reported for more than a year and ignored. He alleges Megaspeed is one part of a sprawling smuggling operation, and writes that Nvidia has \"repeatedly and unashamedly profited from breaking the law\". He repeats a short seller's claim that over a fifth of last fiscal year's revenue may have come from China-bound sales. These are his allegations; the free section does not discuss the chip-control bills."
+    "source": "Running Dry",
+    "url": "https://www.wheresyoured.at/running-dry/",
+    "date": "2026-11-03",
+    "same_day": false,
+    "text": "Zitron has not written about these seven practices. His nearest piece, published twelve days before this edition, argues that the heavy agent use Whittemore admires was an anomaly he calls token-maxxing: companies let staff spend freely, then pulled back when costs soared, and he cites Uber burning its annual token budget in a single quarter. He says agents add a layer of cost, since each needs its own virtual machine and may run several models at once, and judges that even good results are mediocre. He points to Replit, whose margin reportedly turned negative after it launched a more autonomous agent. These are his claims and opinions."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is whether Nvidia knew its chips were reaching China. Both accept as fact that restricted chips got there in quantity, that Megaspeed was a large customer under investigation, and that Huang will be questioned under oath. The empirical question is what Nvidia's leadership knew and how much revenue was involved; the observable is the testimony, the documents Congress has asked to be preserved, and any Justice Department charges. The residue is worldview: whether this is the state asserting itself over a powerful company, or a company finally being held to existing law. For Whittemore to be vindicated, the lasting result must be political, with new chip laws and long hearings while markets move on. For Zitron, investigators must show knowing diversion on a scale that changes Nvidia's accounts. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both now say smuggling, not espionage, is the real issue. Watch Huang's testimony before Thanksgiving."
+    "text": "The variable both men orbit is the cost of a unit of verified work when agents do it at unsubsidised prices. Both accept as fact that the heaviest adopters run agents in great volume, that Uber is among them, and that checking the output has become the constraint. The empirical question is whether these fleets pay for themselves once prices reflect their cost; the observable is whether the companies Whittemore cites keep expanding agent use after budgets are capped, and whether measures such as Shopify's revert rate are published. The residue is worldview: whether a company rebuilt around agents is a new kind of organisation or an expensive habit. For Whittemore to be vindicated, the seven practices must spread beyond engineering and survive price rises. For Zitron, usage must fall back as subsidies end and venture-funded customers retrench. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both treat verification and cost, not model ability, as the limit. Watch whether Uber and Ramp report agent volumes again next quarter."
   },
   "headlines": [
     {
-      "id": "washington-fired-jensen",
-      "headline": "Washington fired Jensen",
+      "id": "agent-teammates-wrong-mental-model",
+      "headline": "Agents as teammates is the wrong mental model",
       "type": "take",
       "segment": "main",
-      "timestamp": "01:00",
+      "timestamp": "00:00",
       "attribution": null,
-      "summary": "Calling it a resignation undersells what happened. Even without any coordinated campaign, this looks like the opening salvo of a new period: Democrats asserting power over foreign policy and over powerful private-market actors, with China hawks increasingly ascendant.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#washington-fired-jensen"
+      "summary": "NLW once ran a full team of OpenClaws: researchers, writers, project coordinators and a chief of staff above them. He's increasingly convinced that framing doesn't reflect how the most sophisticated users actually work with agents.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#agent-teammates-wrong-mental-model"
     },
     {
-      "id": "moolenaar-national-security-priority",
-      "headline": "Nvidia must now change its corporate practices and appoint leadership that makes national security its top priority.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "02:00",
-      "attribution": "Rep. John Moolenaar, Chairman of the House Select Committee on China",
-      "summary": "The House Select Committee on China's statement called Huang's exit a \"firing.\" NLW points to the subtext: the idea that a private company's top priority should be national security rather than its fiduciary duty to shareholders shows the power struggle that has now opened up.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#moolenaar-national-security-priority"
-    },
-    {
-      "id": "chip-controls-top-of-agenda",
-      "headline": "The scandal vaults chip controls to the top of the lame-duck agenda",
-      "type": "insight",
+      "id": "watch-the-engineers",
+      "headline": "Watch what engineers do today to see your next six months",
+      "type": "take",
       "segment": "main",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "Export controls were already expected to ride on the must-pass NDAA. Now Democrats plan to push for even tougher restrictions. One aide's message to Republicans who were nervous about crossing the White House: if they don't deal now, Democrats write the next version.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#chip-controls-top-of-agenda"
+      "summary": "Code got there first because it has tests, verifiability and a clear definition of done, so not every practice will transfer cleanly. Still, NLW argues that watching engineers today is the best preview of what everyone else will be doing in three to six months.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#watch-the-engineers"
     },
     {
-      "id": "consensus-forming-three-bills",
-      "headline": "A hawkish consensus forms, with White House help",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "03:00",
-      "attribution": null,
-      "summary": "Speaker Mike Johnson sees a \"developing consensus.\" Leader Thune calls passage a high probability. House Foreign Affairs Chair Brian Mast says the week has \"one hundred percent boosted\" the chances of all three chip bills, adding that they're getting \"direct assistance from the White House.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-13#consensus-forming-three-bills"
-    },
-    {
-      "id": "machine-guns-vs-muskets",
-      "headline": "The case for selling China older chips: machine guns vs. muskets",
+      "id": "context-maxing",
+      "headline": "Practice 1: give agents everything an employee can see",
       "type": "insight",
       "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Gavin Baker argues that selling China a few generations behind (H100s while the US runs Vera Rubin) meant scaling laws would keep American labs structurally ahead. In this view, a full ban pushes China down its own hardware path and gives it a real chance to catch up.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#machine-guns-vs-muskets"
+      "summary": "The limit on serious knowledge work isn't the model; it's the context the model can reach. Francis Davidson, whose under-a-year-old company OpenAI acquired, calls his approach \"content maxing\": agents get MCP or CLI access to every meeting recording, Slack, email, Drive and every company tool.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#context-maxing"
     },
     {
-      "id": "advocates-never-made-the-case",
-      "headline": "The pro-sales camp never made its best argument",
-      "type": "take",
+      "id": "decision-documents",
+      "headline": "A stealable idea: a clean shared document for every decision",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "Davidson's team also writes a shared document for every decision, and agents keep that knowledge base current. The result is a track record of what was decided, what went into it and how the call was made.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#decision-documents"
+    },
+    {
+      "id": "context-layer-needs-management",
+      "headline": "The context layer has to be maintained like a product",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "Ramp pipes Slack, Notion, Linear and Calendar into persistent memory every day so agent sessions never start cold. Uber built a context graph across 30+ internal systems, and Shopify's monorepo holds skills, runbooks and instruction files written for agents. The catch: Ramp found its analyst agent gets worse when that layer goes stale.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#context-layer-needs-management"
+    },
+    {
+      "id": "context-hoarding",
+      "headline": "Employees are hoarding context as job security",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "One founder found that rich context has a political side: employees unsure about their future are holding back knowledge, because handing it to the agent feels like handing over their value. NLW calls it a cultural problem far more than a technical one, and one leaders will have to face head-on.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#context-hoarding"
+    },
+    {
+      "id": "agents-in-every-function",
+      "headline": "Practice 2: agents in every function, not just engineering",
+      "type": "insight",
       "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Jensen and other advocates almost never publicly framed selling worse chips as a way to keep China dependent on an inferior supply. Their pitch was about whether we should be competing with China at all, which was a much weaker argument.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#advocates-never-made-the-case"
+      "summary": "Anthropic's growth marketing team has at times been one person, using agents to flag underperforming ads and sub-agents to write hundreds of new ones in minutes. OpenAI's Enterprise Signals research found Basis running customer onboarding with agents and Clay giving every account its own workspace and sub-agent.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#agents-in-every-function"
     },
     {
-      "id": "falsifiable-other-way",
-      "headline": "The hawks' answer: we tried arming them, let's try the other way",
+      "id": "signal-not-prompt",
+      "headline": "Practice 3: a signal, not a prompt, starts the work",
       "type": "insight",
       "segment": "main",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "Dmitri Alperovitch replies that the current approach produced Chinese models less than nine months behind the US frontier, so now we can test denying all compute. He concedes it won't be a clean experiment, since so much Nvidia hardware has already been smuggled in.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#falsifiable-other-way"
+      "summary": "In AI-native companies, work kicks off from triggers such as a customer message, an invoice, a renewal or an operational alert, with no human translating it into a prompt. At Uber, most agent sessions are now started by other agents, for code review, self-healing CI and on-call triage.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#signal-not-prompt"
     },
     {
-      "id": "simplicity-wins-politically",
-      "headline": "The simpler argument is going to win",
+      "id": "which-events-start-work",
+      "headline": "Stop asking what to ask the AI. Ask what should start work on its own.",
       "type": "take",
       "segment": "main",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "Whoever is right on strategy, \"it's been a leaky sieve, so let's give them nothing\" needs no knowledge of scaling laws. It will resonate far more than the technical case. Meanwhile Beijing has been steering its companies toward domestic chips like Huawei's either way.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#simplicity-wins-politically"
+      "summary": "Outside engineering, the exercise is to list the business events that should trigger work automatically: a churn signal, a renewal coming due, an invoice arriving.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#which-events-start-work"
     },
     {
-      "id": "cold-war-mentality",
-      "headline": "The Jensen affair is reviving a Cold War mentality",
+      "id": "orchestrator-subagents",
+      "headline": "Practice 4: one orchestrator, many disposable sub-agents",
       "type": "insight",
       "segment": "main",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "The Telegraph compared it to the Klaus Fuchs scandal of the 1940s, which broke the Western nuclear monopoly. CSIS's Scott Kennedy expects Democrats to nudge China policy in a more hawkish direction, constrained by executive-branch latitude and China's growing leverage.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#cold-war-mentality"
+      "summary": "Anthropic's research system has a lead agent plan the work and spin up parallel sub-agents, each with its own task, context and output format, and none aware of the others. It scales from one agent for a fact check to 10+ for hard problems, and it beat a single agent by about 90% on internal research evals.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#orchestrator-subagents"
     },
     {
-      "id": "chip-denial-and-data-center-slowdown",
-      "headline": "Why slowing US data centers makes chip denial more urgent",
+      "id": "warp-router",
+      "headline": "The orchestrator routes. It doesn't do the work.",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "09:00",
+      "attribution": null,
+      "summary": "Warp's orchestrator only decides which agents, which models and which slice of context each job gets. The logic comes back to context windows: the orchestrator holds the summaries, and each worker gets a narrow instruction and a clean slate.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#warp-router"
+    },
+    {
+      "id": "verification-bottleneck",
+      "headline": "Practice 5: verification is now the bottleneck, so build for it",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "09:00",
+      "attribution": null,
+      "summary": "Across knowledge work, the constraint has moved from producing work to verifying it. AI-native organizations treat checking as its own job with dedicated systems, and an agent's work isn't done just because it produced something.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#verification-bottleneck"
+    },
+    {
+      "id": "prove-it-or-reject-it",
+      "headline": "Shopify treats every security finding as a claim that must be proven",
       "type": "insight",
       "segment": "main",
       "timestamp": "10:00",
       "attribution": null,
-      "summary": "Natixis economist Gary Ng warns that a slower US build-out keeps American token prices high, which opens the door for China to export cheap inference backed by abundant electricity. If Democrats slow data center construction, cutting off China's chips becomes the way to do it without surrendering the lead.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#chip-denial-and-data-center-slowdown"
+      "summary": "If the agent can't write a test that actually exploits the bug, the finding is rejected or downgraded, and a different model does the checking. At RunLayer, a fixing agent ships before-and-after evidence, a second agent reviews it adversarially, and a QA agent tries to break it in production.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#prove-it-or-reject-it"
     },
     {
-      "id": "jensen-to-testify",
-      "headline": "Jensen heads to Congress under oath",
+      "id": "risk-scaled-review",
+      "headline": "Practice 6: scale human review to risk, and always know who owns it",
       "type": "insight",
       "segment": "main",
-      "timestamp": "10:00",
+      "timestamp": "13:00",
       "attribution": null,
-      "summary": "Bloomberg reports Huang agreed to a closed-door, transcribed House hearing before Thanksgiving. The China Select Committee is still threatening a subpoena, and Senate Banking Chair Tim Scott wants a separate hearing on export controls.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#jensen-to-testify"
+      "summary": "Uber carries a chain of responsibility through every agent-to-agent call, so even long handoffs trace back to a specific person. Stripe's agents write the code but humans merge every change, while RunLayer lets small, low-risk changes merge on their own.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#risk-scaled-review"
     },
     {
-      "id": "warren-still-owe-answers",
-      "headline": "Jensen Huang's decision to resign from NVIDIA does not absolve him\u2026 They still owe Congress answers.",
-      "type": "quote",
+      "id": "guardrails-investment",
+      "headline": "Snap puts more than half its agent spend into guardrails",
+      "type": "insight",
       "segment": "main",
-      "timestamp": "11:00",
-      "attribution": "Sen. Elizabeth Warren, Senate Banking Committee ranking member",
-      "summary": "NLW reads the subtext: this isn't about the affairs (a second one was reported, and it's now a footnote), or even mainly about Alice Huang. It's about whether Nvidia knowingly contravened export controls, and what Jensen knew about Megaspeed giving Chinese companies access to its chips.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#warren-still-owe-answers"
+      "timestamp": "14:00",
+      "attribution": null,
+      "summary": "Ramp is selling the same risk-tiering idea for finance: agents that approve low-risk expenses on their own or recommend a decision with their reasoning, with each customer setting where the agents have to stop.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#guardrails-investment"
     },
     {
-      "id": "lutnick-in-the-line-of-fire",
-      "headline": "Lutnick is the official most in the line of fire",
+      "id": "one-shared-system",
+      "headline": "Practice 7: one shared system instead of everyone doing AI their own way",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "14:00",
+      "attribution": null,
+      "summary": "Ramp keeps 350 shared workflows in one library, with a tool that recommends skills based on your role. Uber's library holds 3,600 skills that run more than 30,000 times a day.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#one-shared-system"
+    },
+    {
+      "id": "shopify-public-slack",
+      "headline": "Shopify's coding agent only works in public Slack channels",
       "type": "insight",
       "segment": "main",
       "timestamp": "15:00",
       "attribution": null,
-      "summary": "Reports say Commerce Secretary Howard Lutnick slow-rolled export-control enforcement all year, which rivals frame as defying presidential orders. Insiders are split on whether he'll be fired, since the President was too directly involved for an easy scapegoat. One official called it \"a complete and utter disaster.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-13#lutnick-in-the-line-of-fire"
+      "summary": "There are no DMs, so every agent session becomes a transcript anyone can search and learn from.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#shopify-public-slack"
     },
     {
-      "id": "hearings-into-2027",
-      "headline": "Expect this to stretch well into 2027",
+      "id": "self-improving-system",
+      "headline": "Agents that grade the agents and propose fixes",
       "type": "insight",
       "segment": "main",
       "timestamp": "15:00",
       "attribution": null,
-      "summary": "Senators Warren and Coons, the incoming chairs of Banking and Foreign Affairs once Democrats take Congress in January, asked the administration to preserve all documents on Nvidia's chip exports, Jensen's relationship with Alice Huang, and what intelligence suspected about her.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#hearings-into-2027"
+      "summary": "At Warp, scoring agents grade finished runs, and another agent proposes system improvements as pull requests for the team to review. The caution is to measure the right thing: Shopify doesn't count lines of AI code or PRs, and tracks how often changes get reverted instead.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#self-improving-system"
     },
     {
-      "id": "spy-narrative-questioned",
-      "headline": "The spy narrative starts to wobble",
-      "type": "insight",
+      "id": "teammates-was-a-bridge",
+      "headline": "The teammate metaphor was a useful bridge, not the destination",
+      "type": "take",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "CNN reports the intelligence on Alice Huang doesn't yet prove she was spying. ODNI officials called the characterization \"over-torqued,\" and the AG says no conclusions have been reached. Former AI czar David Sacks declared the narrative \"collapsing\" and called for an investigation into the leak of the classified memo.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#spy-narrative-questioned"
+      "summary": "What it got right was moving people from AI as a chat window to AI that goes out and does work on its own. It helped the transition from assisted AI to agentic AI, even if it isn't how the most advanced users ended up working.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#teammates-was-a-bridge"
     },
     {
-      "id": "smuggling-not-spying",
-      "headline": "Whether she was a spy will matter less and less",
+      "id": "fleets-not-rosters",
+      "headline": "Fleets that scale with the job beat fixed rosters",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "17:00",
+      "attribution": null,
+      "summary": "Instead of a fixed roster, capacity follows the job: fresh context for every task, swappable models, and company-wide knowledge in place of personal memory. Anthropic's guidance found that splitting agents by role, such as planner, coder, tester and reviewer, tends to backfire, because each handoff becomes a game of telephone.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#fleets-not-rosters"
+    },
+    {
+      "id": "bitter-lesson-org-design",
+      "headline": "A bitter lesson for org design: stop organizing agents like people",
       "type": "take",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "Some will read the whole affair as a China-fearing hatchet job on a powerful private company. NLW expects the hearings and investigations to center on a different question: did Jensen know about, or help facilitate, chip smuggling into China?",
-      "link": "https://aidailybrief.ai/e/2026-11-13#smuggling-not-spying"
+      "summary": "It's natural to manage agents the way we manage humans, but in one experiment, role-split agents spent more effort coordinating than working. Every tried a proxy agent for each person early in the year and moved to a few agents at the intersections that expand through sub-agents as needed.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#bitter-lesson-org-design"
     },
     {
-      "id": "smuggling-network-expands",
-      "headline": "The smuggling story keeps getting bigger",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "19:00",
-      "attribution": null,
-      "summary": "Bloomberg saw documentation of chips moving from Singapore to a data center in China. The Information reports that companies linked to Alice Huang invested in DeepSeek and promised it a steady stream of Blackwells. The DOJ is probing her ties to Super Micro, whose co-founder was charged with smuggling in March.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#smuggling-network-expands"
-    },
-    {
-      "id": "gpu-fingerprint-forensics",
-      "headline": "Model weights carry a fingerprint of the GPU that trained them",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "19:00",
-      "attribution": null,
-      "summary": "Former OpenAI researcher Will DePue says initial weight layouts depend on the exact GPU and seed, and traces survive training. After searching 6 trillion combinations, he says six Chinese models, including DeepSeek V4 Pro, Kimi K3 and MiniMax-M3, were initialized on Blackwell systems. He says senior OpenAI and Anthropic researchers independently verified the result.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#gpu-fingerprint-forensics"
-    },
-    {
-      "id": "fraction-of-compute-myth",
-      "headline": "If true, the \"fraction of the compute\" story falls apart",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Stephen Lubka's read: Chinese labs weren't building competitive models on scraps. They used latest-gen hardware plus distillation of top models to run about six months behind at lower cost.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#fraction-of-compute-myth"
-    },
-    {
-      "id": "kress-interim-ceo",
-      "headline": "Nvidia staff rally for Jensen as Colette Kress takes the reins",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "A memorial sits outside Nvidia's entrance, and an internal post urging the board to reconsider has 1,600 comments, most backing Jensen's return. CFO Colette Kress, at Nvidia since 2013, is interim CEO. Reports say Jensen tended to \"steamroll her\" and dismissed her as a reporting CFO.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#kress-interim-ceo"
-    },
-    {
-      "id": "kress-pushed-back-on-backstops",
-      "headline": "The CFO who pushed back on the $250B guarantee",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "22:00",
-      "attribution": null,
-      "summary": "The Information says Kress resisted Nvidia's more extravagant underwriting, including a proposed $250 billion guarantee backstopping 8 gigawatts of compute for OpenAI. It was pared back to $100 billion for the first half of the build-out. She's not ultra-conservative, but she's unlikely to stick her neck out like Jensen did.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#kress-pushed-back-on-backstops"
-    },
-    {
-      "id": "nvidia-central-bank-of-ai",
-      "headline": "Nvidia is the central bank of AI, and it might tighten credit",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": null,
-      "summary": "Nvidia has invested in dozens of startups and co-signs NeoCloud leases. A pullback could hit like banks pulling credit in a downturn. Its $500 billion financing vehicle with six PE giants, which guarantees GPU residual value on up to 25% of deal size, has signed no deals, and partners want a bigger backstop.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#nvidia-central-bank-of-ai"
-    },
-    {
-      "id": "markets-hate-uncertainty",
-      "headline": "Markets move on: \"If Nvidia is out of the way, who wins?\"",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "After falling 20% in three days, Nvidia found a bottom on the resignation and traded slightly higher Thursday, a reminder that investors hate uncertainty most. The Nasdaq is up 4.8% on the week, and analysts see Broadcom, Intel and startups filling the cracks Nvidia leaves.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#markets-hate-uncertainty"
-    },
-    {
-      "id": "openai-backs-chip-bills",
-      "headline": "OpenAI quietly backs all three chip-control bills",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "Anthropic has long supported export controls, but OpenAI stayed noncommittal until this week. Politico reports it privately told congressional offices it supports all three bills. Sen. Jim Banks calls it a \"generational opportunity\" to close every pathway China uses to get chips.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#openai-backs-chip-bills"
-    },
-    {
-      "id": "implications-barely-begun",
-      "headline": "The story will turn forward fast, but the implications have barely begun",
+      "id": "persistent-context-not-persistent-agents",
+      "headline": "Keep the context persistent, not the agent",
       "type": "take",
       "segment": "main",
-      "timestamp": "25:00",
+      "timestamp": "18:00",
       "attribution": null,
-      "summary": "Markets want to know who benefits, politicians want to pass legislation, and the Anthropic IPO next week will pull attention forward. Still, NLW expects the consequences of this moment to keep unfolding long after the news cycle moves on.",
-      "link": "https://aidailybrief.ai/e/2026-11-13#implications-barely-begun"
+      "summary": "NLW's own setup has flipped. Instead of named OpenClaw agents with a chief of staff, his Claude Code and Codex projects are organized around shared context in repositories, and agents get spun up for specific tasks. There's no anthropomorphized agent, just a persistent bundle of context he can drop any agents into.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#persistent-context-not-persistent-agents"
+    },
+    {
+      "id": "consulting-firm-analogy",
+      "headline": "The better analogy: on-demand consulting firms",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "19:00",
+      "attribution": null,
+      "summary": "You bring a goal, an engagement lead staffs it, and you never manage or even meet the staff. The deliverable comes back with evidence and you own the result. When the engagement ends the workers are gone, but the work and its records stay, and the methodology can improve each time.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#consulting-firm-analogy"
+    },
+    {
+      "id": "hbr-teammate-scrutiny",
+      "headline": "Labeling AI as a teammate made managers check its work less carefully",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "20:00",
+      "attribution": null,
+      "summary": "In an HBR-published study with BCG, managers reviewed identical error-planted documents labeled as from an AI tool, a colleague named Alex, or an AI teammate named \"Alex 3,\" and scrutinized the AI teammate's work less. At companies that already treat AI as employees, scrutiny dropped about 16%. NLW cautions it's one early study.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#hbr-teammate-scrutiny"
+    },
+    {
+      "id": "personal-agents-ur-orchestrators",
+      "headline": "Named personal agents are really orchestrators in disguise",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "21:00",
+      "attribution": null,
+      "summary": "Consumer products that have you name a personal agent don't contradict the shift. They're the ur-orchestrators: holding all the context about your life, dispatching whatever agents are needed, and leaving you a single point of contact.",
+      "link": "https://aidailybrief.ai/e/2026-11-15#personal-agents-ur-orchestrators"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-13.mp3",
-  "generated": "2026-11-16T06:23:33Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-15.mp3",
+  "generated": "2026-11-17T01:14:27Z"
 }

@@ -1,103 +1,115 @@
 ---
-title: David's AI Daily Brief — 2026-11-13
-date: 2026-11-13
-source: https://aidailybrief.ai/e/2026-11-13
+title: David's AI Daily Brief — 2026-11-15
+date: 2026-11-15
+source: https://aidailybrief.ai/e/2026-11-15
 note: Personal, non-commercial distillation of The AI Daily Brief podcast. GP's Corner is AI commentary, not from the podcast.
 ---
 
 # David's AI Daily Brief
 
-**Friday 13 November 2026 · 27 min listen**
+**Sunday 15 November 2026 · 23 min listen**
 
-## Washington Is Taking Control of AI
+## 7 Things AI-Native Companies Do Differently
 
-_Jensen Huang's exit from Nvidia is looking less like a resignation and more like Washington firing him. As the lame-duck Congress returns, China hawks and newly empowered Democrats are using the scandal to push export controls, haul executives in to testify, and rebalance power between Washington and the most important company in AI._
+_On this Long Read Sunday, NLW pulls together what Stripe, Shopify, Uber, Ramp, Cloudflare and a wave of AI-native startups have published about running agents in production. Seven shared practices emerge, and most come back to context. The idea that didn't make the list: agents as teammates._
 
-Source: https://aidailybrief.ai/e/2026-11-13
+Source: https://aidailybrief.ai/e/2026-11-15
 
-Audio: https://davids-ai-brief.netlify.app/audio/2026-11-13.mp3
+Audio: https://davids-ai-brief.netlify.app/audio/2026-11-15.mp3
 
 ## The One Idea
 
-### Washington fired Jensen, and that's the opening salvo of a new era of AI politics.
+### AI-native companies don't hire agent teammates. They turn the company into a system.
 
-Set aside the conspiracy theories. Even without any coordinated campaign, the Jensen affair marks a shift: Democrats are asserting power over foreign policy and over powerful private-market actors, and China hawks are ascendant. Three chip-control bills now look likely to pass, the hearings will stretch into 2027, and the real question is no longer whether Alice Huang was a spy. It's whether Nvidia knowingly let its chips reach China. Markets may move on quickly. The political consequences are only beginning.
+The most aggressive adopters share seven practices. They give agents the whole picture, put agents in every function, let signals rather than prompts start the work, run orchestrators that spin up sub-agents, make agents check each other and show proof, scale human review to risk while keeping a person accountable, and run one shared system that improves itself. What's missing is the fixed roster of named, persistent agent coworkers many expected. In practice, work looks less like managing teammates and more like engaging an on-demand consulting firm: you bring a goal, a lead staffs it, evidence comes back, and you own the result. The durable asset is context, not the agents.
 
 ## The Other Side
 
-Zitron, in a paid piece published the same day of which only the opening is free to read, does not see Washington seizing control of a private company. He sees overdue attention to conduct he says was reported for more than a year and ignored. He alleges Megaspeed is one part of a sprawling smuggling operation, and writes that Nvidia has "repeatedly and unashamedly profited from breaking the law". He repeats a short seller's claim that over a fifth of last fiscal year's revenue may have come from China-bound sales. These are his allegations; the free section does not discuss the chip-control bills.
+Zitron has not written about these seven practices. His nearest piece, published twelve days before this edition, argues that the heavy agent use Whittemore admires was an anomaly he calls token-maxxing: companies let staff spend freely, then pulled back when costs soared, and he cites Uber burning its annual token budget in a single quarter. He says agents add a layer of cost, since each needs its own virtual machine and may run several models at once, and judges that even good results are mediocre. He points to Replit, whose margin reportedly turned negative after it launched a more autonomous agent. These are his claims and opinions.
 
-Source: Ed Zitron, "Premium: The Hater's Guide To Megaspeed", 13 November 2026 — https://www.wheresyoured.at/hg-megaspeed/
+Source: Ed Zitron, "Running Dry", 3 November 2026 — https://www.wheresyoured.at/running-dry/
 
 ## The Truth Beneath
 
-The variable both men orbit is whether Nvidia knew its chips were reaching China. Both accept as fact that restricted chips got there in quantity, that Megaspeed was a large customer under investigation, and that Huang will be questioned under oath. The empirical question is what Nvidia's leadership knew and how much revenue was involved; the observable is the testimony, the documents Congress has asked to be preserved, and any Justice Department charges. The residue is worldview: whether this is the state asserting itself over a powerful company, or a company finally being held to existing law. For Whittemore to be vindicated, the lasting result must be political, with new chip laws and long hearings while markets move on. For Zitron, investigators must show knowing diversion on a scale that changes Nvidia's accounts. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both now say smuggling, not espionage, is the real issue. Watch Huang's testimony before Thanksgiving.
+The variable both men orbit is the cost of a unit of verified work when agents do it at unsubsidised prices. Both accept as fact that the heaviest adopters run agents in great volume, that Uber is among them, and that checking the output has become the constraint. The empirical question is whether these fleets pay for themselves once prices reflect their cost; the observable is whether the companies Whittemore cites keep expanding agent use after budgets are capped, and whether measures such as Shopify's revert rate are published. The residue is worldview: whether a company rebuilt around agents is a new kind of organisation or an expensive habit. For Whittemore to be vindicated, the seven practices must spread beyond engineering and survive price rises. For Zitron, usage must fall back as subsidies end and venture-funded customers retrench. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both treat verification and cost, not model ability, as the limit. Watch whether Uber and Ramp report agent volumes again next quarter.
 
 ## GP's Corner
 
 _Claude's notes on what today means for UK general practice and the NHS - commentary, not from the podcast itself._
 
-### Little clinical relevance; a pricing point
+### A scribe is a tool, not a colleague
 
-This edition is American trade politics and changes nothing in the consulting room. One economist's point is worth noting: if the United States builds data centres more slowly, the price of AI services there stays high. NHS tools mostly run on American models, so that feeds through to what suppliers charge us. Zitron's allegations concern Nvidia's accounts, not service prices.
+The most useful finding here for general practice is a small study in the Harvard Business Review: managers checked identical documents less carefully when they were labelled as coming from an AI teammate, with scrutiny about 16 per cent lower at firms that already treat AI as staff. NLW notes it is one early study. It fits what we know of automation bias. An AI scribe's note should be read as a draft from a tool, and the clinician who signs it owns it.
 
-### Chinese models and patient data
+### Review scaled to risk, with a named owner
 
-If the reports are right that leading Chinese models were trained on smuggled hardware, they are more capable and cheaper than their official story suggested, and some vendors will be tempted to use them. For anything touching patient data the questions are unchanged: where is it processed, under whose law, and has the DPIA covered it. Cheap is not a reason.
+The companies described match human checking to risk and keep one person accountable through every handoff. That is ordinary clinical governance. A scribe's summary of a routine consultation needs a read-through; a generated referral, a medication change or anything going to a coroner needs proper checking. If a practice adopts tools that act on incoming results or letters without a prompt, decide beforehand who is responsible for each stream.
 
-### Who the company answers to
+### Stale context, and who pays for the tokens
 
-A congressman said Nvidia should put national security first. NLW reads that as the state taking control; Zitron as the law catching up. The NHS has lived with this tension for decades: suppliers of clinical systems answer to shareholders, and we rely on contracts and regulators to align them with patients. It is worth reading those contracts with that in mind.
+Ramp found its agent got worse when the information it relied on went out of date. The same applies to practice protocols, templates and formularies fed into any tool: someone has to maintain them. On cost the two sides differ. NLW describes agents checking agents at great volume; Zitron says that volume costs more to serve than it is priced at. A supplier adding agentic features may move to usage-based charging, so fix prices in the contract.
 
 ## NLW's Takes
 
-### Washington fired Jensen
+### Agents as teammates is the wrong mental model
 
-Calling it a resignation undersells what happened. Even without any coordinated campaign, this looks like the opening salvo of a new period: Democrats asserting power over foreign policy and over powerful private-market actors, with China hawks increasingly ascendant.
+NLW once ran a full team of OpenClaws: researchers, writers, project coordinators and a chief of staff above them. He's increasingly convinced that framing doesn't reflect how the most sophisticated users actually work with agents.
 
-### The pro-sales camp never made its best argument
+### Watch what engineers do today to see your next six months
 
-Jensen and other advocates almost never publicly framed selling worse chips as a way to keep China dependent on an inferior supply. Their pitch was about whether we should be competing with China at all, which was a much weaker argument.
+Code got there first because it has tests, verifiability and a clear definition of done, so not every practice will transfer cleanly. Still, NLW argues that watching engineers today is the best preview of what everyone else will be doing in three to six months.
 
-### The simpler argument is going to win
+### Stop asking what to ask the AI. Ask what should start work on its own.
 
-Whoever is right on strategy, "it's been a leaky sieve, so let's give them nothing" needs no knowledge of scaling laws. It will resonate far more than the technical case. Meanwhile Beijing has been steering its companies toward domestic chips like Huawei's either way.
+Outside engineering, the exercise is to list the business events that should trigger work automatically: a churn signal, a renewal coming due, an invoice arriving.
 
-### Whether she was a spy will matter less and less
+### The teammate metaphor was a useful bridge, not the destination
 
-Some will read the whole affair as a China-fearing hatchet job on a powerful private company. NLW expects the hearings and investigations to center on a different question: did Jensen know about, or help facilitate, chip smuggling into China?
+What it got right was moving people from AI as a chat window to AI that goes out and does work on its own. It helped the transition from assisted AI to agentic AI, even if it isn't how the most advanced users ended up working.
 
-### The story will turn forward fast, but the implications have barely begun
+### A bitter lesson for org design: stop organizing agents like people
 
-Markets want to know who benefits, politicians want to pass legislation, and the Anthropic IPO next week will pull attention forward. Still, NLW expects the consequences of this moment to keep unfolding long after the news cycle moves on.
+It's natural to manage agents the way we manage humans, but in one experiment, role-split agents spent more effort coordinating than working. Every tried a proxy agent for each person early in the year and moved to a few agents at the intersections that expand through sub-agents as needed.
+
+### Keep the context persistent, not the agent
+
+NLW's own setup has flipped. Instead of named OpenClaw agents with a chief of staff, his Claude Code and Codex projects are organized around shared context in repositories, and agents get spun up for specific tasks. There's no anthropomorphized agent, just a persistent bundle of context he can drop any agents into.
+
+### The better analogy: on-demand consulting firms
+
+You bring a goal, an engagement lead staffs it, and you never manage or even meet the staff. The deliverable comes back with evidence and you own the result. When the engagement ends the workers are gone, but the work and its records stay, and the methodology can improve each time.
+
+### Named personal agents are really orchestrators in disguise
+
+Consumer products that have you name a personal agent don't contradict the shift. They're the ur-orchestrators: holding all the context about your life, dispatching whatever agents are needed, and leaving you a single point of contact.
 
 ## All Headlines, Briefly
 
-- [Washington fired Jensen](https://aidailybrief.ai/e/2026-11-13#washington-fired-jensen) (01:00)
-- [“Nvidia must now change its corporate practices and appoint leadership that makes national security its top priority.”](https://aidailybrief.ai/e/2026-11-13#moolenaar-national-security-priority) — Rep. John Moolenaar, Chairman of the House Select Committee on China (02:00)
-- [The scandal vaults chip controls to the top of the lame-duck agenda](https://aidailybrief.ai/e/2026-11-13#chip-controls-top-of-agenda) (03:00)
-- [A hawkish consensus forms, with White House help](https://aidailybrief.ai/e/2026-11-13#consensus-forming-three-bills) (03:00)
-- [The case for selling China older chips: machine guns vs. muskets](https://aidailybrief.ai/e/2026-11-13#machine-guns-vs-muskets) (04:00)
-- [The pro-sales camp never made its best argument](https://aidailybrief.ai/e/2026-11-13#advocates-never-made-the-case) (06:00)
-- [The hawks' answer: we tried arming them, let's try the other way](https://aidailybrief.ai/e/2026-11-13#falsifiable-other-way) (07:00)
-- [The simpler argument is going to win](https://aidailybrief.ai/e/2026-11-13#simplicity-wins-politically) (08:00)
-- [The Jensen affair is reviving a Cold War mentality](https://aidailybrief.ai/e/2026-11-13#cold-war-mentality) (08:00)
-- [Why slowing US data centers makes chip denial more urgent](https://aidailybrief.ai/e/2026-11-13#chip-denial-and-data-center-slowdown) (10:00)
-- [Jensen heads to Congress under oath](https://aidailybrief.ai/e/2026-11-13#jensen-to-testify) (10:00)
-- [“Jensen Huang's decision to resign from NVIDIA does not absolve him… They still owe Congress answers.”](https://aidailybrief.ai/e/2026-11-13#warren-still-owe-answers) — Sen. Elizabeth Warren, Senate Banking Committee ranking member (11:00)
-- [Lutnick is the official most in the line of fire](https://aidailybrief.ai/e/2026-11-13#lutnick-in-the-line-of-fire) (15:00)
-- [Expect this to stretch well into 2027](https://aidailybrief.ai/e/2026-11-13#hearings-into-2027) (15:00)
-- [The spy narrative starts to wobble](https://aidailybrief.ai/e/2026-11-13#spy-narrative-questioned) (16:00)
-- [Whether she was a spy will matter less and less](https://aidailybrief.ai/e/2026-11-13#smuggling-not-spying) (18:00)
-- [The smuggling story keeps getting bigger](https://aidailybrief.ai/e/2026-11-13#smuggling-network-expands) (19:00)
-- [Model weights carry a fingerprint of the GPU that trained them](https://aidailybrief.ai/e/2026-11-13#gpu-fingerprint-forensics) (19:00)
-- [If true, the "fraction of the compute" story falls apart](https://aidailybrief.ai/e/2026-11-13#fraction-of-compute-myth) (21:00)
-- [Nvidia staff rally for Jensen as Colette Kress takes the reins](https://aidailybrief.ai/e/2026-11-13#kress-interim-ceo) (21:00)
-- [The CFO who pushed back on the $250B guarantee](https://aidailybrief.ai/e/2026-11-13#kress-pushed-back-on-backstops) (22:00)
-- [Nvidia is the central bank of AI, and it might tighten credit](https://aidailybrief.ai/e/2026-11-13#nvidia-central-bank-of-ai) (23:00)
-- [Markets move on: "If Nvidia is out of the way, who wins?"](https://aidailybrief.ai/e/2026-11-13#markets-hate-uncertainty) (24:00)
-- [OpenAI quietly backs all three chip-control bills](https://aidailybrief.ai/e/2026-11-13#openai-backs-chip-bills) (25:00)
-- [The story will turn forward fast, but the implications have barely begun](https://aidailybrief.ai/e/2026-11-13#implications-barely-begun) (25:00)
+- [Agents as teammates is the wrong mental model](https://aidailybrief.ai/e/2026-11-15#agent-teammates-wrong-mental-model) (00:00)
+- [Watch what engineers do today to see your next six months](https://aidailybrief.ai/e/2026-11-15#watch-the-engineers) (03:00)
+- [Practice 1: give agents everything an employee can see](https://aidailybrief.ai/e/2026-11-15#context-maxing) (04:00)
+- [A stealable idea: a clean shared document for every decision](https://aidailybrief.ai/e/2026-11-15#decision-documents) (05:00)
+- [The context layer has to be maintained like a product](https://aidailybrief.ai/e/2026-11-15#context-layer-needs-management) (05:00)
+- [Employees are hoarding context as job security](https://aidailybrief.ai/e/2026-11-15#context-hoarding) (05:00)
+- [Practice 2: agents in every function, not just engineering](https://aidailybrief.ai/e/2026-11-15#agents-in-every-function) (06:00)
+- [Practice 3: a signal, not a prompt, starts the work](https://aidailybrief.ai/e/2026-11-15#signal-not-prompt) (07:00)
+- [Stop asking what to ask the AI. Ask what should start work on its own.](https://aidailybrief.ai/e/2026-11-15#which-events-start-work) (08:00)
+- [Practice 4: one orchestrator, many disposable sub-agents](https://aidailybrief.ai/e/2026-11-15#orchestrator-subagents) (08:00)
+- [The orchestrator routes. It doesn't do the work.](https://aidailybrief.ai/e/2026-11-15#warp-router) (09:00)
+- [Practice 5: verification is now the bottleneck, so build for it](https://aidailybrief.ai/e/2026-11-15#verification-bottleneck) (09:00)
+- [Shopify treats every security finding as a claim that must be proven](https://aidailybrief.ai/e/2026-11-15#prove-it-or-reject-it) (10:00)
+- [Practice 6: scale human review to risk, and always know who owns it](https://aidailybrief.ai/e/2026-11-15#risk-scaled-review) (13:00)
+- [Snap puts more than half its agent spend into guardrails](https://aidailybrief.ai/e/2026-11-15#guardrails-investment) (14:00)
+- [Practice 7: one shared system instead of everyone doing AI their own way](https://aidailybrief.ai/e/2026-11-15#one-shared-system) (14:00)
+- [Shopify's coding agent only works in public Slack channels](https://aidailybrief.ai/e/2026-11-15#shopify-public-slack) (15:00)
+- [Agents that grade the agents and propose fixes](https://aidailybrief.ai/e/2026-11-15#self-improving-system) (15:00)
+- [The teammate metaphor was a useful bridge, not the destination](https://aidailybrief.ai/e/2026-11-15#teammates-was-a-bridge) (16:00)
+- [Fleets that scale with the job beat fixed rosters](https://aidailybrief.ai/e/2026-11-15#fleets-not-rosters) (17:00)
+- [A bitter lesson for org design: stop organizing agents like people](https://aidailybrief.ai/e/2026-11-15#bitter-lesson-org-design) (18:00)
+- [Keep the context persistent, not the agent](https://aidailybrief.ai/e/2026-11-15#persistent-context-not-persistent-agents) (18:00)
+- [The better analogy: on-demand consulting firms](https://aidailybrief.ai/e/2026-11-15#consulting-firm-analogy) (19:00)
+- [Labeling AI as a teammate made managers check its work less carefully](https://aidailybrief.ai/e/2026-11-15#hbr-teammate-scrutiny) (20:00)
+- [Named personal agents are really orchestrators in disguise](https://aidailybrief.ai/e/2026-11-15#personal-agents-ur-orchestrators) (21:00)
 
 ---
 

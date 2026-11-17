@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "A scribe is a tool, not a colleague",
+   "body": "The most useful finding here for general practice is a small study in the Harvard Business Review: managers checked identical documents less carefully when they were labelled as coming from an AI teammate, with scrutiny about 16 per cent lower at firms that already treat AI as staff. NLW notes it is one early study. It fits what we know of automation bias. An AI scribe's note should be read as a draft from a tool, and the clinician who signs it owns it."
+  },
+  {
+   "title": "Review scaled to risk, with a named owner",
+   "body": "The companies described match human checking to risk and keep one person accountable through every handoff. That is ordinary clinical governance. A scribe's summary of a routine consultation needs a read-through; a generated referral, a medication change or anything going to a coroner needs proper checking. If a practice adopts tools that act on incoming results or letters without a prompt, decide beforehand who is responsible for each stream."
+  },
+  {
+   "title": "Stale context, and who pays for the tokens",
+   "body": "Ramp found its agent got worse when the information it relied on went out of date. The same applies to practice protocols, templates and formularies fed into any tool: someone has to maintain them. On cost the two sides differ. NLW describes agents checking agents at great volume; Zitron says that volume costs more to serve than it is priced at. A supplier adding agentic features may move to usage-based charging, so fix prices in the contract."
+  }
+ ]
+}

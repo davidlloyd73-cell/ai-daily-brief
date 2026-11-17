@@ -468,7 +468,8 @@
    "source_url": "https://www.wheresyoured.at/let-ai-burn/",
    "resolution": "Fails if by the check date any of the four hyperscalers discloses a clear standalone AI revenue line in its quarterly results. Vindicated if all four continue reporting AI only through blended segments and capex commentary.",
    "check_by": "2026-11-15",
-   "status": "open"
+   "status": "unresolvable",
+   "review_note": "Reviewed 2026-11-17 (provisional): round-ups of the October 2026 results show Microsoft, Alphabet, Amazon and Meta still reporting cloud segments and backlog, with no formal AI revenue line, which favours Zitron. But Microsoft had already cited a 37 billion dollar AI run-rate in April 2026 and in October disclosed about 10 billion dollars of quarterly revenue from its OpenAI arrangements, so the answer turns on what counts as a standalone figure. Transcripts not checked in full."
   },
   {
    "edition": "2026-07-15",
@@ -1918,6 +1919,24 @@
    "source_url": "https://www.wheresyoured.at/hg-megaspeed/",
    "resolution": "Vindicated if within twelve months sworn testimony, released documents or a charging document show that Nvidia executives knew restricted chips were being diverted to China through more than one intermediary. Fails if the inquiries find diversion by customers without Nvidia's knowledge.",
    "check_by": "2027-11-13",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-15",
+   "side": "NLW",
+   "claim": "That the most advanced companies will not run fixed rosters of named, persistent agent teammates: work will be done by orchestrators that spin up disposable sub-agents over shared, persistent company context, and practices now seen in engineering will reach other functions within about six months.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-15",
+   "resolution": "Vindicated if by the check date the main enterprise agent products from Anthropic, OpenAI and Microsoft are sold and documented chiefly as orchestrators that create task-specific sub-agents over shared context, and at least two of the companies cited (Uber, Ramp, Shopify, Stripe) publicly describe agents running in functions outside engineering in that way. Fails if those vendors' leading products are named, persistent, role-based agent employees, or the cited companies report returning to fixed role-based rosters.",
+   "check_by": "2027-05-15",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-15",
+   "side": "Zitron",
+   "claim": "That agentic services cost more to serve than they earn, so the subsidised agent products now in heavy use will be repriced, metered or throttled, and heavy corporate token spending will prove to have been a temporary overshoot.",
+   "source_url": "https://www.wheresyoured.at/running-dry/",
+   "resolution": "Vindicated if within twelve months at least two major agent products, from OpenAI, Anthropic, xAI, Replit or a comparable supplier, raise prices, cut usage limits or move to metered billing while citing the cost of serving them, and a company named for heavy agent use publicly reports cutting its token spending. Fails if prices and limits hold or loosen and reported corporate agent volumes keep rising.",
+   "check_by": "2027-11-03",
    "status": "open"
   }
  ]

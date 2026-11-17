@@ -1,0 +1,9 @@
+{
+ "match": true,
+ "source_title": "Running Dry",
+ "source_url": "https://www.wheresyoured.at/running-dry/",
+ "source_date": "2026-11-03",
+ "same_day": false,
+ "other_side": "Zitron has not written about these seven practices. His nearest piece, published twelve days before this edition, argues that the heavy agent use Whittemore admires was an anomaly he calls token-maxxing: companies let staff spend freely, then pulled back when costs soared, and he cites Uber burning its annual token budget in a single quarter. He says agents add a layer of cost, since each needs its own virtual machine and may run several models at once, and judges that even good results are mediocre. He points to Replit, whose margin reportedly turned negative after it launched a more autonomous agent. These are his claims and opinions.",
+ "truth_beneath": "The variable both men orbit is the cost of a unit of verified work when agents do it at unsubsidised prices. Both accept as fact that the heaviest adopters run agents in great volume, that Uber is among them, and that checking the output has become the constraint. The empirical question is whether these fleets pay for themselves once prices reflect their cost; the observable is whether the companies Whittemore cites keep expanding agent use after budgets are capped, and whether measures such as Shopify's revert rate are published. The residue is worldview: whether a company rebuilt around agents is a new kind of organisation or an expensive habit. For Whittemore to be vindicated, the seven practices must spread beyond engineering and survive price rises. For Zitron, usage must fall back as subsidies end and venture-funded customers retrench. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both treat verification and cost, not model ability, as the limit. Watch whether Uber and Ramp report agent volumes again next quarter."
+}
