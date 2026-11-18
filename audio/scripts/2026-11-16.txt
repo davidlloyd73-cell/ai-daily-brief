@@ -1,0 +1,21 @@
+David's AI brief for Monday, the sixteenth of November.
+
+The One Idea today: this is a before-and-after week for AI, and the flotation of Anthropic is the hinge. Nathaniel Whittemore says the company's share sale was always going to be a landmark, and after the Nvidia scandal it carries even more weight. Shares are due to start trading on Thursday.
+
+The numbers are large. The target valuation has come down from talk of two trillion dollars to between one and a quarter and one point four trillion, and the company hopes to raise more than ninety billion. Demand from investors is reported at nearly seven times the shares on offer. Against that, Anthropic has disclosed more than nine hundred billion dollars of commitments to buy computing over the next decade, with seventy-one billion due in the coming year. Its chief executive told investors that computing is the deepest business dilemma the company faces, because too little costs customers and too much risks overextension.
+
+Whittemore's main argument is that Nvidia was always a poor proxy for the only question that matters, which is whether demand for AI justifies its cost. Once Anthropic is public, every quarter will bring real evidence.
+
+He poses four more questions for the week. Will OpenAI release a model to steal the attention, after seventy-two days without one? Will Jensen Huang return to Nvidia, as a petition with a hundred and seventy-five thousand signatures demands? Will the Commerce Secretary take the blame for weak enforcement? And will Congress pass tighter export controls, now that almost nobody is left to oppose them? One research firm says a very large quantity of Nvidia chips is in China that should not be.
+
+Now, the other side. Ed Zitron published a piece the next day called The Nvidia Bubble. He argues there is no independent demand for the flotation to reveal, because the appetite for chips was manufactured by Nvidia funding its own customers. He notes Nvidia took part in over a quarter of the world's venture capital deals by value this year, and says Anthropic will not generate cash before 2030. He is certain Huang is not coming back.
+
+So both men circle one question: does demand for AI exist apart from the money pushed into it? They agree Nvidia was a poor guide to that. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is Anthropic's first earnings report as a public company.
+
+Turning to general practice. First, several NHS scribe and triage tools run on Anthropic's models. Once it is listed it must publish audited accounts every quarter. For the first time, a buyer can read the finances of the firm underneath its supplier.
+
+Second, Anthropic's chief executive told investors he hopes heart disease, Alzheimer's and cancer become relics like smallpox. That was said while selling shares. It is a hope and not a result, and it changes nothing we offer patients.
+
+Third, supplier resilience. Both men expect money for smaller AI firms to tighten. Before renewing a contract, ask how long a supplier's cash lasts, and what happens to the service and the data if it is sold or closes.
+
+That's the brief. Source, The AI Daily Brief.

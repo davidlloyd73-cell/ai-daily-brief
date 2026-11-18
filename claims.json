@@ -1938,6 +1938,24 @@
    "resolution": "Vindicated if within twelve months at least two major agent products, from OpenAI, Anthropic, xAI, Replit or a comparable supplier, raise prices, cut usage limits or move to metered billing while citing the cost of serving them, and a company named for heavy agent use publicly reports cutting its token spending. Fails if prices and limits hold or loosen and reported corporate agent volumes keep rising.",
    "check_by": "2027-11-03",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-16",
+   "side": "NLW",
+   "claim": "That Anthropic's flotation is a before-and-after moment: once it is public its quarterly reports will give the first real evidence on whether AI demand justifies the cost, replacing Nvidia as the bellwether, and the listing itself will go ahead on heavy demand.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-16",
+   "resolution": "Vindicated if Anthropic lists by the end of November 2026 at or above the low end of its 1.25 trillion dollar target and its first quarterly report as a public company shows revenue growth above 25 per cent on the prior quarter. Fails if the listing is pulled or priced well below that range, or the first report shows growth of 25 per cent or less.",
+   "check_by": "2027-03-31",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-16",
+   "side": "Zitron",
+   "claim": "That demand for AI chips and computing was manufactured by Nvidia's financing of its own customers, that Jensen Huang will not return, and that with that support gone the bubble has burst and Nvidia's growth will slow.",
+   "source_url": "https://www.wheresyoured.at/the-nvidia-bubble/",
+   "resolution": "Vindicated if within twelve months Huang has not returned as chief executive, Nvidia cuts or misses its revenue guidance, and at least one Nvidia-backed neocloud or AI lab fails or is restructured for lack of funding. Fails if Nvidia keeps meeting raised guidance and its backed companies continue to raise money.",
+   "check_by": "2027-11-17",
+   "status": "open"
   }
  ]
 }

@@ -1,0 +1,9 @@
+{
+ "match": true,
+ "source_title": "The NVIDIA Bubble",
+ "source_url": "https://www.wheresyoured.at/the-nvidia-bubble/",
+ "source_date": "2026-11-17",
+ "same_day": false,
+ "other_side": "Zitron, writing a day later, argues there is no independent AI demand for the Anthropic flotation to reveal. In his account the appetite for chips and computing was manufactured by Nvidia, which funded its own customers, guaranteed their leases and pressed buyers to take chips early; he notes it joined 129 venture deals this year, 27 per cent of global deal value. He says Anthropic will not be cash-flow positive before 2030, carries $895 billion in compute commitments, and that its growth is slowing to 15 to 25 per cent a quarter. He insists Huang \"resigned and is not coming back\", and that the financing he ran has ended.",
+ "truth_beneath": "The variable both men orbit is whether demand for AI exists apart from the money Nvidia and investors pushed into it. Both accept as fact that Nvidia backstopped labs and cloud firms, that Anthropic has roughly $900 billion of compute commitments with about $70 billion due within a year, and that its flotation matters. The empirical question is whether Anthropic's revenue keeps growing once that support recedes; the observable is its first quarterly reports as a public company, beginning with fourth-quarter growth against the 15 to 25 per cent Ramp expects. The residue is worldview: whether a business that must spend ahead of revenue is investing or merely surviving. For Whittemore to be vindicated, public filings must show customer demand growing fast enough to carry the commitments. For Zitron, growth must slow as venture-funded customers run short and financing tightens. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both say Nvidia was a poor guide to real demand. Watch Anthropic's first earnings report."
+}
