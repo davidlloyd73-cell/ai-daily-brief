@@ -1,0 +1,9 @@
+{
+ "match": true,
+ "source_title": "The NVIDIA Bubble",
+ "source_url": "https://www.wheresyoured.at/the-nvidia-bubble/",
+ "source_date": "2026-11-17",
+ "same_day": true,
+ "other_side": "Zitron, writing the same day, reads the concentration of spending as weakness, not a preview. He says about 80 per cent of OpenAI's and Anthropic's revenue comes from one per cent of their customers, most of them unprofitable AI start-ups, several funded by Nvidia. He cites the same source Whittemore uses, Ramp, as showing Anthropic's growth slowing to 15 to 25 per cent a quarter from 47 per cent, and asks how those customers will afford tokens once funding tightens. His summary is that \"the vast majority of people do not want to pay for AI\". He does not discuss falling token prices or switching between providers.",
+ "truth_beneath": "The variable both men orbit is whether the heaviest one per cent of AI spenders are the future or the whole market. Both accept as fact that spending is extremely concentrated, that Ramp's data show spend growth slowing, and that engineering teams account for most of it. The empirical question is whether the median company's spending rises towards the top; the observable is the median spend per employee in Ramp's index over the next year, now about sixteen dollars a month. The residue is worldview: whether flat spending with rising use shows a healthy buyer's market or sellers cutting prices to hold customers. For Whittemore to be vindicated, median spend must climb while prices fall and use spreads beyond coding. For Zitron, the top spenders must cut back as venture money tightens, with the median unmoved. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both say spend growth has slowed sharply. Watch Ramp's median figure."
+}

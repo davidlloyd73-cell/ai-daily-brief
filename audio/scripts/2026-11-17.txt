@@ -1,0 +1,23 @@
+David's AI brief for Tuesday, the seventeenth of November.
+
+The One Idea today: business AI has become a buyer's market, and the smart buyers are using it. Nathaniel Whittemore draws on three sets of figures, from the expenses firm Ramp, the data company Databricks, and a survey of large corporations, and finds they point the same way.
+
+First, use is outrunning cost. Across Ramp's customers, AI use rose thirty-six per cent in a month while spending rose just two per cent. The average price charged by the two leading labs fell twenty-one per cent in October, pushed down by cheaper rivals.
+
+Second, buyers are shopping around. In July about two thirds of companies on one platform used a single AI provider. By early November nearly three quarters used two or more. A third of OpenAI's corporate customers say they would consider moving. Yet two thirds of large-company leaders cannot see what they spend on these services.
+
+Third, spending is extraordinarily concentrated. The typical firm on Ramp spends about sixteen dollars per employee per month. The top one per cent spend over ten thousand, more than six hundred times as much. Most of the money still comes from engineering teams, though customer service is growing fastest. Whittemore's open question is whether those heavy spenders are outliers or a preview of everyone else. His practical advice is that most buyers have more negotiating power than they use, provided they are able to switch.
+
+In the headlines, Nvidia's board is not discussing bringing Jensen Huang back, and the American commerce department has moved to stop chips reaching China through third countries. OpenAI has let outside safety evaluators inside, but on terms one of them says fall short of its own standard.
+
+Now, the other side. Ed Zitron, writing the same day, reads the concentration as weakness. He says about four fifths of the labs' revenue comes from one per cent of their customers, mostly unprofitable start-ups, and asks how they will pay once funding tightens. He cites the same Ramp data as showing Anthropic's growth slowing sharply.
+
+So both men circle one question: are the heaviest spenders the future, or the whole market? They agree that growth in spending has slowed. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is whether the typical firm's spending rises over the coming year.
+
+Turning to general practice. First, token prices fell by a fifth last month, and scribe suppliers buy those tokens. At renewal, it is fair to ask whether lower costs are being passed on. Zitron would say the price cuts show sellers under strain, which is a reason to keep contracts short.
+
+Second, leverage depends on being able to leave. For a practice that means data portability. Can notes, templates and audit logs be exported in a usable form? Ask before signing.
+
+Third, on auditors. OpenAI chooses its own evaluators and controls what they see. We would not accept a manufacturer selecting and briefing its own inspector. Clinical safety sign-off should rest on evidence a supplier cannot curate.
+
+That's the brief. Source, The AI Daily Brief.

@@ -1956,6 +1956,24 @@
    "resolution": "Vindicated if within twelve months Huang has not returned as chief executive, Nvidia cuts or misses its revenue guidance, and at least one Nvidia-backed neocloud or AI lab fails or is restructured for lack of funding. Fails if Nvidia keeps meeting raised guidance and its backed companies continue to raise money.",
    "check_by": "2027-11-17",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-17",
+   "side": "NLW",
+   "claim": "That business AI has become a buyer's market: token prices keep falling under competition, most enterprises now mix providers, and usage will keep growing much faster than spend, with the heavy-spending one per cent a preview of where the median company is heading.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-17",
+   "resolution": "Vindicated if within twelve months Ramp's index or a comparable source shows the median firm's AI spend per employee at least doubled from about 16 dollars a month while average token prices from the leading labs are lower than in October 2026. Fails if median spend is flat or lower, or token prices rise.",
+   "check_by": "2027-11-17",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-17",
+   "side": "Zitron",
+   "claim": "That demand for AI tokens is narrow and fragile: about 80 per cent of the two leading labs' revenue comes from one per cent of customers, mostly unprofitable start-ups, who will be unable to keep paying once venture funding tightens.",
+   "source_url": "https://www.wheresyoured.at/the-nvidia-bubble/",
+   "resolution": "Vindicated if within twelve months OpenAI or Anthropic reports a quarter of flat or falling revenue, or names reduced spending by start-up customers as a cause of slower growth. Fails if both keep growing revenue each quarter with a broadening customer base.",
+   "check_by": "2027-11-17",
+   "status": "open"
   }
  ]
 }
