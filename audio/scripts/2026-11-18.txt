@@ -1,0 +1,21 @@
+David's AI brief for Wednesday, the eighteenth of November.
+
+The One Idea today: the backlash against OpenAI's newest models may say more about the company's direction than about the models themselves. OpenAI has released two, called Astra and Sol, in a version numbered six point two. Nathaniel Whittemore says they have had some of the worst first impressions of any release. One well-known tester called them essentially unusable. A thirty-person team that tried them on real work found that nobody switched.
+
+The complaints are specific. The writing is so concise it is hard to follow. Coding runs stop too early. One benchmark found the smaller model tends to leave out key facts, and both slipped on the coding measures that early adopters care about most.
+
+Yet the same release cut the cost of completing a task by up to thirty-five per cent, and opened a wide price gap with Anthropic, whose top model costs more than twice as much. OpenAI's own announcement led with agents, efficiency and what it called the real world, and barely mentioned coding. Some users report it is very good at operating a computer and at long research tasks, in a third of the time and at a third of the price.
+
+So Whittemore's reading is that this may be deliberate. Instead of fighting Anthropic head to head on programming, OpenAI may be offering faster routine work for staff and lower bills for their managers. He also notes the team changed the product in the last few days, after reviewers had already formed their views. His advice is to test it yourself.
+
+Two other items. A run of outages in America has now reached the National Security Agency, after banks, airlines and Microsoft. Officials say it is not an attack. The likelier cause is a rush to modernise old systems all at once. And Nvidia reported another very strong quarter, while its board said plainly that Jensen Huang will not be reinstated, though he has said he would return.
+
+Ed Zitron has published nothing on this release, so there is no opposing source today. I would add that these impressions, good and bad, come from a small group of early testers.
+
+Turning to general practice. First, a model that leaves out key facts is the wrong one for clinical notes. In a consultation summary an omission is harder to spot than an error. If a scribe supplier moves to a cheaper, terser model, it is worth re-auditing a sample of notes against the recordings. Brevity is welcome. Missing the safety-netting advice is not.
+
+Second, the outages. The NHS has the same thirty-year-old plumbing, and the same pressure to modernise. The lesson is an ordinary one. Check that the continuity plan actually works when the clinical system or the scribe is down, including the paper fallback and how notes are reconciled afterwards.
+
+Third, cheaper is a real benefit if quality holds. For high-volume, low-risk work such as letters and filing correspondence, cost matters more than winning benchmarks. The test is local: does it do our work safely, at a price we can sustain?
+
+That's the brief. Source, The AI Daily Brief.

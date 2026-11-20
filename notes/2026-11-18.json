@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "A model that leaves out key facts is the wrong one for notes",
+   "body": "Testers found the new OpenAI models so concise they were hard to follow, and one benchmark showed a tendency to omit key facts. In a consultation summary an omission is harder to spot than an error. If a scribe supplier moves to a cheaper, terser model, re-audit a sample of notes against the recordings before trusting it. Brevity is welcome; missing the safety-netting advice is not."
+  },
+  {
+   "title": "Outages from modernisation, and the NHS estate",
+   "body": "The explanation offered for the run of American outages is not attack but hurried upgrades to old systems, all at once, with too few specialists to fix what breaks. The NHS has the same thirty-year-old plumbing. The lesson is ordinary: check the business continuity plan actually works when the clinical system or the scribe is down, including paper fallback and how notes are reconciled afterwards."
+  },
+  {
+   "title": "Cheaper is a real benefit, if quality holds",
+   "body": "Cost per task fell by up to a third. For high-volume, low-risk work such as letters and coding of correspondence, that matters more than winning benchmarks. Ed Zitron has published nothing on this release, so there is no opposing source. My own caution is that most of these first impressions, good and bad, come from a small group of early testers."
+  }
+ ]
+}

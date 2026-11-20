@@ -1974,6 +1974,15 @@
    "resolution": "Vindicated if within twelve months OpenAI or Anthropic reports a quarter of flat or falling revenue, or names reduced spending by start-up customers as a cause of slower growth. Fails if both keep growing revenue each quarter with a broadening customer base.",
    "check_by": "2027-11-17",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-18",
+   "side": "NLW",
+   "claim": "That the hostile reception to GPT-6.2 Astra and Sol reflects a deliberate OpenAI choice to compete on efficiency and everyday professional work instead of coding, carving out its own place in the enterprise market, and not simply a bad model.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-18",
+   "resolution": "Vindicated if within six months enterprise usage data such as Ramp's or Databricks' show OpenAI's share of business spending or tokens rising from its November 2026 level, with the 6.2 models widely used outside coding. Fails if OpenAI's enterprise share falls further or it replaces the 6.2 models within three months with a release pitched again at coding.",
+   "check_by": "2027-05-18",
+   "status": "open"
   }
  ]
 }

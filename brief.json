@@ -1,281 +1,283 @@
 {
-  "date": "2026-11-17",
-  "title": "How Business AI Use is Changing",
-  "dek": "Three fresh enterprise AI datasets from Ramp, Databricks and Arcana Research point the same way: price competition has handed buyers real leverage, and the leading companies are using a lot more AI without paying proportionally more for it. Plus: Nvidia's board appears to shut the door on Jensen's return, Commerce finally moves on chip diversion, and OpenAI's embedded safety evaluators fall short of what was promised.",
-  "source": "https://aidailybrief.ai/e/2026-11-17",
+  "date": "2026-11-18",
+  "title": "Why the AI Kids Hate Astra 6.2",
+  "dek": "OpenAI drops GPT-6.2 Astra and Sol to some of the worst first impressions any model has ever gotten. Are the models actually bad, or is OpenAI building for something the early-adopter crowd doesn't care about? Plus: the wave of outages hitting Outlook, banks, the FAA and now the NSA looks less like a cyberattack and more like an AI-driven modernization rush. And Jensen says he'd return to Nvidia, but the board says no.",
+  "source": "https://aidailybrief.ai/e/2026-11-18",
   "oneIdea": {
-    "headline": "Business AI has become a buyer's market, and the smart buyers are using it.",
-    "summary": "Across Ramp, Databricks and Arcana Research, the convergent story is stronger than the divergent one. Model competition is pushing token prices down, enterprises are switching and mixing providers far more readily, and the leaders are growing usage much faster than spend. The open question is whether the top 1% of spenders, at hundreds of times the median, are outliers or a preview of where everyone else is heading. That answer will shape the size of the market and whether all this CapEx turns into ROI. For enterprises themselves, the practical takeaway is that you probably have more negotiating leverage than you are using, as long as you've built the infrastructure to switch."
+    "headline": "The Astra 6.2 backlash may say more about OpenAI's direction than about its models.",
+    "summary": "GPT-6.2 Astra and Sol landed to near-universal early-tester hate: unusable, insufferable, a step back. But the same release cut cost per task by up to 35%, opened a big price gap with Anthropic, and was pitched around agents and \"the real world\" rather than coding benchmarks. The models regressed on exactly what early adopters care about most, coding, while doubling down on efficiency and everyday professional work. That may be a deliberate attempt to carve out a different place in the enterprise market. Perception is in the eye of the beholder, so test it yourself."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Token prices fell a fifth; has your scribe price moved?",
-        "body": "The average price suppliers pay the two main labs fell 21 per cent in October. Scribe and triage vendors buy those tokens. NLW's advice to businesses applies to a practice or PCN: you probably have more leverage than you are using. At renewal, ask whether lower model costs are being passed on. Zitron would say the cuts show sellers under strain, which is a reason to keep contracts short."
+        "title": "A model that leaves out key facts is the wrong one for notes",
+        "body": "Testers found the new OpenAI models so concise they were hard to follow, and one benchmark showed a tendency to omit key facts. In a consultation summary an omission is harder to spot than an error. If a scribe supplier moves to a cheaper, terser model, re-audit a sample of notes against the recordings before trusting it. Brevity is welcome; missing the safety-netting advice is not."
       },
       {
-        "title": "Leverage depends on being able to leave",
-        "body": "The buyers getting deals are those who can switch. In general practice that means data portability: can consultation notes, templates and audit logs be exported in a usable form, and does the tool sit on top of the clinical system or lock into it. Ask before signing, not at renewal."
+        "title": "Outages from modernisation, and the NHS estate",
+        "body": "The explanation offered for the run of American outages is not attack but hurried upgrades to old systems, all at once, with too few specialists to fix what breaks. The NHS has the same thirty-year-old plumbing. The lesson is ordinary: check the business continuity plan actually works when the clinical system or the scribe is down, including paper fallback and how notes are reconciled afterwards."
       },
       {
-        "title": "Independent auditors chosen by the audited",
-        "body": "OpenAI has let outside safety evaluators in, but chooses them and controls what they see; one evaluator said the access does not meet its own bar. The parallel in health is familiar. We would not accept a manufacturer selecting and briefing its own inspector. DTAC and clinical safety sign-off should rest on evidence a supplier cannot curate."
+        "title": "Cheaper is a real benefit, if quality holds",
+        "body": "Cost per task fell by up to a third. For high-volume, low-risk work such as letters and coding of correspondence, that matters more than winning benchmarks. Ed Zitron has published nothing on this release, so there is no opposing source. My own caution is that most of these first impressions, good and bad, come from a small group of early testers."
       }
     ]
   },
-  "the_other_side": {
-    "source": "The NVIDIA Bubble",
-    "url": "https://www.wheresyoured.at/the-nvidia-bubble/",
-    "date": "2026-11-17",
-    "same_day": true,
-    "text": "Zitron, writing the same day, reads the concentration of spending as weakness, not a preview. He says about 80 per cent of OpenAI's and Anthropic's revenue comes from one per cent of their customers, most of them unprofitable AI start-ups, several funded by Nvidia. He cites the same source Whittemore uses, Ramp, as showing Anthropic's growth slowing to 15 to 25 per cent a quarter from 47 per cent, and asks how those customers will afford tokens once funding tightens. His summary is that \"the vast majority of people do not want to pay for AI\". He does not discuss falling token prices or switching between providers."
-  },
-  "the_truth_beneath": {
-    "text": "The variable both men orbit is whether the heaviest one per cent of AI spenders are the future or the whole market. Both accept as fact that spending is extremely concentrated, that Ramp's data show spend growth slowing, and that engineering teams account for most of it. The empirical question is whether the median company's spending rises towards the top; the observable is the median spend per employee in Ramp's index over the next year, now about sixteen dollars a month. The residue is worldview: whether flat spending with rising use shows a healthy buyer's market or sellers cutting prices to hold customers. For Whittemore to be vindicated, median spend must climb while prices fall and use spreads beyond coding. For Zitron, the top spenders must cut back as venture money tightens, with the median unmoved. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both say spend growth has slowed sharply. Watch Ramp's median figure."
-  },
+  "the_other_side": null,
+  "the_truth_beneath": null,
   "headlines": [
     {
-      "id": "nvidia-board-cold-water-jensen-return",
-      "headline": "Nvidia's board throws cold water on a Jensen comeback",
+      "id": "nsa-joins-outage-wave",
+      "headline": "The outage wave reaches the NSA",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "01:00",
+      "attribution": null,
+      "summary": "After Microsoft Outlook, the FAA and several big US banks, the NSA's classified internal network went down Tuesday, and the campus went to essential personnel only. Apple and United Airlines also had outages the same day. The NSA blamed \"scheduled routine maintenance\", and once again sources said there was no evidence of a cyberattack.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#nsa-joins-outage-wave"
+    },
+    {
+      "id": "cairncross-modernizing-legacy",
+      "headline": "What we're seeing, and frankly I'd expect to see more of it, are service disruptions coming from updating and modernizing legacy systems.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "02:00",
+      "attribution": "Sean Cairncross, ONCD",
+      "summary": "Asked by reporter Ashley Gold whether this could be a cyberattack, the ONCD chief said the industry has known about this risk for a while and \"it's just that it's manifesting.\" Martin Casado drew the same parallel to Y2K, when most disruption came from the upgrades themselves.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#cairncross-modernizing-legacy"
+    },
+    {
+      "id": "surge-in-updates-surge-in-failures",
+      "headline": "The outages may be downstream of AI, just not the scary way",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "A 180,000-signature petition, shareholder letters from Brad Gerstner and Gavin Baker, and even President Trump (\"That certainly isn't a bad idea\") backed Jensen's return. On Monday, sources told CNBC the board is focused on Wachtell Lipton's independent investigation into whether his conduct compromised national security or company secrets, and is not discussing bringing him back.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#nvidia-board-cold-water-jensen-return"
+      "summary": "Mackenzie Arnold's theory: real fears about automated cyberattacks are driving a surge in major system updates, and more updates mean more failures. AI is also making many of these upgrades affordable and feasible for the first time, so the timing may not be a coincidence even if no attack is involved.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#surge-in-updates-surge-in-failures"
     },
     {
-      "id": "altman-industry-will-be-fine",
-      "headline": "The revenues and demand are growing so strongly that I think the industry will be fine.",
-      "type": "quote",
+      "id": "popsicle-sticks-and-bubblegum",
+      "headline": "We've been on a ticking clock since Mythos/Fable-level models",
+      "type": "take",
       "segment": "headlines",
       "timestamp": "03:00",
-      "attribution": "Sam Altman, at Semafor's event, on AI without Jensen Huang",
-      "summary": "Altman's answer to fears about losing Nvidia as AI's de facto central bank. Even OpenAI relied on a $100 billion Nvidia guarantee for its Ohio facility, but he insists \"people still trust their guarantees very much.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-17#altman-industry-will-be-fine"
+      "attribution": null,
+      "summary": "Companies are quietly racing to harden systems that have been held together with popsicle sticks and bubblegum for 30 years. Everyone is doing it at once, so the specialists who can fix the breakage are stretched thin. On that view the outages look predictable rather than mysterious, though a real wave of cyberattacks could still come later.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#popsicle-sticks-and-bubblegum"
     },
     {
-      "id": "nvidia-open-checkbook-over",
-      "headline": "I don't even need you guys. I could just give all this capacity to Elon.",
+      "id": "jensen-would-return",
+      "headline": "If the board decides that my return is in the best interest of\u2026 the company, and America, I would be honored to answer these calls and return as CEO.",
       "type": "quote",
       "segment": "headlines",
       "timestamp": "04:00",
-      "attribution": "Jensen Huang, to NeoCloud executives at a Berlin meeting last month, as reported by The Wall Street Journal",
-      "summary": "Per The Wall Street Journal, Jensen was already pulling back on commitments and demanding upfront payment from NeoCloud bosses before his resignation. Interim CEO Colette Kress is expected to rein in data center backstops further, and Needham warns of a more uncertain credit environment for NeoClouds.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#nvidia-open-checkbook-over"
+      "attribution": "Jensen Huang, in an X post",
+      "summary": "In his first statement since resigning last Thursday, Huang said he \"made serious mistakes\" in his personal life, that he owns them completely, and that he will cooperate with the board's independent investigation. He also cited an outpouring of calls from employees, investors, partners and customers for him to come back.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#jensen-would-return"
     },
     {
-      "id": "commerce-remote-access-rule",
-      "headline": "Commerce finally moves to close the chip diversion loophole",
+      "id": "market-votes-for-jensen",
+      "headline": "The market votes to bring Jensen back",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "A long-awaited rule targets Chinese labs reaching Nvidia chips through third-party countries. Data center operators in Singapore, Malaysia, Thailand, Indonesia and Brazil now need export licenses for advanced AI chips, and existing facilities have 90 days to get them, which lets Commerce investigate prior shipments.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#commerce-remote-access-rule"
+      "summary": "Nvidia stock rose 2% in the five minutes after Huang posted. Paul Graham said he didn't envy board members who would have to argue \"with a straight face\" that any other candidate would do a better job.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#market-votes-for-jensen"
     },
     {
-      "id": "bessent-lutnick-chip-feud",
-      "headline": "The administration's chip-policy feud spills into public",
+      "id": "nvidia-board-says-no",
+      "headline": "Nvidia's board: the gears are not turning",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "New board chair Harvey Jones opened the earnings call by saying the board \"unanimously accepted Jensen's resignation and does not intend to reinstate Jensen as CEO.\" Interim CEO Colette Kress had already said the same on CNBC: the board has decided, and the focus is on growing the business.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#nvidia-board-says-no"
+    },
+    {
+      "id": "semafor-board-faction",
+      "headline": "But a board faction reportedly wants him back",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "The new rule says it was written \"by and at the direction of\" Treasury and the NSC. Sources say Bessent pushed it through with Rubio's support. Trump framed the split as one secretary who wants to be friendly with China and one who wants a blowup. A former Commerce official couldn't recall another agency distancing itself from its own rule, and warns the visible infighting invites workarounds.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#bessent-lutnick-chip-feud"
+      "summary": "Semafor reports that some board members are pushing for Huang's return, and that he spoke with at least one director before his Tuesday post. Three members are said to be vehemently opposed, and it isn't clear where the other seven stand. The story doesn't feel over.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#semafor-board-faction"
     },
     {
-      "id": "ai-national-champions",
-      "headline": "Nvidia, OpenAI and Anthropic set to be named 'national champions'",
+      "id": "nvidia-strong-quarter",
+      "headline": "Nvidia's first post-Jensen quarter is another blowout",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "06:00",
+      "attribution": null,
+      "summary": "Nvidia beat revenue estimates with 103% annualized growth, raised its Q4 projection to $130 billion, and lifted growth forecasts out to 2028 from 70% to 75%. Kress closed with \"We've got this,\" and the stock rose 4.5% after hours to a post-Jensen high. Wedbush's Matt Bryson wasn't sure it changes skeptics' minds.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#nvidia-strong-quarter"
+    },
+    {
+      "id": "nvidia-exits-china",
+      "headline": "Nvidia stops shipping even government-approved chips to China",
       "type": "insight",
       "segment": "headlines",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "Commerce is expected to name its first AI national champions next week: reportedly Nvidia, Amazon, Microsoft, OpenAI and Anthropic. The designation brings expedited export licenses, government help with international business development, and federal financing. A core goal is bundling chips, models and products for international sales.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#ai-national-champions"
+      "summary": "Kress said guidance includes no licensed Hopper data center products and that Nvidia is no longer shipping them to China. The report doesn't yet reflect revenue lost from shutting down smuggling routes. Jones acknowledged that \"national security dynamics are making major changes in our marketplace.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-18#nvidia-exits-china"
     },
     {
-      "id": "openai-embedded-evaluators",
-      "headline": "OpenAI lets safety evaluators inside, with strings attached",
+      "id": "most-hated-model-release",
+      "headline": "GPT-6.2 Astra and Sol get some of the worst first impressions ever",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "Apollo Research, METR, Transluce and Goodfire get \"deep access\" to internal models. Apollo's six-person team will spend four months testing whether models subvert alignment and control mechanisms. But OpenAI can withhold information, limit staff access, keep evaluators off Slack, and censor reports for confidential details. Conclusions must still be published unchanged.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#openai-embedded-evaluators"
-    },
-    {
-      "id": "apollo-doesnt-meet-our-bar",
-      "headline": "Its access and disclosure rights don't yet meet our bar for full embedded evaluations.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "09:00",
-      "attribution": "Apollo Research, on its embedded evaluation agreement with OpenAI",
-      "summary": "The evaluator itself called the pilot only \"an ambitious first step.\" DeepMind's Neel Nanda said it falls short of the employee-like access Altman promised in September, and ex-OpenAI researcher Steven Adler criticized what he called a \"tattletale clause\" routing employee concerns through OpenAI.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#apollo-doesnt-meet-our-bar"
-    },
-    {
-      "id": "independent-auditors-need-standards",
-      "headline": "Handpicked auditors aren't independent auditors",
-      "type": "take",
-      "segment": "headlines",
-      "timestamp": "10:00",
-      "attribution": null,
-      "summary": "Even if Anthropic's version is better, labs are still choosing their own evaluators and deciding what access they get. That's reasonable for a business, but its incentives differ from the societal need auditors are supposed to serve. Embedded independent auditing is one of the rare safety ideas with broad consensus, so it deserves agreed-upon standards set by a genuinely independent force.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#independent-auditors-need-standards"
-    },
-    {
-      "id": "banking-outage-incredulity",
-      "headline": "A banking outage deepens the 'something doesn't add up' mood",
-      "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "11:00",
       "attribution": null,
-      "summary": "Logins, ATMs and transfers failed across JPMorgan Chase, Bank of America, Wells Fargo, Zelle and more, traced back to Chase's backend systems. Chase blamed a software bug in on-premises hardware, not a cyberattack. After Microsoft and FAA outages, public sentiment is growing more incredulous of the denials, and AI's role in that narrative is one to watch.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#banking-outage-incredulity"
+      "summary": "The week's question was whether OpenAI would drop a spoiler model ahead of Anthropic's IPO. It shipped two, and early reactions were brutal: Matt Shumer said he wouldn't even write a full review, calling them \"essentially unusable.\" This isn't GPT-5-era anger over deprecations. It's about the models themselves.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#most-hated-model-release"
     },
     {
-      "id": "usage-outpacing-spend",
-      "headline": "Businesses used 36% more tokens and paid just 2% more",
+      "id": "built-for-the-real-world",
+      "headline": "OpenAI's pitch leads with agents and cost, not coding",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "12:00",
+      "attribution": null,
+      "summary": "The announcement promised \"super efficient and built to perform where it counts, the real world.\" It led with Agents' Last Exam and a science variant of Terminal Bench rather than the coding benchmarks that have topped nearly every release for a year. Even the coding section's main selling point was cost.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#built-for-the-real-world"
+    },
+    {
+      "id": "artificial-analysis-index",
+      "headline": "Small intelligence gains, a strong hold on the middle of the market",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "13:00",
+      "attribution": null,
+      "summary": "On the Artificial Analysis Intelligence Index, Sol rose from 55 to 57 and Astra gained five points to 62, second only to Fable 5.2. AA says OpenAI now controls most of the Pareto frontier at mid-range prices. Anthropic offers a bit more intelligence at the premium end, and Meta wins on the cheapest models.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#artificial-analysis-index"
+    },
+    {
+      "id": "cost-per-task-gap",
+      "headline": "OpenAI opens a big cost gap with Anthropic",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "13:00",
+      "attribution": null,
+      "summary": "Astra 6.2 finished AA's benchmark at $4 per task versus $6.24 for Astra 6, a 35% cut. Sol fell to $1.01 from $1.27, about 20%. Fable 5.2 on high settings still costs more than twice what Astra costs on max, so models in the same size class now sit at very different price points.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#cost-per-task-gap"
+    },
+    {
+      "id": "coding-regression-red-flag",
+      "headline": "The red flag that set the narrative: a coding regression",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "14:00",
+      "attribution": null,
+      "summary": "Both models regressed on AA's coding agent index. Astra held its score, while Sol dropped three points to fall behind Kimi 3.1 and 6.1 Terra, driven by SWE Atlas results where it tends to leave out key facts. The open question is whether testers thought the model was bad, or just worse at the one thing they cared about.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#coding-regression-red-flag"
+    },
+    {
+      "id": "every-team-verdict",
+      "headline": "Every's 30-person team: nobody switched",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "15:00",
+      "attribution": null,
+      "summary": "Dan Shipper's team tested the models on real coding, writing, design and knowledge work, and no one adopted them. They found writing so concise it was hard to follow, with short answers where long ones were needed. Coding runs often stopped too early on end-to-end builds, and designs fell into a noticeable house style.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#every-team-verdict"
+    },
+    {
+      "id": "smart-but-insufferable",
+      "headline": "\"Clearly super smart,\" but insufferable to work with",
       "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "Ramp's latest index shows total token consumption across its businesses up more than a third in a month while spend barely moved. Usage growth is now clearly outpacing spend growth.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#usage-outpacing-spend"
+      "summary": "Theo's long critique says the model \"speaks in tongues\" and runs in loops, and seems to live in its own world. Ethan Mollick called it uneven and weird, the first frontier OpenAI release since GPT-4.5 that wasn't a clear step forward.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#smart-but-insufferable"
     },
     {
-      "id": "token-prices-down-21",
-      "headline": "Cheaper models are forcing everyone's prices down",
+      "id": "the-defenders",
+      "headline": "The other camp: strong on agents, computer use and efficiency",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Average price per million tokens across OpenAI and Anthropic fell 21% in October. That doesn't necessarily mean companies are moving to cheaper Chinese models. The mere presence of those models is pressuring the big providers, on top of their own push toward more efficient models.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#token-prices-down-21"
+      "summary": "Some users reported a very different model. Ash praised it for computer use and agentic video editing, Claire Vo for image generation and animation code, and Josh Purtell called both models \"absolute monsters\" on an auto-research benchmark. Alex Finn said it finished his benchmark in a third of the time, at a third of the price, using a quarter of the tokens.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#the-defenders"
     },
     {
-      "id": "multi-model-flip",
-      "headline": "Single-provider enterprises went from majority to minority in four months",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": null,
-      "summary": "In July, 64% of companies on Databricks' Unity Gateway used one model provider. By early November, 72% used two or more. Databricks argues raw token price is the wrong number to watch, and that the metric that matters is cost per successful task.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#multi-model-flip"
-    },
-    {
-      "id": "spend-visibility-gap",
-      "headline": "AI is an eight-figure budget line, and most leaders can't see it",
+      "id": "efficiency-over-quality",
+      "headline": "If quality is all you care about, it flopped. Price-to-output is another story.",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "Arcana's Global 2000 survey finds 91% expect to spend more on AI in 2026, mostly 20-40% more. Yet two-thirds lack visibility into their model and API spend. That's a sign of the gap between vanguard companies and the middle of the pack, and likely something that changes fast.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#spend-visibility-gap"
+      "summary": "A recurring defense: prices can't keep rising just to do the job a bit better, so efficiency should matter more than raw quality. Others argue efficiency has been OpenAI's real edge for a while, and that this release doubles down on it deliberately.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#efficiency-over-quality"
     },
     {
-      "id": "switching-is-normal",
-      "headline": "A third of OpenAI customers are open to switching",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "19:00",
-      "attribution": null,
-      "summary": "In Arcana's survey, a third of OpenAI customers said they'd consider moving, frequently to Anthropic. 43% of GitHub Copilot customers were open to switching, generally naming Claude Code. Switching is becoming normal, and that is what gives buyers leverage.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#switching-is-normal"
-    },
-    {
-      "id": "spend-concentration-625x",
-      "headline": "The top 1% of AI spenders are in a different universe",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "19:00",
-      "attribution": null,
-      "summary": "On Ramp, the median firm spends $16.32 per employee per month, while top firms spend over $10,000, about 625 times as much. Ramp skews tech-forward, but Databricks sees the same pattern: a $2.49 median user against a 99th percentile of nearly $700 a week, a 281x gap.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#spend-concentration-625x"
-    },
-    {
-      "id": "coding-remains-king",
-      "headline": "Coding remains king",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": null,
-      "summary": "72% of AI spend on Ramp comes from engineering teams. A third of Arcana's Global 2000 respondents are piloting AI coding tools, the largest pilot group of any category.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#coding-remains-king"
-    },
-    {
-      "id": "anthropic-enterprise-momentum",
-      "headline": "Anthropic has the enterprise momentum on every scoreboard",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": null,
-      "summary": "Just under 45% of US businesses on Ramp pay Anthropic, versus 40.6% for OpenAI. Anthropic takes 68.8% of proprietary model tokens on Unity Gateway, and 81% of Arcana respondents named it when asked for an exciting AI vendor.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#anthropic-enterprise-momentum"
-    },
-    {
-      "id": "customer-service-rising",
-      "headline": "Customer service is AI's fastest-growing business use case",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "20:00",
-      "attribution": null,
-      "summary": "Customer support teams' share of AI spend on Ramp jumped from 0.8% in June to 13.3% in November. 38% of Arcana's Global 2000 respondents already use AI customer service.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#customer-service-rising"
-    },
-    {
-      "id": "token-spend-growth-slowing",
-      "headline": "Spend growth has slowed, but it still lands in the forecast range",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Ramp token spend grew 1.05% in August, 0.22% in September and 1.65% in October. If October's rate held, it would compound to about 22% a year. That's a real slowdown from past growth, but still within the 20-40% increase Arcana's respondents expect.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#token-spend-growth-slowing"
-    },
-    {
-      "id": "opus-dominance-fable-slide",
-      "headline": "Opus 5.5 may be crowding out Fable",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Frontier models' share of Ramp spend rose from 67.7% to 69.5% in October, yet Fable's token share on Databricks fell from 5.5% to 0.6%. Over six weeks, Opus 5.5 climbed from 7.2% to 37.9% of Databricks tokens. The divergence may be less about frontier models in general than Opus simply leaving Fable 5.2 without a place.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#opus-dominance-fable-slide"
-    },
-    {
-      "id": "agents-still-aspirational",
-      "headline": "2026 was the year agents got real, just not for the average enterprise",
+      "id": "collaborator-vs-delegate",
+      "headline": "An old split in interaction styles, now more visible",
       "type": "take",
+      "segment": "main",
+      "timestamp": "19:00",
+      "attribution": null,
+      "summary": "Anthropic's Fable-class models are the kind you hand a whole assignment and walk away from. OpenAI's are still tuned more for close back-and-forth collaboration. 6.2 may simply extend that pattern, and look worse by comparison because Opus 5.5 is so good at both styles.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#collaborator-vs-delegate"
+    },
+    {
+      "id": "early-access-self-sabotage",
+      "headline": "Changed days before launch, after the reviews were written",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "19:00",
+      "attribution": null,
+      "summary": "Some testers blamed the harness more than the model. OpenAI's Tibo said the team made many changes in the final three to four days, after early testers had already recorded their reviews. Critics called that self-sabotage. Theo retested and found it better, but \"still directionally very bad.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-18#early-access-self-sabotage"
+    },
+    {
+      "id": "test-it-yourself",
+      "headline": "Not a slam dunk, not era-defining, so test it yourself",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "20:00",
+      "attribution": null,
+      "summary": "6.2 reads as a very incremental release with some specific tuning choices. Either they don't work in general, or they made the model less useful for some people's use cases. NLW is switching his own OpenAI-based workflows over to find out.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#test-it-yourself"
+    },
+    {
+      "id": "not-ipo-sabotage",
+      "headline": "This wasn't an attempt to spoil Anthropic's IPO",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "21:00",
+      "attribution": null,
+      "summary": "There's no way OpenAI expected this model to steal Anthropic's thunder, especially after Fable 5.2. The more likely motive was defensive: with everyone talking about models because of the IPO, having a recent release beats looking scared after a long silence.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#not-ipo-sabotage"
+    },
+    {
+      "id": "launch-ad-backlash",
+      "headline": "The launch ad: \"We help your incompetent people fake it\"",
+      "type": "insight",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "Year-end retrospectives will likely crown 2026 the year of agents. Yet Arcana ranks autonomous agents fourth on its heat index of what companies are excited about, and dead last on its adoption index of what's actually deployed.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#agents-still-aspirational"
+      "summary": "OpenAI's two-minute film shows white-collar workers using Astra to finish forgotten tasks for their bosses in under a minute. Critics called it a mockery of humanity and a profoundly sad vision of the future. Swyx said the biggest failure of the launch was that nobody with decision-making power vetoed the ad.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#launch-ad-backlash"
     },
     {
-      "id": "is-the-one-percent-the-future",
-      "headline": "The market question: are the 1% outliers or a preview?",
+      "id": "something-for-you-and-your-boss",
+      "headline": "Maybe OpenAI is carving out its own lane in enterprise AI",
       "type": "take",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "Each dataset has caveats: gateway-only customers, a narrow tech-forward sample, a small Global 2000 pool. But the convergent story outweighs the divergent one. The big question is how far the median buyer drifts toward the 1% spending hundreds of times more. That will say a lot about market size and whether the CapEx turns into ROI.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#is-the-one-percent-the-future"
-    },
-    {
-      "id": "enterprises-have-more-leverage",
-      "headline": "You probably have more leverage than you're using",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": null,
-      "summary": "Competition is vicious, and model providers are desperate not to become generic commodities. There are deals to be had, but only if you've built the infrastructure to actually switch.",
-      "link": "https://aidailybrief.ai/e/2026-11-17#enterprises-have-more-leverage"
+      "summary": "The ad may just have been Office Space-style fun, complete with 1990s computers and a Lumbergh boss. Or it may be strategy: instead of fighting Anthropic head-to-head on coding, OpenAI offers faster busywork for employees and cost efficiency for their bosses, who are increasingly focused on token caps.",
+      "link": "https://aidailybrief.ai/e/2026-11-18#something-for-you-and-your-boss"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-17.mp3",
-  "generated": "2026-11-19T06:22:04Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-18.mp3",
+  "generated": "2026-11-20T06:22:37Z"
 }
