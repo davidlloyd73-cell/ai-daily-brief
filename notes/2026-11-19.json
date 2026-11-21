@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "A history lesson with little for the consulting room",
+   "body": "This edition is a retrospective, so it has limited clinical relevance. The one thread worth pulling is that the model families behind most NHS scribes, from Anthropic and OpenAI, are now run by companies under public or political scrutiny they did not face two years ago. NLW counts that as progress; Zitron thinks the scrutiny has come late."
+  },
+  {
+   "title": "A model can be withdrawn overnight",
+   "body": "One of the ten days is the eighteen days in June when Anthropic pulled a model for everyone after a government directive. A clinical tool built on a single model can lose it without warning. Ask a scribe supplier which model it depends on, whether it has a fallback, and how a practice would be told if the underlying model changed."
+  },
+  {
+   "title": "Pension funds and the AI trade",
+   "body": "Both men note how much of the stock market now rests on AI. That includes funded pension schemes, private pensions and most index trackers. It is not a reason to act, only to recognise that the bubble argument is not somebody else's problem. Neither commentator is a financial adviser, and nor am I."
+  }
+ ]
+}

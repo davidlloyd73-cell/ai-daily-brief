@@ -1983,6 +1983,24 @@
    "resolution": "Vindicated if within six months enterprise usage data such as Ramp's or Databricks' show OpenAI's share of business spending or tokens rising from its November 2026 level, with the 6.2 models widely used outside coding. Fails if OpenAI's enterprise share falls further or it replaces the 6.2 models within three months with a release pitched again at coding.",
    "check_by": "2027-05-18",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-19",
+   "side": "NLW",
+   "claim": "That Anthropic's flotation moves AI from a private era to a public one in which listing forces more transparency and gives outsiders more influence over the companies building it, and that what follows matters more than the first day's trading.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-19",
+   "resolution": "Vindicated if within twelve months at least one other major AI lab has listed or publicly filed to list, and Anthropic's quarterly reports disclose compute costs and customer concentration in enough detail to be widely used in the demand debate. Fails if no other lab files and Anthropic's reporting is criticised by mainstream analysts as too opaque to assess demand.",
+   "check_by": "2027-11-19",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-19",
+   "side": "Zitron",
+   "claim": "That the AI bubble has not yet burst but is clearly on the way to doing so.",
+   "source_url": "https://www.wheresyoured.at/premium-bursting-bubbles/",
+   "resolution": "Vindicated if within twelve months Anthropic's shares trade below the 83 dollar offer price for a sustained period and the Nasdaq falls at least 30 per cent from its November 2026 level. Fails if neither happens.",
+   "check_by": "2027-11-20",
+   "status": "open"
   }
  ]
 }

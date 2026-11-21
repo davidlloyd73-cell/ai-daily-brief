@@ -1,0 +1,21 @@
+David's AI brief for Thursday, the nineteenth of November.
+
+The One Idea today: Anthropic's flotation ends AI's private era and begins its public one. On the morning the company's shares began trading, priced at eighty-three dollars and above the expected range, Nathaniel Whittemore looked back at ten days that shaped this technology.
+
+His list runs roughly in order. OpenAI was founded in 2015 as a non-profit, out of fear that Google would get there first, and within four years had taken a billion dollars from Microsoft. In 2017 Google researchers published the paper describing the method behind every modern system, and largely failed to exploit it. In late 2022, a rumour that Anthropic was about to release a chatbot pushed OpenAI into rushing out ChatGPT, which reached a hundred million users in five weeks. A year later OpenAI's board sacked its chief executive and reversed itself within days, which taught Microsoft to hedge its bets.
+
+Then came the models. In mid 2024 an Anthropic release took the lead in writing software. In January 2025 a Chinese system called DeepSeek wiped nearly six hundred billion dollars off Nvidia in a day. Late last year another Anthropic model made software agents that work unattended a practical reality.
+
+The most recent entries are political. The American government fell out with Anthropic over military use, and in June a directive led the company to withdraw a model from everyone for eighteen days. Then the midterm elections became a vote on data centres. Whittemore's conclusion is that the public has kept pushing its way in, and that a stock market listing forces transparency and gives outsiders influence.
+
+Now, the other side. Ed Zitron published a paid piece the next day, of which only the opening is free. He tells the same decade as a bubble inflated by a press willing to believe any large number from a large company. He says that failing to be excited about this flotation is treated as bad faith, and that the bubble has not burst but is on its way.
+
+So both men circle one question: does going public expose a company to scrutiny, or merely expose more people to the company? They agree that one bad quarter could ripple widely. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is Anthropic's first audited quarterly report.
+
+Turning to general practice, where a history lesson offers little for the consulting room. First, the companies behind most NHS scribes now face public and political scrutiny they did not face two years ago. Whittemore counts that as progress. Zitron thinks it has come late.
+
+Second, a model can be withdrawn overnight, as happened in June. A clinical tool built on a single model can lose it without warning. Ask a supplier which model it depends on, whether there is a fallback, and how a practice would be told of a change.
+
+Third, a great deal of the stock market now rests on AI, and that includes pension funds and index trackers. It is not a reason to act, only to recognise that the bubble argument is not somebody else's problem.
+
+That's the brief. Source, The AI Daily Brief.
