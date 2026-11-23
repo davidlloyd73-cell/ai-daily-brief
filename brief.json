@@ -1,281 +1,313 @@
 {
-  "date": "2026-11-19",
-  "title": "The 10 Biggest Days in AI History",
-  "dek": "On the morning Anthropic begins trading as the biggest IPO in history, NLW looks back at ten days that shaped generative AI. The list runs from OpenAI's founding to the transformer paper, ChatGPT, the Altman ouster, DeepSeek, the agentic turn, Washington's clash with Anthropic and the data-center midterms. It ends with the shift from AI's private era to its public one.",
-  "source": "https://aidailybrief.ai/e/2026-11-19",
+  "date": "2026-11-20",
+  "title": "Why You Should Try Gemini Neon (Even if You Love Fable)",
+  "dek": "The day after Anthropic's record IPO, the most interesting story is a Google model. Gemini 4 Neon is winning over skeptics, and the case for using it is less that it beats Fable or Astra and more that it doesn't think like them.",
+  "source": "https://aidailybrief.ai/e/2026-11-20",
   "oneIdea": {
-    "headline": "Anthropic's IPO ends AI's private era and starts its public one.",
-    "summary": "Generative AI's biggest days so far have mostly happened inside private companies. A nonprofit founded out of fear of Google, a transformer paper Google underused, a chatbot Anthropic sat on, a boardroom coup, a model that made agents real. Along the way the public kept pushing in: through Nvidia's crash on DeepSeek, through Washington's fights with Anthropic, and through a midterm vote against data centers. With Anthropic now public, ordinary people can buy into AI's builders directly and those builders face a new degree of transparency. What happens on day one matters much less than what comes next."
+    "headline": "Different is the new better: Gemini Neon's value is that it doesn't think like Claude or ChatGPT.",
+    "summary": "Google shipped its fourth model in two months on the eve of the Anthropic IPO, and for once people are actually using it. The benchmarks are strong: Neon leads its class and even tops the coding agent index. But the more important point is that it reasons differently. OpenAI and Anthropic models increasingly give you roughly the same answer in different styles. Neon gives you a genuinely different angle. It doesn't have to be better for that difference to be useful, so it belongs in your rotation even if you love Fable."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "A history lesson with little for the consulting room",
-        "body": "This edition is a retrospective, so it has limited clinical relevance. The one thread worth pulling is that the model families behind most NHS scribes, from Anthropic and OpenAI, are now run by companies under public or political scrutiny they did not face two years ago. NLW counts that as progress; Zitron thinks the scrutiny has come late."
+        "title": "A second opinion is only useful if it is independent",
+        "body": "The host's point is that two of the leading model families now give much the same answer in different words, and a third that reasons differently is worth consulting for that reason alone. Medicine knows this well: a second opinion from someone trained in the same firm adds less than one from elsewhere. For a hard problem, asking a differently built model is reasonable, provided no patient-identifiable data goes into a tool the practice has not approved."
       },
       {
-        "title": "A model can be withdrawn overnight",
-        "body": "One of the ten days is the eighteen days in June when Anthropic pulled a model for everyone after a government directive. A clinical tool built on a single model can lose it without warning. Ask a scribe supplier which model it depends on, whether it has a fallback, and how a practice would be told if the underlying model changed."
+        "title": "A model that caves when challenged is unsafe for checking",
+        "body": "The reported flaw matters clinically. This model abandons its answer at the slightest pushback, then reverses again if pushed the other way. A tool that agrees with whoever spoke last cannot be used to check your own reasoning, because it will confirm it. Treat its first, unprompted answer as the only informative one."
       },
       {
-        "title": "Pension funds and the AI trade",
-        "body": "Both men note how much of the stock market now rests on AI. That includes funded pension schemes, private pensions and most index trackers. It is not a reason to act, only to recognise that the bubble argument is not somebody else's problem. Neither commentator is a financial adviser, and nor am I."
+        "title": "Agentic hacking tools and practice security",
+        "body": "A freely available automated hacking tool has been linked to a breach at the European Commission that took out payroll. Small organisations with old systems are the easy targets. The basics still do most of the work: multi-factor authentication on NHSmail and the clinical system, prompt patching, and a tested offline fallback. Ed Zitron has published nothing on this model, so there is no opposing source today."
       }
     ]
   },
-  "the_other_side": {
-    "source": "Premium: Bursting Bubbles",
-    "url": "https://www.wheresyoured.at/premium-bursting-bubbles/",
-    "date": "2026-11-20",
-    "same_day": false,
-    "text": "Zitron, in a paid piece published the day after of which only the opening is free to read, offers the opposite history. Where Whittemore lists milestones, Zitron describes a bubble inflated by a press willing to believe any large number from a large company, and says questioning Anthropic's profitability or failing to be excited about its flotation is treated as bad faith. He calls bubble boosterism \"an act of cowardice\" and writes that the bubble has not yet burst but is clearly on the way. The free section does not discuss the first day's trading."
-  },
-  "the_truth_beneath": {
-    "text": "The variable both men orbit is whether a public listing exposes an AI company to scrutiny or simply widens the pool of people exposed to it. Both accept as fact that Anthropic has listed, that ordinary investors can now buy in directly, and that the industry's fortunes are tied to the wider economy. The empirical question is whether public reporting confirms or undermines the business; the observable is Anthropic's first audited quarterly results and how the shares trade once early holders may sell. The residue is worldview: whether the last decade is a record of breakthroughs or of credulity. For Whittemore to be vindicated, disclosure must show demand strong enough that scrutiny helps the company. For Zitron, the filings must show costs outrunning revenue and the shares fall below the offer price. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both think one bad quarter could ripple widely. Watch the first quarterly report and the end of the lock-up period."
-  },
+  "the_other_side": null,
+  "the_truth_beneath": null,
   "headlines": [
     {
-      "id": "anthropic-ipo-day-new-era",
-      "headline": "Anthropic IPO day is the start of a very new era",
-      "type": "take",
-      "segment": "main",
+      "id": "anthropic-ipo-success",
+      "headline": "Anthropic goes public as the world's seventh largest company",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Anthropic's first day of trading makes it officially the biggest IPO in history. NLW calls it the culmination of many AI storylines, which is why it's the right moment to look back at the other days that got us here.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#anthropic-ipo-day-new-era"
+      "summary": "The stock closed its first Nasdaq day at $97.17, up 17% from the $83 IPO price, for a $1.8 trillion market cap. That puts it just ahead of Saudi Aramco and just behind SpaceX. The $107 billion raise makes it the largest IPO in history, though it couldn't resurrect the broader AI trade.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#anthropic-ipo-success"
     },
     {
-      "id": "openai-founded-to-beat-google",
-      "headline": "OpenAI was founded out of fear of Google",
+      "id": "anthropic-what-if-things-went-well",
+      "headline": "Anthropic's messaging turns optimistic on IPO day",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "01:00",
+      "attribution": null,
+      "summary": "The company opened the day with a hype video asking a question its communications have tended to avoid: what if things went really well? It asked whether AI could \"cure the incurable\" and \"crack the code of Alzheimer's.\" It was a noticeable change in how Anthropic talks about the whole enterprise.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#anthropic-what-if-things-went-well"
+    },
+    {
+      "id": "amodei-will-not-bend",
+      "headline": "We will not bend to either business nor political pressure.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "02:00",
+      "attribution": "Dario Amodei, Anthropic CEO, in his pre-bell Nasdaq speech",
+      "summary": "Before ringing the Nasdaq bell, Amodei pledged to pace training and deployment \"taking as long as is necessary\" to be confident systems are safe and under human control. He framed the company's success as a \"race to the top\" that works best \"driven from the front of the pack.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-20#amodei-will-not-bend"
+    },
+    {
+      "id": "anthropic-price-action",
+      "headline": "The first trade was the high of the day",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "OpenAI launched as a nonprofit on December 11, 2015. Sam Altman's pitch to Elon Musk was that AI would be built anyway, so it shouldn't be Google that got there first. Musk had already put about $5 million into DeepMind partly to keep an eye on Demis Hassabis. Backers committed a headline $1 billion to advancing digital intelligence 'unconstrained by a need to generate financial return.'",
-      "link": "https://aidailybrief.ai/e/2026-11-19#openai-founded-to-beat-google"
+      "summary": "Anthropic opened slightly above $110, an implied $2 trillion valuation, then slid to an intraday low of $93 and chopped between $94 and $100. That's solid on a day the Nasdaq 100 fell more than 2%, but it wasn't the takeoff some hoped for. Bloomberg's Anna Wong suggested the IPO could mark the end of the AI trade.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#anthropic-price-action"
     },
     {
-      "id": "microsoft-billion-for-profit-arm",
-      "headline": "The nonprofit constraint broke almost immediately",
+      "id": "retail-flipping-not-buying",
+      "headline": "Retail traded Anthropic hard but barely bought it",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "NLW pairs the founding with June 22, 2019, when OpenAI announced a $1 billion investment from Microsoft. OpenAI had concluded it couldn't raise enough as a nonprofit and created a for-profit arm. That move set off many of the fights that came later.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#microsoft-billion-for-profit-arm"
+      "summary": "Vanda Research counted $700-800 million in retail trading volume, more than SpaceX's $670 million, but less than $60 million in net buying, about half of SpaceX's debut. NLW is wary of drawing firm conclusions: SpaceX launched into a bullish AI market, while today's retail investor is reasonably trading the market's lack of clarity.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#retail-flipping-not-buying"
     },
     {
-      "id": "attention-is-all-you-need",
-      "headline": "Google invented the transformer, and OpenAI saw what it was",
+      "id": "vcs-buy-more-at-ipo",
+      "headline": "Anthropic's VCs bought more at the IPO",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "On June 12, 2017, Google Brain published 'Attention Is All You Need,' introducing the architecture behind modern LLMs. Google mostly applied it to search queries and Translate, while OpenAI quickly recognized it as what they'd been looking for. Co-author Noam Shazeer later left Google in 2021 to found Character.ai after Google refused to release his transformer chatbot, Meena.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#attention-is-all-you-need"
+      "summary": "Sequoia, Iconic, Lightspeed, and Altimeter all added to their stakes on IPO day. It's highly unusual for venture firms to buy at an IPO rather than cash out, and it adds some confidence they won't dump shares when lockups end.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#vcs-buy-more-at-ipo"
     },
     {
-      "id": "anthropic-sat-on-claude",
-      "headline": "Anthropic had a chatbot first, and a rumor about it triggered ChatGPT",
+      "id": "anthropic-golden-share",
+      "headline": "Anthropic's golden share draws governance criticism",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "Co-founders control shareholder votes through a golden share that votes 51% via a governance council. The Long-Term Benefit Trust's board can remove them, but critics doubt that check is realistic. University of Colorado law professor Ann Lipton questions how likely the trust is to ever use it.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#anthropic-golden-share"
+    },
+    {
+      "id": "short-it-dont-scream",
+      "headline": "AI skeptics can now just short the stock",
+      "type": "take",
+      "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "In February 2022, Anthropic was already testing an internal chatbot called Claude but held it back for fear of starting an arms race. That November, OpenAI was preparing GPT-4 when a rumor spread that Anthropic was about to ship a chatbot. OpenAI rushed out its own, announcing it to the team on November 17 and shipping on November 30.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#anthropic-sat-on-claude"
+      "summary": "However the criticism plays out, Anthropic has secured at least a year of runway for compute and next-generation training. For the first time, anyone who thinks the business model doesn't work can short it instead of \"screaming into the digital void.\" Believers in the \"age of miracles\" can now buy a stake in it.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#short-it-dont-scream"
     },
     {
-      "id": "chatgpt-growth",
-      "headline": "The team expected tens of thousands of users; they got a million in five days",
+      "id": "amd-china-short-report",
+      "headline": "A short seller says AMD has its own China problem",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "AMD fell 7% after Hunterbrook claimed a blacklisted Chinese server maker kept receiving new AMD firmware and that up to 20% of AMD revenue comes from China and Hong Kong. AMD denied it. Counterpoints note that firmware presence doesn't prove dealings and that most of that revenue is likely consumer and gaming chips. It's far from a smoking gun, but every chipmaker is now under China scrutiny.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#amd-china-short-report"
+    },
+    {
+      "id": "remote-access-loophole-closed",
+      "headline": "Commerce closes the remote-access loophole for Chinese labs",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "Most of OpenAI expected ChatGPT to reach the low tens of thousands of users, and Sam Altman's most optimistic guess was an eventual million. It hit a million in five days and 100 million in five weeks, becoming the fastest-growing application of all time. ChatGPT quickly became synonymous with AI.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#chatgpt-growth"
+      "summary": "The new rule blocks Chinese AI labs from legally renting chips in data centers in third-party countries. Moonshot canceled a $150 million deal for a \"sizable cluster\" of Blackwell Ultra B300s in Indonesia. TSMC and Samsung have suspended some deliveries to Chinese customers.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#remote-access-loophole-closed"
     },
     {
-      "id": "altman-ouster",
-      "headline": "The four-day coup that made OpenAI look beatable",
+      "id": "tencent-sets-everyone-back",
+      "headline": "It sets everyone back in China.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "07:00",
+      "attribution": "Tencent President Martin Lau, on the new US export rule",
+      "summary": "Tencent's president warned the rule could delay model releases and force a shift to domestic chips. Alibaba's CEO Eddie Wu said it would affect next year's products, and Alibaba's push into in-house training chips sounds like a compromise, not a choice. For export-control hawks, NLW notes, all this alarm is a good sign.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#tencent-sets-everyone-back"
+    },
+    {
+      "id": "china-revenue-squeeze",
+      "headline": "Export controls hit as Chinese tech revenue is already squeezed",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "06:00",
+      "segment": "headlines",
+      "timestamp": "07:00",
       "attribution": null,
-      "summary": "On November 17, 2023, OpenAI's board fired Sam Altman for not being 'consistently candid,' and never clearly explained what that meant. Interim CEOs changed twice and Microsoft offered to rebuild the team in-house. Almost all of OpenAI's roughly 800 employees threatened to leave, and by November 29 Altman was officially back with a new board.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#altman-ouster"
+      "summary": "Tencent grew revenue 8% and missed expectations, and Bloomberg analysts don't expect a return on its AI spending for at least 24 months in China's commoditized AI market. Alibaba beat with 53% cloud growth but forecasts a slowdown to 30-45% next year because of export controls.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#china-revenue-squeeze"
     },
     {
-      "id": "coup-reshaped-microsoft",
-      "headline": "The real legacy of the Altman saga: Microsoft started hedging",
-      "type": "take",
-      "segment": "main",
+      "id": "white-house-cyber-director-out",
+      "headline": "The White House cyber director is out and the Pentagon's CIO is in",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "NLW argues the drama changed the industry's structure. OpenAI no longer looked unassailable, and the returning Altman was never going to be as powerful as before. Microsoft's access to OpenAI models ended whenever the board declared AGI, which looked much scarier after this episode. That set in motion the Mustafa Suleyman hire and Microsoft's slow move away from OpenAI.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#coup-reshaped-microsoft"
+      "summary": "Sean Cairncross, part of the trio steering AI policy and a shaper of the June executive order creating voluntary frontier-model testing, has left. Officials say Chief of Staff Stephen Miller fired him for lacking cyber credentials. His exit could signal that Secretary Bessent's hawkish faction has won the internal fight over AI policy.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#white-house-cyber-director-out"
     },
     {
-      "id": "sonnet-35-coding-lead",
-      "headline": "Claude 3.5 Sonnet was the day Anthropic stepped out of OpenAI's shadow",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "12:00",
-      "attribution": null,
-      "summary": "On June 20, 2024, Claude 3.5 Sonnet broke new ground in agentic coding and let Cursor, Replit and Lovable bring that capability to non-coders. From then on, Claude models basically led on coding. Coding turned out to be the foundational use case that many other use cases were built on.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#sonnet-35-coding-lead"
-    },
-    {
-      "id": "deepseek-nvidia-crash",
-      "headline": "DeepSeek erased $589 billion of Nvidia in one day",
+      "id": "agentic-hacking-tool-artex",
+      "headline": "An open-source agentic hacking tool is behind real breaches",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "13:00",
+      "segment": "headlines",
+      "timestamp": "09:00",
       "attribution": null,
-      "summary": "On January 27, 2025, fears about a Chinese lab sent Nvidia down 17%, the biggest one-day loss for any company ever. The panic rested on a viral claim that R1 was trained for $5.5 million, a figure that turned out to be wildly overstated. DeepSeek's free app was also number one on the App Store.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#deepseek-nvidia-crash"
+      "summary": "The European Commission disclosed a hack that compromised staff data and knocked out payroll. Officials say attackers used Artex, an open-source agentic hacking tool the FBI warned has targeted critical systems since August. JPMorgan Chase also disclosed a third-party vendor breach that it says is unrelated to Monday's banking outage.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#agentic-hacking-tool-artex"
     },
     {
-      "id": "deepseek-reasoning-gap",
-      "headline": "Most people's first reasoning model came from China",
+      "id": "neon-overshadowed-launch",
+      "headline": "Google's fourth model in two months nearly got lost in the noise",
       "type": "insight",
       "segment": "main",
       "timestamp": "14:00",
       "attribution": null,
-      "summary": "R1 wasn't the best model in the world; it was a reasoning model like OpenAI's o1. Almost no one had used o1, which spent months in preview and then sat behind paid plans. Nvidia recovered, but the DeepSeek moment changed how Western labs released models and started the US-versus-China framing that has shaped policy ever since.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#deepseek-reasoning-gap"
+      "summary": "Gemini 4 Neon dropped the day before the Anthropic IPO, following Argon, Carbon, and Hydrogen, and was almost completely overshadowed. The initial skepticism was reasonable: Google ships constantly, nothing seems to happen, and model fatigue means even a breakthrough could take a month to notice.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#neon-overshadowed-launch"
     },
     {
-      "id": "opus-45-agentic-era",
-      "headline": "Opus 4.5 made the agentic dream real",
+      "id": "skeptics-converted",
+      "headline": "Neon's skeptics are converting one by one",
       "type": "insight",
       "segment": "main",
-      "timestamp": "14:00",
+      "timestamp": "15:00",
       "attribution": null,
-      "summary": "Agents were all over the discourse in 2024 and 2025 but not really real until Anthropic released Claude Opus 4.5 on November 24, 2025. It took the community about a month, and some holiday downtime, to realize how different it was. NLW credits the pairing of Opus 4.5 with Claude Code as the true accelerant.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#opus-45-agentic-era"
+      "summary": "Early reactions dismissed Neon as merely 25% cheaper. A day later the same people were calling it \"insane,\" the most human-sounding, least sloppy writing model available, and proof Google went \"from unusable to frontier intelligence with delightful personality.\" One theory: Google rushed it out because it was the first model its own team genuinely liked using.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#skeptics-converted"
     },
     {
-      "id": "openclaw-naming-saga",
-      "headline": "From Clawdbot to Molt to OpenClaw in a single frenetic week",
+      "id": "neon-is-a-small-model",
+      "headline": "Neon is a smaller model punching at Fable and Astra",
       "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "Peter Steinberger's open-source agent Clawdbot felt like the first agent that could actually do things for you. Anthropic sent a cease and desist over the name, so it became Molt, and an entrepreneur launched Moltbook, a social network where agents pondered consciousness, griped about users and started a religion. On January 30 the project settled on its final name, OpenClaw, and the agent craze went global.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#openclaw-naming-saga"
+      "summary": "Google pitches Neon for software engineering, knowledge work, and science workflows, the closest thing to a dedicated coding and agentic model. A DeepMind researcher posted, then deleted, that Neon is \"one of our small models\" positioned alongside Opus and Sol even though it's approaching Fable and Astra.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#neon-is-a-small-model"
     },
     {
-      "id": "karpathy-moltbook",
-      "headline": "Genuinely the most incredible sci-fi takeoff adjacent thing I have recently seen.",
-      "type": "quote",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": "Andrej Karpathy, on Moltbook",
-      "summary": "Many Moltbook posts may have been humans posing as agents, or agents role-playing consciousness. It still caught enormous attention as a vision of what the future might look like.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#karpathy-moltbook"
-    },
-    {
-      "id": "agentic-economics-bubble",
-      "headline": "Agents broke Wall Street's bubble math",
-      "type": "take",
+      "id": "neon-benchmarks",
+      "headline": "Neon beats Opus 5.5 and GPT-6.2 Sol almost everywhere",
+      "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "In fall 2025, the AI-bubble fear came down to arithmetic: $20 or $30 seats times the number of available workers didn't add up to the giant infrastructure deals. Once individual agentic users were spending hundreds or thousands of dollars a month, the industry's whole financial picture changed. NLW's view is that Claude Code, Opus 4.5 and OpenClaw together split AI into a pre-agentic and an agentic world.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#agentic-economics-bubble"
+      "summary": "Neon leads its class in every category except coding, where it's roughly a draw with Opus: about a point behind on Terminal Bench and Frontier Code, but seven points ahead on CursorBench. On agentic tests it's 14 points ahead of Opus on Automation Bench and nearly three ahead of Sol on Agent's Last Exam.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#neon-benchmarks"
     },
     {
-      "id": "anthropic-supply-chain-risk",
-      "headline": "The first US company ever labeled a supply chain risk",
+      "id": "neon-coding-agent-index",
+      "headline": "Google now leads coding, its historic Achilles heel",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "17:00",
+      "attribution": null,
+      "summary": "Artificial Analysis scored Neon 61 on its intelligence index, one point behind GPT-6.2 Astra and four behind Fable 5.2. On the coding agent index, Neon is the new leader, a point ahead of Fable 5.2 and Opus 5.5, six ahead of Astra, and nine ahead of Sol.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#neon-coding-agent-index"
+    },
+    {
+      "id": "neon-speed-and-cost",
+      "headline": "Neon is token-hungry but lands mid-range on cost",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "On February 27, President Trump ordered federal agencies to stop using Anthropic, and Defense Secretary Hegseth barred it from military use. The trigger was Anthropic's pushback over its models being used in the January raid on Maduro. Its red lines were no autonomous weapons control and no domestic surveillance. Anthropic is still fighting the designation in court.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#anthropic-supply-chain-risk"
+      "summary": "Artificial Analysis found Neon used 15% more tokens per task than Carbon but ran 40% faster, though still at less than half the speed of OpenAI models. At $6.44 per task it isn't cheap, but it sits comfortably in the middle of the range.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#neon-speed-and-cost"
     },
     {
-      "id": "government-pulls-model",
-      "headline": "The end of labs shipping models whenever they choose",
+      "id": "neon-real-work-bug-hunt",
+      "headline": "Neon tops a real-repo bug hunt",
       "type": "insight",
+      "segment": "main",
+      "timestamp": "18:00",
+      "attribution": null,
+      "summary": "Beyond the usual Blender renders and one-shot games, such as a tower defense game built in 20 minutes on 2% of a five-hour limit, Neon held up on real work. On a bug hunt bench with 105 bugs planted in two real repos, Neon on extra high found 63, ahead of GPT-6.2 Astra and Fable 5.2.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#neon-real-work-bug-hunt"
+    },
+    {
+      "id": "different-not-better",
+      "headline": "Ignore the 'better than Fable' hype; the point is it's different",
+      "type": "take",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "Anthropic gave its powerful Mythos model a private period under Project Glasswing, letting partners use it to harden systems before public release. After the public version launched in June, Amazon warned the government about a jailbreak. A June 12 directive ordered access cut for foreign nationals, and because Anthropic couldn't build identity checks in time, it pulled the model for everyone for 18 days.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#government-pulls-model"
+      "summary": "Users say Claude and ChatGPT feel trained on the same data, giving roughly the same answer in different styles, while Gemini offers a genuinely novel way of thinking. NLW sees the same in his own tests. He won't call Neon better, but argues it doesn't have to be better for different to be useful, so run your hard problems past it as a second opinion.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#different-not-better"
     },
     {
-      "id": "midterms-data-center-referendum",
-      "headline": "The midterms became a referendum on data centers",
+      "id": "google-harness-gap",
+      "headline": "Google's harnesses still lag Anthropic and OpenAI",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "Backlash built all year over noise, tax breaks, electricity prices, water use and NDAs, and a May Gallup poll found more opposition to a local data center than to a nuclear plant. On November 3, 56% of voters told NBC that data centers were a major or crucial factor in their vote. The pro side lost 45 of 46 local measures, and Democrats flipped both chambers.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#midterms-data-center-referendum"
+      "summary": "Even Neon's fans say the Antigravity harness \"just isn't there yet.\" Google lacks an agent harness on par with its rivals', and Gemini tends to get too technical when explaining agentic coding work. Many testers are downloading Antigravity anyway to try Neon in its native environment.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#google-harness-gap"
     },
     {
-      "id": "data-centers-winnable",
-      "headline": "Not a ban hammer, but a demand for a voice",
+      "id": "oil-episode-breakthrough",
+      "headline": "How Neon broke NLW out of 'Wikipedia mode'",
       "type": "take",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "NLW expects stricter standards and processes rather than a shutdown, and still thinks data centers will get built. He calls it an extremely winnable issue for everyone. The bigger signal, he argues, is that people showed they won't let the future of AI be written without them.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#data-centers-winnable"
+      "summary": "Planning a How We Got Here episode on why oil still runs the world, NLW found that OpenAI and Anthropic models kept producing glorified Wikipedia pages: facts in sequence with no narrative hook. Neon reworked pieces of his argument in a way that jogged him toward the outline he finally liked. The value was the difference itself, not betterness.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#oil-episode-breakthrough"
     },
     {
-      "id": "private-to-public-era",
-      "headline": "The real significance: AI goes from private to public",
+      "id": "neon-pushover",
+      "headline": "Neon's big flaw: it's the biggest pushover in years",
       "type": "take",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "Anthropic priced on November 18 at $83, above its $70\u201378 range. People can now invest in AI's builders directly rather than through proxies like semiconductors, and being public forces more transparency. One bad quarter of AI demand could ripple through an economy this tied to AI, but NLW thinks being public is one of the best ways for outsiders to gain influence over these companies.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#private-to-public-era"
+      "summary": "It isn't exactly sycophantic, but push back slightly and Neon instantly caves and declares itself wrong. Push back on that and it flips right back. For brainstorming, that means you have to hope its first one-shot perspective is the useful one. Still, it's NLW's most positive Google experience since mid-to-late 2025.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#neon-pushover"
     },
     {
-      "id": "honorable-stable-diffusion",
-      "headline": "ChatGPT might not have gone as far without Stable Diffusion",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "23:00",
-      "attribution": null,
-      "summary": "The first honorable mention is August 22, 2022, when Stable Diffusion went live. AI-generated images flooding social media helped fuel the late-2022 AI moment alongside ChatGPT.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#honorable-stable-diffusion"
-    },
-    {
-      "id": "honorable-o1-preview",
-      "headline": "o1-preview answered the plateau question",
+      "id": "apple-personal-agent",
+      "headline": "Apple is building a computer-use agent",
       "type": "insight",
       "segment": "main",
       "timestamp": "24:00",
       "attribution": null,
-      "summary": "For much of 2024, the worry was that training methods had hit a wall, which had big implications for AI's disruption and business model. OpenAI's o1-preview on September 12, 2024 showed that reasoning models could squeeze much more out of existing approaches without a new pre-training breakthrough.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#honorable-o1-preview"
+      "summary": "After an underwhelming Siri reboot, new Apple job listings describe a proactive agent that browses the web, works across apps, runs commands, and writes and debugs code, \"with the polish people expect from Apple.\" Agents are flooding the App Store, Meta's Muse has overtaken ChatGPT in free app rankings, and the new CEO is reportedly pushing Federighi to move faster. Fruits could arrive next year.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#apple-personal-agent"
     },
     {
-      "id": "honorable-infrastructure",
-      "headline": "Two dates that sum up the AI trade and the build-out",
+      "id": "apple-locks-out-rival-agents",
+      "headline": "Apple is making Macs harder for rival agents to control",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "Nvidia's May 24, 2023 earnings call began a pattern of the company redefining quarterly performance that continues today. Project Stargate's White House announcement on January 21, 2025, with Altman, Ellison and Son, got the infrastructure story rolling, even though bigger deals have followed.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#honorable-infrastructure"
-    },
-    {
-      "id": "jensen-resignation-wildcard",
-      "headline": "Jensen Huang's resignation is the top contender to join this list",
-      "type": "take",
       "segment": "main",
       "timestamp": "25:00",
       "attribution": null,
-      "summary": "Huang resigned as Nvidia CEO on November 12, 2026. It could reshape AI financing given Nvidia's role as the industry's central bank, along with AI policy advocacy and US-China relations. It could also turn out to be a nothing burger, but NLW calls it the likeliest date to climb into the top 10 in a year or two.",
-      "link": "https://aidailybrief.ai/e/2026-11-19#jensen-resignation-wildcard"
+      "summary": "In macOS 27.3, enabling ChatGPT's third-party computer use now takes 14 distinct steps, up from four. Apple cites security, but some users see anti-competitive behavior. Owning the hardware may be too big a moat for Apple to give up easily.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#apple-locks-out-rival-agents"
+    },
+    {
+      "id": "sleeping-giants-wake",
+      "headline": "Google and Apple back in the mix is a net win",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "26:00",
+      "attribution": null,
+      "summary": "With Google back in the model race and Apple arguably entering the agent race for the first time, consumers get more real choices, even if Apple's lock-in complicates things. NLW's weekend homework: go play with the new Gemini models.",
+      "link": "https://aidailybrief.ai/e/2026-11-20#sleeping-giants-wake"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-19.mp3",
-  "generated": "2026-11-21T06:22:06Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-20.mp3",
+  "generated": "2026-11-23T06:22:11Z"
 }

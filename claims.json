@@ -2001,6 +2001,15 @@
    "resolution": "Vindicated if within twelve months Anthropic's shares trade below the 83 dollar offer price for a sustained period and the Nasdaq falls at least 30 per cent from its November 2026 level. Fails if neither happens.",
    "check_by": "2027-11-20",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-20",
+   "side": "NLW",
+   "claim": "That Gemini 4 Neon brings Google back into the model race, and will earn a lasting place in users' rotation because it reasons differently from Anthropic's and OpenAI's models, not because it is better.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-20",
+   "resolution": "Vindicated if within six months Google's share of enterprise model spend or tokens on Ramp, Databricks or a comparable index has risen clearly from its November 2026 level of about nine per cent. Fails if Google's share is flat or lower.",
+   "check_by": "2027-05-20",
+   "status": "open"
   }
  ]
 }

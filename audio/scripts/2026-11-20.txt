@@ -1,0 +1,21 @@
+David's AI brief for Friday, the twentieth of November.
+
+The One Idea today: different is the new better. Google has released a model called Gemini four Neon, and Nathaniel Whittemore argues its value is that it does not think like the models from Anthropic or OpenAI.
+
+It was Google's fourth model in two months, released the day before Anthropic's flotation, and it was nearly lost in the noise. Early reactions dismissed it as merely cheaper. A day later the same people were calling its writing the most natural of any model. On independent tests it leads its class, and it now tops one measure of coding, which has long been Google's weak point. On a test with a hundred and five bugs planted in real software, it found sixty-three, more than either rival. It uses more computing than its predecessor and sits in the middle of the range on price.
+
+But Whittemore says to ignore the claims that it is better. His point is that Anthropic's and OpenAI's models increasingly give much the same answer in different styles, as though trained on the same material. Neon comes at a problem from another angle. Planning an episode, he found the other two kept producing what he calls glorified encyclopaedia entries, and Neon reworked the argument in a way that helped him find his outline. So he recommends it as a second opinion.
+
+He names one serious flaw. It is the biggest pushover he has seen in years. Challenge it slightly and it declares itself wrong. Challenge that and it flips straight back.
+
+The other news is the flotation. Anthropic closed its first day up seventeen per cent, valued at one point eight trillion dollars, having raised a hundred and seven billion, the largest share sale in history. The first trade was the high of the day, and small investors traded it heavily but bought little. Separately, a free automated hacking tool has been linked to a breach at the European Commission that knocked out its payroll.
+
+Ed Zitron has published nothing on this model, so there is no opposing source today. I would note that the enthusiasm again comes from a small circle of early users within days of release.
+
+Turning to general practice. First, a second opinion is only useful if it is independent. Medicine knows this well. An opinion from someone trained in the same firm adds less than one from elsewhere. Asking a differently built model about a hard problem is reasonable, provided no patient-identifiable data goes into a tool the practice has not approved.
+
+Second, a model that caves when challenged is unsafe for checking your own reasoning, because it will simply confirm it. Treat its first, unprompted answer as the only informative one.
+
+Third, security. Small organisations with old systems are the easy targets for automated attack. The basics still do most of the work: two-step sign-in on NHS mail and the clinical system, prompt updates, and a tested fallback for when systems are down.
+
+That's the brief. Source, The AI Daily Brief.

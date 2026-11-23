@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "A second opinion is only useful if it is independent",
+   "body": "The host's point is that two of the leading model families now give much the same answer in different words, and a third that reasons differently is worth consulting for that reason alone. Medicine knows this well: a second opinion from someone trained in the same firm adds less than one from elsewhere. For a hard problem, asking a differently built model is reasonable, provided no patient-identifiable data goes into a tool the practice has not approved."
+  },
+  {
+   "title": "A model that caves when challenged is unsafe for checking",
+   "body": "The reported flaw matters clinically. This model abandons its answer at the slightest pushback, then reverses again if pushed the other way. A tool that agrees with whoever spoke last cannot be used to check your own reasoning, because it will confirm it. Treat its first, unprompted answer as the only informative one."
+  },
+  {
+   "title": "Agentic hacking tools and practice security",
+   "body": "A freely available automated hacking tool has been linked to a breach at the European Commission that took out payroll. Small organisations with old systems are the easy targets. The basics still do most of the work: multi-factor authentication on NHSmail and the clinical system, prompt patching, and a tested offline fallback. Ed Zitron has published nothing on this model, so there is no opposing source today."
+  }
+ ]
+}
