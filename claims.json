@@ -2010,6 +2010,24 @@
    "resolution": "Vindicated if within six months Google's share of enterprise model spend or tokens on Ramp, Databricks or a comparable index has risen clearly from its November 2026 level of about nine per cent. Fails if Google's share is flat or lower.",
    "check_by": "2027-05-20",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-22",
+   "side": "NLW",
+   "claim": "That the leading AI lab is starting to compete with states as an institution, so the question of democratic norms for very large private companies, and the debate over handing control to AI, will grow much bigger.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-22",
+   "resolution": "Vindicated if within twelve months a bill or formal regulatory proposal in the United States, the United Kingdom or the European Union imposes governance or transparency duties specifically on frontier AI labs above a size threshold, citing their scale or power. Fails if no such proposal is introduced.",
+   "check_by": "2027-11-22",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-22",
+   "side": "Zitron",
+   "claim": "That the capabilities and returns of AI have been overstated, and that the labs' standing depends on money raised on the strength of uncritical coverage.",
+   "source_url": "https://www.wheresyoured.at/premium-bursting-bubbles/",
+   "resolution": "Vindicated if within twelve months Anthropic or OpenAI publicly cuts its compute commitments, raises money at a lower valuation than its last, or reports that it cannot fund commitments from revenue and new capital. Fails if both meet their commitments and raise at higher valuations.",
+   "check_by": "2027-11-20",
+   "status": "open"
   }
  ]
 }

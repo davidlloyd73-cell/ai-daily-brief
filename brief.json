@@ -1,313 +1,281 @@
 {
-  "date": "2026-11-20",
-  "title": "Why You Should Try Gemini Neon (Even if You Love Fable)",
-  "dek": "The day after Anthropic's record IPO, the most interesting story is a Google model. Gemini 4 Neon is winning over skeptics, and the case for using it is less that it beats Fable or Astra and more that it doesn't think like them.",
-  "source": "https://aidailybrief.ai/e/2026-11-20",
+  "date": "2026-11-22",
+  "title": "When AI Labs Rival Nations",
+  "dek": "A Long Read Sunday tour through the week's biggest ideas: the Misanthropic Statement unites safetyists and accelerationists against Anthropic on the eve of its IPO, raising a bigger question about whether AI labs now rival states. Plus handoverism, why every startup is converging on AI transformation, and the bitter lesson coming for how we organize work.",
+  "source": "https://aidailybrief.ai/e/2026-11-22",
   "oneIdea": {
-    "headline": "Different is the new better: Gemini Neon's value is that it doesn't think like Claude or ChatGPT.",
-    "summary": "Google shipped its fourth model in two months on the eve of the Anthropic IPO, and for once people are actually using it. The benchmarks are strong: Neon leads its class and even tops the coding agent index. But the more important point is that it reasons differently. OpenAI and Anthropic models increasingly give you roughly the same answer in different styles. Neon gives you a genuinely different angle. It doesn't have to be better for that difference to be useful, so it belongs in your rotation even if you love Fable."
+    "headline": "The most powerful company is starting to compete with the most powerful institutions.",
+    "summary": "Across history, church, state, and private enterprise have constantly jostled for relative power. Social networks already strained that balance with unprecedented breadth, depth, and fortunes. AI takes it to a new level because it isn't just competing for our time. It's competing to change how we do everything. When even friendly observers say Anthropic is on track to be the most powerful company on Earth and needs sovereign-level transparency, the question shifts to whether private enterprise past a certain scale needs democratic norms. Running alongside that: whether humanity should ever hand control to AI, and how much of our own process we should hand to agents."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "A second opinion is only useful if it is independent",
-        "body": "The host's point is that two of the leading model families now give much the same answer in different words, and a third that reasons differently is worth consulting for that reason alone. Medicine knows this well: a second opinion from someone trained in the same firm adds less than one from elsewhere. For a hard problem, asking a differently built model is reasonable, provided no patient-identifiable data goes into a tool the practice has not approved."
+        "title": "Dependence on a supplier too large to challenge",
+        "body": "Some who agreed with the statement against Anthropic would not sign for fear of losing access to its models. The NHS knows this position: two clinical system suppliers hold most of general practice, and complaints are muted accordingly. NLW worries about a company too powerful to cross; Zitron would say the power is financial and may not last. Either way, the remedy for a buyer is the same: more than one supplier, and data we can move."
       },
       {
-        "title": "A model that caves when challenged is unsafe for checking",
-        "body": "The reported flaw matters clinically. This model abandons its answer at the slightest pushback, then reverses again if pushed the other way. A tool that agrees with whoever spoke last cannot be used to check your own reasoning, because it will confirm it. Treat its first, unprompted answer as the only informative one."
+        "title": "Handing over decisions",
+        "body": "The handover argument sounds abstract, but a small version is already in clinic. Each time a triage tool sets urgency, or a scribe drafts the plan, a decision has been part-delegated. The professional position is clear and worth restating: the tool may propose, the registered clinician decides and is accountable. Suppliers should say plainly which steps their product takes without a human."
       },
       {
-        "title": "Agentic hacking tools and practice security",
-        "body": "A freely available automated hacking tool has been linked to a breach at the European Commission that took out payroll. Small organisations with old systems are the easy targets. The basics still do most of the work: multi-factor authentication on NHSmail and the clinical system, prompt patching, and a tested offline fallback. Ed Zitron has published nothing on this model, so there is no opposing source today."
+        "title": "Agents and the practice rota",
+        "body": "The advice to stop designing agents around job titles is aimed at software firms and has little direct relevance yet. The useful part is unlearning: when automating a task such as recall letters or document filing, ask what outcome is needed, not how the last person did it. Audit the result, since nobody will have designed the steps."
       }
     ]
   },
-  "the_other_side": null,
-  "the_truth_beneath": null,
+  "the_other_side": {
+    "source": "Premium: Bursting Bubbles",
+    "url": "https://www.wheresyoured.at/premium-bursting-bubbles/",
+    "date": "2026-11-20",
+    "same_day": false,
+    "text": "Zitron, in a paid piece of which only the opening is free to read, would not accept that an AI lab rivals a state. His argument is that the capabilities and returns of AI have been overstated, and that the labs' standing was manufactured: had the press not flattered OpenAI and Anthropic early on, he says, they could not have raised the money. He treats talk that AI is \"going to literally destroy everything tomorrow\" as another form of promotion. The free section does not discuss the statement against Anthropic or the idea of handing control to AI."
+  },
+  "the_truth_beneath": {
+    "text": "The variable both men orbit is where the labs' power comes from: what the technology can do, or the capital and attention committed to it. Both accept as fact that Anthropic is now among the most valuable companies in the world, that critics from opposite camps signed a statement against it, and that money on this scale buys political weight. The empirical question is whether that power survives a funding downturn; the observable is whether Anthropic can meet its compute commitments from revenue, as its first public accounts will show. The residue is worldview: whether to fear a company for being too capable or to distrust it for claiming to be. For Whittemore to be vindicated, the lab's influence over law and markets must keep growing with its revenues. For Zitron, it must shrink once investors stop funding the losses. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both think the labs face too little outside scrutiny. Watch the first public accounts."
+  },
   "headlines": [
     {
-      "id": "anthropic-ipo-success",
-      "headline": "Anthropic goes public as the world's seventh largest company",
+      "id": "misanthropic-statement",
+      "headline": "The Misanthropic Statement lands on the eve of Anthropic's IPO",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "01:00",
+      "segment": "main",
+      "timestamp": "02:00",
       "attribution": null,
-      "summary": "The stock closed its first Nasdaq day at $97.17, up 17% from the $83 IPO price, for a $1.8 trillion market cap. That puts it just ahead of Saudi Aramco and just behind SpaceX. The $107 billion raise makes it the largest IPO in history, though it couldn't resurrect the broader AI trade.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#anthropic-ipo-success"
+      "summary": "Organized by the Center for AI Safety, the statement accuses Anthropic of racing to build recursively self-improving AI while using safety branding to court investors, employees, and the public. It also says the company has quietly weakened its safety pledges and lobbied for self-serving regulation. It arrives as the IPO and Nvidia's defanging push Anthropic's relative power to an all-time high.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#misanthropic-statement"
     },
     {
-      "id": "anthropic-what-if-things-went-well",
-      "headline": "Anthropic's messaging turns optimistic on IPO day",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "01:00",
-      "attribution": null,
-      "summary": "The company opened the day with a hype video asking a question its communications have tended to avoid: what if things went really well? It asked whether AI could \"cure the incurable\" and \"crack the code of Alzheimer's.\" It was a noticeable change in how Anthropic talks about the whole enterprise.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#anthropic-what-if-things-went-well"
-    },
-    {
-      "id": "amodei-will-not-bend",
-      "headline": "We will not bend to either business nor political pressure.",
+      "id": "not-a-safe-ai-company",
+      "headline": "Anthropic is not a safe AI company, and we must reject its reckless attempt to amass power in the name of the greater good.",
       "type": "quote",
-      "segment": "headlines",
-      "timestamp": "02:00",
-      "attribution": "Dario Amodei, Anthropic CEO, in his pre-bell Nasdaq speech",
-      "summary": "Before ringing the Nasdaq bell, Amodei pledged to pace training and deployment \"taking as long as is necessary\" to be confident systems are safe and under human control. He framed the company's success as a \"race to the top\" that works best \"driven from the front of the pack.\"",
-      "link": "https://aidailybrief.ai/e/2026-11-20#amodei-will-not-bend"
-    },
-    {
-      "id": "anthropic-price-action",
-      "headline": "The first trade was the high of the day",
-      "type": "insight",
-      "segment": "headlines",
-      "timestamp": "02:00",
-      "attribution": null,
-      "summary": "Anthropic opened slightly above $110, an implied $2 trillion valuation, then slid to an intraday low of $93 and chopped between $94 and $100. That's solid on a day the Nasdaq 100 fell more than 2%, but it wasn't the takeoff some hoped for. Bloomberg's Anna Wong suggested the IPO could mark the end of the AI trade.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#anthropic-price-action"
-    },
-    {
-      "id": "retail-flipping-not-buying",
-      "headline": "Retail traded Anthropic hard but barely bought it",
-      "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "03:00",
-      "attribution": null,
-      "summary": "Vanda Research counted $700-800 million in retail trading volume, more than SpaceX's $670 million, but less than $60 million in net buying, about half of SpaceX's debut. NLW is wary of drawing firm conclusions: SpaceX launched into a bullish AI market, while today's retail investor is reasonably trading the market's lack of clarity.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#retail-flipping-not-buying"
+      "attribution": "The Misanthropic Statement",
+      "summary": "The signers are open-letter regulars from the safety community, plus strange bedfellows like arch-accelerationist Beff Jezos. Steven Pinker is listed first.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#not-a-safe-ai-company"
     },
     {
-      "id": "vcs-buy-more-at-ipo",
-      "headline": "Anthropic's VCs bought more at the IPO",
+      "id": "different-motives-same-letter",
+      "headline": "Safetyists and accelerationists signed for opposite reasons",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "Sequoia, Iconic, Lightspeed, and Altimeter all added to their stakes on IPO day. It's highly unusual for venture firms to buy at an IPO rather than cash out, and it adds some confidence they won't dump shares when lockups end.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#vcs-buy-more-at-ipo"
+      "summary": "Safetyists worry that Anthropic's alleged safety theater undermines real safety legislation. Accelerationists appear to have signed on to the line about Anthropic amassing power, the same concern they've raised against its advocacy around Chinese open source.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#different-motives-same-letter"
     },
     {
-      "id": "anthropic-golden-share",
-      "headline": "Anthropic's golden share draws governance criticism",
-      "type": "insight",
-      "segment": "headlines",
+      "id": "wolf-most-powerful-company",
+      "headline": "Anthropic is currently on track to be the most powerful company on Earth.",
+      "type": "quote",
+      "segment": "main",
       "timestamp": "04:00",
-      "attribution": null,
-      "summary": "Co-founders control shareholder votes through a golden share that votes 51% via a governance council. The Long-Term Benefit Trust's board can remove them, but critics doubt that check is realistic. University of Colorado law professor Ann Lipton questions how likely the trust is to ever use it.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#anthropic-golden-share"
+      "attribution": "Thomas Wolf, co-founder of Hugging Face, explaining his signature",
+      "summary": "Wolf said he has friends at Anthropic and wouldn't have used the word 'reckless.' He signed anyway because that level of impact demands transparency and openness close to, or even higher than, that of a sovereign government, and he doesn't think Anthropic is on track to deliver it.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#wolf-most-powerful-company"
     },
     {
-      "id": "short-it-dont-scream",
-      "headline": "AI skeptics can now just short the stock",
+      "id": "afraid-to-sign",
+      "headline": "Some who agreed were afraid to sign",
+      "type": "insight",
+      "segment": "main",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "Wolf says entrepreneurs, executives, and researchers shared the concerns but feared consequences for their careers or their access to models. Whether or not the fear is justified, he calls it a worrying early signal of concentrated power in itself.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#afraid-to-sign"
+    },
+    {
+      "id": "institutional-balance-of-powers",
+      "headline": "The real tension is an institutional balance of powers",
       "type": "take",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "However the criticism plays out, Anthropic has secured at least a year of runway for compute and next-generation training. For the first time, anyone who thinks the business model doesn't work can short it instead of \"screaming into the digital void.\" Believers in the \"age of miracles\" can now buy a stake in it.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#short-it-dont-scream"
+      "summary": "NLW argues that a central tension of this moment is the ebb and flow of power among societal institutions. From the Renaissance onward, church, state, and private enterprise have constantly traded relative position.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#institutional-balance-of-powers"
     },
     {
-      "id": "amd-china-short-report",
-      "headline": "A short seller says AMD has its own China problem",
+      "id": "medici-pope",
+      "headline": "Even the Medici had to go through the church",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "05:00",
-      "attribution": null,
-      "summary": "AMD fell 7% after Hunterbrook claimed a blacklisted Chinese server maker kept receiving new AMD firmware and that up to 20% of AMD revenue comes from China and Hong Kong. AMD denied it. Counterpoints note that firmware presence doesn't prove dealings and that most of that revenue is likely consumer and gaming chips. It's far from a smoking gun, but every chipmaker is now under China scrutiny.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#amd-china-short-report"
-    },
-    {
-      "id": "remote-access-loophole-closed",
-      "headline": "Commerce closes the remote-access loophole for Chinese labs",
-      "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "06:00",
       "attribution": null,
-      "summary": "The new rule blocks Chinese AI labs from legally renting chips in data centers in third-party countries. Moonshot canceled a $150 million deal for a \"sizable cluster\" of Blackwell Ultra B300s in Indonesia. TSMC and Samsung have suspended some deliveries to Chinese customers.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#remote-access-loophole-closed"
+      "summary": "Early transnational business actors like the Medici still worked through state and religious power to rise. We remember Cosimo and Lorenzo, but the family likely saw its true apotheosis generations later, when a Medici became pope. Later, the East India Company blurred the line between private and state power.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#medici-pope"
     },
     {
-      "id": "tencent-sets-everyone-back",
-      "headline": "It sets everyone back in China.",
-      "type": "quote",
-      "segment": "headlines",
-      "timestamp": "07:00",
-      "attribution": "Tencent President Martin Lau, on the new US export rule",
-      "summary": "Tencent's president warned the rule could delay model releases and force a shift to domestic chips. Alibaba's CEO Eddie Wu said it would affect next year's products, and Alibaba's push into in-house training chips sounds like a compromise, not a choice. For export-control hawks, NLW notes, all this alarm is a good sign.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#tencent-sets-everyone-back"
-    },
-    {
-      "id": "china-revenue-squeeze",
-      "headline": "Export controls hit as Chinese tech revenue is already squeezed",
+      "id": "social-networks-breadth-depth",
+      "headline": "Social networks broke the old breadth and depth limits",
       "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "07:00",
       "attribution": null,
-      "summary": "Tencent grew revenue 8% and missed expectations, and Bloomberg analysts don't expect a return on its AI spending for at least 24 months in China's commoditized AI market. Alibaba beat with 53% cloud growth but forecasts a slowdown to 30-45% next year because of export controls.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#china-revenue-squeeze"
+      "summary": "Facebook famously surged past every major organized religion in membership. Unlike food companies competing for a few meal slots, social media competes for every waking hour. As Reed Hastings put it, Netflix's main competitor on the margin is sleep.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#social-networks-breadth-depth"
     },
     {
-      "id": "white-house-cyber-director-out",
-      "headline": "The White House cyber director is out and the Pentagon's CIO is in",
+      "id": "founders-as-transnational-actors",
+      "headline": "Tech fortunes created a new class of actor",
       "type": "insight",
-      "segment": "headlines",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "Sean Cairncross, part of the trio steering AI policy and a shaper of the June executive order creating voluntary frontier-model testing, has left. Officials say Chief of Staff Stephen Miller fired him for lacking cyber credentials. His exit could signal that Secretary Bessent's hawkish faction has won the internal fight over AI policy.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#white-house-cyber-director-out"
-    },
-    {
-      "id": "agentic-hacking-tool-artex",
-      "headline": "An open-source agentic hacking tool is behind real breaches",
-      "type": "insight",
-      "segment": "headlines",
+      "segment": "main",
       "timestamp": "09:00",
       "attribution": null,
-      "summary": "The European Commission disclosed a hack that compromised staff data and knocked out payroll. Officials say attackers used Artex, an open-source agentic hacking tool the FBI warned has targeted critical systems since August. JPMorgan Chase also disclosed a third-party vendor breach that it says is unrelated to Monday's banking outage.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#agentic-hacking-tool-artex"
+      "summary": "The combined breadth and depth of tech companies produced fortunes beyond any historical comparison. That made a new category of actor: leaders who operate almost as transnational entities on their own, with governments still jostling over whether and how to rebalance.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#founders-as-transnational-actors"
     },
     {
-      "id": "neon-overshadowed-launch",
-      "headline": "Google's fourth model in two months nearly got lost in the noise",
+      "id": "ai-new-level",
+      "headline": "AI isn't competing for our time. It's competing to change how we do everything",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "09:00",
+      "attribution": null,
+      "summary": "Social networks wanted our attention. AI's implication is changing how individuals and organizations do everything. NLW argues that the speed and scale of that growth create a new societal challenge about institutional power, separate from any specific questions of AI risk.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#ai-new-level"
+    },
+    {
+      "id": "company-to-institution",
+      "headline": "The most powerful company is now competing to be the most powerful institution",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "10:00",
+      "attribution": null,
+      "summary": "Anthropic doesn't have tanks and planes, so it's a bit over the top, but NLW says it's a lot less crazy than it sounds. The question he's tracking: do we need democratic norms for private enterprise once it reaches a certain scale?",
+      "link": "https://aidailybrief.ai/e/2026-11-22#company-to-institution"
+    },
+    {
+      "id": "handoverism-strange-alliances",
+      "headline": "Handoverism will make strange alliances too",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "13:00",
+      "attribution": null,
+      "summary": "One of Max Tegmark's five reasons for signing was that Anthropic leans hardest into building conscious beings with rights rather than controllable tools. NLW sets that characterization aside but says this is where he aligns most with safety advocates, despite very different views on other risks.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#handoverism-strange-alliances"
+    },
+    {
+      "id": "handoverism-defined",
+      "headline": "Handoverism: humanity survives but hands its future to AI",
       "type": "insight",
       "segment": "main",
       "timestamp": "14:00",
       "attribution": null,
-      "summary": "Gemini 4 Neon dropped the day before the Anthropic IPO, following Argon, Carbon, and Hydrogen, and was almost completely overshadowed. The initial skepticism was reasonable: Google ships constantly, nothing seems to happen, and model fatigue means even a breakthrough could take a month to notice.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#neon-overshadowed-launch"
+      "summary": "A widely shared essay this week defined handoverism as humanity entrusting the direction of its future entirely to AI. It cited Scott Alexander: if a godlike AI were verified as aligned, why not prompt it to 'please arrange the world as you see fit?'",
+      "link": "https://aidailybrief.ai/e/2026-11-22#handoverism-defined"
     },
     {
-      "id": "skeptics-converted",
-      "headline": "Neon's skeptics are converting one by one",
+      "id": "anthropic-founders-on-handoff",
+      "headline": "The handoff language comes from Anthropic's own founders",
       "type": "insight",
       "segment": "main",
       "timestamp": "15:00",
       "attribution": null,
-      "summary": "Early reactions dismissed Neon as merely 25% cheaper. A day later the same people were calling it \"insane,\" the most human-sounding, least sloppy writing model available, and proof Google went \"from unusable to frontier intelligence with delightful personality.\" One theory: Google rushed it out because it was the first model its own team genuinely liked using.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#skeptics-converted"
+      "summary": "Bill Gurley amplified the debate by citing co-founder Tom Brown: 'There is going to be a handoff where humanity will hand off control to transformative AI.' He also cited Dario Amodei's 'Machines of Loving Grace,' which imagines an AI-run economy distributing resources to humans. Gurley's question: are you prepared to receive your resources based on criteria an AI determines?",
+      "link": "https://aidailybrief.ai/e/2026-11-22#anthropic-founders-on-handoff"
     },
     {
-      "id": "neon-is-a-small-model",
-      "headline": "Neon is a smaller model punching at Fable and Astra",
-      "type": "insight",
+      "id": "gurley-s1-risk-factor",
+      "headline": "If that belief informs Anthropic's corporate objectives, it belongs in the risk factor sections of its S-1. It isn't there today.",
+      "type": "quote",
+      "segment": "main",
+      "timestamp": "16:00",
+      "attribution": "Bill Gurley, investor",
+      "summary": "Gurley, who calls himself decidedly anti-handoverism, also argues that anyone drafting, advocating for, or enacting AI regulation should have to disclose where they stand on the question.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#gurley-s1-risk-factor"
+    },
+    {
+      "id": "openai-incentive-handoverism",
+      "headline": "Expect the handoverism debate to get much bigger",
+      "type": "take",
       "segment": "main",
       "timestamp": "16:00",
       "attribution": null,
-      "summary": "Google pitches Neon for software engineering, knowledge work, and science workflows, the closest thing to a dedicated coding and agentic model. A DeepMind researcher posted, then deleted, that Neon is \"one of our small models\" positioned alongside Opus and Sol even though it's approaching Fable and Astra.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#neon-is-a-small-model"
+      "summary": "OpenAI is clearly carving out the opposite position, that humans should stay in control. NLW argues that gives it every incentive to keep this conversation on the agenda.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#openai-incentive-handoverism"
     },
     {
-      "id": "neon-benchmarks",
-      "headline": "Neon beats Opus 5.5 and GPT-6.2 Sol almost everywhere",
+      "id": "only-one-company-to-build",
+      "headline": "Every AI startup is converging on AI transformation",
       "type": "insight",
       "segment": "main",
       "timestamp": "17:00",
       "attribution": null,
-      "summary": "Neon leads its class in every category except coding, where it's roughly a draw with Opus: about a point behind on Terminal Bench and Frontier Code, but seven points ahead on CursorBench. On agentic tests it's 14 points ahead of Opus on Automation Bench and nearly three ahead of Sol on Agent's Last Exam.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#neon-benchmarks"
+      "summary": "An investor essay, 'There Is Only One Company to Build,' argues that data, post-training, and inference companies are all climbing the value chain toward selling enterprise AI transformation. Even Cognition leans on its deployment motion. Everything below that layer (data, models, inference) is commoditizing; delivering a business outcome isn't.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#only-one-company-to-build"
     },
     {
-      "id": "neon-coding-agent-index",
-      "headline": "Google now leads coding, its historic Achilles heel",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "17:00",
-      "attribution": null,
-      "summary": "Artificial Analysis scored Neon 61 on its intelligence index, one point behind GPT-6.2 Astra and four behind Fable 5.2. On the coding agent index, Neon is the new leader, a point ahead of Fable 5.2 and Opus 5.5, six ahead of Astra, and nine ahead of Sol.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#neon-coding-agent-index"
-    },
-    {
-      "id": "neon-speed-and-cost",
-      "headline": "Neon is token-hungry but lands mid-range on cost",
+      "id": "data-business-as-on-ramp",
+      "headline": "The training-data business is an on-ramp to the enterprise",
       "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "Artificial Analysis found Neon used 15% more tokens per task than Carbon but ran 40% faster, though still at less than half the speed of OpenAI models. At $6.44 per task it isn't cheap, but it sits comfortably in the middle of the range.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#neon-speed-and-cost"
+      "summary": "The playbook: run a data business for the labs, as Mercor, Scale, and Handshake have, to generate cash and gain proximity and credibility. Then pivot to enterprise AI. 'We do a lot of business with the labs' is a good way to earn credibility with, say, Bank of America.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#data-business-as-on-ramp"
     },
     {
-      "id": "neon-real-work-bug-hunt",
-      "headline": "Neon tops a real-repo bug hunt",
+      "id": "spiritual-salvation",
+      "headline": "Enterprises don't want software. They want salvation through AI",
       "type": "insight",
       "segment": "main",
-      "timestamp": "18:00",
+      "timestamp": "19:00",
       "attribution": null,
-      "summary": "Beyond the usual Blender renders and one-shot games, such as a tower defense game built in 20 minutes on 2% of a five-hour limit, Neon held up on real work. On a bug hunt bench with 105 bugs planted in two real repos, Neon on extra high found 63, ahead of GPT-6.2 Astra and Fable 5.2.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#neon-real-work-bug-hunt"
+      "summary": "The essay's punchline: nobody wants to buy software, because buying software sucks. Companies want to buy a change in their business, and you can charge more for selling the change. There are really only two companies to build: you build intelligence or you diffuse it.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#spiritual-salvation"
     },
     {
-      "id": "different-not-better",
-      "headline": "Ignore the 'better than Fable' hype; the point is it's different",
+      "id": "transitional-or-permanent",
+      "headline": "Is 'diffusion software' a phase or the new normal?",
       "type": "take",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "Users say Claude and ChatGPT feel trained on the same data, giving roughly the same answer in different styles, while Gemini offers a genuinely novel way of thinking. NLW sees the same in his own tests. He won't call Neon better, but argues it doesn't have to be better for different to be useful, so run your hard problems past it as a second opinion.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#different-not-better"
+      "summary": "NLW flags the usual exaggeration in 'there is only one thing' framings, but says converging features across software companies give the idea merit. His open question: is this true only for the next five to ten years while intelligence diffuses, or for software from here on out?",
+      "link": "https://aidailybrief.ai/e/2026-11-22#transitional-or-permanent"
     },
     {
-      "id": "google-harness-gap",
-      "headline": "Google's harnesses still lag Anthropic and OpenAI",
+      "id": "bitter-lesson-software-engineering",
+      "headline": "The bitter lesson is coming for software engineering",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "Even Neon's fans say the Antigravity harness \"just isn't there yet.\" Google lacks an agent harness on par with its rivals', and Gemini tends to get too technical when explaining agentic coding work. Many testers are downloading Antigravity anyway to try Neon in its native environment.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#google-harness-gap"
+      "summary": "Legora's CTO argues that prescribing interfaces, abstractions, and architecture to coding agents is a temporary division of labor. Our belief in superior human judgment on systems design is about to get Rich Sutton's bitter lesson: general systems left to find their own methods beat ones packed with human constraints.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#bitter-lesson-software-engineering"
     },
     {
-      "id": "oil-episode-breakthrough",
-      "headline": "How Neon broke NLW out of 'Wikipedia mode'",
+      "id": "agent-teammate-limits",
+      "headline": "Stop building agents to mirror the org chart",
       "type": "take",
       "segment": "main",
       "timestamp": "21:00",
       "attribution": null,
-      "summary": "Planning a How We Got Here episode on why oil still runs the world, NLW found that OpenAI and Anthropic models kept producing glorified Wikipedia pages: facts in sequence with no narrative hook. Neon reworked pieces of his argument in a way that jogged him toward the outline he finally liked. The value was the difference itself, not betterness.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#oil-episode-breakthrough"
+      "summary": "The agent-as-teammate model gives each agent standing responsibilities, memory, and a role mapped to a human job. In practice, NLW says, power users set objectives and guardrails and let a coordinator agent spin up whatever sub-agents it needs. He calls it the bitter lesson for digital organizational management.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#agent-teammate-limits"
     },
     {
-      "id": "neon-pushover",
-      "headline": "Neon's big flaw: it's the biggest pushover in years",
+      "id": "no-process-baggage",
+      "headline": "No process baggage can be an advantage",
       "type": "take",
       "segment": "main",
-      "timestamp": "22:00",
+      "timestamp": "23:00",
       "attribution": null,
-      "summary": "It isn't exactly sycophantic, but push back slightly and Neon instantly caves and declares itself wrong. Push back on that and it flips right back. For brainstorming, that means you have to hope its first one-shot perspective is the useful one. Still, it's NLW's most positive Google experience since mid-to-late 2025.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#neon-pushover"
+      "summary": "NLW built How We Got Here's video pipeline in Claude Code without being a video editor. With no existing workflow to adapt to, the models designed their own approach. He admits the output is under-maximized, but he went from zero to animated videos in the show's first week.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#no-process-baggage"
     },
     {
-      "id": "apple-personal-agent",
-      "headline": "Apple is building a computer-use agent",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "24:00",
-      "attribution": null,
-      "summary": "After an underwhelming Siri reboot, new Apple job listings describe a proactive agent that browses the web, works across apps, runs commands, and writes and debugs code, \"with the polish people expect from Apple.\" Agents are flooding the App Store, Meta's Muse has overtaken ChatGPT in free app rankings, and the new CEO is reportedly pushing Federighi to move faster. Fruits could arrive next year.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#apple-personal-agent"
-    },
-    {
-      "id": "apple-locks-out-rival-agents",
-      "headline": "Apple is making Macs harder for rival agents to control",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "25:00",
-      "attribution": null,
-      "summary": "In macOS 27.3, enabling ChatGPT's third-party computer use now takes 14 distinct steps, up from four. Apple cites security, but some users see anti-competitive behavior. Owning the hardware may be too big a moat for Apple to give up easily.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#apple-locks-out-rival-agents"
-    },
-    {
-      "id": "sleeping-giants-wake",
-      "headline": "Google and Apple back in the mix is a net win",
+      "id": "unlearning-task",
+      "headline": "Our job now is unlearning",
       "type": "take",
       "segment": "main",
-      "timestamp": "26:00",
+      "timestamp": "23:00",
       "attribution": null,
-      "summary": "With Google back in the model race and Apple arguably entering the agent race for the first time, consumers get more real choices, even if Apple's lock-in complicates things. NLW's weekend homework: go play with the new Gemini models.",
-      "link": "https://aidailybrief.ai/e/2026-11-20#sleeping-giants-wake"
+      "summary": "Experts who unlearn their old methods and give agents the leash to build agent-native processes have a real edge. NLW's broader point is that everyone has a non-trivial task: dropping assumptions about the right way to organize agents' work instead of forcing it to mirror our own.",
+      "link": "https://aidailybrief.ai/e/2026-11-22#unlearning-task"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-20.mp3",
-  "generated": "2026-11-23T06:22:11Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-22.mp3",
+  "generated": "2026-11-24T06:21:55Z"
 }

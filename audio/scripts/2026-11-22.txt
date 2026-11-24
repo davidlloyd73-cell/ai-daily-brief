@@ -1,0 +1,21 @@
+David's AI brief for Sunday, the twenty-second of November.
+
+The One Idea today: the most powerful company is starting to compete with the most powerful institutions. This was a weekend edition of longer reads, and Nathaniel Whittemore began with an open letter published on the eve of Anthropic's flotation.
+
+The letter accuses Anthropic of racing to build AI that improves itself while using a reputation for safety to win investors and staff, and of quietly weakening its own pledges. What struck him was who signed. Safety campaigners signed because they think the company's caution is for show. Advocates of faster progress signed because they fear its power. One signatory, a founder of a rival firm, said Anthropic is on track to be the most powerful company on Earth and owes the public the transparency of a government. He added that some who agreed were afraid to sign, in case they lost access to its models.
+
+Whittemore sets this in a long history. Church, state and private enterprise have always jostled for position. The Medici still had to work through the church. Social networks then gained more members than any religion and competed for every waking hour. AI, he argues, goes further, because it competes to change how everything is done. So his question is whether a private company past a certain size needs something like democratic norms.
+
+He links this to a second argument, about whether humanity should ever hand its direction over to AI. Anthropic's own founders have spoken of such a handover, and one investor says that belief should be declared as a risk to shareholders. Finally, he suggests people should stop designing software agents around human job titles, and let them organise the work themselves.
+
+Now, the other side. Ed Zitron's most recent piece, published two days earlier and only partly free to read, does not address the letter. But his argument cuts the other way. He says AI's capabilities and returns have been overstated, and that the labs' standing was manufactured by flattering coverage that let them raise the money. He treats talk of AI destroying everything as another form of promotion.
+
+So both men circle one question: does the labs' power come from what the technology can do, or from the capital behind it? They agree there is too little outside scrutiny. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is Anthropic's first public accounts.
+
+Turning to general practice. First, dependence on a supplier too large to challenge is familiar. Two companies hold most of general practice's clinical systems, and complaints are muted accordingly. The remedy for a buyer is more than one supplier, and data we can move.
+
+Second, handing over decisions. A small version is already in clinic. When a triage tool sets urgency, or a scribe drafts the plan, a decision has been partly delegated. The tool may propose. The registered clinician decides and is accountable.
+
+Third, when automating a task such as recall letters, ask what outcome is needed, not how the last person did it. Then audit the result, because nobody will have designed the steps.
+
+That's the brief. Source, The AI Daily Brief.

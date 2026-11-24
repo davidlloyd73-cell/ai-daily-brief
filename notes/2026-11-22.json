@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "Dependence on a supplier too large to challenge",
+   "body": "Some who agreed with the statement against Anthropic would not sign for fear of losing access to its models. The NHS knows this position: two clinical system suppliers hold most of general practice, and complaints are muted accordingly. NLW worries about a company too powerful to cross; Zitron would say the power is financial and may not last. Either way, the remedy for a buyer is the same: more than one supplier, and data we can move."
+  },
+  {
+   "title": "Handing over decisions",
+   "body": "The handover argument sounds abstract, but a small version is already in clinic. Each time a triage tool sets urgency, or a scribe drafts the plan, a decision has been part-delegated. The professional position is clear and worth restating: the tool may propose, the registered clinician decides and is accountable. Suppliers should say plainly which steps their product takes without a human."
+  },
+  {
+   "title": "Agents and the practice rota",
+   "body": "The advice to stop designing agents around job titles is aimed at software firms and has little direct relevance yet. The useful part is unlearning: when automating a task such as recall letters or document filing, ask what outcome is needed, not how the last person did it. Audit the result, since nobody will have designed the steps."
+  }
+ ]
+}
