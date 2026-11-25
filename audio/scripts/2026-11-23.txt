@@ -1,0 +1,19 @@
+David's AI brief for Monday, the twenty-third of November.
+
+The One Idea today: Nvidia is too big to fire, and the White House has made that official. Eleven days after he resigned, Jensen Huang is back as chief executive. Nvidia's board said it had received input from senior levels of the American government and was confident his return poses no national security risk. The President called him a great patriot and a national treasure.
+
+Nathaniel Whittemore walks through how it happened. Huang left over three things: an affair with a woman suspected of links to Chinese intelligence, a second affair with a colleague, and questions about chips reaching China. Then the tide turned. More than ten thousand staff and a hundred thousand shareholders signed a letter demanding him back. Huang said he would be honoured to return. The Treasury Secretary, who had been a critic, went on television and blamed people further down the company. And the markets did the rest. Nvidia's shares rose about thirty-five per cent, adding roughly a trillion dollars, and trading in one index was briefly halted because prices were rising too fast.
+
+Whittemore offers two readings. The generous one is that the accusations did not stand up, so reversing the decision was fair. The other is a new kind of too big to fail. Nvidia finances much of the AI industry, and Washington will step in to protect the system around it. He notes that the harm to staff was lost in the geopolitics, and that if this President can choose a chief executive, so can the next. He expects Democrats to make it a major fight next year.
+
+Now, the other side. Ed Zitron published a furious piece the next day. He says the reinstatement shows weakness. In his account the President pressed the board to steady the stock market, and an industry that needs that is brittle. He argues nothing underneath has changed, that Nvidia's customers still struggle to pay, and that this only prolongs the inevitable. He also condemns those celebrating for excusing the conduct towards staff.
+
+So both men circle one question: has the state made Nvidia safe, or shown how fragile it is? They agree the workplace conduct was brushed aside. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is Nvidia's next financial guidance.
+
+Turning to general practice. First, both commentators describe a leader restored because the organisation could not be seen to manage without him. The NHS has its own history of that, and Freedom to Speak Up exists because performance was allowed to outweigh behaviour. Nobody should be too valuable to be subject to the rules.
+
+Second, he was reinstated before the board's investigation had reported. In clinical governance we would call that prejudging the outcome. An investigation only has value if its result could have gone either way.
+
+Third, the practical point. The risk that Nvidia would stop supporting smaller AI firms has receded, so suppliers of NHS tools look steadier than they did a fortnight ago. Zitron would say that is only a postponement. The earlier advice stands: know where a tool is hosted, and keep contracts short enough to leave.
+
+That's the brief. Source, The AI Daily Brief.

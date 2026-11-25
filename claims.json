@@ -2028,6 +2028,24 @@
    "resolution": "Vindicated if within twelve months Anthropic or OpenAI publicly cuts its compute commitments, raises money at a lower valuation than its last, or reports that it cannot fund commitments from revenue and new capital. Fails if both meet their commitments and raise at higher valuations.",
    "check_by": "2027-11-20",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-23",
+   "side": "NLW",
+   "claim": "That Jensen Huang's reinstatement makes Nvidia officially too big to fire, that the balance between state and private power is realigning, and that the political fight is only beginning, with Democrats making it a central issue in 2027.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-23",
+   "resolution": "Vindicated if by the end of June 2027 at least one congressional committee has held public hearings on Huang's reinstatement or the government's role in it, with Nvidia directors or administration officials called to testify. Fails if no such hearing is held.",
+   "check_by": "2027-06-30",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-23",
+   "side": "Zitron",
+   "claim": "That Huang's return changes nothing underneath and only prolongs the inevitable: the money is running out, Nvidia's customers are struggling to pay, and the rally will not hold.",
+   "source_url": "https://www.wheresyoured.at/defective-accelerationism/",
+   "resolution": "Vindicated if within twelve months Nvidia's shares fall back below their level on the day before the reinstatement and Nvidia cuts or misses revenue guidance. Fails if the shares hold above that level and guidance is met.",
+   "check_by": "2027-11-24",
+   "status": "open"
   }
  ]
 }

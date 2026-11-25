@@ -1,118 +1,107 @@
 ---
-title: David's AI Daily Brief — 2026-11-22
-date: 2026-11-22
-source: https://aidailybrief.ai/e/2026-11-22
+title: David's AI Daily Brief — 2026-11-23
+date: 2026-11-23
+source: https://aidailybrief.ai/e/2026-11-23
 note: Personal, non-commercial distillation of The AI Daily Brief podcast. GP's Corner is AI commentary, not from the podcast.
 ---
 
 # David's AI Daily Brief
 
-**Sunday 22 November 2026 · 25 min listen**
+**Monday 23 November 2026 · 25 min listen**
 
-## When AI Labs Rival Nations
+## Too Big to Fire: Jensen Huang Is Back as Nvidia CEO
 
-_A Long Read Sunday tour through the week's biggest ideas: the Misanthropic Statement unites safetyists and accelerationists against Anthropic on the eve of its IPO, raising a bigger question about whether AI labs now rival states. Plus handoverism, why every startup is converging on AI transformation, and the bitter lesson coming for how we organize work._
+_Eleven days after resigning amid an affair, a suspected Chinese spy, and export-control questions, Jensen Huang is back as Nvidia CEO. The board says senior levels of the US government assured it he poses no national security risk. Markets added trillions, and the scandal has turned into the sharpest test yet of where private power ends and state power begins._
 
-Source: https://aidailybrief.ai/e/2026-11-22
+Source: https://aidailybrief.ai/e/2026-11-23
 
-Audio: https://davids-ai-brief.netlify.app/audio/2026-11-22.mp3
+Audio: https://davids-ai-brief.netlify.app/audio/2026-11-23.mp3
 
 ## The One Idea
 
-### The most powerful company is starting to compete with the most powerful institutions.
+### Nvidia is too big to fire, and the White House just made that official.
 
-Across history, church, state, and private enterprise have constantly jostled for relative power. Social networks already strained that balance with unprecedented breadth, depth, and fortunes. AI takes it to a new level because it isn't just competing for our time. It's competing to change how we do everything. When even friendly observers say Anthropic is on track to be the most powerful company on Earth and needs sovereign-level transparency, the question shifts to whether private enterprise past a certain scale needs democratic norms. Running alongside that: whether humanity should ever hand control to AI, and how much of our own process we should hand to agents.
+Jensen Huang was pushed out over affairs, a suspected Chinese intelligence asset, and questions about GPUs reaching China. He came back 11 days later after the board received 'input from senior levels of the US government.' The non-cynical read is that the accusations didn't hold up. The other read is a new flavor of too big to fail. Nvidia, as the unofficial central bank of AI and a pillar of America's AI strategy, has become systemically important enough that Washington will intervene to protect the system around it. Either way, the balance between state and private power is realigning, and the political fight is just starting.
 
 ## The Other Side
 
-Zitron, in a paid piece of which only the opening is free to read, would not accept that an AI lab rivals a state. His argument is that the capabilities and returns of AI have been overstated, and that the labs' standing was manufactured: had the press not flattered OpenAI and Anthropic early on, he says, they could not have raised the money. He treats talk that AI is "going to literally destroy everything tomorrow" as another form of promotion. The free section does not discuss the statement against Anthropic or the idea of handing control to AI.
+Zitron, writing a day later and in very strong language, says the reinstatement shows weakness, not strength. He argues the President pressed Nvidia's board in order to steady the stock market, citing a Wall Street Journal interview, and that an industry needing that is brittle. In his view nothing underneath has changed: Nvidia's balance sheet is stretched, he says customers struggle to pay for chips, and closing the remote-access loophole cuts demand. He writes that Huang's return "only prolongs the inevitable", and he condemns those celebrating it for excusing alleged export breaches and misconduct towards staff.
 
-Source: Ed Zitron, "Premium: Bursting Bubbles", 20 November 2026 — https://www.wheresyoured.at/premium-bursting-bubbles/
+Source: Ed Zitron, "Defective Accelerationism", 24 November 2026 — https://www.wheresyoured.at/defective-accelerationism/
 
 ## The Truth Beneath
 
-The variable both men orbit is where the labs' power comes from: what the technology can do, or the capital and attention committed to it. Both accept as fact that Anthropic is now among the most valuable companies in the world, that critics from opposite camps signed a statement against it, and that money on this scale buys political weight. The empirical question is whether that power survives a funding downturn; the observable is whether Anthropic can meet its compute commitments from revenue, as its first public accounts will show. The residue is worldview: whether to fear a company for being too capable or to distrust it for claiming to be. For Whittemore to be vindicated, the lab's influence over law and markets must keep growing with its revenues. For Zitron, it must shrink once investors stop funding the losses. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both think the labs face too little outside scrutiny. Watch the first public accounts.
+The variable both men orbit is whether the state has made Nvidia safe or merely shown how fragile it is. Both accept as fact that Huang returned after eleven days, that the board cited input from senior levels of government, that markets leapt, and that Nvidia finances much of the industry. The empirical question is whether confidence restored by decree lasts; the observable is whether Nvidia keeps extending guarantees and meeting its raised guidance over the next two quarters, and what the congressional hearings and the board's inquiry find. The residue is worldview: whether protecting a systemically important company is prudence or cronyism. For Whittemore to be vindicated, the lasting story must be political, a contest between state and private power, with the business intact. For Zitron, the rally must fade as funding tightens and the underlying sums fail. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both say the workplace conduct was brushed aside. Watch Nvidia's next guidance.
 
 ## GP's Corner
 
 _Claude's notes on what today means for UK general practice and the NHS - commentary, not from the podcast itself._
 
-### Dependence on a supplier too large to challenge
+### Too important to hold to account
 
-Some who agreed with the statement against Anthropic would not sign for fear of losing access to its models. The NHS knows this position: two clinical system suppliers hold most of general practice, and complaints are muted accordingly. NLW worries about a company too powerful to cross; Zitron would say the power is financial and may not last. Either way, the remedy for a buyer is the same: more than one supplier, and data we can move.
+Both commentators make the same uncomfortable observation: a leader was restored because the organisation could not be seen to manage without him, and the conduct towards staff was set aside. The NHS has its own history of this, from surgeons to chief executives. Freedom to Speak Up exists because performance was allowed to outweigh behaviour. The lesson is not about chips. Nobody should be too valuable to be subject to the rules.
 
-### Handing over decisions
+### Reinstated before the investigation reported
 
-The handover argument sounds abstract, but a small version is already in clinic. Each time a triage tool sets urgency, or a scribe drafts the plan, a decision has been part-delegated. The professional position is clear and worth restating: the tool may propose, the registered clinician decides and is accountable. Suppliers should say plainly which steps their product takes without a human.
+The board's inquiry is unfinished, and he is back in post. In clinical governance we would call that prejudging the outcome. NLW notes the non-cynical reading, that the accusations may not stand; Zitron assumes they do. Neither knows. An investigation only has value if its result could have gone either way.
 
-### Agents and the practice rota
+### Little clinical relevance; the supply chain is steadier for now
 
-The advice to stop designing agents around job titles is aimed at software firms and has little direct relevance yet. The useful part is unlearning: when automating a task such as recall letters or document filing, ask what outcome is needed, not how the last person did it. Audit the result, since nobody will have designed the steps.
+Practically, the scenario in which Nvidia stopped supporting smaller AI firms has receded, so the near-term risk to suppliers of NHS tools is lower than it looked a fortnight ago. Zitron argues this only postpones the reckoning. The earlier advice stands either way: know where a tool is hosted, and keep contracts short enough to leave.
 
 ## NLW's Takes
 
-### The real tension is an institutional balance of powers
+### The workplace harm got lost in the geopolitics
 
-NLW argues that a central tension of this moment is the ebb and flow of power among societal institutions. From the Renaissance onward, church, state, and private enterprise have constantly traded relative position.
+NLW notes it was reasonably frustrating for many that the geopolitical angles were so overwhelming. They buried what the affairs meant for Huang's family, for Nvidia's conduct rules, and for executives across the company, especially women.
 
-### AI isn't competing for our time. It's competing to change how we do everything
+### Explaining the momentum is not endorsing it
 
-Social networks wanted our attention. AI's implication is changing how individuals and organizations do everything. NLW argues that the speed and scale of that growth create a new societal challenge about institutional power, separate from any specific questions of AI risk.
+NLW is explicit that walking through the chain of events behind Huang's return isn't a claim that the people pushing for it were right. He is showing how the momentum built, and plenty of people were not remotely willing to let this go.
 
-### The most powerful company is now competing to be the most powerful institution
+### An upside circuit breaker, almost never seen
 
-Anthropic doesn't have tanks and planes, so it's a bit over the top, but NLW says it's a lot less crazy than it sounds. The question he's tracking: do we need democratic norms for private enterprise once it reaches a certain scale?
+Nasdaq 100 futures were briefly halted after a 7% jump. Automated halts usually exist to stop the bottom falling out on the downside. NLW agrees with Bloomberg's Joe Weisenthal: in nearly eight years of daily coverage of markets and technology, he has never seen an upside halt like this.
 
-### Handoverism will make strange alliances too
+### The non-cynical read: bad accusations, reversible firing
 
-One of Max Tegmark's five reasons for signing was that Anthropic leans hardest into building conscious beings with rights rather than controllable tools. NLW sets that characterization aside but says this is where he aligns most with safety advocates, despite very different views on other risks.
+If both the spy accusations and the export-control accusations were trumped up, then a firing based on them is well within its standing to be reversed. Many, NLW notes, are disinclined to see it that simply.
 
-### Expect the handoverism debate to get much bigger
+### Too big to fail, now with soft power
 
-OpenAI is clearly carving out the opposite position, that humans should stay in control. NLW argues that gives it every incentive to keep this conversation on the agenda.
+Ben Thompson read Bessent's about-face as the government effectively nationalizing 'the Bank of Nvidia' to avert a broader collapse of AI funding. NLW extends that to a new kind of too big to fail. It covers capital, given Nvidia's role as AI's unofficial central bank. It also covers soft power, with Huang seen as a pillar of America's geopolitical AI strategy.
 
-### Is 'diffusion software' a phase or the new normal?
+### State vs. private power is the big realignment
 
-NLW flags the usual exaggeration in 'there is only one thing' framings, but says converging features across software companies give the idea merit. His open question: is this true only for the next five to ten years while intelligence diffuses, or for software from here on out?
+NLW sees the balance of state and private power as one of the biggest realignments underway. Yesterday's episode covered it through the model labs like Anthropic. The Huang reinstatement is another dimension of the same shift.
 
-### Stop building agents to mirror the org chart
+### Expect 'institutions to check AI leaders' to become a rallying cry
 
-The agent-as-teammate model gives each agent standing responsibilities, memory, and a role mapped to a human job. In practice, NLW says, power users set objectives and guardrails and let a coordinator agent spin up whatever sub-agents it needs. He calls it the bitter lesson for digital organizational management.
-
-### No process baggage can be an advantage
-
-NLW built How We Got Here's video pipeline in Claude Code without being a video editor. With no existing workflow to adapt to, the models designed their own approach. He admits the output is under-maximized, but he went from zero to animated videos in the show's first week.
-
-### Our job now is unlearning
-
-Experts who unlearn their old methods and give agents the leash to build agent-native processes have a real edge. NLW's broader point is that everyone has a non-trivial task: dropping assumptions about the right way to organize agents' work instead of forcing it to mirror our own.
+Julian Gewirtz argues the lesson is that we need institutions able to check the extraordinary power of AI industry leaders, yet Huang was reinstated before the investigation was complete. Senator Cory Booker is already calling for curbs on recursive self-improvement and for verifiable shutdown protocols. NLW expects Democrats, and likely some Republicans, to add the Jensen issue to the top of that list.
 
 ## All Headlines, Briefly
 
-- [The Misanthropic Statement lands on the eve of Anthropic's IPO](https://aidailybrief.ai/e/2026-11-22#misanthropic-statement) (02:00)
-- [“Anthropic is not a safe AI company, and we must reject its reckless attempt to amass power in the name of the greater good.”](https://aidailybrief.ai/e/2026-11-22#not-a-safe-ai-company) — The Misanthropic Statement (03:00)
-- [Safetyists and accelerationists signed for opposite reasons](https://aidailybrief.ai/e/2026-11-22#different-motives-same-letter) (04:00)
-- [“Anthropic is currently on track to be the most powerful company on Earth.”](https://aidailybrief.ai/e/2026-11-22#wolf-most-powerful-company) — Thomas Wolf, co-founder of Hugging Face, explaining his signature (04:00)
-- [Some who agreed were afraid to sign](https://aidailybrief.ai/e/2026-11-22#afraid-to-sign) (05:00)
-- [The real tension is an institutional balance of powers](https://aidailybrief.ai/e/2026-11-22#institutional-balance-of-powers) (05:00)
-- [Even the Medici had to go through the church](https://aidailybrief.ai/e/2026-11-22#medici-pope) (06:00)
-- [Social networks broke the old breadth and depth limits](https://aidailybrief.ai/e/2026-11-22#social-networks-breadth-depth) (07:00)
-- [Tech fortunes created a new class of actor](https://aidailybrief.ai/e/2026-11-22#founders-as-transnational-actors) (09:00)
-- [AI isn't competing for our time. It's competing to change how we do everything](https://aidailybrief.ai/e/2026-11-22#ai-new-level) (09:00)
-- [The most powerful company is now competing to be the most powerful institution](https://aidailybrief.ai/e/2026-11-22#company-to-institution) (10:00)
-- [Handoverism will make strange alliances too](https://aidailybrief.ai/e/2026-11-22#handoverism-strange-alliances) (13:00)
-- [Handoverism: humanity survives but hands its future to AI](https://aidailybrief.ai/e/2026-11-22#handoverism-defined) (14:00)
-- [The handoff language comes from Anthropic's own founders](https://aidailybrief.ai/e/2026-11-22#anthropic-founders-on-handoff) (15:00)
-- [“If that belief informs Anthropic's corporate objectives, it belongs in the risk factor sections of its S-1. It isn't there today.”](https://aidailybrief.ai/e/2026-11-22#gurley-s1-risk-factor) — Bill Gurley, investor (16:00)
-- [Expect the handoverism debate to get much bigger](https://aidailybrief.ai/e/2026-11-22#openai-incentive-handoverism) (16:00)
-- [Every AI startup is converging on AI transformation](https://aidailybrief.ai/e/2026-11-22#only-one-company-to-build) (17:00)
-- [The training-data business is an on-ramp to the enterprise](https://aidailybrief.ai/e/2026-11-22#data-business-as-on-ramp) (18:00)
-- [Enterprises don't want software. They want salvation through AI](https://aidailybrief.ai/e/2026-11-22#spiritual-salvation) (19:00)
-- [Is 'diffusion software' a phase or the new normal?](https://aidailybrief.ai/e/2026-11-22#transitional-or-permanent) (19:00)
-- [The bitter lesson is coming for software engineering](https://aidailybrief.ai/e/2026-11-22#bitter-lesson-software-engineering) (20:00)
-- [Stop building agents to mirror the org chart](https://aidailybrief.ai/e/2026-11-22#agent-teammate-limits) (21:00)
-- [No process baggage can be an advantage](https://aidailybrief.ai/e/2026-11-22#no-process-baggage) (23:00)
-- [Our job now is unlearning](https://aidailybrief.ai/e/2026-11-22#unlearning-task) (23:00)
+- [The second November fire-and-rehire of an AI CEO](https://aidailybrief.ai/e/2026-11-23#second-november-fire-rehire) (01:00)
+- [The scandal had three layers](https://aidailybrief.ai/e/2026-11-23#three-layers-of-scandal) (02:00)
+- [The workplace harm got lost in the geopolitics](https://aidailybrief.ai/e/2026-11-23#affairs-lost-in-shuffle) (03:00)
+- [Tech rallied around the founder, fast](https://aidailybrief.ai/e/2026-11-23#standwithjensen-letter) (04:00)
+- [Balaji called the playbook in advance](https://aidailybrief.ai/e/2026-11-23#balaji-playbook) (05:00)
+- [“If the board decides my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to answer these calls.”](https://aidailybrief.ai/e/2026-11-23#jensen-honored-to-return) — Jensen Huang, in his November 17 post (07:00)
+- [Warren wasn't letting it go](https://aidailybrief.ai/e/2026-11-23#warren-opposition) (08:00)
+- [Explaining the momentum is not endorsing it](https://aidailybrief.ai/e/2026-11-23#sequence-not-endorsement) (08:00)
+- [Bessent laid the groundwork on Face the Nation](https://aidailybrief.ai/e/2026-11-23#bessent-canard) (13:00)
+- [An upside circuit breaker, almost never seen](https://aidailybrief.ai/e/2026-11-23#rare-upside-halt) (14:00)
+- [A trillion dollars before the open](https://aidailybrief.ai/e/2026-11-23#trillion-dollar-day) (14:00)
+- [The board's cloud cover came from Washington](https://aidailybrief.ai/e/2026-11-23#board-government-input) (15:00)
+- [“The country needs Jensen's leadership at NVIDIA. He is a great patriot and national treasure.”](https://aidailybrief.ai/e/2026-11-23#trump-national-treasure) — President Donald Trump, on Truth Social (16:00)
+- [The non-cynical read: bad accusations, reversible firing](https://aidailybrief.ai/e/2026-11-23#non-cynical-take) (17:00)
+- [Too big to fail, now with soft power](https://aidailybrief.ai/e/2026-11-23#too-big-to-fail-new-flavor) (18:00)
+- [The White House is running a stimulus program by proxy](https://aidailybrief.ai/e/2026-11-23#kedrosky-private-stimulus) (19:00)
+- [If the president can pick CEOs, so can the next one](https://aidailybrief.ai/e/2026-11-23#president-picking-ceos) (20:00)
+- [The reinstatement may have handed Democrats a weapon](https://aidailybrief.ai/e/2026-11-23#political-fight-just-starting) (21:00)
+- [State vs. private power is the big realignment](https://aidailybrief.ai/e/2026-11-23#state-vs-private-power) (22:00)
+- [Expect 'institutions to check AI leaders' to become a rallying cry](https://aidailybrief.ai/e/2026-11-23#checking-ai-leaders) (23:00)
+- [The biggest AI story of the year just got bigger](https://aidailybrief.ai/e/2026-11-23#markets-ripping) (24:00)
 
 ---
 
