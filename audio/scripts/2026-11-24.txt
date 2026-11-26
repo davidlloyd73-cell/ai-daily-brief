@@ -1,0 +1,21 @@
+David's AI brief for Tuesday, the twenty-fourth of November.
+
+The One Idea today: AI is making history while its story falls apart. Nathaniel Whittemore sets two things side by side.
+
+The first is a claim that would be extraordinary if it holds. A mathematician at Anthropic says that, working with the company's model, he has found a proof of the Riemann hypothesis. That is a conjecture about the pattern of prime numbers, proposed in 1859 and regarded as one of the great unsolved problems. Only last month a leading mathematician guessed progress might come around 2050.
+
+The caveats are large. The proof exists only as seventeen million lines of code for a proof-checking program. No human can read it, and its author accepts it could be wrong. One group of specialists says it has full confidence. Another says no person can claim to understand or take responsibility for it. Some report errors already. Whittemore calls it a historic claim, not a settled fact. He also notes it was held back until after Anthropic's flotation.
+
+The second is the politics. Jensen Huang is back at Nvidia, and the President has said openly that he persuaded the board, after days of falling share prices. Whittemore argues that turns a scandal about China into one about corruption, which voters this month ranked as their top concern. A poll finds that a majority of Americans, including six in ten Republicans, think national security was compromised. Hearings begin next week. Meanwhile Anthropic's shares sit only four dollars above their offer price, and filings show each of its seven founders sold two billion dollars of stock. His conclusion is that the fight to recover the industry's reputation has barely begun.
+
+Now, the other side. Ed Zitron, writing the same day, says the problem is not reputation but money. He argues the President stepped in to steady the market, and an industry that needs that is brittle. He calls Anthropic's flotation an exit for its insiders. He does not mention the proof.
+
+So both men circle one question: is this a crisis of image or of solvency? They agree the flotation is widely seen as a sale by insiders. Both are polemicists with incentives, one bullish and one certain of a bubble. The thing to watch is whether Anthropic's shares hold above the offer price.
+
+Turning to general practice. First, a result nobody can read. Medicine will meet the same problem: an answer a machine can check but no person understands. Our rule should hold. If no accountable clinician can explain why a recommendation is right, it is not ready to act on.
+
+Second, unverified is unverified. Treat this as we would an exciting preprint from a company with a product to sell: interesting, possibly important, and awaiting independent confirmation.
+
+Third, a smaller item matters more for us. Some new models do their reasoning internally and no longer show their working. For clinical safety, that removes one of the few ways to audit why a tool said what it said. When a supplier changes model, ask whether the reasoning can still be inspected.
+
+That's the brief. Source, The AI Daily Brief.

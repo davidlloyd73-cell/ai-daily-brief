@@ -1,26 +1,26 @@
 {
-  "date": "2026-11-23",
-  "title": "Too Big to Fire: Jensen Huang Is Back as Nvidia CEO",
-  "dek": "Eleven days after resigning amid an affair, a suspected Chinese spy, and export-control questions, Jensen Huang is back as Nvidia CEO. The board says senior levels of the US government assured it he poses no national security risk. Markets added trillions, and the scandal has turned into the sharpest test yet of where private power ends and state power begins.",
-  "source": "https://aidailybrief.ai/e/2026-11-23",
+  "date": "2026-11-24",
+  "title": "AI Just Made History in the Middle of a Meltdown",
+  "dek": "AI may have just cracked the Riemann hypothesis, one of the most storied problems in mathematics, in the same week Jensen Huang was reinstated at Nvidia with the President's thumb on the scale and Anthropic's IPO drew a backlash. Historic capability and a narrative meltdown are arriving at the same time.",
+  "source": "https://aidailybrief.ai/e/2026-11-24",
   "oneIdea": {
-    "headline": "Nvidia is too big to fire, and the White House just made that official.",
-    "summary": "Jensen Huang was pushed out over affairs, a suspected Chinese intelligence asset, and questions about GPUs reaching China. He came back 11 days later after the board received 'input from senior levels of the US government.' The non-cynical read is that the accusations didn't hold up. The other read is a new flavor of too big to fail. Nvidia, as the unofficial central bank of AI and a pillar of America's AI strategy, has become systemically important enough that Washington will intervene to protect the system around it. Either way, the balance between state and private power is realigning, and the political fight is just starting."
+    "headline": "AI is making history while its narrative melts down.",
+    "summary": "In basically every way, we're entering a new phase of AI. An Anthropic mathematician working with Claude has claimed a proof of the Riemann hypothesis, and the labs are already circling P vs NP. Meanwhile Jensen Huang is back at Nvidia because President Trump personally intervened, which turns a tech-and-China scandal into a potential corruption scandal. Anthropic's record IPO is being cast as a cynical liquidity grab. The fight to return Jensen may be over, but the battle to recover the AI narrative has barely begun."
   },
   "gpCorner": {
     "note": "AI commentary for UK general practice; not from the podcast",
     "items": [
       {
-        "title": "Too important to hold to account",
-        "body": "Both commentators make the same uncomfortable observation: a leader was restored because the organisation could not be seen to manage without him, and the conduct towards staff was set aside. The NHS has its own history of this, from surgeons to chief executives. Freedom to Speak Up exists because performance was allowed to outweigh behaviour. The lesson is not about chips. Nobody should be too valuable to be subject to the rules."
+        "title": "A result nobody can read",
+        "body": "The claimed proof runs to seventeen million lines of machine-checkable code that no mathematician can follow, and its own author says it may be wrong. Medicine will meet the same problem: an answer that is checkable by machine but not understood by any person. For now our rule should hold. If no accountable clinician can explain why a recommendation is right, it is not ready to act on."
       },
       {
-        "title": "Reinstated before the investigation reported",
-        "body": "The board's inquiry is unfinished, and he is back in post. In clinical governance we would call that prejudging the outcome. NLW notes the non-cynical reading, that the accusations may not stand; Zitron assumes they do. Neither knows. An investigation only has value if its result could have gone either way."
+        "title": "Unverified is unverified",
+        "body": "NLW is careful to call this a historic claim and not a settled fact; some already report errors in the code. Zitron ignores it. Treat it as we would an exciting preprint from a company with a product to sell, announced the week after its flotation: interesting, possibly important, and awaiting independent confirmation."
       },
       {
-        "title": "Little clinical relevance; the supply chain is steadier for now",
-        "body": "Practically, the scenario in which Nvidia stopped supporting smaller AI firms has receded, so the near-term risk to suppliers of NHS tools is lower than it looked a fortnight ago. Zitron argues this only postpones the reckoning. The earlier advice stands either way: know where a tool is hosted, and keep contracts short enough to leave."
+        "title": "Models whose reasoning cannot be seen",
+        "body": "A smaller item matters more for us. New model designs do their reasoning internally and no longer show a trace of it. For clinical safety that removes one of the few ways to audit why a tool said what it said. When a supplier changes model, ask whether the reasoning is still inspectable. Otherwise this edition has little direct clinical relevance."
       }
     ]
   },
@@ -28,224 +28,264 @@
     "source": "Defective Accelerationism",
     "url": "https://www.wheresyoured.at/defective-accelerationism/",
     "date": "2026-11-24",
-    "same_day": false,
-    "text": "Zitron, writing a day later and in very strong language, says the reinstatement shows weakness, not strength. He argues the President pressed Nvidia's board in order to steady the stock market, citing a Wall Street Journal interview, and that an industry needing that is brittle. In his view nothing underneath has changed: Nvidia's balance sheet is stretched, he says customers struggle to pay for chips, and closing the remote-access loophole cuts demand. He writes that Huang's return \"only prolongs the inevitable\", and he condemns those celebrating it for excusing alleged export breaches and misconduct towards staff."
+    "same_day": true,
+    "text": "Zitron, writing the same day, would say the industry's problem is not its narrative but its finances. He argues the President forced Huang's return to steady the stock market, and that an industry needing that is brittle. He calls Anthropic's flotation \"exit liquidity for its founders, staff and VCs\", noting the shares have slid back towards the offer price and that many more will become tradeable within six months. He says token spending has plateaued and prices are falling. He does not mention the claimed proof of the Riemann hypothesis."
   },
   "the_truth_beneath": {
-    "text": "The variable both men orbit is whether the state has made Nvidia safe or merely shown how fragile it is. Both accept as fact that Huang returned after eleven days, that the board cited input from senior levels of government, that markets leapt, and that Nvidia finances much of the industry. The empirical question is whether confidence restored by decree lasts; the observable is whether Nvidia keeps extending guarantees and meeting its raised guidance over the next two quarters, and what the congressional hearings and the board's inquiry find. The residue is worldview: whether protecting a systemically important company is prudence or cronyism. For Whittemore to be vindicated, the lasting story must be political, a contest between state and private power, with the business intact. For Zitron, the rally must fade as funding tightens and the underlying sums fail. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both say the workplace conduct was brushed aside. Watch Nvidia's next guidance."
+    "text": "The variable both men orbit is whether the industry's trouble is one of reputation or of solvency. Both accept as fact that the President intervened in Huang's reinstatement, that Anthropic's shares sit only just above their offer price, and that its founders sold stock. The empirical question is whether the money holds; the observable is whether Anthropic stays above its eighty-three dollar offer price through the end of the lock-up, and what its first accounts show. The residue is worldview: whether a striking result in mathematics tells you anything about a business. For Whittemore to be vindicated, the proof must survive checking and capability gains must turn into revenue while the politics is managed. For Zitron, the shares must break the offer price and funding tighten, whatever the models can do. Both are polemicists with incentives: Whittemore bullish and anti-doom, Zitron bubble-certain and anti-hype. The signal is that both describe the flotation as widely seen as a sale by insiders. Watch the offer price and the lock-up expiry."
   },
   "headlines": [
     {
-      "id": "second-november-fire-rehire",
-      "headline": "The second November fire-and-rehire of an AI CEO",
+      "id": "alpoge-riemann-proof",
+      "headline": "I believe I have, working with Claude, discovered a proof of the Riemann hypothesis.",
+      "type": "quote",
+      "segment": "headlines",
+      "timestamp": "01:00",
+      "attribution": "Levent Alpoge, Anthropic mathematician",
+      "summary": "He says the method extends to the generalized Riemann hypothesis and, with more time, likely the extended version too. He also reflected on what the result means: \"It is natural to feel that this is an end... but what I saw during the course of progress so amazed me\" that he believes it signals something far greater across science.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#alpoge-riemann-proof"
+    },
+    {
+      "id": "riemann-sacred-object",
+      "headline": "Why the Riemann hypothesis is such a big deal",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "01:00",
       "attribution": null,
-      "summary": "Jensen Huang has been reinstated as Nvidia CEO. This is now the second time a major AI company's board has pushed out its CEO and brought them back within days in November, following Sam Altman at OpenAI in 2023.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#second-november-fire-rehire"
+      "summary": "Proposed by Bernhard Riemann in 1859, it holds that the apparently random gaps between prime numbers actually follow a pattern. It is one of the seven Millennium Prize Problems, with a million-dollar prize attached, and for many mathematicians it has been \"the sacred object\" since childhood.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#riemann-sacred-object"
     },
     {
-      "id": "three-layers-of-scandal",
-      "headline": "The scandal had three layers",
+      "id": "proof-held-for-ipo",
+      "headline": "The proof was held back until after Anthropic's IPO",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "02:00",
       "attribution": null,
-      "summary": "First came an affair with a woman government sources suspected of being a Chinese intelligence asset, an executive at Megaspeed, a major Nvidia client. Then a second affair surfaced with an Nvidia executive. On top of both sat the question of what Huang knew about Megaspeed getting physical GPUs into China in violation of export controls. Only after the second affair did the board push him to resign.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#three-layers-of-scandal"
+      "summary": "Alpoge was satisfied with the work by the prior Sunday and raised disclosure with Dario Amodei during IPO week. They waited, and he called the timing \"horrible.\" The proof was published only in Lean, runs to 17 million lines, isn't readable even by top mathematicians, and Alpoge acknowledged it could be false.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#proof-held-for-ipo"
     },
     {
-      "id": "affairs-lost-in-shuffle",
-      "headline": "The workplace harm got lost in the geopolitics",
-      "type": "take",
-      "segment": "main",
+      "id": "proof-nobody-understands",
+      "headline": "Mathematicians split over a proof no human can fully understand",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "03:00",
       "attribution": null,
-      "summary": "NLW notes it was reasonably frustrating for many that the geopolitical angles were so overwhelming. They buried what the affairs meant for Huang's family, for Nvidia's conduct rules, and for executives across the company, especially women.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#affairs-lost-in-shuffle"
+      "summary": "The Lean community declared \"full confidence\" the proof is correct. The Association for Human Mathematics countered that no human can reasonably claim to be responsible for or understand the document, and called it a corporate model of proof production that asks scientists to entrust research to machines AI companies control.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#proof-nobody-understands"
     },
     {
-      "id": "standwithjensen-letter",
-      "headline": "Tech rallied around the founder, fast",
+      "id": "tao-said-beyond-ai",
+      "headline": "Just last month, Terence Tao thought this was decades away",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "04:00",
       "attribution": null,
-      "summary": "The tech world treated the ouster as a deep-state coup. StandwithJensen.com demanded the board bring him back pending an independent investigation. It drew more than 10,000 current and nearly 2,000 former Nvidia employees, 108,000 shareholders, and 86,000 other supporters.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#standwithjensen-letter"
+      "summary": "In a Numberphile video, the Fields medalist said the AI companies had surely thrown more effort at Riemann than they disclosed and \"couldn't touch it.\" He guessed humans and AIs together might make progress around 2050. He had earlier said a problem like this probably needs a new type of mathematics to be created.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#tao-said-beyond-ai"
     },
     {
-      "id": "balaji-playbook",
-      "headline": "Balaji called the playbook in advance",
+      "id": "p-vs-np-final-boss",
+      "headline": "P vs NP becomes the final boss, maybe not for long",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "04:00",
+      "attribution": null,
+      "summary": "Scott Aaronson wrote that P vs NP now moves firmly into place as the last great problem standing, then asked how much longer anything we take for granted will last. On Monday, both Anthropic and OpenAI published limited proofs related to P vs NP.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#p-vs-np-final-boss"
+    },
+    {
+      "id": "lean-proof-caveat",
+      "headline": "Don't treat it as rock-solid yet",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "05:00",
       "attribution": null,
-      "summary": "On November 15, Balaji Srinivasan said all Huang had to do was tweet that he wanted back in, and that anti-Jensen board members would buckle rather than own a trillion dollars in erased market cap. He also predicted Trump would weigh in. Two days later he floated the Department of War stepping in on Jensen's side as a national security matter.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#balaji-playbook"
+      "summary": "A Lean proof is just as fallible as any other computer program, and some people claim to have found bugs in the Riemann code. Until there is additional verification, the result is a historic claim, not a settled fact.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#lean-proof-caveat"
     },
     {
-      "id": "jensen-honored-to-return",
-      "headline": "If the board decides my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to answer these calls.",
+      "id": "alien-wormhole-math",
+      "headline": "A mathematical wormhole no human would build",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "05:00",
+      "attribution": null,
+      "summary": "Abhishek Saha of Queen Mary University of London described the approach as \"not theory building in the usual sense\": a 25,000-page tour through existing infrastructure with no obvious connection to the goal. He credited the human collaborator too, saying no current AI could do this alone either. Aaron Levie's takeaway is that solving problems is about to look very different.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#alien-wormhole-math"
+    },
+    {
+      "id": "spacex-ai-dysfunction",
+      "headline": "Inside SpaceX AI: 'Sell Compute Because We Can't Compete'",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "06:00",
+      "attribution": null,
+      "summary": "The New York Times reports Musk told employees SpaceX is falling behind in AI, so renting compute to rivals pays better than using it. He shares data on Grok's lag in a group chat of hundreds of engineers, made people itemize GPU use, and renamed the chat \"Sell Compute Because We Can't Compete.\" The Times framed SpaceX as a neo-cloud tied to Anthropic's GPU demand, not a frontier lab.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#spacex-ai-dysfunction"
+    },
+    {
+      "id": "musk-revenue-per-gpu",
+      "headline": "The only thing that matters for competitiveness is revenue per GPU, not benchmarks.",
       "type": "quote",
-      "segment": "main",
+      "segment": "headlines",
       "timestamp": "07:00",
-      "attribution": "Jensen Huang, in his November 17 post",
-      "summary": "The November 17 post opened as a standard mea culpa: he 'owns his mistakes completely' and will cooperate with the investigation. Then it turned, citing calls from employees, investors, partners, and customers for him to return.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#jensen-honored-to-return"
+      "attribution": "Elon Musk, in an internal SpaceX group chat, per The New York Times",
+      "summary": "Musk followed up in the group chat: \"If you can't pay for your GPUs, then you either go bankrupt or you become a computer rental company.\" He also warned that anyone wasting GPUs while the company is failing to compete would be asked to leave.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#musk-revenue-per-gpu"
     },
     {
-      "id": "warren-opposition",
-      "headline": "Warren wasn't letting it go",
+      "id": "digital-optimus-stalls",
+      "headline": "Digital Optimus stalls",
       "type": "insight",
-      "segment": "main",
+      "segment": "headlines",
+      "timestamp": "07:00",
+      "attribution": null,
+      "summary": "SpaceX spent the fall building a knowledge-worker agent with Tesla engineers, initially trained on video games like Diablo and League of Legends. Musk was reportedly unhappy with the pace, and the Tesla engineers were moved to Grok model training. There's no real bombshell here, but it shows Grok isn't going anywhere fast.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#digital-optimus-stalls"
+    },
+    {
+      "id": "spacex-talent-problem",
+      "headline": "SpaceX's AI hopes rest on keeping the Cursor team",
+      "type": "insight",
+      "segment": "headlines",
       "timestamp": "08:00",
       "attribution": null,
-      "summary": "Senator Elizabeth Warren posted repeatedly that the resignation didn't absolve Huang, other executives, or Nvidia of responsibility for national security risks. She demanded Commerce officials explain why export-control loopholes remain open and called for legislation to keep advanced AI out of China's hands.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#warren-opposition"
+      "summary": "The Pragmatic Engineer's author called it an open secret that the Cursor team is SpaceX's only strong model-building group and that the company struggles to hire top-lab talent. His argument: Cursor was a place people wanted to join, while SpaceX is a place where the CEO calls the shots.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#spacex-talent-problem"
     },
     {
-      "id": "sequence-not-endorsement",
-      "headline": "Explaining the momentum is not endorsing it",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "08:00",
-      "attribution": null,
-      "summary": "NLW is explicit that walking through the chain of events behind Huang's return isn't a claim that the people pushing for it were right. He is showing how the momentum built, and plenty of people were not remotely willing to let this go.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#sequence-not-endorsement"
-    },
-    {
-      "id": "bessent-canard",
-      "headline": "Bessent laid the groundwork on Face the Nation",
+      "id": "glm-54-looped-transformers",
+      "headline": "GLM 5.4 bets on looped transformers",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "13:00",
+      "segment": "headlines",
+      "timestamp": "09:00",
       "attribution": null,
-      "summary": "Treasury Secretary Scott Bessent pointed at 'malicious actors down at the bottom of the company' responsible for non-compliance. He called the focus on 'one person's foibles' 'kind of a canard,' adding: 'I assume he didn't know that she was an alleged spy.'",
-      "link": "https://aidailybrief.ai/e/2026-11-23#bessent-canard"
+      "summary": "ZAI says looped transformers, where reasoning happens inside the model weights rather than in output tokens, let a 750B-parameter model match a 2\u20133T-parameter one, claiming Kimi 3.1-level performance without ultra-large inference costs. It also touts \"generalized coding\": code as the foundation for broad tasks, shown off with a music video built entirely in code. There are no benchmarks yet, which many read as a bad sign.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#glm-54-looped-transformers"
     },
     {
-      "id": "rare-upside-halt",
-      "headline": "An upside circuit breaker, almost never seen",
+      "id": "loopers-observability-tradeoff",
+      "headline": "The loopers are coming. Observability be damned?",
+      "type": "insight",
+      "segment": "headlines",
+      "timestamp": "10:00",
+      "attribution": null,
+      "summary": "Thinking Machines' Inkling 2 Mini is also looped, and analysts expect more looped models within three to four months, with open labs potentially making an Astra-like jump at 2\u20133T parameters. The cost is that users lose the full reasoning trace. Semi Analysis expects that safety question to kick off the next phase of the open-model wars.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#loopers-observability-tradeoff"
+    },
+    {
+      "id": "jensen-back-not-over",
+      "headline": "Jensen is back. That doesn't mean it's over",
       "type": "take",
       "segment": "main",
       "timestamp": "14:00",
       "attribution": null,
-      "summary": "Nasdaq 100 futures were briefly halted after a 7% jump. Automated halts usually exist to stop the bottom falling out on the downside. NLW agrees with Bloomberg's Joe Weisenthal: in nearly eight years of daily coverage of markets and technology, he has never seen an upside halt like this.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#rare-upside-halt"
+      "summary": "Huang returned to applause and promised to be \"a better CEO the second time around.\" As Sam Altman learned in 2023, things never fully return to normal after a reinstatement, and Jensen's road may be even harder. This is only the opening act.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#jensen-back-not-over"
     },
     {
-      "id": "trillion-dollar-day",
-      "headline": "A trillion dollars before the open",
-      "type": "insight",
-      "segment": "main",
-      "timestamp": "14:00",
-      "attribution": null,
-      "summary": "Nvidia shares rose nearly 35%, adding about $1 trillion in pre-market value. If that holds, it would more than double Microsoft's record for the biggest single-day gain ever.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#trillion-dollar-day"
-    },
-    {
-      "id": "board-government-input",
-      "headline": "The board's cloud cover came from Washington",
-      "type": "insight",
+      "id": "trump-enough-assurance",
+      "headline": "I gave them enough assurance.",
+      "type": "quote",
       "segment": "main",
       "timestamp": "15:00",
-      "attribution": null,
-      "summary": "Nvidia's statement said the board 'received input from senior levels of the US government' and is confident Huang's reinstatement 'poses no national security risk.' In effect: we pushed him out over national security, and the government has now assured us that issue is gone.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#board-government-input"
+      "attribution": "President Donald Trump, on CNBC",
+      "summary": "In an hour-long CNBC call-in, Trump said he convinced the Nvidia board to bring Jensen back \"for the country.\" Asked whether he told them Jensen wouldn't be prosecuted, this was his answer. He also said Huang would not have been reinstated without him.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#trump-enough-assurance"
     },
     {
-      "id": "trump-national-treasure",
-      "headline": "The country needs Jensen's leadership at NVIDIA. He is a great patriot and national treasure.",
-      "type": "quote",
+      "id": "trump-called-the-board",
+      "headline": "Trump called into the board meeting because of the market",
+      "type": "insight",
       "segment": "main",
       "timestamp": "16:00",
-      "attribution": "President Donald Trump, on Truth Social",
-      "summary": "Trump's Truth Social post said the US has no reason to believe Huang's return poses a national security risk and that the Attorney General confirmed there is no evidence of unlawful conduct. He also told Nvidia to continue its internal export-control investigation.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#trump-national-treasure"
-    },
-    {
-      "id": "non-cynical-take",
-      "headline": "The non-cynical read: bad accusations, reversible firing",
-      "type": "take",
-      "segment": "main",
-      "timestamp": "17:00",
       "attribution": null,
-      "summary": "If both the spy accusations and the export-control accusations were trumped up, then a firing based on them is well within its standing to be reversed. Many, NLW notes, are disinclined to see it that simply.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#non-cynical-take"
+      "summary": "Semafor and CNN confirmed Trump personally called into the board meeting after a weekend pressure campaign with JD Vance. CNN reports he had been \"stewing for days\" over the stock-market sell-off. The White House made no secret of it: \"President Trump was totally involved.\"",
+      "link": "https://aidailybrief.ai/e/2026-11-24#trump-called-the-board"
     },
     {
-      "id": "too-big-to-fail-new-flavor",
-      "headline": "Too big to fail, now with soft power",
-      "type": "take",
+      "id": "public-not-buying-it",
+      "headline": "Outside tech, the public isn't buying the celebration",
+      "type": "insight",
       "segment": "main",
       "timestamp": "18:00",
       "attribution": null,
-      "summary": "Ben Thompson read Bessent's about-face as the government effectively nationalizing 'the Bank of Nvidia' to avert a broader collapse of AI funding. NLW extends that to a new kind of too big to fail. It covers capital, given Nvidia's role as AI's unofficial central bank. It also covers soft power, with Huang seen as a pillar of America's geopolitical AI strategy.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#too-big-to-fail-new-flavor"
+      "summary": "Tech leaders cheered on X, but a YouGov poll found 54% of Americans think Huang's affair definitely or probably compromised national security, including 61% of Republicans. Newt Gingrich called on Congress to treat it as a national security issue of enormous proportions.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#public-not-buying-it"
     },
     {
-      "id": "kedrosky-private-stimulus",
-      "headline": "The White House is running a stimulus program by proxy",
-      "type": "insight",
+      "id": "now-a-corruption-scandal",
+      "headline": "Trump turned a China scandal into a corruption scandal",
+      "type": "take",
       "segment": "main",
       "timestamp": "19:00",
       "attribution": null,
-      "summary": "Paul Kedrosky points to more than a dozen executive orders easing data-center construction and grid hookups. His argument is that the White House knows AI capex is propping up capital markets and 401(k)s, and is 'terrified of ending it.' The market wants to reprice AI risk, and the government won't let it.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#kedrosky-private-stimulus"
+      "summary": "56% of voters this month said AI and data centers were a major factor in their vote, and 90% said the same of corruption, the top issue ahead of cost of living. By intervening so overtly, the president made this about Jensen's ties to Trump as well as his ties to China, and handed Congress fresh ammunition.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#now-a-corruption-scandal"
     },
     {
-      "id": "president-picking-ceos",
-      "headline": "If the president can pick CEOs, so can the next one",
+      "id": "congress-bipartisan-scrutiny",
+      "headline": "Washington is lining up, from both parties",
       "type": "insight",
       "segment": "main",
       "timestamp": "20:00",
       "attribution": null,
-      "summary": "Santiago Capital's point: if you're fine with the president picking CEOs under Trump, would you be fine with it under Kamala or AOC? Fox's Charles Gasparino went further. He argued the real motive is saving the market and Trump's economic record, and called it a potential modern-day Watergate.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#president-picking-ceos"
+      "summary": "Jensen testifies before Senate Banking next Thursday, and he and Nvidia's general counsel face closed-door interviews before that. Hakeem Jeffries promised a wide-ranging probe into Nvidia and the Commerce Department. Three Republican national-security chairs said the board's brief investigation doesn't erase the questions. Some on the right expect this to become an impeachment issue once Democrats take Congress.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#congress-bipartisan-scrutiny"
     },
     {
-      "id": "political-fight-just-starting",
-      "headline": "The reinstatement may have handed Democrats a weapon",
+      "id": "megaspeed-blacklisted",
+      "headline": "Commerce blacklists Megaspeed, removing all wiggle room",
       "type": "insight",
-      "segment": "main",
-      "timestamp": "21:00",
-      "attribution": null,
-      "summary": "Analysts expect newly empowered midterm Democrats to 'go for the jugular' with the board. Derek Thompson predicts 'Megaspeed gate' becomes one of the biggest political stories of 2027, with congressional hearings that 'are going to be cinema.'",
-      "link": "https://aidailybrief.ai/e/2026-11-23#political-fight-just-starting"
-    },
-    {
-      "id": "state-vs-private-power",
-      "headline": "State vs. private power is the big realignment",
-      "type": "take",
       "segment": "main",
       "timestamp": "22:00",
       "attribution": null,
-      "summary": "NLW sees the balance of state and private power as one of the biggest realignments underway. Yesterday's episode covered it through the model labs like Anthropic. The Huang reinstatement is another dimension of the same shift.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#state-vs-private-power"
+      "summary": "The Commerce Department added Megaspeed to its list over the risk of diverting advanced computing goods to unauthorized end users. The administration now officially treats it as a smuggling risk, which makes it easy for critics to ask why Lutnick didn't act when the deal was approved back in March.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#megaspeed-blacklisted"
     },
     {
-      "id": "checking-ai-leaders",
-      "headline": "Expect 'institutions to check AI leaders' to become a rallying cry",
-      "type": "take",
+      "id": "market-rebound",
+      "headline": "The rally Trump wanted, partly",
+      "type": "insight",
       "segment": "main",
       "timestamp": "23:00",
       "attribution": null,
-      "summary": "Julian Gewirtz argues the lesson is that we need institutions able to check the extraordinary power of AI industry leaders, yet Huang was reinstated before the investigation was complete. Senator Cory Booker is already calling for curbs on recursive self-improvement and for verifiable shutdown protocols. NLW expects Democrats, and likely some Republicans, to add the Jensen issue to the top of that list.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#checking-ai-leaders"
+      "summary": "Nvidia closed up 31.5% and the Nasdaq 100 rose 6.9%. Nvidia has recovered its post-ouster losses but is still 30% below its October high. The Nasdaq remains 4.3% below where it was at the resignation and 14.3% below its all-time high, with months of hearings ahead.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#market-rebound"
     },
     {
-      "id": "markets-ripping",
-      "headline": "The biggest AI story of the year just got bigger",
+      "id": "anthropic-ipo-backlash",
+      "headline": "Anthropic is flirting with its IPO price as the backlash grows",
       "type": "insight",
       "segment": "main",
       "timestamp": "24:00",
       "attribution": null,
-      "summary": "At the time of recording, the Dow was up more than 3%, the S&P 500 nearly 5%, and the Nasdaq over 6%. The memes are flying, and the political and governance fallout is only beginning.",
-      "link": "https://aidailybrief.ai/e/2026-11-23#markets-ripping"
+      "summary": "Anthropic missed the rally, fell another 1.4%, and closed just $4 above its IPO price, a level that could trigger forced institutional selling if broken. The Guardian estimates each of the seven co-founders is worth $20B and 600 employees are worth more than $100M each. Filings confirm each co-founder sold $2B in shares, fueling the charge that the IPO was an exit-liquidity grab.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#anthropic-ipo-backlash"
+    },
+    {
+      "id": "nine-lenses",
+      "headline": "Why this fight has legs: nine or ten reasonable lenses",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "25:00",
+      "attribution": null,
+      "summary": "Executive accountability and double standards, media hit-jobism, cronyism, \"number go up\" economics, state-capitalist intervention, open vs. closed source. Even people who put national security first disagree: some say chips reaching China help China, others say they hurt it. Any of these can reasonably be the most important to a given person, so the story won't settle.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#nine-lenses"
+    },
+    {
+      "id": "battle-for-ai-narrative",
+      "headline": "The battle to recover the AI narrative has barely begun",
+      "type": "take",
+      "segment": "main",
+      "timestamp": "28:00",
+      "attribution": null,
+      "summary": "Jensen faces months of grueling hearings, Trump has tied himself tightly to the scandal, and the first-ever retail access to a frontier lab is being cast as a cynical liquidity grab. The fight to return Jensen may be over, but the narrative war is just starting.",
+      "link": "https://aidailybrief.ai/e/2026-11-24#battle-for-ai-narrative"
     }
   ],
-  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-23.mp3",
-  "generated": "2026-11-25T06:22:34Z"
+  "audio": "https://davids-ai-brief.netlify.app/audio/2026-11-24.mp3",
+  "generated": "2026-11-26T06:22:34Z"
 }

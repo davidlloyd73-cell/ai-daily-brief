@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "title": "A result nobody can read",
+   "body": "The claimed proof runs to seventeen million lines of machine-checkable code that no mathematician can follow, and its own author says it may be wrong. Medicine will meet the same problem: an answer that is checkable by machine but not understood by any person. For now our rule should hold. If no accountable clinician can explain why a recommendation is right, it is not ready to act on."
+  },
+  {
+   "title": "Unverified is unverified",
+   "body": "NLW is careful to call this a historic claim and not a settled fact; some already report errors in the code. Zitron ignores it. Treat it as we would an exciting preprint from a company with a product to sell, announced the week after its flotation: interesting, possibly important, and awaiting independent confirmation."
+  },
+  {
+   "title": "Models whose reasoning cannot be seen",
+   "body": "A smaller item matters more for us. New model designs do their reasoning internally and no longer show a trace of it. For clinical safety that removes one of the few ways to audit why a tool said what it said. When a supplier changes model, ask whether the reasoning is still inspectable. Otherwise this edition has little direct clinical relevance."
+  }
+ ]
+}

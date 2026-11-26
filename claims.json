@@ -2046,6 +2046,24 @@
    "resolution": "Vindicated if within twelve months Nvidia's shares fall back below their level on the day before the reinstatement and Nvidia cuts or misses revenue guidance. Fails if the shares hold above that level and guidance is met.",
    "check_by": "2027-11-24",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-24",
+   "side": "NLW",
+   "claim": "That AI has reached a new phase of capability, marked by a claimed machine-checked proof of the Riemann hypothesis produced with Claude, even as the industry's public narrative deteriorates.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-24",
+   "resolution": "Vindicated if within twelve months the proof is independently verified and accepted as correct by recognised mathematical authorities, such as the Clay Mathematics Institute or a consensus of leading number theorists. Fails if a fatal error is found or the claim is withdrawn. Leave open if verification is still in progress.",
+   "check_by": "2027-11-24",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-24",
+   "side": "Zitron",
+   "claim": "That Anthropic's flotation was exit liquidity for insiders, and that its shares will be sold heavily once the lock-up ends about six months after listing.",
+   "source_url": "https://www.wheresyoured.at/defective-accelerationism/",
+   "resolution": "Vindicated if Anthropic's shares close below the 83 dollar offer price at any point within a month after the lock-up expires. Fails if they stay above it throughout that period.",
+   "check_by": "2027-06-30",
+   "status": "open"
   }
  ]
 }
