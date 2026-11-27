@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-26T06:52:42Z",
+ "generated": "2026-11-27T06:46:49Z",
  "source": "Alpha Vantage TIME_SERIES_DAILY (unadjusted closes)",
  "market_date": "2026-11-25",
- "expected_asof": "2026-11-25",
- "market_stale": false,
+ "expected_asof": "2026-11-26",
+ "market_stale": true,
  "dates": [
   "2026-07-22",
   "2026-07-23",
