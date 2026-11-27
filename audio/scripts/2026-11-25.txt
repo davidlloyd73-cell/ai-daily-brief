@@ -1,0 +1,19 @@
+David's AI brief for Wednesday, the twenty-fifth of November.
+
+It was a quiet news day before American Thanksgiving, so Nathaniel Whittemore did something different. He worked through fifteen questions about AI that are likely to come up round the family table. The One Idea is his advice on how to handle them: don't try to win the argument, invite the sceptics in.
+
+His reasoning is that recent events mark a change of phase. Anthropic is now a public company, the midterm elections have happened, and the White House has put its hand directly on Nvidia. The future of AI, he says, will no longer be settled by the laboratories alone. A much wider part of society now has a say, and the rules for where democracy meets private enterprise have not been written. He thinks they will be worked out at dinner tables, not in Washington or California.
+
+On the questions themselves he is measured. He does not believe in a jobs apocalypse, arguing that work is more than a list of tasks and that institutions change slowly. But he concedes real worries about entry-level hiring, and real loss for people who loved a craft. Yes, children use AI to cheat. Parents should not repeat with chatbots the mistake made with social media. The water panic he dismisses with figures: a year of ten questions a day costs roughly a handful of almonds' worth of water. Local objections to particular data centres, though, deserve a proper hearing. Whether it is a bubble is, he says, a matter of arithmetic, and more people calling it one makes a violent burst less likely.
+
+Now, the other side. Ed Zitron, writing the day before, is in no mood to invite anyone in. For him the President's rescue of Jensen Huang shows an industry that is brittle and short of money, and he says it has made people take sides. He does not discuss the dinner table at all. His point is that the arithmetic is already failing.
+
+Yet notice where they meet. Both treat that rescue as having headed off a repricing of the industry. Both are polemicists with incentives, one bullish, one certain of a bubble. The thing to watch is whether the congressional hearings lead to anything binding.
+
+Turning to general practice. First, the over sixty-fives. Whittemore describes older people discovering these tools when a grandchild scans in a baffling insurance form and it suddenly makes sense. Expect the same with hospital letters and benefit forms. Some patients will arrive having already asked a chatbot. It is more useful to ask what it told them than to treat the question as unwelcome.
+
+Second, on error. He says the tools make things up far less than two years ago, and still advises checking. For an AI scribe that means reading the note before signing it, every time. Zitron's warning is the counterweight: if the suppliers' finances are as fragile as he claims, prices and products may change at short notice, so avoid depending on any single one.
+
+Third, the human premium. Whittemore expects value to hold where trust, physical presence and knowing who did the work all matter. That describes a consultation rather well.
+
+That's the brief — source, The AI Daily Brief.

@@ -2064,6 +2064,24 @@
    "resolution": "Vindicated if Anthropic's shares close below the 83 dollar offer price at any point within a month after the lock-up expires. Fails if they stay above it throughout that period.",
    "check_by": "2027-06-30",
    "status": "open"
+  },
+  {
+   "edition": "2026-11-25",
+   "side": "NLW",
+   "claim": "That there will be no white-collar jobs apocalypse: AI disruption is not showing up in the employment statistics, and jobs will change, not disappear, because work is more than tasks and institutions move slowly.",
+   "source_url": "https://aidailybrief.ai/e/2026-11-25",
+   "resolution": "Vindicated if, twelve months on, the US unemployment rate published by the Bureau of Labor Statistics is still below 6 per cent and employment in professional and business services is no more than 3 per cent below its November 2026 level. Fails if either threshold is breached.",
+   "check_by": "2027-11-25",
+   "status": "open"
+  },
+  {
+   "edition": "2026-11-25",
+   "side": "Zitron",
+   "claim": "That Anthropic's poor flotation has closed the door for everyone else: no other AI company will be able to follow it onto the public markets with an easy sale of shares to ordinary investors.",
+   "source_url": "https://www.wheresyoured.at/defective-accelerationism/",
+   "resolution": "Vindicated if no other frontier AI lab, such as OpenAI or xAI, completes a stock market listing within twelve months. Fails if one does and its shares close above the offer price a month after listing.",
+   "check_by": "2027-11-25",
+   "status": "open"
   }
  ]
 }
